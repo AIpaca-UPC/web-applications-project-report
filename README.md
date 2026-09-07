@@ -48,6 +48,7 @@
 | 0.4 | 07/09/2026 | linolw | Alineación del contenido con el Final Project Statement de Aplicaciones Web. |
 | 0.5 | 07/09/2026 | linolw | Reestructuración del informe siguiendo el formato de proyectos de ciclos anteriores. |
 | 0.6 | 07/09/2026 | linolw | Ajuste del informe al alcance de AV1 y cambio del nombre del producto a Rumbo. |
+| 0.7 | 07/09/2026 | linolw | Refinamiento del alcance: se establecen dos segmentos objetivo, padres/tutores y conductores de movilidad escolar, y seis entrevistas de needfinding. |
 
 > A partir de este punto, cada integrante debe registrar una nueva versión cuando realice una modificación relevante en el informe. Las entradas deben mantener coherencia con el historial real de commits del repositorio.
 
@@ -197,11 +198,11 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones d
 
 ### 1.1.1. Descripción de la Startup
 
-**AIpaca** es una startup tecnológica orientada a desarrollar soluciones digitales que mejoren la coordinación entre las personas responsables del cuidado cotidiano de menores. Su propuesta busca centralizar información que actualmente suele encontrarse distribuida entre llamadas, mensajes y confirmaciones aisladas de padres, cuidadores, personal de movilidad escolar y personal de instituciones educativas.
+**AIpaca** es una startup tecnológica orientada a desarrollar soluciones digitales que mejoren la coordinación de las rutinas de transporte escolar entre familias y conductores. Su propuesta busca reducir la incertidumbre que se genera cuando la información sobre recojos, trayectos, entregas, retrasos o incidencias se encuentra distribuida entre llamadas, mensajes y confirmaciones informales.
 
-La startup desarrolla **Rumbo**, una plataforma SaaS enfocada en brindar a las familias una visión clara de la rutina diaria del menor. El producto registra eventos relevantes, cambios de responsable, traslados e incidencias en una secuencia comprensible, permitiendo que los padres consulten qué ocurrió, quién se encuentra a cargo y cuál es el estado actual de la jornada.
+La startup desarrolla **Rumbo**, una plataforma SaaS que permite a los padres o tutores consultar de manera clara el estado del traslado de sus hijos y a los conductores registrar los hitos principales de la ruta escolar. El producto organiza la información del recorrido como una secuencia comprensible de eventos, de modo que las familias puedan conocer qué ocurrió, cuál es el estado actual y si existe alguna incidencia relevante.
 
-Rumbo no busca limitarse a mostrar una ubicación en un mapa. Su propuesta se centra en aportar contexto a los momentos de entrega, traslado y recepción del menor, reduciendo la necesidad de depender de múltiples canales de comunicación para reconstruir lo sucedido durante el día.
+Rumbo no busca limitarse a mostrar una ubicación en un mapa. Su propuesta se centra en dar contexto a los momentos de recojo, traslado y entrega, permitiendo que padres y conductores compartan una fuente común de información sobre la jornada de transporte escolar.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -261,91 +262,91 @@ Cada perfil deberá incluir fotografía, nombres y apellidos, código UPC, carre
 
 ### 1.2.1. Antecedentes y problemática
 
-La rutina escolar de un menor puede involucrar a diferentes responsables durante un mismo día. Un cuidador puede acompañarlo en el hogar, un conductor asumir responsabilidad durante el traslado y personal autorizado recibirlo en la institución educativa. Cuando estos cambios se coordinan por medios independientes, como llamadas o mensajes, los padres pueden tener información parcial y deben consultar a diferentes personas para conocer qué ocurrió y quién se encuentra a cargo.
+El transporte escolar implica coordinación constante entre familias y conductores. En una jornada típica, el padre o tutor necesita saber si la movilidad está próxima, si el menor fue recogido, cómo avanza el trayecto, si llegó al destino previsto y si ocurrió algún retraso o incidencia. A su vez, el conductor debe gestionar varios recojos y entregas y comunicar información relevante sin que el proceso digital interfiera con su trabajo.
 
-Rumbo propone ordenar esa información mediante una experiencia web que registre los principales eventos del día y los presente como una secuencia de estados fáciles de interpretar. La solución considera confirmaciones de entrega y recepción, estado de traslado, incidencias y notificaciones relevantes para que la familia pueda comprender la situación sin depender únicamente de coordenadas GPS o conversaciones separadas.
+Cuando esta coordinación depende de mensajes, llamadas o grupos de chat, la información puede llegar tarde, quedar dispersa o requerir confirmaciones repetidas. Rumbo busca centralizar esos hitos en una sola experiencia digital, registrando estados de la ruta y eventos relevantes para que cada segmento consulte únicamente la información que necesita.
 
 #### 5W + 2H
 
 | Dimensión | Desarrollo preliminar |
 |---|---|
-| **Who?** | Padres o tutores de menores en etapa escolar, cuidadores del hogar, conductores de movilidad escolar y personal autorizado de instituciones educativas. |
-| **What?** | La información sobre entregas, traslados, responsables e incidencias se encuentra fragmentada entre distintos actores y canales. |
-| **Where?** | Principalmente en el hogar, durante el trayecto de movilidad y en la institución educativa. |
-| **When?** | En cambios de responsable, recojos, entregas, ingresos, salidas, retrasos o incidencias durante la jornada. |
-| **Why?** | La ausencia de una vista consolidada puede generar incertidumbre y obliga a los padres a confirmar manualmente el estado de la rutina. |
-| **How?** | Mediante una plataforma web que centraliza eventos, responsables, estados de traslado y notificaciones. |
+| **Who?** | Padres o tutores de menores que utilizan movilidad escolar y conductores responsables de rutas escolares. |
+| **What?** | La información sobre recojos, traslados, entregas, retrasos e incidencias suele estar fragmentada entre distintos canales de comunicación. |
+| **Where?** | Durante los trayectos entre los puntos de recojo, instituciones educativas y puntos de entrega definidos para la ruta. |
+| **When?** | Antes del recojo, durante el trayecto, al confirmar una entrega y cuando ocurre un retraso o incidencia. |
+| **Why?** | La ausencia de una vista consolidada puede generar incertidumbre en las familias y aumentar la cantidad de consultas manuales al conductor. |
+| **How?** | Mediante una plataforma web que centraliza estados de ruta, hitos del recorrido, notificaciones e incidencias. |
 | **How much?** | [Completar con información estadística o resultados de investigación sustentados por el equipo.] |
 
 ### 1.2.2. Lean UX Process
 
-El proceso de Lean UX permite convertir la problemática inicial en supuestos e hipótesis que posteriormente deberán contrastarse mediante entrevistas, análisis competitivo y validación de la propuesta. Para Rumbo, el proceso se enfoca en comprender qué información necesitan los participantes de la rutina escolar y qué características pueden reducir la incertidumbre de los padres sin añadir complejidad innecesaria a cuidadores, conductores y personal autorizado.
+El proceso de Lean UX permite convertir la problemática inicial en supuestos e hipótesis que posteriormente deberán contrastarse mediante entrevistas, análisis competitivo y validación de la propuesta. Para Rumbo, el proceso se enfoca en comprender qué información necesitan los padres durante la ruta escolar y qué acciones necesitan registrar los conductores sin añadir complejidad innecesaria a su trabajo.
 
 #### 1.2.2.1. Lean UX Problem Statements
 
 **Problem Statement — Brand New Initiative**
 
-> The current state of daily child-care coordination has focused mainly on isolated communication between parents, home caregivers, school transportation staff, and schools. What existing products and services fail to address is a unified and understandable view of responsibility handoffs and relevant events across home, transportation, and school. Rumbo will address this gap by providing a web platform that centralizes responsibility confirmations, trip status, event history, and notifications for the people involved in the child’s daily routine. Our initial focus will be families that coordinate recurring school-day handoffs with caregivers and school transportation. We will know we are successful when parents can understand the child’s current status and relevant daily events with less dependence on fragmented communication channels.
+> The current state of school transportation coordination has focused mainly on fragmented communication between parents or tutors and school transportation drivers. What existing products and services often fail to address is a simple and understandable view of pickup, trip, drop-off and incident events that both segments can use as a shared source of information. Rumbo will address this gap by providing a web platform that centralizes school transport status, route milestones, notifications and incident reporting. Our initial focus will be parents or tutors whose children use school transportation and drivers who manage recurring school routes. We will know we are successful when parents can understand the current trip status with less dependence on calls or messages and drivers can register the main route events through short, clear interactions.
 
 #### 1.2.2.2. Lean UX Assumptions
 
 ##### Business Assumptions
 
-1. Creemos que existe valor en centralizar la coordinación de entregas, traslados y recepciones de menores en una única experiencia digital.
-2. Creemos que los padres o tutores son quienes perciben de forma más directa el valor de contar con información consolidada durante la jornada.
-3. Creemos que cuidadores y conductores utilizarán la plataforma si las acciones requeridas son breves y se integran con sus actividades habituales.
-4. Creemos que un modelo SaaS puede generar valor tanto para familias como para organizaciones vinculadas al transporte y cuidado escolar.
-5. Creemos que confianza, privacidad y facilidad de uso serán factores determinantes para la adopción del producto.
+1. Creemos que existe valor en centralizar digitalmente la coordinación entre padres y conductores durante una ruta escolar.
+2. Creemos que los padres o tutores percibirán valor en recibir información clara sobre recojos, trayectos, entregas y retrasos.
+3. Creemos que los conductores utilizarán la plataforma si las acciones requeridas son breves, simples y compatibles con su flujo de trabajo.
+4. Creemos que un modelo SaaS puede generar valor para familias y servicios de movilidad escolar que administran rutas recurrentes.
+5. Creemos que confianza, privacidad, claridad y facilidad de uso serán factores determinantes para la adopción del producto.
 
 ##### Business Outcome Assumptions
 
-1. Incrementar el porcentaje de cambios de responsable registrados correctamente durante una jornada.
+1. Incrementar el porcentaje de hitos de ruta registrados correctamente durante una jornada.
 2. Conseguir que los usuarios completen las tareas principales sin asistencia externa.
 3. Lograr uso recurrente de la plataforma durante jornadas escolares.
-4. Reducir la necesidad de consultas manuales para confirmar estados que ya se encuentran disponibles en Rumbo.
+4. Reducir la necesidad de consultas manuales de los padres para conocer estados que ya se encuentran disponibles en Rumbo.
 
 ##### User Assumptions
 
-1. Los padres desean consultar rápidamente el estado actual y el responsable registrado del menor.
-2. Los cuidadores necesitan confirmar entregas y recepciones sin interrumpir de manera significativa su rutina.
-3. Los conductores necesitan registrar abordajes, descensos e incidencias de los menores asignados.
-4. El personal autorizado de una institución necesita consultar únicamente la información necesaria para confirmar ingresos, salidas o entregas.
+1. Los padres desean consultar rápidamente el estado actual del traslado y el último evento confirmado.
+2. Los padres valoran recibir avisos de recojo, llegada, retraso e incidencia sin tener que revisar constantemente la aplicación.
+3. Los conductores necesitan registrar recojos y entregas de forma rápida.
+4. Los conductores necesitan comunicar retrasos o incidencias con información suficiente sin realizar procesos largos.
 
 ##### User Outcome and Benefit Assumptions
 
-1. Los padres podrán comprender en pocos segundos qué ocurrió durante la jornada y qué evento debería ocurrir después.
-2. Los cuidadores podrán dejar constancia de entregas y recepciones sin depender exclusivamente de mensajes privados.
-3. Los conductores podrán comunicar hitos del traslado de manera uniforme.
-4. Los participantes podrán consultar una secuencia de eventos cuando sea necesario revisar una incidencia o retraso.
+1. Los padres podrán comprender en pocos segundos el estado del traslado y qué evento debería ocurrir después.
+2. Los padres podrán revisar una secuencia de eventos cuando necesiten saber qué ocurrió durante la ruta.
+3. Los conductores podrán registrar hitos principales del recorrido mediante interacciones breves.
+4. Los conductores podrán comunicar una incidencia de manera uniforme y dejar evidencia del evento registrado.
 
 ##### Feature Assumptions
 
-1. Una pantalla **Today** con estado actual, responsable y próximo hito facilitará la consulta rápida para los padres.
-2. Una **Daily Timeline** permitirá comprender la jornada sin revisar múltiples conversaciones.
-3. Un flujo de **Handoff Confirmation** mediante PIN o QR permitirá registrar una entrega o recepción con mayor claridad.
+1. Una pantalla **Today** con el estado actual de la ruta y el último hito facilitará la consulta rápida para los padres.
+2. Una **Trip Timeline** permitirá comprender el recorrido sin revisar múltiples conversaciones.
+3. Un flujo de **Pickup and Drop-off Confirmation** permitirá a los conductores registrar de manera clara los momentos principales de cada menor asignado.
 4. Una vista de **School Transport Tracking** permitirá consultar estados de traslado y eventos relevantes del recorrido.
-5. Un **Notification Center** permitirá comunicar cambios de estado, retrasos e incidencias sin saturar al usuario.
-6. Un módulo de **Incident Reporting** permitirá registrar situaciones imprevistas con contexto suficiente para los padres.
+5. Un **Notification Center** permitirá comunicar recojos, llegadas, retrasos e incidencias sin saturar al usuario.
+6. Un módulo de **Incident Reporting** permitirá al conductor registrar situaciones imprevistas con contexto suficiente para los padres.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 **H01 — Today View**  
-We believe we will achieve faster access to relevant daily information if parents and tutors attain the benefit of understanding the current child status and responsible person with a Today View that summarizes the current state, next milestone, and active alerts.
+We believe we will achieve faster access to relevant trip information if parents and tutors attain the benefit of understanding the current school transport status with a Today View that summarizes the current stage, latest milestone and active alerts.
 
-**H02 — Daily Timeline**  
-We believe we will achieve greater clarity about the daily routine if parents and tutors attain the benefit of reviewing what happened throughout the day with a chronological Daily Timeline of relevant events.
+**H02 — Trip Timeline**  
+We believe we will achieve greater clarity about the school route if parents and tutors attain the benefit of reviewing what happened during the trip with a chronological Trip Timeline of relevant events.
 
-**H03 — Handoff Confirmation**  
-We believe we will achieve more consistently registered handoffs if caregivers and drivers attain the benefit of confirming responsibility changes quickly with a PIN or QR based Handoff Confirmation flow.
+**H03 — Pickup and Drop-off Confirmation**  
+We believe we will achieve more consistently registered route milestones if drivers attain the benefit of confirming pickups and drop-offs quickly with a simple confirmation flow.
 
 **H04 — School Transport Tracking**  
 We believe we will achieve better visibility of school transportation if parents attain the benefit of understanding the trip progress with a School Transport Tracking view based on route status and relevant milestones.
 
 **H05 — Notification Center**  
-We believe we will achieve more timely communication if parents attain the benefit of receiving relevant information without constantly checking the platform with a Notification Center that classifies routine events, attention events, and incidents.
+We believe we will achieve more timely communication if parents attain the benefit of receiving relevant information without constantly checking the platform with a Notification Center that communicates pickups, arrivals, delays and incidents.
 
 **H06 — Incident Reporting**  
-We believe we will achieve better coordination during unexpected situations if caregivers and drivers attain the benefit of reporting an event with context through an Incident Reporting feature.
+We believe we will achieve better coordination during unexpected situations if drivers attain the benefit of reporting an event with context through an Incident Reporting feature.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -356,21 +357,17 @@ El Lean UX Canvas deberá consolidar el problema de negocio, business outcomes, 
 
 ## 1.3. Segmentos objetivo
 
-Para la etapa inicial de investigación se consideran tres segmentos vinculados directamente a los principales momentos de la rutina escolar.
+Para la etapa inicial de investigación se consideran únicamente dos segmentos, ambos vinculados directamente al uso y coordinación del transporte escolar.
 
 ### Segmento 1 — Parents and Tutors
 
-Padres, madres o tutores responsables de menores en etapa escolar que requieren coordinar diariamente con cuidadores, movilidad escolar o instituciones educativas. Su principal necesidad dentro del problema abordado es acceder a una vista clara y confiable de la jornada sin depender de consultas constantes a terceros.
+Padres, madres o tutores responsables de menores que utilizan movilidad escolar de manera recurrente. Necesitan conocer el estado del traslado, confirmar que el menor fue recogido o entregado, recibir avisos de retrasos o incidencias y revisar los principales hitos de la ruta sin depender de llamadas o mensajes constantes al conductor.
 
-### Segmento 2 — Home Caregivers
+### Segmento 2 — School Transportation Drivers
 
-Personas responsables del cuidado del menor en el hogar durante determinadas franjas horarias, como nanas, cuidadores o familiares autorizados. Participan en momentos de preparación, recepción y entrega, por lo que necesitan mecanismos simples para confirmar acciones sin convertir la plataforma en una carga adicional.
+Conductores responsables de rutas de movilidad escolar que gestionan el recojo, traslado y entrega de uno o varios menores. Necesitan consultar su ruta y menores asignados, registrar hitos principales del recorrido y comunicar retrasos o incidencias mediante acciones breves que no añadan complejidad innecesaria a su jornada.
 
-### Segmento 3 — School Transportation Staff
-
-Conductores o personal de movilidad escolar que trasladan menores entre el hogar y la institución educativa. Requieren identificar a los menores asignados, registrar hitos del traslado e informar incidencias relacionadas con el recorrido.
-
-> **Pendiente:** complementar cada segmento con características demográficas e información estadística sustentada.
+> **Pendiente:** complementar ambos segmentos con características demográficas e información estadística sustentada.
 
 ---
 
@@ -378,7 +375,7 @@ Conductores o personal de movilidad escolar que trasladan menores entre el hogar
 
 ## 2.1. Competidores
 
-El análisis competitivo permitirá comparar Rumbo con soluciones que cubren parcialmente necesidades de ubicación familiar, monitoreo, transporte escolar o coordinación entre responsables. El objetivo no es identificar un producto idéntico, sino entender qué necesidades ya son atendidas y qué espacio de diferenciación puede aprovechar Rumbo.
+El análisis competitivo permitirá comparar Rumbo con soluciones que cubren parcialmente necesidades de seguimiento familiar, transporte escolar, monitoreo de rutas o comunicación entre familias y conductores. El objetivo no es identificar un producto idéntico, sino entender qué necesidades ya son atendidas y qué espacio de diferenciación puede aprovechar Rumbo.
 
 ### 2.1.1. Análisis competitivo
 
@@ -386,11 +383,11 @@ El benchmark deberá incluir al menos tres competidores relevantes y considerar 
 
 | Criterio | Competidor 1 | Competidor 2 | Competidor 3 | Rumbo |
 |---|---|---|---|---|
-| Segmento principal | [Completar] | [Completar] | [Completar] | Familias, cuidadores y movilidad escolar |
-| Propuesta de valor | [Completar] | [Completar] | [Completar] | Coordinación de la rutina mediante estados, responsables y eventos |
+| Segmento principal | [Completar] | [Completar] | [Completar] | Padres/tutores y conductores de movilidad escolar |
+| Propuesta de valor | [Completar] | [Completar] | [Completar] | Visibilidad de la ruta mediante estados, hitos y comunicación estructurada |
 | Ubicación / ruta | [Completar] | [Completar] | [Completar] | Sí, según contexto |
-| Registro de cambios de responsable | [Completar] | [Completar] | [Completar] | Sí |
-| Línea de tiempo diaria | [Completar] | [Completar] | [Completar] | Sí |
+| Registro de pickup / drop-off | [Completar] | [Completar] | [Completar] | Sí |
+| Timeline del trayecto | [Completar] | [Completar] | [Completar] | Sí |
 | Incidencias | [Completar] | [Completar] | [Completar] | Sí |
 | Modelo de negocio | [Completar] | [Completar] | [Completar] | SaaS |
 
@@ -398,7 +395,7 @@ El benchmark deberá incluir al menos tres competidores relevantes y considerar 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-La estrategia de Rumbo se basa en diferenciarse de soluciones centradas únicamente en ubicación. El producto busca comunicar el contexto de la jornada mediante eventos comprensibles, responsables identificados y confirmaciones entre actores. El benchmark deberá permitir ajustar esta propuesta y determinar qué funcionalidades deben priorizarse en el Product Backlog.
+La estrategia de Rumbo se basa en diferenciarse de soluciones centradas únicamente en ubicación. El producto busca comunicar el contexto de la ruta mediante estados comprensibles, hitos registrados por el conductor, notificaciones oportunas e historial del trayecto. El benchmark deberá permitir ajustar esta propuesta y determinar qué funcionalidades deben priorizarse en el Product Backlog.
 
 | Hallazgo de competencia | Estrategia de Rumbo | Táctica propuesta |
 |---|---|---|
@@ -408,44 +405,35 @@ La estrategia de Rumbo se basa en diferenciarse de soluciones centradas únicame
 
 ## 2.2. Entrevistas
 
-Las entrevistas de needfinding buscan comprender cómo se realiza actualmente la coordinación entre los participantes, qué información se intercambia, cuáles son los momentos de mayor incertidumbre y qué canales se utilizan. Se realizarán **3 a 5 entrevistas por segmento objetivo**.
+Las entrevistas de needfinding buscan comprender cómo se realiza actualmente la coordinación entre padres y conductores, qué información se intercambia, cuáles son los momentos de mayor incertidumbre y qué canales se utilizan. Para AV1 se realizarán **seis entrevistas en total: tres entrevistas al segmento Parents and Tutors y tres entrevistas al segmento School Transportation Drivers**.
 
 ### 2.2.1. Diseño de entrevistas
 
 #### Preguntas para Parents and Tutors
 
-1. ¿Cómo coordinas actualmente la salida y regreso del menor durante un día de clases?
-2. ¿Con qué personas necesitas comunicarte durante esa rutina?
-3. ¿En qué momentos sientes que tienes menos información sobre lo que está ocurriendo?
-4. ¿Cómo confirmas actualmente que el menor fue recogido o entregado correctamente?
+1. ¿Cómo coordinas actualmente el recojo y regreso del menor cuando utiliza movilidad escolar?
+2. ¿Cómo sabes que la movilidad está próxima o que el menor ya fue recogido?
+3. ¿En qué momentos del trayecto sientes que tienes menos información sobre lo que está ocurriendo?
+4. ¿Cómo confirmas actualmente que el menor llegó al colegio o regresó al punto de entrega?
 5. ¿Qué información consideras indispensable recibir durante un traslado?
-6. ¿Qué tipo de retrasos o situaciones inesperadas suelen generar más preocupación?
-7. ¿Qué aplicaciones o canales utilizas hoy para coordinar estos procesos?
+6. ¿Qué tipo de retrasos o situaciones inesperadas suelen generar mayor preocupación?
+7. ¿Qué aplicaciones o canales utilizas hoy para comunicarte con el conductor?
 8. ¿Qué información preferirías no recibir para evitar notificaciones innecesarias?
-9. ¿Qué aspectos te harían confiar o desconfiar de una plataforma de este tipo?
-10. ¿Cómo describirías una experiencia ideal para revisar la jornada del menor?
+9. ¿Qué aspectos te harían confiar o desconfiar de una plataforma de seguimiento de movilidad escolar?
+10. ¿Cómo describirías una experiencia ideal para revisar el traslado del menor?
 
-#### Preguntas para Home Caregivers
+#### Preguntas para School Transportation Drivers
 
-1. ¿Qué responsabilidades asumes normalmente antes de entregar o recibir al menor?
-2. ¿Cómo confirmas actualmente una entrega a los padres o al transporte escolar?
-3. ¿Qué información necesitas conocer antes de entregar al menor a otra persona?
-4. ¿Qué problemas pueden ocurrir durante una entrega o recepción?
-5. ¿Qué tan cómodo sería registrar una confirmación mediante una aplicación?
-6. ¿Qué acciones deberían poder completarse en pocos segundos?
-7. ¿Cómo reportas actualmente un retraso o incidencia?
-8. ¿Qué información del menor necesitas durante tu jornada y cuál no necesitas ver?
-
-#### Preguntas para School Transportation Staff
-
-1. ¿Cómo se organiza actualmente la lista de menores que debes recoger y entregar?
-2. ¿Cómo confirmas que un menor subió o bajó del vehículo?
-3. ¿Cómo informas a las familias sobre retrasos o cambios de ruta?
-4. ¿Qué situaciones imprevistas ocurren con mayor frecuencia durante un recorrido?
-5. ¿Qué información necesitas consultar antes de realizar una entrega?
+1. ¿Cómo organizas actualmente la lista de menores, puntos de recojo y puntos de entrega de tu ruta?
+2. ¿Cómo confirmas que un menor fue recogido o entregado?
+3. ¿Cómo informas actualmente a las familias sobre retrasos o cambios relevantes del recorrido?
+4. ¿Qué situaciones imprevistas ocurren con mayor frecuencia durante una ruta?
+5. ¿Qué información necesitas consultar antes de iniciar o continuar un recojo?
 6. ¿Qué acciones digitales serían difíciles de realizar mientras trabajas?
-7. ¿Qué tipo de registro sería útil para resolver una duda posterior sobre un trayecto?
-8. ¿Qué información consideras que no debería mostrarse al conductor?
+7. ¿Qué tipo de confirmación podrías registrar rápidamente sin distraerte de la conducción?
+8. ¿Qué información sería útil dejar registrada para resolver posteriormente una duda sobre el trayecto?
+9. ¿Qué información consideras que no debería mostrarse o solicitarse al conductor?
+10. ¿Qué tendría que tener una aplicación para que realmente te resulte útil durante tu jornada?
 
 ### 2.2.2. Registro de entrevistas
 
@@ -453,19 +441,23 @@ Cada registro debe incluir nombres y apellidos, edad, distrito, segmento, captur
 
 | # | Entrevistado | Edad | Distrito | Segmento | Screenshot | URL / Timing | Duración | Resumen |
 |---:|---|---:|---|---|---|---|---|---|
-| 1 | [Completar] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 2 | [Completar] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 3 | [Completar] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 1 | [Completar] | [ ] | [ ] | Parent/Tutor | [ ] | [ ] | [ ] | [ ] |
+| 2 | [Completar] | [ ] | [ ] | Parent/Tutor | [ ] | [ ] | [ ] | [ ] |
+| 3 | [Completar] | [ ] | [ ] | Parent/Tutor | [ ] | [ ] | [ ] | [ ] |
+| 4 | [Completar] | [ ] | [ ] | School Transportation Driver | [ ] | [ ] | [ ] | [ ] |
+| 5 | [Completar] | [ ] | [ ] | School Transportation Driver | [ ] | [ ] | [ ] | [ ] |
+| 6 | [Completar] | [ ] | [ ] | School Transportation Driver | [ ] | [ ] | [ ] | [ ] |
 
 ### 2.2.3. Análisis de entrevistas
 
 El análisis deberá elaborarse por segmento e identificar las características objetivas y subjetivas más frecuentes, sustentándolas mediante porcentajes calculados a partir de las entrevistas realizadas. Los hallazgos deben servir como evidencia para construir los User Personas y evitar incorporar características que no hayan surgido de la investigación.
 
-| Variable | Parents and Tutors | Home Caregivers | School Transportation Staff |
-|---|---:|---:|---:|
-| [Variable 1] | [ ]% | [ ]% | [ ]% |
-| [Variable 2] | [ ]% | [ ]% | [ ]% |
-| [Variable 3] | [ ]% | [ ]% | [ ]% |
+| Variable | Parents and Tutors | School Transportation Drivers |
+|---|---:|---:|
+| [Variable 1] | [ ]% | [ ]% |
+| [Variable 2] | [ ]% | [ ]% |
+| [Variable 3] | [ ]% | [ ]% |
+| [Variable 4] | [ ]% | [ ]% |
 
 ## 2.3. Needfinding
 
@@ -474,49 +466,47 @@ El análisis deberá elaborarse por segmento e identificar las características 
 Se elaborará un User Persona por cada segmento objetivo utilizando UXPressia. Cada ficha deberá construirse a partir de datos recogidos en las entrevistas e incluir, según corresponda, perfil, comportamiento, objetivos, frustraciones, personalidad, dispositivos, canales digitales, marcas o influencias y contexto de uso.
 
 - **User Persona 1 — Parent/Tutor:** [Insertar captura UXPressia]
-- **User Persona 2 — Home Caregiver:** [Insertar captura UXPressia]
-- **User Persona 3 — School Transportation Staff:** [Insertar captura UXPressia]
+- **User Persona 2 — School Transportation Driver:** [Insertar captura UXPressia]
 
 ### 2.3.2. User Task Matrix
 
 La matriz debe representar tareas que los segmentos realizan independientemente de que Rumbo exista o no. Para cada tarea se indicará frecuencia e importancia.
 
-| Task | Parent/Tutor — Frequency | Parent/Tutor — Importance | Caregiver — Frequency | Caregiver — Importance | Transportation — Frequency | Transportation — Importance |
-|---|---|---|---|---|---|---|
-| Confirmar que el menor fue entregado correctamente | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Consultar o comunicar un retraso | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Identificar quién se encuentra a cargo | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Comunicar una incidencia | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Revisar lo ocurrido durante la jornada | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Task | Parent/Tutor — Frequency | Parent/Tutor — Importance | Driver — Frequency | Driver — Importance |
+|---|---|---|---|---|
+| Confirmar que el menor fue recogido | [ ] | [ ] | [ ] | [ ] |
+| Consultar o comunicar un retraso | [ ] | [ ] | [ ] | [ ] |
+| Confirmar una entrega | [ ] | [ ] | [ ] | [ ] |
+| Comunicar una incidencia | [ ] | [ ] | [ ] | [ ] |
+| Revisar lo ocurrido durante el trayecto | [ ] | [ ] | [ ] | [ ] |
 
 ### 2.3.3. User Journey Mapping
 
 Se elaborará un **As-Is User Journey Map** para cada User Persona utilizando UXPressia. Los journeys describirán la experiencia actual, antes de Rumbo, identificando etapas, acciones, emociones, problemas y oportunidades.
 
 - **Parent/Tutor As-Is Journey:** [Insertar captura]
-- **Home Caregiver As-Is Journey:** [Insertar captura]
-- **School Transportation Staff As-Is Journey:** [Insertar captura]
+- **School Transportation Driver As-Is Journey:** [Insertar captura]
 
 ### 2.3.4. Empathy Mapping
 
 Los Empathy Maps deberán reflejar qué dice, piensa, hace, ve, escucha y siente cada User Persona, además de Pains y Gains obtenidos de la investigación.
 
 - **Parent/Tutor Empathy Map:** [Insertar captura]
-- **Home Caregiver Empathy Map:** [Insertar captura]
-- **School Transportation Staff Empathy Map:** [Insertar captura]
+- **School Transportation Driver Empathy Map:** [Insertar captura]
 
 ## 2.4. Big Picture Event Storming
 
-El Big Picture Event Storming permitirá representar de manera colaborativa los principales eventos del dominio y entender cómo se relacionan los actores a lo largo de la rutina. Una secuencia preliminar puede considerar eventos como:
+El Big Picture Event Storming permitirá representar de manera colaborativa los principales eventos del dominio y entender cómo se relacionan padres, conductores, rutas y menores dentro de la jornada de transporte escolar. Una secuencia preliminar puede considerar eventos como:
 
-- `Caregiver Checked In`
-- `Child Ready for Pickup`
-- `Child Handoff Confirmed`
-- `Transport Started`
+- `Route Started`
+- `Driver Approaching Pickup Point`
+- `Child Picked Up`
+- `Trip Status Updated`
 - `Child Arrived at School`
-- `School Reception Confirmed`
-- `School Exit Authorized`
-- `Child Returned Home`
+- `Child Drop-off Confirmed`
+- `Return Route Started`
+- `Child Returned to Drop-off Point`
+- `Delay Reported`
 - `Incident Reported`
 
 **Artefacto:** [Insertar captura del Big Picture Event Storming]  
@@ -528,17 +518,17 @@ Los términos del dominio se mantendrán en inglés, mientras que sus definicion
 
 | Term | Definición |
 |---|---|
-| **Child** | Menor registrado dentro de una familia y asociado a una rutina de cuidado y traslado. |
-| **Parent** | Padre, madre o tutor con permisos principales sobre la información y autorizaciones del menor. |
-| **Caregiver** | Persona autorizada que asume responsabilidad sobre el menor durante un periodo de la jornada. |
-| **Driver** | Persona responsable de conducir la movilidad asignada al traslado. |
-| **Handoff** | Proceso mediante el cual la responsabilidad del menor pasa de una persona o contexto a otro. |
-| **Responsible Party** | Persona o entidad registrada como responsable actual del menor. |
-| **Trip** | Traslado del menor entre dos puntos dentro de una ruta asignada. |
-| **Journey Event** | Evento relevante registrado dentro de la secuencia diaria del menor. |
-| **Incident** | Situación inesperada que requiere ser registrada y comunicada a los actores autorizados. |
-| **Authorized Person** | Persona a la que el tutor ha otorgado permisos específicos para recibir, entregar o consultar información del menor. |
-| **Daily Timeline** | Secuencia cronológica de los eventos relevantes ocurridos durante la jornada. |
+| **Child** | Menor asociado a una familia y a una ruta de transporte escolar. |
+| **Parent** | Padre, madre o tutor autorizado para consultar información del menor. |
+| **Driver** | Persona responsable de conducir la movilidad y registrar los hitos correspondientes a la ruta asignada. |
+| **Route** | Secuencia planificada de puntos de recojo y entrega que sigue una movilidad escolar. |
+| **Trip** | Ejecución de una ruta de transporte escolar durante una jornada específica. |
+| **Pickup** | Evento que registra el recojo de un menor en un punto asignado. |
+| **Drop-off** | Evento que registra la entrega de un menor en un punto autorizado. |
+| **Journey Event** | Evento relevante registrado dentro de la secuencia del trayecto. |
+| **Delay** | Situación en la que el recorrido se encuentra fuera del tiempo esperado. |
+| **Incident** | Situación inesperada que requiere ser registrada y comunicada al padre o tutor. |
+| **Trip Timeline** | Secuencia cronológica de los principales eventos ocurridos durante el trayecto. |
 
 ---
 
@@ -552,73 +542,73 @@ Las Epics, User Stories y Technical Stories se redactarán en inglés, mantenien
 
 | Epic ID | Title | Description |
 |---|---|---|
-| EP01 | Daily Care Visibility | Features that allow parents to understand the child’s current status and relevant events. |
-| EP02 | Responsibility Handoffs | Features that support confirmation of child handoffs between authorized participants. |
-| EP03 | School Transportation | Features related to trip status, route milestones, pickup and drop-off. |
-| EP04 | Incident Communication | Features for reporting and reviewing unexpected events. |
+| EP01 | Trip Visibility | Features that allow parents to understand the child’s current school transport status and relevant route events. |
+| EP02 | Pickup and Drop-off Management | Features that allow drivers to register the main pickup and drop-off milestones for assigned children. |
+| EP03 | School Transportation Tracking | Features related to trip status, route milestones and progress visibility. |
+| EP04 | Incident Communication | Features for drivers to report delays or unexpected events and for parents to review them. |
 | EP05 | Landing Page Experience | Public content that communicates Rumbo’s value proposition and encourages visitors to learn more. |
 
 ### User Stories
 
-#### US01 — View current child status
+#### US01 — View current trip status
 
 **Epic:** EP01  
-**As a** parent or tutor, **I want** to view the child’s current status and responsible person **so that** I can understand the situation without contacting multiple people.
+**As a** parent or tutor, **I want** to view the child’s current school transport status **so that** I can understand the situation without contacting the driver.
 
 **Acceptance Criteria**
 
 **Scenario 1: Current status is available**  
-**Given** the parent has an authorized child profile  
+**Given** the parent has an authorized child profile with an active trip  
 **When** the parent opens the Today view  
-**Then** the system displays the current status, responsible party and last relevant event.
+**Then** the system displays the current trip status and latest relevant event.
 
-#### US02 — Review daily timeline
+#### US02 — Review trip timeline
 
 **Epic:** EP01  
-**As a** parent or tutor, **I want** to review the child’s daily timeline **so that** I can understand the sequence of relevant events during the day.
+**As a** parent or tutor, **I want** to review the child’s trip timeline **so that** I can understand the sequence of relevant route events.
 
 **Acceptance Criteria**
 
 **Scenario 1: Timeline contains events**  
-**Given** relevant events have been registered  
-**When** the parent opens the Daily Timeline  
+**Given** relevant route events have been registered  
+**When** the parent opens the Trip Timeline  
 **Then** the events are displayed chronologically with time, event type and available context.
 
-#### US03 — Confirm a handoff
+#### US03 — Confirm pickup and drop-off
 
 **Epic:** EP02  
-**As a** caregiver, **I want** to confirm the child handoff to an authorized driver **so that** the responsibility change is recorded.
+**As a** driver, **I want** to confirm a child pickup or drop-off **so that** the route milestone is recorded for the authorized parent.
 
 **Acceptance Criteria**
 
-**Scenario 1: Valid handoff**  
-**Given** the caregiver and driver are authorized for the child  
-**When** the handoff is confirmed using the configured validation method  
-**Then** the system registers the participants, date and time of the handoff.
+**Scenario 1: Pickup confirmation**  
+**Given** the driver has the child assigned to the active route  
+**When** the driver confirms the pickup  
+**Then** the system registers the child, date, time and route milestone.
 
-#### US04 — View school transport status
+#### US04 — View school transport progress
 
 **Epic:** EP03  
-**As a** parent or tutor, **I want** to view the school transport status **so that** I know the current stage of the trip.
+**As a** parent or tutor, **I want** to view the school transport progress **so that** I know the current stage of the trip.
 
 **Acceptance Criteria**
 
 **Scenario 1: Active trip**  
 **Given** the child has an active assigned trip  
 **When** the parent opens the transport view  
-**Then** the system displays the current trip status and the latest available milestone.
+**Then** the system displays the current trip status and latest available milestone.
 
 #### US05 — Report an incident
 
 **Epic:** EP04  
-**As a** caregiver or driver, **I want** to report an incident **so that** authorized parents receive relevant information about an unexpected situation.
+**As a** driver, **I want** to report an incident or delay **so that** authorized parents receive relevant information about an unexpected situation.
 
 **Acceptance Criteria**
 
 **Scenario 1: Incident submitted**  
-**Given** the user is authorized for the child  
-**When** the user submits the incident type and description  
-**Then** the system registers the incident and makes it available to the authorized parent.
+**Given** the driver has an active assigned route  
+**When** the driver submits the incident type and description  
+**Then** the system registers the incident and makes it available to the authorized parents related to the route.
 
 #### US06 — Understand Rumbo from the Landing Page
 
@@ -630,7 +620,7 @@ Las Epics, User Stories y Technical Stories se redactarán en inglés, mantenien
 **Scenario 1: Landing Page content**  
 **Given** a visitor accesses the public Landing Page  
 **When** the page loads  
-**Then** the visitor can identify Rumbo’s purpose, main benefits, target context, contact information and a clear call to action.
+**Then** the visitor can identify Rumbo’s purpose, main benefits, target segments, contact information and a clear call to action.
 
 ### Technical Stories
 
@@ -652,10 +642,10 @@ El Impact Mapping conectará los Business Goals con los User Personas, los cambi
 
 | Business Goal | Actor / Persona | Impact | Deliverable | Related User Stories |
 |---|---|---|---|---|
-| [SMART Goal 1] | Parent/Tutor | Consultar el estado sin depender de varios canales | Today View + Daily Timeline | US01, US02 |
-| [SMART Goal 2] | Home Caregiver | Registrar correctamente una entrega | Handoff Confirmation | US03 |
+| [SMART Goal 1] | Parent/Tutor | Consultar el estado sin depender de llamadas o mensajes | Today View + Trip Timeline | US01, US02 |
+| [SMART Goal 2] | Driver | Registrar correctamente recojos y entregas | Pickup and Drop-off Confirmation | US03 |
 | [SMART Goal 3] | Parent/Tutor | Comprender el avance del traslado | School Transport Tracking | US04 |
-| [SMART Goal 4] | Caregiver / Driver | Comunicar una incidencia de manera uniforme | Incident Reporting | US05 |
+| [SMART Goal 4] | Driver | Comunicar retrasos o incidencias de manera uniforme | Incident Reporting | US05 |
 
 **Artefacto:** [Insertar captura del Impact Mapping]  
 **URL:** [Completar]
@@ -667,11 +657,11 @@ El Product Backlog se ordenará por valor para el negocio. Las estimaciones util
 | # Orden | User Story Id | Título | Descripción | Story Points |
 |---:|---|---|---|---:|
 | 1 | US06 | Understand Rumbo from the Landing Page | As a visitor, I want to understand what Rumbo does and who it is for so that I can decide whether the product is relevant to me. | 3 |
-| 2 | US01 | View current child status | As a parent or tutor, I want to view the child’s current status and responsible person so that I can understand the situation without contacting multiple people. | 5 |
-| 3 | US02 | Review daily timeline | As a parent or tutor, I want to review the child’s daily timeline so that I can understand the sequence of relevant events during the day. | 5 |
-| 4 | US03 | Confirm a handoff | As a caregiver, I want to confirm the child handoff to an authorized driver so that the responsibility change is recorded. | 5 |
-| 5 | US04 | View school transport status | As a parent or tutor, I want to view the school transport status so that I know the current stage of the trip. | 8 |
-| 6 | US05 | Report an incident | As a caregiver or driver, I want to report an incident so that authorized parents receive relevant information about an unexpected situation. | 5 |
+| 2 | US01 | View current trip status | As a parent or tutor, I want to view the child’s current school transport status so that I can understand the situation without contacting the driver. | 5 |
+| 3 | US02 | Review trip timeline | As a parent or tutor, I want to review the child’s trip timeline so that I can understand the sequence of relevant route events. | 5 |
+| 4 | US03 | Confirm pickup and drop-off | As a driver, I want to confirm a child pickup or drop-off so that the route milestone is recorded for the authorized parent. | 5 |
+| 5 | US04 | View school transport progress | As a parent or tutor, I want to view the school transport progress so that I know the current stage of the trip. | 8 |
+| 6 | US05 | Report an incident | As a driver, I want to report an incident or delay so that authorized parents receive relevant information about an unexpected situation. | 5 |
 | 7 | TS02 | Internationalization foundation | Configure i18n resources for en_US and es_419. | 3 |
 | 8 | TS03 | Accessibility foundation | Establish semantic and accessible web interaction foundations. | 3 |
 
@@ -688,7 +678,7 @@ El Product Backlog se ordenará por valor para el negocio. Las estimaciones util
 
 Rumbo debe transmitir tranquilidad, claridad y control sin utilizar un tono alarmista. La interfaz priorizará jerarquía visual, lectura rápida de estados y consistencia entre el Landing Page y la futura Web Application.
 
-**Branding:** el nombre Rumbo hace referencia al recorrido y a la posibilidad de comprender el estado de una jornada sin perder el contexto.  
+**Branding:** el nombre Rumbo hace referencia al recorrido y a la posibilidad de comprender el estado de un trayecto sin perder el contexto.  
 **Typography:** [Definir tipografías en Figma].  
 **Colors:** [Definir paleta y contrastes].  
 **Spacing:** utilizar una escala consistente de separación entre bloques, componentes y secciones.  
@@ -709,23 +699,24 @@ Para el Landing Page se propone una organización principalmente temática y jer
 1. Hero / Value Proposition.
 2. Problem Context.
 3. How Rumbo Works.
-4. Main Benefits.
-5. Main Experiences / Features.
-6. Contact / Call to Action.
+4. Benefits for Parents.
+5. Benefits for Drivers.
+6. Main Experiences / Features.
+7. Contact / Call to Action.
 
-Para la futura Web Application se prevé una organización por tareas y contexto del usuario: Today, Timeline, Transport, Incidents y Authorized People.
+Para la futura Web Application se prevé una organización por tareas y contexto del usuario: Today, Trip Timeline, Transport, Pickups/Drop-offs e Incidents.
 
 ### 4.2.2. Labeling Systems
 
 Las etiquetas de interfaz se redactarán inicialmente en inglés y utilizarán términos breves y consistentes con el dominio, por ejemplo:
 
 - Today
-- Timeline
+- Trip Timeline
 - Transport
+- Pickups
+- Drop-offs
 - Incidents
-- Authorized People
 - Current Status
-- Responsible Person
 - Report Incident
 
 ### 4.2.3. SEO Tags and Meta Tags
@@ -733,8 +724,8 @@ Las etiquetas de interfaz se redactarán inicialmente en inglés y utilizarán t
 La primera versión del Landing Page deberá incluir como mínimo:
 
 ```html
-<title>Rumbo | Know the journey, understand the moment</title>
-<meta name="description" content="Rumbo helps families understand the child's daily routine through clear status updates, handoffs and school transport events.">
+<title>Rumbo | Follow the route, understand the moment</title>
+<meta name="description" content="Rumbo helps families and school transportation drivers coordinate trips through clear route status, pickup and drop-off events, and timely notifications.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
 ```
@@ -743,7 +734,7 @@ Los textos finales deberán ajustarse al contenido definitivo del Landing Page.
 
 ### 4.2.4. Searching Systems
 
-En AV1 el Landing Page es un sitio de alcance acotado, por lo que no requiere un buscador interno. Para la Web Application, la necesidad de búsqueda deberá evaluarse posteriormente de acuerdo con el volumen de historial, incidencias y personas autorizadas.
+En AV1 el Landing Page es un sitio de alcance acotado, por lo que no requiere un buscador interno. Para la Web Application, la necesidad de búsqueda deberá evaluarse posteriormente de acuerdo con el volumen de rutas, historial de viajes e incidencias.
 
 ### 4.2.5. Navigation Systems
 
@@ -758,8 +749,10 @@ El wireframe deberá representar la estructura del Landing Page sin centrarse to
 - Header / Navigation.
 - Hero section.
 - Problem and value proposition.
-- How it works.
-- Main benefits/features.
+- How Rumbo works.
+- Benefits for Parents.
+- Benefits for Drivers.
+- Main features.
 - Product preview mediante screenshots o contenido visual.
 - CTA.
 - Contact information.
@@ -778,18 +771,24 @@ El mock-up aplicará las decisiones de branding, tipografía, color, spacing y R
 
 ## 4.4. Web Applications UX/UI Design
 
-Aunque la implementación de la primera Web Application corresponde a una entrega posterior, AV1 requiere plantear su diseño y prototipado de acuerdo con el alcance del producto.
+Aunque la implementación de la primera Web Application corresponde a una entrega posterior, AV1 requiere plantear su diseño y prototipado de acuerdo con el alcance del producto y los dos segmentos objetivo.
 
 ### 4.4.1. Web Applications Wireframes
 
 Wireframes iniciales sugeridos:
 
+**Parent/Tutor:**
 - Sign in.
 - Today view.
-- Daily Timeline.
+- Trip Timeline.
 - Transport status.
 - Incident detail.
-- Authorized people.
+
+**Driver:**
+- Sign in.
+- Assigned route.
+- Pickup / Drop-off list.
+- Report delay or incident.
 
 **Figma:** [Completar URL]  
 **Capturas:** [Insertar]
@@ -798,10 +797,15 @@ Wireframes iniciales sugeridos:
 
 Se elaborará un Wireflow por cada User Goal relevante. Cada flujo deberá indicar el objetivo del usuario, pantallas involucradas y cambios de estado resultantes de las interacciones.
 
-**User Goal 1:** Check the child’s current status.  
-**User Goal 2:** Review the daily timeline.  
-**User Goal 3:** Confirm a child handoff.  
-**User Goal 4:** Report an incident.
+**Parent/Tutor User Goals:**
+1. Check the current trip status.
+2. Review the trip timeline.
+3. Review an incident or delay.
+
+**Driver User Goals:**
+1. Review the assigned route.
+2. Confirm a pickup or drop-off.
+3. Report a delay or incident.
 
 **Artefactos:** [Insertar wireflows]
 
@@ -816,16 +820,21 @@ Los mock-ups deberán aplicar Material Design y PrimeVue, manteniendo consistenc
 
 Cada User Flow deberá incluir el User Goal, happy path y unhappy paths cuando corresponda.
 
-**Ejemplo — User Goal: Check the child’s current status**
+**Ejemplo — Parent/Tutor User Goal: Check the current trip status**
 
-- Happy Path: Sign in → Select child → Today → Current status available.
-- Unhappy Path: Sign in → Select child → Today → No recent status available → Show last confirmed event.
+- Happy Path: Sign in → Select child → Today → Current trip status available.
+- Unhappy Path: Sign in → Select child → Today → No recent status available → Show last confirmed route event.
+
+**Ejemplo — Driver User Goal: Confirm a pickup**
+
+- Happy Path: Sign in → Assigned Route → Select child → Confirm Pickup → Pickup registered.
+- Unhappy Path: Sign in → Assigned Route → Select child → Confirmation unavailable → Show retry or incident option.
 
 **Artefactos:** [Insertar User Flow Diagrams]
 
 ## 4.5. Web Applications Prototyping
 
-El prototipo interactivo debe representar la navegación entre los principales mock-ups y mantener coherencia con los User Flows definidos. Para AV1 se incluirá el enlace a Figma y, cuando corresponda, evidencia en video de la navegación del prototipo según las indicaciones del Final Project Statement.
+El prototipo interactivo debe representar la navegación entre los principales mock-ups de padres y conductores y mantener coherencia con los User Flows definidos. Para AV1 se incluirá el enlace a Figma y, cuando corresponda, evidencia en video de la navegación del prototipo según las indicaciones del Final Project Statement.
 
 **Prototype URL:** [Completar]  
 **Video / Microsoft Stream:** [Completar cuando corresponda]
@@ -838,7 +847,7 @@ A partir del Big Picture Event Storming se profundizará en los flujos principal
 
 Posibles áreas iniciales del dominio:
 
-- **Care Coordination**
+- **Family Monitoring**
 - **School Transportation**
 - **Incident Management**
 - **Identity and Access**
@@ -852,9 +861,7 @@ El Context Diagram debe representar a Rumbo como sistema y sus relaciones con lo
 **Personas / Systems:**
 
 - Parent/Tutor.
-- Home Caregiver.
-- School Transportation Staff.
-- School Staff, de incorporarse en el alcance validado.
+- School Transportation Driver.
 - External location/map provider, de ser necesario.
 - Notification provider, de ser necesario.
 
@@ -889,13 +896,14 @@ Clases conceptuales iniciales que deberán validarse con el diseño del dominio:
 
 - Child
 - Parent
-- Caregiver
 - Driver
-- Handoff
+- Route
 - Trip
+- Pickup
+- DropOff
 - JourneyEvent
+- Delay
 - Incident
-- AuthorizedPerson
 
 **UML Diagram:** [Insertar captura y URL]
 
@@ -909,11 +917,15 @@ Objetos preliminares a validar:
 
 - users
 - children
-- family_members
-- authorized_people
-- handoffs
+- parents
+- drivers
+- routes
+- route_assignments
 - trips
+- pickups
+- dropoffs
 - journey_events
+- delays
 - incidents
 
 **Database Diagram:** [Insertar captura y URL]
@@ -964,7 +976,7 @@ Los commits seguirán **Conventional Commits**:
 ```text
 feat: add landing page hero section
 fix: correct mobile navigation behavior
-docs: add interview design
+docs: add parent interview analysis
 refactor: reorganize landing page styles
 chore: configure project dependencies
 ```
@@ -1034,7 +1046,7 @@ El Sprint 1 tiene como objetivo producir y desplegar la primera versión del Lan
 | **Location** | [Discord / Teams / Presencial / otro] |
 | **Prepared By** | [Integrante] |
 | **Attendees** | [Integrante 1 / Integrante 2 / Integrante 3 / Integrante 4 / Integrante 5] |
-| **Sprint Goal** | Deliver and deploy the first responsive version of Rumbo’s Landing Page so visitors can understand the product purpose, value proposition and main benefits through a clear public web experience. |
+| **Sprint Goal** | Deliver and deploy the first responsive version of Rumbo’s Landing Page so visitors can understand the school transportation problem, the value proposition for parents and drivers, and the main benefits through a clear public web experience. |
 | **Sprint Duration** | [Fecha inicio] — [Fecha fin] |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
@@ -1117,10 +1129,10 @@ El equipo deberá incluir capturas de los analíticos de colaboración y commits
 
 ## Avance AV1
 
-1. Rumbo plantea una propuesta centrada en ordenar la información de la rutina escolar mediante estados, responsables y eventos relevantes, en lugar de depender únicamente de ubicación GPS o comunicación fragmentada.
-2. El proceso de Lean UX permite transformar esta propuesta inicial en supuestos e hipótesis que deberán contrastarse con entrevistas y análisis competitivo antes de considerarlos validados.
-3. La especificación preliminar conecta los principales problemas identificados con User Stories, un Product Backlog inicial y artefactos de diseño que orientarán las siguientes etapas del proyecto.
-4. El Sprint 1 prioriza el Landing Page porque AV1 exige contar con una primera versión implementada y desplegada públicamente que comunique la propuesta de valor de Rumbo.
+1. Rumbo plantea una propuesta centrada en ordenar la información del transporte escolar mediante estados de ruta, pickups, drop-offs, retrasos e incidencias, en lugar de depender únicamente de ubicación GPS o comunicación fragmentada.
+2. El proceso de Lean UX permite transformar esta propuesta inicial en supuestos e hipótesis que deberán contrastarse con tres entrevistas a padres/tutores y tres entrevistas a conductores, además del análisis competitivo.
+3. La especificación preliminar conecta las necesidades de ambos segmentos con User Stories, un Product Backlog inicial y artefactos de diseño que orientarán las siguientes etapas del proyecto.
+4. El Sprint 1 prioriza el Landing Page porque AV1 exige contar con una primera versión implementada y desplegada públicamente que comunique la propuesta de valor de Rumbo para padres y conductores.
 5. Las evidencias definitivas de entrevistas, diseño, colaboración, implementación y deployment deberán incorporarse a partir del trabajo real realizado por los integrantes antes de la entrega de AV1.
 
 ---
@@ -1153,6 +1165,7 @@ El equipo deberá incluir capturas de los analíticos de colaboración y commits
 
 - **Microsoft Stream URL:** [Completar]
 - **Archivo:** `upc-pre-202620-1asi0730-8137-aipaca-needfinding-sprint-1.mp4`
+- **Cantidad prevista:** 6 entrevistas (3 Parents/Tutors + 3 School Transportation Drivers).
 
 ## Prototype / Product Navigation
 
