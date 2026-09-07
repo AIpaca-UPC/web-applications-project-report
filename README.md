@@ -1,13 +1,13 @@
 # AIpaca — Informe de Trabajo Final — TB1
 
-**Curso:** 1ASI0730 Aplicaciones Web  
+**Curso:** 1ASI0730 — Aplicaciones Web  
 **NRC:** 8137  
 **Periodo académico:** 2026-20  
 **Startup:** AIpaca  
-**Producto:** [Nombre definitivo del producto]  
-**Entrega:** TB1 — Stage Review — Semana 7
+**Producto:** Nexo Kids  
+**Entrega de referencia:** TB1 — Stage Review — Semana 7
 
-> **Nota de trabajo:** este README contiene la estructura completa que debe llegar a TB1. Las secciones con datos, capturas, enlaces, entrevistas o diagramas deben completarse con evidencia real del equipo. Antes de exportar el PDF final, eliminar todas las notas marcadas como “Pendiente para TB1”.
+> Este repositorio contiene el informe colaborativo del proyecto. La estructura se ha preparado hasta el alcance exigido para TB1. Las secciones que dependen de entrevistas, capturas, enlaces públicos, analíticos de GitHub, diagramas o resultados de implementación deben completarse únicamente con evidencia real del equipo.
 
 ---
 
@@ -19,10 +19,10 @@
 **Ciclo académico:** 2026-20  
 **Código y nombre del curso:** 1ASI0730 — Aplicaciones Web  
 **NRC:** 8137  
-**Profesor:** [Nombre del profesor]  
+**Profesor:** [Completar]  
 **Título:** Informe de Trabajo Final  
 **Startup:** AIpaca  
-**Producto:** [Nombre definitivo del producto]
+**Producto:** Nexo Kids
 
 ## Integrantes
 
@@ -40,50 +40,45 @@
 
 # Registro de Versiones del Informe
 
-El Registro de Versiones resume las modificaciones relevantes realizadas al informe durante el ciclo de vida del proyecto. Cada actualización importante debe indicar versión, fecha, autor y descripción concreta del cambio, manteniendo coherencia con el historial de commits y con las evidencias de colaboración.
+El Registro de Versiones resume los cambios relevantes realizados al informe durante el ciclo de vida del proyecto. Debe mantenerse alineado con el historial de commits y con las evidencias presentadas en *Project Report Collaboration Insights*.
 
 | Versión | Fecha | Autor | Descripción de modificación |
 |---|---|---|---|
-| 0.1 | [YYYY-MM-DD] | Equipo AIpaca | Creación de la estructura inicial del informe del proyecto. |
-| 0.2 | [YYYY-MM-DD] | [Integrante] | [Secciones agregadas o modificadas]. |
+| 0.1 | 2026-09-07 | Equipo AIpaca | Creación de la estructura inicial del informe. |
+| 0.2 | 2026-09-07 | Equipo AIpaca | Alineamiento de la plantilla con el Final Project Statement y definición inicial de Nexo Kids. |
 | 1.0 | [YYYY-MM-DD] | Equipo AIpaca | Versión consolidada para AV1. |
 | 1.1 | [YYYY-MM-DD] | [Integrante] | Correcciones y mejoras posteriores a AV1. |
 | 2.0 | [YYYY-MM-DD] | Equipo AIpaca | Versión consolidada para TB1. |
-
-> **Pendiente para TB1:** reemplazar las filas de ejemplo por el historial real del documento.
 
 ---
 
 # Project Report Collaboration Insights
 
-El informe del proyecto se desarrolla de manera colaborativa mediante el repositorio público de GitHub de la startup. Cada integrante debe participar en la elaboración y evolución del documento utilizando Git, GitFlow y Conventional Commits. Las modificaciones registradas en el repositorio deben guardar coherencia con el Registro de Versiones del Informe.
+El informe se desarrolla de forma colaborativa en el repositorio público de GitHub de la startup. Cada integrante debe realizar aportes identificables mediante commits propios, siguiendo GitFlow y Conventional Commits. Las evidencias de esta sección deben guardar relación con el Registro de Versiones del Informe.
 
-**Repositorio del Project Report:** https://github.com/AIpaca-UPC/web-applications-project-report
+**Project Report Repository:** https://github.com/AIpaca-UPC/web-applications-project-report
 
 ## AV1
 
-Durante AV1, el equipo organizó la primera versión del informe y consolidó las secciones de investigación, requisitos, diseño e implementación inicial del Landing Page.
+Para AV1 se debe evidenciar la elaboración colaborativa de los capítulos I al V y la implementación inicial del Landing Page.
 
-**Evidencias requeridas:**
+**Completar con:**
 
-- captura de *Contributors* o analíticos de colaboración;
+- captura de *Contributors* o analíticos del repositorio;
 - captura del historial de commits;
-- explicación breve de los principales aportes de cada integrante.
-
-> **Pendiente para TB1:** insertar las evidencias reales de AV1.
+- resumen de los aportes de cada integrante;
+- relación entre los commits y las secciones elaboradas.
 
 ## TB1
 
-Para TB1, el equipo actualiza y mejora los artefactos previamente presentados e incorpora el trabajo correspondiente al Sprint 2. La evidencia debe mostrar la participación de los cinco integrantes del curso en el informe y, según el alcance del Sprint, en la implementación de los productos correspondientes.
+Para TB1 se debe actualizar lo presentado en AV1, registrar las correcciones realizadas y añadir las evidencias del Sprint 2. La participación de los cinco integrantes debe ser visible tanto en la evolución del informe como en los productos incluidos en el alcance del Sprint.
 
-**Evidencias requeridas:**
+**Completar con:**
 
 - analíticos de colaboración actualizados;
 - commits realizados entre AV1 y TB1;
-- explicación de las mejoras introducidas;
-- relación entre aportes, LACX y tareas del Sprint 2.
-
-> **Pendiente para TB1:** insertar capturas y análisis reales.
+- principales correcciones o mejoras realizadas;
+- relación entre LACX, tareas del Sprint 2 y aportes registrados.
 
 ---
 
@@ -114,9 +109,9 @@ Para TB1, el equipo actualiza y mejora los artefactos previamente presentados e 
 
 # Student Outcome
 
-El curso contribuye al cumplimiento del **ABET – EAC – Student Outcome 5: la capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos**.
+El curso contribuye al cumplimiento del **ABET – EAC – Student Outcome 5: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos**.
 
-Las acciones se registran por participante y por entrega. Las conclusiones son grupales y acumulativas, de modo que deben actualizarse conforme avance el proyecto.
+En el siguiente cuadro se describen las acciones realizadas y las conclusiones del grupo que permiten sustentar el desarrollo del Student Outcome. Las acciones deben registrarse por integrante y por entrega; las conclusiones son grupales y acumulativas.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---|---|---|
@@ -124,383 +119,386 @@ Las acciones se registran por participante y por entrega. Las conclusiones son g
 **[Integrante 2]** — AV1: [acción]. TB1: [acción].  
 **[Integrante 3]** — AV1: [acción]. TB1: [acción].  
 **[Integrante 4]** — AV1: [acción]. TB1: [acción].  
-**[Integrante 5]** — AV1: [acción]. TB1: [acción]. | [Conclusión grupal sustentada en LACX, Sprint Planning, coordinación, revisiones y resultados]. |
+**[Integrante 5]** — AV1: [acción]. TB1: [acción]. | [Conclusión grupal basada en LACX, coordinación, revisiones y resultados obtenidos.] |
 | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **[Integrante 1]** — AV1: [acción]. TB1: [acción].  
 **[Integrante 2]** — AV1: [acción]. TB1: [acción].  
 **[Integrante 3]** — AV1: [acción]. TB1: [acción].  
 **[Integrante 4]** — AV1: [acción]. TB1: [acción].  
-**[Integrante 5]** — AV1: [acción]. TB1: [acción]. | [Conclusión grupal sustentada en Product/Sprint Backlog, asignación de responsabilidades, cumplimiento de fechas y colaboración]. |
-
-> **Pendiente para TB1:** sustituir los marcadores por acciones verificables de los cinco integrantes de Aplicaciones Web.
+**[Integrante 5]** — AV1: [acción]. TB1: [acción]. | [Conclusión grupal basada en Product Backlog, Sprint Backlog, distribución de responsabilidades y cumplimiento de objetivos.] |
 
 ---
 
 # Capítulo I: Introducción
 
-Este capítulo presenta el perfil de la startup AIpaca, el problema que origina la propuesta, el proceso de Lean UX empleado para formular supuestos e hipótesis y los segmentos objetivo considerados para el desarrollo del producto.
+Este capítulo presenta a la startup, la propuesta de solución, la problemática que se busca atender, el proceso de Lean UX y los segmentos considerados en la primera etapa del producto.
 
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
 
-**AIpaca** es una startup orientada al desarrollo de soluciones digitales que buscan mejorar la coordinación del cuidado cotidiano de menores entre las personas responsables en el hogar, el transporte escolar, la institución educativa y los padres o tutores. La propuesta parte de la necesidad de reducir la incertidumbre que puede producirse cuando la información sobre entregas, recepciones, traslados e incidencias se encuentra distribuida entre llamadas, mensajes y confirmaciones aisladas.
+**AIpaca** es una startup formada para desarrollar productos digitales orientados a resolver problemas cotidianos mediante experiencias web simples, verificables y centradas en las necesidades de los usuarios. Para este proyecto, la startup desarrolla **Nexo Kids**, una solución enfocada en la coordinación del cuidado diario de menores.
 
-La startup plantea una plataforma SaaS que centraliza el estado del menor durante su rutina diaria y permite registrar cambios de responsable de manera ordenada. El producto busca brindar a los padres una visión clara del estado actual, mientras ofrece a cuidadores, personal de movilidad escolar y personal de la institución mecanismos simples para confirmar las acciones que les corresponden.
+Nexo Kids conecta la información generada durante tres momentos habituales de la jornada: cuidado en el hogar, transporte escolar y llegada o salida de la institución educativa. El objetivo no es limitar la propuesta a mostrar una ubicación en un mapa, sino permitir que los padres entiendan con rapidez qué está ocurriendo, quién figura como responsable y cuáles fueron los eventos relevantes del día.
 
-La visión de AIpaca es construir una experiencia digital confiable, comprensible e inclusiva que facilite la coordinación entre los actores involucrados en el cuidado diario del menor y que pueda evolucionar de manera sostenible como producto digital.
+El proyecto se plantea como un producto SaaS que puede crecer por etapas. Para el MVP se prioriza la coordinación entre familias, cuidadores y movilidad escolar. Funcionalidades como sensores domésticos, reglas avanzadas de automatización e integraciones institucionales más profundas se consideran parte de una evolución posterior y no del alcance inicial.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-Cada perfil debe incluir una fotografía, nombres y apellidos, código de estudiante, carrera, conocimientos técnicos relevantes y habilidades que aportan al trabajo colaborativo.
+Cada integrante debe incorporar una fotografía, nombres y apellidos, código de estudiante, carrera, conocimientos técnicos relevantes y habilidades que pueda aportar al equipo.
 
 #### [Integrante 1]
 
 ![Foto del integrante 1](assets/team/member-1.png)
 
-- **Código:** [código]
+- **Código:** [Completar]
 - **Carrera:** Ingeniería de Software
-- **GitHub:** [usuario]
-- **Conocimientos técnicos:** [conocimientos]
-- **Habilidades:** [habilidades]
+- **GitHub:** [Completar]
+- **Conocimientos técnicos:** [Completar]
+- **Habilidades:** [Completar]
 
 #### [Integrante 2]
 
 ![Foto del integrante 2](assets/team/member-2.png)
 
-- **Código:** [código]
+- **Código:** [Completar]
 - **Carrera:** Ingeniería de Software
-- **GitHub:** [usuario]
-- **Conocimientos técnicos:** [conocimientos]
-- **Habilidades:** [habilidades]
+- **GitHub:** [Completar]
+- **Conocimientos técnicos:** [Completar]
+- **Habilidades:** [Completar]
 
 #### [Integrante 3]
 
 ![Foto del integrante 3](assets/team/member-3.png)
 
-- **Código:** [código]
+- **Código:** [Completar]
 - **Carrera:** Ingeniería de Software
-- **GitHub:** [usuario]
-- **Conocimientos técnicos:** [conocimientos]
-- **Habilidades:** [habilidades]
+- **GitHub:** [Completar]
+- **Conocimientos técnicos:** [Completar]
+- **Habilidades:** [Completar]
 
 #### [Integrante 4]
 
 ![Foto del integrante 4](assets/team/member-4.png)
 
-- **Código:** [código]
+- **Código:** [Completar]
 - **Carrera:** Ingeniería de Software
-- **GitHub:** [usuario]
-- **Conocimientos técnicos:** [conocimientos]
-- **Habilidades:** [habilidades]
+- **GitHub:** [Completar]
+- **Conocimientos técnicos:** [Completar]
+- **Habilidades:** [Completar]
 
 #### [Integrante 5]
 
 ![Foto del integrante 5](assets/team/member-5.png)
 
-- **Código:** [código]
+- **Código:** [Completar]
 - **Carrera:** Ingeniería de Software
-- **GitHub:** [usuario]
-- **Conocimientos técnicos:** [conocimientos]
-- **Habilidades:** [habilidades]
+- **GitHub:** [Completar]
+- **Conocimientos técnicos:** [Completar]
+- **Habilidades:** [Completar]
 
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
 
-La rutina de un menor puede involucrar a varios responsables a lo largo del día. El menor puede iniciar la jornada bajo el cuidado de un adulto en el hogar, ser entregado a una movilidad escolar, ingresar a la institución educativa y, posteriormente, recorrer el proceso inverso. Cuando cada cambio se confirma por canales distintos, los padres pueden carecer de una visión unificada de lo ocurrido y depender de mensajes o llamadas para conocer el estado actual.
+La jornada de un menor puede involucrar a varias personas responsables. Por ejemplo, puede iniciar el día con un cuidador, ser entregado a una movilidad escolar, llegar al colegio y repetir el proceso en sentido inverso por la tarde. En muchos casos, estas confirmaciones se realizan mediante llamadas, chats o mensajes separados. Como consecuencia, el padre o tutor puede conocer partes de la situación, pero no disponer de una secuencia única y fácil de consultar.
 
-AIpaca propone abordar esta situación mediante una plataforma web que centraliza eventos relevantes, confirmaciones de entrega y recepción, estado del traslado y notificaciones asociadas a cambios o incidencias. La solución brinda soporte digital a la coordinación y comunicación entre los actores involucrados sin sustituir los protocolos físicos de seguridad de cada institución.
+Nexo Kids propone ordenar esos eventos en una experiencia digital centralizada. La plataforma registra cambios de responsable, hitos del traslado, incidencias y confirmaciones, y los presenta en una línea de tiempo diaria. De esta forma, la ubicación es un dato complementario y no el único indicador disponible.
 
-#### Análisis 5W+2H
+#### Análisis preliminar 5W+2H
 
-| Dimensión | Desarrollo preliminar |
+| Dimensión | Desarrollo inicial |
 |---|---|
-| **Who?** | Padres o tutores, cuidadores del hogar, personal de movilidad escolar y personal autorizado de instituciones educativas. |
-| **What?** | Falta de una vista unificada y oportuna sobre cambios de responsable, traslados y confirmaciones del menor durante la jornada. |
-| **Where?** | Hogar, trayecto de movilidad escolar e institución educativa. |
-| **When?** | Principalmente durante entregas, recojos, ingresos, salidas y traslados. |
-| **Why?** | La coordinación distribuida puede generar incertidumbre y dificultad para reconstruir la secuencia de eventos. |
-| **How?** | Mediante una plataforma web que registre eventos, cambios de responsable, estados de traslado y notificaciones. |
-| **How much?** | [Agregar evidencia cuantitativa de fuentes confiables o investigación propia]. |
-
-> **Pendiente para TB1:** incorporar fuentes y ajustar la problemática con entrevistas y benchmark.
+| **Who?** | Padres o tutores, cuidadores del hogar y responsables de movilidad escolar. |
+| **What?** | Información fragmentada sobre entregas, recepciones, traslados y responsable actual del menor. |
+| **Where?** | Hogar, puntos de recojo, trayectos de movilidad y entorno escolar. |
+| **When?** | Durante el inicio de la jornada, entregas, recojos, traslados, llegada y retorno a casa. |
+| **Why?** | El uso de canales separados dificulta obtener una visión completa y reconstruir con rapidez qué ocurrió durante el día. |
+| **How?** | Mediante registros de eventos, cambios de responsable, GPS durante el trayecto y notificaciones relevantes. |
+| **How much?** | [Completar con datos cuantitativos obtenidos de fuentes confiables y/o entrevistas.] |
 
 ### 1.2.2. Lean UX Process
 
-El proceso de Lean UX convierte la problemática inicial en supuestos e hipótesis que deben contrastarse mediante investigación y construcción incremental del producto.
+El Lean UX Process se utiliza para convertir la idea inicial en supuestos que luego puedan contrastarse mediante entrevistas, benchmark y validación del producto. Las afirmaciones de esta etapa se consideran hipótesis de trabajo hasta contar con evidencia suficiente.
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-> The current state of daily child-care coordination has focused mainly on isolated communication between parents, home caregivers, school transportation staff, and schools. What existing products and services fail to address is a unified and understandable view of responsibility handoffs and relevant events across home, transportation, and school. Our product will address this gap by providing a web platform that centralizes responsibility confirmations, trip status, event history, and notifications for the people involved in the child’s daily routine. Our initial focus will be families and service providers that coordinate recurring school-day handoffs. We will know we are successful when users can confirm and consult relevant handoff information with less dependence on fragmented communication channels and can complete the main coordination tasks through the platform.
+**Problem Statement — Brand New Initiative**
 
-> **Pendiente para TB1:** revisar con evidencia de entrevistas, 5W+2H y benchmark.
+> The current state of daily child-care coordination has focused mainly on separate communication between parents, caregivers and school transportation providers. What existing products and services fail to address is a simple and unified way to understand responsibility handoffs, transportation events and the child’s current status throughout the day. Nexo Kids will address this gap by organizing handoff confirmations, trip events, incidents and notifications in a single timeline. Our initial focus will be parents or guardians, home caregivers and school transportation providers involved in recurring school-day routines. We will know we are successful when users can complete and consult the main handoff and trip-status tasks through the platform with less dependence on calls and fragmented messages.
 
 #### 1.2.2.2. Lean UX Assumptions
 
 ##### Business Assumptions
 
-1. Existe valor potencial en centralizar digitalmente la coordinación de entregas, traslados e ingresos de menores.
-2. Los padres o tutores constituyen el segmento con mayor interés en consultar el estado y secuencia de eventos.
-3. La participación de cuidadores, movilidad escolar e institución educativa es necesaria para mantener información útil y actualizada.
-4. Una propuesta SaaS puede ser sostenible si demuestra valor para familias y organizaciones que gestionan procesos recurrentes de traslado y recepción.
-5. Confianza, claridad y facilidad de uso serán factores relevantes para la adopción.
+1. Creemos que las familias valorarán una herramienta que reúna en un solo lugar los principales eventos del cuidado y traslado diario.
+2. Creemos que el producto tendrá mayor valor cuando los actores que participan en la entrega y recepción registren información de forma sencilla.
+3. Creemos que un modelo SaaS puede atender tanto a familias como, posteriormente, a proveedores de movilidad e instituciones.
+4. Creemos que la confianza, la privacidad y la claridad de la información serán factores decisivos para la adopción.
+5. Creemos que el MVP debe concentrarse primero en coordinación de responsables y transporte antes de incorporar sensores u otras automatizaciones.
 
 ##### Business Outcome Assumptions
 
-1. El éxito inicial puede observarse en la cantidad de usuarios que completan flujos principales sin asistencia externa.
-2. Una mayor frecuencia de confirmaciones registradas incrementará el valor percibido por los padres.
-3. La recurrencia de uso durante jornadas escolares puede servir como indicador de retención.
-4. La reducción de consultas manuales puede utilizarse como indicador de eficiencia del proceso.
+1. Aumentar el porcentaje de jornadas en las que los principales cambios de responsable quedan registrados digitalmente.
+2. Conseguir que los usuarios consulten de forma recurrente el estado y la línea de tiempo durante días de actividad escolar.
+3. Reducir la necesidad declarada de realizar llamadas o mensajes únicamente para confirmar ubicación o responsable actual.
+4. Lograr que los principales flujos del MVP puedan completarse sin asistencia externa.
 
 ##### User Assumptions
 
-1. Los padres necesitan conocer quién aparece como responsable actual y qué eventos relevantes ocurrieron.
-2. Los cuidadores necesitan registrar rápidamente una entrega o recepción.
-3. El personal de movilidad necesita confirmar recojos, traslados, entregas e incidencias sin añadir complejidad innecesaria.
-4. El personal autorizado del colegio necesita registrar ingresos y salidas de manera clara y verificable.
-5. Todos los segmentos requieren una interfaz responsive, comprensible y accesible.
+1. Los padres o tutores necesitan conocer el estado actual, responsable y eventos relevantes del menor.
+2. Los cuidadores necesitan una forma rápida de registrar inicio de jornada, entrega, recepción e incidencias.
+3. Los responsables de movilidad necesitan registrar abordaje, descenso, estado del trayecto e incidencias con pocos pasos.
+4. Los usuarios necesitan recibir únicamente alertas útiles, evitando una sobrecarga de notificaciones.
+5. Los actores operativos deben visualizar solo la información necesaria para cumplir su función.
 
 ##### User Outcome and Benefit Assumptions
 
-1. Los padres desean reducir la incertidumbre sobre el estado del menor.
-2. Los cuidadores desean confirmar una entrega o recepción sin depender de múltiples mensajes.
-3. La movilidad desea mantener un registro ordenado de los hitos del traslado.
-4. El personal escolar desea verificar eventos de ingreso y salida asociados a su responsabilidad.
-5. Los usuarios desean recibir información relevante sin una carga excesiva de notificaciones.
+1. Los padres podrán entender en pocos segundos dónde se encuentra el menor y quién figura como responsable.
+2. Los cuidadores podrán dejar evidencia de una entrega o recepción sin depender de mensajes informales.
+3. Los responsables de movilidad podrán comunicar hitos del trayecto con un flujo sencillo.
+4. Los padres podrán revisar posteriormente una secuencia de eventos cuando exista una incidencia o duda.
+5. Los usuarios sentirán mayor claridad al recibir estados comprensibles en lugar de datos aislados.
 
 ##### Feature Assumptions
 
-1. Una línea de tiempo ayudará a comprender la secuencia de la jornada.
-2. Un mecanismo de confirmación de entrega y recepción permitirá registrar cambios de responsable.
-3. Un módulo de estado de traslado permitirá informar el progreso general de la movilidad escolar.
-4. Notificaciones asociadas a eventos relevantes reducirán la necesidad de consultas manuales.
-5. Un panel adaptado por rol facilitará que cada actor vea únicamente la información y acciones pertinentes.
-6. Un registro de incidencias permitirá comunicar situaciones excepcionales de forma estructurada.
+1. Una vista **Today** con estado, responsable actual, próximo hito y alertas permitirá comprender rápidamente la situación.
+2. Una **Daily Timeline** facilitará revisar cronológicamente entregas, traslados e incidencias.
+3. Un flujo de **Handoff Confirmation** mediante PIN o QR permitirá registrar entrega y recepción.
+4. Un módulo de **School Trip Tracking** con GPS y estados permitirá seguir el trayecto sin depender únicamente de coordenadas.
+5. Un **Notification Center** con niveles de prioridad ayudará a distinguir eventos informativos de incidencias.
+6. Un módulo de **Incident Reporting** permitirá comunicar problemas con contexto y observaciones.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-**H1 — Timeline**  
-We believe we will achieve **greater visibility of the child’s daily process** if **parents or guardians** attain **a clear understanding of the sequence of relevant events** with **a responsibility and activity timeline**.
+**H01 — Today View**  
+We believe we will achieve **more frequent consultation of the platform during school-day routines** if **parents or guardians** attain **a quick understanding of the child’s current status and responsible person** with **a Today view that summarizes status, responsible person, next milestone and active alerts**.
 
-**H2 — Handoff confirmation**  
-We believe we will achieve **more consistent registration of responsibility changes** if **caregivers, school transportation staff, and school staff** attain **a simple way to confirm delivery and reception** with **a handoff confirmation feature**.
+**H02 — Daily Timeline**  
+We believe we will achieve **greater perceived usefulness and repeat usage** if **parents or guardians** attain **a clear reconstruction of what happened during the day** with **a chronological Daily Timeline of handoffs, trip events and incidents**.
 
-**H3 — Transportation status**  
-We believe we will achieve **better communication during school transportation** if **parents and transportation staff** attain **timely visibility of trip progress** with **a transportation status feature**.
+**H03 — Handoff Confirmation**  
+We believe we will achieve **a higher proportion of digitally recorded responsibility changes** if **caregivers and transportation staff** attain **a simple way to confirm delivery and reception** with **a PIN/QR-based Handoff Confirmation flow**.
 
-**H4 — Notifications**  
-We believe we will achieve **less dependence on manual status inquiries** if **parents or guardians** attain **timely awareness of relevant events** with **event-based notifications**.
+**H04 — School Trip Tracking**  
+We believe we will achieve **more recurring use during transportation periods** if **parents or guardians** attain **visibility of relevant trip progress** with **GPS-supported trip tracking and understandable journey states**.
 
-**H5 — Role-based dashboard**  
-We believe we will achieve **higher task completion and lower interaction complexity** if **all operational user segments** attain **access to the actions that correspond to their responsibilities** with **role-based dashboards**.
+**H05 — Notification Center**  
+We believe we will achieve **higher attention to relevant events with less notification overload** if **parents or guardians** attain **a clear distinction between normal updates and situations requiring attention** with **a priority-based Notification Center**.
 
-**H6 — Incident reporting**  
-We believe we will achieve **faster communication of exceptional situations** if **caregivers, transportation staff, and school staff** attain **a structured way to report an issue** with **an incident reporting feature**.
+**H06 — Incident Reporting**  
+We believe we will achieve **faster communication of unexpected situations** if **caregivers and transportation staff** attain **a structured way to report what happened** with **an Incident Reporting feature including category, note and optional evidence**.
 
 #### 1.2.2.4. Lean UX Canvas
 
-| Bloque | Síntesis inicial para AIpaca |
-|---|---|
-| Business Problem | Coordinación fragmentada de entregas, traslados e ingresos durante la rutina diaria del menor. |
-| Business Outcomes | Incrementar uso recurrente, confirmaciones registradas y finalización de flujos principales. |
-| Users | Padres/tutores, cuidadores, movilidad escolar y personal autorizado de la institución educativa. |
-| User Outcomes & Benefits | Mayor claridad del estado, confirmaciones simples y menor dependencia de mensajes aislados. |
-| Solutions | Timeline, handoffs, estado de traslado, notificaciones, paneles por rol e incidencias. |
-| Hypotheses | H1–H6. |
-| Riskiest Assumptions | Disposición de actores operativos a registrar eventos de forma recurrente y percepción de valor por parte de los padres. |
-| Learning | [Definir lo que se validará con entrevistas, prototipos y primeras versiones]. |
+El Lean UX Canvas debe elaborarse con la información validada por el equipo. Como base, debe integrar:
 
-**Captura:** [Insertar]  
-**URL:** [Insertar]
+- **Business Problem:** coordinación fragmentada de responsables y traslados.
+- **Business Outcomes:** uso recurrente, registro de handoffs y reducción de consultas manuales.
+- **Users:** padres/tutores, cuidadores y responsables de movilidad escolar.
+- **User Outcomes & Benefits:** claridad, evidencia de entrega/recepción y seguimiento comprensible.
+- **Solutions:** Today View, Timeline, Handoff Confirmation, Trip Tracking, Notifications e Incidents.
+- **Hypotheses:** H01 a H06.
+- **What we need to learn first:** disposición de cada actor para registrar eventos, información realmente necesaria y nivel de confianza esperado.
+- **Least amount of work to learn:** entrevistas, prototipo navegable y primera versión de Landing Page.
+
+**Evidencia:** [Insertar captura del Lean UX Canvas y enlace a la herramienta utilizada].
 
 ## 1.3. Segmentos objetivo
 
+Para mantener un alcance viable en la primera etapa, se consideran tres segmentos principales:
+
 ### Segmento 1 — Padres o tutores
 
-Personas responsables del menor que necesitan conocer el estado de la jornada, recibir confirmaciones y consultar eventos relevantes.
+Adultos responsables de menores en edad escolar que coordinan diariamente con cuidadores o servicios de transporte. Su necesidad principal es comprender el estado de la jornada sin depender de múltiples conversaciones separadas.
 
 ### Segmento 2 — Cuidadores del hogar
 
-Personas responsables del menor en el hogar que participan en la entrega o recepción al inicio y cierre de la jornada.
+Personas responsables del menor durante determinadas franjas del día y que participan en la entrega o recepción frente a otros responsables. Requieren procesos rápidos que no interfieran con sus tareas habituales.
 
-### Segmento 3 — Personal de movilidad escolar
+### Segmento 3 — Responsables de movilidad escolar
 
-Conductores u operadores responsables del traslado del menor entre el hogar y la institución educativa.
+Conductores o personal de servicios de transporte encargados de recojo, traslado y entrega. Necesitan registrar hitos e incidencias sin distraerse de sus responsabilidades operativas.
 
-### Segmento 4 — Personal autorizado de la institución educativa
-
-Personal que participa en la validación de ingreso o salida del menor y registra eventos asociados a la institución.
-
-> **Pendiente para TB1:** confirmar los segmentos definitivos e incorporar características demográficas y soporte estadístico.
+**Pendiente:** complementar cada segmento con características demográficas e información estadística sustentada.
 
 ---
 
 # Capítulo II: Requirements Elicitation & Analysis
 
-Este capítulo documenta la investigación utilizada para comprender el contexto, analizar competidores y obtener información directa de los segmentos objetivo. Los resultados sirven de base para Needfinding y Requirements Specification.
-
 ## 2.1. Competidores
 
-Se identificarán al menos tres competidores directos con productos digitales similares o, en su defecto, competidores indirectos que cubran parcialmente comunicación escolar, transporte, seguimiento o coordinación familiar.
+El análisis competitivo debe identificar soluciones que cubran total o parcialmente necesidades relacionadas con transporte escolar, seguimiento familiar, comunicación con cuidadores o control de ingreso y salida. El objetivo es reconocer cómo resuelven problemas similares y dónde existe espacio para diferenciar Nexo Kids.
 
 ### 2.1.1. Análisis competitivo
 
-| Dimensión | AIpaca | Competidor 1 | Competidor 2 | Competidor 3 |
+Se deben seleccionar **al menos tres competidores relevantes** y completar el Competitive Analysis Landscape.
+
+| Criterio | Competidor 1 | Competidor 2 | Competidor 3 | Nexo Kids |
 |---|---|---|---|---|
-| Overview | Plataforma de coordinación del cuidado diario y cambios de responsable del menor. | [Completar] | [Completar] | [Completar] |
-| Ventaja competitiva | [Validar] | [Completar] | [Completar] | [Completar] |
-| Valor ofrecido | [Validar] | [Completar] | [Completar] | [Completar] |
-| Mercado objetivo | [Completar] | [Completar] | [Completar] | [Completar] |
-| Estrategias de marketing | [Completar] | [Completar] | [Completar] | [Completar] |
-| Productos y servicios | [Completar] | [Completar] | [Completar] | [Completar] |
-| Precios y costos | [Completar] | [Completar] | [Completar] | [Completar] |
-| Canales Web/Mobile | [Completar] | [Completar] | [Completar] | [Completar] |
-| Fortalezas | [Completar] | [Completar] | [Completar] | [Completar] |
-| Debilidades | [Completar] | [Completar] | [Completar] | [Completar] |
-| Oportunidades | [Completar] | [Completar] | [Completar] | [Completar] |
-| Amenazas | [Completar] | [Completar] | [Completar] | [Completar] |
+| Perfil y segmento | [Completar] | [Completar] | [Completar] | Familias, cuidadores y movilidad escolar |
+| Problema principal que atiende | [Completar] | [Completar] | [Completar] | Coordinación de responsables y traslados |
+| Seguimiento de transporte | [Completar] | [Completar] | [Completar] | Sí, dentro del MVP |
+| Confirmación de handoff | [Completar] | [Completar] | [Completar] | Propuesta mediante PIN/QR |
+| Timeline de eventos | [Completar] | [Completar] | [Completar] | Sí |
+| Gestión de incidencias | [Completar] | [Completar] | [Completar] | Sí |
+| Fortalezas | [Completar] | [Completar] | [Completar] | [Validar] |
+| Debilidades | [Completar] | [Completar] | [Completar] | [Validar] |
+
+**Evidencia:** [Insertar captura del Competitive Analysis Landscape].
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-| Hallazgo competitivo | Estrategia de AIpaca | Táctica concreta |
-|---|---|---|
-| [Hallazgo 1] | [Estrategia] | [Táctica] |
-| [Hallazgo 2] | [Estrategia] | [Táctica] |
-| [Hallazgo 3] | [Estrategia] | [Táctica] |
+A partir del benchmark, el equipo debe validar o corregir las siguientes líneas de diferenciación:
 
-> **Pendiente para TB1:** completar con investigación real y fuentes.
+1. Priorizar la **continuidad del cuidado** y no únicamente la ubicación GPS.
+2. Presentar una **línea de tiempo comprensible** con contexto, responsable y estado.
+3. Registrar **cambios de responsable** como parte central de la experiencia.
+4. Diseñar flujos distintos según el rol y mostrar solo la información necesaria.
+5. Mantener el MVP concentrado en tareas frecuentes antes de incorporar automatizaciones avanzadas.
 
 ## 2.2. Entrevistas
 
-Para cada segmento seleccionado se realizarán entre tres y cinco entrevistas registradas en video. Las preguntas deben ser abiertas y neutrales, y deben recopilar información suficiente para construir los User Personas.
-
 ### 2.2.1. Diseño de entrevistas
 
-#### Preguntas generales
+Se realizarán entre **3 y 5 entrevistas por segmento**. Las preguntas deben ser abiertas y enfocarse primero en la situación actual, evitando presentar la solución demasiado pronto.
 
-1. ¿Podrías contarme cómo es una jornada habitual relacionada con el traslado o cuidado del menor?
-2. ¿Qué personas participan normalmente y qué responsabilidad tiene cada una?
-3. ¿Cómo se comunican actualmente cuando una persona entrega o recibe al menor?
-4. ¿Qué información consideras indispensable conocer durante la jornada?
-5. ¿En qué momentos suelen aparecer dudas, retrasos o problemas de coordinación?
-6. ¿Qué canales digitales utilizas actualmente?
-7. ¿Qué dispositivo utilizas con mayor frecuencia para estas tareas?
-8. ¿Qué aspecto del proceso actual te genera mayor frustración?
-9. ¿Qué tendría que ocurrir para considerar que el proceso funciona de forma confiable?
-10. ¿Recuerdas alguna incidencia que haya sido difícil de comunicar?
+#### Preguntas comunes
 
-#### Padres o tutores
+1. Cuéntame cómo se organiza normalmente el traslado y cuidado del menor durante un día de clases.
+2. ¿Con qué personas necesitas coordinar durante esa rutina?
+3. ¿Qué información sueles necesitar y cómo la obtienes actualmente?
+4. ¿En qué momentos aparecen dudas, retrasos o problemas de comunicación?
+5. ¿Qué haces cuando necesitas confirmar quién está a cargo en un momento determinado?
+6. ¿Qué aplicaciones, chats o servicios utilizas para coordinar estas tareas?
+7. ¿Qué información considerarías demasiado sensible para compartir en una aplicación?
+8. ¿Qué tipo de aviso sí considerarías útil y cuál te parecería innecesario?
 
-1. ¿En qué momentos necesitas saber dónde está el menor o quién está a cargo?
-2. ¿Cómo confirmas que llegó a la movilidad o a la institución?
-3. ¿Con qué frecuencia preguntas manualmente por su estado?
-4. ¿Qué notificaciones serían útiles y cuáles serían excesivas?
-5. ¿Qué información te daría mayor claridad sobre la jornada?
+#### Preguntas para padres o tutores
 
-#### Cuidadores del hogar
+1. ¿En qué momentos del día te preocupa más no tener una confirmación clara?
+2. ¿Sueles llamar o escribir para confirmar llegada, recojo o entrega? ¿Con qué frecuencia?
+3. ¿Qué información sería suficiente para sentir que la jornada está transcurriendo con normalidad?
+4. ¿Te sería útil revisar un historial de lo ocurrido al final del día? ¿Por qué?
 
-1. ¿Cómo coordinas la entrega del menor?
-2. ¿Qué información revisas antes de entregarlo?
-3. ¿Cuánto tiempo podrías dedicar a una confirmación digital?
-4. ¿Qué problemas podrían impedirte registrar un evento en el momento?
-5. ¿Qué información necesitarías al recibir nuevamente al menor?
+#### Preguntas para cuidadores
 
-#### Movilidad escolar
+1. ¿Cómo confirmas actualmente que recibiste o entregaste al menor?
+2. ¿Qué tan viable sería registrar una confirmación desde el celular en ese momento?
+3. ¿Qué información necesitas conocer y qué información no necesitarías ver?
+4. ¿Cómo reportas una incidencia actualmente?
 
-1. ¿Cómo registras actualmente recojos y entregas?
-2. ¿Qué información necesitas antes de recoger a un menor?
-3. ¿En qué momentos sería seguro y práctico realizar una confirmación digital?
-4. ¿Cómo comunicas retrasos o incidencias?
-5. ¿Qué información sería útil sin distraer al conductor?
+#### Preguntas para responsables de movilidad
 
-#### Personal de institución educativa
-
-1. ¿Cómo se valida actualmente el ingreso y salida?
-2. ¿Qué información se verifica antes de una entrega o recepción?
-3. ¿Qué situaciones requieren coordinación adicional?
-4. ¿Qué datos deberían quedar registrados?
-5. ¿Qué limitaciones operativas tendría una herramienta digital?
+1. ¿Cómo registras actualmente recojos, abordajes, descensos y retrasos?
+2. ¿Qué tareas digitales podrías realizar sin afectar tu trabajo durante la ruta?
+3. ¿Qué situaciones suelen generar más llamadas o mensajes de los padres?
+4. ¿Cómo comunicarías un retraso, desvío o incidencia?
 
 ### 2.2.2. Registro de entrevistas
 
-| # | Segmento | Nombres y apellidos | Edad | Distrito | Inicio | Duración | Video |
-|---:|---|---|---:|---|---|---|---|
-| 1 | [Segmento] | [Entrevistado] | [Edad] | [Distrito] | [hh:mm:ss] | [mm:ss] | [URL Stream] |
+| # | Segmento | Nombres y apellidos | Edad | Distrito | Fecha | Inicio en video | Duración | URL Microsoft Stream | Screenshot | Resumen |
+|---:|---|---|---:|---|---|---|---|---|---|---|
+| 1 | [Segmento] | [Completar] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
-**Captura:** [Insertar]  
-**Resumen:** [Redactar las respuestas y características observadas sin inventar información].
+**Video consolidado:** `upc-pre-202620-1asi0730-8137-aipaca-needfinding-sprint-1.mp4`  
+**URL:** [Completar]
 
 ### 2.2.3. Análisis de entrevistas
 
-| Variable | Segmento | Resultado | Interpretación |
-|---|---|---:|---|
-| [Variable 1] | [Segmento] | [X%] | [Interpretación sustentada] |
-| [Variable 2] | [Segmento] | [X%] | [Interpretación sustentada] |
+El análisis debe realizarse por segmento y expresar mediante porcentajes las características objetivas y subjetivas más representativas. Las cifras deben salir únicamente de las entrevistas registradas.
 
-> **Pendiente para TB1:** calcular porcentajes únicamente a partir de entrevistas reales.
+| Variable | Segmento | Resultado | Interpretación |
+|---|---|---|---|
+| Uso de mensajería para coordinación | [ ] | [ ]% | [Completar] |
+| Necesidad de confirmar entregas | [ ] | [ ]% | [Completar] |
+| Interés en historial diario | [ ] | [ ]% | [Completar] |
+| Preocupación por privacidad | [ ] | [ ]% | [Completar] |
 
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
-Se elaborará una ficha en UXPressia por cada segmento objetivo confirmado. Cada arquetipo debe sustentarse en patrones de entrevistas e incluir demografía, biografía, objetivos, motivaciones, frustraciones, personalidad, marcas, tecnología, dispositivos y canales digitales.
+Se elaborará un User Persona por segmento en UXPressia. Cada ficha debe construirse a partir de las entrevistas y considerar objetivos, frustraciones, comportamiento, personalidad, habilidades, dispositivos, canales digitales, influencias relevantes y background.
 
-**URL UXPressia:** [URL]  
-**Capturas:** [Insertar]  
-**Explicación:** [Relacionar cada Persona con entrevistas y benchmark].
+- **User Persona 1:** Parent/Guardian — [Nombre del arquetipo].
+- **User Persona 2:** Home Caregiver — [Nombre del arquetipo].
+- **User Persona 3:** School Transportation Staff — [Nombre del arquetipo].
+
+**Evidencias:** [Insertar capturas y enlaces de UXPressia].
 
 ### 2.3.2. User Task Matrix
 
-| Tarea actual | Persona 1 — Frecuencia | Persona 1 — Importancia | Persona 2 — Frecuencia | Persona 2 — Importancia | Persona 3 — Frecuencia | Persona 3 — Importancia | Persona 4 — Frecuencia | Persona 4 — Importancia |
-|---|---|---|---|---|---|---|---|---|
-| Confirmar quién recibe o entrega al menor | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Comunicar un cambio o retraso | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Verificar que el menor llegó a destino | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Resolver una incidencia | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+Las tareas representan actividades reales de las personas, no funcionalidades de la aplicación.
 
-**Análisis:** [Explicar tareas de mayor frecuencia/importancia y diferencias entre Personas].
+Escala sugerida: **Frecuencia** 1 = baja, 2 = media, 3 = alta. **Importancia** 1 = baja, 2 = media, 3 = alta.
+
+| Tarea actual | Parent/Guardian F/I | Home Caregiver F/I | Transportation Staff F/I |
+|---|---|---|---|
+| Confirmar quién tiene al menor | [ ]/[ ] | [ ]/[ ] | [ ]/[ ] |
+| Coordinar una entrega o recepción | [ ]/[ ] | [ ]/[ ] | [ ]/[ ] |
+| Confirmar salida o llegada | [ ]/[ ] | [ ]/[ ] | [ ]/[ ] |
+| Comunicar un retraso o incidencia | [ ]/[ ] | [ ]/[ ] | [ ]/[ ] |
+| Revisar lo ocurrido durante el día | [ ]/[ ] | [ ]/[ ] | [ ]/[ ] |
+
+**Análisis:** [Explicar tareas más frecuentes/importantes y diferencias entre personas].
 
 ### 2.3.3. User Journey Mapping
 
-Se elaborará un As-Is User Journey Map por cada User Persona, representando la situación actual sin AIpaca.
+Se elaborará un **As-Is User Journey Map por cada User Persona**, mostrando la experiencia actual antes de Nexo Kids.
 
-**Herramienta:** UXPressia  
-**Capturas:** [Insertar]  
-**Explicación:** [Describir etapas, acciones, emociones, pain points y oportunidades].
+- Parent/Guardian Journey: coordinación y seguimiento de una jornada escolar.
+- Home Caregiver Journey: inicio de cuidado, preparación, entrega y recepción.
+- Transportation Staff Journey: recojo, trayecto, entrega y comunicación de incidencias.
+
+**Evidencias:** [Insertar capturas de UXPressia y explicación de cada journey].
 
 ### 2.3.4. Empathy Mapping
 
-Se elaborará un Empathy Map por cada User Persona para sintetizar qué dice, hace, piensa, siente, ve y escucha, además de sus pains y gains.
+Se elaborará un Empathy Map por User Persona. Debe incluir qué dice, piensa, hace, ve y escucha, además de Pains y Gains derivados de la investigación.
 
-**Herramienta:** UXPressia  
-**Capturas:** [Insertar]
+**Evidencias:** [Insertar capturas y análisis].
 
 ## 2.4. Big Picture Event Storming
 
-El Big Picture Event Storming permitirá representar los eventos significativos del dominio y comprender cómo se relacionan los procesos entre hogar, transporte e institución educativa.
+El Big Picture Event Storming permitirá representar de forma colaborativa los eventos relevantes del dominio antes de definir la arquitectura detallada.
 
-**Herramienta:** FigJam / LucidChart / Miro  
-**URL:** [URL]  
-**Captura:** [Insertar]
+Eventos iniciales propuestos para discusión:
 
-Eventos iniciales a evaluar: *Child Prepared*, *Child Handed Over*, *Pickup Confirmed*, *Trip Started*, *School Arrival Confirmed*, *School Entry Confirmed*, *School Exit Confirmed*, *Return Trip Started*, *Home Arrival Confirmed* e *Incident Reported*.
+- `Caregiver Checked In`
+- `Child Ready for Pickup`
+- `Handoff Requested`
+- `Handoff Confirmed`
+- `Child Boarded Vehicle`
+- `School Trip Started`
+- `Delay Reported`
+- `Incident Reported`
+- `Destination Reached`
+- `Child Dropped Off`
+- `Child Returned Home`
+
+Estos eventos deben revisarse en la sesión del equipo y reorganizarse de acuerdo con la investigación.
+
+**Evidencia:** [Insertar captura del Big Picture Event Storming y explicación de las etapas realizadas].
 
 ## 2.5. Ubiquitous Language
 
-| Término | Definición |
+Los términos del dominio se mantienen en inglés; la definición puede expresarse en español.
+
+| Term | Definición |
 |---|---|
-| **Child** | Menor cuya rutina de cuidado y traslado es coordinada mediante la plataforma. |
-| **Parent / Guardian** | Padre, madre o tutor responsable de consultar y gestionar información del menor. |
-| **Home Caregiver** | Persona responsable del menor en el hogar antes o después del traslado. |
-| **School Transportation Staff** | Persona autorizada que participa en el traslado escolar. |
-| **School Staff** | Personal autorizado que registra o confirma ingresos y salidas. |
-| **Handoff** | Cambio de responsabilidad del menor entre actores autorizados. |
-| **Pickup** | Evento de recojo que inicia un traslado o cambio de responsabilidad. |
-| **Drop-off** | Evento de entrega del menor a otro responsable o destino. |
-| **Responsibility Status** | Estado que indica qué actor aparece actualmente a cargo dentro del flujo registrado. |
-| **Journey Event** | Evento relevante de la secuencia diaria. |
-| **Incident** | Situación excepcional registrada durante el cuidado o traslado. |
-| **Notification** | Mensaje generado por un evento relevante para un usuario autorizado. |
+| **Child** | Menor cuya jornada de cuidado y traslado se registra en el sistema. |
+| **Parent / Guardian** | Persona con responsabilidad principal y permisos de administración sobre el perfil del menor. |
+| **Caregiver** | Persona autorizada que cuida al menor durante una franja determinada. |
+| **Transportation Staff** | Persona responsable del recojo, traslado o entrega durante un School Trip. |
+| **Authorized Person** | Persona habilitada por el Parent/Guardian para recibir o entregar al menor. |
+| **Handoff** | Cambio registrado de responsabilidad entre dos personas autorizadas. |
+| **Handoff Confirmation** | Evidencia digital de que un Handoff fue aceptado por las partes correspondientes. |
+| **School Trip** | Trayecto asociado al traslado escolar del menor. |
+| **Journey Event** | Evento relevante ocurrido durante la jornada o el traslado. |
+| **Daily Timeline** | Secuencia cronológica de Journey Events mostrada para una fecha. |
+| **Incident** | Situación inesperada que requiere registro y comunicación. |
+| **Notification** | Mensaje generado a partir de un evento o regla relevante. |
+| **Current Status** | Estado resumido que indica el contexto actual del menor. |
 
 ---
 
@@ -508,74 +506,63 @@ Eventos iniciales a evaluar: *Child Prepared*, *Child Handed Over*, *Pickup Conf
 
 ## 3.1. User Stories
 
-Las User Stories expresan rol, necesidad y beneficio. Los criterios de aceptación deben ser comprobables y redactarse principalmente con Given–When–Then. Las Technical Stories del RESTful API deben utilizar el rol Developer.
+Las User Stories utilizan el patrón **Como [rol], deseo [característica], para [beneficio]**. Los Acceptance Criteria deben ser comprobables y redactarse en formato Given-When-Then cuando corresponda.
 
-### Epics propuestas
-
-- **EP01 — Public Product Experience**
-- **EP02 — Daily Responsibility Coordination**
-- **EP03 — School Transportation**
-- **EP04 — School Handover**
-- **EP05 — Notifications & Incidents**
-- **EP06 — Platform Access**
-
-| Epic / Story ID | Título | Descripción | Criterios de aceptación | Relacionado con |
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con |
 |---|---|---|---|---|
-| **US01** | View product value proposition | Como visitante, deseo comprender el propósito de AIpaca para determinar si responde a mis necesidades. | Given que el visitante accede al Landing Page, When visualiza la sección principal, Then identifica propósito y propuesta de valor. | EP01 |
-| **US02** | Explore segment benefits | Como visitante de un segmento objetivo, deseo conocer beneficios relevantes para mi rol. | Given que navega por el Landing Page, When accede a beneficios, Then encuentra información diferenciada para los segmentos. | EP01 |
-| **US03** | Access product call-to-action | Como visitante, deseo disponer de un CTA claro para acceder a la experiencia web. | Given que identifica el CTA, When lo selecciona, Then es dirigido a la vista correspondiente de la Web Application. | EP01 |
-| **US04** | View contact and social information | Como visitante, deseo encontrar contacto y redes oficiales. | Given que llega a contacto, When consulta la información, Then identifica los canales definidos. | EP01 |
-| **US05** | View current responsible party | Como padre o tutor, deseo consultar quién aparece como responsable actual del menor para conocer su estado. | Given que existe un estado vigente, When consulta el panel, Then visualiza responsable actual y último evento confirmado. | EP02 |
-| **US06** | View daily timeline | Como padre o tutor, deseo consultar una línea de tiempo para comprender la jornada. | Given que existen eventos, When abre el timeline, Then se muestran ordenados cronológicamente. | EP02 |
-| **US07** | Confirm home handoff | Como cuidador del hogar, deseo confirmar entrega o recepción para registrar el cambio de responsabilidad. | Given un handoff pendiente y actor autorizado, When confirma, Then se registra el evento y se actualiza el estado. | EP02 |
-| **US08** | Confirm transportation pickup | Como personal de movilidad, deseo confirmar el recojo para registrar el inicio de mi responsabilidad. | Given que el menor está programado, When confirma el pickup, Then se registra con fecha y hora. | EP03 |
-| **US09** | Update trip status | Como personal de movilidad, deseo actualizar el estado del traslado. | Given un traslado activo, When actualiza un estado permitido, Then queda asociado y disponible para usuarios autorizados. | EP03 |
-| **US10** | View trip status | Como padre o tutor, deseo consultar el estado del traslado. | Given un traslado activo, When consulta el estado, Then visualiza la información vigente disponible. | EP03 |
-| **US11** | Confirm school entry | Como personal autorizado del colegio, deseo confirmar el ingreso del menor. | Given que el menor llega, When confirma el ingreso, Then se registra el evento y se actualiza el estado. | EP04 |
-| **US12** | Confirm school exit | Como personal autorizado del colegio, deseo confirmar la salida y entrega del menor. | Given una salida válida, When confirma la entrega, Then se registra el evento y siguiente responsable. | EP04 |
-| **US13** | Receive relevant notifications | Como padre o tutor, deseo recibir notificaciones de eventos relevantes. | Given un evento notificable, When se registra correctamente, Then se genera la notificación correspondiente. | EP05 |
-| **US14** | Report incident | Como actor operativo autorizado, deseo registrar una incidencia. | Given una incidencia, When registra la información requerida, Then queda asociada al menor y contexto. | EP05 |
-| **US15** | Access role-based dashboard | Como usuario registrado, deseo acceder a un panel acorde con mi rol. | Given un rol válido, When accede a la aplicación, Then se muestra la experiencia correspondiente. | EP06 |
-| **TS01** | Responsibility events API | Como Developer, deseo endpoints RESTful para consultar y registrar eventos de responsabilidad. | Given una request válida, When se procesa, Then la API responde con estado HTTP y representación consistente. | EP02 |
-| **TS02** | Transportation API | Como Developer, deseo endpoints RESTful para estados de traslado. | Given una request válida, When se consulta o actualiza un traslado, Then la API responde según el contrato. | EP03 |
-| **TS03** | Incident API | Como Developer, deseo endpoints RESTful para registrar y consultar incidencias. | Given una incidencia válida, When se envía la request, Then se registra y responde con el código HTTP correspondiente. | EP05 |
-
-> **Pendiente para TB1:** ajustar el conjunto final según entrevistas e Impact Map y agregar todos los criterios necesarios por Story.
+| EP01 | Landing Page Experience | Como visitante, deseo conocer Nexo Kids para decidir si la propuesta resulta relevante para mí. | — | — |
+| US01 | View product value proposition | Como visitante, deseo comprender el propósito de Nexo Kids para saber qué problema resuelve. | **Given** que el visitante accede al Landing Page, **When** revisa la sección principal, **Then** visualiza una propuesta de valor, explicación breve del producto y CTA claro. | EP01 |
+| US02 | Explore main features | Como visitante, deseo conocer las funciones principales para entender cómo Nexo Kids apoya la rutina diaria. | **Given** que el visitante navega por el Landing Page, **When** consulta la sección de características, **Then** encuentra información sobre Today View, Timeline, Handoffs, Trip Tracking e Incidents. | EP01 |
+| US03 | Contact the startup | Como visitante, deseo encontrar medios de contacto para poder comunicarme con la startup. | **Given** que el visitante llega a la sección de contacto, **When** revisa la información, **Then** encuentra CTA, datos de contacto y accesos a redes sociales propuestas. | EP01 |
+| EP02 | Parent Daily Overview | Como Parent/Guardian, deseo consultar el estado diario del menor para comprender rápidamente la situación actual. | — | — |
+| US04 | View current status | Como Parent/Guardian, deseo ver el estado y responsable actual para conocer quién está a cargo. | **Given** que el usuario tiene un menor asociado, **When** abre Today View, **Then** visualiza Current Status, responsable y último evento confirmado. | EP02 |
+| US05 | Review daily timeline | Como Parent/Guardian, deseo revisar la Daily Timeline para conocer la secuencia de eventos del día. | **Given** que existen Journey Events, **When** el usuario abre la Timeline, **Then** los eventos se muestran ordenados cronológicamente con hora, tipo y responsable cuando corresponda. | EP02 |
+| EP03 | Care Handoffs | Como participante autorizado, deseo confirmar cambios de responsabilidad para dejar evidencia de la entrega o recepción. | — | — |
+| US06 | Start caregiver shift | Como Caregiver, deseo registrar mi check-in para indicar que inicio el periodo de cuidado. | **Given** que el Caregiver está autorizado, **When** confirma el inicio, **Then** el sistema registra fecha, hora y nuevo Current Status. | EP03 |
+| US07 | Confirm handoff | Como Caregiver o Transportation Staff, deseo confirmar un Handoff para registrar la entrega y recepción del menor. | **Given** que existe un Handoff pendiente, **When** ambas partes completan la validación definida, **Then** el Handoff queda confirmado y se genera un Journey Event. | EP03 |
+| EP04 | School Transportation | Como Parent/Guardian, deseo consultar los eventos del traslado para conocer el progreso del School Trip. | — | — |
+| US08 | View school trip progress | Como Parent/Guardian, deseo visualizar el progreso del School Trip para saber si el traslado se desarrolla con normalidad. | **Given** que existe un School Trip activo, **When** el usuario consulta el seguimiento, **Then** visualiza estados relevantes y ubicación disponible del trayecto. | EP04 |
+| US09 | Register boarding and drop-off | Como Transportation Staff, deseo registrar abordaje y descenso para comunicar los hitos principales del traslado. | **Given** que tengo un School Trip asignado, **When** confirmo un abordaje o descenso, **Then** el sistema registra el evento con fecha y hora. | EP04 |
+| EP05 | Incidents & Notifications | Como usuario autorizado, deseo registrar o recibir información sobre incidencias para reaccionar de forma oportuna. | — | — |
+| US10 | Report incident | Como Caregiver o Transportation Staff, deseo registrar una incidencia para comunicar qué ocurrió. | **Given** que el usuario está a cargo o participa en el trayecto, **When** registra categoría y descripción, **Then** se crea un Incident y se notifica según prioridad. | EP05 |
+| US11 | Receive relevant notifications | Como Parent/Guardian, deseo recibir notificaciones relevantes para identificar cambios o situaciones que requieren atención. | **Given** que ocurre un evento configurado, **When** el sistema procesa el evento, **Then** genera una Notification con el nivel de prioridad correspondiente. | EP05 |
+| TS01 | Handoff REST endpoints | Como Developer, deseo endpoints REST para Handoffs para integrar confirmaciones con la Web Application. | **Given** una request válida, **When** se crea o consulta un Handoff, **Then** la API responde con status HTTP y representación consistente del recurso. | EP03 |
+| TS02 | School Trip REST endpoints | Como Developer, deseo endpoints REST para School Trips y Journey Events para soportar seguimiento del traslado. | **Given** una request autorizada, **When** se consulta o actualiza un School Trip, **Then** la API responde con el recurso o error documentado mediante OpenAPI. | EP04 |
 
 ## 3.2. Impact Mapping
 
-**Herramienta:** UXPressia  
-**URL:** [URL]  
-**Captura:** [Insertar]
+Los Business Goals definitivos deben ser SMART y ajustarse después de la investigación. La siguiente tabla sirve como base para construir el Impact Map en UXPressia.
 
-| Business Goal SMART | Actor / Persona | Impact | Deliverable | User Stories |
+| Business Goal preliminar | Actor / Persona | Impact esperado | Deliverable | User Stories |
 |---|---|---|---|---|
-| [Objetivo SMART 1] | Padre/Tutor | [Impact] | Timeline y estado | US05, US06 |
-| [Objetivo SMART 2] | Movilidad | [Impact] | Pickup y estado de traslado | US08, US09 |
-| [Objetivo SMART 3] | Personal escolar | [Impact] | Confirmaciones de ingreso/salida | US11, US12 |
+| Incrementar el registro digital de handoffs durante el piloto | Caregiver / Transportation Staff | Confirma entregas y recepciones desde la plataforma | Handoff Confirmation | US06, US07 |
+| Conseguir uso recurrente de la plataforma durante jornadas escolares | Parent/Guardian | Consulta estado y eventos sin depender de mensajes aislados | Today View + Daily Timeline | US04, US05 |
+| Mejorar la visibilidad del trayecto para las familias participantes | Parent/Guardian / Transportation Staff | Registra y consulta hitos del School Trip | School Trip Tracking | US08, US09 |
+| Centralizar la comunicación de incidencias del piloto | Parent/Guardian / Caregiver / Transportation Staff | Registra y recibe información estructurada sobre incidentes | Incidents & Notifications | US10, US11 |
 
-> **Pendiente:** definir varios Business Goals con métricas y plazos sustentados.
+**Evidencia:** [Insertar captura y URL pública del Impact Map].
 
 ## 3.3. Product Backlog
 
-| # Orden | User Story ID | Título | Descripción | Story Points |
+El backlog debe ordenarse por valor para el negocio. Las estimaciones utilizan Story Points 1, 2, 3, 5 u 8.
+
+| # | User Story ID | Título | Descripción resumida | Story Points |
 |---:|---|---|---|---:|
-| 1 | US01 | View product value proposition | Como visitante, deseo comprender el propósito de AIpaca. | [ ] |
-| 2 | US03 | Access product call-to-action | Como visitante, deseo disponer de un CTA claro. | [ ] |
-| 3 | US05 | View current responsible party | Como padre o tutor, deseo consultar el responsable actual. | [ ] |
-| 4 | US06 | View daily timeline | Como padre o tutor, deseo consultar una línea de tiempo. | [ ] |
-| 5 | US07 | Confirm home handoff | Como cuidador, deseo confirmar entrega o recepción. | [ ] |
-| 6 | US08 | Confirm transportation pickup | Como movilidad, deseo confirmar el recojo. | [ ] |
-| 7 | US11 | Confirm school entry | Como personal del colegio, deseo confirmar ingreso. | [ ] |
-| 8 | US13 | Receive relevant notifications | Como padre o tutor, deseo recibir notificaciones relevantes. | [ ] |
-| 9 | US14 | Report incident | Como actor autorizado, deseo registrar una incidencia. | [ ] |
-| 10 | US15 | Access role-based dashboard | Como usuario registrado, deseo acceder a un panel acorde con mi rol. | [ ] |
+| 1 | US01 | View product value proposition | Comunicar problema, propuesta y CTA en Landing Page | 3 |
+| 2 | US02 | Explore main features | Presentar capacidades principales del producto | 3 |
+| 3 | US04 | View current status | Consultar Current Status y responsable actual | 5 |
+| 4 | US05 | Review daily timeline | Consultar eventos ordenados del día | 5 |
+| 5 | US07 | Confirm handoff | Confirmar entrega y recepción del menor | 8 |
+| 6 | US08 | View school trip progress | Consultar progreso del traslado | 8 |
+| 7 | US09 | Register boarding and drop-off | Registrar hitos del trayecto | 5 |
+| 8 | US10 | Report incident | Registrar una incidencia | 5 |
+| 9 | US11 | Receive relevant notifications | Recibir avisos según eventos relevantes | 5 |
+| 10 | US06 | Start caregiver shift | Registrar inicio del periodo de cuidado | 3 |
+| 11 | US03 | Contact the startup | Acceder a contacto y CTA | 2 |
+| 12 | TS01 | Handoff REST endpoints | Soporte REST para Handoffs | 8 |
+| 13 | TS02 | School Trip REST endpoints | Soporte REST para School Trips | 8 |
 
-**Herramienta:** [Trello / Jira / YouTrack]  
-**URL pública:** [URL]  
-**Captura:** [Insertar]
-
-> **Pendiente para TB1:** completar estimación en 1/2/3/5/8 Story Points y priorización real por valor de negocio.
+**Product Backlog URL:** [Completar con enlace público de Trello / Jira / YouTrack].
 
 ---
 
@@ -585,447 +572,523 @@ Las User Stories expresan rol, necesidad y beneficio. Los criterios de aceptaci�
 
 ### 4.1.1. General Style Guidelines
 
-La identidad visual de AIpaca debe transmitir confianza, claridad y acompañamiento. El sistema visual documentará branding, tipografía, colores, espaciado y tono de comunicación.
+La identidad de Nexo Kids debe comunicar confianza, claridad y acompañamiento sin utilizar un tono infantilizado. La comunicación se plantea como **seria pero cercana, respetuosa, calmada y directa**.
 
-- **Branding:** [logo e identidad].
-- **Typography:** [familias, pesos y jerarquías].
-- **Colors:** [paleta y estados].
-- **Spacing:** [escala].
-- **Tone of Voice:** serio, respetuoso, claro y sereno.
-
-**Captura del Style Guide:** [Insertar Figma]
+- **Branding:** [Insertar logo y justificar concepto visual].
+- **Typography:** [Definir tipografías del Design System].
+- **Colors:** [Definir paleta, contrastes y usos].
+- **Spacing:** utilizar una escala consistente para márgenes, paddings y separación entre componentes.
+- **Tone of Voice:** claro, sereno, respetuoso y orientado a acciones.
+- **Inclusive Design:** priorizar contraste, textos legibles, navegación por teclado y etiquetas comprensibles.
+- **Internationalization:** considerar `en_US` y `es_419`.
+- **Default product language:** English.
 
 ### 4.1.2. Web Style Guidelines
 
-Las interfaces aplicarán Responsive Web Design y Material Design. Para Aplicaciones Web, la Frontend Web Application se implementará con **Vue Framework** y **PrimeVue**. La experiencia debe mantener consistencia con el Landing Page.
+Las interfaces responsive del Landing Page y Web Application utilizarán Material Design como base visual. Para Aplicaciones Web, la Frontend Web Application se implementará con Vue y PrimeVue.
 
-Se considerará internacionalización para **English (en_US)** y **Latin American Spanish (es_419)**. El idioma por defecto de mensajes, interfaz y documentación de los productos será inglés. Se incorporarán atributos ARIA y prácticas de accesibilidad.
+Se debe contemplar:
+
+- breakpoints para Desktop, Tablet y Mobile;
+- componentes con estados normal, hover, focus, disabled y error;
+- feedback visible después de acciones importantes;
+- formularios con labels persistentes y validación comprensible;
+- ARIA attributes donde corresponda;
+- imágenes con texto alternativo;
+- navegación consistente entre vistas.
 
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
 
-El Landing Page seguirá una organización jerárquica y secuencial: propuesta de valor, problema, beneficios, funcionamiento, segmentos, CTA, contacto y footer. La Web Application se organizará según rol y contexto de tarea.
+Se propone una organización híbrida:
+
+- **Landing Page:** secuencial por propuesta de valor → problema → solución → funciones → contacto.
+- **Parent Web App:** por contexto de uso: Today, Timeline, Trips, Incidents, Authorized People y Settings.
+- **Operational views:** por tarea: Check-in, Handoff, Trip y Incident.
 
 ### 4.2.2. Labeling Systems
 
-Etiquetas iniciales en inglés: `Home`, `Timeline`, `Current Responsibility`, `Transportation`, `Notifications`, `Incidents`, `Profile`, `Sign In` y `Contact`.
+Los labels de producto se definirán en inglés, usando términos cortos y consistentes con el Ubiquitous Language. Ejemplos: `Today`, `Timeline`, `Current Status`, `Handoffs`, `Trips`, `Incidents`, `Authorized People`.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-| Página | Tag / Meta | Valor propuesto |
-|---|---|---|
-| Landing Page | `title` | AIpaca — Daily Care Coordination |
-| Landing Page | `description` | [Descripción final en inglés]. |
-| Landing Page | `robots` | index, follow |
-| Landing Page | `viewport` | width=device-width, initial-scale=1.0 |
-| Web Application | `title` | AIpaca Web App |
-| Web Application | `description` | [Descripción de la experiencia]. |
+El Landing Page deberá incluir como mínimo:
+
+- `title`;
+- `meta description`;
+- viewport;
+- Open Graph title, description e image;
+- favicon;
+- headings jerárquicos y contenido semántico.
 
 ### 4.2.4. Searching Systems
 
-El equipo indicará si el alcance requiere búsqueda global o contextual. Si TB1 no implementa búsqueda, se documentará la justificación.
+Para el MVP no se considera un buscador global. En vistas con historial se podrá incorporar filtrado por fecha, tipo de evento o menor cuando exista más de uno asociado a la cuenta.
 
 ### 4.2.5. Navigation Systems
 
-El Landing Page tendrá navegación global por secciones y CTAs hacia la Web Application. La aplicación utilizará navegación por módulos según rol y navegación contextual dentro de cada experiencia.
+- Landing Page: navegación global mediante header y anchors.
+- Parent Web App: navegación persistente mediante sidebar o bottom navigation según viewport.
+- Operational flows: navegación orientada a tareas y retorno claro al estado principal.
 
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
 
-**Herramienta:** Figma  
-**URL:** [URL]  
-**Desktop:** [Captura]  
-**Mobile:** [Captura]
+El wireframe debe incluir:
+
+1. Header con identidad y navegación.
+2. Hero con propuesta de valor y CTA.
+3. Explicación del problema.
+4. Cómo funciona Nexo Kids.
+5. Today View / Timeline como experiencia principal.
+6. Handoff Confirmation y School Trip Tracking.
+7. Beneficios por segmento.
+8. Screenshots o video del producto.
+9. CTA final.
+10. Contacto y supuestas redes sociales.
+
+**Figma:** [Insertar URL y captura].
 
 ### 4.3.2. Landing Page Mock-up
 
-El mock-up debe incluir propósito de la plataforma, pitch message, beneficios, screenshots o video cuando corresponda, CTA claro, contacto y enlaces sociales.
+Los mock-ups deberán aplicar el Design System y mostrar versiones Desktop y Mobile. El contenido visible del producto tendrá inglés como idioma predeterminado y deberá poder adaptarse a `es_419`.
 
-**URL:** [URL]  
-**Capturas:** [Insertar]
+**Figma:** [Insertar URL y capturas].
 
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
 
-Los wireframes deben cubrir User Goals principales y las vistas necesarias para ejecutar las tareas priorizadas.
+Vistas mínimas propuestas para el MVP:
 
-**Capturas:** [Insertar]
+- Sign In / Account Access.
+- Parent Today View.
+- Daily Timeline.
+- School Trip Detail.
+- Handoff Confirmation.
+- Caregiver Check-in.
+- Incident Report.
+- Notifications.
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-**Herramienta:** FigJam / LucidChart / Overflow  
-**Capturas:** [Insertar]
+User Goals iniciales:
 
-### 4.4.2. Web Applications Mock-ups
+- UG01: Parent checks the child’s current status.
+- UG02: Parent reviews the Daily Timeline.
+- UG03: Caregiver confirms a Handoff.
+- UG04: Transportation Staff registers boarding/drop-off.
+- UG05: User reports an Incident.
 
-Los mock-ups representan la apariencia final y deben aplicar el Style Guide y mantener consistencia con el Landing Page.
+Cada Wireflow debe incluir pasos, decisiones y cambios de estado visibles.
 
-**Herramienta:** Figma  
-**Capturas:** [Insertar]
+### 4.4.3. Web Applications Mock-ups
 
-### 4.4.3. Web Applications User Flow Diagrams
+Los Mock-ups deben derivarse de los Wireframes y aplicar el Design System, responsive web design, criterios de accesibilidad y el idioma predeterminado definido para el producto.
 
-Se elaborará un diagrama por User Goal relevante, evidenciando objetivo, flujo de información, happy path y unhappy paths.
+### 4.4.4. Web Applications User Flow Diagrams
 
-**Herramienta:** FigJam / LucidChart / Overflow  
-**Capturas:** [Insertar]
+Cada User Flow debe vincularse con un User Goal e incluir happy path y unhappy paths.
+
+Ejemplo para UG03:
+
+- Happy path: pending handoff → validation → confirmation → success state.
+- Unhappy path: invalid code / expired handoff / unauthorized user → error state → recovery action.
 
 ## 4.5. Web Applications Prototyping
 
-**URL del prototipo Figma:** [URL]  
-**Video de navegación, si corresponde:** [URL Stream]
+Se elaborará un prototipo navegable en Figma para Desktop y Mobile Web Browser. Debe cubrir los User Flows del core business y guardar coherencia con los Mock-ups.
+
+**Prototype URL:** [Completar]  
+**Navigation video:** [Completar Microsoft Stream URL]
 
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level Event Storming
 
-Bounded contexts iniciales a evaluar: `Identity & Access`, `Daily Responsibility`, `School Transportation`, `School Handover`, `Notifications & Incidents`.
+Bounded Contexts preliminares:
 
-**Herramienta:** FigJam / LucidChart / Miro  
-**Capturas:** [Insertar]
+1. **Care Coordination** — cuidado, estado actual y Handoffs.
+2. **School Transportation** — School Trips, boarding, drop-off y ubicación.
+3. **Incident Management** — registro y seguimiento de Incidents.
+4. **Notifications** — generación y entrega de Notifications.
+5. **Identity & Access** — cuentas, roles y personas autorizadas.
+
+El Design-Level Event Storming debe identificar Commands, Domain Events, Aggregates, Policies, Read Models y actores dentro de cada contexto.
+
+**Evidencia:** [Insertar diagramas y explicación].
 
 ### 4.6.2. Software Architecture Context Diagram
 
-El C4 Context Diagram mostrará AIpaca, sus usuarios y sistemas externos.
+El Context Diagram debe ubicar a Nexo Kids frente a Parent/Guardian, Caregiver, Transportation Staff y servicios externos necesarios, como proveedor de mapas/geolocalización y servicio de notificaciones.
 
-**Herramienta:** Structurizr  
-**Captura:** [Insertar]
+**Structurizr:** [Insertar enlace/captura].
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-El C4 Container Diagram debe representar Landing Page, **Vue Web Application**, **ASP.NET Core RESTful API**, almacenamiento relacional y servicios externos, indicando responsabilidad y tecnología.
+Contenedores esperados para la solución:
 
-**Herramienta:** Structurizr  
-**Captura:** [Insertar]
+- Landing Page.
+- Vue Web Application.
+- ASP.NET Core RESTful Web Service.
+- Relational Database.
+- Integraciones externas requeridas.
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-Los C4 Component Diagrams mostrarán componentes internos, responsabilidades e interacciones de los containers relevantes.
-
-**Capturas:** [Insertar]
+Los Component Diagrams deben elaborarse por bounded context y mostrar los componentes internos relevantes del backend y su relación con los casos de uso.
 
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
 
-Los diagramas incluirán clases, interfaces, enumeraciones, atributos, métodos, visibilidad, relaciones, dirección y multiplicidad. Clases de dominio iniciales a evaluar: `Child`, `ParentGuardian`, `Caregiver`, `TransportationStaff`, `SchoolStaff`, `Handoff`, `JourneyEvent`, `Trip`, `Incident` y `Notification`.
+Clases candidatas que deberán refinarse según el diseño:
 
-**Herramienta:** LucidChart / PlantUML  
-**Capturas:** [Insertar]
+- `Child`
+- `ParentGuardian`
+- `Caregiver`
+- `TransportationStaff`
+- `AuthorizedPerson`
+- `Handoff`
+- `SchoolTrip`
+- `JourneyEvent`
+- `Incident`
+- `Notification`
+
+El diagrama final debe incluir atributos, métodos, scope, interfaces/enumeraciones necesarias, relaciones, nombres de asociación, dirección y multiplicidad.
 
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
 
-Para Aplicaciones Web se utilizará un DBMS relacional **MySQL Server o PostgreSQL**. El diagrama debe mostrar tablas, columnas, claves primarias, claves foráneas, constraints y relaciones.
+Objetos de persistencia candidatos:
 
-Objetos iniciales a evaluar: `children`, `users`, `roles`, `handoffs`, `journey_events`, `trips`, `incidents`, `notifications` y tablas asociativas necesarias.
+- `users`
+- `children`
+- `authorized_people`
+- `care_assignments`
+- `handoffs`
+- `school_trips`
+- `journey_events`
+- `incidents`
+- `notifications`
 
-**Herramienta:** ERDPlus / LucidChart / MySQL Workbench / DataGrip / Hackolade  
-**Capturas:** [Insertar]
+El Database Diagram final debe indicar columnas, PK, FK, constraints y relaciones por bounded context.
 
 ---
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
-Para TB1 deben conservarse las evidencias del Sprint 1 y añadirse las correspondientes al Sprint 2, incluyendo la nueva versión del Landing Page y la primera versión desplegada de la Frontend Web Application.
-
 ## 5.1. Software Configuration Management
 
 ### 5.1.1. Software Development Environment Configuration
 
-| Producto / Herramienta | Propósito | URL de referencia / descarga |
+| Producto / Herramienta | Propósito en el proyecto | Referencia |
 |---|---|---|
-| GitHub | Organización, repositorios y control de versiones. | https://github.com/AIpaca-UPC |
-| Git | Control de versiones distribuido. | https://git-scm.com/ |
-| Visual Studio Code / IDE acordado | Desarrollo frontend y Landing Page. | [URL] |
-| Visual Studio / JetBrains Rider / IDE acordado | Desarrollo C# y ASP.NET Core. | [URL] |
-| UXPressia | User Personas, Empathy Maps, Journey Maps e Impact Maps. | https://uxpressia.com/ |
-| Figma | Wireframes, Mock-ups y Prototypes. | https://www.figma.com/ |
-| FigJam / LucidChart / Miro | Flujos y Event Storming. | [URL elegida] |
-| Structurizr | C4 Model. | https://structurizr.com/ |
-| Jira / YouTrack / Trello | Product Backlog y Sprint Backlog. | [URL elegida] |
-| Vue | Frontend Web Application. | https://vuejs.org/ |
-| PrimeVue | Componentes UI con enfoque Material Design. | https://primevue.org/ |
-| ASP.NET Core | RESTful Web Services. | https://dotnet.microsoft.com/apps/aspnet |
-| Entity Framework Core | Persistencia y ORM en C#. | https://learn.microsoft.com/ef/core/ |
-| MySQL / PostgreSQL | DBMS relacional. | [URL elegida] |
-| Swagger / OpenAPI | Documentación de RESTful API. | https://swagger.io/ |
-| Microsoft Stream | Videos de entrevistas y exposición. | [URL institucional] |
-| [Proveedor de deployment] | Despliegue público. | [URL] |
+| GitHub | Repositorios, colaboración, Pull Requests y control de versiones | https://github.com/AIpaca-UPC |
+| Git | Versionamiento local y GitFlow | https://git-scm.com/ |
+| Figma | Wireframes, Mock-ups y Prototypes | https://www.figma.com/ |
+| UXPressia | User Personas, Journey Maps, Empathy Maps e Impact Map | https://uxpressia.com/ |
+| FigJam / LucidChart / Miro | User Flows y Event Storming | [Definir herramienta elegida] |
+| Structurizr | C4 Model | https://structurizr.com/ |
+| Trello / Jira / YouTrack | Product Backlog y Sprint Backlog | [Definir herramienta elegida] |
+| Visual Studio Code | Landing Page y Frontend development | https://code.visualstudio.com/ |
+| WebStorm | Vue Frontend Web Application | https://www.jetbrains.com/webstorm/ |
+| Rider / Visual Studio | ASP.NET Core Web Service | [Definir IDE elegido] |
+| Vue | Frontend Web Application | https://vuejs.org/ |
+| PrimeVue | UI components | https://primevue.org/ |
+| ASP.NET Core | RESTful Web Service | https://dotnet.microsoft.com/apps/aspnet |
+| Entity Framework Core | Persistencia backend | https://learn.microsoft.com/ef/core/ |
+| Swagger / OpenAPI | Documentación de RESTful API | https://swagger.io/specification/ |
+| MySQL / PostgreSQL | Relational DBMS | [Definir DBMS elegido] |
 
 ### 5.1.2. Source Code Management
 
-- **Landing Page:** https://github.com/AIpaca-UPC/landing-page
-- **Frontend Web Application:** https://github.com/AIpaca-UPC/web-applications-web-app
-- **Web Services:** https://github.com/AIpaca-UPC/web-applications-web-service
-- **Project Report:** https://github.com/AIpaca-UPC/web-applications-project-report
+**GitHub Organization:** https://github.com/AIpaca-UPC  
+**Project Report:** https://github.com/AIpaca-UPC/web-applications-project-report  
+**Landing Page:** https://github.com/AIpaca-UPC/landing-page  
+**Frontend Web Application:** https://github.com/AIpaca-UPC/web-applications-web-app  
+**Web Service:** https://github.com/AIpaca-UPC/web-applications-web-service
 
 #### GitFlow
 
-- `main`: versiones estables y entregables.
-- `develop`: integración del trabajo validado.
-- `feature/<nombre>`: una rama por feature.
-- `release/<version>`: estabilización de versiones candidatas.
-- `hotfix/<nombre>`: correcciones urgentes.
+- `main`: versiones estables o entregables.
+- `develop`: integración de trabajo en desarrollo.
+- `feature/<short-description>`: una rama por feature.
+- `release/<version>`: preparación de release.
+- `hotfix/<short-description>`: correcciones urgentes sobre producción.
 
-**Ejemplos:** `feature/landing-hero`, `feature/daily-timeline`, `feature/transportation-status`, `release/1.0.0`, `hotfix/mobile-navigation`.
+Ejemplos:
 
-Se aplicará Semantic Versioning y Conventional Commits.
+- `feature/landing-hero`
+- `feature/today-view`
+- `feature/handoff-confirmation`
+- `release/1.0.0`
+- `hotfix/timeline-date-format`
+
+#### Conventional Commits
+
+Formato: `<type>(optional-scope): <description>`
+
+Tipos principales: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`.
+
+Ejemplos:
+
+- `feat(landing): add product value proposition section`
+- `docs(report): add interview analysis`
+- `fix(timeline): correct event ordering`
+
+#### Semantic Versioning
+
+Las releases utilizarán `MAJOR.MINOR.PATCH`, por ejemplo `1.0.0`.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-Todo identificador de código se redactará en inglés. El Landing Page utilizará HTML5, CSS3 y JavaScript; la Web Application utilizará Vue, HTML5, CSS3 y JavaScript; los Web Services utilizarán C# con ASP.NET Core y Entity Framework Core.
+Todos los identificadores de código se redactarán en inglés.
 
-Convenciones generales:
-
-- nombres descriptivos y consistentes;
-- `camelCase` para variables y funciones cuando corresponda;
-- `PascalCase` para clases y componentes según la guía de la tecnología;
-- HTML semántico y accesible;
-- CSS organizado y reutilizable;
-- estructura de archivos coherente con Vue;
-- convenciones de C#/.NET para backend;
-- criterios de aceptación con Gherkin;
-- código y nombres técnicos en inglés.
+- **HTML:** estructura semántica, atributos en minúsculas, indentación consistente y accesibilidad.
+- **CSS:** clases descriptivas, evitar duplicación y mantener criterios consistentes de responsive design.
+- **JavaScript:** `camelCase` para variables y funciones; `PascalCase` para componentes cuando corresponda.
+- **Vue:** componentes y estructura organizados por features, props/eventos con nombres consistentes y lógica reutilizable separada.
+- **C#:** `PascalCase` para clases, métodos y propiedades públicas; `camelCase` para variables locales y parámetros; convenciones oficiales de .NET.
+- **REST resources:** nombres de recursos en inglés y rutas consistentes.
 
 ### 5.1.4. Software Deployment Configuration
 
-| Producto | Repositorio | Plataforma | URL pública | Estado TB1 |
-|---|---|---|---|---|
-| Landing Page | `landing-page` | [Proveedor] | [URL] | Nueva versión desplegada |
-| Frontend Web Application | `web-applications-web-app` | [Proveedor] | [URL] | Primera versión desplegada |
-| Web Services | `web-applications-web-service` | [Proveedor previsto] | [URL / N/A] | Según alcance del Sprint |
+El equipo debe documentar paso a paso cómo desplegar cada producto desde su repositorio.
+
+| Producto | Entorno / servicio | Rama de despliegue | URL |
+|---|---|---|---|
+| Landing Page | [Completar] | `main` | [Completar] |
+| Vue Web App | [Completar] | `main` | [Completar] |
+| ASP.NET Core Web Service | [Fuera del alcance de TB1 si corresponde] | `main` | [Completar cuando aplique] |
+
+La documentación debe incluir configuración, variables necesarias, proceso de build, publicación y evidencias visuales.
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
-### 5.2.1. Sprint 1
+## 5.2.1. Sprint 1
 
-#### 5.2.1.1. Sprint Planning 1
+El Sprint 1 se orienta a obtener una primera versión pública del Landing Page y dejar definidos los principales artefactos de análisis, requisitos y diseño necesarios para continuar la construcción del producto.
 
-| Campo | Detalle |
-|---|---|
-| Sprint # | Sprint 1 |
-| Date | [YYYY-MM-DD] |
-| Time | [HH:MM] |
-| Location | [Virtual / Física] |
-| Prepared By | [Integrante] |
-| Attendees | [Integrantes] |
-| Sprint Goal | Construir, comprobar y desplegar la primera versión responsive del Landing Page de AIpaca, comunicando la propuesta de valor y habilitando CTAs hacia la experiencia web. |
-| Sprint Duration | [Inicio] — [Fin] |
-
-#### 5.2.1.2. Aspect Leaders and Collaborators
-
-| Team Member | GitHub Username | Landing Content | UI Design | Implementation | Deployment |
-|---|---|---|---|---|---|
-| [Integrante 1] | [user] | L/C | L/C | L/C | L/C |
-| [Integrante 2] | [user] | L/C | L/C | L/C | L/C |
-| [Integrante 3] | [user] | L/C | L/C | L/C | L/C |
-| [Integrante 4] | [user] | L/C | L/C | L/C | L/C |
-| [Integrante 5] | [user] | L/C | L/C | L/C | L/C |
-
-#### 5.2.1.3. Sprint Backlog 1
-
-**Board URL:** [URL]  
-**Captura:** [Insertar]
-
-| Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
-|---|---|---|---|---|---:|---|---|
-| US01 | View product value proposition | T01 | Implement hero section | Implementar estructura y contenido principal responsive. | 4–8 | [Integrante] | Done |
-| US02 | Explore segment benefits | T02 | Implement benefits section | Implementar beneficios por segmento. | 4–8 | [Integrante] | Done |
-| US03 | Access product call-to-action | T03 | Implement CTA navigation | Implementar CTA y navegación. | 4–8 | [Integrante] | Done |
-| US04 | View contact and social information | T04 | Implement contact/footer | Implementar contacto, redes y footer. | 4–8 | [Integrante] | Done |
-| — | Responsive constraint | T05 | Validate responsive layout | Corregir layout y breakpoints. | 4–8 | [Integrante] | Done |
-
-> Sustituir por las Tasks reales del Sprint 1.
-
-#### 5.2.1.4. Development Evidence for Sprint Review
-
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
-|---|---|---|---|---|---|
-| [repo] | [branch] | [sha] | [message] | [body] | [date] |
-
-#### 5.2.1.5. Execution Evidence for Sprint Review
-
-**Video:** [URL Stream]  
-**Capturas:** [Desktop / Mobile]  
-**Resumen:** [Redactar]
-
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
-
-Si los Web Services no fueron parte del alcance de Sprint 1, se indicará expresamente que no se implementaron ni documentaron endpoints en esta iteración.
-
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
-
-**Landing Page URL:** [URL]  
-**Plataforma:** [Proveedor]  
-**Evidencias:** [Capturas]
-
-#### 5.2.1.8. Team Collaboration Insights during Sprint
-
-**Capturas:** [Insertar analíticos/commits]  
-**Análisis:** [Explicar contribuciones por integrante].
-
-### 5.2.2. Sprint 2
-
-Sprint 2 corresponde al avance requerido para TB1. El equipo debe desplegar una nueva versión del Landing Page y la primera versión de la Frontend Web Application construida con Vue, manteniendo coherencia con los artefactos UX/UI y con el Product Backlog.
-
-#### 5.2.2.1. Sprint Planning 2
+### 5.2.1.1. Sprint Planning 1
 
 | Campo | Detalle |
 |---|---|
-| Sprint # | Sprint 2 |
+| Sprint | Sprint 1 |
 | Date | [YYYY-MM-DD] |
 | Time | [HH:MM] |
-| Location | [Virtual / Física] |
-| Prepared By | [Integrante] |
-| Attendees | [Integrantes] |
-| Sprint Goal | Implementar y desplegar la primera versión de la Vue Web Application de AIpaca, cubriendo flujos prioritarios del negocio y manteniendo consistencia con Landing Page y UX/UI. |
-| Sprint Duration | [Inicio] — [Fin] |
+| Location | [Presencial / Discord / Meet / Teams] |
+| Prepared By | [Completar] |
+| Attendees | [Cinco integrantes] |
+| Sprint Review Date | [YYYY-MM-DD] |
+| Sprint Retrospective Date | [YYYY-MM-DD] |
 
-**Sprint Goal ampliado:**  
-Nuestro foco es convertir la propuesta diseñada en una primera experiencia web operativa. Creemos que esto permitirá demostrar el valor principal de AIpaca cuando los usuarios puedan navegar por las vistas priorizadas y completar los flujos seleccionados. Lo confirmaremos cuando la aplicación se encuentre desplegada, sea responsive y las User Stories comprometidas cumplan sus criterios de aceptación.
+**Sprint Goal**
 
-#### 5.2.2.2. Aspect Leaders and Collaborators
+> Our focus is to present Nexo Kids publicly and validate that visitors can understand its problem, target users and core value proposition through a responsive Landing Page. We believe this will provide a common product direction for the team and an initial point of contact with potential users. This will be confirmed when the Landing Page is deployed, its main sections can be navigated on desktop and mobile, and the proposed CTA and contact information are visible.
 
-| Team Member | GitHub Username | Frontend Architecture | Parent Experience | Operational Role Experience | Responsive & Accessibility | Deployment |
-|---|---|---|---|---|---|---|
-| [Integrante 1] | [user] | L/C | L/C | L/C | L/C | L/C |
-| [Integrante 2] | [user] | L/C | L/C | L/C | L/C | L/C |
-| [Integrante 3] | [user] | L/C | L/C | L/C | L/C | L/C |
-| [Integrante 4] | [user] | L/C | L/C | L/C | L/C | L/C |
-| [Integrante 5] | [user] | L/C | L/C | L/C | L/C | L/C |
+### 5.2.1.2. Aspect Leaders and Collaborators
 
-#### 5.2.2.3. Sprint Backlog 2
+| Team Member | GitHub Username | Product/UX | Landing Page | Project Report |
+|---|---|---|---|---|
+| [Integrante 1] | [user] | L/C | L/C | L/C |
+| [Integrante 2] | [user] | L/C | L/C | L/C |
+| [Integrante 3] | [user] | L/C | L/C | L/C |
+| [Integrante 4] | [user] | L/C | L/C | L/C |
+| [Integrante 5] | [user] | L/C | L/C | L/C |
 
-**Board URL:** [URL]  
-**Captura:** [Insertar]
+### 5.2.1.3. Sprint Backlog 1
+
+**Sprint Board URL:** [Completar]
 
 | Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---:|---|---|
-| US15 | Access role-based dashboard | T201 | Initialize Vue application | Configurar estructura base, routing y PrimeVue. | 4–8 | [Integrante] | To-do |
-| US05 | View current responsible party | T202 | Implement current status view | Implementar vista de estado/responsable según mock-up. | 4–8 | [Integrante] | To-do |
-| US06 | View daily timeline | T203 | Implement timeline view | Implementar representación responsive de eventos. | 4–8 | [Integrante] | To-do |
-| [US] | [Story] | T204 | Implement operational flow | Implementar una vista prioritaria para un actor operativo. | 4–8 | [Integrante] | To-do |
-| — | Responsive constraint | T205 | Apply responsive and a11y rules | Revisar breakpoints, ARIA y accesibilidad. | 4–8 | [Integrante] | To-do |
-| — | Deployment constraint | T206 | Deploy frontend application | Configurar y comprobar despliegue público. | 4–8 | [Integrante] | To-do |
+| US01 | View product value proposition | T01 | Build hero section | Implement responsive hero, value proposition and primary CTA | 6 | [ ] | To-do |
+| US02 | Explore main features | T02 | Build features section | Implement core feature cards and responsive layout | 6 | [ ] | To-do |
+| US03 | Contact the startup | T03 | Build contact/footer | Implement contact information, CTA and social links | 4 | [ ] | To-do |
+| US01 | View product value proposition | T04 | Configure responsive navigation | Implement header, anchors and mobile navigation | 5 | [ ] | To-do |
+| — | — | T05 | Prepare deployment | Configure production deployment and verify public URL | 4 | [ ] | To-do |
 
-> **Pendiente para TB1:** reemplazar por las User Stories y Tasks realmente seleccionadas.
-
-#### 5.2.2.4. Development Evidence for Sprint Review
+### 5.2.1.4. Development Evidence for Sprint Review
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
 |---|---|---|---|---|---|
-| `AIpaca-UPC/web-applications-web-app` | [feature/...] | [sha] | [message] | [body] | [date] |
-| `AIpaca-UPC/landing-page` | [feature/...] | [sha] | [message] | [body] | [date] |
+| AIpaca-UPC/landing-page | [ ] | [ ] | [ ] | [ ] | [ ] |
 
-#### 5.2.2.5. Execution Evidence for Sprint Review
+### 5.2.1.5. Execution Evidence for Sprint Review
 
-**Frontend Web Application URL:** [URL]  
-**Video de navegación:** [URL Stream]  
-**Capturas:** [principales vistas desktop/mobile]  
-**Resumen:** [Redactar según producto desplegado].
+Incluir:
 
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+- screenshots Desktop y Mobile del Landing Page ejecutándose;
+- descripción de las secciones implementadas;
+- evidencia del CTA y navegación;
+- enlace a video de ejecución/navegación.
 
-Si Sprint 2 no incluye Web Services implementados, se declarará que no forman parte del alcance de la iteración. Si existen endpoints adelantados, se documentarán con OpenAPI/Swagger y evidencia real.
+**Video URL:** [Completar]
 
-| Endpoint | HTTP Method | Syntax | Parameters | Response | Documentation URL | Commit Id |
-|---|---|---|---|---|---|---|
-| [Solo si aplica] | [GET/POST/PUT/DELETE/PATCH] | [ruta] | [parámetros] | [resumen] | [URL] | [sha] |
+### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+Si Web Services no forma parte del alcance del Sprint 1, indicar explícitamente:
 
-| Producto | Plataforma | URL | Evidencia |
-|---|---|---|---|
-| Landing Page | [Proveedor] | [URL] | [Captura] |
-| Vue Web Application | [Proveedor] | [URL] | [Captura] |
+> Web Services are not included in the implementation scope of Sprint 1. The corresponding API documentation will be incorporated in a later Sprint according to the Product Backlog and project roadmap.
 
-**Descripción del proceso:** [Documentar pasos reales].
+### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-#### 5.2.2.8. Team Collaboration Insights during Sprint
+**Production Landing Page URL:** [Completar]
 
-**Capturas de colaboración:** [Insertar]  
-**Análisis por integrante:**
+Documentar los pasos realizados y agregar capturas de configuración y del producto publicado.
 
-- **[Integrante 1]:** [aporte comprobable].
-- **[Integrante 2]:** [aporte comprobable].
-- **[Integrante 3]:** [aporte comprobable].
-- **[Integrante 4]:** [aporte comprobable].
-- **[Integrante 5]:** [aporte comprobable].
+### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Incluir capturas de commits, branches, Pull Requests y analíticos de GitHub. Explicar cómo participó cada integrante en la implementación del Landing Page y cómo se relaciona con el LACX y Sprint Backlog.
+
+## 5.2.2. Sprint 2
+
+El Sprint 2 se enfoca en mejorar el Landing Page con la retroalimentación obtenida y desplegar la primera versión de la Frontend Web Application con los flujos prioritarios del MVP.
+
+### 5.2.2.1. Sprint Planning 2
+
+| Campo | Detalle |
+|---|---|
+| Sprint | Sprint 2 |
+| Date | [YYYY-MM-DD] |
+| Time | [HH:MM] |
+| Location | [Completar] |
+| Prepared By | [Completar] |
+| Attendees | [Cinco integrantes] |
+| Sprint Review Date | [YYYY-MM-DD] |
+| Sprint Retrospective Date | [YYYY-MM-DD] |
+
+**Sprint Goal**
+
+> Our focus is to provide the first usable frontend experience for parents while improving the public Landing Page. We believe this will allow the team to demonstrate the core value of Nexo Kids beyond the marketing site. This will be confirmed when users can navigate the first deployed Vue Web Application, review a representative Today View and Daily Timeline, and access the updated responsive Landing Page through public URLs.
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+| Team Member | GitHub Username | Landing Page Improvements | Vue Web App | UX/UI & Report |
+|---|---|---|---|---|
+| [Integrante 1] | [user] | L/C | L/C | L/C |
+| [Integrante 2] | [user] | L/C | L/C | L/C |
+| [Integrante 3] | [user] | L/C | L/C | L/C |
+| [Integrante 4] | [user] | L/C | L/C | L/C |
+| [Integrante 5] | [user] | L/C | L/C | L/C |
+
+### 5.2.2.3. Sprint Backlog 2
+
+**Sprint Board URL:** [Completar]
+
+| Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---:|---|---|
+| US04 | View current status | T201 | Build Today View layout | Implement responsive Today View using PrimeVue | 8 | [ ] | To-do |
+| US05 | Review daily timeline | T202 | Build Timeline component | Implement representative chronological event list | 8 | [ ] | To-do |
+| US08 | View school trip progress | T203 | Build trip status view | Implement UI for representative School Trip states | 8 | [ ] | To-do |
+| — | — | T204 | Configure i18n and accessibility baseline | Add en_US/es_419 structure and initial ARIA support | 6 | [ ] | To-do |
+| — | — | T205 | Deploy Vue Web App | Configure production build and public deployment | 5 | [ ] | To-do |
+| US01/US02 | Landing improvements | T206 | Apply AV1 feedback | Correct content, responsiveness or design findings | 4–8 | [ ] | To-do |
+
+### 5.2.2.4. Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| AIpaca-UPC/landing-page | [ ] | [ ] | [ ] | [ ] | [ ] |
+| AIpaca-UPC/web-applications-web-app | [ ] | [ ] | [ ] | [ ] | [ ] |
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+Incluir screenshots de las vistas implementadas y un video que muestre la navegación lograda.
+
+**Web Application URL:** [Completar]  
+**Execution / Navigation Video:** [Completar]
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Si el backend todavía no forma parte del Sprint 2, dejar constancia del alcance real. No registrar endpoints ficticios.
+
+> Web Services are not included in the implementation scope of Sprint 2 unless the team explicitly assigns API Technical Stories to this Sprint. OpenAPI evidence will be added when RESTful Web Services enter the implementation scope.
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Para TB1 se debe evidenciar:
+
+- nueva versión del Landing Page desplegada;
+- primera versión de la Vue Web Application desplegada;
+- configuración de build y publicación;
+- URLs públicas y capturas de los entornos operativos.
+
+### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Agregar evidencia de participación de todos los integrantes en los productos incluidos en Sprint 2, mostrando commits, Pull Requests y analíticos. La explicación debe ser coherente con el LACX y con las tareas asignadas.
 
 ---
 
 # Conclusiones
 
-1. El proceso de Lean UX, investigación y Needfinding permite fundamentar las decisiones de producto en necesidades identificables de los segmentos objetivo.
-2. Las Epics, User Stories, criterios de aceptación, Impact Mapping y Product Backlog proporcionan una base verificable para relacionar funcionalidades con valor de negocio y planificar el desarrollo.
-3. La separación entre Landing Page, Frontend Web Application y Web Services favorece una evolución incremental y permite evidenciar de manera clara el aporte colaborativo del equipo.
-4. Para TB1, el principal resultado de implementación será la evolución del Landing Page y la primera versión desplegada de la Vue Web Application; las conclusiones definitivas deberán actualizarse con evidencia real del Sprint 2.
+Las conclusiones deben actualizarse con evidencia a medida que avance el proyecto. Como punto de partida, el equipo plantea que el valor de Nexo Kids no está únicamente en mostrar una ubicación, sino en organizar la jornada mediante estados, responsables y eventos comprensibles. La investigación deberá confirmar si esta diferencia responde a una necesidad relevante de los segmentos seleccionados.
 
-> **Pendiente para TB1:** ajustar las conclusiones a los resultados reales.
+También deberá evaluarse si el alcance inicial —padres, cuidadores y movilidad escolar— resulta suficiente para validar el modelo antes de incorporar integraciones institucionales, sensores domésticos u otras funcionalidades de mayor complejidad.
 
 ---
 
 # Bibliografía
 
-> Registrar únicamente fuentes realmente consultadas y utilizadas, con formato bibliográfico consistente.
-
-- Gothelf, J., & Seiden, J. *Lean UX*. [Completar edición utilizada].
+- Gothelf, J., & Seiden, J. *Lean UX*. O’Reilly Media.
 - Evans, E. *Domain-Driven Design: Tackling Complexity in the Heart of Software*.
-- Nielsen Norman Group. [Referencias efectivamente utilizadas].
-- Vue.js. [Documentación oficial utilizada].
-- PrimeVue. [Documentación oficial utilizada].
-- Microsoft. [ASP.NET Core / Entity Framework Core utilizados].
-- [Fuentes estadísticas y de benchmark].
+- Nielsen Norman Group. *Design Systems 101*.
+- Microsoft. *.NET coding conventions and C# documentation*.
+- Vue. *Vue Style Guide / Documentation*.
+- PrimeVue. *PrimeVue Documentation*.
+- Semantic Versioning. *Semantic Versioning 2.0.0*.
+- Conventional Commits. *Conventional Commits Specification*.
+- Driessen, V. *A successful Git branching model*.
+- [Agregar fuentes del benchmark, estadísticas y demás referencias utilizadas por el equipo].
 
 ---
 
 # Anexos
 
-## A. Videos de Exposiciones
+## Videos de Exposiciones
 
 ### AV1
 
-- **Microsoft Stream:** [URL]
+- **Microsoft Stream URL:** [Completar]
 - **Archivo:** `upc-pre-202620-1asi0730-8137-aipaca-expo-av1.mp4`
 
 ### TB1
 
-- **Microsoft Stream:** [URL]
+- **Microsoft Stream URL:** [Completar]
 - **Archivo:** `upc-pre-202620-1asi0730-8137-aipaca-expo-tb1.mp4`
 
-## B. Video de Needfinding Interviews
+## Needfinding Interviews
 
-- **Microsoft Stream:** [URL]
-- **Archivo:** `upc-pre-202620-1asi0730-8137-aipaca-needfinding-sprint-[n].mp4`
-- **Captura:** [Insertar]
+- **Video:** `upc-pre-202620-1asi0730-8137-aipaca-needfinding-sprint-1.mp4`
+- **Microsoft Stream URL:** [Completar]
 
-## C. Enlaces de artefactos
+## Prototypes Navigation
 
-| Artefacto | URL |
-|---|---|
-| Organización GitHub | https://github.com/AIpaca-UPC |
-| Project Report | https://github.com/AIpaca-UPC/web-applications-project-report |
-| Landing Page repository | https://github.com/AIpaca-UPC/landing-page |
-| Frontend Web Application repository | https://github.com/AIpaca-UPC/web-applications-web-app |
-| Web Services repository | https://github.com/AIpaca-UPC/web-applications-web-service |
-| UXPressia | [URL] |
-| Figma | [URL] |
-| Product Backlog | [URL] |
-| Sprint 1 Board | [URL] |
-| Sprint 2 Board | [URL] |
-| Landing Page desplegado | [URL] |
-| Frontend Web Application desplegada | [URL] |
+- **Video:** `upc-pre-202620-1asi0730-8137-aipaca-prototype-navigation-sprint-1.mp4`
+- **Microsoft Stream URL:** [Completar]
 
-## D. Nomenclatura de archivos para TB1
+## Enlaces del proyecto
 
-- **Informe PDF:** `upc-pre-202620-1asi0730-8137-aipaca-report-tb1.pdf`
-- **Keynote PPTX/PDF:** `upc-pre-202620-1asi0730-8137-aipaca-keynote-tb1.pptx` / `.pdf`
-- **Performance Report DOCX/PDF:** `upc-pre-202620-1asi0730-8137-aipaca-performance-tb1.docx` / `.pdf`
-- **Video de exposición:** `upc-pre-202620-1asi0730-8137-aipaca-expo-tb1.mp4`
+- **GitHub Organization:** https://github.com/AIpaca-UPC
+- **Project Report:** https://github.com/AIpaca-UPC/web-applications-project-report
+- **Landing Page Repository:** https://github.com/AIpaca-UPC/landing-page
+- **Frontend Web Application Repository:** https://github.com/AIpaca-UPC/web-applications-web-app
+- **Web Service Repository:** https://github.com/AIpaca-UPC/web-applications-web-service
+- **Figma:** [Completar]
+- **UXPressia:** [Completar]
+- **Product Backlog:** [Completar]
+- **Sprint Board 1:** [Completar]
+- **Sprint Board 2:** [Completar]
 
-> El Performance Report lo completa el Team Leader con responsabilidades reales y la calificación permitida por el formato oficial.
+---
+
+## Nomenclatura de archivos para TB1
+
+- **Project Report:** `upc-pre-202620-1asi0730-8137-aipaca-report-tb1.pdf`
+- **Keynote:** `upc-pre-202620-1asi0730-8137-aipaca-keynote-tb1.pptx` y `.pdf`
+- **Performance Report:** `upc-pre-202620-1asi0730-8137-aipaca-performance-tb1.docx` y `.pdf`
+- **Exposición:** `upc-pre-202620-1asi0730-8137-aipaca-expo-tb1.mp4`
