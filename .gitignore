@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+.crossnote/
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
