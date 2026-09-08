@@ -14,11 +14,11 @@
 
 ### NRC: 8137
 
-### Docente: [Nombre del docente]
+### Docente: Hugo Allan Mori Paiva
 
 # Informe de Trabajo Final
 
-### Startup: Rumbo
+### Startup: AIpaca
 
 ### Producto: Rumbo
 
@@ -26,10 +26,10 @@
 
 | Apellidos y Nombres | Código de Alumno |
 |---|---|
-| [Integrante 1] | [Código 1] |
-| [Integrante 2] | [Código 2] |
-| [Integrante 3] | [Código 3] |
-| [Integrante 4] | [Código 4] |
+| Lino Quispe, Leonardo Miguel | U202422298 |
+| Barrientos Quispe, Marcelo | U20221e646 |
+| Geronimo Puma, Kevin Joel | U202423163 |
+| Meza Soza, Alexandra Yamile | U20241b451 |
 | [Integrante 5] | [Código 5] |
 
 ### SEPTIEMBRE - 2026
@@ -140,7 +140,7 @@ El curso contribuye al cumplimiento del **ABET – EAC – Student Outcome 5**: 
 
 ### 1.1.1. Descripción de la Startup
 
-**Rumbo** es una startup peruana que busca mejorar la experiencia de coordinación del transporte escolar entre padres de familia y conductores. La propuesta nace a partir de un contexto cotidiano: durante una ruta escolar pueden producirse recojos, entregas, retrasos, cambios en el recorrido o incidencias que requieren ser comunicados de manera clara y oportuna.
+**AIpaca** es una startup peruana que busca mejorar la experiencia de coordinación del transporte escolar entre padres de familia y conductores. La propuesta nace a partir de un contexto cotidiano: durante una ruta escolar pueden producirse recojos, entregas, retrasos, cambios en el recorrido o incidencias que requieren ser comunicados de manera clara y oportuna.
 
 La solución propone una plataforma web orientada a mostrar el estado del traslado, los principales hitos de la ruta y las incidencias registradas. Para los padres, Rumbo busca ofrecer una forma rápida de comprender qué está ocurriendo durante el recorrido. Para los conductores, busca reducir la necesidad de comunicar la misma información de manera individual a varias familias y facilitar el registro de eventos relevantes de la jornada.
 
