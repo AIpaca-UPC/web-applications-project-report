@@ -376,7 +376,7 @@ Las preguntas combinan información demográfica y contextual con preguntas abie
 
 ### Preguntas dirigidas al primer segmento — Padres y tutores
 
-1. ¿Cuál es tu edad, ocupación y distrito de residencia?
+1. ¿Cuál es tu nombre completo, edad, ocupación y distrito de residencia?
 2. ¿Qué relación tienes con el menor que utiliza movilidad escolar y qué edad tiene?
 3. ¿Con qué frecuencia utiliza movilidad escolar y en qué horarios normalmente?
 4. ¿Qué dispositivo utilizas con mayor frecuencia para comunicarte o consultar información durante el día?
@@ -397,7 +397,7 @@ Las preguntas combinan información demográfica y contextual con preguntas abie
 
 ### Preguntas dirigidas al segundo segmento — Conductores de movilidad escolar
 
-1. ¿Cuál es tu edad, distrito de residencia y cuántos años de experiencia tienes realizando transporte escolar?
+1. ¿Cuál es tu nombre completo, edad, ocupación, distrito de residencia y cuántos años de experiencia tienes realizando transporte escolar?
 2. ¿Cuántos estudiantes y rutas manejas normalmente durante una jornada?
 3. ¿Qué dispositivo utilizas para organizar o comunicar información relacionada con tu trabajo?
 4. ¿Qué aplicaciones o canales utilizas actualmente para comunicarte con las familias?
