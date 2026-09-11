@@ -377,44 +377,32 @@ Las preguntas combinan información demográfica y contextual con preguntas abie
 ### Preguntas dirigidas al primer segmento — Padres y tutores
 
 1. ¿Cuál es tu nombre completo, edad, ocupación y distrito de residencia?
-2. ¿Qué relación tienes con el menor que utiliza movilidad escolar y qué edad tiene?
-3. ¿Con qué frecuencia utiliza movilidad escolar y en qué horarios normalmente?
-4. ¿Qué dispositivo utilizas con mayor frecuencia para comunicarte o consultar información durante el día?
-5. ¿Qué aplicaciones o canales digitales utilizas normalmente para coordinar con el conductor o con otros responsables?
-6. ¿Qué navegador utilizas con mayor frecuencia?
-7. Cuéntame cómo coordinas actualmente el recojo y el regreso del menor.
-8. ¿Cómo sabes que la movilidad está próxima, que el menor fue recogido o que llegó a su destino?
-9. ¿En qué momento del recorrido sientes que tienes menos información o mayor incertidumbre?
-10. ¿Qué retrasos o situaciones inesperadas has vivido durante un traslado escolar?
-11. Cuando ocurre un retraso o una incidencia, ¿cómo te enteras y qué haces normalmente?
-12. ¿Qué información consideras realmente útil recibir durante el recorrido? ¿Qué información sería innecesaria?
-13. ¿Con qué frecuencia sueles contactar al conductor durante una ruta y por qué motivos?
-14. ¿Qué aspectos de privacidad o seguridad te preocuparían al utilizar una plataforma relacionada con el traslado de un menor?
-15. ¿Qué tendría que ofrecer una herramienta digital para que confíes en ella y la utilices de manera frecuente?
-16. ¿Qué situación o dificultad podría hacer que dejaras de utilizar una herramienta de este tipo?
-17. Además del traslado escolar, ¿existen otros momentos relacionados con la seguridad o acompañamiento del menor donde actualmente sientas falta de información?
-18. Si pudieras cambiar una sola cosa de la forma en que hoy se coordina la movilidad escolar, ¿qué cambiarías y por qué?
+2. ¿Qué relación tienes con el menor que utiliza movilidad escolar, qué edad tiene y con qué frecuencia utiliza este servicio?
+3. ¿Qué dispositivo, navegador y aplicaciones utilizas con mayor frecuencia para comunicarte o consultar información durante el día?
+4. Cuéntame cómo coordinas actualmente el recojo, traslado y regreso del menor con el conductor.
+5. ¿Cómo sabes actualmente que la movilidad está próxima, que el menor fue recogido o que llegó a su destino?
+6. ¿Qué situaciones inesperadas o retrasos has vivido durante un traslado escolar y cómo actuaste cuando ocurrieron?
+7. ¿En qué momentos del recorrido sientes mayor incertidumbre o falta de información?
+8. ¿Con qué frecuencia contactas al conductor durante una ruta, por qué motivos y qué consultas se repiten más?
+9. ¿Qué información o notificaciones te resultarían realmente útiles durante el recorrido y cuáles considerarías innecesarias?
+10. ¿Qué aspectos de privacidad o seguridad te preocuparían al utilizar una plataforma relacionada con la ubicación y el traslado de un menor?
+11. ¿Qué tendría que ofrecer una herramienta digital para que confíes en ella y la utilices con frecuencia, y qué dificultades podrían hacer que dejaras de usarla?
+12. Si pudieras cambiar una sola cosa de la forma en que hoy se coordina la movilidad escolar, ¿qué cambiarías y por qué?
 
 ### Preguntas dirigidas al segundo segmento — Conductores de movilidad escolar
 
 1. ¿Cuál es tu nombre completo, edad, ocupación, distrito de residencia y cuántos años de experiencia tienes realizando transporte escolar?
-2. ¿Cuántos estudiantes y rutas manejas normalmente durante una jornada?
-3. ¿Qué dispositivo utilizas para organizar o comunicar información relacionada con tu trabajo?
-4. ¿Qué aplicaciones o canales utilizas actualmente para comunicarte con las familias?
-5. ¿Qué navegador o herramientas digitales utilizas con mayor frecuencia?
-6. Cuéntame cómo organizas actualmente los estudiantes, horarios y puntos de recojo de una ruta.
-7. ¿Cómo confirmas actualmente que un estudiante fue recogido o entregado?
-8. ¿Cómo comunicas un retraso o cambio importante a las familias?
-9. ¿Qué situaciones imprevistas ocurren con mayor frecuencia durante una ruta escolar?
-10. ¿Qué información necesitan pedirte los padres o tutores con mayor frecuencia?
-11. ¿Qué parte de la comunicación con las familias te quita más tiempo o se repite más?
-12. ¿En qué momentos resulta seguro y realista registrar información en un sistema sin distraerte de la conducción?
-13. ¿Qué acciones digitales serían demasiado complejas o poco prácticas durante tu jornada?
-14. ¿Qué información te sería útil conservar como historial de una ruta?
-15. ¿Qué información consideras que nunca debería mostrarse o solicitarse dentro de una plataforma de este tipo?
-16. ¿Qué tendría que ofrecer una herramienta digital para que decidieras utilizarla de manera recurrente?
-17. ¿Qué barreras podrían impedir que adoptes una herramienta como Rumbo?
-18. Si pudieras mejorar una sola parte de la coordinación con padres y tutores, ¿cuál sería y por qué?
+2. ¿Cuántos estudiantes y rutas manejas normalmente durante una jornada de trabajo?
+3. ¿Qué dispositivo, navegador y aplicaciones o canales digitales utilizas con mayor frecuencia para organizar tu trabajo y comunicarte con las familias?
+4. Cuéntame cómo organizas actualmente los estudiantes, horarios, puntos de recojo y cambios que pueden surgir antes de una ruta.
+5. ¿Cómo confirmas actualmente que un estudiante fue recogido o entregado y cómo comunicas esos eventos a sus familiares?
+6. ¿Qué situaciones imprevistas o retrasos ocurren con mayor frecuencia durante una ruta y cómo los comunicas a las familias?
+7. ¿Qué información te piden los padres con mayor frecuencia y qué parte de esa comunicación te quita más tiempo o se vuelve repetitiva?
+8. ¿En qué momentos sería seguro y realista registrar información en un sistema sin distraerte de la conducción, y qué acciones digitales serían poco prácticas durante tu jornada?
+9. ¿Qué información te sería útil conservar como historial de una ruta para resolver posteriormente dudas o reclamos?
+10. ¿Qué datos consideras privados o que no deberían mostrarse libremente dentro de una plataforma de movilidad escolar?
+11. ¿Qué tendría que ofrecer una herramienta digital para que la utilices de manera recurrente y qué barreras podrían impedir que la adoptes?
+12. Si pudieras mejorar una sola parte de la coordinación con padres y tutores, ¿cuál sería y por qué?
 
 ### 2.2.2. Registro de entrevistas
 
