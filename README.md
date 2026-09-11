@@ -26,11 +26,11 @@
 
 | Apellidos y Nombres | Código de Alumno |
 |---|---|
-| Lino Quispe, Leonardo Miguel | U202422298 |
 | Barrientos Quispe, Marcelo | U20221e646 |
+| Díaz Ramírez, Alejandro | U202423084 |
 | Geronimo Puma, Kevin Joel | U202423163 |
+| Lino Quispe, Leonardo Miguel | U202422298 |
 | Meza Soza, Alexandra Yamile | U20241b451 |
-| [Integrante 5] | [Código 5] |
 
 ### SEPTIEMBRE - 2026
 
@@ -42,9 +42,8 @@
 
 | Versión | Fecha | Autor(es) | Descripción de cambios |
 |---|---|---|---|
-| 0.1 | 07/09/2026 | linolw | Creación de la estructura base del informe del proyecto. |
-| 0.2 | 07/09/2026 | linolw | Definición de Rumbo como startup y producto, y adecuación del informe al alcance de AV1. |
-| 0.3 | 07/09/2026 | linolw | Refinamiento de la problemática, segmentos objetivo y artefactos iniciales con fuentes del contexto peruano. |
+| 0.1 | 07/09/2026 | Lino Quispe, Leonardo Miguel | Creación de la estructura base del informe de Rumbo. |
+| 0.2 | 11/09/2026 | Equipo Rumbo | Actualización de integrantes y refinamiento del Capítulo I para AV1. |
 
 ---
 
@@ -140,11 +139,11 @@ El curso contribuye al cumplimiento del **ABET – EAC – Student Outcome 5**: 
 
 ### 1.1.1. Descripción de la Startup
 
-**Rumbo** es una startup peruana que busca mejorar la experiencia de coordinación del transporte escolar entre padres de familia y conductores. La propuesta nace a partir de un contexto cotidiano: durante una ruta escolar pueden producirse recojos, entregas, retrasos, cambios en el recorrido o incidencias que requieren ser comunicados de manera clara y oportuna.
+**Rumbo** es una startup peruana enfocada en mejorar la seguridad, visibilidad y coordinación durante el transporte escolar. La propuesta surge a partir de una situación cotidiana para muchas familias: durante los recorridos pueden presentarse variaciones de horario, congestión, retrasos, cambios en la ruta o incidencias que obligan a padres y conductores a intercambiar información de forma constante.
 
-La solución propone una plataforma web orientada a mostrar el estado del traslado, los principales hitos de la ruta y las incidencias registradas. Para los padres, Rumbo busca ofrecer una forma rápida de comprender qué está ocurriendo durante el recorrido. Para los conductores, busca reducir la necesidad de comunicar la misma información de manera individual a varias familias y facilitar el registro de eventos relevantes de la jornada.
+Rumbo plantea una plataforma web responsive que centraliza los principales eventos del traslado y permite que los padres comprendan rápidamente qué está ocurriendo durante el recorrido. Para los conductores, la plataforma busca reducir la repetición de mensajes individuales y facilitar el registro de hitos como recojos, llegadas, entregas, retrasos e incidencias.
 
-Rumbo se plantea inicialmente para el contexto de Lima y Callao, donde existe un mercado formal de transporte escolar y una alta penetración de conectividad móvil. La propuesta no pretende sustituir las obligaciones de seguridad, autorización y operación que corresponden a los prestadores del servicio, sino complementar la experiencia mediante información organizada y accesible.
+La startup inicia su propuesta en Lima y Callao, donde existe un mercado formal de transporte escolar y una alta disponibilidad de conectividad móvil. Rumbo no reemplaza los mecanismos oficiales de autorización ni las responsabilidades de seguridad del prestador del servicio; busca complementar la experiencia con información estructurada, oportuna y accesible.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -160,157 +159,223 @@ Rumbo se plantea inicialmente para el contexto de Lima y Callao, donde existe un
   </thead>
   <tbody>
     <tr>
-      <td>[Insertar foto]</td>
-      <td>[Apellidos y nombres]</td>
-      <td>[Código]</td>
+      <td align="center">[Insertar foto]</td>
+      <td>Barrientos Quispe, Marcelo</td>
+      <td>U20221e646</td>
       <td>Ingeniería de Software</td>
-      <td>[Habilidades y conocimientos relevantes]</td>
+      <td>[Completar perfil]</td>
     </tr>
     <tr>
-      <td>[Insertar foto]</td>
-      <td>[Apellidos y nombres]</td>
-      <td>[Código]</td>
+      <td align="center">[Insertar foto]</td>
+      <td>Díaz Ramírez, Alejandro</td>
+      <td>U202423084</td>
       <td>Ingeniería de Software</td>
-      <td>[Habilidades y conocimientos relevantes]</td>
+      <td>[Completar perfil]</td>
     </tr>
     <tr>
-      <td>[Insertar foto]</td>
-      <td>[Apellidos y nombres]</td>
-      <td>[Código]</td>
+      <td align="center">[Insertar foto]</td>
+      <td>Geronimo Puma, Kevin Joel</td>
+      <td>U202423163</td>
       <td>Ingeniería de Software</td>
-      <td>[Habilidades y conocimientos relevantes]</td>
+      <td>[Completar perfil]</td>
     </tr>
     <tr>
-      <td>[Insertar foto]</td>
-      <td>[Apellidos y nombres]</td>
-      <td>[Código]</td>
+      <td align="center"><img src="assets/leonardo-lino.svg" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
+      <td>Lino Quispe, Leonardo Miguel</td>
+      <td>U202422298</td>
       <td>Ingeniería de Software</td>
-      <td>[Habilidades y conocimientos relevantes]</td>
+      <td>Soy estudiante de Ingeniería de Software del 4to ciclo en la UPC. Tengo conocimientos en programación en C++ y Python, y experiencia desarrollando proyectos académicos donde analizo y organizo soluciones tecnológicas. Me gusta enfocarme en aprender de forma práctica y en construir soluciones que sean claras, funcionales y aplicadas a problemas reales.</td>
     </tr>
     <tr>
-      <td>[Insertar foto]</td>
-      <td>[Apellidos y nombres]</td>
-      <td>[Código]</td>
+      <td align="center">[Insertar foto]</td>
+      <td>Meza Soza, Alexandra Yamile</td>
+      <td>U20241b451</td>
       <td>Ingeniería de Software</td>
-      <td>[Habilidades y conocimientos relevantes]</td>
+      <td>[Completar perfil]</td>
     </tr>
   </tbody>
 </table>
 
 ## 1.2. Solution Profile
 
+El **Solution Profile** presenta una visión general de la solución propuesta y relaciona el contexto del problema con las necesidades de los segmentos objetivo. Para Rumbo, esta sección permite justificar por qué una solución digital puede aportar valor en el transporte escolar y establece las bases para el proceso Lean UX, la validación con usuarios y el posterior diseño del producto.
+
 ### 1.2.1. Antecedentes y problemática
 
-El transporte escolar constituye un servicio formal y regulado en Lima y Callao. En enero de 2026, la Autoridad de Transporte Urbano para Lima y Callao (ATU) informó que **3758 vehículos se encontraban habilitados para prestar el servicio de transporte de estudiantes**. La misma entidad permite que los padres verifiquen en línea si tanto el vehículo como el conductor se encuentran autorizados. Esto confirma la existencia de un ecosistema relevante de familias, conductores y operadores que realizan traslados escolares de manera recurrente [1].
+El transporte escolar constituye un servicio formal y regulado en Lima y Callao. En enero de 2026, la Autoridad de Transporte Urbano para Lima y Callao (ATU) informó que **3758 vehículos se encontraban habilitados para prestar el servicio de transporte de estudiantes** y recordó que los padres pueden verificar digitalmente si el vehículo y el conductor están autorizados [1]. Esta cifra confirma que existe un ecosistema amplio de familias, conductores y operadores que realizan traslados escolares de manera recurrente.
 
-Este servicio opera, además, dentro de una ciudad con altos niveles de congestión. Según el **TomTom Traffic Index 2025**, Lima registró un nivel promedio de congestión de **69,3 %**. Un recorrido de 10 km tomó en promedio **43 min 10 s durante la hora punta de la mañana** y **51 min 17 s durante la hora punta de la tarde**. El reporte estima que un conductor perdió aproximadamente **195 horas al año** en tráfico durante horas punta [2]. Estas condiciones hacen que los tiempos de llegada puedan variar de manera importante y aumentan la necesidad de contar con información oportuna sobre el estado de una ruta.
+El servicio se desarrolla además en una ciudad con altos niveles de congestión. Según el **TomTom Traffic Index 2025**, Lima registró un nivel promedio de congestión de **69,3 %**. Un recorrido de 10 km tomó en promedio **43 min 10 s en la hora punta de la mañana** y **51 min 17 s en la hora punta de la tarde**, mientras que el tiempo perdido por tráfico en horas punta se estimó en **195 horas al año** [2]. Estas condiciones generan variaciones en los horarios de recojo y llegada y hacen más relevante contar con información actualizada sobre el estado de una ruta.
 
-La seguridad vial también forma parte del contexto en el que opera cualquier servicio de transporte. El Observatorio Nacional de Seguridad Vial reportó para 2025 **88 243 siniestros de tránsito, 55 329 personas lesionadas y 3428 fallecidas** a nivel nacional [3]. Estas cifras no corresponden exclusivamente a transporte escolar, por lo que Rumbo no las utiliza para afirmar que las movilidades escolares sean inseguras; sí evidencian que el traslado terrestre se desarrolla en un entorno donde la información, la prevención y la capacidad de reacción ante incidencias son relevantes.
+La seguridad vial también forma parte del contexto. El Observatorio Nacional de Seguridad Vial reportó para 2025 **88 243 siniestros de tránsito, 55 329 personas lesionadas y 3428 fallecidas** a nivel nacional [3]. Estas cifras no corresponden exclusivamente a movilidad escolar; se utilizan como contexto para mostrar que cualquier servicio de traslado de personas opera en un entorno donde la prevención, la comunicación y la capacidad de respuesta ante incidencias son importantes.
 
-Desde el punto de vista tecnológico, la adopción de una solución web resulta viable para el contexto objetivo. Durante el cuarto trimestre de 2025, el INEI reportó que **98,4 % de los hogares de Lima Metropolitana contaba con telefonía móvil**, que **90,3 % de la población de 6 años a más utilizaba Internet** y que **91,0 % de los usuarios de Internet de Lima Metropolitana accedía mediante un teléfono celular** [4]. Por ello, una experiencia web responsive y orientada al uso móvil resulta coherente con los hábitos de conectividad del mercado local.
+Desde el punto de vista tecnológico, una experiencia web responsive resulta viable para el mercado objetivo. Durante el cuarto trimestre de 2025, el INEI reportó que **98,4 % de los hogares de Lima Metropolitana contaba con telefonía móvil**, **90,3 % de la población de 6 años a más utilizaba Internet** y **91,0 % de los usuarios de Internet de Lima Metropolitana accedía mediante teléfono celular** [4]. Esto respalda la decisión de diseñar Rumbo con una experiencia priorizada para dispositivos móviles.
 
-A partir de este contexto, Rumbo aborda un problema específico que será contrastado con las entrevistas de AV1: **la falta de una vista única y fácil de consultar sobre el estado de la movilidad escolar, sus principales hitos, retrasos e incidencias**. Actualmente, este tipo de información puede requerir comunicación directa entre padres y conductores. Rumbo busca centralizarla sin reemplazar la comunicación humana cuando esta sea necesaria.
+A partir de este contexto, Rumbo aborda una necesidad que será contrastada mediante las entrevistas de AV1: **la falta de una vista única, clara y oportuna sobre el estado de la movilidad escolar, sus principales hitos, retrasos e incidencias**. Actualmente, gran parte de esa coordinación puede depender de llamadas o mensajes directos entre padres y conductores.
 
-#### 5W + 2H
+#### Técnica de las 5 W's + 2 H's
 
-| Dimensión | Análisis |
-|---|---|
-| **Who? / ¿Quiénes?** | Padres o tutores de menores que utilizan movilidad escolar y conductores que prestan el servicio. |
-| **What? / ¿Qué ocurre?** | Los padres necesitan conocer hitos como recojo, avance, llegada, retraso o incidencia; los conductores necesitan comunicar estos eventos de forma ordenada. |
-| **Where? / ¿Dónde?** | Principalmente en Lima y Callao, durante rutas entre hogares, puntos de recojo y centros educativos. |
-| **When? / ¿Cuándo?** | Antes del recojo, durante el traslado y al momento de la entrega o llegada. |
-| **Why? / ¿Por qué importa?** | La congestión genera variabilidad en los tiempos de viaje y el transporte de menores requiere información clara y oportuna para las familias. |
-| **How? / ¿Cómo se aborda?** | Mediante una plataforma web responsive con seguimiento del estado de ruta, hitos, notificaciones e incidencias. |
-| **How much? / ¿Qué magnitud tiene?** | ATU reportó 3758 vehículos escolares habilitados en Lima y Callao; Lima registró 69,3 % de congestión promedio en 2025 y 195 horas anuales perdidas en hora punta. |
+**What (¿Qué?) — ¿Cuál es el problema?**  
+Los padres y tutores no siempre cuentan con información centralizada sobre el estado del traslado escolar: si el menor ya fue recogido, si la movilidad está en ruta, si existe un retraso o si ocurrió una incidencia. A su vez, los conductores pueden verse obligados a repetir la misma información a distintas familias.
+
+**When (¿Cuándo?) — ¿Cuándo ocurre?**  
+El problema aparece antes del recojo, durante el recorrido y al momento de la llegada o entrega. Se intensifica cuando la congestión altera el horario previsto o cuando ocurre una situación inesperada que necesita ser comunicada con rapidez.
+
+**Where (¿Dónde?) — ¿Dónde surge?**  
+Rumbo se plantea inicialmente para Lima y Callao, donde la ATU reportó 3758 vehículos habilitados para transporte escolar [1] y donde las condiciones de congestión generan variabilidad en los tiempos de viaje [2].
+
+**Who (¿Quiénes?) — ¿Quiénes son los afectados?**  
+- **Padres y tutores**, que necesitan conocer el estado del traslado de sus hijos o menores a cargo.
+- **Conductores de movilidad escolar**, que necesitan gestionar la ruta y comunicar hitos, retrasos e incidencias de forma eficiente.
+
+**Why (¿Por qué?) — ¿Por qué ocurre y por qué importa?**  
+- La congestión provoca variaciones entre los horarios programados y los tiempos reales de viaje.
+- La comunicación puede depender de mensajes individuales y repetitivos.
+- Los padres requieren información clara sin necesidad de contactar continuamente al conductor.
+- El conductor necesita registrar eventos de forma rápida y con baja carga operativa.
+
+**How (¿Cómo?) — ¿Cómo se abordará?**  
+Rumbo propone una plataforma web responsive con una vista del estado actual del traslado, línea de tiempo del recorrido, confirmaciones de recojo y entrega, registro de retrasos e incidencias y notificaciones de eventos relevantes.
+
+**How much (¿Qué magnitud tiene?)**  
+La ATU reportó **3758 vehículos escolares habilitados en Lima y Callao** [1]. Además, Lima registró una congestión promedio de **69,3 % durante 2025**, con aproximadamente **195 horas anuales perdidas en tráfico de hora punta** [2]. Estas cifras permiten dimensionar un mercado concreto y un contexto operativo donde los tiempos de viaje varían de manera significativa.
 
 ### 1.2.2. Lean UX Process
 
+El proceso **Lean UX** de Rumbo parte de la definición del problema, continúa con la formulación de supuestos sobre el negocio y los usuarios, y transforma esos supuestos en hipótesis que podrán contrastarse mediante entrevistas y posteriores iteraciones del producto. El objetivo es evitar desarrollar características basadas únicamente en percepciones del equipo y priorizar aquellas que tengan relación directa con necesidades reales de los segmentos.
+
 #### 1.2.2.1. Lean UX Problem Statement
 
-El estado actual de la coordinación del transporte escolar en Lima y Callao se desarrolla en un contexto de alta congestión, tiempos de viaje variables y comunicación frecuente entre familias y conductores. Aunque existen mecanismos oficiales para verificar la formalidad del vehículo y del conductor, los padres no necesariamente disponen de una experiencia única donde puedan consultar de forma sencilla los principales eventos de una ruta.
+El servicio de movilidad escolar en Lima y Callao opera en un contexto de alta congestión y tiempos variables. Aunque existen mecanismos oficiales para verificar la formalidad de vehículos y conductores, los padres no necesariamente disponen de una experiencia centralizada donde puedan consultar los principales eventos del recorrido.
 
-Rumbo busca cubrir esta brecha mediante una plataforma web que concentre el estado del recorrido, confirmaciones de recojo y entrega, retrasos, incidencias y notificaciones. El enfoque inicial se dirige a **padres o tutores y conductores de movilidad escolar**. Consideraremos que la propuesta aporta valor cuando los padres puedan comprender el estado del traslado con menos consultas directas y los conductores puedan registrar los eventos principales mediante interacciones breves.
+Hemos observado que esta situación puede generar incertidumbre en padres y tutores y una carga de comunicación repetitiva para los conductores, especialmente cuando existen retrasos, cambios de horario o incidencias. Rumbo busca reducir esa brecha ofreciendo una plataforma donde ambos segmentos puedan acceder a información estructurada sobre el traslado.
+
+**¿Cómo podríamos mejorar la visibilidad y coordinación del transporte escolar para que los padres puedan conocer el estado del traslado y los conductores puedan comunicar los principales eventos de la ruta de forma rápida y ordenada?**
+
+**Domain:** Transporte escolar, seguimiento de recorridos y coordinación digital.  
+**Customer Segments:** Padres/tutores y conductores de movilidad escolar.  
+**Pain Points:** incertidumbre sobre el estado de la ruta, mensajes repetitivos, retrasos, falta de un historial simple de eventos e incidencias.  
+**Gap:** la información relevante del traslado puede estar fragmentada en llamadas, chats y comunicaciones individuales.  
+**Vision/Strategy:** convertir a Rumbo en una plataforma de referencia para la coordinación y visibilidad del transporte escolar en Lima y Callao, priorizando simplicidad, confianza y uso móvil.
 
 #### 1.2.2.2. Lean UX Assumptions
 
 ##### Business Assumptions
 
-1. Creemos que existe una oportunidad de valor en complementar el servicio de movilidad escolar con información digital estructurada sobre cada ruta.
-2. Creemos que los padres estarán más dispuestos a utilizar Rumbo si reciben información útil sin necesidad de revisar constantemente la aplicación.
-3. Creemos que los conductores adoptarán la solución si el registro de eventos requiere pocos pasos y no interfiere con la conducción.
-4. Creemos que la confianza en la plataforma dependerá de una adecuada gestión de permisos, privacidad y visibilidad de la información del menor.
-5. Creemos que el contexto de Lima y Callao es adecuado para un primer lanzamiento por la cantidad de unidades escolares formales y el alto nivel de conectividad móvil.
-
-##### Business Outcome Assumptions
-
-1. Aumentar la proporción de recojos y entregas que quedan registrados dentro de la plataforma.
-2. Reducir las consultas repetitivas de los padres relacionadas con el estado de la ruta.
-3. Conseguir uso recurrente de Rumbo durante los días de servicio escolar.
-4. Lograr que los conductores registren los principales hitos sin afectar su flujo de trabajo.
-5. Obtener evidencia de que los padres consideran útil recibir notificaciones sobre recojo, llegada, retrasos e incidencias.
+1. Creemos que existe una oportunidad de valor al complementar el servicio de movilidad escolar con información digital estructurada sobre cada ruta.
+2. Creemos que los padres utilizarán con mayor frecuencia Rumbo si pueden consultar información relevante sin depender de mensajes individuales.
+3. Creemos que los conductores adoptarán la solución si registrar los principales eventos requiere pocos pasos y no interfiere con su trabajo.
+4. Creemos que la confianza en Rumbo dependerá de una adecuada gestión de privacidad, permisos y acceso a información del menor.
+5. Creemos que Lima y Callao representan un mercado inicial adecuado debido a la existencia de 3758 unidades escolares habilitadas y al alto nivel de conectividad móvil [1][4].
 
 ##### User Assumptions
 
-1. Los padres necesitan saber si el menor ya fue recogido, si la movilidad está en ruta y si llegó al destino previsto.
-2. Los padres valoran recibir información resumida antes que una secuencia continua de coordenadas.
-3. Los conductores necesitan consultar rápidamente su ruta y los menores asignados.
-4. Los conductores necesitan comunicar retrasos e incidencias a varias familias sin repetir el mismo mensaje individualmente.
-5. Ambos segmentos necesitan que la información visible esté limitada a lo estrictamente necesario para su rol.
+**¿Quién es el usuario?**
+- Padres y tutores responsables de menores que utilizan movilidad escolar.
+- Conductores que realizan rutas recurrentes de transporte de estudiantes.
 
-##### User Outcome and Benefit Assumptions
+**¿Dónde encaja Rumbo en su rutina?**
+- Para los padres, como una herramienta de consulta durante el recojo, traslado y llegada.
+- Para los conductores, como apoyo para registrar hitos y comunicar eventos relevantes a varias familias.
 
-1. Los padres podrán conocer en pocos segundos el estado actual del traslado.
-2. Los padres podrán revisar los principales acontecimientos de una ruta desde una línea de tiempo.
-3. Los padres podrán anticiparse a retrasos mediante avisos relevantes.
-4. Los conductores podrán confirmar recojos y entregas de forma rápida.
-5. Los conductores podrán registrar incidencias con información suficiente para que los padres comprendan la situación.
+**¿Qué problemas busca resolver?**
+- Incertidumbre sobre el estado actual del traslado.
+- Comunicación repetitiva de retrasos y novedades.
+- Falta de una secuencia clara de hitos del recorrido.
+- Ausencia de un registro simple de incidencias.
+
+**¿Qué características resultan importantes?**
+- Estado actual del traslado.
+- Línea de tiempo del trayecto.
+- Confirmaciones de recojo y entrega.
+- Notificaciones de retrasos e incidencias.
+- Experiencia responsive, rápida y de fácil lectura.
 
 ##### Feature Assumptions
 
-1. Una vista de **estado actual del viaje** facilitará la consulta rápida de la ruta.
-2. Una **línea de tiempo del trayecto** permitirá revisar los hitos ocurridos durante el servicio.
-3. La **confirmación de recojo y entrega** permitirá dejar constancia de los eventos principales de cada menor.
-4. El **seguimiento de la movilidad escolar** permitirá visualizar el progreso general del recorrido.
-5. Un **centro de notificaciones** permitirá comunicar recojos, llegadas, retrasos e incidencias sin saturar al usuario.
-6. Un **registro de incidencias** permitirá al conductor comunicar situaciones imprevistas con contexto suficiente.
+1. Creemos que una **vista del estado actual del viaje** permitirá que los padres comprendan rápidamente en qué etapa se encuentra la ruta.
+2. Creemos que una **línea de tiempo del trayecto** permitirá revisar los principales eventos ocurridos durante el servicio.
+3. Creemos que la **confirmación de recojo y entrega** permitirá dejar constancia de los hitos más importantes de cada estudiante.
+4. Creemos que el **seguimiento del progreso de la movilidad** aumentará la visibilidad general del recorrido.
+5. Creemos que un **centro de notificaciones** facilitará comunicar recojos, llegadas, retrasos e incidencias sin saturar a los usuarios.
+6. Creemos que un **registro de incidencias** permitirá comunicar situaciones imprevistas con contexto suficiente.
+
+##### User Outcome and Benefit Assumptions
+
+- Los padres podrán conocer en pocos segundos el estado actual del traslado.
+- Los padres reducirán la necesidad de contactar al conductor para consultas rutinarias.
+- Los padres podrán anticiparse a retrasos y comprender mejor lo ocurrido durante la ruta.
+- Los conductores podrán informar a varias familias mediante un único registro de evento.
+- Los conductores podrán dejar constancia de recojos, entregas e incidencias de manera ordenada.
+
+##### Business Outcome Assumptions
+
+- Reducir las consultas manuales relacionadas con el estado del traslado.
+- Aumentar la proporción de recojos y entregas registrados dentro de Rumbo.
+- Conseguir uso recurrente de la plataforma durante los días de servicio escolar.
+- Lograr que los conductores registren los principales hitos sin afectar su flujo operativo.
+- Obtener evidencia de que los padres consideran útiles las notificaciones relacionadas con el recorrido.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 **Hipótesis 1 — Estado actual del viaje**  
-Creemos que lograremos reducir la necesidad de consultas directas al conductor si los padres pueden conocer el estado actual del traslado mediante una vista que resuma la etapa de la ruta y el último hito confirmado.
+Creemos que una vista del estado actual reducirá la necesidad de consultas directas al conductor. Sabremos que hemos tenido éxito cuando, durante las validaciones, la mayoría de padres pueda identificar correctamente la etapa del traslado y considere innecesario solicitar esa misma información por otro canal.
 
 **Hipótesis 2 — Línea de tiempo del trayecto**  
-Creemos que lograremos mejorar la claridad sobre lo ocurrido durante el recorrido si los padres pueden revisar los eventos del traslado mediante una línea de tiempo cronológica.
+Creemos que una línea de tiempo mejorará la comprensión de los eventos ocurridos durante el recorrido. Sabremos que hemos tenido éxito cuando los padres puedan reconstruir los principales hitos sin ayuda adicional.
 
 **Hipótesis 3 — Confirmación de recojo y entrega**  
-Creemos que lograremos registrar de manera más consistente los principales hitos de la ruta si los conductores pueden confirmar recojos y entregas mediante una interacción breve.
+Creemos que permitir confirmaciones rápidas aumentará la consistencia con la que los conductores registran los hitos principales. Sabremos que hemos tenido éxito cuando los conductores puedan completar la acción en pocos pasos y la consideren compatible con su rutina.
 
-**Hipótesis 4 — Seguimiento de movilidad**  
-Creemos que lograremos aumentar la visibilidad del recorrido si los padres pueden consultar el progreso de la movilidad a través de estados e hitos relevantes de la ruta.
+**Hipótesis 4 — Seguimiento del progreso**  
+Creemos que mostrar el progreso de la movilidad aumentará la visibilidad del recorrido para los padres. Sabremos que hemos tenido éxito cuando los usuarios puedan interpretar el avance general de la ruta sin depender de mensajes externos.
 
-**Hipótesis 5 — Centro de notificaciones**  
-Creemos que lograremos una comunicación más oportuna si los padres reciben avisos únicamente ante eventos relevantes como recojo, llegada, retraso o incidencia.
+**Hipótesis 5 — Notificaciones**  
+Creemos que las notificaciones de eventos relevantes mejorarán la coordinación. Sabremos que hemos tenido éxito cuando los padres indiquen que los avisos de recojo, llegada, retraso e incidencia les resultan útiles y no excesivos.
 
 **Hipótesis 6 — Registro de incidencias**  
-Creemos que lograremos una mejor coordinación ante situaciones imprevistas si los conductores pueden registrar una incidencia indicando el tipo de evento, momento y observación correspondiente.
+Creemos que un registro estructurado de incidencias permitirá comunicar situaciones inesperadas con mayor claridad. Sabremos que hemos tenido éxito cuando los conductores puedan registrar un evento y los padres comprendan qué ocurrió sin requerir información adicional inmediata.
 
 #### 1.2.2.4. Lean UX Canvas
 
-**UXPressia:** [Insertar captura y URL del Lean UX Canvas]
+El **Lean UX Canvas** sintetiza el problema de negocio, los segmentos objetivo, las soluciones preliminares, los resultados esperados y los principales aprendizajes que Rumbo necesita validar antes de ampliar el alcance del producto.
+
+<p align="center"><img src="assets/lean-ux-canvas.svg" alt="Lean UX Canvas de Rumbo" width="100%"/></p>
 
 ## 1.3. Segmentos objetivo
 
-### Segmento 1 — Padres y tutores
+En esta sección se identifican y describen los **segmentos de usuarios** hacia los cuales se dirige Rumbo. Estos segmentos servirán como referencia para el diseño de funcionalidades, la experiencia de usuario, las entrevistas de Needfinding y la comunicación del producto.
 
-Padres, madres o tutores de menores que utilizan un servicio de movilidad escolar en Lima y Callao. El segmento tiene una relación directa con la contratación y supervisión del servicio. La ATU permite que los padres verifiquen digitalmente si el vehículo y el conductor están autorizados, lo que demuestra que ya existe una interacción digital asociada a la confianza y formalidad del servicio [1].
+### Padres y tutores
 
-La alta disponibilidad de telefonía móvil e Internet en Lima Metropolitana permite plantear una experiencia responsive orientada principalmente al teléfono celular [4]. Para este segmento, Rumbo busca resolver tareas como consultar el estado de una ruta, recibir avisos relevantes y revisar incidencias o eventos del recorrido.
+**Descripción:**  
+Padres, madres o tutores responsables de menores que utilizan servicios de movilidad escolar en Lima y Callao. Este segmento busca disminuir la incertidumbre durante los recorridos y acceder a información clara sobre recojo, traslado, retrasos, llegada e incidencias.
 
-### Segmento 2 — Conductores de movilidad escolar
+**Características demográficas y comportamiento:**
+- Adultos responsables de menores en edad escolar que contratan o utilizan servicios de movilidad escolar.
+- Utilizan principalmente el teléfono móvil para comunicarse y consultar información cotidiana.
+- Valoran la inmediatez, claridad y facilidad de uso por encima de interfaces complejas.
+- Requieren información relevante, pero no necesariamente una secuencia continua de mensajes.
+- La confianza en la plataforma depende de la privacidad y del control sobre quién puede consultar información del menor.
 
-Conductores que realizan rutas recurrentes de transporte de estudiantes en Lima y Callao. La ATU reportó 3758 unidades habilitadas para este servicio y mantiene procedimientos de autorización, inspección y verificación del conductor y del vehículo [1]. Este marco formal permite identificar un segmento profesional concreto, sujeto a responsabilidades específicas durante el traslado de menores.
+**Sustento estadístico:**
+- La ATU reportó **3758 vehículos habilitados para transporte escolar en Lima y Callao** en enero de 2026, evidenciando un mercado formal y recurrente de familias usuarias del servicio [1].
+- El INEI informó que **98,4 % de los hogares de Lima Metropolitana contaba con telefonía móvil**, **90,3 % de la población de 6 años a más utilizaba Internet** y **91,0 % de los usuarios de Internet accedía mediante celular** durante el cuarto trimestre de 2025 [4]. Esto respalda una experiencia web orientada principalmente al uso móvil.
 
-Para este segmento, Rumbo busca facilitar la consulta de rutas y estudiantes asignados, el registro de recojos y entregas, y la comunicación de retrasos o incidencias mediante acciones rápidas y de baja carga operativa.
+### Conductores de movilidad escolar
+
+**Descripción:**  
+Conductores que realizan rutas programadas para el traslado de estudiantes entre hogares, puntos de recojo y centros educativos. Este segmento necesita organizar el recorrido y comunicar a las familias los principales eventos de la ruta de forma rápida y consistente.
+
+**Características demográficas y comportamiento:**
+- Prestadores de un servicio regulado que operan vehículos autorizados para transporte de estudiantes.
+- Trabajan con rutas, horarios, puntos de recojo y varios estudiantes durante una misma jornada.
+- Necesitan reducir acciones digitales mientras conducen, por lo que las interacciones deben ser breves y ejecutarse únicamente cuando sea seguro hacerlo.
+- Requieren comunicar retrasos, incidencias, recojos y entregas sin repetir la misma información individualmente.
+- Valoran herramientas que simplifiquen la coordinación sin reemplazar sus responsabilidades operativas y de seguridad.
+
+**Sustento estadístico:**
+- La ATU reportó **3758 vehículos escolares habilitados en Lima y Callao** [1], lo que permite identificar un grupo concreto de operadores y conductores dentro del mercado formal.
+- Lima registró **69,3 % de congestión promedio durante 2025**, con recorridos de 10 km de hasta **51 min 17 s en la hora punta de la tarde** y aproximadamente **195 horas anuales perdidas en tráfico de hora punta** [2]. Este contexto sustenta la necesidad de gestionar retrasos y comunicar variaciones de tiempo de manera ordenada.
 
 ---
 
