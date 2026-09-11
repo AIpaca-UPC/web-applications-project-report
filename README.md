@@ -149,50 +149,14 @@ La startup inicia su propuesta en Lima y Callao, donde existe un mercado formal 
 
 <table>
   <thead>
-    <tr>
-      <th>Foto</th>
-      <th>Apellidos y nombres</th>
-      <th>Código</th>
-      <th>Carrera</th>
-      <th>Habilidades</th>
-    </tr>
+    <tr><th>Foto</th><th>Apellidos y nombres</th><th>Código</th><th>Carrera</th><th>Habilidades</th></tr>
   </thead>
   <tbody>
-    <tr>
-      <td align="center">[Insertar foto]</td>
-      <td>Barrientos Quispe, Marcelo</td>
-      <td>U20221e646</td>
-      <td>Ingeniería de Software</td>
-      <td>[Completar perfil]</td>
-    </tr>
-    <tr>
-      <td align="center">[Insertar foto]</td>
-      <td>Díaz Ramírez, Alejandro</td>
-      <td>U202423084</td>
-      <td>Ingeniería de Software</td>
-      <td>[Completar perfil]</td>
-    </tr>
-    <tr>
-      <td align="center">[Insertar foto]</td>
-      <td>Geronimo Puma, Kevin Joel</td>
-      <td>U202423163</td>
-      <td>Ingeniería de Software</td>
-      <td>[Completar perfil]</td>
-    </tr>
-    <tr>
-      <td align="center"><img src="assets/leonardo-lino.svg" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
-      <td>Lino Quispe, Leonardo Miguel</td>
-      <td>U202422298</td>
-      <td>Ingeniería de Software</td>
-      <td>Soy estudiante de Ingeniería de Software del 4to ciclo en la UPC. Tengo conocimientos en programación en C++ y Python, y experiencia desarrollando proyectos académicos donde analizo y organizo soluciones tecnológicas. Me gusta enfocarme en aprender de forma práctica y en construir soluciones que sean claras, funcionales y aplicadas a problemas reales.</td>
-    </tr>
-    <tr>
-      <td align="center">[Insertar foto]</td>
-      <td>Meza Soza, Alexandra Yamile</td>
-      <td>U20241b451</td>
-      <td>Ingeniería de Software</td>
-      <td>[Completar perfil]</td>
-    </tr>
+    <tr><td align="center">[Insertar foto]</td><td>Barrientos Quispe, Marcelo</td><td>U20221e646</td><td>Ingeniería de Software</td><td>[Completar perfil]</td></tr>
+    <tr><td align="center">[Insertar foto]</td><td>Díaz Ramírez, Alejandro</td><td>U202423084</td><td>Ingeniería de Software</td><td>[Completar perfil]</td></tr>
+    <tr><td align="center">[Insertar foto]</td><td>Geronimo Puma, Kevin Joel</td><td>U202423163</td><td>Ingeniería de Software</td><td>[Completar perfil]</td></tr>
+    <tr><td align="center"><img src="assets/leonardo-lino.svg" alt="Leonardo Miguel Lino Quispe" width="120"/></td><td>Lino Quispe, Leonardo Miguel</td><td>U202422298</td><td>Ingeniería de Software</td><td>Soy estudiante de Ingeniería de Software del 4to ciclo en la UPC. Tengo conocimientos en programación en C++ y Python, y experiencia desarrollando proyectos académicos donde analizo y organizo soluciones tecnológicas. Me gusta enfocarme en aprender de forma práctica y en construir soluciones que sean claras, funcionales y aplicadas a problemas reales.</td></tr>
+    <tr><td align="center">[Insertar foto]</td><td>Meza Soza, Alexandra Yamile</td><td>U20241b451</td><td>Ingeniería de Software</td><td>[Completar perfil]</td></tr>
   </tbody>
 </table>
 
@@ -260,7 +224,6 @@ Hemos observado que esta situación puede generar incertidumbre en padres y tuto
 #### 1.2.2.2. Lean UX Assumptions
 
 ##### Business Assumptions
-
 1. Creemos que existe una oportunidad de valor al complementar el servicio de movilidad escolar con información digital estructurada sobre cada ruta.
 2. Creemos que los padres utilizarán con mayor frecuencia Rumbo si pueden consultar información relevante sin depender de mensajes individuales.
 3. Creemos que los conductores adoptarán la solución si registrar los principales eventos requiere pocos pasos y no interfiere con su trabajo.
@@ -268,7 +231,6 @@ Hemos observado que esta situación puede generar incertidumbre en padres y tuto
 5. Creemos que Lima y Callao representan un mercado inicial adecuado debido a la existencia de 3758 unidades escolares habilitadas y al alto nivel de conectividad móvil [1][4].
 
 ##### User Assumptions
-
 **¿Quién es el usuario?**
 - Padres y tutores responsables de menores que utilizan movilidad escolar.
 - Conductores que realizan rutas recurrentes de transporte de estudiantes.
@@ -291,7 +253,6 @@ Hemos observado que esta situación puede generar incertidumbre en padres y tuto
 - Experiencia responsive, rápida y de fácil lectura.
 
 ##### Feature Assumptions
-
 1. Creemos que una **vista del estado actual del viaje** permitirá que los padres comprendan rápidamente en qué etapa se encuentra la ruta.
 2. Creemos que una **línea de tiempo del trayecto** permitirá revisar los principales eventos ocurridos durante el servicio.
 3. Creemos que la **confirmación de recojo y entrega** permitirá dejar constancia de los hitos más importantes de cada estudiante.
@@ -300,7 +261,6 @@ Hemos observado que esta situación puede generar incertidumbre en padres y tuto
 6. Creemos que un **registro de incidencias** permitirá comunicar situaciones imprevistas con contexto suficiente.
 
 ##### User Outcome and Benefit Assumptions
-
 - Los padres podrán conocer en pocos segundos el estado actual del traslado.
 - Los padres reducirán la necesidad de contactar al conductor para consultas rutinarias.
 - Los padres podrán anticiparse a retrasos y comprender mejor lo ocurrido durante la ruta.
@@ -308,7 +268,6 @@ Hemos observado que esta situación puede generar incertidumbre en padres y tuto
 - Los conductores podrán dejar constancia de recojos, entregas e incidencias de manera ordenada.
 
 ##### Business Outcome Assumptions
-
 - Reducir las consultas manuales relacionadas con el estado del traslado.
 - Aumentar la proporción de recojos y entregas registrados dentro de Rumbo.
 - Conseguir uso recurrente de la plataforma durante los días de servicio escolar.
@@ -407,37 +366,59 @@ Conductores que realizan rutas programadas para el traslado de estudiantes entre
 
 ## 2.2. Entrevistas
 
-Se realizarán **seis entrevistas: tres a padres o tutores y tres a conductores de movilidad escolar**.
+Para este bloque se realizarán **entrevistas semiestructuradas** con el objetivo de comprender las necesidades, hábitos, dificultades y expectativas de los dos segmentos objetivo de Rumbo: **padres o tutores** y **conductores de movilidad escolar**. Las entrevistas buscan conocer cómo se coordina actualmente el traslado escolar, qué información se intercambia, qué situaciones generan mayor incertidumbre y cuáles son las barreras que podrían influir en la adopción de una solución digital.
+
+Se realizarán **seis entrevistas en total: tres por cada segmento**, de acuerdo con el alcance definido para AV1. La información obtenida servirá como evidencia para construir los User Personas, User Task Matrix, User Journey Maps, Empathy Maps y los demás artefactos de Needfinding.
 
 ### 2.2.1. Diseño de entrevistas
 
-#### Preguntas para padres y tutores
+Las preguntas combinan información demográfica y contextual con preguntas abiertas sobre comportamientos reales. Durante la entrevista se priorizará que el participante describa experiencias concretas antes de presentar posibles funcionalidades de Rumbo, con el fin de reducir el sesgo de confirmación y detectar necesidades que el equipo todavía no haya considerado.
 
-1. ¿Cómo coordinas actualmente el recojo y regreso del menor cuando utiliza movilidad escolar?
-2. ¿Cómo sabes que la movilidad está próxima o que el menor ya fue recogido?
-3. ¿En qué momentos del trayecto sientes que tienes menos información?
-4. ¿Cómo confirmas que el menor llegó al colegio o regresó al punto de entrega?
-5. ¿Qué información consideras indispensable recibir durante el traslado?
-6. ¿Qué tipo de retrasos o situaciones inesperadas te generan mayor preocupación?
-7. ¿Qué aplicaciones o canales utilizas actualmente para comunicarte con el conductor?
-8. ¿Qué información preferirías no recibir para evitar notificaciones innecesarias?
-9. ¿Qué aspectos te harían confiar o desconfiar de una plataforma para movilidad escolar?
-10. ¿Qué tendría que mostrarte una aplicación para que realmente te resulte útil durante la ruta?
+### Preguntas dirigidas al primer segmento — Padres y tutores
 
-#### Preguntas para conductores de movilidad escolar
+1. ¿Cuál es tu edad, ocupación y distrito de residencia?
+2. ¿Qué relación tienes con el menor que utiliza movilidad escolar y qué edad tiene?
+3. ¿Con qué frecuencia utiliza movilidad escolar y en qué horarios normalmente?
+4. ¿Qué dispositivo utilizas con mayor frecuencia para comunicarte o consultar información durante el día?
+5. ¿Qué aplicaciones o canales digitales utilizas normalmente para coordinar con el conductor o con otros responsables?
+6. ¿Qué navegador utilizas con mayor frecuencia?
+7. Cuéntame cómo coordinas actualmente el recojo y el regreso del menor.
+8. ¿Cómo sabes que la movilidad está próxima, que el menor fue recogido o que llegó a su destino?
+9. ¿En qué momento del recorrido sientes que tienes menos información o mayor incertidumbre?
+10. ¿Qué retrasos o situaciones inesperadas has vivido durante un traslado escolar?
+11. Cuando ocurre un retraso o una incidencia, ¿cómo te enteras y qué haces normalmente?
+12. ¿Qué información consideras realmente útil recibir durante el recorrido? ¿Qué información sería innecesaria?
+13. ¿Con qué frecuencia sueles contactar al conductor durante una ruta y por qué motivos?
+14. ¿Qué aspectos de privacidad o seguridad te preocuparían al utilizar una plataforma relacionada con el traslado de un menor?
+15. ¿Qué tendría que ofrecer una herramienta digital para que confíes en ella y la utilices de manera frecuente?
+16. ¿Qué situación o dificultad podría hacer que dejaras de utilizar una herramienta de este tipo?
+17. Además del traslado escolar, ¿existen otros momentos relacionados con la seguridad o acompañamiento del menor donde actualmente sientas falta de información?
+18. Si pudieras cambiar una sola cosa de la forma en que hoy se coordina la movilidad escolar, ¿qué cambiarías y por qué?
 
-1. ¿Cómo organizas actualmente la lista de menores y puntos de recojo de tu ruta?
-2. ¿Cómo confirmas que un menor fue recogido o entregado?
-3. ¿Cómo informas a las familias sobre retrasos o cambios importantes del recorrido?
-4. ¿Qué situaciones imprevistas ocurren con mayor frecuencia durante una ruta?
-5. ¿Qué información necesitas consultar antes de iniciar o continuar un recojo?
-6. ¿Qué acciones digitales serían difíciles de realizar durante tu jornada?
-7. ¿Qué tipo de confirmación podrías registrar rápidamente sin distraerte de la conducción?
-8. ¿Qué información sería útil dejar registrada para resolver después una duda sobre el trayecto?
-9. ¿Qué información consideras que no debería mostrarse o solicitarse al conductor?
-10. ¿Qué tendría que ofrecer una aplicación para que realmente la utilices durante tu trabajo?
+### Preguntas dirigidas al segundo segmento — Conductores de movilidad escolar
+
+1. ¿Cuál es tu edad, distrito de residencia y cuántos años de experiencia tienes realizando transporte escolar?
+2. ¿Cuántos estudiantes y rutas manejas normalmente durante una jornada?
+3. ¿Qué dispositivo utilizas para organizar o comunicar información relacionada con tu trabajo?
+4. ¿Qué aplicaciones o canales utilizas actualmente para comunicarte con las familias?
+5. ¿Qué navegador o herramientas digitales utilizas con mayor frecuencia?
+6. Cuéntame cómo organizas actualmente los estudiantes, horarios y puntos de recojo de una ruta.
+7. ¿Cómo confirmas actualmente que un estudiante fue recogido o entregado?
+8. ¿Cómo comunicas un retraso o cambio importante a las familias?
+9. ¿Qué situaciones imprevistas ocurren con mayor frecuencia durante una ruta escolar?
+10. ¿Qué información necesitan pedirte los padres o tutores con mayor frecuencia?
+11. ¿Qué parte de la comunicación con las familias te quita más tiempo o se repite más?
+12. ¿En qué momentos resulta seguro y realista registrar información en un sistema sin distraerte de la conducción?
+13. ¿Qué acciones digitales serían demasiado complejas o poco prácticas durante tu jornada?
+14. ¿Qué información te sería útil conservar como historial de una ruta?
+15. ¿Qué información consideras que nunca debería mostrarse o solicitarse dentro de una plataforma de este tipo?
+16. ¿Qué tendría que ofrecer una herramienta digital para que decidieras utilizarla de manera recurrente?
+17. ¿Qué barreras podrían impedir que adoptes una herramienta como Rumbo?
+18. Si pudieras mejorar una sola parte de la coordinación con padres y tutores, ¿cuál sería y por qué?
 
 ### 2.2.2. Registro de entrevistas
+
+Para cada entrevista se registrará el nombre y apellido del participante, edad, distrito, segmento, una captura de la videollamada o entrevista, el enlace del video consolidado en Microsoft Stream, el timing de inicio y la duración. Asimismo, se redactará un resumen descriptivo de las respuestas, incorporando tanto información objetiva como aspectos relacionados con hábitos, tecnología utilizada, canales de comunicación, objetivos y frustraciones.
 
 | # | Entrevistado | Edad | Distrito | Segmento | Screenshot | URL / Timing | Duración | Resumen |
 |---:|---|---:|---|---|---|---|---|---|
@@ -450,12 +431,16 @@ Se realizarán **seis entrevistas: tres a padres o tutores y tres a conductores 
 
 ### 2.2.3. Análisis de entrevistas
 
-| Variable | Padres y tutores | Conductores de movilidad escolar |
+Una vez finalizadas las entrevistas, se compararán las respuestas entre ambos segmentos para identificar patrones, diferencias y necesidades recurrentes. Los porcentajes se completarán únicamente con los resultados reales obtenidos durante el trabajo de campo.
+
+| Variable de análisis | Padres y tutores | Conductores de movilidad escolar |
 |---|---:|---:|
-| [Variable 1] | [ ]% | [ ]% |
-| [Variable 2] | [ ]% | [ ]% |
-| [Variable 3] | [ ]% | [ ]% |
-| [Variable 4] | [ ]% | [ ]% |
+| Canal principal de comunicación utilizado actualmente | [ ]% | [ ]% |
+| Necesidad de conocer o comunicar el estado de la ruta | [ ]% | [ ]% |
+| Necesidad de confirmación de recojo y entrega | [ ]% | [ ]% |
+| Experiencia con retrasos o cambios de horario | [ ]% | [ ]% |
+| Interés en notificaciones de eventos relevantes | [ ]% | [ ]% |
+| Preocupación por privacidad y seguridad de la información | [ ]% | [ ]% |
 
 ## 2.3. Needfinding
 
@@ -487,7 +472,6 @@ Se realizarán **seis entrevistas: tres a padres o tutores y tres a conductores 
 ## 2.4. Big Picture Event Storming
 
 Eventos iniciales del dominio:
-
 - `Route Scheduled`
 - `Driver Assigned`
 - `Student Assigned to Route`
