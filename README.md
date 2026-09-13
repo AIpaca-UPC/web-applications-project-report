@@ -406,20 +406,48 @@ Las preguntas combinan información demográfica y contextual con preguntas abie
 
 ### 2.2.2. Registro de entrevistas
 
-Para cada entrevista se registrará el nombre y apellido del participante, edad, distrito, segmento, una captura de la videollamada o entrevista, el enlace del video consolidado en Microsoft Stream, el timing de inicio y la duración. Asimismo, se redactará un resumen descriptivo de las respuestas, incorporando tanto información objetiva como aspectos relacionados con hábitos, tecnología utilizada, canales de comunicación, objetivos y frustraciones.
+Para cada entrevista se registrará el nombre y apellido del participante, edad, distrito, segmento, una captura de la videollamada o entrevista, el URL del video, el timing donde inicia y la duración. Asimismo, se redactará un resumen descriptivo con las principales apreciaciones del entrevistado. Hasta el momento se han registrado dos entrevistas del segmento **Conductores de movilidad escolar**.
 
 | # | Entrevistado | Edad | Distrito | Segmento | Screenshot | URL / Timing | Duración | Resumen |
 |---:|---|---:|---|---|---|---|---|---|
 | 1 | [Completar] | [ ] | [ ] | Padre/Tutor | [ ] | [ ] | [ ] | [ ] |
 | 2 | [Completar] | [ ] | [ ] | Padre/Tutor | [ ] | [ ] | [ ] | [ ] |
 | 3 | [Completar] | [ ] | [ ] | Padre/Tutor | [ ] | [ ] | [ ] | [ ] |
-| 4 | [Completar] | [ ] | [ ] | Conductor | [ ] | [ ] | [ ] | [ ] |
-| 5 | [Completar] | [ ] | [ ] | Conductor | [ ] | [ ] | [ ] | [ ] |
+| 4 | Gabriel Alexandro Sosa Guevara | 20 | [Completar distrito] | Conductor | [Captura proporcionada; pendiente de cargar a `assets/`] | [Conductor 1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQC8MugJp8RuRYBv6-JB1JqxAa7zKfdSDfWOW6lMscwFzxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MUf4ft) — 00:00 | 09:51 | Conductor de movilidad escolar con 2 años de experiencia. La entrevista siguió el guion de 12 preguntas definido para el segmento y abordó organización de rutas, comunicación con familias, uso de tecnología, retrasos, confirmaciones, privacidad, historial y barreras de adopción. El detalle de hallazgos se completará con la revisión de sus respuestas reales. |
+| 5 | Brayan Solorzano Pineda | 25 | [Completar distrito] | Conductor | [Captura proporcionada; pendiente de cargar a `assets/`] | [Conductor 2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQDViGOQ_7GOQYDKI1MqVAXNAacWQv3o8bRMqBJbKkhsKp8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6tRx0m) — 00:00 | 09:05 | Conductor de movilidad escolar con 5 años de experiencia. La entrevista utilizó el mismo guion semiestructurado de 12 preguntas y cubrió organización de la jornada, canales digitales, incidencias, comunicación repetitiva, seguridad de uso durante la conducción, privacidad y necesidades de una posible solución digital. El detalle de hallazgos se completará con la revisión de sus respuestas reales. |
 | 6 | [Completar] | [ ] | [ ] | Conductor | [ ] | [ ] | [ ] | [ ] |
+
+#### Entrevista — Gabriel Alexandro Sosa Guevara
+
+- **Edad:** 20 años.
+- **Ocupación / segmento:** Conductor de movilidad escolar.
+- **Experiencia en el rubro:** 2 años.
+- **Distrito:** [Completar].
+- **Duración:** 09:51.
+- **Timing de inicio:** 00:00.
+- **Video:** [Conductor 1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQC8MugJp8RuRYBv6-JB1JqxAa7zKfdSDfWOW6lMscwFzxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MUf4ft).
+- **Screenshot:** captura de Google Meet proporcionada por el equipo; pendiente de carga al directorio `assets/`.
+
+**Resumen preliminar:** Gabriel cuenta con 2 años de experiencia realizando transporte escolar. Durante la entrevista se aplicó el guion semiestructurado del segundo segmento, orientado a conocer su forma de organizar rutas y estudiantes, las herramientas digitales utilizadas, el proceso de recojo y entrega, el manejo de retrasos e incidencias, la comunicación con padres, las restricciones de uso de tecnología durante la conducción, el valor de conservar un historial, las consideraciones de privacidad y las condiciones de adopción de una herramienta digital. Para no atribuirle respuestas que todavía no han sido transcritas, los hallazgos específicos se incorporarán al análisis una vez revisado el contenido de la grabación.
+
+#### Entrevista — Brayan Solorzano Pineda
+
+- **Edad:** 25 años.
+- **Ocupación / segmento:** Conductor de movilidad escolar.
+- **Experiencia en el rubro:** 5 años.
+- **Distrito:** [Completar].
+- **Duración:** 09:05.
+- **Timing de inicio:** 00:00.
+- **Video:** [Conductor 2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQDViGOQ_7GOQYDKI1MqVAXNAacWQv3o8bRMqBJbKkhsKp8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6tRx0m).
+- **Screenshot:** captura de Google Meet proporcionada por el equipo; pendiente de carga al directorio `assets/`.
+
+**Resumen preliminar:** Brayan cuenta con 5 años de experiencia en el rubro. La sesión siguió las mismas 12 preguntas del diseño de entrevistas para conductores, permitiendo recopilar información comparable con la primera entrevista sobre operación cotidiana, canales de comunicación, retrasos, confirmaciones de recojo y entrega, acciones seguras durante la ruta, información que conviene conservar, privacidad y barreras de adopción. Los hallazgos concretos deben completarse a partir de las respuestas registradas en video, evitando inferir información que el entrevistado no haya expresado.
 
 ### 2.2.3. Análisis de entrevistas
 
 Una vez finalizadas las entrevistas, se compararán las respuestas entre ambos segmentos para identificar patrones, diferencias y necesidades recurrentes. Los porcentajes se completarán únicamente con los resultados reales obtenidos durante el trabajo de campo.
+
+Con las dos entrevistas de conductores registradas hasta el momento se cuenta con un primer perfil objetivo del segmento: las edades son **20 y 25 años**, con un promedio de **22,5 años**, mientras que la experiencia declarada en transporte escolar es de **2 y 5 años**, con un promedio de **3,5 años**. Estos datos son preliminares y deberán complementarse con la tercera entrevista del segmento antes de cerrar el análisis comparativo.
 
 | Variable de análisis | Padres y tutores | Conductores de movilidad escolar |
 |---|---:|---:|
@@ -873,8 +901,11 @@ En AV1 el incremento implementado se concentra en el Landing Page. La documentac
 
 ## Entrevistas de Needfinding
 
-**Microsoft Stream:** [Completar]  
-**Archivo:** `upc-pre-202620-1asi0730-8137-rumbo-needfinding-sprint-1.mp4`
+**Videos registrados hasta el momento:**  
+- [Conductor 1 — Gabriel Alexandro Sosa Guevara](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQC8MugJp8RuRYBv6-JB1JqxAa7zKfdSDfWOW6lMscwFzxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MUf4ft) — 09:51.  
+- [Conductor 2 — Brayan Solorzano Pineda](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQDViGOQ_7GOQYDKI1MqVAXNAacWQv3o8bRMqBJbKkhsKp8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6tRx0m) — 09:05.
+
+**Archivo consolidado final:** `upc-pre-202620-1asi0730-8137-rumbo-needfinding-sprint-1.mp4` [pendiente si el equipo decide consolidar las entrevistas].
 
 ## Navegación del Prototipo
 
