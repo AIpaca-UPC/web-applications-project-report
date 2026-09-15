@@ -156,7 +156,7 @@ La startup inicia su propuesta en Lima y Callao, donde existe un mercado formal 
     <tr><td align="center">[Insertar foto]</td><td>Díaz Ramírez, Alejandro</td><td>U202423084</td><td>Ingeniería de Software</td><td>[Completar perfil]</td></tr>
     <tr><td align="center">[Insertar foto]</td><td>Geronimo Puma, Kevin Joel</td><td>U202423163</td><td>Ingeniería de Software</td><td>[Completar perfil]</td></tr>
     <tr><td align="center"><img src="assets/leonardo-lino.svg" alt="Leonardo Miguel Lino Quispe" width="120"/></td><td>Lino Quispe, Leonardo Miguel</td><td>U202422298</td><td>Ingeniería de Software</td><td>Soy estudiante de Ingeniería de Software del 4to ciclo en la UPC. Tengo conocimientos en programación en C++ y Python, y experiencia desarrollando proyectos académicos donde analizo y organizo soluciones tecnológicas. Me gusta enfocarme en aprender de forma práctica y en construir soluciones que sean claras, funcionales y aplicadas a problemas reales.</td></tr>
-    <tr><td align="center">[Insertar foto]</td><td>Meza Soza, Alexandra Yamile</td><td>U20241b451</td><td>Ingeniería de Software</td><td>[Completar perfil]</td></tr>
+    <tr><td align="center"><img src="assets/alexandra-meza.png" alt="Alexandra Yamile Meza Soza" width="120"/></td><td>Meza Soza, Alexandra Yamile</td><td>U20241b451</td><td>Ingeniería de Software</td><td>Soy estudiante de Ingeniería de Software del 6to ciclo en la UPC. Cuento con conocimientos en el desarrollo de sistemas utilizando los lenguajes Python y C++. Me caracterizo por aprendizaje rápido, criterio para filtrar información relevante y trabajo colaborativo. En el equipo aporto investigación aplicada y prototipos técnicos que conectan los hallazgos con funcionalidades del producto.</td></tr>
   </tbody>
 </table>
 
@@ -649,7 +649,7 @@ Las preguntas combinan información demográfica y contextual con preguntas abie
 
 ### 2.2.2. Registro de entrevistas
 
-Para cada entrevista se registrará el nombre y apellido del participante, edad, distrito, segmento, una captura de la videollamada o entrevista, el URL del video, el timing donde inicia y la duración. Asimismo, se redactará un resumen descriptivo con las principales apreciaciones del entrevistado. Hasta el momento se han registrado dos entrevistas del segmento **Conductores de movilidad escolar**.
+Para cada entrevista se registrará el nombre y apellido del participante, edad, distrito, segmento, una captura de la videollamada o entrevista, el URL del video, el timing donde inicia y la duración. Asimismo, se redactará un resumen descriptivo con las principales apreciaciones del entrevistado.
 
 | # | Entrevistado | Edad | Distrito | Segmento | Screenshot | URL / Timing | Duración | Resumen |
 |---:|---|---:|---|---|---|---|---|---|
@@ -658,7 +658,7 @@ Para cada entrevista se registrará el nombre y apellido del participante, edad,
 | 3 | [Completar] | [ ] | [ ] | Padre/Tutor | [ ] | [ ] | [ ] | [ ] |
 | 4 | Gabriel Alexandro Sosa Guevara | 20 | [Completar distrito] | Conductor | [Captura proporcionada; pendiente de cargar a `assets/`] | [Conductor 1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQC8MugJp8RuRYBv6-JB1JqxAa7zKfdSDfWOW6lMscwFzxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MUf4ft) — 00:00 | 09:51 | Conductor de movilidad escolar con 2 años de experiencia. La entrevista siguió el guion de 12 preguntas definido para el segmento y abordó organización de rutas, comunicación con familias, uso de tecnología, retrasos, confirmaciones, privacidad, historial y barreras de adopción. El detalle de hallazgos se completará con la revisión de sus respuestas reales. |
 | 5 | Brayan Solorzano Pineda | 25 | [Completar distrito] | Conductor | [Captura proporcionada; pendiente de cargar a `assets/`] | [Conductor 2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQDViGOQ_7GOQYDKI1MqVAXNAacWQv3o8bRMqBJbKkhsKp8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6tRx0m) — 00:00 | 09:05 | Conductor de movilidad escolar con 5 años de experiencia. La entrevista utilizó el mismo guion semiestructurado de 12 preguntas y cubrió organización de la jornada, canales digitales, incidencias, comunicación repetitiva, seguridad de uso durante la conducción, privacidad y necesidades de una posible solución digital. El detalle de hallazgos se completará con la revisión de sus respuestas reales. |
-| 6 | [Completar] | [ ] | [ ] | Conductor | [ ] | [ ] | [ ] | [ ] |
+| 6 | Vilma Hoyos Martinez | 56 | San Miguel | Conductor | | [Conductor 3.mp4]() - 00:06 | 18:14 | Conductora de movilidad escolar con 25 años de experiencia. La entrevista utilizó el mismo guion semiestructurado de 12 preguntas y cubrió organización de la jornada, canales digitales, incidencias, comunicación repetitiva, seguridad de uso durante la conducción, privacidad y necesidades de una posible solución digital. El detalle de hallazgos se completará con la revisión de sus respuestas reales. |
 
 #### Entrevista — Gabriel Alexandro Sosa Guevara
 
@@ -685,6 +685,20 @@ Para cada entrevista se registrará el nombre y apellido del participante, edad,
 - **Screenshot:** captura de Google Meet proporcionada por el equipo; pendiente de carga al directorio `assets/`.
 
 **Resumen preliminar:** Brayan cuenta con 5 años de experiencia en el rubro. La sesión siguió las mismas 12 preguntas del diseño de entrevistas para conductores, permitiendo recopilar información comparable con la primera entrevista sobre operación cotidiana, canales de comunicación, retrasos, confirmaciones de recojo y entrega, acciones seguras durante la ruta, información que conviene conservar, privacidad y barreras de adopción. Los hallazgos concretos deben completarse a partir de las respuestas registradas en video, evitando inferir información que el entrevistado no haya expresado.
+
+#### Entrevista — Vilma Hoyos Martinez
+
+- **Edad:** 56 años.
+- **Ocupación / segmento:** Conductor de movilidad escolar.
+- **Experiencia en el rubro:** 25 años.
+- **Distrito:** San Miguel.
+- **Duración:** 18:14.
+- **Timing de inicio:** 00:06.
+- **Video:** [Conductor 3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b451_upc_edu_pe/IQAarNiMmGEZT73ZVhSkpNMNAVFqyptTBINEQvTJU6AW7BY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=asjxgo).
+
+![Conductor3](assets/screenshots-interwiews/conductor-3.png)
+
+**Resumen preliminar:** Vilma cuenta con 25 años de experiencia en el rubro de la movilidad escolar. Empezó llevando a estudiantes del colegio San Toribio, en el Rímac, hace 10 años y actualmente está a cargo de 26 niños en San Miguel, a quienes lleva a los colegios Claretiano y Los Rosales. La señora Vilma cuenta con un ayudante, quien utiliza la aplicación WhatsApp para comunicarse con las familias, coordinar horarios, llamar para avisar que deben bajar, informar si el niño asistirá, si necesita esperar y compartir su ubicación en tiempo real. Ha presentado problemas con la puntualidad de los niños y con la coordinación con los padres respecto a si los niños serán recogidos o no. Comenta que tiene conocimientos casi nulos en tecnología. Los padres le han recomendado utilizar algunas aplicaciones para poder realizar un mejor seguimiento del recorrido de sus hijos, pero menciona que no sabe cómo utilizarlas y, por ese motivo, no las implementa.
 
 ### 2.2.3. Análisis de entrevistas
 
