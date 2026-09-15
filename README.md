@@ -342,27 +342,270 @@ Conductores que realizan rutas programadas para el traslado de estudiantes entre
 
 ## 2.1. Competidores
 
+### titiGO (Competidor Directo)
+
+**titiGO** es una aplicación para el seguimiento y control del transporte escolar que opera en Lima, Perú. La aplicación conecta a los colegios, las movilidades y los padres de familia. Los conductores pueden registrarse y crear su perfil de movilidad para que posteriormente el colegio correspondiente confirme su perfil como movilidad verificada. Con esta aplicación, los padres reciben notificaciones sobre los diferentes estados del viaje, como si su hijo subió a la movilidad, llegó al colegio o llegó a casa. También pueden cancelar recogidas o informar sobre imprevistos. Cuenta con una función que genera un código QR único cada día, que los maestros escanean para confirmar el retiro del estudiante, otorgando mayor seguridad y asegurando que el estudiante sea entregado a la persona correspondiente.
+
+### Transporte Escolar (Competidor Directo)
+
+**"Transporte Escolar"** es una aplicación desarrollada en Ecuador para el seguimiento escolar en tiempo real y la comunicación segura para las familias. Los usuarios pueden registrarse gratuitamente como conductores o padres utilizando su correo, y cada usuario tendrá un panel correspondiente. Los conductores pueden compartir su ubicación en tiempo real, gestionar estudiantes, administrar rutas, intercambiar mensajes y enviar alertas y notificaciones a los padres de familia. Por su parte, los padres pueden agregar uno o más de sus hijos utilizando un código proporcionado por el conductor, lo que les permite ver su estado (a bordo o entregado), conocer la distancia aproximada del destino y visualizar el recorrido de la movilidad en tiempo real.
+
+### WhatsApp (Competidor Indirecto)
+
+**WhatsApp** es una aplicación de mensajería utilizada ampliamente por los conductores de movilidad escolar para comunicarse con los padres de familia. Permite crear grupos o chats individuales para informar sobre horarios de recojo y llegada, cambios en las rutas, avisos, incidencias y otras situaciones relacionadas con el servicio. Además, permite compartir la ubicación en tiempo real para que los padres puedan conocer la ubicación exacta de la movilidad. Sin embargo, la información se encuentra distribuida entre las conversaciones y no cuenta con funciones especializadas para gestionar rutas, estudiantes o realizar un seguimiento organizado de la movilidad.
+
+| Criterio | titiGO | Transporte Escolar | WhatsApp | Rumbo |
+|:---|:---|:---|:---|:---|
+| Segmento principal | Colegios, movilidades y padres de familia | Conductores y padres de familia | Conductores y padres de familia | Padres/tutores y conductores de movilidad escolar |
+| Propuesta de valor | Seguimiento y control del transporte escolar | Seguimiento de estudiantes y rutas en tiempo real | Comunicación rápida entre conductores y padres | Visibilidad de la ruta mediante estados, hitos, avisos e incidencias |
+| Seguimiento de ruta | Sí | Sí | Sí, mediante ubicación compartida | Sí |
+| Confirmación de recojo / entrega | Sí | Sí | No | Sí |
+| Línea de tiempo | Sí | No | No | Sí |
+| Registro de incidencias | Sí | Sí | Sí, mediante mensajes | Sí |
+| Notificaciones | Sí | Sí | Sí | Sí |
+| Gestión de estudiantes | Sí | Sí | No | Sí |
+| Gestión de rutas | Sí | Sí | No | Sí |
+| Comunicación con padres | Sí | Sí | Sí | Sí |
+
 ### 2.1.1. Análisis competitivo
 
-| Criterio | Competidor 1 | Competidor 2 | Competidor 3 | Rumbo |
-|---|---|---|---|---|
-| Segmento principal | [Completar] | [Completar] | [Completar] | Padres/tutores y conductores de movilidad escolar |
-| Propuesta de valor | [Completar] | [Completar] | [Completar] | Visibilidad de la ruta mediante estados, hitos, avisos e incidencias |
-| Seguimiento de ruta | [Completar] | [Completar] | [Completar] | Sí |
-| Confirmación de recojo / entrega | [Completar] | [Completar] | [Completar] | Sí |
-| Línea de tiempo | [Completar] | [Completar] | [Completar] | Sí |
-| Registro de incidencias | [Completar] | [Completar] | [Completar] | Sí |
-| Modelo de negocio | [Completar] | [Completar] | [Completar] | SaaS |
+En esta sección se realiza un análisis detallado de nuestros tres principales competidores: **WhatsApp, Transporte Escolar y titiGO**. Para ello, se presenta un **Competitive Analysis Landscape**, cuyo objetivo es conocer y comparar las principales características de cada competidor, considerando sus fortalezas, debilidades, oportunidades de mejora y modelos de negocio. Este análisis permitirá identificar oportunidades de diferenciación y establecer las estrategias y tácticas de negocio que **Rumbo** adoptará para desarrollar una ventaja competitiva dentro del mercado del seguimiento y gestión de movilidades escolares.
 
-**Competitive Analysis Landscape:** [Insertar artefacto]
+## Competitive Analysis Landscape
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">¿Por qué llevará a cabo este análisis?</th>
+      <th colspan="4">
+        Se llevará a cabo este análisis con el objetivo de identificar las fortalezas y debilidades de nuestros competidores y conocer cuáles de estas podemos adoptar en nuestro modelo de negocio para sobresalir en el mercado y así brindarles a los padres y conductores de movilidad una plataforma que cubra completamente sus necesidades.
+      </th>
+    </tr>
+    <tr>
+      <th>Competidores</th>
+      <th></th>
+      <th>Rumbo</th>
+      <th>titiGO</th>
+      <th>Transporte Escolar</th>
+      <th>WhatsApp</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+  <tr>
+      <td rowspan="4">Perfil de Marketing</td>
+      <td>Overview</td>
+      <td>
+        Plataforma enfocada en el seguimiento de movilidades escolares y estudiantes, conectando a padres y conductores.
+      </td>
+      <td>
+        Plataforma de seguimiento y control del transporte escolar que conecta colegios, movilidades y padres.
+      </td>
+      <td>
+        Aplicación de seguimiento escolar que permite a conductores y padres gestionar estudiantes, rutas y comunicación.
+      </td>
+      <td>
+        Aplicación de mensajería utilizada por conductores y padres para coordinar el servicio de movilidad escolar.
+      </td>
+    </tr>
+
+  <tr>
+      <td>
+        Ventaja competitiva<br>
+        ¿Qué valor ofrece a los clientes?
+      </td>
+      <td>
+        Centraliza en una sola plataforma el seguimiento de la movilidad, estados del viaje, avisos e incidencias.
+      </td>
+      <td>
+        Ofrece control del transporte escolar y validación segura del retiro de estudiantes mediante códigos QR.
+      </td>
+      <td>
+        Permite visualizar la ubicación de la movilidad y conocer el estado del estudiante durante el recorrido.
+      </td>
+      <td>
+        Permite una comunicación rápida, sencilla y gratuita entre conductores y padres.
+      </td>
+    </tr>
+
+  <tr>
+      <td>Mercado objetivo</td>
+      <td>
+        Padres/tutores y conductores de movilidad escolar.
+      </td>
+      <td>
+        Colegios, movilidades escolares y padres de familia.
+      </td>
+      <td>
+        Conductores de movilidad escolar y padres de familia.
+      </td>
+      <td>
+        Público general; en este contexto, conductores y padres de familia.
+      </td>
+    </tr>
+
+  <tr>
+      <td>Estrategias de marketing</td>
+      <td>
+        Promoción mediante redes sociales, alianzas con conductores y colegios, y demostraciones de la plataforma.
+      </td>
+      <td>
+        Captación de colegios y movilidades para integrar a las familias dentro de la plataforma.
+      </td>
+      <td>
+        Promoción mediante tiendas de aplicaciones y difusión dirigida a usuarios de transporte escolar.
+      </td>
+      <td>
+        Crecimiento basado en su amplia adopción y facilidad de uso, sin estar especializado en transporte escolar.
+      </td>
+    </tr>
+
+  <tr>
+      <td rowspan="3">Perfil de Producto</td>
+      <td>Productos &amp; Servicios</td>
+      <td>
+        Seguimiento de rutas, estados del viaje, confirmación de recojo y entrega, notificaciones, comunicación e incidencias.
+      </td>
+      <td>
+        Seguimiento del transporte, estados del viaje, notificaciones, control de retiro mediante QR y gestión de movilidades.
+      </td>
+      <td>
+        Seguimiento GPS, gestión de estudiantes y rutas, comunicación, alertas y notificaciones.
+      </td>
+      <td>
+        Mensajería, grupos, llamadas y ubicación en tiempo real.
+      </td>
+    </tr>
+
+  <tr>
+      <td>Precios &amp; Costos</td>
+      <td>
+        Modelo SaaS con planes de suscripción para conductores o empresas de movilidad.
+      </td>
+      <td>
+        No especificado públicamente.
+      </td>
+      <td>
+        Aplicación de descarga gratuita; condiciones comerciales no especificadas.
+      </td>
+      <td>
+        Gratuito para las funciones principales de mensajería.
+      </td>
+    </tr>
+
+  <tr>
+      <td>
+        Canales de distribución<br>
+        (Web y/o Móvil)
+      </td>
+      <td>
+        Aplicación web y aplicación móvil.
+      </td>
+      <td>
+        Aplicación móvil y plataforma asociada al servicio.
+      </td>
+      <td>
+        Aplicación móvil.
+      </td>
+      <td>
+        Aplicación móvil, versión web y escritorio.
+      </td>
+    </tr>
+
+  <tr>
+      <td rowspan="4">Análisis SWOT</td>
+      <td>Fortalezas</td>
+      <td>
+        Plataforma especializada, centralización de información, seguimiento por estados e incidencias y enfoque en las necesidades de padres y conductores.
+      </td>
+      <td>
+        Integración entre colegios, movilidades y padres; seguimiento y validación mediante QR.
+      </td>
+      <td>
+        Seguimiento GPS, gestión de estudiantes y rutas, además de comunicación con los padres.
+      </td>
+      <td>
+        Gran cantidad de usuarios, facilidad de uso, comunicación instantánea y ubicación en tiempo real.
+      </td>
+    </tr>
+
+  <tr>
+      <td>Debilidades</td>
+      <td>
+        Aplicación nueva con una base de usuarios reducida y necesidad de lograr que conductores y padres adopten la plataforma.
+      </td>
+      <td>
+        Dependencia de la participación del colegio para verificar las movilidades y gestionar determinados procesos.
+      </td>
+      <td>
+        Menor integración con instituciones educativas y funciones administrativas especializadas.
+      </td>
+      <td>
+        No cuenta con funciones especializadas para gestionar estudiantes, rutas o estados del transporte escolar.
+      </td>
+    </tr>
+
+  <tr>
+      <td>Oportunidades</td>
+      <td>
+        Digitalización de las movilidades escolares independientes y necesidad de mayor seguridad y visibilidad para los padres.
+      </td>
+      <td>
+        Crecimiento de la digitalización del transporte escolar y expansión hacia más instituciones.
+      </td>
+      <td>
+        Incorporación de nuevas funciones para mejorar la gestión y seguridad del transporte escolar.
+      </td>
+      <td>
+        Integración con otras herramientas y servicios para complementar la comunicación entre usuarios.
+      </td>
+    </tr>
+
+  <tr>
+      <td>Amenazas</td>
+      <td>
+        Competidores especializados, resistencia de algunos conductores al cambio y preferencia por herramientas conocidas como WhatsApp.
+      </td>
+      <td>
+        Aparición de nuevas plataformas de transporte escolar y cambios en las necesidades de colegios y familias.
+      </td>
+      <td>
+        Competencia de plataformas especializadas con mayores funciones de gestión y seguimiento.
+      </td>
+      <td>
+        Su gran popularidad puede dificultar que los usuarios adopten una plataforma nueva para realizar funciones que ya pueden coordinar mediante WhatsApp.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-| Hallazgo | Estrategia de Rumbo | Táctica |
-|---|---|---|
-| [Completar] | [Completar] | [Completar] |
-| [Completar] | [Completar] | [Completar] |
-| [Completar] | [Completar] | [Completar] |
+Teniendo presente todas las fortalezas y debilidades tanto de nuestros competidores como de nuestra aplicación a continuación se presenta las estrategias y tácticas de negocio que **Rumbo** adoptara para diferenciarse y destacar como aplicación para el trackeo de movilidades y estudiantes.
+
+| Competidor / contexto              | Estrategia de Rumbo                                                                                         | Tácticas                                                                                                                                                                                            |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **WhatsApp**                       | Diferenciarse mediante una plataforma especializada que centralice la información del servicio.             | Integrar en un solo lugar el seguimiento de la movilidad, estados del viaje, horarios, notificaciones e incidencias, evitando que la información quede distribuida entre diferentes conversaciones. |
+| **Transporte Escolar**             | Competir mediante una experiencia adaptada al contexto de las movilidades escolares independientes en Perú. | Diseñar funciones específicas para conductores independientes, permitiendo gestionar estudiantes, rutas, recojos, entregas e incidencias sin depender necesariamente de una institución educativa.  |
+| **titiGO**                         | Diferenciarse mediante una propuesta flexible y enfocada en la relación directa entre padres y conductores. | Facilitar el registro de conductores, gestión de rutas, seguimiento del estudiante y comunicación directa, incorporando posteriormente funciones de seguridad y validación.                         |
+| **Competencia en general**         | Generar confianza y facilitar la adopción de la plataforma.                                                 | Ofrecer una interfaz sencilla, notificaciones claras, estados visibles del viaje y mecanismos de confirmación de recojo y entrega.                                                                  |
+| **Oportunidad de digitalización**  | Aprovechar la necesidad de modernizar la gestión de las movilidades escolares.                              | Promover Rumbo mediante redes sociales, alianzas con conductores y demostraciones de la plataforma a padres de familia.                                                                             |
+| **Amenaza: resistencia al cambio** | Reducir la dificultad de abandonar herramientas conocidas como WhatsApp.                                    | Diseñar una experiencia simple y ofrecer las funciones que los usuarios ya utilizan, pero integradas y organizadas dentro de una sola plataforma.                                                   |
+
+### Estrategias principales
+
+1. Estrategia de diferenciación por especialización
+Rumbo buscará diferenciarse de herramientas generales como WhatsApp mediante funciones diseñadas específicamente para las necesidades de las movilidades escolares, como seguimiento de rutas, estados del viaje, gestión de estudiantes e incidencias.
+
+2. Estrategia de adaptación al mercado peruano
+A diferencia de soluciones que dependen principalmente de colegios o sistemas de transporte institucionales, Rumbo estará orientado inicialmente a la realidad de las movilidades escolares independientes, permitiendo que los conductores puedan gestionar su servicio y relacionarse directamente con los padres.
+
+3. Estrategia de centralización de información
+Rumbo buscará solucionar el problema de utilizar múltiples herramientas para administrar el servicio. La plataforma reunirá seguimiento, comunicación, notificaciones, horarios, incidencias y confirmaciones en un mismo espacio.
+
+4. Estrategia de adopción y confianza
+Para afrontar la amenaza de que los usuarios prefieran continuar utilizando herramientas conocidas, Rumbo priorizará una interfaz sencilla y funciones fáciles de entender, además de mecanismos que permitan a los padres conocer el estado del traslado de sus hijos y recibir confirmaciones durante el recorrido.
 
 ## 2.2. Entrevistas
 
