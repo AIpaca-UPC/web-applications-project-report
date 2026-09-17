@@ -299,13 +299,15 @@ El proceso Lean UX que adoptamos en AIpaca busca maximizar la eficiencia en el d
 
 #### 1.2.2.1. Lean UX Problem Statement
 
-El propósito de Rumbo es ofrecer una plataforma web responsive que centralice el estado de cada traslado escolar: recojos, entregas, retrasos e incidencias. Nuestra meta es brindar tranquilidad a los padres y tutores y reducir la carga comunicativa de los conductores, para que la coordinación diaria sea clara, oportuna y ordenada.
+El estado actual de la coordinación del transporte escolar en Lima y Callao se ha centrado principalmente en verificar la formalidad del servicio y en la comunicación directa entre padres o tutores y conductores mediante mensajería instantánea y llamadas. Esto genera incertidumbre sobre recojos, llegadas y retrasos, y consultas repetitivas que interrumpen al conductor durante la ruta.
 
-El problema surge cuando los padres y tutores no tienen información inmediata sobre lo que ocurre durante la ruta, especialmente en las horas punta, cuando la congestión de Lima y Callao hace impredecibles los tiempos de llegada. Hoy la coordinación depende de mensajes y llamadas individuales en aplicaciones de mensajería de uso general, que no fueron diseñadas para registrar los hitos de un recorrido. Aunque existen mecanismos oficiales para verificar si el vehículo y el conductor están autorizados, estos no muestran qué está pasando durante cada traslado.
+Lo que los productos y servicios existentes no resuelven es una vista única y estructurada, restringida por permisos, donde se registren los hitos de cada traslado (recojos, entregas, retrasos e incidencias) y se notifique solo a los tutores autorizados.
 
-Hemos observado que esta situación genera preocupación en las familias, consultas repetitivas hacia el conductor e interrupciones mientras este cumple su ruta. Además, los eventos del trayecto no quedan registrados de forma estructurada, lo que dificulta aclarar dudas posteriores. Existe una brecha entre la necesidad de visibilidad de las familias y las herramientas que hoy usan conductores y padres.
+Rumbo abordará esta brecha mediante una plataforma web responsive en la que los conductores confirman hitos con interacciones breves, y los padres consultan el estado actual y la línea de tiempo del viaje y reciben notificaciones relevantes.
 
-Ante esta problemática, surge la siguiente pregunta:**¿Cómo podríamos ofrecer una solución digital sencilla y confiable que permita a los padres y tutores conocer el estado del traslado escolar de sus hijos, sin aumentar la carga ni la distracción de los conductores?**
+Nuestro enfoque inicial serán los conductores de movilidad escolar autorizados por la ATU en Lima y Callao y los padres o tutores que contratan sus servicios.
+
+Sabremos que tenemos éxito cuando los padres consulten Rumbo en lugar de escribir al conductor, reduciendo en 60 % las consultas sobre el estado de la ruta, y cuando los conductores confirmen al menos el 80 % de los recojos y entregas dentro de la plataforma.
 
 - **Domain:** Transporte escolar, movilidad urbana y coordinación digital entre familias y prestadores de servicio.
 
@@ -341,81 +343,140 @@ Conductores de movilidad escolar que realizan rutas recurrentes.
 
 #### 1.2.2.2. Lean UX Assumptions
 
+Los siguientes supuestos representan las creencias iniciales del equipo sobre el modelo de negocio, los usuarios y la viabilidad de Rumbo. Serán validados mediante entrevistas, prototipos y pruebas durante las iteraciones del proceso Lean UX.
+
 ##### Business Assumptions
 
-1. Creemos que existe una oportunidad de valor al complementar el servicio de movilidad escolar con información digital estructurada sobre cada ruta.
-2. Creemos que los padres utilizarán con mayor frecuencia Rumbo si pueden consultar información relevante sin depender de mensajes individuales.
-3. Creemos que los conductores adoptarán la solución si registrar los principales eventos requiere pocos pasos y no interfiere con su trabajo.
-4. Creemos que la confianza en Rumbo dependerá de una adecuada gestión de privacidad, permisos y acceso a información del menor.
-5. Creemos que Lima y Callao representan un mercado inicial adecuado debido a la existencia de 3758 unidades escolares habilitadas y al alto nivel de conectividad móvil [1][4].
+Estas Business Assumptions servirán como base para formular los Feature Assumptions y los Hypothesis Statements, y permitirán validar los elementos críticos del modelo.
 
-##### User Assumptions
+1. Creemos que los padres y tutores necesitan conocer el estado del traslado escolar de sus hijos para reducir su incertidumbre durante la ruta.
 
-**¿Quién es el usuario?**
-- Padres y tutores responsables de menores que utilizan movilidad escolar.
-- Conductores que realizan rutas recurrentes de transporte de estudiantes.
+2. Creemos que una plataforma web responsive con estados, hitos, notificaciones e incidencias puede satisfacer esta necesidad mejor que la mensajería de uso general.
 
-**¿Dónde encaja Rumbo en su rutina?**
-- Para los padres, como una herramienta de consulta durante el recojo, traslado y llegada.
-- Para los conductores, como apoyo para registrar hitos y comunicar eventos relevantes a varias familias.
+3. Creemos que nuestros clientes iniciales serán conductores independientes de 
+movilidad escolar en Lima y Callao, junto con las familias que contratan sus servicios.
 
-**¿Qué problemas busca resolver?**
-- Incertidumbre sobre el estado actual del traslado.
-- Comunicación repetitiva de retrasos y novedades.
-- Falta de una secuencia clara de hitos del recorrido.
-- Ausencia de un registro simple de incidencias.
+4. Creemos que el valor más importante para los padres es la tranquilidad de saber qué ocurre en la ruta sin tener que preguntar y, para los conductores, la reducción de mensajes repetitivos.
 
-**¿Qué características resultan importantes?**
-- Estado actual del traslado.
-- Línea de tiempo del trayecto.
-- Confirmaciones de recojo y entrega.
-- Notificaciones de retrasos e incidencias.
-- Experiencia responsive, rápida y de fácil lectura.
+5. Creemos que un modelo SaaS con acceso gratuito para padres y tutores y suscripción mensual para conductores nos permitirá crecer, porque el conductor puede presentar Rumbo como un valor agregado de su servicio.
 
-##### Feature Assumptions
+6. Creemos que nuestra ventaja competitiva será una experiencia enfocada en hitos resumidos, y no en un seguimiento continuo de coordenadas, lo que la hace más clara y menos invasiva.
 
-1. Creemos que una **vista del estado actual del viaje** permitirá que los padres comprendan rápidamente en qué etapa se encuentra la ruta.
-2. Creemos que una **línea de tiempo del trayecto** permitirá revisar los principales eventos ocurridos durante el servicio.
-3. Creemos que la **confirmación de recojo y entrega** permitirá dejar constancia de los hitos más importantes de cada estudiante.
-4. Creemos que el **seguimiento del progreso de la movilidad** aumentará la visibilidad general del recorrido.
-5. Creemos que un **centro de notificaciones** facilitará comunicar recojos, llegadas, retrasos e incidencias sin saturar a los usuarios.
-6. Creemos que un **registro de incidencias** permitirá comunicar situaciones imprevistas con contexto suficiente.
+7. Creemos que los conductores adoptarán la plataforma solo si registrar un evento toma pocos segundos y no interfiere con la conducción.
 
-##### User Outcome and Benefit Assumptions
+8. Creemos que los mayores riesgos son la desconfianza sobre el manejo de datos de menores y la resistencia de los conductores a cambiar sus hábitos, y que podremos mitigarlos con permisos estrictos por rol, cumplimiento de la Ley N.º 29733 y pilotos gratuitos con conductores reales.
 
-- Los padres podrán conocer en pocos segundos el estado actual del traslado.
-- Los padres reducirán la necesidad de contactar al conductor para consultas rutinarias.
-- Los padres podrán anticiparse a retrasos y comprender mejor lo ocurrido durante la ruta.
-- Los conductores podrán informar a varias familias mediante un único registro de evento.
-- Los conductores podrán dejar constancia de recojos, entregas e incidencias de manera ordenada.
+9. Creemos que el costo de la suscripción será bajo en relación con lo que las familias pagan mensualmente por el servicio de movilidad escolar.
 
 ##### Business Outcome Assumptions
 
-- Reducir las consultas manuales relacionadas con el estado del traslado.
-- Aumentar la proporción de recojos y entregas registrados dentro de Rumbo.
-- Conseguir uso recurrente de la plataforma durante los días de servicio escolar.
-- Lograr que los conductores registren los principales hitos sin afectar su flujo operativo.
-- Obtener evidencia de que los padres consideran útiles las notificaciones relacionadas con el recorrido.
+1. Reducir en 60 % los mensajes y llamadas de padres y tutores al conductor para consultar el estado de la ruta.
+
+2. Lograr que al menos el 70 % de los padres y tutores activos consulte Rumbo en tres o más días de clases por semana.
+
+3. Lograr que al menos el 80 % de los recojos y entregas de cada ruta quede confirmado dentro de Rumbo.
+
+4. Lograr que al menos el 90 % de los retrasos e incidencias se comunique a las familias mediante Rumbo y no mediante mensajes individuales.
+
+5. Mantener por debajo del 20 % la proporción de padres y tutores que desactiva las notificaciones durante el primer mes de uso.
+
+6. Lograr que al menos el 60 % de los conductores que participen en el piloto continúe usando Rumbo después del primer mes.
+
+
+##### User Assumptions
+
+En esta etapa se identificaron los principales supuestos sobre los usuarios, sus necesidades y el contexto de uso, antes de realizar las entrevistas de validación.
+
+**¿Quién es el usuario?**
+
+- **Padres, madres y tutores:** 
+
+1. Creemos que los padres y tutores trabajan o realizan otras actividades durante el horario de traslado y consultan el celular solo en momentos breves.
+
+2. Creemos que hoy coordinan con el conductor principalmente mediante WhatsApp y llamadas telefónicas.
+
+3. Creemos que sus momentos de mayor incertidumbre son antes del recojo, durante los retrasos por tráfico y al esperar la confirmación de llegada.
+
+4. Creemos que prefieren recibir información resumida en estados e hitos antes que seguir una ubicación en tiempo real.
+
+5. Creemos que solo confiarán en una plataforma si la información de su hijo es visible únicamente para los tutores autorizados.
+
+
+- **Conductores de movilidad escolar:** 
+
+6. Creemos que los conductores realizan rutas recurrentes en las que atienden a varias familias y paradas por jornada.
+
+7. Creemos que reciben consultas repetidas de distintas familias sobre un mismo evento de la ruta.
+
+8. Creemos que organizan su lista de estudiantes y paradas de manera informal, de memoria, en papel o en chats.
+
+9. Creemos que solo pueden interactuar con el celular de forma segura cuando el vehículo está detenido.
+
+10. Creemos que valoran ofrecer una imagen más profesional y ordenada ante las familias.
+
+##### Feature Assumptions
+
+En esta sección se detallan los supuestos sobre las funcionalidades del producto. Cada Feature Assumption conecta una necesidad del usuario con una posible solución de diseño y anticipa su impacto en la experiencia.
+
+1. Creemos que una vista de estado actual del viaje permitirá a los padres y tutores entender en pocos segundos en qué etapa está el traslado.
+
+2. Creemos que una línea de tiempo del trayecto dará más claridad sobre lo ocurrido durante el recorrido que una secuencia de mensajes de chat.
+
+3. Creemos que la confirmación de recojo y entrega con una sola acción permitirá a los conductores registrar los hitos sin afectar su flujo de trabajo.
+
+4. Creemos que un registro de incidencias con categorías predefinidas permitirá comunicar imprevistos con suficiente contexto y en poco tiempo.
+
+5. Creemos que las notificaciones limitadas a eventos relevantes mantendrán informados a los padres sin saturarlos.
+
+6. Creemos que una vista de ruta con los estudiantes asignados y el orden de paradas facilitará la organización diaria del conductor.
+
+##### User Outcome and Benefit Assumptions
+
+1. Los padres y tutores conocerán en pocos segundos la etapa actual del traslado sin contactar al conductor.
+
+2. Los padres y tutores comprenderán lo ocurrido durante el recorrido sin revisar conversaciones dispersas.
+
+3. Los conductores dejarán constancia de cada recojo y entrega en segundos, con el vehículo detenido.
+
+4. Los conductores informarán un imprevisto a todas las familias afectadas mediante un único registro.
+
+5. Los padres y tutores podrán anticiparse a retrasos sin recibir avisos innecesarios.
+
+6. Los conductores organizarán su jornada con la lista de estudiantes y el orden de paradas en un solo lugar.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+Se formula un Hypothesis Statement por cada Feature Assumption, siguiendo la estructura: *Creemos que lograremos [resultado de negocio] si [persona] obtiene [beneficio] con [funcionalidad].*
+
+
 **Hipótesis 1 — Estado actual del viaje**  
-Creemos que una vista del estado actual reducirá la necesidad de consultas directas al conductor. Sabremos que hemos tenido éxito cuando, durante las validaciones, la mayoría de padres pueda identificar correctamente la etapa del traslado y considere innecesario solicitar esa misma información por otro canal.
+
+Creemos que lograremos reducir en 60 % los mensajes y llamadas al conductor para consultar el estado de la ruta si los padres y tutores conocen en pocos segundos la etapa actual del traslado con una vista de estado actual del viaje.
+
 
 **Hipótesis 2 — Línea de tiempo del trayecto**  
-Creemos que una línea de tiempo mejorará la comprensión de los eventos ocurridos durante el recorrido. Sabremos que hemos tenido éxito cuando los padres puedan reconstruir los principales hitos sin ayuda adicional.
+
+Creemos que lograremos que al menos el 70 % de los padres y tutores activos consulte Rumbo en tres o más días de clases por semana si comprenden lo ocurrido durante el recorrido sin revisar conversaciones dispersas con una línea de tiempo del trayecto.
+
 
 **Hipótesis 3 — Confirmación de recojo y entrega**  
-Creemos que permitir confirmaciones rápidas aumentará la consistencia con la que los conductores registran los hitos principales. Sabremos que hemos tenido éxito cuando los conductores puedan completar la acción en pocos pasos y la consideren compatible con su rutina.
 
-**Hipótesis 4 — Seguimiento del progreso**  
-Creemos que mostrar el progreso de la movilidad aumentará la visibilidad del recorrido para los padres. Sabremos que hemos tenido éxito cuando los usuarios puedan interpretar el avance general de la ruta sin depender de mensajes externos.
+Creemos que lograremos que al menos el 80 % de los recojos y entregas de cada ruta quede confirmado en Rumbo si los conductores dejan constancia de cada hito en segundos con la confirmación de recojo y entrega en una sola acción.
 
-**Hipótesis 5 — Notificaciones**  
-Creemos que las notificaciones de eventos relevantes mejorarán la coordinación. Sabremos que hemos tenido éxito cuando los padres indiquen que los avisos de recojo, llegada, retraso e incidencia les resultan útiles y no excesivos.
 
-**Hipótesis 6 — Registro de incidencias**  
-Creemos que un registro estructurado de incidencias permitirá comunicar situaciones inesperadas con mayor claridad. Sabremos que hemos tenido éxito cuando los conductores puedan registrar un evento y los padres comprendan qué ocurrió sin requerir información adicional inmediata.
+**Hipótesis 4 — Registro de incidencias**  
+
+Creemos que lograremos que al menos el 90 % de los retrasos e incidencias se comunique mediante Rumbo si los conductores informan un imprevisto a todas las familias afectadas mediante un único registro con categorías predefinidas.
+
+
+**Hipótesis 5 — Centro de notificaciones**  
+
+Creemos que lograremos mantener por debajo del 20 % la proporción de padres y tutores que desactiva las notificaciones durante el primer mes si se anticipan a los retrasos sin recibir avisos innecesarios con notificaciones limitadas a eventos relevantes.
+
+
+**Hipótesis 6 — Vista de ruta del conductor**  
+
+Creemos que lograremos que al menos el 60 % de los conductores del piloto continúe usando Rumbo después del primer mes si organizan su jornada con la lista de estudiantes y el orden de paradas en un solo lugar con una vista de ruta con estudiantes asignados.
 
 #### 1.2.2.4. Lean UX Canvas
 
