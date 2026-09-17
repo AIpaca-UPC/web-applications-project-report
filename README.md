@@ -165,11 +165,11 @@ Alcance del proyecto: El alcance inicial de Rumbo está orientado a padres o tut
   </thead>
   <tbody>
     <tr>
-      <td align="center">[Insertar foto]</td>
+      <td align="center"><img src="assets/chaper1/marcelo.png" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
       <td>Barrientos Quispe, Marcelo</td>
       <td>U20221e646</td>
       <td>Ingeniería de Software</td>
-      <td>[Completar perfil]</td>
+      <td>Me considero una persona adaptable al entorno, sé trabajar en equipo y aprendo rápido. Cuento con conocimientos técnicos en tecnologías de JavaScript.</td>
     </tr>
     <tr>
       <td align="center">[Insertar foto]</td>
