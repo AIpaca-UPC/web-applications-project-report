@@ -210,13 +210,7 @@ El **Solution Profile** presenta una descripción general de la solución propue
 
 El transporte escolar constituye un servicio formal y regulado en Lima y Callao. En enero de 2026, la Autoridad de Transporte Urbano para Lima y Callao (ATU) informó que **3758 vehículos se encontraban habilitados para prestar el servicio de transporte de estudiantes** y recordó que los padres pueden verificar digitalmente si el vehículo y el conductor están autorizados [1]. Esta cifra confirma que existe un ecosistema amplio de familias, conductores y operadores que realizan traslados escolares de manera recurrente.
 
-El servicio se desarrolla además en una ciudad con altos niveles de congestión. Según el **TomTom Traffic Index 2025**, Lima registró un nivel promedio de congestión de **69,3 %**. Un recorrido de 10 km tomó en promedio **43 min 10 s en la hora punta de la mañana** y **51 min 17 s en la hora punta de la tarde**, mientras que el tiempo perdido por tráfico en horas punta se estimó en **195 horas al año** [2]. Estas condiciones generan variaciones en los horarios de recojo y llegada y hacen más relevante contar con información actualizada sobre el estado de una ruta.
-
-La seguridad vial también forma parte del contexto. El Observatorio Nacional de Seguridad Vial reportó para 2025 **88 243 siniestros de tránsito, 55 329 personas lesionadas y 3428 fallecidas** a nivel nacional [3]. Estas cifras no corresponden exclusivamente a movilidad escolar; se utilizan como contexto para mostrar que cualquier servicio de traslado de personas opera en un entorno donde la prevención, la comunicación y la capacidad de respuesta ante incidencias son importantes.
-
-Desde el punto de vista tecnológico, una experiencia web responsive resulta viable para el mercado objetivo. Durante el cuarto trimestre de 2025, el INEI reportó que **98,4 % de los hogares de Lima Metropolitana contaba con telefonía móvil**, **90,3 % de la población de 6 años a más utilizaba Internet** y **91,0 % de los usuarios de Internet de Lima Metropolitana accedía mediante teléfono celular** [4]. Esto respalda la decisión de diseñar Rumbo con una experiencia priorizada para dispositivos móviles.
-
-A partir de este contexto, Rumbo aborda una necesidad que será contrastada mediante las entrevistas de AV1: **la falta de una vista única, clara y oportuna sobre el estado de la movilidad escolar, sus principales hitos, retrasos e incidencias**. Actualmente, gran parte de esa coordinación puede depender de llamadas o mensajes directos entre padres y conductores.
+En esta sección se analiza el contexto en el que surge la problemática principal, considerando sus factores sociales, tecnológicos y operativos. Se utiliza la técnica de las 5 W y 2 H para responder de forma estructurada qué ocurre, quiénes están involucrados, cuándo y dónde sucede, por qué ocurre, cómo se abordará y cuánto costará implementar la solución.
 
 #### Técnica de las 5 W's + 2 H's
 
