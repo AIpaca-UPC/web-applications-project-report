@@ -295,21 +295,49 @@ Total estimado: S/ 23,300 – S/ 36,500
 
 ### 1.2.2. Lean UX Process
 
-El proceso **Lean UX** de Rumbo parte de la definición del problema, continúa con la formulación de supuestos sobre el negocio y los usuarios, y transforma esos supuestos en hipótesis que podrán contrastarse mediante entrevistas y posteriores iteraciones del producto. El objetivo es evitar desarrollar características basadas únicamente en percepciones del equipo y priorizar aquellas que tengan relación directa con necesidades reales de los segmentos.
+El proceso Lean UX que adoptamos en AIpaca busca maximizar la eficiencia en el desarrollo de Rumbo mediante la validación continua, el pensamiento crítico y la acción rápida. Siguiendo esta filosofía, estructuramos nuestro enfoque en cuatro componentes: la definición del problema, la formulación de suposiciones, la creación de hipótesis y el desarrollo de un lienzo estratégico. Este proceso nos permite aprender de padres, tutores y conductores antes de invertir esfuerzo en funcionalidades que no aporten valor real.
 
 #### 1.2.2.1. Lean UX Problem Statement
 
-El servicio de movilidad escolar en Lima y Callao opera en un contexto de alta congestión y tiempos variables. Aunque existen mecanismos oficiales para verificar la formalidad de vehículos y conductores, los padres no necesariamente disponen de una experiencia centralizada donde puedan consultar los principales eventos del recorrido.
+El propósito de Rumbo es ofrecer una plataforma web responsive que centralice el estado de cada traslado escolar: recojos, entregas, retrasos e incidencias. Nuestra meta es brindar tranquilidad a los padres y tutores y reducir la carga comunicativa de los conductores, para que la coordinación diaria sea clara, oportuna y ordenada.
 
-Hemos observado que esta situación puede generar incertidumbre en padres y tutores y una carga de comunicación repetitiva para los conductores, especialmente cuando existen retrasos, cambios de horario o incidencias. Rumbo busca reducir esa brecha ofreciendo una plataforma donde ambos segmentos puedan acceder a información estructurada sobre el traslado.
+El problema surge cuando los padres y tutores no tienen información inmediata sobre lo que ocurre durante la ruta, especialmente en las horas punta, cuando la congestión de Lima y Callao hace impredecibles los tiempos de llegada. Hoy la coordinación depende de mensajes y llamadas individuales en aplicaciones de mensajería de uso general, que no fueron diseñadas para registrar los hitos de un recorrido. Aunque existen mecanismos oficiales para verificar si el vehículo y el conductor están autorizados, estos no muestran qué está pasando durante cada traslado.
 
-**¿Cómo podríamos mejorar la visibilidad y coordinación del transporte escolar para que los padres puedan conocer el estado del traslado y los conductores puedan comunicar los principales eventos de la ruta de forma rápida y ordenada?**
+Hemos observado que esta situación genera preocupación en las familias, consultas repetitivas hacia el conductor e interrupciones mientras este cumple su ruta. Además, los eventos del trayecto no quedan registrados de forma estructurada, lo que dificulta aclarar dudas posteriores. Existe una brecha entre la necesidad de visibilidad de las familias y las herramientas que hoy usan conductores y padres.
 
-**Domain:** Transporte escolar, seguimiento de recorridos y coordinación digital.  
-**Customer Segments:** Padres/tutores y conductores de movilidad escolar.  
-**Pain Points:** incertidumbre sobre el estado de la ruta, mensajes repetitivos, retrasos, falta de un historial simple de eventos e incidencias.  
-**Gap:** la información relevante del traslado puede estar fragmentada en llamadas, chats y comunicaciones individuales.  
-**Vision/Strategy:** convertir a Rumbo en una plataforma de referencia para la coordinación y visibilidad del transporte escolar en Lima y Callao, priorizando simplicidad, confianza y uso móvil.
+Ante esta problemática, surge la siguiente pregunta:**¿Cómo podríamos ofrecer una solución digital sencilla y confiable que permita a los padres y tutores conocer el estado del traslado escolar de sus hijos, sin aumentar la carga ni la distracción de los conductores?**
+
+- **Domain:** Transporte escolar, movilidad urbana y coordinación digital entre familias y prestadores de servicio.
+
+- **Customer Segments:**
+
+Padres, madres y tutores de estudiantes que usan movilidad escolar.
+
+Conductores de movilidad escolar que realizan rutas recurrentes.
+
+- **Pain Points:** 
+
+**Padres y Tutores**
+
+- Incertidumbre sobre si el menor ya fue recogido, si la movilidad está en camino o si llegó al destino.
+
+- Falta de avisos oportunos ante retrasos o imprevistos.
+
+- Información dispersa entre chats, llamadas y mensajes de otros temas.
+
+**Conductores**
+
+- Consultas repetitivas de varias familias sobre lo mismo durante la ruta.
+
+- Necesidad de comunicar un retraso o incidencia a cada familia por separado.
+
+- Ausencia de un registro ordenado de recojos, entregas e incidencias para resolver dudas posteriores.
+
+- **Gap:** Creemos que no existe una solución de uso extendido en Lima y Callao que combine, en una sola plataforma, el estado del traslado, la confirmación de recojos y entregas, el registro de incidencias y notificaciones dirigidas solo a los tutores autorizados. Este supuesto será contrastado en el análisis competitivo. 
+
+- **Vision/Strategy:** Consolidar a AIpaca como una empresa referente en soluciones digitales para la coordinación del transporte escolar en el Perú y Latinoamérica, reconocida por generar confianza entre familias y conductores mediante tecnología accesible, segura y escalable.
+
+- **Initial Segment:** Conductores de movilidad escolar autorizados por la ATU en Lima y Callao, y los padres o tutores que contratan sus servicios y usan un teléfono celular con acceso a Internet.
 
 #### 1.2.2.2. Lean UX Assumptions
 
