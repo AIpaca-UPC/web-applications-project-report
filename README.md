@@ -204,7 +204,7 @@ Alcance del proyecto: El alcance inicial de Rumbo está orientado a padres o tut
 
 ## 1.2. Solution Profile
 
-El **Solution Profile** presenta una visión general de la solución propuesta y relaciona el contexto del problema con las necesidades de los segmentos objetivo. Para Rumbo, esta sección permite justificar por qué una solución digital puede aportar valor en el transporte escolar y establece las bases para el proceso Lean UX, la validación con usuarios y el posterior diseño del producto.
+El **Solution Profile** presenta una descripción general de la solución propuesta por **AIpaca**. Aborda el contexto en el que opera el transporte escolar en Lima y Callao, los problemas detectados en la coordinación entre familias y conductores, y las suposiciones estratégicas que guían el desarrollo de **Rumbo**. Esta sección busca conectar los hallazgos de la fase de descubrimiento con una propuesta de valor clara y sentar las bases para el diseño, la validación y el desarrollo de la solución.
 
 ### 1.2.1. Antecedentes y problemática
 
@@ -221,29 +221,83 @@ A partir de este contexto, Rumbo aborda una necesidad que será contrastada medi
 #### Técnica de las 5 W's + 2 H's
 
 **What (¿Qué?) — ¿Cuál es el problema?**  
-Los padres y tutores no siempre cuentan con información centralizada sobre el estado del traslado escolar: si el menor ya fue recogido, si la movilidad está en ruta, si existe un retraso o si ocurrió una incidencia. A su vez, los conductores pueden verse obligados a repetir la misma información a distintas familias.
+
+El transporte escolar en Lima y Callao es un servicio formal y regulado. Sin embargo, la coordinación diaria entre padres y conductores sigue dependiendo de mensajes y llamadas individuales. Según la Autoridad de Transporte Urbano para Lima y Callao (ATU), 3758 vehículos cuentan con habilitación para prestar este servicio durante 2026, tras un proceso de verificación y autorización realizado en 2025 (Infobae, 2026a). Además, la ATU habilitó un enlace público para que los padres verifiquen si el vehículo y el conductor contratados están autorizados (Exitosa Noticias, 2026)
+
+Estos mecanismos resuelven la pregunta de si el servicio es formal antes de contratarlo, pero no la de qué está pasando durante la ruta. Los padres no cuentan con una vista única donde consultar si el menor ya fue recogido, si la movilidad está retrasada, si llegó al colegio o si ocurrió un imprevisto. Esa información se transmite de forma dispersa, y buena parte de ella recae sobre el conductor, que debe responder las mismas consultas a varias familias mientras cumple su ruta.
 
 **When (¿Cuándo?) — ¿Cuándo ocurre?**  
-El problema aparece antes del recojo, durante el recorrido y al momento de la llegada o entrega. Se intensifica cuando la congestión altera el horario previsto o cuando ocurre una situación inesperada que necesita ser comunicada con rapidez.
+
+El problema ocurre todos los días de clases, en tres momentos: antes del recojo, durante el traslado y al momento de la llegada o entrega. El Ministerio de Educación fijó el inicio del año escolar 2026 para el lunes 16 de marzo y su término para el viernes 18 de diciembre, con 36 semanas de clases (Infobae, 2026a). Durante todo ese periodo, cada familia depende de uno o dos trayectos diarios
+
+La incertidumbre se intensifica porque los horarios escolares coinciden con las horas de mayor congestión. En Lima el tráfico se concentra entre las 6 a. m. y las 9 a. m., y nuevamente en las horas punta de la tarde (El Comercio, 2026). En esas franjas un retraso de pocos minutos puede convertirse en una espera prolongada, y es cuando los padres más necesitan información oportuna.
 
 **Where (¿Dónde?) — ¿Dónde surge?**  
-Rumbo se plantea inicialmente para Lima y Callao, donde la ATU reportó 3758 vehículos habilitados para transporte escolar [1] y donde las condiciones de congestión generan variabilidad en los tiempos de viaje [2].
+
+El problema se presenta principalmente en Lima Metropolitana y el Callao, en las rutas que conectan hogares, puntos de recojo y centros educativos. Se trata de una de las ciudades con mayor congestión del mundo: el TomTom Traffic Index 2025 ubicó a Lima como la novena ciudad más congestionada del mundo, con un nivel de tráfico de 69,3 %, y con 195 horas anuales perdidas por conductor en embotellamientos (El Popular, 2026).
+
+La situación se mantiene en 2026. Con datos de TomTom consolidados hasta el 3 de agosto de 2026, en la hora punta matinal de los días laborables la velocidad promedio en Lima fue de 14,74 km/h, la más baja frente a Ciudad de México, Bogotá y Santiago de Chile (Energiminas, 2026). En este entorno, los tiempos de llegada son difíciles de anticipar para las familias.
 
 **Who (¿Quiénes?) — ¿Quiénes son los afectados?**  
-- **Padres y tutores**, que necesitan conocer el estado del traslado de sus hijos o menores a cargo.
-- **Conductores de movilidad escolar**, que necesitan gestionar la ruta y comunicar hitos, retrasos e incidencias de forma eficiente.
+
+- **Padres y tutores**, que necesitan saber en qué etapa se encuentra el traslado de sus hijos y hoy dependen de preguntarle directamente al conductor.
+
+- **Conductores de movilidad escolar**, que deben cumplir su ruta en medio del tráfico y, al mismo tiempo, comunicar recojos, retrasos o incidencias a varias familias de forma individual. Su trabajo está sujeto a exigencias formales: la ATU verifica que los vehículos cuenten con SOAT y CITV vigentes y que los conductores tengan licencia de categoría AIIB (Infobae, 2026a).
 
 **Why (¿Por qué?) — ¿Por qué ocurre y por qué importa?**  
-- La congestión provoca variaciones entre los horarios programados y los tiempos reales de viaje.
-- La comunicación puede depender de mensajes individuales y repetitivos.
-- Los padres requieren información clara sin necesidad de contactar continuamente al conductor.
-- El conductor necesita registrar eventos de forma rápida y con baja carga operativa.
+
+- **Comunicación fragmentada en canales generales:** La coordinación se realiza principalmente por mensajería instantánea. Según la Encuesta Residencial de Servicios de Telecomunicaciones (ERESTEL) 2025 de Osiptel, el 68,6 % de los peruanos usó plataformas de comunicación instantánea durante el último año, y entre ellos WhatsApp alcanza el 98,6 % de usuarios (Expreso, 2026). Estos canales son útiles, pero no fueron diseñados para registrar hitos de una ruta: la información queda mezclada con otros mensajes y cada familia recibe actualizaciones distintas.
+
+- **Alta variabilidad de los tiempos de viaje:** La congestión de Lima hace que la hora estimada de llegada cambie constantemente, lo que multiplica las consultas de los padres.
+
+- **Carga operativa del conductor:** El conductor es la única fuente de información en tiempo real, pero su prioridad debe ser conducir con seguridad. Responder mensajes durante la ruta compite con esa prioridad.
+
+- **Ausencia de un registro estructurado:** Los recojos, entregas e incidencias no suelen quedar documentados de forma ordenada, lo que dificulta resolver dudas posteriores sobre lo ocurrido en un trayecto.
+
+- **Verificación sin visibilidad en ruta:** Las herramientas oficiales permiten comprobar la formalidad del servicio, pero no ofrecen seguimiento del estado de cada traslado.
 
 **How (¿Cómo?) — ¿Cómo se abordará?**  
-Rumbo propone una plataforma web responsive con una vista del estado actual del traslado, línea de tiempo del recorrido, confirmaciones de recojo y entrega, registro de retrasos e incidencias y notificaciones de eventos relevantes.
 
-**How much (¿Qué magnitud tiene?)**  
-La ATU reportó **3758 vehículos escolares habilitados en Lima y Callao** [1]. Además, Lima registró una congestión promedio de **69,3 % durante 2025**, con aproximadamente **195 horas anuales perdidas en tráfico de hora punta** [2]. Estas cifras permiten dimensionar un mercado concreto y un contexto operativo donde los tiempos de viaje varían de manera significativa.
+Para responder a esta necesidad, AIpaca propone Rumbo, una plataforma web responsive orientada al uso móvil que centraliza el estado de cada traslado. La elección del canal responde al contexto local: según el INEI, en el cuarto trimestre de 2025 el 98,4 % de los hogares de Lima Metropolitana contó con telefonía móvil, y en ese mismo periodo el uso de Internet en Lima Metropolitana alcanzó el 90,3 % de la población de 6 años a más (Instituto Nacional de Estadística e Informática [INEI], 2026). Además, el 89,2 % de los usuarios de Internet accedió a la red mediante un teléfono celular (Altavoz, 2026).
+
+Para los padres y tutores: Podrán ver de un vistazo el estado actual del viaje, revisar una línea de tiempo con los hitos del recorrido y recibir notificaciones solo ante eventos relevantes, como recojo, llegada, retraso o incidencia.
+
+Para los conductores: Podrán consultar su ruta y los estudiantes asignados, confirmar recojos y entregas mediante interacciones breves y registrar una incidencia una sola vez para que llegue a todas las familias correspondientes.
+
+La información de cada menor será visible únicamente para los usuarios autorizados. Esto es coherente con el marco peruano de protección de datos: el Decreto Supremo N.º 016-2024-JUS, publicado el 30 de noviembre de 2024, aprobó el nuevo reglamento de la Ley N.º 29733, Ley de Protección de Datos Personales (Escobedo, 2024), y entró en vigor el 31 de marzo de 2025, reforzando las medidas de seguridad y exigiendo notificar los incidentes de seguridad a la Autoridad Nacional de Protección de Datos Personales (LP Derecho, s. f.).
+
+Rumbo no reemplaza las obligaciones de seguridad, autorización y operación de los prestadores del servicio, ni la comunicación humana cuando sea necesaria. Su objetivo es complementarlas con información estructurada que reduzca la incertidumbre de las familias y la carga del conductor.
+
+**How much (¿Cuánto?)**  
+
+La implementación de Rumbo requiere una inversión inicial orientada al desarrollo de software, la infraestructura en la nube, la adecuación a la normativa de datos personales y un piloto con familias y conductores. Al ser una solución exclusivamente de software, no requiere fabricar hardware, lo que reduce la inversión inicial y facilita escalar el modelo SaaS.
+
+Como referencia del mercado, el precio mensual por estudiante de una movilidad escolar varía aproximadamente entre S/ 150 y S/ 300, según la distancia y los servicios adicionales (Comparabien, 2025). Esto sugiere que una suscripción de bajo costo podría presentarse como un valor agregado del servicio.
+
+Presupuesto estimado (estimación referencial elaborada por el equipo):
+
+Desarrollo de software
+Diseño UX/UI y prototipado: S/ 2,000 – S/ 3,000
+Frontend web responsive (Vue + PrimeVue): S/ 4,000 – S/ 6,000
+Backend, API REST y base de datos (ASP.NET Core): S/ 4,500 – S/ 6,500
+Integración de servicios de ubicación y notificaciones: S/ 1,500 – S/ 2,500
+
+Infraestructura (anual)
+Dominio, hosting en la nube y base de datos gestionada: S/ 1,500 – S/ 2,500
+Servicio de notificaciones (push, correo o SMS): S/ 800 – S/ 1,500
+
+Seguridad y cumplimiento
+Adecuación a la Ley N.º 29733 (políticas de privacidad, consentimiento y asesoría legal): S/ 1,500 – S/ 2,500
+Pruebas de seguridad: S/ 1,000 – S/ 1,500
+
+Marketing y lanzamiento
+Landing page, estrategia digital y materiales: S/ 2,000 – S/ 3,000
+Piloto con conductores y familias (capacitación e incentivos): S/ 1,500 – S/ 2,500
+
+Mantenimiento y soporte (anual)
+Actualizaciones de software y soporte técnico: S/ 3,000 – S/ 5,000
+
+Total estimado: S/ 23,300 – S/ 36,500
 
 ### 1.2.2. Lean UX Process
 
@@ -877,13 +931,30 @@ En AV1 el incremento implementado se concentra en el Landing Page. La documentac
 
 # Bibliografía
 
-[1] Autoridad de Transporte Urbano para Lima y Callao. (2026, 10 de enero). *Vacaciones útiles seguras: ATU exhorta a padres de familia a usar movilidades escolares autorizadas*. https://www.gob.pe/institucion/atu/noticias/1331042-vacaciones-utiles-seguras-atu-exhorta-a-padres-de-familia-a-usar-movilidades-escolares-autorizadas
+- Agencia Andina. (2026, septiembre). [MML: Más de 300 niños y adolescentes murieron por accidentes vehiculares durante 2025](https://andina.pe/agencia/noticia-mml-mas-300-ninos-y-adolescentes-murieron-accidentes-vehiculares-durante-2025-1090366.aspx).
 
-[2] TomTom. (2026). *TomTom Traffic Index 2025: Lima, Peru*. https://www.tomtom.com/traffic-index/city/lima/
+- Altavoz. (2026, 26 de marzo). [El 98,4% de los hogares de Lima Metropolitana contó con telefonía móvil durante el cuarto trimestre de 2025](https://altavoz.pe/economia/el-984-de-los-hogares-de-lima-metropolitana-conto-con-telefonia-movil-durante-el-cuarto-trimestre-de-2025/).
 
-[3] Observatorio Nacional de Seguridad Vial. (2026). *Estadísticas de siniestralidad vial 2025*. https://www.onsv.gob.pe/
+- Comparabien. (2025, 22 de abril). [¿Cuánto se gana en movilidad escolar? Guía para emprendedores](https://comparabien.com.pe/blog-consejos/cuanto-gana-movilidad-escolar-guia-emprendedores).
 
-[4] Instituto Nacional de Estadística e Informática. (2026, 26 de marzo). *El 98,4% de los hogares de Lima Metropolitana contó con telefonía móvil durante el cuarto trimestre de 2025*. https://www.gob.pe/institucion/inei/noticias/1371146-el-98-4-de-los-hogares-de-lima-metropolitana-conto-con-telefonia-movil-durante-el-cuarto-trimestre-de-2025
+- El Comercio. (2026, 26 de febrero). [Lima en el top 5 de ciudades con peor tráfico a nivel mundial: más de 8 días al año atrapados en el tráfico vehicular](https://elcomercio.pe/lima/sucesos/lima-en-el-top-5-de-ciudades-con-peor-trafico-a-nivel-mundial-mas-de-8-dias-al-ano-atrapados-en-el-trafico-vehicular-tomtom-traffic-index-ultimas-noticia/).
+
+- El Popular. (2026, 31 de enero). [Lima entre las más congestionadas del mundo: peruanos desperdician en promedio 8 días al año atascados en el tráfico](https://elpopular.pe/actualidad/2026/01/31/lima-entre-las-mas-congestionadas-del-mundo-peruanos-desperdician-en-promedio-8-dias-al-ano-atascados-en-el-trafico-1378787).
+
+- Energiminas. (2026, 7 de agosto). [Lima sigue siendo una de las ciudades latinoamericanas con menor velocidad de circulación](https://energiminas.com/2026/08/07/lima-sigue-siendo-una-de-las-ciudades-latinoamericanas-con-menor-velocidad-de-circulacion/).
+
+- Escobedo, C. (2024). [Se publica el nuevo reglamento de protección de datos personales en Perú](https://iapp.org/news/a/se-publica-el-nuevo-reglamento-de-protecci-n-de-datos-personales-en-per-). *International Association of Privacy Professionals*.
+
+- Exitosa Noticias. (2026, 24 de febrero). [Retorno a clases seguro: ATU habilita link para saber si la movilidad escolar de tus hijos está autorizada](https://www.exitosanoticias.pe/actualidad/retorno-clases-seguro-atu-habilita-link-saber-movilidad-escolar-tus-hijos-esta-autorizada-n169563).
+
+- Expreso. (2026, 1 de junio). [WhatsApp y Yape lideran el uso digital en Perú, según Erestel 2025](https://www.expreso.com.pe/actualidad/whatsapp-y-yape-lideran-el-uso-digital-en-peru-segun-erestel-2025-noticia/1291271).
+
+- Infobae. (2026a, 10 de enero). [Movilidad escolar para el inicio de clases 2026: así puedes identificar vehículos autorizados por la ATU](https://www.infobae.com/peru/2026/01/10/movilidad-escolar-para-el-inicio-de-clases-2026-asi-puedes-identificar-vehiculos-autorizados-por-la-atu/).
+
+- Instituto Nacional de Estadística e Informática. (2026, 26 de marzo). [El 98,4% de los hogares de Lima Metropolitana contó con telefonía móvil durante el cuarto trimestre de 2025](https://www.gob.pe/institucion/inei/noticias/1371146-el-98-4-de-los-hogares-de-lima-metropolitana-conto-con-telefonia-movil-durante-el-cuarto-trimestre-de-2025). *Plataforma del Estado Peruano*.
+
+- LP Derecho. (s. f.). [Ley 29733: repercusión en el sistema de búsqueda de expedientes judiciales (CEJ)](https://lpderecho.pe/ley-29733-repercusion-sistema-busqueda-expedientes-judiciales-cej/).
+
 
 - Gothelf, J., & Seiden, J. *Lean UX: Designing Great Products with Agile Teams*.
 - Material Design. https://m3.material.io/
