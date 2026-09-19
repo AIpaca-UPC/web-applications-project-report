@@ -159,7 +159,7 @@ Alcance del proyecto: El alcance inicial de Rumbo está orientado a padres o tut
   </thead>
   <tbody>
     <tr>
-      <td align="center"><img src="assets/chaper1/marcelo.png" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
+      <td align="center"><img src="assets/chaper1/marcelo.png" alt="Barrientos Quispe, Marcelo" width="120"/></td>
       <td>Barrientos Quispe, Marcelo</td>
       <td>U20221e646</td>
       <td>Ingeniería de Software</td>
@@ -180,14 +180,14 @@ Alcance del proyecto: El alcance inicial de Rumbo está orientado a padres o tut
       <td>[Completar perfil]</td>
     </tr>
     <tr>
-      <td align="center"><img src="assets/leonardo-lino.svg" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
+      <td align="center"><img src="assets/chaper1/leonardo-lino.svg" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
       <td>Lino Quispe, Leonardo Miguel</td>
       <td>U202422298</td>
       <td>Ingeniería de Software</td>
       <td>Soy estudiante de Ingeniería de Software del 4to ciclo en la UPC. Tengo conocimientos en programación en C++ y Python, y experiencia desarrollando proyectos académicos donde analizo y organizo soluciones tecnológicas. Me gusta enfocarme en aprender de forma práctica y en construir soluciones que sean claras, funcionales y aplicadas a problemas reales.</td>
     </tr>
     <tr>
-      <td align="center">[Insertar foto]</td>
+      <td align="center"><img src="assets/chaper1/alexandra-meza.png" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
       <td>Meza Soza, Alexandra Yamile</td>
       <td>U20241b451</td>
       <td>Ingeniería de Software</td>
@@ -859,7 +859,7 @@ El journey de los padres de familia durante las mañanas inicia con la preparaci
 
 El recorrido diario del conductor inicia antes del viaje con una etapa neutral donde revisa chats de WhatsApp para corroborar asistencias de forma tediosa y repetitiva. Al pasar al durante el viaje de ida, la experiencia desciende hacia la molestia (annoyance) debido a lo estresante y peligroso que resulta manejar mientras responde mensajes constantes y llamadas sobre demoras. Posteriormente, en el después del viaje y la previa antes del viaje de retorno, el conductor se informa de cambios mediante chats fragmentados con una actitud serena y de anticipación. Al encontrarse en el colegio para la recogida, la experiencia se mantiene en un estado de vigilancia y neutralidad mientras cuenta y verifica la asistencia de los menores lidiando con llamadas de última hora. En el durante el viaje de regreso, vuelve a experimentar momentos neutrales al repartir a los estudiantes mientras responde chats y busca información de emergencia. Finalmente, la jornada concluye en el después del viaje de vuelta a casa con una sensación de serenidad al comunicarse individualmente con los padres para confirmar que los niños llegaron a sus domicilios.
 
-<img width="1556" height="1086" alt="USER JOURNEY MAP - CONDUCTOR" src="chapter02/user-journey-map-conductor.png" />
+<img width="1556" height="1086" alt="USER JOURNEY MAP - CONDUCTOR" src="/assets/chaper2/user-journey-map-conductor.png" />
 
 ### 2.3.4. Empathy Mapping
 
@@ -871,54 +871,84 @@ En esta sección se presentan los **Empathy Maps** elaborados para cada uno de l
 
 ## Segmento — Conductores
 
-<img width="1050" height="1318" alt="CARLOS RIVAS EMPATHY MAP" src="chapter02/user-empathy-map-conductor.png" />
+<img width="1050" height="1318" alt="CARLOS RIVAS EMPATHY MAP" src="/assets/chaper2/user-empathy-map-conductor.png" />
 
 ## 2.4. Big Picture Event Storming
 
-Eventos iniciales del dominio:
-- `Route Scheduled`
-- `Driver Assigned`
-- `Student Assigned to Route`
-- `Route Started`
-- `Vehicle Approaching Stop`
-- `Student Pickup Confirmed`
-- `Pickup Delayed`
-- `Trip In Progress`
-- `School Arrival Confirmed`
-- `Return Route Started`
-- `Student Drop-off Confirmed`
-- `Incident Reported`
-- `Route Completed`
+El Big Picture EventStorming permitió al equipo construir una visión general del dominio del transporte escolar antes de definir la solución. Mediante una sesión colaborativa se identificaron los eventos relevantes que ocurren en el negocio, desde que un conductor se incorpora a la plataforma hasta el cierre y archivado de un traslado. El ejercicio se desarrolló en Miro y se organizó en cinco etapas: lluvia de eventos de dominio, ordenamiento cronológico, delimitación mediante Pivotal Events, incorporación de actores y sistemas externos, e identificación de Hot Spots.
 
-**Artefacto:** [Insertar captura y URL]
+<img width="1050" alt="Event Storming" src="/assets/chaper2/eventstorming.png" />
+
+**Artefacto:** [Enlace Miro](https://miro.com/app/board/uXjVIveDKA8=/?share_link_id=909349762479)
 
 ## 2.5. Ubiquitous Language
 
-| Término | Definición en el dominio de Rumbo |
-|---|---|
-| **Student** | Menor que utiliza el servicio de movilidad escolar y se encuentra asociado a una o más rutas autorizadas. |
-| **Parent / Tutor** | Padre, madre o tutor autorizado para consultar información del estudiante y recibir notificaciones relacionadas con sus traslados. |
-| **Driver** | Conductor responsable de ejecutar una ruta de movilidad escolar y registrar los principales eventos del recorrido. |
-| **School Transport Service** | Servicio de transporte destinado al traslado recurrente de estudiantes entre puntos de recojo, centros educativos y puntos de entrega. |
-| **Vehicle** | Unidad utilizada por un conductor para prestar el servicio de movilidad escolar. |
-| **Route** | Recorrido planificado que contiene un conjunto ordenado de paradas y estudiantes asignados. |
-| **Trip** | Ejecución concreta de una ruta en una fecha y franja horaria determinadas. |
-| **Stop** | Punto planificado dentro de una ruta donde se realiza un recojo o una entrega. |
-| **Pickup** | Evento mediante el cual el conductor confirma que un estudiante fue recogido en el punto correspondiente. |
-| **Drop-off** | Evento mediante el cual el conductor confirma que un estudiante fue entregado en el destino previsto. |
-| **Assigned Student** | Estudiante incluido dentro de una ruta específica para una jornada o periodo determinado. |
-| **Trip Status** | Estado general de un viaje, por ejemplo programado, iniciado, en recorrido, retrasado o finalizado. |
-| **Route Event** | Acontecimiento relevante producido durante la ejecución de una ruta. |
-| **Delay** | Diferencia significativa entre el horario previsto y el avance real de la ruta. |
-| **Incident** | Situación imprevista ocurrida durante el servicio que requiere ser registrada y comunicada a los padres autorizados. |
-| **Notification** | Aviso enviado a un usuario autorizado como consecuencia de un evento relevante de la ruta. |
-| **ETA** | Tiempo estimado de llegada de la movilidad a una parada o destino. |
-| **Authorized User** | Persona cuya identidad y permisos le permiten acceder a información específica dentro de Rumbo. |
-| **Trip Timeline** | Secuencia cronológica de los principales eventos registrados durante un viaje. |
-| **School Arrival** | Evento que confirma que la movilidad llegó al centro educativo correspondiente. |
-| **Route Completion** | Evento que marca el cierre de una ruta después de completar los recojos o entregas previstos. |
+En esta sección se define el glosario de términos del dominio de Rumbo, con el fin de que todos los miembros del equipo y los stakeholders utilicen un lenguaje común y sin ambigüedades durante el ciclo de vida del producto. Los términos se expresan en inglés, acompañados de su equivalente en español, y sus definiciones corresponden exclusivamente al dominio del transporte escolar.
 
----
+Los conceptos aquí definidos provienen del Big Picture EventStorming presentado en la sección anterior. Para cada término se indican los eventos de dominio asociados, de modo que la correspondencia entre el modelado del dominio y el lenguaje del equipo quede explícita.
+
+### Personas y entidades del servicio
+
+| Término | Definición en el dominio de Rumbo | Eventos de dominio asociados |
+|---|---|---|
+| **Student** (Estudiante) | Menor que utiliza el servicio de movilidad escolar y se encuentra asignado a una o más rutas. | Student Registered |
+| **Parent / Tutor** (Padre o tutor) | Persona autorizada para consultar la información de un estudiante y recibir notificaciones sobre sus traslados. | Parent Account Registered |
+| **Driver** (Conductor) | Persona responsable de ejecutar una ruta de movilidad escolar y registrar los eventos del recorrido. | Driver Account Registered |
+| **Vehicle** (Vehículo) | Unidad utilizada por un conductor para prestar el servicio de movilidad escolar. | Vehicle Registered |
+| **Authorized User** (Usuario autorizado) | Persona cuya identidad y permisos le habilitan a acceder a información específica dentro de Rumbo. | — |
+| **Driver Credential** (Credencial del conductor) | Documento que acredita al conductor como habilitado para prestar el servicio de transporte de estudiantes. | Driver Credential Submitted, Driver Credential Verified |
+| **Tutor Authorization** (Autorización de tutor) | Permiso otorgado a un padre o tutor para acceder a la información de un estudiante determinado. | Parent Linked to Student, Additional Tutor Authorized |
+| **School Transport Service** (Servicio de movilidad escolar) | Servicio destinado al traslado recurrente de estudiantes entre puntos de recojo, centros educativos y puntos de entrega. | — |
+
+### Planificación de rutas
+
+| Término | Definición en el dominio de Rumbo | Eventos de dominio asociados |
+|---|---|---|
+| **Route** (Ruta) | Recorrido planificado que contiene un conjunto ordenado de paradas y estudiantes asignados. | Route Created, Route Modified, Route Published |
+| **Stop** (Parada) | Punto planificado dentro de una ruta donde se realiza un recojo o una entrega. | Stop Added to Route, Stop Order Defined |
+| **Stop Order** (Orden de paradas) | Secuencia en la que el conductor debe visitar las paradas de una ruta. | Stop Order Defined |
+| **Route Schedule** (Horario de la ruta) | Días y horas en los que una ruta se ejecuta de forma recurrente. | Route Schedule Defined |
+| **Assigned Student** (Estudiante asignado) | Estudiante incluido dentro de una ruta específica para una jornada o periodo determinado. | Student Assigned to Route |
+
+### Ejecución del traslado
+
+| Término | Definición en el dominio de Rumbo | Eventos de dominio asociados |
+|---|---|---|
+| **Trip** (Viaje) | Ejecución concreta de una ruta en una fecha y franja horaria determinadas. | Trip Scheduled, Trip Started, Trip Completed, Trip Cancelled |
+| **Trip Roster** (Lista de estudiantes del viaje) | Relación de estudiantes previstos para un viaje específico, considerando las ausencias reportadas. | Trip Roster Generated |
+| **Trip Status** (Estado del viaje) | Situación general de un viaje: programado, iniciado, en recorrido, retrasado, completado o cancelado. | Trip Status Consulted |
+| **Student Absence** (Ausencia del estudiante) | Comunicación anticipada de que un estudiante no utilizará el servicio en una jornada determinada. | Student Absence Reported |
+| **Pickup** (Recojo) | Evento mediante el cual el conductor confirma que un estudiante fue recogido en el punto correspondiente. | Student Pickup Confirmed, Student Pickup Missed |
+| **Drop-off** (Entrega) | Evento mediante el cual el conductor confirma que un estudiante fue entregado en el destino previsto. | Student Drop-off Confirmed, Drop-off Rejected |
+| **School Arrival** (Llegada al colegio) | Evento que confirma que la movilidad llegó al centro educativo correspondiente. | School Arrival Confirmed |
+| **Return Trip** (Viaje de retorno) | Ejecución de la ruta en sentido inverso, desde el centro educativo hacia los puntos de entrega. | Return Trip Started |
+| **Route Completion** (Cierre de la ruta) | Término de un viaje después de completar los recojos o entregas previstos. | Stop Completed, Stop Reached, Trip Completed |
+
+### Eventos e incidencias
+
+| Término | Definición en el dominio de Rumbo | Eventos de dominio asociados |
+|---|---|---|
+| **Route Event** (Evento de ruta) | Acontecimiento relevante producido durante la ejecución de un viaje. | — |
+| **Trip Timeline** (Línea de tiempo del viaje) | Secuencia cronológica de los principales eventos registrados durante un viaje. | Trip Timeline Generated, Trip Timeline Consulted |
+| **Delay** (Retraso) | Diferencia significativa entre el horario previsto de una ruta y su avance real. | Delay Registered |
+| **ETA** (Tiempo estimado de llegada) | Hora estimada en la que la movilidad arribará a una parada o destino. | — |
+| **Incident** (Incidencia) | Situación imprevista ocurrida durante el servicio que requiere ser registrada y comunicada a los tutores autorizados. | Incident Reported, Incident Acknowledged, Incident Resolved |
+| **Incident Type** (Tipo de incidencia) | Categoría que clasifica una incidencia según la naturaleza del imprevisto registrado. | — |
+| **Trip History** (Historial de viajes) | Registro de los viajes ejecutados y sus eventos, conservado para consulta posterior. | Trip History Archived |
+| **Data Deletion Request** (Solicitud de supresión de datos) | Pedido de un tutor para que se eliminen los datos personales de un estudiante, conforme a la normativa vigente de protección de datos personales. | Student Data Deletion Requested |
+
+### Comunicación
+
+| Término | Definición en el dominio de Rumbo | Eventos de dominio asociados |
+|---|---|---|
+| **Notification** (Notificación) | Aviso enviado a un usuario autorizado como consecuencia de un evento relevante de la ruta. | Notification Triggered, Notification Sent, Notification Read, Notification Delivery Failed |
+| **Notification Preference** (Preferencia de notificación) | Configuración mediante la cual un padre o tutor determina qué avisos desea recibir. | — |
+
+### Modelo de negocio
+
+| Término | Definición en el dominio de Rumbo | Eventos de dominio asociados |
+|---|---|---|
+| **Subscription** (Suscripción) | Plan contratado por un conductor que le habilita el uso de Rumbo durante un periodo determinado. | Subscription Activated |
 
 # Capítulo III: Requirements Specification
 
