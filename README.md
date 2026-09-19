@@ -661,14 +661,14 @@ Para cada entrevista se registrará nombre completo, edad, distrito, segmento, c
 |  6 | Vilma Hoyos Martinez | 56 | San Miguel | Conductor | 18:14 | [Entrevista 6](#entrevista-6--vilma-hoyos-martinez) |
 
 
-## Entrevista 3 — Leonel Adrián Mitma Navarro
+## Entrevista 3 — Leonel Adrián Mitma Garro
 
-- **Edad:** 24 años[cite: 2].
-- **Ocupación / segmento:** Padre o tutor de familia[cite: 2].
-- **Edad del menor:** 6 años[cite: 2].
-- **Distrito:** Callao[cite: 2].
-- **Frecuencia de uso:** 5 días a la semana[cite: 2].
-- **Timing de inicio:** 00:00[cite: 2].
+- **Edad:** 24 años.
+- **Ocupación / segmento:** Padre o tutor de familia.
+- **Edad del menor:** 6 años.
+- **Distrito:** Callao.
+- **Frecuencia de uso:** 5 días a la semana.
+- **Timing de inicio:** 00:00.
 - **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423163_upc_edu_pe/IQAiG1Qiytv5T7nH1uVETjB1AbaTGE1RMaOf4cY4BH8dFkE?e=9F3PT4
   
   <p align="center"><img width="1433" height="657" alt="image" src="https://github.com/user-attachments/assets/b7505480-b81b-4072-b269-6384d712d131" /> </p>
