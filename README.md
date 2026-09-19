@@ -558,7 +558,7 @@ La identidad visual de Rumbo busca proyectar una imagen cercana, segura y confia
 La marca utiliza principalmente tonalidades verdes acompañadas de colores crema y arena. Esta combinación permite diferenciar las acciones principales sin generar una interfaz visualmente agresiva. Asimismo, el uso de fondos claros y espacios amplios favorece la lectura y permite que los mensajes y Call-to-Action mantengan una jerarquía visual clara.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/logotipoRumbo.png" alt="Logotipo de Rumbo" width="300" height="300">
+  <img src="./assets/chapter04/logotipoRumbo.png" alt="Logotipo de Rumbo" width="300" height="300">
   <p>Logotipo de Rumbo</p>
 </div>
 
@@ -568,31 +568,31 @@ La paleta cromática de Rumbo está compuesta principalmente por tonos verdes, c
 
 **Primary Color I (#3EA98A):** Color verde usado para destacar elementos.
 
-![Primary Color I](https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/primaryColor1.png)
+![Primary Color I](./assets/chapter04/primaryColor1.png)
 
 **Primary Color II (#12403D):** Color verde oscuro usado para fondos y contraste.
 
-![Primary Color II](https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/primaryColor2.png)
+![Primary Color II](./assets/chapter04/primaryColor2.png)
 
 **Secondary Color I (#F3D9A4):** Color verde claro usado para elementos de énfasis secundario.
 
-![Secondary Color I](https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/secondaryColor1.png)
+![Secondary Color I](./assets/chapter04/secondaryColor1.png)
 
 **Secondary Color II (#F3D9A4):** Color arena usado para elementos de énfasis secundario.
 
-![Secondary Color II](https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/secondaryColor2.png)
+![Secondary Color II](./assets/chapter04/secondaryColor2.png)
 
 **Neutral Color I (#FBFAF6):** Color crema usado para superficies de contenido.
 
-![Neutral Color I](https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/neutralColor1.png)
+![Neutral Color I](./assets/chapter04/neutralColor1.png)
 
 **Neutral Color II (#F5F4EA):** Color crema oscuro usado como fondo alternativo para distintas secciones.
 
-![Neutral Color II](https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/neutralColor2.png)
+![Neutral Color II](./assets/chapter04/neutralColor2.png)
 
 **Neutral Color III (#0F172A):** Color azul oscuro usado para texto y detalles.
 
-![Neutral Color III](https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/neutralColor3.png)
+![Neutral Color III](./assets/chapter04/neutralColor3.png)
 
 
 #### Typography
@@ -640,7 +640,7 @@ Los mensajes principales emplean frases breves orientadas al beneficio del usuar
 ### 4.1.2. Web Style Guidelines
 Las Web Style Guidelines de Rumbo definen la manera en que las decisiones establecidas en las General Style Guidelines se aplican a las interfaces web del producto. Su propósito es mantener consistencia visual y de interacción entre el Landing Page y la Web Application, considerando distintos tamaños de pantalla y las necesidades particulares de los segmentos objetivo.
 
-La experiencia web se diseña bajo un enfoque responsive, accesible y consistente. Se consideran los idiomas `en_US` y `es_419`, utilizando inglés como idioma predeterminado de la experiencia. Asimismo, los componentes interactivos deberán incorporar atributos semánticos y ARIA cuando sea necesario para facilitar su uso mediante tecnologías asistivas. Para la Frontend Web Application, los diseños deberán ser compatibles con **Vue 3** y los componentes de **PrimeVue**, manteniendo **Material Design** como lenguaje visual; la personalización se realizará mediante theme tokens y CSS sin perder los estados ni la accesibilidad de los componentes.
+La experiencia web se diseña bajo un enfoque responsive, accesible y consistente. Se consideran los idiomas `en_US` y `es_419`, utilizando inglés como idioma predeterminado de la experiencia. Asimismo, los componentes interactivos deberán incorporar atributos semánticos y ARIA cuando sea necesario para facilitar su uso mediante tecnologías asistivas.\n\nPara **Aplicaciones Web**, los mock-ups de la Web Application se plantean para una implementación con **Vue 3 + JavaScript**, utilizando **PrimeVue** como biblioteca de componentes y **Material Design** como lenguaje visual. Por ello, botones, inputs, dialogs, cards, tables, timelines, notifications y navegación deben mantener dimensiones, estados y comportamientos que puedan mapearse a componentes PrimeVue sin rediseñar la experiencia al momento de implementar.
 
 #### Responsive Layout
 
@@ -853,7 +853,7 @@ El footer proporciona navegación complementaria hacia información del producto
 
 Después de autenticarse, el Parent/Tutor accede directamente al Dashboard, que funciona como punto central de su experiencia.
 
-El prototipo de Rumbo conecta las vistas principales definidas en los wireflows para validar el recorrido antes de la implementación en Vue 3. El alcance priorizado para AV1 considera los flujos de consulta del padre/tutor y de registro del conductor.
+El prototipo de Rumbo conecta las vistas principales definidas en los wireflows para validar el recorrido antes de la implementación en Vue 3 con PrimeVue. El alcance priorizado para AV1 considera los flujos de consulta del padre/tutor y de registro del conductor.
 
 **Recorrido del padre/tutor:** `Sign In → Dashboard → Trip Detail → Trip Timeline / Notifications`.
 
@@ -947,7 +947,7 @@ flowchart TD
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/landingWireframeDsk.png" alt="Landing Page Web Wireframe" width="750">
+  <img src="./assets/chapter04/landingWireframeDsk.png" alt="Landing Page Web Wireframe" width="750">
 </div>
 
 ### 4.3.2. Landing Page Mock-up
@@ -968,7 +968,7 @@ El mock-up de alta fidelidad mantiene una estética limpia, con fondos claros, t
 El mock-up conserva el sistema visual de Rumbo definido en 4.1: tonos verdes y oscuros para confianza y seguridad, superficies claras para lectura y componentes simples que pueden reutilizarse posteriormente en la Web Application.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/landingMockupDsk.png" alt="Landing Page Web Mock-Up" width="750">
+  <img src="./assets/chapter04/landingMockupDsk.png" alt="Landing Page Web Mock-Up" width="750">
 </div>
 
 ## 4.4. Web Applications UX/UI Design
@@ -1116,7 +1116,7 @@ Este fue el primer Bounded Context modelado por el equipo. Representa el registr
 Este contexto controla el acceso a Rumbo. Incluye registro de cuenta, autenticación, recuperación de contraseña y aplicación de permisos según el rol del usuario.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/event-storming/iam.png" alt="Identity and Access Management (IAM) Bounded Context" width="95%">
+  <img src="./assets/chapter04/event-storming/iam.png" alt="Identity and Access Management (IAM) Bounded Context" width="95%">
 </div>
 
 #### Route and Trip Planning Bounded Context
@@ -1124,7 +1124,7 @@ Este contexto controla el acceso a Rumbo. Incluye registro de cuenta, autenticac
 Este contexto organiza la planificación operativa del servicio. Incluye la creación de rutas, la gestión de paradas, la asignación de estudiantes y la programación diaria de recorridos.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/event-storming/route-trip-planning.png" alt="Route and Trip Planning Bounded Context" width="95%">
+  <img src="./assets/chapter04/event-storming/route-trip-planning.png" alt="Route and Trip Planning Bounded Context" width="95%">
 </div>
 
 #### Real-Time Tracking and Execution Bounded Context
@@ -1132,7 +1132,7 @@ Este contexto organiza la planificación operativa del servicio. Incluye la crea
 Este contexto supervisa la ejecución del trayecto en tiempo real. Incluye el inicio del viaje, registro de ubicación, confirmación de recojo y descenso, verificación de cinturón y cierre del trayecto.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/event-storming/realtime-tracking-execution.png" alt="Real-Time Tracking and Execution Bounded Context" width="95%">
+  <img src="./assets/chapter04/event-storming/realtime-tracking-execution.png" alt="Real-Time Tracking and Execution Bounded Context" width="95%">
 </div>
 
 #### Alerting and Incident Management Bounded Context
@@ -1140,7 +1140,7 @@ Este contexto supervisa la ejecución del trayecto en tiempo real. Incluye el in
 Este contexto gestiona retrasos, incidencias y comunicaciones relevantes hacia las familias. Incluye notificaciones, alertas automáticas y el registro de incidentes ocurridos durante el servicio.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/event-storming/alerting-incident-management.png" alt="Alerting and Incident Management Bounded Context" width="95%">
+  <img src="./assets/chapter04/event-storming/alerting-incident-management.png" alt="Alerting and Incident Management Bounded Context" width="95%">
 </div>
 
 #### Subscriptions and Billing Bounded Context
@@ -1148,7 +1148,7 @@ Este contexto gestiona retrasos, incidencias y comunicaciones relevantes hacia l
 Este contexto administra la suscripción del conductor a la plataforma. Incluye selección de plan, pagos, comprobantes, renovación, pausa, cancelación y reactivación del servicio.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/event-storming/subscriptions-billing.png" alt="Subscriptions and Billing Bounded Context" width="95%">
+  <img src="./assets/chapter04/event-storming/subscriptions-billing.png" alt="Subscriptions and Billing Bounded Context" width="95%">
 </div>
 
 En conjunto, los seis Bounded Contexts establecen la base para los Class Diagrams y Database Diagrams de las secciones 4.7 y 4.8. La división evita concentrar toda la lógica en un único modelo y mantiene trazabilidad entre las User Stories, el comportamiento del dominio y el diseño técnico.
@@ -1164,42 +1164,21 @@ Este diagrama muestra la visión general del sistema Rumbo, posicionando la plat
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-El Container Diagram mantiene la misma separación arquitectónica, adaptada al stack de Aplicaciones Web: Landing Page en HTML5/CSS3/JavaScript, Frontend Web Application como SPA en **Vue 3 + JavaScript + PrimeVue**, RESTful API en **ASP.NET Core + C#**, persistencia mediante **Entity Framework Core** y un DBMS relacional MySQL o PostgreSQL.
+Este diagrama expone la arquitectura física y de despliegue. Divide el sistema en contenedores ejecutables: la Landing Page, la aplicación cliente (SPA en Vue 3 con PrimeVue), la lógica de negocio (RESTful API en ASP.NET Core), la persistencia mediante Entity Framework Core y el DBMS relacional.
 
-```mermaid
-flowchart LR
-    U["Parent / Tutor / Driver"] --> LP["Landing Page<br/>HTML5 + CSS3 + JavaScript"]
-    U --> SPA["Frontend Web Application<br/>Vue 3 + JavaScript + PrimeVue"]
-    SPA --> API["RESTful Web Service<br/>ASP.NET Core + C#"]
-    API --> EF["Entity Framework Core"]
-    EF --> DB[("MySQL / PostgreSQL")]
-```
+<img src="./assets/chapter04/webapps-container-diagram.svg" alt="Rumbo Web Applications Container Diagram" width="95%">
 
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-Para la Frontend Web Application se mantiene la separación entre navegación, vistas, componentes reutilizables y consumo de servicios, adaptada a Vue. Los componentes visuales deberán apoyarse en **PrimeVue** cuando exista un equivalente adecuado y conservar el lenguaje visual de Material Design definido en las Style Guidelines.
+Este diagrama profundiza en el contenedor lógico del backend (RESTful API). Muestra la estructura interna en ASP.NET Core, separando Controllers/Endpoints, Application Services, Domain Model, autorización/autenticación y persistencia mediante Entity Framework Core.
 
-```mermaid
-flowchart TD
-    R["Vue Router"] --> V["Views / Pages"]
-    V --> C["Reusable Vue Components<br/>PrimeVue + Material Design"]
-    V --> S["API Services / Client"]
-    S --> API["ASP.NET Core RESTful API"]
-    V --> I18N["i18n resources<br/>en_US / es_419"]
-```
+<img src="./assets/chapter04/webapps-backend-components.svg" alt="ASP.NET Core Backend Components Diagram" width="90%">
 
-Para el backend, la API se implementará con ASP.NET Core y una separación por responsabilidades entre endpoints/controllers, application services, domain model y persistencia mediante Entity Framework Core.
+Este diagrama hace foco en la arquitectura interna de la Single Page Application desarrollada en Vue 3. Detalla la separación de responsabilidades entre Vue Router y sus navigation guards, Views, componentes reutilizables basados en PrimeVue, servicios de consumo del RESTful API, manejo de sesión e internacionalización.
 
-```mermaid
-flowchart TD
-    HTTP["HTTP / HTTPS"] --> CTRL["ASP.NET Core Controllers / Endpoints"]
-    CTRL --> APP["Application Services"]
-    APP --> DOM["Domain Model / Aggregates"]
-    APP --> REPO["Repositories / EF Core DbContext"]
-    REPO --> DB[("MySQL / PostgreSQL")]
-    CTRL --> SW["OpenAPI / Swagger"]
-```
+<img src="./assets/chapter04/webapps-frontend-components.svg" alt="Vue PrimeVue Frontend Components Diagram" width="90%">
+
 
 ## 4.7. Software Object-Oriented Design
 
@@ -1247,7 +1226,7 @@ El diseño de persistencia se divide por los mismos **Bounded Contexts** definid
 Incluye perfiles de padres, conductores y estudiantes, vehículos, documentos registrados y vínculos entre estudiantes y conductores.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/database-diagrams/profiles-verification.png" alt="Profiles and Verification Database Diagram" width="90%">
+  <img src="./assets/chapter04/database-diagrams/profiles-verification.png" alt="Profiles and Verification Database Diagram" width="90%">
 </div>
 
 **Fuente editable:** https://lucid.app/lucidchart/c71a5220-bf71-4924-bbd8-cdec37c2f06c/edit
@@ -1257,7 +1236,7 @@ Incluye perfiles de padres, conductores y estudiantes, vehículos, documentos re
 Incluye cuentas, credenciales, roles, permisos, relaciones de autorización y tokens de recuperación de acceso.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/database-diagrams/iam.png" alt="Identity and Access Management Database Diagram" width="90%">
+  <img src="./assets/chapter04/database-diagrams/iam.png" alt="Identity and Access Management Database Diagram" width="90%">
 </div>
 
 **Fuente editable:** https://lucid.app/lucidchart/f8fd5cb8-8ed5-4ac9-ae4f-0127d8369a18/edit
@@ -1267,7 +1246,7 @@ Incluye cuentas, credenciales, roles, permisos, relaciones de autorización y to
 Incluye rutas, paradas, asignaciones de estudiantes, programación de viajes y ausencias.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/database-diagrams/route-trip-planning.png" alt="Route and Trip Planning Database Diagram" width="90%">
+  <img src="./assets/chapter04/database-diagrams/route-trip-planning.png" alt="Route and Trip Planning Database Diagram" width="90%">
 </div>
 
 **Fuente editable:** https://lucid.app/lucidchart/dc535238-b74a-409c-9270-8bfcf4ea11a7/edit
@@ -1277,7 +1256,7 @@ Incluye rutas, paradas, asignaciones de estudiantes, programación de viajes y a
 Incluye viajes, estudiantes del viaje, eventos, recojos, entregas, verificaciones y registros de ubicación previstos para la evolución del producto.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/database-diagrams/realtime-tracking-execution.png" alt="Real-Time Tracking and Execution Database Diagram" width="90%">
+  <img src="./assets/chapter04/database-diagrams/realtime-tracking-execution.png" alt="Real-Time Tracking and Execution Database Diagram" width="90%">
 </div>
 
 **Fuente editable:** https://lucid.app/lucidchart/3fcc7afd-47ae-4293-9ef2-66b0a7c74621/edit
@@ -1287,7 +1266,7 @@ Incluye viajes, estudiantes del viaje, eventos, recojos, entregas, verificacione
 Incluye retrasos, incidencias, notificaciones, destinatarios y preferencias de notificación.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/database-diagrams/alerting-incident-management.png" alt="Alerting and Incident Management Database Diagram" width="90%">
+  <img src="./assets/chapter04/database-diagrams/alerting-incident-management.png" alt="Alerting and Incident Management Database Diagram" width="90%">
 </div>
 
 **Fuente editable:** https://lucid.app/lucidchart/b464254e-0388-492e-862d-b93d5ee3e25f/edit
@@ -1297,10 +1276,12 @@ Incluye retrasos, incidencias, notificaciones, destinatarios y preferencias de n
 Incluye planes, suscripciones, pagos y comprobantes asociados al ciclo comercial.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/94e8d94a012eb3c882c78b85d418693279caa4bb/assets/chapter04/database-diagrams/subscriptions-billing.png" alt="Subscriptions and Billing Database Diagram" width="90%">
+  <img src="./assets/chapter04/database-diagrams/subscriptions-billing.png" alt="Subscriptions and Billing Database Diagram" width="90%">
 </div>
 
 **Fuente editable:** https://lucid.app/lucidchart/178dfc99-92f9-4eef-8699-ecd2085c650a/edit
+
+---
 
 ---
 
