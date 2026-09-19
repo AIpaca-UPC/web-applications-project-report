@@ -677,120 +677,223 @@ Entidades preliminares: `users`, `students`, `parents`, `drivers`, `vehicles`, `
 
 ### 5.1.1. Software Development Environment Configuration
 
-| Software / Servicio | Uso |
+Para el desarrollo de Rumbo se definieron las siguientes herramientas:
+
+| Herramienta | Uso en el proyecto |
 |---|---|
-| GitHub / Git | Repositorios, control de versiones y colaboración |
-| Visual Studio Code / WebStorm | Landing Page y Frontend Web Application |
-| Visual Studio / Rider | Web Service con ASP.NET Core |
-| Figma | Wireframes, Mock-ups y Prototype |
-| UXPressia | User Personas, Journey Maps, Empathy Maps, Impact Mapping y Lean UX Canvas |
-| FigJam / Miro / Lucidchart | Event Storming y flujos |
-| Structurizr | Diagramas C4 |
-| Trello / Jira / YouTrack | Product Backlog y Sprint Backlog |
-| MySQL / PostgreSQL | Persistencia relacional |
-| Swagger / OpenAPI | Documentación del RESTful API |
+| GitHub | Repositorios, control de versiones y colaboración. |
+| Git | Control de versiones local. |
+| Visual Studio Code / WebStorm | Desarrollo de la Landing Page y Frontend Web Application. |
+| Visual Studio / Rider | Desarrollo de Web Services con C# y ASP.NET Core. |
+| Figma | Wireframes, Mock-ups y prototipos. |
+| HTML5, CSS3 y JavaScript | Implementación de la Landing Page. |
+| Vue 3, JavaScript, PrimeVue y Material Design | Frontend Web Application. |
+| C#, ASP.NET Core y Entity Framework Core | RESTful Web Services. |
+| OpenAPI / Swagger | Documentación de Web Services. |
+| GitHub Pages | Despliegue de la Landing Page. |
+| Markdown | Documentación del Project Report. |
+
+Para AV1 la implementación se concentra en la primera versión de la Landing Page. El Frontend Web Application y los Web Services se desarrollarán en los siguientes Sprints.
 
 ### 5.1.2. Source Code Management
 
-| Producto | Repositorio |
-|---|---|
-| Project Report | https://github.com/AIpaca-UPC/web-applications-project-report |
-| Landing Page | https://github.com/AIpaca-UPC/landing-page |
-| Frontend Web Application | https://github.com/AIpaca-UPC/web-applications-web-app |
-| Web Service | https://github.com/AIpaca-UPC/web-applications-web-service |
+- Project Report: https://github.com/AIpaca-UPC/web-applications-project-report
+- Landing Page: https://github.com/AIpaca-UPC/landing-page
+- Frontend Web Application: https://github.com/AIpaca-UPC/web-applications-web-app
+- Web Services: https://github.com/AIpaca-UPC/web-applications-web-service
 
-**GitFlow:** `main`, `develop`, `feature/*`.  
-**Commits:** Conventional Commits.  
-**Versionado:** Semantic Versioning.
+GitHub es la plataforma utilizada para administrar el código y la documentación de Rumbo.
+
+#### Repositorios
+
+- **Project Report:** https://github.com/AIpaca-UPC/web-applications-project-report
+- **Landing Page:** https://github.com/AIpaca-UPC/landing-page
+- **Frontend Web Application:** https://github.com/AIpaca-UPC/web-applications-web-app
+- **Web Services:** https://github.com/AIpaca-UPC/web-applications-web-service
+
+#### GitFlow
+
+El proyecto utiliza el siguiente flujo de ramas:
+
+- `main`: versión estable.
+- `develop`: integración del trabajo del equipo.
+- `feature/*`: trabajo de una funcionalidad o sección específica.
+- `release/*`: preparación de una versión.
+- `hotfix/*`: correcciones urgentes.
+
+En el Project Report se emplean ramas como:
+
+- `feature/chapter-1-introduction`
+- `feature/chapter-2-requirements-elicitation-and-analysis`
+- `feature/chapter-3-requirements-specification`
+- `feature/chapter-4-product-design`
+- `feature/chapter-5-product-implementation-validation-and-deployment`
+
+La Landing Page dispone de `main`, `develop` y `feature/landing-page-v1`. La primera carga funcional quedó registrada en `main`; los siguientes cambios se integrarán mediante el flujo `feature → develop → main`.
+
+#### Convenciones
+
+Para los commits se utilizará Conventional Commits:
+
+- `feat`: nueva funcionalidad.
+- `fix`: corrección.
+- `docs`: documentación.
+- `style`: cambios de formato.
+- `refactor`: reorganización de código.
+- `test`: pruebas.
+- `chore`: mantenimiento.
+
+Las versiones seguirán Semantic Versioning con el formato `MAJOR.MINOR.PATCH`.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-- Identificadores de código en inglés.
-- HTML5 semántico.
-- CSS organizado por responsabilidad.
-- `camelCase` para variables y funciones JavaScript.
-- `PascalCase` para componentes y clases.
-- Uso de `alt`, labels y ARIA cuando corresponda.
-- Convenciones propias de Vue, PrimeVue, C# y ASP.NET Core.
+#### HTML
+
+La Landing Page utiliza HTML5 semántico, navegación mediante identificadores, atributos `alt` en imágenes y atributos ARIA cuando corresponde. Los nombres de clases se mantienen en `kebab-case`.
+
+Ejemplo:
+
+```html
+<section class="section" id="beneficios">
+```
+
+#### CSS
+
+Los estilos se organizan por secciones y utilizan variables CSS para colores, tipografías, radios y sombras. El diseño responsive se implementa con Grid, Flexbox y media queries.
+
+```css
+:root {
+  --azul: #12403D;
+  --verde: #3EA98A;
+  --arena: #F3D9A4;
+}
+```
+
+También se considera `prefers-reduced-motion` para mejorar la accesibilidad.
+
+#### JavaScript
+
+JavaScript se utiliza para el menú móvil y la validación básica del formulario de contacto. El código utiliza `strict mode`, nombres descriptivos y `camelCase` para variables y funciones.
+
+#### Frontend Web Application
+
+Para Vue 3 y JavaScript se seguirá Vue Style Guide, utilizando `PascalCase` para componentes y `camelCase` para variables, funciones y props. Cuando exista un componente adecuado se utilizará PrimeVue, manteniendo Material Design mediante theme tokens y CSS sin perder semántica ni accesibilidad.
+
+#### Web Services
+
+Para C# y ASP.NET Core se utilizará `PascalCase` para clases, interfaces, métodos y propiedades públicas y `camelCase` para parámetros y variables locales. La persistencia utilizará Entity Framework Core y los endpoints serán documentados con OpenAPI/Swagger.
 
 ### 5.1.4. Software Deployment Configuration
 
-**Proveedor:** [GitHub Pages / Netlify / Vercel / otro]  
-**Production URL:** [Completar]
+Para la primera versión de la Landing Page se utilizará **GitHub Pages** cuando exista una implementación funcional en el repositorio de Aplicaciones Web.
+
+| Configuración | Valor |
+|---|---|
+| **Repository** | `AIpaca-UPC/landing-page` |
+| **Source** | Deploy from a branch |
+| **Branch** | `main` |
+| **Folder** | `/(root)` |
+| **Entry point** | `index.html` |
+
+**Repositorio:** https://github.com/AIpaca-UPC/landing-page  
+**URL pública:** [Pendiente de publicación]
+
+La evidencia de despliegue se completará cuando la Landing Page de AIpaca-UPC cuente con una versión funcional. El despliegue de la Frontend Web Application en Vue y del RESTful Web Service en ASP.NET Core corresponde a Sprints posteriores.
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
 ### 5.2.1. Sprint 1
 
-#### 5.2.1.1. Sprint Planning 1
+El Sprint 1 conserva el alcance avanzado en Open Source: construir la primera versión del Landing Page de Rumbo con HTML5, CSS3 y JavaScript. En **AIpaca-UPC**, el repositorio del Landing Page todavía contiene únicamente la foundation documental; por ello se transfiere la planificación y trazabilidad del Sprint sin atribuir como implementadas funcionalidades que aún no existen en este repositorio.
+
+### 5.2.1.1. Sprint Planning 1
 
 | Campo | Detalle |
 |---|---|
-| Sprint | Sprint 1 |
-| Fecha | [Completar] |
-| Hora | [Completar] |
-| Lugar / medio | [Completar] |
-| Preparado por | [Completar] |
-| Asistentes | [Completar] |
-| Sprint Goal | Diseñar, implementar y desplegar la primera versión responsive del Landing Page de Rumbo. |
-| Duración | [Completar] |
+| **Sprint** | Sprint 1 |
+| **Periodo** | 09/09/2026 - 15/09/2026 |
+| **Prepared By** | Lino Quispe, Leonardo Miguel |
+| **Attendees** | Leonardo Lino, Marcelo Barrientos, Kevin Geronimo, Alexandra Meza y [Integrante 5] |
+| **Sprint Goal** | Implementar la primera versión de la Landing Page de Rumbo, preparar su despliegue y avanzar los artefactos requeridos para AV1. |
+
+**Sprint Review:** pendiente de completarse con evidencia funcional de `AIpaca-UPC/landing-page`.
+
+**Sprint Retrospective:** se mantendrá el flujo `feature → develop → main` y el uso de Pull Requests para conservar trazabilidad.
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-| Integrante | GitHub Username | Informe | UX/UI Landing Page | Implementación Landing Page | Deployment |
+| Integrante | GitHub Username | Project Report | UX/UI Landing Page | Landing Development | Deployment |
 |---|---|---|---|---|---|
-| [Integrante 1] | [usuario1] | L/C | L/C | L/C | L/C |
-| [Integrante 2] | [usuario2] | L/C | L/C | L/C | L/C |
-| [Integrante 3] | [usuario3] | L/C | L/C | L/C | L/C |
-| [Integrante 4] | [usuario4] | L/C | L/C | L/C | L/C |
-| [Integrante 5] | [usuario5] | L/C | L/C | L/C | L/C |
+| Lino Quispe, Leonardo Miguel | linolw | [L/C] | [L/C] | [L/C] | [L/C] |
+| Barrientos Quispe, Marcelo | MarceloBarrientosQ | [L/C] | [L/C] | [L/C] | [L/C] |
+| Geronimo Puma, Kevin Joel | [Completar] | [L/C] | [L/C] | [L/C] | [L/C] |
+| Meza Soza, Alexandra Yamile | [Completar] | [L/C] | [L/C] | [L/C] | [L/C] |
+| [Integrante 5] | [Completar] | [L/C] | [L/C] | [L/C] | [L/C] |
 
-#### 5.2.1.3. Sprint Backlog 1
+### 5.2.1.3. Sprint Backlog 1
 
-**Sprint Board:** [Insertar URL]
+El Sprint Backlog mantiene la trazabilidad avanzada de las User Stories. Los estados se adaptan al estado verificable del repositorio de Aplicaciones Web.
 
-| Story ID | Tarea | Estimación | Responsable | Estado |
-|---|---|---:|---|---|
-| US06 | Definir estructura y contenido del Landing Page | 4 h | [ ] | To-do |
-| US06 | Diseñar Wireframes y Mock-ups Desktop/Mobile | 6 h | [ ] | To-do |
-| US06 | Implementar estructura HTML | 4 h | [ ] | To-do |
-| US06 | Implementar estilos responsive | 6 h | [ ] | To-do |
-| TS02 | Preparar internacionalización | 4 h | [ ] | To-do |
-| TS03 | Revisar accesibilidad | 4 h | [ ] | To-do |
-| US06 | Desplegar Landing Page | 4 h | [ ] | To-do |
+| Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---:|---|---|
+| US09 | Presentar propuesta de valor en Landing Page | T01 | Landing structure | Implementar hero, propuesta de valor y estructura principal de navegación. | 4 | [Completar] | To-do |
+| US10 | Presentar beneficios por segmento | T02 | Benefits & service sections | Implementar beneficios y explicación resumida del funcionamiento de Rumbo. | 3 | [Completar] | To-do |
+| US35 | Sección de preguntas frecuentes por segmento | T03 | FAQ interaction | Implementar sección FAQ y comportamiento de acordeón con JavaScript. | 2 | [Completar] | To-do |
+| US42 | Acceder a Rumbo desde el CTA del segmento | T04 | CTA & navigation | Implementar CTA y navegación hacia la Web Application. | 2 | [Completar] | To-do |
+| US11 | Soportar inglés y español en Landing Page | T05 | Language support | Implementar en_US por defecto y es_419 como idioma alternativo. | 3 | [Completar] | To-do |
+| US12 | Acceder a términos y condiciones desde el footer | T06 | Legal links | Crear y enlazar Terms & Conditions y Privacy Policy. | 2 | [Completar] | To-do |
+| US34 | Formulario público de contacto | T07 | Contact form | Implementar formulario público con validación y confirmación. | 3 | [Completar] | To-do |
+| N/A | Constraint responsive | T08 | Responsive design | Verificar Desktop y Mobile Web Browser. | 4 | [Completar] | To-do |
+| N/A | Accessibility | T09 | a11y review | Verificar teclado, focus, contraste y ARIA. | 3 | [Completar] | To-do |
+| N/A | Deployment | T10 | GitHub Pages | Publicar la Landing Page y registrar evidencia. | 2 | [Completar] | To-do |
+
+**Sprint Board:** [Insertar URL público]
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-| Repositorio | Rama | Commit ID | Mensaje | Fecha |
+Al momento de esta adaptación, los repositorios de Aplicaciones Web contienen las foundations documentales.
+
+| Repository | Branch | Commit ID | Commit Message | Estado |
 |---|---|---|---|---|
-| landing-page | [ ] | [ ] | [ ] | [ ] |
-| web-applications-project-report | [ ] | [ ] | [ ] | [ ] |
+| `AIpaca-UPC/landing-page` | `main` | `2656490` | docs: initialize Rumbo landing page | Foundation documental |
+| `AIpaca-UPC/web-applications-web-app` | `main` | `3004e64` | docs: initialize Rumbo frontend repository | Foundation documental |
+| `AIpaca-UPC/web-applications-web-service` | `main` | `d0e9755` | docs: initialize Rumbo web services repository | Foundation documental |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-**Desktop:** [Insertar captura]  
-**Mobile:** [Insertar captura]  
-**Video:** [Insertar URL]
+Pendiente hasta contar con una Landing Page funcional en AIpaca-UPC.
+
+- **Desktop Web Browser:** [Insertar captura].
+- **Mobile Web Browser:** [Insertar captura].
+- **Video:** [Insertar Microsoft Stream URL].
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-En AV1 el incremento implementado se concentra en el Landing Page. La documentación de endpoints se incorporará cuando el Web Service forme parte del alcance de implementación de un Sprint posterior.
+Durante Sprint 1 no se implementan Web Services funcionales. El repositorio `web-applications-web-service` está reservado para **C#, ASP.NET Core y Entity Framework Core**. Cuando existan endpoints, la evidencia deberá mostrar OpenAPI/Swagger, requests, responses y códigos HTTP.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 **Repositorio:** https://github.com/AIpaca-UPC/landing-page  
-**Proveedor:** [Completar]  
-**Production URL:** [Completar]  
-**Evidencia:** [Insertar capturas]
+**Provider:** GitHub Pages  
+**Production URL:** [Pendiente]  
+**Evidencia:** [Insertar capturas cuando se publique]
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-**Commits:** [Insertar captura]  
-**Network Graph:** [Insertar captura]  
-**Pull Requests / Contributors:** [Insertar capturas]  
-**Análisis:** [Completar con la participación real del Sprint]
+La evidencia de colaboración deberá obtenerse de AIpaca-UPC:
 
----
+| Evidencia verificable | URL |
+|---|---|
+| Commits de `develop` | https://github.com/AIpaca-UPC/web-applications-project-report/commits/develop/ |
+| Branches del Project Report | https://github.com/AIpaca-UPC/web-applications-project-report/branches |
+| Network | https://github.com/AIpaca-UPC/web-applications-project-report/network |
+| Contributors | https://github.com/AIpaca-UPC/web-applications-project-report/graphs/contributors |
+| Pull Requests | https://github.com/AIpaca-UPC/web-applications-project-report/pulls?q=is%3Apr+is%3Aclosed |
+| Landing Page commits | https://github.com/AIpaca-UPC/landing-page/commits/main/ |
+
+**Análisis:** [Completar al cierre del Sprint con commits, Pull Requests y distribución real de trabajo.]
+
+
 
 # Conclusiones
 
