@@ -1036,64 +1036,64 @@ Esta sección presenta en un único cuadro los **Epics, User Stories y Technical
 
 El Product Backlog prioriza primero el alcance correspondiente al Landing Page de AV1 y, a continuación, las funcionalidades necesarias para el registro, planificación, ejecución, comunicación e historial del servicio.
 
-| # Orden | User Story Id | Título | Alcance | Story Points |
+| # Orden | User Story Id | Título | Descripción | Story Points |
 |---:|---|---|---|:---:|
-| 1 | US09 | Presentar propuesta de valor en Landing Page | Landing Page | 2 |
-| 2 | US10 | Presentar beneficios por segmento | Landing Page | 2 |
-| 3 | US11 | Soportar inglés y español en Landing Page | Landing Page | 3 |
-| 4 | US12 | Acceder a términos y condiciones desde el footer | Landing Page | 2 |
-| 5 | US42 | Acceder a Rumbo desde el CTA del segmento | Landing Page | 2 |
-| 6 | US34 | Formulario público de contacto | Landing Page | 2 |
-| 7 | US35 | Sección de preguntas frecuentes por segmento | Landing Page | 2 |
-| 8 | US01 | Registrar cuenta de conductor | Evento Driver Account Registered | 3 |
-| 9 | US02 | Enviar credenciales del conductor | Evento Driver Credential Submitted | 3 |
-| 10 | US03 | Verificar credenciales del conductor | Evento Driver Credential Verified | 5 |
-| 11 | US04 | Registrar vehículo | Evento Vehicle Registered | 3 |
-| 12 | US05 | Registrar cuenta de padre o tutor | Evento Parent Account Registered | 3 |
-| 13 | US06 | Registrar estudiante | Evento Student Registered | 3 |
-| 14 | US07 | Vincular tutor con estudiante | Evento Parent Linked to Student | 5 |
-| 15 | US08 | Activar suscripción del conductor | Evento Subscription Activated | 5 |
-| 16 | US13 | Crear ruta escolar | Evento Route Created | 5 |
-| 17 | US14 | Agregar parada a la ruta | Evento Stop Added to Route | 3 |
-| 18 | US15 | Definir orden de paradas | Evento Stop Order Defined | 3 |
-| 19 | US16 | Asignar estudiante a la ruta | Evento Student Assigned to Route | 5 |
-| 20 | US17 | Definir horario de la ruta | Evento Route Schedule Defined | 3 |
-| 21 | US18 | Modificar ruta | Evento Route Modified | 3 |
-| 22 | US19 | Programar viaje | Evento Trip Scheduled | 3 |
-| 23 | US20 | Generar lista del viaje | Evento Trip Roster Generated | 3 |
-| 24 | US21 | Reportar ausencia del estudiante | Evento Student Absence Reported | 3 |
-| 25 | US22 | Cancelar viaje | Evento Trip Cancelled | 3 |
-| 26 | US23 | Iniciar viaje | Evento Trip Started | 3 |
-| 27 | US24 | Registrar llegada a una parada | Evento Stop Reached | 2 |
-| 28 | US25 | Confirmar recojo del estudiante | Evento Student Pickup Confirmed | 3 |
-| 29 | US26 | Registrar recojo no realizado | Evento Student Pickup Missed | 3 |
-| 30 | US27 | Completar parada | Evento Stop Completed | 2 |
-| 31 | US28 | Registrar retraso | Evento Delay Registered | 3 |
-| 32 | US29 | Reportar incidencia | Evento Incident Reported | 5 |
-| 33 | US30 | Confirmar llegada al colegio | Evento School Arrival Confirmed | 3 |
-| 34 | US31 | Iniciar viaje de retorno | Evento Return Trip Started | 3 |
-| 35 | US32 | Confirmar entrega del estudiante | Evento Student Drop-off Confirmed | 3 |
-| 36 | US33 | Registrar entrega rechazada | Evento Drop-off Rejected | 5 |
-| 37 | US36 | Completar viaje | Evento Trip Completed | 3 |
-| 38 | US37 | Resolver incidencia | Evento Incident Resolved | 3 |
-| 39 | US38 | Generar línea de tiempo del viaje | Evento Trip Timeline Generated | 5 |
-| 40 | US39 | Archivar historial del viaje | Evento Trip History Archived | 3 |
-| 41 | US40 | Solicitar eliminación de datos del estudiante | Evento Student Data Deletion Requested | 5 |
-| 42 | US41 | Disparar notificación por evento relevante | Evento Notification Triggered | 3 |
-| 43 | US43 | Enviar notificación | Evento Notification Sent | 3 |
-| 44 | US44 | Registrar fallo de entrega de notificación | Evento Notification Delivery Failed | 3 |
-| 45 | US45 | Marcar notificación como leída | Evento Notification Read | 2 |
-| 46 | US46 | Consultar estado del viaje | Evento Trip Status Consulted | 3 |
-| 47 | US47 | Consultar línea de tiempo | Evento Trip Timeline Consulted | 3 |
-| 48 | US48 | Confirmar lectura de una incidencia | Evento Issue Acknowledged | 2 |
-| 49 | TS01 | Integración con ATU API para verificación de credenciales | Capacidad técnica del RESTful API / integración | 5 |
-| 50 | TS02 | Integración con API Maps para rutas y paradas | Capacidad técnica del RESTful API / integración | 5 |
-| 51 | TS03 | Integración con servicio de notificaciones | Capacidad técnica del RESTful API / integración | 5 |
-| 52 | TS04 | Autenticación y autorización con JWT y RBAC | Capacidad técnica del RESTful API / integración | 5 |
-| 53 | TS05 | Documentación del RESTful API con OpenAPI/Swagger | Capacidad técnica del RESTful API / integración | 2 |
-| 54 | TS06 | Internacionalización del RESTful API | Capacidad técnica del RESTful API / integración | 3 |
-| 55 | TS07 | Auditoría de eventos operativos | Capacidad técnica del RESTful API / integración | 5 |
-| 56 | TS08 | Persistencia transaccional con Entity Framework Core | Capacidad técnica del RESTful API / integración | 5 |
+| 1 | US09 | Presentar propuesta de valor en Landing Page | Como visitante, deseo conocer la propuesta de valor de Rumbo para comprender qué problema resuelve el producto. | 2 |
+| 2 | US10 | Presentar beneficios por segmento | Como visitante, deseo conocer beneficios específicos para padres/tutores y conductores para identificar si Rumbo responde a mis necesidades. | 2 |
+| 3 | US11 | Soportar inglés y español en Landing Page | Como visitante, deseo cambiar entre inglés y español para consultar el contenido en un idioma disponible. | 3 |
+| 4 | US12 | Acceder a términos y condiciones desde el footer | Como visitante, deseo acceder a Terms & Conditions y Privacy Policy para conocer las reglas de uso y tratamiento de datos. | 2 |
+| 5 | US42 | Acceder a Rumbo desde el CTA del segmento | Como visitante, deseo ingresar a la experiencia correspondiente a mi segmento para comenzar a usar Rumbo. | 2 |
+| 6 | US34 | Formulario público de contacto | Como visitante, deseo enviar una consulta desde la Landing Page para solicitar información sobre Rumbo. | 2 |
+| 7 | US35 | Sección de preguntas frecuentes por segmento | Como visitante, deseo consultar preguntas frecuentes para resolver dudas antes de usar Rumbo. | 2 |
+| 8 | US01 | Registrar cuenta de conductor | Como conductor, deseo crear mi cuenta de conductor para iniciar la configuración de mi servicio. | 3 |
+| 9 | US02 | Enviar credenciales del conductor | Como conductor, deseo enviar mis credenciales y documentos para solicitar su revisión dentro de Rumbo. | 3 |
+| 10 | US03 | Verificar credenciales del conductor | Como conductor, deseo obtener el resultado de verificación de mis credenciales para conocer si puedo continuar con el alta del servicio. | 5 |
+| 11 | US04 | Registrar vehículo | Como conductor, deseo registrar el vehículo que utilizaré para asociarlo a mis rutas escolares. | 3 |
+| 12 | US05 | Registrar cuenta de padre o tutor | Como padre/tutor, deseo crear mi cuenta para acceder a la información autorizada de los traslados. | 3 |
+| 13 | US06 | Registrar estudiante | Como padre/tutor, deseo registrar los datos básicos del estudiante para vincularlo posteriormente con una movilidad autorizada. | 3 |
+| 14 | US07 | Vincular tutor con estudiante | Como padre/tutor, deseo vincularme con el estudiante bajo mi responsabilidad para consultar únicamente la información que me corresponde. | 5 |
+| 15 | US08 | Activar suscripción del conductor | Como conductor, deseo activar una suscripción de Rumbo para habilitar las funciones incluidas en mi plan. | 5 |
+| 16 | US13 | Crear ruta escolar | Como conductor, deseo crear una ruta escolar para organizar un recorrido recurrente. | 5 |
+| 17 | US14 | Agregar parada a la ruta | Como conductor, deseo agregar una parada para definir los puntos de recojo o entrega del recorrido. | 3 |
+| 18 | US15 | Definir orden de paradas | Como conductor, deseo ordenar las paradas de la ruta para mantener una secuencia operativa clara. | 3 |
+| 19 | US16 | Asignar estudiante a la ruta | Como conductor, deseo asignar un estudiante autorizado a una ruta para incluirlo en los recorridos correspondientes. | 5 |
+| 20 | US17 | Definir horario de la ruta | Como conductor, deseo definir días y horarios de una ruta para programar sus recorridos recurrentes. | 3 |
+| 21 | US18 | Modificar ruta | Como conductor, deseo actualizar la configuración de una ruta para mantenerla alineada con la operación real. | 3 |
+| 22 | US19 | Programar viaje | Como conductor, deseo programar un viaje a partir de una ruta para preparar un traslado para una fecha y turno. | 3 |
+| 23 | US20 | Generar lista del viaje | Como conductor, deseo obtener la lista de estudiantes prevista para el viaje para saber a quiénes debo recoger o entregar. | 3 |
+| 24 | US21 | Reportar ausencia del estudiante | Como padre/tutor, deseo informar que el estudiante no usará la movilidad para evitar una parada innecesaria. | 3 |
+| 25 | US22 | Cancelar viaje | Como conductor, deseo cancelar un viaje que no se realizará para evitar que las familias esperen un servicio inexistente. | 3 |
+| 26 | US23 | Iniciar viaje | Como conductor, deseo iniciar el viaje programado para dejar visible que la ruta está en ejecución. | 3 |
+| 27 | US24 | Registrar llegada a una parada | Como conductor/asistente, deseo registrar que la movilidad llegó a una parada para mantener actualizado el avance de la ruta. | 2 |
+| 28 | US25 | Confirmar recojo del estudiante | Como conductor/asistente, deseo confirmar el recojo de un estudiante para dejar constancia del hito para su tutor. | 3 |
+| 29 | US26 | Registrar recojo no realizado | Como conductor/asistente, deseo marcar un recojo que no pudo realizarse para evitar que el estado del estudiante sea ambiguo. | 3 |
+| 30 | US27 | Completar parada | Como conductor/asistente, deseo cerrar una parada atendida para continuar con la siguiente etapa de la ruta. | 2 |
+| 31 | US28 | Registrar retraso | Como conductor/asistente, deseo registrar un retraso y su causa para informar a las familias afectadas con un solo registro. | 3 |
+| 32 | US29 | Reportar incidencia | Como conductor/asistente, deseo registrar una incidencia operativa para comunicar el imprevisto con contexto suficiente. | 5 |
+| 33 | US30 | Confirmar llegada al colegio | Como conductor/asistente, deseo confirmar la llegada al centro educativo para informar que la etapa de ida fue completada. | 3 |
+| 34 | US31 | Iniciar viaje de retorno | Como conductor, deseo iniciar el recorrido de retorno para diferenciarlo de la ruta de ida. | 3 |
+| 35 | US32 | Confirmar entrega del estudiante | Como conductor/asistente, deseo confirmar la entrega del estudiante para cerrar su traslado individual y avisar al tutor. | 3 |
+| 36 | US33 | Registrar entrega rechazada | Como conductor/asistente, deseo registrar que una entrega no pudo completarse para mantener trazabilidad y evitar marcar una entrega falsa. | 5 |
+| 37 | US36 | Completar viaje | Como conductor, deseo finalizar un viaje para consolidar su resultado e historial. | 3 |
+| 38 | US37 | Resolver incidencia | Como conductor/asistente, deseo marcar una incidencia como resuelta para informar que la situación fue normalizada. | 3 |
+| 39 | US38 | Generar línea de tiempo del viaje | Como padre/tutor, deseo disponer de una línea de tiempo ordenada para entender qué ocurrió sin revisar chats. | 5 |
+| 40 | US39 | Archivar historial del viaje | Como padre/tutor, deseo conservar el historial de viajes finalizados para consultar posteriormente dudas o reclamos. | 3 |
+| 41 | US40 | Solicitar eliminación de datos del estudiante | Como padre/tutor, deseo solicitar la supresión de los datos personales del estudiante para ejercer el control sobre su información. | 5 |
+| 42 | US41 | Disparar notificación por evento relevante | Como padre/tutor, deseo recibir avisos solo cuando ocurra un evento relevante para mantenerme informado sin mensajes repetitivos. | 3 |
+| 43 | US43 | Enviar notificación | Como padre/tutor, deseo recibir la notificación generada para conocer oportunamente el evento de la ruta. | 3 |
+| 44 | US44 | Registrar fallo de entrega de notificación | Como padre/tutor, deseo que un fallo de notificación quede registrado para evitar que el sistema asuma que fui informado. | 3 |
+| 45 | US45 | Marcar notificación como leída | Como padre/tutor, deseo marcar como leído un aviso consultado para distinguir información nueva de la revisada. | 2 |
+| 46 | US46 | Consultar estado del viaje | Como padre/tutor, deseo consultar el estado actual del viaje para saber en pocos segundos en qué etapa está el traslado. | 3 |
+| 47 | US47 | Consultar línea de tiempo | Como padre/tutor, deseo consultar la línea de tiempo del trayecto para revisar los hitos ya ocurridos. | 3 |
+| 48 | US48 | Confirmar lectura de una incidencia | Como padre/tutor, deseo confirmar que he tomado conocimiento de una incidencia relevante para dejar constancia de que el aviso fue revisado. | 2 |
+| 49 | TS01 | Integración con ATU API para verificación de credenciales | Como Developer, deseo integrar el servicio externo disponible de ATU para soportar el flujo de verificación de credenciales sin simular una validación oficial. | 5 |
+| 50 | TS02 | Integración con API Maps para rutas y paradas | Como Developer, deseo integrar una API de mapas para validar y representar ubicaciones de rutas y paradas cuando corresponda. | 5 |
+| 51 | TS03 | Integración con servicio de notificaciones | Como Developer, deseo integrar un proveedor de mensajería para procesar Notification Triggered, Notification Sent y Notification Delivery Failed. | 5 |
+| 52 | TS04 | Autenticación y autorización con JWT y RBAC | Como Developer, deseo proteger el RESTful API por identidad y rol para que padres, conductores y asistentes accedan solo a recursos autorizados. | 5 |
+| 53 | TS05 | Documentación del RESTful API con OpenAPI/Swagger | Como Developer, deseo documentar endpoints y esquemas para facilitar pruebas y comprensión del servicio. | 2 |
+| 54 | TS06 | Internacionalización del RESTful API | Como Developer, deseo localizar mensajes de validación y error para en_US y es_419 manteniendo inglés como idioma predeterminado. | 3 |
+| 55 | TS07 | Auditoría de eventos operativos | Como Developer, deseo conservar quién, cuándo y qué cambió en eventos críticos de rutas y viajes para mantener trazabilidad. | 5 |
+| 56 | TS08 | Persistencia transaccional con Entity Framework Core | Como Developer, deseo persistir agregados y eventos relevantes con EF Core para mantener consistencia entre estado y trazabilidad. | 5 |
 
 > Las historias se redactan en el informe con Acceptance Criteria. Los Work-items de implementación se detallan en los Sprint Backlogs del Capítulo V para conservar trazabilidad sin duplicar tareas.
 
