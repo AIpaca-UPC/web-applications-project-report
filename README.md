@@ -2000,17 +2000,19 @@ Las cinco historias seleccionadas corresponden a las prioridades iniciales del P
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-Para Sprint 1 se consideran cinco aspectos directamente relacionados con el incremento de Landing Page. La matriz LACX identifica un líder (**L**) y colaboradores (**C**) para cada aspecto. Los roles representan la organización del Sprint y deben guardar relación con los Work-items asignados en el Sprint Backlog.
+Para Sprint 1 se separa la responsabilidad del **Project Report** de la responsabilidad sobre la **implementación de la Landing Page**. La matriz LACX usa **L** para Leader y **C** para Collaborator. La distribución documental acordada por el equipo es: Marcelo en el Capítulo I, Alexandra en el Capítulo II, Leonardo en los Capítulos III y V, y Kevin junto con Alejandro en el Capítulo IV.
 
-| Team Member | GitHub Username | Landing Page UX/UI | Landing Page Implementation | Content, FAQ, Legal & i18n | Deployment & Evidence | Sprint 1 Report |
-|---|---|:---:|:---:|:---:|:---:|:---:|
-| Barrientos, Marcelo | `MarceloBarrientosQuispe` | C | C | L | C | C |
-| Díaz, Alejandro | Pendiente de registrar | L | C | C | C | C |
-| Geronimo, Kevin | `qebim18` | C | L | C | C | C |
-| Lino Quispe, Leonardo Miguel | `linolw` | C | C | C | L | L |
-| Meza, Alexandra | `AlexandraYMS` | C | C | C | C | C |
+| Team Member | GitHub Username | Capítulo I | Capítulo II | Capítulo III | Capítulo IV | Capítulo V | Landing Page |
+|---|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Barrientos, Marcelo | `MarceloBarrientosQuispe` | L | — | — | — | — | C |
+| Meza, Alexandra | `AlexandraYMS` | — | L | — | — | — | C |
+| Lino Quispe, Leonardo Miguel | `linolw` | — | — | L | — | L | C |
+| Geronimo, Kevin | `qebim18` | — | — | — | L | — | L |
+| Díaz, Alejandro | Pendiente de registrar | — | — | — | C | — | C |
 
-> **Pendiente:** registrar el GitHub Username de Alejandro Díaz con el usuario real del integrante; no se coloca un identificador supuesto.
+En el **Capítulo IV**, Kevin Geronimo y Alejandro Díaz trabajan de forma conjunta; Kevin figura como Leader únicamente para mantener la convención LACX de un responsable principal y Alejandro como Collaborator directo. Esta distribución identifica responsabilidades del informe y no reemplaza la asignación de Work-items del Sprint Backlog.
+
+> **Pendiente:** registrar el GitHub Username real de Alejandro Díaz.
 
 #### 5.2.1.3. Sprint Backlog 1
 
@@ -2020,19 +2022,44 @@ El Sprint Backlog descompone las cinco User Stories seleccionadas en Work-items 
 
 **Sprint Board screenshot:** Pendiente de integrar cuando el Board de Sprint 1 esté creado y organizado con los estados `To-do`, `In-Process`, `To-Review` y `Done`.
 
+##### User Stories seleccionadas para la Landing Page
+
+Para la implementación de la Landing Page se seleccionaron únicamente las User Stories del Epic **EP06 · Landing Page**. Se mantienen separadas de las tareas documentales para no confundir funcionalidades del producto con trabajo del informe.
+
+| Story ID | User Story | Story Points |
+|---|---|:---:|
+| **US31** | Conocer la propuesta de valor de Rumbo | 3 |
+| **US32** | Identificar los beneficios de mi segmento e ingresar a Rumbo | 3 |
+| **US33** | Consultar el contenido en inglés o español | 3 |
+| **US34** | Consultar los documentos legales del servicio | 2 |
+| **US35** | Resolver dudas antes de usar Rumbo | 3 |
+|  | **Total** | **14** |
+
 | Sprint # | Sprint 1 |
 |---|---|
 
 | Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---:|---|---|
-| US31 | Conocer la propuesta de valor de Rumbo | T01 | Implementar propuesta de valor | Implementar hero, propuesta de valor y explicación resumida del funcionamiento de Rumbo. | 4 | Kevin Geronimo / Alejandro Díaz / Marcelo Barrientos | To-do |
-| US32 | Identificar los beneficios de mi segmento e ingresar a Rumbo | T02 | Implementar beneficios y CTA por segmento | Mostrar beneficios diferenciados para padres/tutores y conductores e incluir las acciones principales de cada segmento. | 4 | Alejandro Díaz / Kevin Geronimo | To-do |
-| US33 | Consultar el contenido en inglés o español | T03 | Implementar selector de idioma | Implementar `en_US` como idioma predeterminado, `es_419` como alternativa y conservar la preferencia durante la sesión. | 3 | Kevin Geronimo / Leonardo Lino | To-do |
-| US34 | Consultar los documentos legales del servicio | T04 | Publicar documentos legales | Incorporar accesos visibles a Terms of Service y Privacy Policy desde la Landing Page. | 2 | Marcelo Barrientos / Alexandra Meza | To-do |
-| US35 | Resolver dudas antes de usar Rumbo | T05 | Implementar FAQ y contacto | Implementar preguntas frecuentes por segmento y formulario de contacto con validación de campos obligatorios. | 4 | Alexandra Meza / Kevin Geronimo | To-do |
-| N/A | Responsive constraint | T06 | Ajustar diseño responsive | Validar navegación, legibilidad y distribución de la Landing Page en Desktop y Mobile. | 4 | Alejandro Díaz / Kevin Geronimo | To-do |
-| N/A | Deployment | T07 | Publicar Landing Page | Configurar el proveedor de hosting definido por el equipo, publicar desde una rama estable y registrar la URL pública. | 2 | Leonardo Lino / Kevin Geronimo | To-do |
-| N/A | Sprint Review Evidence | T08 | Registrar evidencias del Sprint | Documentar commits de implementación, capturas Desktop/Mobile, video de ejecución, deployment y analíticos de colaboración. | 3 | Leonardo Lino / Alexandra Meza | To-do |
+| US31 | Conocer la propuesta de valor de Rumbo | T01 | Implementar propuesta de valor | Implementar hero, propuesta de valor y explicación resumida del funcionamiento de Rumbo. | 4 | Kevin Geronimo / Alejandro Díaz | To-do |
+| US32 | Identificar los beneficios de mi segmento e ingresar a Rumbo | T02 | Beneficios y CTA por segmento | Mostrar beneficios para padres/tutores y conductores e incluir sus acciones principales. | 4 | Alejandro Díaz / Kevin Geronimo | To-do |
+| US33 | Consultar el contenido en inglés o español | T03 | Selector de idioma | Implementar inglés como idioma predeterminado y español latinoamericano como alternativa. | 3 | Kevin Geronimo / Alejandro Díaz | To-do |
+| US34 | Consultar los documentos legales del servicio | T04 | Documentos legales | Incorporar accesos a Terms of Service y Privacy Policy. | 2 | Kevin Geronimo / Alejandro Díaz | To-do |
+| US35 | Resolver dudas antes de usar Rumbo | T05 | FAQ y contacto | Implementar preguntas frecuentes y formulario de contacto con validación básica. | 4 | Kevin Geronimo / Alejandro Díaz | To-do |
+| N/A | Responsive constraint | T06 | Ajustar diseño responsive | Validar la Landing Page en Desktop y Mobile. | 4 | Alejandro Díaz / Kevin Geronimo | To-do |
+| N/A | Deployment | T07 | Publicar Landing Page | Publicar la versión funcional y registrar la URL de producción. | 2 | Leonardo Lino / Kevin Geronimo | To-do |
+| N/A | Sprint Review Evidence | T08 | Registrar evidencias | Documentar commits, capturas, video, deployment y colaboración. | 3 | Leonardo Lino | To-do |
+
+##### Trabajo documental del Sprint 1
+
+Estas tareas corresponden al **Project Report** y no se contabilizan como User Stories de la Landing Page.
+
+| Task ID | Report Scope | Responsible | Status |
+|---|---|---|---|
+| T09 | Capítulo I: Introducción | Marcelo Barrientos | Done |
+| T10 | Capítulo II: Requirements Elicitation & Analysis | Alexandra Meza | Done |
+| T11 | Capítulo III: Requirements Specification | Leonardo Lino | Done |
+| T12 | Capítulo IV: Product Design | Kevin Geronimo / Alejandro Díaz | Done |
+| T13 | Capítulo V: Product Implementation, Validation & Deployment | Leonardo Lino | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
