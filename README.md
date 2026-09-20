@@ -2018,7 +2018,7 @@ En el **Capítulo IV**, Kevin Geronimo y Alejandro Díaz trabajan de forma conju
 
 El Sprint Backlog descompone las cinco User Stories seleccionadas en Work-items concretos. Las tareas adicionales de responsive, deployment y evidencia se registran como **N/A** porque son actividades necesarias para cumplir el Sprint Goal, pero no representan una User Story independiente.
 
-**Sprint Board URL:** Pendiente de crear/publicar el Board específico de Sprint 1 en Trello.
+**Sprint Board URL:** https://trello.com/b/pZTeSjRE/rumbo-sprint-1
 
 **Sprint Board screenshot:** Pendiente de integrar cuando el Board de Sprint 1 esté creado y organizado con los estados `To-do`, `In-Process`, `To-Review` y `Done`.
 
