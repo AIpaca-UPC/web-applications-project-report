@@ -1974,114 +1974,129 @@ La evidencia de despliegue se añadirá cuando el código de la Landing Page exi
 
 ### 5.2.1. Sprint 1
 
-Durante el Sprint 1 se avanzaron los artefactos de requisitos, UX/UI y documentación del producto. **La implementación funcional del Landing Page todavía no está evidenciada en `AIpaca-UPC/landing-page`**, ya que el repositorio contiene únicamente su foundation documental. Por ello, las tareas de desarrollo, responsive y deployment permanecen pendientes hasta que existan commits de código verificables.
+El **Sprint 1** tiene como alcance el primer incremento público de Rumbo: la **Landing Page**. Para mantener coherencia con el Product Backlog vigente, el Sprint selecciona las cinco User Stories del Epic **EP06 · Landing Page** (US31–US35). El objetivo es que ambos segmentos puedan comprender la propuesta de valor, identificar beneficios, consultar información legal, cambiar el idioma y resolver dudas antes de utilizar el producto.
+
+A la fecha de esta revisión, el repositorio `AIpaca-UPC/landing-page` todavía no contiene implementación funcional: las ramas `main`, `develop` y `feature/landing-page-v1` apuntan al mismo commit documental `2656490`. Por ello, el Sprint Goal **aún no puede considerarse alcanzado** y no se registran como completadas tareas de implementación, ejecución o despliegue que no cuenten con evidencia verificable.
 
 #### 5.2.1.1. Sprint Planning 1
 
-| Campo | Detalle |
+La planificación del Sprint se centra únicamente en las historias que contribuyen al incremento de Landing Page. Las actividades de Requirements Specification o Product Design que pertenecen a otros capítulos no se contabilizan como funcionalidades completadas del Sprint.
+
+| **Sprint #** | Sprint 1 |
 |---|---|
-| **Sprint** | Sprint 1 |
-| **Periodo** | 09/09/2026 - 15/09/2026 |
+| **Sprint Planning Background** |  |
+| **Date** | 2026-09-09 |
+| **Time** | Pendiente de confirmar con el equipo |
+| **Location** | Pendiente de confirmar con el equipo |
 | **Prepared By** | Lino Quispe, Leonardo Miguel |
-| **Attendees** | Marcelo Barrientos, Alejandro Díaz, Kevin Geronimo, Leonardo Lino y Alexandra Meza |
-| **Sprint Goal** | Implementar la primera versión de la Landing Page de Rumbo, preparar su despliegue y avanzar los artefactos requeridos para AV1. |
+| **Attendees (to planning meeting)** | Marcelo Barrientos, Alejandro Díaz, Kevin Geronimo, Leonardo Lino y Alexandra Meza |
+| **Sprint 0 Review Summary** | No aplica. Sprint 1 es el primer Sprint del proyecto. |
+| **Sprint 0 Retrospective Summary** | No aplica. Sprint 1 es el primer Sprint del proyecto. |
+| **Sprint 1 Goal** | **Our focus is on** publicar la primera versión funcional y responsive de la Landing Page de Rumbo. **We believe it delivers** una comprensión clara de la propuesta de valor, beneficios y formas de contacto a padres/tutores y conductores. **This will be confirmed when** US31, US32, US33, US34 y US35 estén implementadas y la Landing Page pueda abrirse desde una URL pública al cierre del Sprint. |
+| **Sprint 1 Velocity** | 14 Story Points de capacidad planificada |
+| **Sum of Story Points** | 14 |
 
-**Sprint Review:** se consolidaron requisitos y artefactos del proyecto; la implementación y el despliegue del Landing Page quedan pendientes de evidencia verificable en `AIpaca-UPC/landing-page`.
-
-**Sprint Retrospective:** se identificó como punto de mejora mantener las integraciones mediante `feature → develop → main` para conservar un historial más ordenado.
+Las cinco historias seleccionadas corresponden a las prioridades iniciales del Product Backlog: US31 (3 SP), US32 (3 SP), US35 (3 SP), US34 (2 SP) y US33 (3 SP).
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-| Aspecto | Líder | Colaboradores |
-|---|---|---|
-| Project Report y Capítulo V | Leonardo Lino | Equipo |
-| Investigación y entrevistas | Alexandra Meza | Equipo |
-| Landing Page UX/UI | Alejandro Díaz | Kevin Geronimo |
-| Landing Page Development | Kevin Geronimo | Alejandro Díaz |
-| Requirements & Product Design | Equipo Rumbo | Marcelo Barrientos / Kevin Geronimo / Equipo |
-| Deployment & Evidence | Leonardo Lino | Kevin Geronimo |
+Para Sprint 1 se consideran cinco aspectos directamente relacionados con el incremento de Landing Page. La matriz LACX identifica un líder (**L**) y colaboradores (**C**) para cada aspecto. Los roles representan la organización del Sprint y deben guardar relación con los Work-items asignados en el Sprint Backlog.
+
+| Team Member | GitHub Username | Landing Page UX/UI | Landing Page Implementation | Content, FAQ, Legal & i18n | Deployment & Evidence | Sprint 1 Report |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| Barrientos, Marcelo | `MarceloBarrientosQuispe` | C | C | L | C | C |
+| Díaz, Alejandro | Pendiente de registrar | L | C | C | C | C |
+| Geronimo, Kevin | `qebim18` | C | L | C | C | C |
+| Lino Quispe, Leonardo Miguel | `linolw` | C | C | C | L | L |
+| Meza, Alexandra | `AlexandraYMS` | C | C | C | C | C |
+
+> **Pendiente:** registrar el GitHub Username de Alejandro Díaz con el usuario real del integrante; no se coloca un identificador supuesto.
 
 #### 5.2.1.3. Sprint Backlog 1
 
-El Sprint Backlog se actualiza para relacionar explícitamente cada Work-item/Task con la User Story que lo origina, tal como solicita la plantilla del curso. Los tasks de despliegue, documentación o coordinación que no dependen de una User Story específica se identifican como **N/A**.
+El Sprint Backlog descompone las cinco User Stories seleccionadas en Work-items concretos. Las tareas adicionales de responsive, deployment y evidencia se registran como **N/A** porque son actividades necesarias para cumplir el Sprint Goal, pero no representan una User Story independiente.
 
-<div align="center">
-  <img src="./assets/chapter5/sprint-backlog-story-traceability.svg" alt="Sprint Backlog Story Task Traceability" width="95%">
-</div>
+**Sprint Board URL:** Pendiente de crear/publicar el Board específico de Sprint 1 en Trello.
+
+**Sprint Board screenshot:** Pendiente de integrar cuando el Board de Sprint 1 esté creado y organizado con los estados `To-do`, `In-Process`, `To-Review` y `Done`.
+
+| Sprint # | Sprint 1 |
+|---|---|
 
 | Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---:|---|---|
-| US09 | Presentar propuesta de valor en Landing Page | T01 | Landing structure | Implementar hero, propuesta de valor y estructura principal de navegación. | 4 | Kevin Geronimo / Alejandro Díaz | To-do |
-| US10 | Presentar beneficios por segmento | T02 | Benefits & service sections | Implementar beneficios y explicación resumida del funcionamiento de Rumbo. | 3 | Alejandro Díaz | To-do |
-| US35 | Sección de preguntas frecuentes por segmento | T03 | FAQ interaction | Implementar sección FAQ y comportamiento de acordeón con JavaScript. | 2 | Alejandro Díaz | To-do |
-| US42 | Acceder a Rumbo desde el CTA del segmento | T04 | CTA & navigation | Implementar CTAs y navegación visual hacia registro/acceso. | 2 | Alejandro Díaz / Kevin Geronimo | To-do |
-| US11 | Soportar inglés y español en Landing Page | T05 | Language support | Implementar selector de idioma y persistencia de preferencia. | 3 | Equipo | To-do |
-| US12 | Acceder a términos y condiciones desde el footer | T06 | Legal links | Crear y enlazar Terms & Conditions y Privacy Policy reales desde el footer. | 2 | Equipo | To-do |
-| US34 | Formulario público de contacto | T07 | Contact form | Implementar formulario público con validación y confirmación de envío. | 3 | Equipo | To-do |
-| N/A | Constraint responsive | T08 | Responsive redesign | Ajustar layout, navegación móvil y estilos para diferentes tamaños de pantalla. | 4 | Alejandro Díaz / Kevin Geronimo | To-do |
-| N/A | Deployment | T09 | GitHub Pages | Publicar la Landing Page desde `main` y registrar la evidencia de despliegue. | 2 | Leonardo Lino / Kevin Geronimo | To-do |
-| N/A | Requirements documentation | T10 | Requirements expansion | Completar y consolidar User Stories, Technical Stories, Impact Mapping y Product Backlog. | 6 | Equipo Rumbo | Done |
-| N/A | Product Design / DDD | T11 | DDD evidence | Completar Bounded Contexts, Design-Level EventStorming, Class Diagrams y Database Diagrams. | 6 | Kevin Geronimo / Equipo Rumbo | In-Process |
-| N/A | Product Design / UX | T12 | Web & Mobile Figma flows | Completar Wireframes, Wireflows, Mock-ups, User Flows y Prototype responsive. | 6 | Alejandro Díaz / Equipo | In-Process |
-| N/A | Chapter V evidence | T13 | Sprint evidence update | Documentar commits, colaboración, ejecución y despliegue con evidencia verificable. | 4 | Leonardo Lino | In-Process |
-
-> **Nota:** la captura corresponde a una vista consolidada del backlog documentado. La plantilla también solicita la URL pública del Board de control. Si el equipo mantiene un Board externo (Trello/GitHub Project), su URL debe añadirse aquí antes de la entrega final.
+| US31 | Conocer la propuesta de valor de Rumbo | T01 | Implementar propuesta de valor | Implementar hero, propuesta de valor y explicación resumida del funcionamiento de Rumbo. | 4 | Kevin Geronimo / Alejandro Díaz / Marcelo Barrientos | To-do |
+| US32 | Identificar los beneficios de mi segmento e ingresar a Rumbo | T02 | Implementar beneficios y CTA por segmento | Mostrar beneficios diferenciados para padres/tutores y conductores e incluir las acciones principales de cada segmento. | 4 | Alejandro Díaz / Kevin Geronimo | To-do |
+| US33 | Consultar el contenido en inglés o español | T03 | Implementar selector de idioma | Implementar `en_US` como idioma predeterminado, `es_419` como alternativa y conservar la preferencia durante la sesión. | 3 | Kevin Geronimo / Leonardo Lino | To-do |
+| US34 | Consultar los documentos legales del servicio | T04 | Publicar documentos legales | Incorporar accesos visibles a Terms of Service y Privacy Policy desde la Landing Page. | 2 | Marcelo Barrientos / Alexandra Meza | To-do |
+| US35 | Resolver dudas antes de usar Rumbo | T05 | Implementar FAQ y contacto | Implementar preguntas frecuentes por segmento y formulario de contacto con validación de campos obligatorios. | 4 | Alexandra Meza / Kevin Geronimo | To-do |
+| N/A | Responsive constraint | T06 | Ajustar diseño responsive | Validar navegación, legibilidad y distribución de la Landing Page en Desktop y Mobile. | 4 | Alejandro Díaz / Kevin Geronimo | To-do |
+| N/A | Deployment | T07 | Publicar Landing Page | Configurar el proveedor de hosting definido por el equipo, publicar desde una rama estable y registrar la URL pública. | 2 | Leonardo Lino / Kevin Geronimo | To-do |
+| N/A | Sprint Review Evidence | T08 | Registrar evidencias del Sprint | Documentar commits de implementación, capturas Desktop/Mobile, video de ejecución, deployment y analíticos de colaboración. | 3 | Leonardo Lino / Alexandra Meza | To-do |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-Las tablas se conservan como estructura del informe, pero **solo se considera evidencia válida lo que exista en AIpaca-UPC**. La revisión actual confirma que Landing Page, Frontend Web Application y Web Service mantienen únicamente foundations documentales; por tanto no se atribuyen features funcionales ni deployment completado.
+Esta sección debe contener **commits de implementación correspondientes al alcance del Sprint**. Los commits que solo inicializan un README o describen una foundation documental no se presentan como si fueran evidencia funcional.
 
-| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
+La verificación actual del repositorio de Landing Page es la siguiente:
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|---|---|
-| `AIpaca-UPC/landing-page` | `main` | [`2656490`](https://github.com/AIpaca-UPC/landing-page/commit/2656490a4df8dd99de499644941efe5cdf217c92) | docs: initialize Rumbo landing page | Foundation documental del Landing Page. | 07/09/2026 |
-| `AIpaca-UPC/web-applications-web-app` | `main` | [`3004e64`](https://github.com/AIpaca-UPC/web-applications-web-app/commit/3004e64ce2b3b555c21ae0f2fda2ba621d23cb50) | docs: initialize Rumbo frontend repository | Foundation para la futura implementación Vue + PrimeVue. | 07/09/2026 |
-| `AIpaca-UPC/web-applications-web-service` | `main` | [`d0e9755`](https://github.com/AIpaca-UPC/web-applications-web-service/commit/d0e975586a1b93a6f7d5ed78fcf937cce782ccdd) | docs: initialize Rumbo web services repository | Foundation para la futura implementación ASP.NET Core + EF Core. | 07/09/2026 |
+| `AIpaca-UPC/landing-page` | `main` | `2656490` | `docs: initialize Rumbo landing page` | Inicialización documental; no implementa funcionalidades de la Landing Page. | 2026-09-08 |
+| `AIpaca-UPC/landing-page` | `develop` | `2656490` | `docs: initialize Rumbo landing page` | La rama todavía no contiene commits funcionales adicionales. | 2026-09-08 |
+| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `2656490` | `docs: initialize Rumbo landing page` | La rama de feature todavía no contiene commits funcionales adicionales. | 2026-09-08 |
 
-Cuando se implemente el incremento funcional del Sprint, se añadirán aquí los commits reales con su rama, mensaje, body y fecha.
+**Estado:** todavía no existe Development Evidence funcional para Sprint 1. Cuando se implemente la Landing Page, esta tabla debe reemplazarse por los commits reales de las tareas T01–T06, incluyendo rama, Commit ID, Commit Message, Message Body y fecha.
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-La estructura de evidencia se mantiene, pero las capturas de ejecución de Open Source no se reutilizan como evidencia de Aplicaciones Web. Esta sección deberá completarse con la ejecución real de `AIpaca-UPC/landing-page`.
+La evidencia de ejecución debe mostrar el incremento funcional alcanzado durante Sprint 1. La pauta requiere un resumen, screenshots de las principales vistas implementadas y un video que muestre la navegación.
 
-**Desktop Web Browser:** [Insertar captura de AIpaca-UPC]  
-**Mobile Web Browser:** [Insertar captura de AIpaca-UPC]  
-**Video:** [Insertar Microsoft Stream URL]
+En la revisión actual no existe una versión funcional en `AIpaca-UPC/landing-page`; por lo tanto, no se incorporan screenshots ajenos ni imágenes de diseño como si fueran evidencia de ejecución.
+
+| Evidence | Status |
+|---|---|
+| Desktop Web Browser screenshot | Pendiente de implementación |
+| Mobile Web Browser screenshot | Pendiente de implementación |
+| Video de ejecución / navegación (Microsoft Stream) | Pendiente |
+| URL ejecutable de la Landing Page | Pendiente |
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-Durante Sprint 1 no se implementaron Web Services. El repositorio `web-applications-web-service` se encuentra preparado para el desarrollo posterior con **C#, ASP.NET Core y Entity Framework Core**. Cuando existan endpoints implementados, la evidencia incluirá la documentación **OpenAPI/Swagger**, requests/responses, códigos HTTP y capturas de interacción.
+Los **Web Services no forman parte del alcance funcional de Sprint 1**, cuyo incremento está centrado en la Landing Page. Por ello, en este Sprint no corresponde presentar endpoints como si hubieran sido implementados.
+
+El repositorio `AIpaca-UPC/web-applications-web-service` se mantiene como foundation para los Sprints posteriores. Cuando los Web Services ingresen al Sprint Backlog, la evidencia deberá incluir endpoints documentados con OpenAPI, verbos HTTP, parámetros, ejemplos de request/response, capturas y commits correspondientes.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-La configuración y evidencia de deployment debe corresponder a los productos de **AIpaca-UPC**. No se reutiliza la URL de GitHub Pages de Open Source.
+Sprint 1 contempla el despliegue de la primera versión de la Landing Page. Sin embargo, la evidencia solo puede considerarse completa cuando exista una implementación funcional y una URL pública verificable.
 
-**Landing Page Repository:** https://github.com/AIpaca-UPC/landing-page  
-**Provider:** [Completar al desplegar]  
-**Production URL:** [Completar al desplegar]  
-**Evidence:** [Insertar capturas de configuración y producto publicado]
+| Product | Repository | Provider | Production URL | Status |
+|---|---|---|---|---|
+| Landing Page | https://github.com/AIpaca-UPC/landing-page | Pendiente de configurar | Pendiente | To-do |
 
-En entregas posteriores se documentará además el deployment de la Vue Web Application, el ASP.NET Core Web Service y la base de datos.
+Cuando se realice el despliegue se deben incorporar capturas de la configuración del proveedor, evidencia de publicación y la visualización de la Landing Page desplegada.
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-Las evidencias de colaboración deberán obtenerse de la organización **AIpaca-UPC**, no de AIpaca-OS.
+Esta sección debe evidenciar la **participación de los integrantes en la implementación del producto correspondiente al Sprint**, mediante commits y analíticos de GitHub. La colaboración existente en el Project Report sirve como evidencia documental del trabajo del equipo, pero no sustituye los commits de implementación requeridos para la Landing Page.
 
-| Evidencia verificable | URL |
+| Evidence source | URL |
 |---|---|
-| Project Report | https://github.com/AIpaca-UPC/web-applications-project-report |
-| Branches del Project Report | https://github.com/AIpaca-UPC/web-applications-project-report/branches |
-| Network | https://github.com/AIpaca-UPC/web-applications-project-report/network |
-| Contributors | https://github.com/AIpaca-UPC/web-applications-project-report/graphs/contributors |
-| Pull Requests | https://github.com/AIpaca-UPC/web-applications-project-report/pulls |
-| Landing Page | https://github.com/AIpaca-UPC/landing-page |
-| Frontend Web Application | https://github.com/AIpaca-UPC/web-applications-web-app |
-| RESTful Web Service | https://github.com/AIpaca-UPC/web-applications-web-service |
+| Landing Page repository | https://github.com/AIpaca-UPC/landing-page |
+| Landing Page branches | https://github.com/AIpaca-UPC/landing-page/branches |
+| Landing Page commits | https://github.com/AIpaca-UPC/landing-page/commits/main |
+| Project Report repository | https://github.com/AIpaca-UPC/web-applications-project-report |
+| Project Report branches | https://github.com/AIpaca-UPC/web-applications-project-report/branches |
+| Project Report Network | https://github.com/AIpaca-UPC/web-applications-project-report/network |
+| Project Report Contributors | https://github.com/AIpaca-UPC/web-applications-project-report/graphs/contributors |
+| Project Report Pull Requests | https://github.com/AIpaca-UPC/web-applications-project-report/pulls |
 
-**Commits:** [Insertar captura real de AIpaca-UPC]  
-**Network Graph:** [Insertar captura real de AIpaca-UPC]  
-**Pull Requests / Contributors:** [Insertar capturas reales de AIpaca-UPC]  
+**Commits de implementación:** Pendiente.  
+**Network / Contributors screenshot:** Pendiente de integrar con evidencia real de AIpaca-UPC.  
+**Pull Requests screenshot:** Pendiente de integrar con evidencia real de AIpaca-UPC.
 
-El análisis de participación se completará con los commits y Pull Requests reales del Sprint para mantener coherencia con el Registro de Versiones del Informe.
+Hasta que existan commits funcionales en `AIpaca-UPC/landing-page`, no corresponde afirmar que todos los integrantes participaron en la implementación del incremento.
 
 ---
 
