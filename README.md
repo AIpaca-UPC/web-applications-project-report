@@ -742,7 +742,7 @@ Para cada entrevista se registrará nombre completo, edad, distrito, segmento, c
 |  2 |  |  |  | Padre/Tutor |  | [Entrevista 2](#entrevista-2--alejandro-choquehuanca)  |
 |  3 |  |  |  | Padre/Tutor |  | [Entrevista 3](#entrevista-3--eduardo-osorio) |
 |  4 | Gabriel Alexandro Sosa Guevara | 20 | Olivos | Conductor | 09:51 | [Entrevista 4](#entrevista-4--gabriel-alexandro-sosa-guevara) |
-|  5 | Brayan Solorzano Pineda | 25 | Prueblo Libre | Conductor | 09:05 | [Entrevista 5](#entrevista-5--brayan-solorzano-pineda) |
+|  5 | Brayan Solorzano Pineda | 25 | Pueblo Libre | Conductor | 09:05 | [Entrevista 5](#entrevista-5--brayan-solorzano-pineda) |
 |  6 | Vilma Hoyos Martinez | 56 | San Miguel | Conductor | 18:14 | [Entrevista 6](#entrevista-6--vilma-hoyos-martinez) |
 
 
