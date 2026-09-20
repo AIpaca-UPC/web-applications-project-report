@@ -737,13 +737,45 @@ Para cada entrevista se registrará nombre completo, edad, distrito, segmento, c
 
 | # | Entrevistado | Edad | Distrito | Segmento | Duración | Referencia |
 | -: | ----------- | ---: | -------- | -------- | :-----   | ---------- |
-|  1 | **Pendiente** | — | — | Padre/Tutor | — | Pendiente |
-|  2 | **Pendiente** | — | — | Padre/Tutor | — | Pendiente |
-|  3 | Leonel Adrián Mitma Garro | 24 | Callao | Padre/Tutor | [Completar] | [Entrevista 3](#entrevista-3--leonel-adrián-mitma-garro) |
+|  1 | Gisela Paola Santi Quispe | — | San Miguel | Padre/Tutor | — | Pendiente |
+|  2 | Marleny Nori Padilla Aguirre | 47 | Cercado de Lima | Padre/Tutor | 15:32 | [Entrevista 3](#entrevista-2--marleny-nori-padilla-aguirre) |
+|  3 | Leonel Adrián Mitma Garro | 24 | Callao | Padre/Tutor | 7:43 | [Entrevista 3](#entrevista-3--leonel-adrián-mitma-garro) |
 |  4 | Gabriel Alexandro Sosa Guevara | 20 | Olivos | Conductor | 09:51 | [Entrevista 4](#entrevista-4--gabriel-alexandro-sosa-guevara) |
 |  5 | Brayan Solorzano Pineda | 25 | Pueblo Libre | Conductor | 09:05 | [Entrevista 5](#entrevista-5--brayan-solorzano-pineda) |
 |  6 | Vilma Hoyos Martinez | 56 | San Miguel | Conductor | 18:14 | [Entrevista 6](#entrevista-6--vilma-hoyos-martinez) |
 
+## Entrevista 1 — Gisela Paola Santi Quispe
+
+- **Edad:** 47 años.
+- **Ocupación / segmento:** Padre o tutor de familia.
+- **Edad del menor:** 14 años.
+- **Distrito:** Cercado de Lima.
+- **Frecuencia de uso:** 1 días a la semana.
+- **Timing de inicio:** 00:00.
+- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQBZEYrCvz0UTYUAl1mpybc0AY7AkjTMQVY_AlCxp-8OP34?e=nc6MsX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+  
+<p align="center"><img width="1433" height="657" alt="image" src="/assets/chaper2/entrevista-marleny.png" /></p>
+
+
+## Entrevista 2 — Marleny Nori Padilla Aguirre
+
+- **Edad:** 47 años.
+- **Ocupación / segmento:** Padre o tutor de familia.
+- **Edad del menor:** 14 años.
+- **Distrito:** Cercado de Lima.
+- **Frecuencia de uso:** 1 días a la semana.
+- **Timing de inicio:** 00:00.
+- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQBZEYrCvz0UTYUAl1mpybc0AY7AkjTMQVY_AlCxp-8OP34?e=nc6MsX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+  
+<p align="center"><img width="1433" height="657" alt="image" src="/assets/chaper2/entrevista-marleny.png" /></p>
+  
+**Resumen preliminar:** 
+
+Marleny Padilla es una madre de familia y ama de casa de 47 años de edad que reside en el distrito de Cercado de Lima. Utiliza el servicio de movilidad escolar con baja frecuencia para su hija de 14 años que asiste a una escuela secundaria.
+
+Para comunicarse con el tutor o el chófer, usa WhatsApp, medio por el cual se envían mensajes y actualizaciones de ubicación.
+
+Marleny opina que lo que más le preocupa es el nivel de privacidad con respecto a la ubicación de su menor, así como la información del chofer, siendo fundamental que este sea de confianza absoluta.
 
 ## Entrevista 3 — Leonel Adrián Mitma Garro
 
@@ -805,18 +837,94 @@ Para cada entrevista se registrará nombre completo, edad, distrito, segmento, c
 
 ### 2.2.3. Análisis de entrevistas
 
-Una vez finalizadas las entrevistas, se compararán las respuestas entre ambos segmentos para identificar patrones, diferencias y necesidades recurrentes. Los porcentajes se completarán únicamente con los resultados reales obtenidos durante el trabajo de campo.
+En esta sección se analizan las respuestas obtenidas en las entrevistas registradas, con el fin de identificar las características objetivas y subjetivas más frecuentes en cada segmento objetivo. Los resultados presentados provienen exclusivamente de las entrevistas documentadas en la sección anterior y constituyen la base para la construcción de los User Personas.
 
-Con las **tres entrevistas de conductores** registradas se cuenta con un primer perfil descriptivo del segmento: las edades son **20, 25 y 56 años**, con un promedio de **33,7 años**; la experiencia declarada en transporte escolar es de **2, 5 y 25 años**, con un promedio de **10,7 años**. El análisis porcentual comparativo entre ambos segmentos se cerrará cuando se completen las **dos entrevistas pendientes de padres/tutores**, sin inventar porcentajes antes de contar con esa evidencia.
+#### Segmento 1: Conductores de movilidad escolar
 
-| Variable de análisis | Padres y tutores | Conductores de movilidad escolar |
-|---|---:|---:|
-| Canal principal de comunicación utilizado actualmente | [ ]% | [ ]% |
-| Necesidad de conocer o comunicar el estado de la ruta | [ ]% | [ ]% |
-| Necesidad de confirmación de recojo y entrega | [ ]% | [ ]% |
-| Experiencia con retrasos o cambios de horario | [ ]% | [ ]% |
-| Interés en notificaciones de eventos relevantes | [ ]% | [ ]% |
-| Preocupación por privacidad y seguridad de la información | [ ]% | [ ]% |
+Se registraron tres entrevistas a conductores de movilidad escolar que operan en Lima Metropolitana.
+
+**Características demográficas y de contexto**
+
+| Variable | Resultado |
+|---|---|
+| Edad de los entrevistados | 20, 25 y 56 años (promedio: 33,7 años) |
+| Distritos de operación | Los Olivos, Pueblo Libre y San Miguel (100 % Lima Metropolitana) |
+| Experiencia en el rubro | 2, 5 y 25 años (promedio: 10,7 años) |
+| Conductores que operan de forma independiente | 100 % |
+| Conductores que cuentan con un ayudante o asistente | 33,3 % |
+
+**Herramientas y canales digitales utilizados**
+
+| Variable | Porcentaje |
+|---|---:|
+| Utiliza WhatsApp como canal principal con las familias | 100 % |
+| Utiliza una aplicación de navegación (Google Maps, Waze) | 66,7 % |
+| Utiliza el calendario del teléfono para horarios especiales | 33,3 % |
+| Declara conocimientos casi nulos en tecnología | 33,3 % |
+| Delega el uso del teléfono en un ayudante durante la ruta | 33,3 % |
+
+**Frustraciones identificadas**
+
+| Variable | Porcentaje |
+|---|---:|
+| Recibe consultas repetitivas de los padres sobre el avance de la ruta | 100 % |
+| Presenta dificultades para coordinar si un estudiante será recogido o no | 100 % |
+| Considera que la información queda fragmentada entre conversaciones | 66,7 % |
+| Indica que responder mensajes lo distrae mientras conduce | 66,7 % |
+| Ha tenido problemas para recordar cambios comunicados por los padres | 33,3 % |
+| Ha tenido problemas de puntualidad con los estudiantes | 33,3 % |
+
+**Necesidades y expectativas sobre una solución digital**
+
+| Variable | Porcentaje |
+|---|---:|
+| Considera útil registrar los hitos de recojo y entrega | 66,7 % |
+| Requiere que la aplicación sea rápida y de pocos pasos | 66,7 % |
+| Desea que los padres puedan seguir la ruta sin contactarlo | 66,7 % |
+| Considera útil contar con la lista de alumnos y el orden de recojo | 33,3 % |
+| Declara que no utilizaría la aplicación mientras conduce | 33,3 % |
+| Menciona el costo como condición para adoptar la herramienta | 33,3 % |
+| Menciona el funcionamiento en zonas con poca señal | 33,3 % |
+| No adopta aplicaciones recomendadas por desconocimiento de su uso | 33,3 % |
+
+#### Segmento 2: Padres y tutores
+
+Esta sección se completará al registrar las entrevistas pendientes. El enunciado del curso requiere entre tres y cinco entrevistas por segmento, por lo que los porcentajes no se calculan hasta contar con esa evidencia.
+
+**Características demográficas y de contexto**
+
+| Variable | Resultado |
+|---|---|
+| Edad de los entrevistados | [Completar] |
+| Distritos de residencia | [Completar] |
+| Edad de los menores que utilizan el servicio | [Completar] |
+| Frecuencia de uso del servicio | [Completar] |
+
+**Herramientas, frustraciones y expectativas**
+
+| Variable | Porcentaje |
+|---|---:|
+| Utiliza WhatsApp como canal principal con el conductor | [ ] % |
+| Recibe evidencia de llegada mediante fotografías en el grupo | [ ] % |
+| Declara incertidumbre durante el trayecto del menor | [ ] % |
+| Ha experimentado retrasos o cambios no comunicados | [ ] % |
+| Considera prioritaria la ubicación del vehículo en tiempo real | [ ] % |
+| Considera prioritaria la confirmación de recojo y entrega | [ ] % |
+| Manifiesta preocupación por la seguridad del menor durante la ruta | [ ] % |
+
+#### Hallazgos preliminares
+
+**La comunicación se concentra en WhatsApp en ambos segmentos.** La totalidad de los conductores entrevistados y el tutor registrado coordinan el servicio mediante esta aplicación, lo que confirma el supuesto de que la coordinación ocurre hoy en un canal de uso general no diseñado para este fin.
+
+**Las consultas repetitivas son la frustración más consistente del segmento de conductores.** Los tres entrevistados mencionaron responder diariamente las mismas preguntas sobre la proximidad de la movilidad o el estado del estudiante, y dos de ellos señalaron que esto los distrae mientras conducen. Este hallazgo respalda la Hipótesis 1 del Lean UX Process.
+
+**La coordinación de ausencias es un problema no anticipado en su magnitud.** Los tres conductores mencionaron dificultades para saber si un estudiante será recogido, ya sea por mensajes dispersos, cambios de último momento o falta de aviso. Esto otorga mayor prioridad a la historia de reporte de ausencias de la que se le había asignado inicialmente en el Product Backlog.
+
+**La expectativa de ubicación en tiempo real tensiona la propuesta de diferenciación.** Tanto el tutor entrevistado como dos de los tres conductores mencionaron espontáneamente la visualización de la ubicación del vehículo como la funcionalidad más valiosa. Esto contrasta con el supuesto del equipo de que los padres prefieren hitos resumidos antes que una secuencia continua de coordenadas. El equipo contrastará este punto con las entrevistas pendientes de padres y tutores antes de ajustar el alcance del producto.
+
+**La alfabetización digital es una barrera real de adopción.** La conductora con mayor experiencia en el rubro declaró conocimientos casi nulos en tecnología y delega el uso del teléfono en un ayudante, pese a que los padres le han recomendado aplicaciones de seguimiento. Este hallazgo refuerza la necesidad de una interfaz de pocos pasos e introduce la figura del ayudante como un usuario no previsto en los segmentos objetivo.
+
+**La satisfacción con el servicio actual puede reducir la urgencia percibida.** El tutor entrevistado manifestó encontrarse conforme con la coordinación actual y no modificaría la forma en que se comunica con el conductor. Esto sugiere que la propuesta de valor de Rumbo debe apoyarse en la reducción del esfuerzo del conductor y en la tranquilidad del tutor antes que en la corrección de un problema percibido como crítico por las familias.
 
 ## 2.3. Needfinding
 
