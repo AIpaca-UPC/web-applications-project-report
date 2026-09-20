@@ -1079,7 +1079,7 @@ El Product Backlog prioriza primero el alcance correspondiente al Landing Page d
 
 El Product Backlog fue implementado en Trello y organizado visualmente por Epic para facilitar la lectura del alcance. Las tarjetas conservan su prioridad global, Story ID, Story Points, Epic relacionado y descripción, mientras que los colores permiten distinguir cada grupo funcional sin mezclar este artefacto con el Sprint Backlog.
 
-![Product Backlog de Rumbo en Trello](assets/chapter3/product-backlog-trello.webp)
+![Product Backlog de Rumbo en Trello](assets/chapter3/product-backlog.png)
 
 **Figura.** Product Backlog de Rumbo organizado por Epics en Trello.
 
