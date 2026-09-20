@@ -477,7 +477,7 @@ Creemos que lograremos que al menos el 60 % de los conductores del piloto contin
 El **Lean UX Canvas** resume en un solo artefacto los elementos trabajados en el Lean UX Process: el problema de negocio, los resultados esperados, los segmentos objetivo, sus beneficios, las soluciones propuestas y las hipótesis que las conectan. Además, identifica el supuesto más riesgoso para Rumbo y los experimentos de menor esfuerzo que permitirán validarlo.
 
 
-<p align="center"><img src="assets/chaper1/lean-ux.png" alt="Lean UX Canvas de Rumbo" width="100%"/></p>
+<p align="center"><img src="assets/chaper1/lean-ux-v2.svg" alt="Lean UX Canvas de Rumbo" width="100%"/></p>
 
 ## 1.3. Segmentos objetivo
 
@@ -734,13 +734,13 @@ Las preguntas combinan información demográfica y contextual con preguntas abie
 
 ### 2.2.2. Registro de entrevistas
 
-Para cada entrevista se registrará nombre completo, edad, distrito, segmento, captura, URL del video, timing, duración y resumen descriptivo. Actualmente se cuenta con seis entrevistas registradas: tres del segmento Padres/Tutores y tres del segmento Conductores de movilidad escolar.
+Para cada entrevista se registrará nombre completo, edad, distrito, segmento, captura, URL del video, timing, duración y resumen descriptivo. Actualmente se cuenta con **cuatro entrevistas efectivamente registradas: una del segmento Padres/Tutores y tres del segmento Conductores de movilidad escolar**. Para alcanzar el mínimo de tres entrevistas por segmento todavía faltan **dos entrevistas de padres/tutores**.
 
 | # | Entrevistado | Edad | Distrito | Segmento | Duración | Referencia |
 | -: | ----------- | ---: | -------- | -------- | :-----   | ---------- |
-|  1 |  |  |  | Padre/Tutor |  | [Entrevista 1](#entrevista-1--gabriela) |
-|  2 |  |  |  | Padre/Tutor |  | [Entrevista 2](#entrevista-2--alejandro-choquehuanca)  |
-|  3 |  |  |  | Padre/Tutor |  | [Entrevista 3](#entrevista-3--eduardo-osorio) |
+|  1 | **Pendiente** | — | — | Padre/Tutor | — | Pendiente |
+|  2 | **Pendiente** | — | — | Padre/Tutor | — | Pendiente |
+|  3 | Leonel Adrián Mitma Garro | 24 | Callao | Padre/Tutor | [Completar] | [Entrevista 3](#entrevista-3--leonel-adrián-mitma-garro) |
 |  4 | Gabriel Alexandro Sosa Guevara | 20 | Olivos | Conductor | 09:51 | [Entrevista 4](#entrevista-4--gabriel-alexandro-sosa-guevara) |
 |  5 | Brayan Solorzano Pineda | 25 | Pueblo Libre | Conductor | 09:05 | [Entrevista 5](#entrevista-5--brayan-solorzano-pineda) |
 |  6 | Vilma Hoyos Martinez | 56 | San Miguel | Conductor | 18:14 | [Entrevista 6](#entrevista-6--vilma-hoyos-martinez) |
@@ -771,7 +771,7 @@ Para cada entrevista se registrará nombre completo, edad, distrito, segmento, c
 - **Timing de inicio:** 00:00.
 - **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQC8MugJp8RuRYBv6-JB1JqxAa7zKfdSDfWOW6lMscwFzxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MUf4ft
 
-<p align="center"><img src="assets/screenshots-interwiews/gabriel-sosa-interview.png" alt="Captura de la entrevista a Gabriel Alexandro Sosa Guevara" width="850"/></p>
+<p align="center"><img src="assets/chaper2/gabriel-sosa-interview.png" alt="Captura de la entrevista a Gabriel Alexandro Sosa Guevara" width="850"/></p>
 
 **Resumen preliminar:** Gabriel cuenta con 2 años de experiencia realizando transporte escolar. Utiliza diariamente su teléfono para trabajar y principalmente usa WhatsApp para comunicarse con las familias y Google Maps para organizar sus rutas. Comenta que uno de los problemas que presenta es tener la información fragmentada en distintos chats, lo que hace poco práctico buscar entre conversaciones para verificar si un estudiante será recogido o consultar la dirección de un punto de llegada alternativo. Además, menciona que es repetitivo responder diariamente las preguntas de los padres sobre cuánto falta para que llegue su hijo, si la movilidad se encuentra cerca o si el estudiante se encuentra bien, ya que esto puede distraerlo mientras conduce. También considera que, en caso de utilizar una aplicación, esta debería ser fácil y rápida de utilizar para no quitarle tiempo durante la conducción. Entre las funcionalidades que considera útiles se encuentran una lista de alumnos, el orden de recojo y la posibilidad de registrar rápidamente cuándo recoge o entrega a un estudiante. Asimismo, le gustaría que los padres puedan visualizar el estado de la ruta y su ubicación para mantenerse informados sin necesidad de comunicarse constantemente con él.
 
@@ -785,7 +785,7 @@ Para cada entrevista se registrará nombre completo, edad, distrito, segmento, c
 - **Timing de inicio:** 00:00.
 - **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQDViGOQ_7GOQYDKI1MqVAXNAacWQv3o8bRMqBJbKkhsKp8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6tRx0m
 
-<p align="center"><img src="assets/screenshots-interwiews/brayan-solorzano-interview.png" alt="Captura de la entrevista a Brayan Solorzano Pineda" width="850"/></p>
+<p align="center"><img src="assets/chaper2/brayan-solorzano-interview.png" alt="Captura de la entrevista a Brayan Solorzano Pineda" width="850"/></p>
 
 **Resumen preliminar:** Brayan cuenta con 5 años de experiencia en el rubro. Comenzó trabajando en transporte personal, pero luego se trasladó al rubro del transporte escolar. Utiliza un grupo de WhatsApp para enviar avisos a los padres; sin embargo, los tutores prefieren escribirle por privado. Además, utiliza WaySide para evitar el tráfico y el calendario de su teléfono para recordar horarios especiales. Ha tenido problemas para recordar cambios en las rutas debido a modificaciones en el recojo de un alumno, especialmente porque varios padres le escriben. Diariamente, los padres también le preguntan si ya se encuentra cerca o si los niños ya llegaron a la escuela, lo cual considera repetitivo. Comenta que durante la conducción no utilizaría una aplicación. Sin embargo, le sería útil contar con un registro del inicio del recorrido, la hora de recojo de cada alumno y la hora de llegada a la escuela. También considera útil registrar cuando un alumno no será recogido. En general, considera que una aplicación debería ayudarlo a organizar los cambios y permitir que los padres puedan seguir la ruta sin necesidad de preguntarle constantemente. No utilizaría una aplicación que lo obligue a realizar muchas acciones manualmente o que tenga un costo muy elevado. Como característica adicional, le gustaría que pudiera utilizarse en zonas donde existe poca señal.
 
@@ -799,7 +799,7 @@ Para cada entrevista se registrará nombre completo, edad, distrito, segmento, c
 - **Timing de inicio:** 00:06.
 - **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b451_upc_edu_pe/IQAarNiMmGEZT73ZVhSkpNMNAVFqyptTBINEQvTJU6AW7BY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=asjxgo
 
-<p align="center"><img src="assets/screenshots-interwiews/conductor-3.png" alt="Captura de la entrevista a Vilma Hoyos" width="850"/></p>
+<p align="center"><img src="assets/chaper2/conductor-3.png" alt="Captura de la entrevista a Vilma Hoyos" width="850"/></p>
 
 **Resumen preliminar:** Vilma cuenta con 25 años de experiencia en el rubro de la movilidad escolar. Empezó llevando a estudiantes del colegio San Toribio, en el Rímac, hace 10 años y actualmente está a cargo de 26 niños en San Miguel, a quienes lleva a los colegios Claretiano y Los Rosales. La señora Vilma cuenta con un ayudante, quien utiliza la aplicación WhatsApp para comunicarse con las familias, coordinar horarios, llamar para avisar que deben bajar, informar si el niño asistirá, si necesita esperar y compartir su ubicación en tiempo real. Ha presentado problemas con la puntualidad de los niños y con la coordinación con los padres respecto a si los niños serán recogidos o no. Comenta que tiene conocimientos casi nulos en tecnología. Los padres le han recomendado utilizar algunas aplicaciones para poder realizar un mejor seguimiento del recorrido de sus hijos, pero menciona que no sabe cómo utilizarlas y, por ese motivo, no las implementa.
 
@@ -808,7 +808,7 @@ Para cada entrevista se registrará nombre completo, edad, distrito, segmento, c
 
 Una vez finalizadas las entrevistas, se compararán las respuestas entre ambos segmentos para identificar patrones, diferencias y necesidades recurrentes. Los porcentajes se completarán únicamente con los resultados reales obtenidos durante el trabajo de campo.
 
-Con las dos entrevistas de conductores registradas hasta el momento se cuenta con un primer perfil objetivo del segmento: las edades son **20 y 25 años**, con un promedio de **22,5 años**, mientras que la experiencia declarada en transporte escolar es de **2 y 5 años**, con un promedio de **3,5 años**. Estos datos son preliminares y deberán complementarse con la tercera entrevista del segmento antes de cerrar el análisis comparativo.
+Con las **tres entrevistas de conductores** registradas se cuenta con un primer perfil descriptivo del segmento: las edades son **20, 25 y 56 años**, con un promedio de **33,7 años**; la experiencia declarada en transporte escolar es de **2, 5 y 25 años**, con un promedio de **10,7 años**. El análisis porcentual comparativo entre ambos segmentos se cerrará cuando se completen las **dos entrevistas pendientes de padres/tutores**, sin inventar porcentajes antes de contar con esa evidencia.
 
 | Variable de análisis | Padres y tutores | Conductores de movilidad escolar |
 |---|---:|---:|
@@ -875,7 +875,7 @@ En esta sección se presentan los **Empathy Maps** elaborados para cada uno de l
 
 ## 2.4. Big Picture Event Storming
 
-El Big Picture EventStorming permitió al equipo construir una visión general del dominio del transporte escolar antes de definir la solución. Mediante una sesión colaborativa se identificaron los eventos relevantes que ocurren en el negocio, desde que un conductor se incorpora a la plataforma hasta el cierre y archivado de un traslado. El ejercicio se desarrolló en Miro y se organizó en cinco etapas: lluvia de eventos de dominio, ordenamiento cronológico, delimitación mediante Pivotal Events, incorporación de actores y sistemas externos, e identificación de Hot Spots.
+El Big Picture EventStorming de Marcelo permitió al equipo construir una visión general del dominio del transporte escolar antes de definir la solución. La versión consolidada identifica **41 eventos de dominio (tarjetas naranjas)**, ordenados desde el registro del conductor hasta la consulta y reconocimiento de información del viaje. Los hitos morados, actores amarillos y sistemas externos rosados sirven como contexto y **no se contabilizan como eventos de dominio**. Para asegurar trazabilidad con Requirements Specification, cada uno de los 41 eventos naranjas queda relacionado **1 a 1 con una User Story funcional** en el Capítulo III.
 
 <img width="1050" alt="Event Storming" src="/assets/chaper2/eventstorming.png" />
 
@@ -897,14 +897,14 @@ Los conceptos aquí definidos provienen del Big Picture EventStorming presentado
 | **Vehicle** (Vehículo) | Unidad utilizada por un conductor para prestar el servicio de movilidad escolar. | Vehicle Registered |
 | **Authorized User** (Usuario autorizado) | Persona cuya identidad y permisos le habilitan a acceder a información específica dentro de Rumbo. | — |
 | **Driver Credential** (Credencial del conductor) | Documento que acredita al conductor como habilitado para prestar el servicio de transporte de estudiantes. | Driver Credential Submitted, Driver Credential Verified |
-| **Tutor Authorization** (Autorización de tutor) | Permiso otorgado a un padre o tutor para acceder a la información de un estudiante determinado. | Parent Linked to Student, Additional Tutor Authorized |
+| **Tutor Authorization** (Autorización de tutor) | Permiso otorgado a un padre o tutor para acceder a la información de un estudiante determinado. | Parent Linked to Student |
 | **School Transport Service** (Servicio de movilidad escolar) | Servicio destinado al traslado recurrente de estudiantes entre puntos de recojo, centros educativos y puntos de entrega. | — |
 
 ### Planificación de rutas
 
 | Término | Definición en el dominio de Rumbo | Eventos de dominio asociados |
 |---|---|---|
-| **Route** (Ruta) | Recorrido planificado que contiene un conjunto ordenado de paradas y estudiantes asignados. | Route Created, Route Modified, Route Published |
+| **Route** (Ruta) | Recorrido planificado que contiene un conjunto ordenado de paradas y estudiantes asignados. | Route Created, Route Modified |
 | **Stop** (Parada) | Punto planificado dentro de una ruta donde se realiza un recojo o una entrega. | Stop Added to Route, Stop Order Defined |
 | **Stop Order** (Orden de paradas) | Secuencia en la que el conductor debe visitar las paradas de una ruta. | Stop Order Defined |
 | **Route Schedule** (Horario de la ruta) | Días y horas en los que una ruta se ejecuta de forma recurrente. | Route Schedule Defined |
@@ -932,7 +932,7 @@ Los conceptos aquí definidos provienen del Big Picture EventStorming presentado
 | **Trip Timeline** (Línea de tiempo del viaje) | Secuencia cronológica de los principales eventos registrados durante un viaje. | Trip Timeline Generated, Trip Timeline Consulted |
 | **Delay** (Retraso) | Diferencia significativa entre el horario previsto de una ruta y su avance real. | Delay Registered |
 | **ETA** (Tiempo estimado de llegada) | Hora estimada en la que la movilidad arribará a una parada o destino. | — |
-| **Incident** (Incidencia) | Situación imprevista ocurrida durante el servicio que requiere ser registrada y comunicada a los tutores autorizados. | Incident Reported, Incident Acknowledged, Incident Resolved |
+| **Incident** (Incidencia) | Situación imprevista ocurrida durante el servicio que requiere ser registrada y comunicada a los tutores autorizados. | Incident Reported, Issue Acknowledged, Incident Resolved |
 | **Incident Type** (Tipo de incidencia) | Categoría que clasifica una incidencia según la naturaleza del imprevisto registrado. | — |
 | **Trip History** (Historial de viajes) | Registro de los viajes ejecutados y sus eventos, conservado para consulta posterior. | Trip History Archived |
 | **Data Deletion Request** (Solicitud de supresión de datos) | Pedido de un tutor para que se eliminen los datos personales de un estudiante, conforme a la normativa vigente de protección de datos personales. | Student Data Deletion Requested |
