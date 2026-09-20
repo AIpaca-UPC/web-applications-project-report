@@ -477,7 +477,7 @@ Creemos que lograremos que al menos el 60 % de los conductores del piloto contin
 El **Lean UX Canvas** resume en un solo artefacto los elementos trabajados en el Lean UX Process: el problema de negocio, los resultados esperados, los segmentos objetivo, sus beneficios, las soluciones propuestas y las hipótesis que las conectan. Además, identifica el supuesto más riesgoso para Rumbo y los experimentos de menor esfuerzo que permitirán validarlo.
 
 
-<p align="center"><img src="assets/chaper1/lean-ux-v2.svg" alt="Lean UX Canvas de Rumbo" width="100%"/></p>
+<p align="center"><img src="assets/chaper1/lean-ux.png" alt="Lean UX Canvas de Rumbo" width="100%"/></p>
 
 ## 1.3. Segmentos objetivo
 
@@ -875,7 +875,7 @@ En esta sección se presentan los **Empathy Maps** elaborados para cada uno de l
 
 ## 2.4. Big Picture Event Storming
 
-El Big Picture EventStorming de Marcelo permitió al equipo construir una visión general del dominio del transporte escolar antes de definir la solución. La versión consolidada identifica **41 eventos de dominio (tarjetas naranjas)**, ordenados desde el registro del conductor hasta la consulta y reconocimiento de información del viaje. Los hitos morados, actores amarillos y sistemas externos rosados sirven como contexto y **no se contabilizan como eventos de dominio**. Para asegurar trazabilidad con Requirements Specification, cada uno de los 41 eventos naranjas queda relacionado **1 a 1 con una User Story funcional** en el Capítulo III.
+El Big Picture EventStorming elaborado por el equipo permite construir una visión general del dominio del transporte escolar antes de definir la solución. Mediante una sesión colaborativa se organizan los eventos relevantes del negocio, actores, sistemas externos, puntos de decisión y posibles problemas u oportunidades del proceso.
 
 <img width="1050" alt="Event Storming" src="/assets/chaper2/eventstorming.png" />
 
@@ -954,7 +954,7 @@ Los conceptos aquí definidos provienen del Big Picture EventStorming presentado
 
 ## 3.1. User Stories
 
-La especificación corregida contiene **48 User Stories funcionales y 8 Technical Stories (56 historias en total)**. De las 48 funcionales, **41 corresponden exactamente a los 41 eventos de dominio del Big Picture EventStorming** y las otras 7 cubren el Landing Page. Con esto se elimina la mezcla anterior entre eventos del dominio y funcionalidades de roadmap como GPS continuo, geofencing o ETA dinámico, que no aparecen como eventos de dominio en el tablero consolidado.
+Esta sección reúne las User Stories funcionales y las Technical Stories necesarias para especificar el comportamiento del producto y sus principales capacidades técnicas.
 
 ### Epics
 - **EP01 — Identidad, perfiles y autorización.**
@@ -964,54 +964,6 @@ La especificación corregida contiene **48 User Stories funcionales y 8 Technica
 - **EP05 — Incidencias, notificaciones, consultas e historial.**
 - **EP06 — Landing Page e información pública.**
 - **EP07 — Servicios backend e integraciones.**
-
-### Trazabilidad con el Big Picture EventStorming
-
-El Big Picture EventStorming consolidado contiene **41 eventos de dominio representados por tarjetas naranjas**. Para corregir la inconsistencia detectada por el equipo, esta especificación mantiene una relación **1:1: cada evento de dominio tiene una User Story funcional específica**. Los Pivotal Events, actores y sistemas externos del tablero no se convierten en historias porque sirven para organizar o contextualizar el flujo, no son eventos de dominio.
-
-| # | Evento de dominio | User Story |
-|---:|---|---|
-| 1 | `Driver Account Registered` | US01 — Registrar cuenta de conductor |
-| 2 | `Driver Credential Submitted` | US02 — Enviar credenciales del conductor |
-| 3 | `Driver Credential Verified` | US03 — Verificar credenciales del conductor |
-| 4 | `Vehicle Registered` | US04 — Registrar vehículo |
-| 5 | `Parent Account Registered` | US05 — Registrar cuenta de padre o tutor |
-| 6 | `Student Registered` | US06 — Registrar estudiante |
-| 7 | `Parent Linked to Student` | US07 — Vincular tutor con estudiante |
-| 8 | `Subscription Activated` | US08 — Activar suscripción del conductor |
-| 9 | `Route Created` | US13 — Crear ruta escolar |
-| 10 | `Stop Added to Route` | US14 — Agregar parada a la ruta |
-| 11 | `Stop Order Defined` | US15 — Definir orden de paradas |
-| 12 | `Student Assigned to Route` | US16 — Asignar estudiante a la ruta |
-| 13 | `Route Schedule Defined` | US17 — Definir horario de la ruta |
-| 14 | `Route Modified` | US18 — Modificar ruta |
-| 15 | `Trip Scheduled` | US19 — Programar viaje |
-| 16 | `Trip Roster Generated` | US20 — Generar lista del viaje |
-| 17 | `Student Absence Reported` | US21 — Reportar ausencia del estudiante |
-| 18 | `Trip Cancelled` | US22 — Cancelar viaje |
-| 19 | `Trip Started` | US23 — Iniciar viaje |
-| 20 | `Stop Reached` | US24 — Registrar llegada a una parada |
-| 21 | `Student Pickup Confirmed` | US25 — Confirmar recojo del estudiante |
-| 22 | `Student Pickup Missed` | US26 — Registrar recojo no realizado |
-| 23 | `Stop Completed` | US27 — Completar parada |
-| 24 | `Delay Registered` | US28 — Registrar retraso |
-| 25 | `Incident Reported` | US29 — Reportar incidencia |
-| 26 | `School Arrival Confirmed` | US30 — Confirmar llegada al colegio |
-| 27 | `Return Trip Started` | US31 — Iniciar viaje de retorno |
-| 28 | `Student Drop-off Confirmed` | US32 — Confirmar entrega del estudiante |
-| 29 | `Drop-off Rejected` | US33 — Registrar entrega rechazada |
-| 30 | `Trip Completed` | US36 — Completar viaje |
-| 31 | `Incident Resolved` | US37 — Resolver incidencia |
-| 32 | `Trip Timeline Generated` | US38 — Generar línea de tiempo del viaje |
-| 33 | `Trip History Archived` | US39 — Archivar historial del viaje |
-| 34 | `Student Data Deletion Requested` | US40 — Solicitar eliminación de datos del estudiante |
-| 35 | `Notification Triggered` | US41 — Disparar notificación por evento relevante |
-| 36 | `Notification Sent` | US43 — Enviar notificación |
-| 37 | `Notification Delivery Failed` | US44 — Registrar fallo de entrega de notificación |
-| 38 | `Notification Read` | US45 — Marcar notificación como leída |
-| 39 | `Trip Status Consulted` | US46 — Consultar estado del viaje |
-| 40 | `Trip Timeline Consulted` | US47 — Consultar línea de tiempo |
-| 41 | `Issue Acknowledged` | US48 — Confirmar lectura de una incidencia |
 
 ### User Stories de dominio
 
@@ -1099,7 +1051,7 @@ Estas siete historias no provienen de una tarjeta naranja del EventStorming porq
 
 ## 3.3. Product Backlog
 
-El Product Backlog queda en **56 historias: 48 User Stories funcionales (41 de dominio + 7 de Landing Page) y 8 Technical Stories**. La prioridad inicial mantiene primero el Landing Page de AV1 y luego el flujo mínimo de onboarding, planificación, ejecución, comunicación e historial.
+El Product Backlog prioriza primero el alcance correspondiente al Landing Page de AV1 y, a continuación, las funcionalidades necesarias para el registro, planificación, ejecución, comunicación e historial del servicio.
 
 | # Orden | User Story Id | Título | Alcance | Story Points |
 |---:|---|---|---|:---:|
