@@ -517,6 +517,8 @@ Conductores que realizan rutas programadas para el traslado de estudiantes entre
 
 ---
 
+# Capítulo II: Requirements Elicitation & Analysis
+
 ## 2.1. Competidores
 
 En esta sección se identifican y describen los principales competidores de Rumbo 
