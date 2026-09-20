@@ -480,10 +480,10 @@ Creemos que lograremos que al menos el 60 % de los conductores del piloto contin
 
 #### 1.2.2.4. Lean UX Canvas
 
-El **Lean UX Canvas** resume en un solo artefacto los elementos trabajados en el Lean UX Process: el problema de negocio, los resultados esperados, los segmentos objetivo, sus beneficios, las soluciones propuestas y las hipótesis que las conectan. Además, identifica el supuesto más riesgoso para Rumbo y los experimentos de menor esfuerzo que permitirán validarlo.
+El **Lean UX Canvas actualizado** consolida el problema de negocio, los seis resultados medibles, los dos segmentos objetivo, seis beneficios/soluciones e hipótesis, el supuesto más riesgoso y cuatro experimentos de validación. La versión mostrada a continuación reemplaza el canvas anterior.
 
 
-<p align="center"><img src="assets/chaper1/lean-ux.png" alt="Lean UX Canvas de Rumbo" width="100%"/></p>
+<p align="center"><img src="assets/chaper1/lean-ux-v2.svg" alt="Lean UX Canvas de Rumbo" width="100%"/></p>
 
 ## 1.3. Segmentos objetivo
 
