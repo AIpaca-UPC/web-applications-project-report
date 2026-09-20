@@ -734,7 +734,7 @@ Para cada entrevista se registrará nombre completo, edad, distrito, segmento, c
 
 | # | Entrevistado | Edad | Distrito | Segmento | Duración | Referencia |
 | -: | ----------- | ---: | -------- | -------- | :-----   | ---------- |
-|  1 | Gisela Paola Santi Quispe | — | San Miguel | Padre/Tutor | — | Pendiente |
+|  1 | Gisela Paola Santi Quispe | 45 | San Miguel | Padre/Tutor | 12:55 | Pendiente |
 |  2 | Marleny Nori Padilla Aguirre | 47 | Cercado de Lima | Padre/Tutor | 15:32 | [Entrevista 3](#entrevista-2--marleny-nori-padilla-aguirre) |
 |  3 | Leonel Adrián Mitma Garro | 24 | Callao | Padre/Tutor | 7:43 | [Entrevista 3](#entrevista-3--leonel-adrián-mitma-garro) |
 |  4 | Gabriel Alexandro Sosa Guevara | 20 | Olivos | Conductor | 09:51 | [Entrevista 4](#entrevista-4--gabriel-alexandro-sosa-guevara) |
@@ -743,16 +743,23 @@ Para cada entrevista se registrará nombre completo, edad, distrito, segmento, c
 
 ## Entrevista 1 — Gisela Paola Santi Quispe
 
-- **Edad:** 47 años.
+- **Edad:** 45 años.
 - **Ocupación / segmento:** Padre o tutor de familia.
-- **Edad del menor:** 14 años.
-- **Distrito:** Cercado de Lima.
-- **Frecuencia de uso:** 1 días a la semana.
+- **Edad del menor:** 12 años y  6 años
+- **Distrito:** San Miguel.
+- **Frecuencia de uso:** 2 días a la semana.
 - **Timing de inicio:** 00:00.
 - **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQBZEYrCvz0UTYUAl1mpybc0AY7AkjTMQVY_AlCxp-8OP34?e=nc6MsX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
   
 <p align="center"><img width="1433" height="657" alt="image" src="/assets/chaper2/entrevista-marleny.png" /></p>
 
+**Resumen preliminar:** 
+
+Paola Santi es una madre de familia de 45 años de edad que reside en el distrito de San Miguel. Utiliza el servicio de movilidad escolar de forma moderada, aproximadamente dos veces a la semana, para sus hijos de 6 y 12 años que asisten a la escuela.
+
+Para comunicarse con el chófer o el tutor, usa WhatsApp, medio por el cual se envían mensajes y actualizaciones del conductor.
+
+Paola opina que lo que más le preocupa es el nivel de privacidad con respecto a la ubicación de sus menores, así como la información del chofer, siendo fundamental que este sea de confianza absoluta.
 
 ## Entrevista 2 — Marleny Nori Padilla Aguirre
 
@@ -886,42 +893,65 @@ Se registraron tres entrevistas a conductores de movilidad escolar que operan en
 
 #### Segmento 2: Padres y tutores
 
-Esta sección se completará al registrar las entrevistas pendientes. El enunciado del curso requiere entre tres y cinco entrevistas por segmento, por lo que los porcentajes no se calculan hasta contar con esa evidencia.
+Se registraron tres entrevistas a padres y tutores de estudiantes que utilizan el servicio de movilidad escolar en Lima Metropolitana y el Callao.
 
 **Características demográficas y de contexto**
 
 | Variable | Resultado |
 |---|---|
-| Edad de los entrevistados | [Completar] |
-| Distritos de residencia | [Completar] |
-| Edad de los menores que utilizan el servicio | [Completar] |
-| Frecuencia de uso del servicio | [Completar] |
+| Edad de los entrevistados | 24, 45 y 47 años (promedio: 38,7 años) |
+| Distritos de residencia | Callao, Cercado de Lima y San Miguel |
+| Edad de los menores que utilizan el servicio | 6, 6, 12 y 14 años (promedio: 9,5 años) |
+| Entrevistados con más de un menor en el servicio | 33,3 % |
+| Frecuencia de uso del servicio | 1, 2 y 5 días a la semana |
+| Entrevistados que utilizan el servicio de forma diaria | 33,3 % |
 
-**Herramientas, frustraciones y expectativas**
+**Herramientas y canales digitales utilizados**
 
 | Variable | Porcentaje |
 |---|---:|
-| Utiliza WhatsApp como canal principal con el conductor | [ ] % |
-| Recibe evidencia de llegada mediante fotografías en el grupo | [ ] % |
-| Declara incertidumbre durante el trayecto del menor | [ ] % |
-| Ha experimentado retrasos o cambios no comunicados | [ ] % |
-| Considera prioritaria la ubicación del vehículo en tiempo real | [ ] % |
-| Considera prioritaria la confirmación de recojo y entrega | [ ] % |
-| Manifiesta preocupación por la seguridad del menor durante la ruta | [ ] % |
+| Utiliza WhatsApp como canal principal con el conductor | 100 % |
+| Recibe actualizaciones de estado o ubicación por ese canal | 100 % |
+| Recibe evidencia de llegada mediante fotografías en el grupo de padres | 33,3 % |
 
-#### Hallazgos preliminares
+**Frustraciones y preocupaciones identificadas**
 
-**La comunicación se concentra en WhatsApp en ambos segmentos.** La totalidad de los conductores entrevistados y el tutor registrado coordinan el servicio mediante esta aplicación, lo que confirma el supuesto de que la coordinación ocurre hoy en un canal de uso general no diseñado para este fin.
+| Variable | Porcentaje |
+|---|---:|
+| Manifiesta preocupación por la privacidad de la ubicación del menor | 66,7 % |
+| Considera fundamental la confianza en el conductor y su información | 66,7 % |
+| Declara incertidumbre durante el trayecto del menor | 33,3 % |
+| Asocia esa incertidumbre a la inseguridad ciudadana de su distrito | 33,3 % |
+| Ha experimentado retrasos o complicaciones con el servicio | 0 % |
+| Manifiesta estar conforme con la forma actual de coordinación | 33,3 % |
 
-**Las consultas repetitivas son la frustración más consistente del segmento de conductores.** Los tres entrevistados mencionaron responder diariamente las mismas preguntas sobre la proximidad de la movilidad o el estado del estudiante, y dos de ellos señalaron que esto los distrae mientras conducen. Este hallazgo respalda la Hipótesis 1 del Lean UX Process.
+**Necesidades y expectativas sobre una solución digital**
 
-**La coordinación de ausencias es un problema no anticipado en su magnitud.** Los tres conductores mencionaron dificultades para saber si un estudiante será recogido, ya sea por mensajes dispersos, cambios de último momento o falta de aviso. Esto otorga mayor prioridad a la historia de reporte de ausencias de la que se le había asignado inicialmente en el Product Backlog.
+| Variable | Porcentaje |
+|---|---:|
+| Considera prioritaria la ubicación del vehículo en tiempo real | 33,3 % |
+| Valora recibir evidencia de que el menor llegó a su destino | 33,3 % |
+| Menciona funcionalidades de videovigilancia dentro del vehículo | 33,3 % |
+| Condiciona el uso de la herramienta al tratamiento de los datos del menor | 66,7 % |
+| Declara que no modificaría su forma actual de coordinación | 33,3 % |
 
-**La expectativa de ubicación en tiempo real tensiona la propuesta de diferenciación.** Tanto el tutor entrevistado como dos de los tres conductores mencionaron espontáneamente la visualización de la ubicación del vehículo como la funcionalidad más valiosa. Esto contrasta con el supuesto del equipo de que los padres prefieren hitos resumidos antes que una secuencia continua de coordenadas. El equipo contrastará este punto con las entrevistas pendientes de padres y tutores antes de ajustar el alcance del producto.
+#### Hallazgos del análisis
+
+**WhatsApp es el canal universal de coordinación.** La totalidad de los entrevistados de ambos segmentos utiliza esta aplicación para coordinar el servicio, lo que confirma el supuesto de que la comunicación ocurre hoy en un canal de uso general no diseñado para este fin.
+
+**Las consultas repetitivas afectan principalmente al conductor.** Los tres conductores señalaron responder diariamente las mismas preguntas sobre la proximidad de la movilidad, y dos de ellos indicaron que esto los distrae mientras conducen. En contraste, ningún padre entrevistado describió esa comunicación como un problema propio. Esto sugiere que la reducción de consultas es un beneficio percibido con mayor claridad por el segmento de conductores, y que la propuesta de valor hacia las familias debe sustentarse en la tranquilidad y la confianza antes que en la eficiencia.
+
+**La privacidad es la principal preocupación de los padres y tutores.** Dos de los tres entrevistados manifestaron que su mayor inquietud es el tratamiento de la ubicación del menor y la información del conductor, y condicionaron su confianza en una herramienta digital a este aspecto. Este hallazgo valida el supuesto de que la adopción dependerá de una adecuada gestión de permisos y visibilidad, y otorga prioridad a las historias de autorización de tutores y control de acceso.
+
+**La expectativa de ubicación en tiempo real es menor a la anticipada.** Solo uno de los tres padres entrevistados mencionó la ubicación en tiempo real como la funcionalidad más valiosa, mientras que dos expresaron reparos precisamente sobre ese tipo de información. Esto respalda la decisión de diseño de Rumbo de mostrar estados e hitos confirmados en lugar de una secuencia continua de coordenadas, y de mantener el seguimiento de ubicación fuera del alcance inicial.
+
+**La coordinación de ausencias es un problema no anticipado en su magnitud.** Los tres conductores mencionaron dificultades para saber si un estudiante será recogido, ya sea por mensajes dispersos, cambios de último momento o falta de aviso. Este hallazgo otorga mayor prioridad a la historia de reporte de ausencias de la que se le había asignado inicialmente en el Product Backlog.
+
+**La evidencia de llegada tiene valor para las familias.** Un entrevistado destacó que recibir fotografías de la llegada le genera tranquilidad, lo que sugiere que la confirmación de hitos cumple una función equivalente sin exponer la ubicación continua del menor ni su imagen.
 
 **La alfabetización digital es una barrera real de adopción.** La conductora con mayor experiencia en el rubro declaró conocimientos casi nulos en tecnología y delega el uso del teléfono en un ayudante, pese a que los padres le han recomendado aplicaciones de seguimiento. Este hallazgo refuerza la necesidad de una interfaz de pocos pasos e introduce la figura del ayudante como un usuario no previsto en los segmentos objetivo.
 
-**La satisfacción con el servicio actual puede reducir la urgencia percibida.** El tutor entrevistado manifestó encontrarse conforme con la coordinación actual y no modificaría la forma en que se comunica con el conductor. Esto sugiere que la propuesta de valor de Rumbo debe apoyarse en la reducción del esfuerzo del conductor y en la tranquilidad del tutor antes que en la corrección de un problema percibido como crítico por las familias.
+**La satisfacción con el servicio actual puede reducir la urgencia percibida.** Ningún padre entrevistado reportó haber experimentado retrasos o complicaciones, y uno manifestó no modificaría su forma actual de coordinación. Rumbo debe, por tanto, presentarse como un complemento que aporta tranquilidad y orden, y no como la corrección de un problema que las familias perciban como crítico.
 
 ## 2.3. Needfinding
 
@@ -1199,8 +1229,6 @@ El Product Backlog prioriza primero el alcance correspondiente al Landing Page d
 | 54 | TS06 | Internacionalización del RESTful API | Como Developer, deseo localizar mensajes de validación y error para en_US y es_419 manteniendo inglés como idioma predeterminado. | 3 |
 | 55 | TS07 | Auditoría de eventos operativos | Como Developer, deseo conservar quién, cuándo y qué cambió en eventos críticos de rutas y viajes para mantener trazabilidad. | 5 |
 | 56 | TS08 | Persistencia transaccional con Entity Framework Core | Como Developer, deseo persistir agregados y eventos relevantes con EF Core para mantener consistencia entre estado y trazabilidad. | 5 |
-
-> Las historias se redactan en el informe con Acceptance Criteria. Los Work-items de implementación se detallan en los Sprint Backlogs del Capítulo V para conservar trazabilidad sin duplicar tareas.
 
 ---
 
