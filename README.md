@@ -517,6 +517,8 @@ Conductores que realizan rutas programadas para el traslado de estudiantes entre
 
 ---
 
+# Capítulo II: Requirements Elicitation & Analysis
+
 ## 2.1. Competidores
 
 En esta sección se identifican y describen los principales competidores de Rumbo 
@@ -1483,6 +1485,8 @@ flowchart TD
     D1 --> D5["Report Incident"]
 ```
 Se compararán respuestas por segmento, separando **características objetivas** (edad, distrito, experiencia, dispositivo, navegador, canales y organización) y **características subjetivas** (motivaciones, frustraciones, necesidades, actitud hacia tecnología, privacidad y barreras). Los porcentajes se completarán solo con datos reales.
+
+## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
 
