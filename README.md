@@ -1077,7 +1077,7 @@ El Product Backlog prioriza primero el alcance correspondiente al Landing Page d
 | 42 | TS07 | Internacionalización del RESTful API | Como Developer, deseo localizar los mensajes del API para en_US y es_419 manteniendo el inglés como idioma predeterminado. | 3 |
 | 43 | TS06 | Documentación del RESTful API con OpenAPI | Como Developer, deseo documentar los endpoints mediante OpenAPI para facilitar su comprensión y prueba por parte del equipo. | 2 |
 
-Product Backlog URL: [Insertar URL público del tablero en Trello / Jira / YouTrack]
+Product Backlog URL: https://trello.com/b/dd4dejIV/product-backlog
 
 # Capítulo IV: Product Design
 
