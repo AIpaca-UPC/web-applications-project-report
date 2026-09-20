@@ -517,6 +517,8 @@ Conductores que realizan rutas programadas para el traslado de estudiantes entre
 
 ---
 
+# Capítulo II: Requirements Elicitation & Analysis
+
 ## 2.1. Competidores
 
 En esta sección se identifican y describen los principales competidores de Rumbo 
@@ -1484,6 +1486,8 @@ flowchart TD
 ```
 Se compararán respuestas por segmento, separando **características objetivas** (edad, distrito, experiencia, dispositivo, navegador, canales y organización) y **características subjetivas** (motivaciones, frustraciones, necesidades, actitud hacia tecnología, privacidad y barreras). Los porcentajes se completarán solo con datos reales.
 
+## 4.3. Landing Page UI Design
+
 ### 4.3.1. Landing Page Wireframe
 
 El wireframe de la Landing Page organiza el contenido de forma secuencial para explicar la propuesta de Rumbo antes de llevar al usuario a una acción. La estructura toma como base el diseño trabajado en Figma y mantiene la misma jerarquía para Desktop y Mobile.
@@ -1972,7 +1976,7 @@ La evidencia de despliegue se añadirá cuando el código de la Landing Page exi
 
 Durante el Sprint 1 se avanzaron los artefactos de requisitos, UX/UI y documentación del producto. **La implementación funcional del Landing Page todavía no está evidenciada en `AIpaca-UPC/landing-page`**, ya que el repositorio contiene únicamente su foundation documental. Por ello, las tareas de desarrollo, responsive y deployment permanecen pendientes hasta que existan commits de código verificables.
 
-### 5.2.1.1. Sprint Planning 1
+#### 5.2.1.1. Sprint Planning 1
 
 | Campo | Detalle |
 |---|---|
@@ -1997,7 +2001,7 @@ Durante el Sprint 1 se avanzaron los artefactos de requisitos, UX/UI y documenta
 | Requirements & Product Design | Equipo Rumbo | Marcelo Barrientos / Kevin Geronimo / Equipo |
 | Deployment & Evidence | Leonardo Lino | Kevin Geronimo |
 
-### 5.2.1.3. Sprint Backlog 1
+#### 5.2.1.3. Sprint Backlog 1
 
 El Sprint Backlog se actualiza para relacionar explícitamente cada Work-item/Task con la User Story que lo origina, tal como solicita la plantilla del curso. Los tasks de despliegue, documentación o coordinación que no dependen de una User Story específica se identifican como **N/A**.
 
