@@ -1509,7 +1509,7 @@ Se compararán respuestas por segmento, separando **características objetivas**
 
 ### 4.3.1. Landing Page Wireframe
 
-El wireframe de la Landing Page organiza el contenido de forma secuencial para explicar la propuesta de Rumbo antes de llevar al usuario a una acción. La estructura toma como base el diseño trabajado en Figma y mantiene la misma jerarquía para Desktop y Mobile.
+El wireframe de la Landing Page organiza el contenido de forma secuencial para explicar la propuesta de Rumbo antes de llevar al usuario a una acción. Se conserva el artefacto Desktop trabajado previamente en el proyecto Rumbo y se complementa con una adaptación Mobile para cubrir Responsive Web Design.
 
 ```mermaid
 flowchart TD
@@ -1517,62 +1517,69 @@ flowchart TD
     B --> C[Beneficios principales]
     C --> D[Cómo funciona Rumbo]
     D --> E[Funcionalidades]
-    E --> F[Planes o alternativas de uso]
-    F --> G[Testimonios]
-    G --> H[Preguntas frecuentes]
-    H --> I[CTA final]
-    I --> J[Footer]
+    E --> F[Preguntas frecuentes]
+    F --> G[Contacto y documentos legales]
+    G --> H[Footer]
 ```
 
 <div align="center">
-  <img src="./assets/chapter04/landingWireframeDsk.png" alt="Landing Page Web Wireframe" width="750">
+  <img src="./assets/chapter04/landingWireframeDsk.png" alt="Landing Page Desktop Wireframe" width="750">
+</div>
+
+<div align="center">
+  <img src="./assets/chapter04/landing-mobile-design.svg" alt="Landing Page Mobile Wireframe and Mock-up" width="750">
 </div>
 
 ### 4.3.2. Landing Page Mock-up
 
-El mock-up de alta fidelidad mantiene una estética limpia, con fondos claros, tipografía de alto contraste, tarjetas redondeadas y CTAs destacados. Las referencias trabajadas en Figma muestran como eje visual un hero con la propuesta **“Tranquilidad en cada trayecto”**, acompañado por una vista del seguimiento de la movilidad.
+El mock-up de alta fidelidad mantiene una estética limpia, fondos claros, tipografía de alto contraste, tarjetas redondeadas y CTAs destacados. Se conserva la propuesta visual del proyecto anterior, eliminando del alcance actual cualquier afirmación que dependa de seguimiento GPS continuo o funcionalidades no consideradas en el Product Backlog.
 
 | Sección | Decisión de diseño |
 |---|---|
-| Hero | Mensaje principal, breve descripción, CTA y representación visual del seguimiento. |
-| Beneficios | Tarjetas para monitoreo, alertas y comunicación. |
-| Cómo funciona | Proceso resumido en pasos consecutivos. |
-| Funcionalidades | Bloques visuales para seguimiento, incidencias, notificaciones y control de ruta. |
-| Planes | Tarjetas comparables con CTA diferenciado. |
-| Testimonios | Opiniones breves para reforzar confianza. |
-| FAQ | Acordeones con dudas frecuentes sobre seguridad y funcionamiento. |
-| CTA y footer | Cierre de conversión y accesos informativos. |
-
-El mock-up conserva el sistema visual de Rumbo definido en 4.1: tonos verdes y oscuros para confianza y seguridad, superficies claras para lectura y componentes simples que pueden reutilizarse posteriormente en la Web Application.
+| Hero | Propuesta de valor, descripción breve y CTA. |
+| Beneficios | Información diferenciada para padres/tutores y conductores. |
+| Cómo funciona | Recojo, trayecto, retrasos/incidencias y entrega como hitos principales. |
+| FAQ | Dudas frecuentes sobre privacidad, funcionamiento y uso durante la conducción. |
+| Contacto | Formulario con validación básica. |
+| Legal | Acceso a Terms of Service y Privacy Policy. |
 
 <div align="center">
-  <img src="./assets/chapter04/landingMockupDsk.png" alt="Landing Page Web Mock-Up" width="750">
+  <img src="./assets/chapter04/landingMockupDsk.png" alt="Landing Page Desktop Mock-Up" width="750">
 </div>
+
+La versión funcional correspondiente a este diseño se implementa en `AIpaca-UPC/landing-page`, rama `feature/landing-page-v1`.
 
 ## 4.4. Web Applications UX/UI Design
 
-El diseño de la Web Application considera dos experiencias principales: **padres/tutores** y **conductores**. En ambos casos se prioriza la información del trayecto, pero las acciones disponibles cambian según el rol. Los padres consultan; los conductores registran eventos de la ruta con la menor cantidad posible de pasos.
+El diseño de la Web Application considera dos experiencias principales: **Padres/Tutores** y **Conductores**. Se tomó como base la estructura elaborada en el proyecto Rumbo anterior y se mantuvieron únicamente las vistas coherentes con los User Stories vigentes. Los padres consultan el estado e historial del traslado; los conductores organizan la ruta y registran hitos, retrasos e incidencias con acciones breves.
+
+**Archivo editable de UX/UI en Figma:** https://www.figma.com/design/1UjjmTqKROq4VXZPGHLSvx
 
 ### 4.4.1. Web Applications Wireframes
 
-Los wireframes se definieron a partir de las tareas centrales de cada segmento.
+Los wireframes se organizan a partir de las tareas centrales de cada segmento.
 
 | Rol | Vista | Contenido principal |
 |---|---|---|
 | Padre/Tutor | Sign In | Correo, contraseña y recuperación de acceso. |
-| Padre/Tutor | Dashboard | Estado actual, estudiante, conductor, vehículo y ETA. |
-| Padre/Tutor | Trip Detail | Mapa o progreso de ruta y datos del trayecto. |
-| Padre/Tutor | Trip Timeline | Recojo, retrasos, incidencias y llegada en orden cronológico. |
+| Padre/Tutor | Dashboard | Estudiante, estado actual, conductor, vehículo y acceso al timeline. |
+| Padre/Tutor | Trip Detail / Timeline | Hitos, retrasos, incidencias y llegada en orden cronológico. |
 | Padre/Tutor | Notifications | Avisos relevantes asociados al estudiante. |
-| Conductor | Sign In | Acceso seguro al panel de ruta. |
+| Conductor | Sign In | Acceso al panel correspondiente a su rol. |
 | Conductor | Assigned Route | Ruta activa, horario, paradas y estudiantes asignados. |
 | Conductor | Student List | Estado de recojo o entrega de cada estudiante. |
-| Conductor | Register Event | Confirmación rápida de recojo, llegada o entrega. |
-| Conductor | Report Incident | Tipo de incidencia, descripción breve y registro del evento. |
+| Conductor | Report Delay | Registro breve de demora. |
+| Conductor | Report Incident | Categoría y descripción de incidencia. |
 
-La prioridad del wireframe es que la vista principal responda rápidamente a dos preguntas: **“¿qué está pasando en el trayecto?”** para la familia y **“¿qué debo registrar ahora?”** para el conductor.
+<div align="center">
+  <img src="./assets/chapter04/webapp-wireframes.svg" alt="Web Application Wireframes for Parent Tutor and Driver" width="95%">
+</div>
+
+La prioridad es que la interfaz responda rápidamente a **“¿qué está pasando en el traslado?”** para la familia y **“¿qué debo registrar ahora?”** para el conductor.
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+
+Los Wireflows mantienen las rutas definidas originalmente para ambos segmentos y fueron trasladados a un artefacto editable en FigJam.
 
 #### Wireflow — Padre/Tutor
 
@@ -1585,8 +1592,6 @@ flowchart LR
     D --> C
     E --> B
 ```
-
-El padre ingresa al Dashboard y desde allí puede revisar el estado actual, abrir el detalle del viaje, consultar el historial de eventos o revisar las notificaciones asociadas.
 
 #### Wireflow — Conductor
 
@@ -1602,25 +1607,23 @@ flowchart LR
     F --> B
 ```
 
-El conductor mantiene como punto central la ruta asignada. Las acciones de recojo, entrega, retraso e incidencia regresan al mismo panel para evitar navegación innecesaria durante la jornada.
+**Wireflows en FigJam:** https://www.figma.com/board/fdlv24s9wIeJSi2zTbzI0m
 
 ### 4.4.3. Web Applications Mock-ups
 
-La propuesta visual de la Web Application reutiliza el lenguaje definido para la Landing Page: fondo claro, tarjetas blancas, verde como color de acción y tonos oscuros para textos y estados principales.
+Los Mock-ups reutilizan el lenguaje visual de Rumbo: fondo claro, tarjetas blancas, verde como color de acción, verde oscuro para superficies de contraste y tipografías Outfit/Roboto. Se prepararon vistas representativas Desktop y Mobile para ambos segmentos.
 
-| Vista | Componentes de alta fidelidad |
-|---|---|
-| Dashboard de padre/tutor | Tarjeta de estudiante, estado del viaje, ETA, conductor, vehículo y acceso al timeline. |
-| Trip Detail | Mapa o progreso visual, paradas, estado actual y última actualización. |
-| Timeline | Eventos con hora, tipo y estado mediante una línea cronológica. |
-| Notifications | Tarjetas de aviso con prioridad y fecha. |
-| Assigned Route | Ruta activa, número de estudiantes, próxima parada y acciones rápidas. |
-| Student List | Lista con nombre del estudiante y estado pendiente/recogido/entregado. |
-| Incident Form | Selector de tipo de incidencia, descripción corta y botón de registro. |
+<div align="center">
+  <img src="./assets/chapter04/webapp-mockups.svg" alt="Rumbo Web Application Mock-ups" width="95%">
+</div>
 
-Los controles del conductor se plantean con botones grandes, mensajes breves y confirmaciones visibles. Para padres se prioriza lectura rápida, estado actual y jerarquía visual de alertas.
+El archivo de Figma incluye las siguientes vistas: **Desktop Sign In, Parent Dashboard, Driver Assigned Route, Mobile Parent Dashboard, Mobile Driver Route y Mobile Parent Notifications**.
+
+**Mock-ups editables en Figma:** https://www.figma.com/design/1UjjmTqKROq4VXZPGHLSvx
 
 ### 4.4.4. Web Applications User Flow Diagrams
+
+Los User Flows se derivan de los Wireflows y contemplan rutas principales y alternativas para autenticación, consulta del traslado y registro operativo.
 
 #### User Flow — Padre/Tutor
 
@@ -1657,10 +1660,15 @@ flowchart TD
     J --> K[Finalizar Trip]
 ```
 
-Los flujos reducen bifurcaciones y evitan acciones largas en el perfil del conductor. Las operaciones críticas se realizan desde la ruta activa y generan un evento que luego puede ser consultado por los padres.
+**User Flows en FigJam:** https://www.figma.com/board/JN6GilTFsvrcTlUdRG1y2G
 
 ## 4.5. Web Applications Prototyping
-[Figma Prototype]
+
+Se preparó en Figma la base visual del prototipo para Desktop y Mobile, manteniendo los mismos paths definidos en los User Flow Diagrams. El archivo contiene las vistas principales de Padre/Tutor y Conductor y sirve como fuente editable para completar las conexiones de navegación.
+
+**Figma — Web Application UX/UI:** https://www.figma.com/design/1UjjmTqKROq4VXZPGHLSvx
+
+Para la evidencia final de AV1 todavía debe incorporarse el screenshot del video de navegación y su enlace de Microsoft Stream; estos elementos no se inventan hasta contar con la grabación real.
 
 ## 4.6. Domain-Driven Software Architecture
 
