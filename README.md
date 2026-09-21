@@ -1906,7 +1906,7 @@ En el Project Report se emplean ramas como:
 - `feature/chapter-4-product-design`
 - `feature/chapter-5-product-implementation-validation-and-deployment`
 
-La Landing Page dispone de `main`, `develop` y `feature/landing-page-v1`. La primera carga funcional quedó registrada en `main`; los siguientes cambios se integrarán mediante el flujo `feature → develop → main`.
+La Landing Page dispone de `main`, `develop` y `feature/landing-page-v1`. La implementación funcional de AV1 se encuentra actualmente en `feature/landing-page-v1`; una vez revisada deberá integrarse mediante el flujo `feature → develop → main`.
 
 #### Convenciones
 
@@ -1931,7 +1931,7 @@ La Landing Page utiliza HTML5 semántico, navegación mediante identificadores, 
 Ejemplo:
 
 ```html
-<section class="section" id="beneficios">
+<section class="benefits section-cream" id="benefits">
 ```
 
 #### CSS
@@ -1940,9 +1940,9 @@ Los estilos se organizan por secciones y utilizan variables CSS para colores, ti
 
 ```css
 :root {
-  --azul: #12403D;
-  --verde: #3EA98A;
-  --arena: #F3D9A4;
+  --green: #3EA98A;
+  --green-dark: #12403D;
+  --sand: #F3D9A4;
 }
 ```
 
@@ -1962,17 +1962,20 @@ Para C# y ASP.NET Core se utilizará `PascalCase` para clases, interfaces, méto
 
 ### 5.1.4. Software Deployment Configuration
 
-La configuración de despliegue debe documentarse únicamente cuando exista una implementación real dentro de la organización **AIpaca-UPC**. Al revisar el repositorio `AIpaca-UPC/landing-page`, actualmente solo se encuentra el archivo `README.md`; por ello **no se registra todavía una URL de producción ni se presenta evidencia de GitHub Pages como completada**.
+La primera versión funcional de la Landing Page ya se encuentra implementada en la rama `feature/landing-page-v1`. El despliegue todavía está pendiente, por lo que se diferencia claramente entre **implementación disponible** y **publicación en producción**.
 
 | Configuración | Estado actual |
 |---|---|
 | **Repository** | `AIpaca-UPC/landing-page` |
-| **Branch objetivo** | `main` |
-| **Entry point** | Pendiente de implementación |
+| **Branch con implementación AV1** | `feature/landing-page-v1` |
+| **Entry point** | `index.html` |
+| **Styles** | `css/styles.css` |
+| **JavaScript** | `js/app.js` |
+| **Legal pages** | `terms.html`, `privacy.html` |
 | **Provider / GitHub Pages** | Pendiente de configurar y verificar |
 | **Production URL** | Pendiente |
 
-La evidencia de despliegue se añadirá cuando el código de la Landing Page exista en el repositorio y la URL pública pueda verificarse.
+La versión implementada cubre propuesta de valor, beneficios por segmento, internacionalización `en_US / es_419`, FAQ, contacto, Terms of Service, Privacy Policy y Responsive Web Design. El siguiente paso es integrar la rama a una versión estable y publicar la Landing Page para registrar la URL y evidencias de deployment.
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -1980,7 +1983,7 @@ La evidencia de despliegue se añadirá cuando el código de la Landing Page exi
 
 El **Sprint 1** tiene como alcance el primer incremento público de Rumbo: la **Landing Page**. Para mantener coherencia con el Product Backlog vigente, el Sprint selecciona las cinco User Stories del Epic **EP06 · Landing Page** (US31–US35). El objetivo es que ambos segmentos puedan comprender la propuesta de valor, identificar beneficios, consultar información legal, cambiar el idioma y resolver dudas antes de utilizar el producto.
 
-A la fecha de esta revisión, el repositorio `AIpaca-UPC/landing-page` todavía no contiene implementación funcional: las ramas `main`, `develop` y `feature/landing-page-v1` apuntan al mismo commit documental `2656490`. Por ello, el Sprint Goal **aún no puede considerarse alcanzado** y no se registran como completadas tareas de implementación, ejecución o despliegue que no cuenten con evidencia verificable.
+A la fecha de esta revisión, `feature/landing-page-v1` ya contiene una primera versión funcional de la Landing Page. Las tareas de implementación del alcance US31–US35 se consideran desarrolladas en la rama feature; el Sprint Goal todavía no puede considerarse completamente alcanzado porque falta integrar una versión estable, desplegarla y registrar las evidencias de ejecución.
 
 #### 5.2.1.1. Sprint Planning 1
 
@@ -2044,12 +2047,12 @@ Para la implementación de la Landing Page se seleccionaron únicamente las User
 
 | Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---:|---|---|
-| US31 | Conocer la propuesta de valor de Rumbo | T01 | Implementar propuesta de valor | Implementar hero, propuesta de valor y explicación resumida del funcionamiento de Rumbo. | 4 | Kevin Geronimo / Alejandro Díaz | To-do |
-| US32 | Identificar los beneficios de mi segmento e ingresar a Rumbo | T02 | Beneficios y CTA por segmento | Mostrar beneficios para padres/tutores y conductores e incluir sus acciones principales. | 4 | Alejandro Díaz / Kevin Geronimo | To-do |
-| US33 | Consultar el contenido en inglés o español | T03 | Selector de idioma | Implementar inglés como idioma predeterminado y español latinoamericano como alternativa. | 3 | Kevin Geronimo / Alejandro Díaz | To-do |
-| US34 | Consultar los documentos legales del servicio | T04 | Documentos legales | Incorporar accesos a Terms of Service y Privacy Policy. | 2 | Kevin Geronimo / Alejandro Díaz | To-do |
-| US35 | Resolver dudas antes de usar Rumbo | T05 | FAQ y contacto | Implementar preguntas frecuentes y formulario de contacto con validación básica. | 4 | Kevin Geronimo / Alejandro Díaz | To-do |
-| N/A | Responsive constraint | T06 | Ajustar diseño responsive | Validar la Landing Page en Desktop y Mobile. | 4 | Alejandro Díaz / Kevin Geronimo | To-do |
+| US31 | Conocer la propuesta de valor de Rumbo | T01 | Implementar propuesta de valor | Implementar hero, propuesta de valor y explicación resumida del funcionamiento de Rumbo. | 4 | Kevin Geronimo / Alejandro Díaz | Done |
+| US32 | Identificar los beneficios de mi segmento e ingresar a Rumbo | T02 | Beneficios y CTA por segmento | Mostrar beneficios para padres/tutores y conductores e incluir sus acciones principales. | 4 | Alejandro Díaz / Kevin Geronimo | Done |
+| US33 | Consultar el contenido en inglés o español | T03 | Selector de idioma | Implementar inglés como idioma predeterminado y español latinoamericano como alternativa. | 3 | Kevin Geronimo / Alejandro Díaz | Done |
+| US34 | Consultar los documentos legales del servicio | T04 | Documentos legales | Incorporar accesos a Terms of Service y Privacy Policy. | 2 | Kevin Geronimo / Alejandro Díaz | Done |
+| US35 | Resolver dudas antes de usar Rumbo | T05 | FAQ y contacto | Implementar preguntas frecuentes y formulario de contacto con validación básica. | 4 | Kevin Geronimo / Alejandro Díaz | Done |
+| N/A | Responsive constraint | T06 | Ajustar diseño responsive | Validar la Landing Page en Desktop y Mobile. | 4 | Alejandro Díaz / Kevin Geronimo | Done |
 | N/A | Deployment | T07 | Publicar Landing Page | Publicar la versión funcional y registrar la URL de producción. | 2 | Leonardo Lino / Kevin Geronimo | To-do |
 | N/A | Sprint Review Evidence | T08 | Registrar evidencias | Documentar commits, capturas, video, deployment y colaboración. | 3 | Leonardo Lino | In-Process |
 
@@ -2067,30 +2070,29 @@ Estas tareas corresponden al **Project Report** y no se contabilizan como User S
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-Esta sección debe contener **commits de implementación correspondientes al alcance del Sprint**. Los commits que solo inicializan un README o describen una foundation documental no se presentan como si fueran evidencia funcional.
+La implementación de Sprint 1 se desarrolló en `feature/landing-page-v1`. La rama contiene el incremento funcional del Landing Page y conserva commits separados por tipo de cambio siguiendo Conventional Commits.
 
-La verificación actual del repositorio de Landing Page es la siguiente:
-
-| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+| Repository | Branch | Commit ID | Commit Message | Evidencia asociada | Committed on |
 |---|---|---|---|---|---|
-| `AIpaca-UPC/landing-page` | `main` | `2656490` | `docs: initialize Rumbo landing page` | Inicialización documental; no implementa funcionalidades de la Landing Page. | 2026-09-08 |
-| `AIpaca-UPC/landing-page` | `develop` | `2656490` | `docs: initialize Rumbo landing page` | La rama todavía no contiene commits funcionales adicionales. | 2026-09-08 |
-| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `2656490` | `docs: initialize Rumbo landing page` | La rama de feature todavía no contiene commits funcionales adicionales. | 2026-09-08 |
+| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `eaa0f79` | `feat: implement Rumbo AV1 landing page` | Estructura principal, propuesta de valor, beneficios, segmentos, FAQ y contacto. | 2026-09-20 |
+| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `7b5465a` | `style: add responsive landing page styles` | Responsive Web Design para Desktop y Mobile Web Browser. | 2026-09-20 |
+| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `4aac744` | `feat: add navigation i18n faq and contact interactions` | Navegación, `en_US / es_419`, FAQ y validación de contacto. | 2026-09-20 |
+| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `ae1fe63` | `feat: add terms of service page` | Terms of Service. | 2026-09-20 |
+| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `3ff9992` | `feat: add privacy policy page` | Privacy Policy. | 2026-09-20 |
 
-**Estado:** todavía no existe Development Evidence funcional para Sprint 1. Cuando se implemente la Landing Page, esta tabla debe reemplazarse por los commits reales de las tareas T01–T06, incluyendo rama, Commit ID, Commit Message, Message Body y fecha.
+Estos commits constituyen la Development Evidence disponible para T01–T06. El deployment y la integración a una rama estable permanecen pendientes.
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-La evidencia de ejecución debe mostrar el incremento funcional alcanzado durante Sprint 1. La pauta requiere un resumen, screenshots de las principales vistas implementadas y un video que muestre la navegación.
-
-En la revisión actual no existe una versión funcional en `AIpaca-UPC/landing-page`; por lo tanto, no se incorporan screenshots ajenos ni imágenes de diseño como si fueran evidencia de ejecución.
+La Landing Page ya cuenta con una versión funcional en `feature/landing-page-v1`. La evidencia visual de Sprint Review debe capturarse ejecutando esta versión y debe incluir Desktop, Mobile y un video corto de navegación.
 
 | Evidence | Status |
 |---|---|
-| Desktop Web Browser screenshot | Pendiente de implementación |
-| Mobile Web Browser screenshot | Pendiente de implementación |
+| Implementación funcional en GitHub | **Completado** — `feature/landing-page-v1` |
+| Desktop Web Browser screenshot | Pendiente de integrar |
+| Mobile Web Browser screenshot | Pendiente de integrar |
 | Video de ejecución / navegación (Microsoft Stream) | Pendiente |
-| URL ejecutable de la Landing Page | Pendiente |
+| URL ejecutable de producción | Pendiente de deployment |
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -2123,11 +2125,11 @@ Esta sección debe evidenciar la **participación de los integrantes en la imple
 | Project Report Contributors | https://github.com/AIpaca-UPC/web-applications-project-report/graphs/contributors |
 | Project Report Pull Requests | https://github.com/AIpaca-UPC/web-applications-project-report/pulls |
 
-**Commits de implementación:** Pendiente.  
+**Commits de implementación:** Disponibles en `feature/landing-page-v1` y registrados en 5.2.1.4.  
 **Network / Contributors screenshot:** Pendiente de integrar con evidencia real de AIpaca-UPC.  
 **Pull Requests screenshot:** Pendiente de integrar con evidencia real de AIpaca-UPC.
 
-Hasta que existan commits funcionales en `AIpaca-UPC/landing-page`, no corresponde afirmar que todos los integrantes participaron en la implementación del incremento.
+La implementación funcional ya cuenta con commits verificables en la rama feature. La captura general de GitHub Insights documenta la colaboración del Project Report; la atribución individual de implementación debe mantenerse alineada con los commits y asignaciones reales del Sprint.
 
 ---
 
@@ -2138,8 +2140,8 @@ Hasta que existan commits funcionales en `AIpaca-UPC/landing-page`, no correspon
 1. La existencia de 3758 vehículos escolares habilitados en Lima y Callao confirma que Rumbo se dirige a un servicio formal con un mercado concreto de familias y operadores.
 2. La congestión registrada en Lima durante 2025 sustenta la necesidad de considerar retrasos y variabilidad en los tiempos de traslado dentro de la experiencia del producto.
 3. La alta penetración de telefonía móvil e Internet en Lima Metropolitana respalda el uso de una solución web responsive como canal principal para los dos segmentos definidos.
-4. Las entrevistas de AV1 permitirán comprobar si el problema específico de visibilidad y comunicación planteado por Rumbo coincide con la experiencia real de padres y conductores.
-5. El Sprint 1 se concentra en el diseño, implementación y despliegue del Landing Page como primer incremento público del producto.
+4. Las seis entrevistas registradas en AV1 permitieron contrastar el problema de visibilidad, coordinación y comunicación con tres padres/tutores y tres conductores.
+5. Sprint 1 ya cuenta con una primera implementación funcional del Landing Page en la rama `feature/landing-page-v1`; queda pendiente su integración estable, deployment y evidencia final de ejecución.
 
 ---
 
