@@ -43,7 +43,7 @@
 | Versión | Fecha | Autor(es) | Descripción de cambios |
 |---|---|---|---|
 | 0.1 | 07/09/2026 | Lino Quispe, Leonardo Miguel | Creación de la estructura base del informe de Rumbo. |
-| 0.2 | 11/09/2026 | Equipo Rumbo | Actualización de integrantes y refinamiento del Capítulo I para AV1. |
+| 0.2 | 11/09/2026 | Equipo Rumbo | Actualización de integrantes y refinamiento del Capítulo I para AV1. |\n| 0.3 | 20/09/2026 | Equipo Rumbo | Integración de Collaboration Insights, Student Outcome, artefactos de Product Design y avance de Sprint 1. |
 
 ---
 
@@ -57,14 +57,18 @@
 
 ### AV1
 
-**Team Collaboration Commits**  
-[Insertar captura]
+<div align="center">
+  <img src="./assets/collaboration/av1-project-report-insights.svg" alt="GitHub Pulse de colaboración del Project Report para AV1" width="95%">
+</div>
 
-**Team Collaboration Network**  
-[Insertar captura]
+Durante el periodo mostrado por GitHub Insights (20 de agosto al 20 de septiembre de 2026), el Project Report registra **4 autores activos**, **109 commits en todas las ramas** y **6 pull requests fusionados**. La captura también muestra **0 pull requests abiertos** y **0 issues activos** al cierre del periodo.
 
-**Contributors / Pull Requests**  
-[Insertar capturas]
+Como evidencia complementaria de colaboración se utilizan los recursos nativos del repositorio:
+
+- **Commits:** https://github.com/AIpaca-UPC/web-applications-project-report/commits
+- **Network:** https://github.com/AIpaca-UPC/web-applications-project-report/network
+- **Contributors:** https://github.com/AIpaca-UPC/web-applications-project-report/graphs/contributors
+- **Pull Requests:** https://github.com/AIpaca-UPC/web-applications-project-report/pulls
 
 ---
 
@@ -128,8 +132,8 @@ El curso contribuye al cumplimiento del **ABET – EAC – Student Outcome 5**: 
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---|---|---|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **[Integrante 1]** — AV1: [acción]. <br> **[Integrante 2]** — AV1: [acción]. <br> **[Integrante 3]** — AV1: [acción]. <br> **[Integrante 4]** — AV1: [acción]. <br> **[Integrante 5]** — AV1: [acción]. | [Conclusión grupal]. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **[Integrante 1]** — AV1: [acción]. <br> **[Integrante 2]** — AV1: [acción]. <br> **[Integrante 3]** — AV1: [acción]. <br> **[Integrante 4]** — AV1: [acción]. <br> **[Integrante 5]** — AV1: [acción]. | [Conclusión grupal]. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **Barrientos Quispe, Marcelo — AV1:** liderazgo del Capítulo I. <br> **Meza Soza, Alexandra Yamile — AV1:** liderazgo del Capítulo II. <br> **Lino Quispe, Leonardo Miguel — AV1:** liderazgo de los Capítulos III y V e integración de evidencias. <br> **Geronimo Puma, Kevin Joel — AV1:** desarrollo conjunto del Capítulo IV. <br> **Díaz Ramírez, Alejandro — AV1:** desarrollo conjunto del Capítulo IV. | El equipo distribuyó el liderazgo por capítulos y coordinó la integración de los entregables para mantener una versión común del Project Report. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Marcelo, Alexandra, Leonardo, Kevin y Alejandro — AV1:** organizaron el trabajo mediante ramas feature en GitHub, revisión de cambios, Product/Sprint Backlog en Trello y artefactos colaborativos en las herramientas definidas para el proyecto. | La planificación por responsabilidades y el uso de herramientas compartidas permitió organizar el avance, revisar el trabajo de otros integrantes y mantener trazabilidad del Sprint 1. |
 
 ---
 
@@ -159,39 +163,38 @@ Alcance del proyecto: El alcance inicial de Rumbo está orientado a padres o tut
   </thead>
   <tbody>
     <tr>
-      <td align="center"><img src="assets/chaper1/marcelo.png" alt="Barrientos Quispe, Marcelo" width="120"/></td>
+      <td align="center"><img src="assets/chapter01/marcelo.png" alt="Marcelo Barrientos Quispe" width="120"/></td>
       <td>Barrientos Quispe, Marcelo</td>
       <td>U20221e646</td>
       <td>Ingeniería de Software</td>
       <td>Me considero una persona adaptable al entorno, sé trabajar en equipo y aprendo rápido. Cuento con conocimientos técnicos en tecnologías de JavaScript.</td>
     </tr>
     <tr>
-      <td align="center">[Insertar foto]</td>
-      <td>Díaz Ramírez, Alejandro</td>
+      <td align="center"><img src="./assets/chapter01/alejandro-diaz.png" alt="Alejandro Diaz Ramirez" width="120"></td>
+      <td>Diaz Ramirez, Alejandro</td>
       <td>U202423084</td>
       <td>Ingeniería de Software</td>
-      <td>[Completar perfil]</td>
+      <td>Estudiante de Ingeniería de Software de 5.º ciclo, con una base sólida en Python y C++, así como experiencia en prototipado rápido con React Native, lo que me permite aportar en el desarrollo técnico del proyecto, especialmente en la lógica del sistema, la estructuración del código y el procesamiento de datos. También agregar que he trabajado en entornos colaborativos bajo metodologías ágiles, gestionando proyectos y equipos con Scrum para asegurar entregas eficientes y de calidad.</td>
     </tr>
     <tr>
-      <td align="center">[Insertar foto]</td>
+      <td align="center"><img width="120" alt="kevin" src="https://github.com/user-attachments/assets/8be17c32-7b22-466c-a91e-daf42a5b31ea" /></td>
       <td>Geronimo Puma, Kevin Joel</td>
       <td>U202423163</td>
       <td>Ingeniería de Software</td>
-      <td>[Completar perfil]</td>
+      <td>Estudiante de Ingeniería de Software de 5.º ciclo, con una base sólida en Python y C++. Mi perfil me permite aportar en el desarrollo técnico del proyecto, destacando por mi facilidad para la arquitectura de software y el diseño de bases de datos, además de la lógica del sistema, la estructuración del código y el procesamiento de datos. Asimismo, tengo experiencia trabajando en entornos colaborativos bajo metodologías ágiles, asegurando siempre entregas eficientes y de calidad.</td>
     </tr>
     <tr>
-      <td align="center"><img src="assets/chaper1/leonardo-lino.svg" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
+      <td align="center"><img src="./assets/chapter01/leonardo-lino.jpg" alt="Leonardo Miguel Lino Quispe" width="120"></td>
       <td>Lino Quispe, Leonardo Miguel</td>
       <td>U202422298</td>
       <td>Ingeniería de Software</td>
-      <td>Soy estudiante de Ingeniería de Software del 4to ciclo en la UPC. Tengo conocimientos en programación en C++ y Python, y experiencia desarrollando proyectos académicos donde analizo y organizo soluciones tecnológicas. Me gusta enfocarme en aprender de forma práctica y en construir soluciones que sean claras, funcionales y aplicadas a problemas reales.</td>
+      <td>Soy estudiante de Ingeniería de Software del 5.º ciclo en la UPC. Tengo conocimientos en programación en C++ y Python, y experiencia desarrollando proyectos académicos donde analizo y organizo soluciones tecnológicas. Me gusta enfocarme en aprender de forma práctica y en construir soluciones que sean claras, funcionales y aplicadas a problemas reales.</td>
     </tr>
-    <tr>
-      <td align="center"><img src="assets/chaper1/alexandra-meza.png" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
+      <td align="center"><img src="assets/chapter01/alexandra-meza.png" alt="Alexandra Yamile Meza Soza" width="120"/></td>
       <td>Meza Soza, Alexandra Yamile</td>
       <td>U20241b451</td>
       <td>Ingeniería de Software</td>
-      <td>[Completar perfil]</td>
+      <td>Soy estudiante de Ingeniería de Software del 6.º ciclo en la UPC. Cuento con conocimientos en el desarrollo de sistemas utilizando los lenguajes Python y C++. Me caracterizo por aprendizaje rápido, criterio para filtrar información relevante y trabajo colaborativo. En el equipo aporto investigación aplicada y prototipos técnicos que conectan los hallazgos con funcionalidades del producto.</td>
     </tr>
   </tbody>
 </table>
@@ -733,17 +736,56 @@ Las preguntas combinan información demográfica y contextual con preguntas abie
 
 ### 2.2.2. Registro de entrevistas
 
-Para cada entrevista se registrará nombre completo, edad, distrito, segmento, captura, URL del video, timing, duración y resumen descriptivo. Actualmente se cuenta con **cuatro entrevistas efectivamente registradas: una del segmento Padres/Tutores y tres del segmento Conductores de movilidad escolar**. Para alcanzar el mínimo de tres entrevistas por segmento todavía faltan **dos entrevistas de padres/tutores**.
+Para cada entrevista se registra nombre completo, edad, distrito, segmento, captura, URL del video, timing, duración y resumen descriptivo. Actualmente se cuenta con **seis entrevistas registradas: tres del segmento Padres/Tutores y tres del segmento Conductores de movilidad escolar**, cumpliendo el mínimo requerido para ambos segmentos.
 
 | # | Entrevistado | Edad | Distrito | Segmento | Duración | Referencia |
 | -: | ----------- | ---: | -------- | -------- | :-----   | ---------- |
-|  1 | **Pendiente** | — | — | Padre/Tutor | — | Pendiente |
-|  2 | **Pendiente** | — | — | Padre/Tutor | — | Pendiente |
-|  3 | Leonel Adrián Mitma Garro | 24 | Callao | Padre/Tutor | [Completar] | [Entrevista 3](#entrevista-3--leonel-adrián-mitma-garro) |
+|  1 | Gisela Paola Santi Quispe | 45 | San Miguel | Padre/Tutor | 12:55 | [Entrevista 1](#entrevista-1--gisela-paola-santi-quispe) |
+|  2 | Marleny Nori Padilla Aguirre | 47 | Cercado de Lima | Padre/Tutor | 15:32 | [Entrevista 2](#entrevista-2--marleny-nori-padilla-aguirre) |
+|  3 | Leonel Adrián Mitma Garro | 24 | Callao | Padre/Tutor | 7:43 | [Entrevista 3](#entrevista-3--leonel-adrián-mitma-garro) |
 |  4 | Gabriel Alexandro Sosa Guevara | 20 | Olivos | Conductor | 09:51 | [Entrevista 4](#entrevista-4--gabriel-alexandro-sosa-guevara) |
 |  5 | Brayan Solorzano Pineda | 25 | Pueblo Libre | Conductor | 09:05 | [Entrevista 5](#entrevista-5--brayan-solorzano-pineda) |
 |  6 | Vilma Hoyos Martinez | 56 | San Miguel | Conductor | 18:14 | [Entrevista 6](#entrevista-6--vilma-hoyos-martinez) |
 
+## Entrevista 1 — Gisela Paola Santi Quispe
+
+- **Edad:** 45 años.
+- **Ocupación / segmento:** Padre o tutor de familia.
+- **Edad del menor:** 12 años y  6 años
+- **Distrito:** San Miguel.
+- **Frecuencia de uso:** 2 días a la semana.
+- **Timing de inicio:** 00:00.
+- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQAidRav7C7uTanDv_bGmDR7AelCr3B6zxh1HNJcxzSEYkY?e=jnKSeK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+<p align="center"><img width="1433" height="657" alt="image" src="/assets/chaper2/gisela-santi-entrevista.png" /></p>
+
+**Resumen preliminar:** 
+
+Paola Santi es una madre de familia de 45 años de edad que reside en el distrito de San Miguel. Utiliza el servicio de movilidad escolar de forma moderada, aproximadamente dos veces a la semana, para sus hijos de 6 y 12 años que asisten a la escuela.
+
+Para comunicarse con el chófer o el tutor, usa WhatsApp, medio por el cual se envían mensajes y actualizaciones del conductor.
+
+Paola opina que lo que más le preocupa es el nivel de privacidad con respecto a la ubicación de sus menores, así como la información del chofer, siendo fundamental que este sea de confianza absoluta.
+
+## Entrevista 2 — Marleny Nori Padilla Aguirre
+
+- **Edad:** 47 años.
+- **Ocupación / segmento:** Padre o tutor de familia.
+- **Edad del menor:** 14 años.
+- **Distrito:** Cercado de Lima.
+- **Frecuencia de uso:** 1 días a la semana.
+- **Timing de inicio:** 00:00.
+- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQBZEYrCvz0UTYUAl1mpybc0AY7AkjTMQVY_AlCxp-8OP34?e=nc6MsX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+  
+<p align="center"><img width="1433" height="657" alt="image" src="/assets/chaper2/entrevista-marleny.png" /></p>
+  
+**Resumen preliminar:** 
+
+Marleny Padilla es una madre de familia y ama de casa de 47 años de edad que reside en el distrito de Cercado de Lima. Utiliza el servicio de movilidad escolar con baja frecuencia para su hija de 14 años que asiste a una escuela secundaria.
+
+Para comunicarse con el tutor o el chófer, usa WhatsApp, medio por el cual se envían mensajes y actualizaciones de ubicación.
+
+Marleny opina que lo que más le preocupa es el nivel de privacidad con respecto a la ubicación de su menor, así como la información del chofer, siendo fundamental que este sea de confianza absoluta.
 
 ## Entrevista 3 — Leonel Adrián Mitma Garro
 
@@ -805,18 +847,117 @@ Para cada entrevista se registrará nombre completo, edad, distrito, segmento, c
 
 ### 2.2.3. Análisis de entrevistas
 
-Una vez finalizadas las entrevistas, se compararán las respuestas entre ambos segmentos para identificar patrones, diferencias y necesidades recurrentes. Los porcentajes se completarán únicamente con los resultados reales obtenidos durante el trabajo de campo.
+En esta sección se analizan las respuestas obtenidas en las entrevistas registradas, con el fin de identificar las características objetivas y subjetivas más frecuentes en cada segmento objetivo. Los resultados presentados provienen exclusivamente de las entrevistas documentadas en la sección anterior y constituyen la base para la construcción de los User Personas.
 
-Con las **tres entrevistas de conductores** registradas se cuenta con un primer perfil descriptivo del segmento: las edades son **20, 25 y 56 años**, con un promedio de **33,7 años**; la experiencia declarada en transporte escolar es de **2, 5 y 25 años**, con un promedio de **10,7 años**. El análisis porcentual comparativo entre ambos segmentos se cerrará cuando se completen las **dos entrevistas pendientes de padres/tutores**, sin inventar porcentajes antes de contar con esa evidencia.
+#### Segmento 1: Conductores de movilidad escolar
 
-| Variable de análisis | Padres y tutores | Conductores de movilidad escolar |
-|---|---:|---:|
-| Canal principal de comunicación utilizado actualmente | [ ]% | [ ]% |
-| Necesidad de conocer o comunicar el estado de la ruta | [ ]% | [ ]% |
-| Necesidad de confirmación de recojo y entrega | [ ]% | [ ]% |
-| Experiencia con retrasos o cambios de horario | [ ]% | [ ]% |
-| Interés en notificaciones de eventos relevantes | [ ]% | [ ]% |
-| Preocupación por privacidad y seguridad de la información | [ ]% | [ ]% |
+Se registraron tres entrevistas a conductores de movilidad escolar que operan en Lima Metropolitana.
+
+**Características demográficas y de contexto**
+
+| Variable | Resultado |
+|---|---|
+| Edad de los entrevistados | 20, 25 y 56 años (promedio: 33,7 años) |
+| Distritos de operación | Los Olivos, Pueblo Libre y San Miguel (100 % Lima Metropolitana) |
+| Experiencia en el rubro | 2, 5 y 25 años (promedio: 10,7 años) |
+| Conductores que operan de forma independiente | 100 % |
+| Conductores que cuentan con un ayudante o asistente | 33,3 % |
+
+**Herramientas y canales digitales utilizados**
+
+| Variable | Porcentaje |
+|---|---:|
+| Utiliza WhatsApp como canal principal con las familias | 100 % |
+| Utiliza una aplicación de navegación (Google Maps, Waze) | 66,7 % |
+| Utiliza el calendario del teléfono para horarios especiales | 33,3 % |
+| Declara conocimientos casi nulos en tecnología | 33,3 % |
+| Delega el uso del teléfono en un ayudante durante la ruta | 33,3 % |
+
+**Frustraciones identificadas**
+
+| Variable | Porcentaje |
+|---|---:|
+| Recibe consultas repetitivas de los padres sobre el avance de la ruta | 100 % |
+| Presenta dificultades para coordinar si un estudiante será recogido o no | 100 % |
+| Considera que la información queda fragmentada entre conversaciones | 66,7 % |
+| Indica que responder mensajes lo distrae mientras conduce | 66,7 % |
+| Ha tenido problemas para recordar cambios comunicados por los padres | 33,3 % |
+| Ha tenido problemas de puntualidad con los estudiantes | 33,3 % |
+
+**Necesidades y expectativas sobre una solución digital**
+
+| Variable | Porcentaje |
+|---|---:|
+| Considera útil registrar los hitos de recojo y entrega | 66,7 % |
+| Requiere que la aplicación sea rápida y de pocos pasos | 66,7 % |
+| Desea que los padres puedan seguir la ruta sin contactarlo | 66,7 % |
+| Considera útil contar con la lista de alumnos y el orden de recojo | 33,3 % |
+| Declara que no utilizaría la aplicación mientras conduce | 33,3 % |
+| Menciona el costo como condición para adoptar la herramienta | 33,3 % |
+| Menciona el funcionamiento en zonas con poca señal | 33,3 % |
+| No adopta aplicaciones recomendadas por desconocimiento de su uso | 33,3 % |
+
+#### Segmento 2: Padres y tutores
+
+Se registraron tres entrevistas a padres y tutores de estudiantes que utilizan el servicio de movilidad escolar en Lima Metropolitana y el Callao.
+
+**Características demográficas y de contexto**
+
+| Variable | Resultado |
+|---|---|
+| Edad de los entrevistados | 24, 45 y 47 años (promedio: 38,7 años) |
+| Distritos de residencia | Callao, Cercado de Lima y San Miguel |
+| Edad de los menores que utilizan el servicio | 6, 6, 12 y 14 años (promedio: 9,5 años) |
+| Entrevistados con más de un menor en el servicio | 33,3 % |
+| Frecuencia de uso del servicio | 1, 2 y 5 días a la semana |
+| Entrevistados que utilizan el servicio de forma diaria | 33,3 % |
+
+**Herramientas y canales digitales utilizados**
+
+| Variable | Porcentaje |
+|---|---:|
+| Utiliza WhatsApp como canal principal con el conductor | 100 % |
+| Recibe actualizaciones de estado o ubicación por ese canal | 100 % |
+| Recibe evidencia de llegada mediante fotografías en el grupo de padres | 33,3 % |
+
+**Frustraciones y preocupaciones identificadas**
+
+| Variable | Porcentaje |
+|---|---:|
+| Manifiesta preocupación por la privacidad de la ubicación del menor | 66,7 % |
+| Considera fundamental la confianza en el conductor y su información | 66,7 % |
+| Declara incertidumbre durante el trayecto del menor | 33,3 % |
+| Asocia esa incertidumbre a la inseguridad ciudadana de su distrito | 33,3 % |
+| Ha experimentado retrasos o complicaciones con el servicio | 0 % |
+| Manifiesta estar conforme con la forma actual de coordinación | 33,3 % |
+
+**Necesidades y expectativas sobre una solución digital**
+
+| Variable | Porcentaje |
+|---|---:|
+| Considera prioritaria la ubicación del vehículo en tiempo real | 33,3 % |
+| Valora recibir evidencia de que el menor llegó a su destino | 33,3 % |
+| Menciona funcionalidades de videovigilancia dentro del vehículo | 33,3 % |
+| Condiciona el uso de la herramienta al tratamiento de los datos del menor | 66,7 % |
+| Declara que no modificaría su forma actual de coordinación | 33,3 % |
+
+#### Hallazgos del análisis
+
+**WhatsApp es el canal universal de coordinación.** La totalidad de los entrevistados de ambos segmentos utiliza esta aplicación para coordinar el servicio, lo que confirma el supuesto de que la comunicación ocurre hoy en un canal de uso general no diseñado para este fin.
+
+**Las consultas repetitivas afectan principalmente al conductor.** Los tres conductores señalaron responder diariamente las mismas preguntas sobre la proximidad de la movilidad, y dos de ellos indicaron que esto los distrae mientras conducen. En contraste, ningún padre entrevistado describió esa comunicación como un problema propio. Esto sugiere que la reducción de consultas es un beneficio percibido con mayor claridad por el segmento de conductores, y que la propuesta de valor hacia las familias debe sustentarse en la tranquilidad y la confianza antes que en la eficiencia.
+
+**La privacidad es la principal preocupación de los padres y tutores.** Dos de los tres entrevistados manifestaron que su mayor inquietud es el tratamiento de la ubicación del menor y la información del conductor, y condicionaron su confianza en una herramienta digital a este aspecto. Este hallazgo valida el supuesto de que la adopción dependerá de una adecuada gestión de permisos y visibilidad, y otorga prioridad a las historias de autorización de tutores y control de acceso.
+
+**La expectativa de ubicación en tiempo real es menor a la anticipada.** Solo uno de los tres padres entrevistados mencionó la ubicación en tiempo real como la funcionalidad más valiosa, mientras que dos expresaron reparos precisamente sobre ese tipo de información. Esto respalda la decisión de diseño de Rumbo de mostrar estados e hitos confirmados en lugar de una secuencia continua de coordenadas, y de mantener el seguimiento de ubicación fuera del alcance inicial.
+
+**La coordinación de ausencias es un problema no anticipado en su magnitud.** Los tres conductores mencionaron dificultades para saber si un estudiante será recogido, ya sea por mensajes dispersos, cambios de último momento o falta de aviso. Este hallazgo otorga mayor prioridad a la historia de reporte de ausencias de la que se le había asignado inicialmente en el Product Backlog.
+
+**La evidencia de llegada tiene valor para las familias.** Un entrevistado destacó que recibir fotografías de la llegada le genera tranquilidad, lo que sugiere que la confirmación de hitos cumple una función equivalente sin exponer la ubicación continua del menor ni su imagen.
+
+**La alfabetización digital es una barrera real de adopción.** La conductora con mayor experiencia en el rubro declaró conocimientos casi nulos en tecnología y delega el uso del teléfono en un ayudante, pese a que los padres le han recomendado aplicaciones de seguimiento. Este hallazgo refuerza la necesidad de una interfaz de pocos pasos e introduce la figura del ayudante como un usuario no previsto en los segmentos objetivo.
+
+**La satisfacción con el servicio actual puede reducir la urgencia percibida.** Ningún padre entrevistado reportó haber experimentado retrasos o complicaciones, y uno manifestó no modificaría su forma actual de coordinación. Rumbo debe, por tanto, presentarse como un complemento que aporta tranquilidad y orden, y no como la corrección de un problema que las familias perciban como crítico.
 
 ## 2.3. Needfinding
 
@@ -834,13 +975,22 @@ En esta sección se presentan las User Personas correspondientes a los dos segme
 
 ### 2.3.2. User Task Matrix
 
-| Tarea | Padre/Tutor — Frecuencia | Padre/Tutor — Importancia | Conductor — Frecuencia | Conductor — Importancia |
-|---|---|---|---|---|
-| Confirmar que el menor fue recogido | [ ] | [ ] | [ ] | [ ] |
-| Consultar o comunicar un retraso | [ ] | [ ] | [ ] | [ ] |
-| Confirmar una entrega | [ ] | [ ] | [ ] | [ ] |
-| Comunicar una incidencia | [ ] | [ ] | [ ] | [ ] |
-| Revisar lo ocurrido durante la ruta | [ ] | [ ] | [ ] | [ ] |
+La User Task Matrix resume las tareas que realizan los dos segmentos objetivo en su rutina de movilidad escolar, independientemente de que exista Rumbo. Para mantener coherencia con los User Personas, se consideran **Gabriela Morales (Padre/Tutor)** y **Carlos Rivas (Conductor)**.
+
+| Tarea del usuario | Padre/Tutor — Frecuencia | Padre/Tutor — Importancia | Conductor — Frecuencia | Conductor — Importancia |
+|---|:---:|:---:|:---:|:---:|
+| Preparar al estudiante antes del recojo | Diaria | Alta | No aplica | No aplica |
+| Confirmar si el estudiante utilizará la movilidad | Diaria | Alta | Diaria | Alta |
+| Esperar / llegar al punto de recojo acordado | Diaria | Alta | Diaria | Alta |
+| Organizar el orden de paradas del recorrido | No aplica | No aplica | Diaria | Alta |
+| Confirmar que el estudiante fue recogido | Diaria | Alta | Diaria | Alta |
+| Consultar o comunicar el avance del traslado | Diaria | Alta | Diaria | Alta |
+| Comunicar un retraso | Ocasional | Alta | Ocasional | Alta |
+| Comunicar una incidencia | Ocasional | Alta | Ocasional | Alta |
+| Confirmar la llegada o entrega del estudiante | Diaria | Alta | Diaria | Alta |
+| Coordinar el retorno del estudiante | Diaria | Media | Diaria | Media |
+
+Las tareas de **confirmar asistencia, recojo y entrega** son recurrentes y de alta importancia para ambos segmentos. La diferencia principal está en que el padre/tutor necesita mantenerse informado, mientras que el conductor debe organizar el recorrido y comunicar cambios sin distraerse durante la conducción. Esta matriz respalda la prioridad dada a los estados del traslado, hitos, retrasos, incidencias y reporte de ausencias dentro del Product Backlog.
 
 ### 2.3.3. User Journey Mapping
 
@@ -953,84 +1103,75 @@ El glosario se mantiene centrado únicamente en términos del dominio del transp
 
 ## 3.1. User Stories
 
-Esta sección presenta en un único cuadro los **Epics, User Stories y Technical Stories** del producto. Las User Stories incluyen Acceptance Criteria comprobables en formato Given-When-Then. Las historias del Landing Page utilizan el rol visitante cuando corresponde, y las Technical Stories utilizan el rol Developer para los features del RESTful API.
+A continuación se presenta el conjunto de Epics y User Stories de Rumbo. Los criterios de aceptación siguen la estructura Gherkin (Given-When-Then), se redactan en tiempo presente y tercera persona. Las Technical Stories corresponden a las capacidades del RESTful API y utilizan el rol Developer.
+
+#### Epics
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |---|---|---|---|---|
-| EP01 | Identidad, perfiles y autorización | Agrupa las historias relacionadas con identidad, perfiles y autorización. | — | — |
-| EP02 | Suscripción del conductor | Agrupa las historias relacionadas con suscripción del conductor. | — | — |
-| EP03 | Planificación de rutas y viajes | Agrupa las historias relacionadas con planificación de rutas y viajes. | — | — |
-| EP04 | Ejecución del traslado | Agrupa las historias relacionadas con ejecución del traslado. | — | — |
-| EP05 | Incidencias, notificaciones, consultas e historial | Agrupa las historias relacionadas con incidencias, notificaciones, consultas e historial. | — | — |
-| EP06 | Landing Page e información pública | Agrupa las historias relacionadas con landing page e información pública. | — | — |
-| EP07 | Servicios backend e integraciones | Agrupa las historias relacionadas con servicios backend e integraciones. | — | — |
-| US01 | Registrar cuenta de conductor | Como conductor, deseo crear mi cuenta de conductor para iniciar la configuración de mi servicio. | **Escenario 1:** Given que no existe una cuenta con mi correo, When completo los datos obligatorios y confirmo el registro, Then el sistema crea la cuenta de conductor y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP01 |
-| US02 | Enviar credenciales del conductor | Como conductor, deseo enviar mis credenciales y documentos para solicitar su revisión dentro de Rumbo. | **Escenario 1:** Given que mi cuenta de conductor está activa, When adjunto la información requerida y envío la solicitud, Then el sistema guarda la evidencia y registra el envío de credenciales. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP01 |
-| US03 | Verificar credenciales del conductor | Como conductor, deseo obtener el resultado de verificación de mis credenciales para conocer si puedo continuar con el alta del servicio. | **Escenario 1:** Given que existen credenciales enviadas y una fuente de verificación disponible, When se procesa la verificación, Then el sistema guarda el resultado verificable y registra la credencial como verificada cuando corresponde. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP01 |
-| US04 | Registrar vehículo | Como conductor, deseo registrar el vehículo que utilizaré para asociarlo a mis rutas escolares. | **Escenario 1:** Given que mi cuenta está habilitada, When registro placa y datos obligatorios válidos, Then el sistema crea el vehículo y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP01 |
-| US05 | Registrar cuenta de padre o tutor | Como padre/tutor, deseo crear mi cuenta para acceder a la información autorizada de los traslados. | **Escenario 1:** Given que no existe una cuenta con mi correo, When completo los datos obligatorios y confirmo el registro, Then el sistema crea la cuenta de padre/tutor y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP01 |
-| US06 | Registrar estudiante | Como padre/tutor, deseo registrar los datos básicos del estudiante para vincularlo posteriormente con una movilidad autorizada. | **Escenario 1:** Given que estoy autenticado como tutor, When registro los datos obligatorios del menor, Then el sistema crea el perfil del estudiante y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP01 |
-| US07 | Vincular tutor con estudiante | Como padre/tutor, deseo vincularme con el estudiante bajo mi responsabilidad para consultar únicamente la información que me corresponde. | **Escenario 1:** Given que existe un estudiante y la relación puede ser autorizada, When confirmo la vinculación, Then el sistema crea la relación de autorización y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP01 |
-| US08 | Activar suscripción del conductor | Como conductor, deseo activar una suscripción de Rumbo para habilitar las funciones incluidas en mi plan. | **Escenario 1:** Given que existe un plan válido y se cumplen sus condiciones, When confirmo la activación o el pago aprobado, Then el sistema activa la suscripción y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP02 |
-| US09 | Presentar propuesta de valor en Landing Page | Como visitante, deseo conocer la propuesta de valor de Rumbo para comprender qué problema resuelve el producto. | Given que accedo a la Landing Page, When visualizo la sección principal, Then encuentro una explicación clara del producto y su beneficio principal. | EP06 |
-| US10 | Presentar beneficios por segmento | Como visitante, deseo conocer beneficios específicos para padres/tutores y conductores para identificar si Rumbo responde a mis necesidades. | Given que reviso la Landing Page, When selecciono o llego a mi segmento, Then encuentro beneficios y casos de uso correspondientes. | EP06 |
-| US11 | Soportar inglés y español en Landing Page | Como visitante, deseo cambiar entre inglés y español para consultar el contenido en un idioma disponible. | Given que ingreso por primera vez, When carga la Landing Page, Then usa inglés por defecto; Given que selecciono español, When continúo navegando, Then usa es_419 y conserva la preferencia durante la sesión. | EP06 |
-| US12 | Acceder a términos y condiciones desde el footer | Como visitante, deseo acceder a Terms & Conditions y Privacy Policy para conocer las reglas de uso y tratamiento de datos. | Given que estoy en cualquier sección, When llego al footer, Then encuentro enlaces visibles a ambos documentos. | EP06 |
-| US13 | Crear ruta escolar | Como conductor, deseo crear una ruta escolar para organizar un recorrido recurrente. | **Escenario 1:** Given que estoy autenticado y tengo un vehículo disponible, When registro nombre, turno y datos mínimos de la ruta, Then el sistema crea la ruta y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP03 |
-| US14 | Agregar parada a la ruta | Como conductor, deseo agregar una parada para definir los puntos de recojo o entrega del recorrido. | **Escenario 1:** Given que existe una ruta editable, When registro una parada válida, Then el sistema incorpora la parada y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP03 |
-| US15 | Definir orden de paradas | Como conductor, deseo ordenar las paradas de la ruta para mantener una secuencia operativa clara. | **Escenario 1:** Given que la ruta contiene dos o más paradas, When guardo un nuevo orden, Then el sistema conserva la secuencia y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP03 |
-| US16 | Asignar estudiante a la ruta | Como conductor, deseo asignar un estudiante autorizado a una ruta para incluirlo en los recorridos correspondientes. | **Escenario 1:** Given que existe autorización del tutor y capacidad disponible, When selecciono estudiante, ruta y turno, Then el sistema crea la asignación y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP03 |
-| US17 | Definir horario de la ruta | Como conductor, deseo definir días y horarios de una ruta para programar sus recorridos recurrentes. | **Escenario 1:** Given que la ruta existe, When configuro un horario válido, Then el sistema guarda el horario y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP03 |
-| US18 | Modificar ruta | Como conductor, deseo actualizar la configuración de una ruta para mantenerla alineada con la operación real. | **Escenario 1:** Given que la ruta es editable, When modifico un dato permitido, Then el sistema guarda el cambio con trazabilidad y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP03 |
-| US19 | Programar viaje | Como conductor, deseo programar un viaje a partir de una ruta para preparar un traslado para una fecha y turno. | **Escenario 1:** Given que existe una ruta publicada internamente con horario válido, When confirmo la fecha y el turno, Then el sistema crea el viaje programado y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP03 |
-| US20 | Generar lista del viaje | Como conductor, deseo obtener la lista de estudiantes prevista para el viaje para saber a quiénes debo recoger o entregar. | **Escenario 1:** Given que existe un viaje programado, When consulto la lista antes de iniciar, Then el sistema genera la nómina considerando asignaciones y ausencias registradas. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP03 |
-| US21 | Reportar ausencia del estudiante | Como padre/tutor, deseo informar que el estudiante no usará la movilidad para evitar una parada innecesaria. | **Escenario 1:** Given que existe un viaje aplicable, When registro la ausencia para la fecha correspondiente, Then el sistema actualiza la nómina y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP03 |
-| US22 | Cancelar viaje | Como conductor, deseo cancelar un viaje que no se realizará para evitar que las familias esperen un servicio inexistente. | **Escenario 1:** Given que el viaje aún no está completado, When confirmo la cancelación e indico el motivo cuando corresponda, Then el sistema cambia el estado, registra la cancelación y comunica a usuarios autorizados. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP03 |
-| US23 | Iniciar viaje | Como conductor, deseo iniciar el viaje programado para dejar visible que la ruta está en ejecución. | **Escenario 1:** Given que el viaje está programado y el vehículo está listo, When confirmo el inicio con el vehículo detenido, Then el sistema registra hora de inicio y el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP04 |
-| US24 | Registrar llegada a una parada | Como conductor/asistente, deseo registrar que la movilidad llegó a una parada para mantener actualizado el avance de la ruta. | **Escenario 1:** Given que el viaje está activo, When confirmo la llegada estando detenido, Then el sistema registra la parada alcanzada con fecha y hora. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP04 |
-| US25 | Confirmar recojo del estudiante | Como conductor/asistente, deseo confirmar el recojo de un estudiante para dejar constancia del hito para su tutor. | **Escenario 1:** Given que el viaje está activo y el estudiante figura en la parada, When confirmo el recojo, Then el sistema registra fecha, hora, estudiante y evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP04 |
-| US26 | Registrar recojo no realizado | Como conductor/asistente, deseo marcar un recojo que no pudo realizarse para evitar que el estado del estudiante sea ambiguo. | **Escenario 1:** Given que el estudiante estaba previsto en la parada, When indico que el recojo no se realizó, Then el sistema registra el evento sin marcar al estudiante como recogido. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP04 |
-| US27 | Completar parada | Como conductor/asistente, deseo cerrar una parada atendida para continuar con la siguiente etapa de la ruta. | **Escenario 1:** Given que los estudiantes previstos de la parada tienen un resultado registrado, When confirmo el cierre de la parada, Then el sistema marca la parada como completada y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP04 |
-| US28 | Registrar retraso | Como conductor/asistente, deseo registrar un retraso y su causa para informar a las familias afectadas con un solo registro. | **Escenario 1:** Given que el viaje está activo, When registro una demora válida, Then el sistema incorpora el retraso al viaje y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP05 |
-| US29 | Reportar incidencia | Como conductor/asistente, deseo registrar una incidencia operativa para comunicar el imprevisto con contexto suficiente. | **Escenario 1:** Given que el viaje está activo, When selecciono categoría y agrego la información necesaria, Then el sistema registra la incidencia, fecha y hora. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP05 |
-| US30 | Confirmar llegada al colegio | Como conductor/asistente, deseo confirmar la llegada al centro educativo para informar que la etapa de ida fue completada. | **Escenario 1:** Given que el viaje de ida está activo, When confirmo la llegada al colegio, Then el sistema registra la llegada y actualiza el estado correspondiente. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP04 |
-| US31 | Iniciar viaje de retorno | Como conductor, deseo iniciar el recorrido de retorno para diferenciarlo de la ruta de ida. | **Escenario 1:** Given que existe un retorno programado o habilitado, When confirmo su inicio, Then el sistema registra el inicio del retorno y su hora. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP04 |
-| US32 | Confirmar entrega del estudiante | Como conductor/asistente, deseo confirmar la entrega del estudiante para cerrar su traslado individual y avisar al tutor. | **Escenario 1:** Given que el estudiante fue trasladado al destino autorizado, When confirmo la entrega, Then el sistema registra destino, fecha, hora y evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP04 |
-| US33 | Registrar entrega rechazada | Como conductor/asistente, deseo registrar que una entrega no pudo completarse para mantener trazabilidad y evitar marcar una entrega falsa. | **Escenario 1:** Given que existe un intento de entrega, When selecciono el motivo de rechazo, Then el sistema registra el evento y mantiene el traslado como no entregado. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP04 |
-| US34 | Formulario público de contacto | Como visitante, deseo enviar una consulta desde la Landing Page para solicitar información sobre Rumbo. | Given que completo los datos obligatorios válidos, When envío el formulario, Then el sistema confirma el registro de la solicitud. | EP06 |
-| US35 | Sección de preguntas frecuentes por segmento | Como visitante, deseo consultar preguntas frecuentes para resolver dudas antes de usar Rumbo. | Given que reviso la sección FAQ, When selecciono una pregunta, Then puedo leer una respuesta clara y relevante para mi segmento. | EP06 |
-| US36 | Completar viaje | Como conductor, deseo finalizar un viaje para consolidar su resultado e historial. | **Escenario 1:** Given que los hitos obligatorios tienen un resultado, When confirmo el cierre del recorrido, Then el sistema registra la hora de fin y el evento de viaje completado. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP04 |
-| US37 | Resolver incidencia | Como conductor/asistente, deseo marcar una incidencia como resuelta para informar que la situación fue normalizada. | **Escenario 1:** Given que existe una incidencia abierta, When registro su resolución, Then el sistema actualiza el estado y registra el evento. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP05 |
-| US38 | Generar línea de tiempo del viaje | Como padre/tutor, deseo disponer de una línea de tiempo ordenada para entender qué ocurrió sin revisar chats. | **Escenario 1:** Given que existen eventos autorizados del viaje, When abro el detalle del traslado, Then el sistema genera la secuencia cronológica con fecha y hora. // **Escenario 2:** Given que la misma operación se reprocesa, When el backend detecta el mismo contexto, Then evita duplicar el evento y conserva la trazabilidad. | EP05 |
-| US39 | Archivar historial del viaje | Como padre/tutor, deseo conservar el historial de viajes finalizados para consultar posteriormente dudas o reclamos. | **Escenario 1:** Given que un viaje fue completado o cancelado, When el sistema consolida sus eventos, Then el historial queda archivado sin perder trazabilidad. // **Escenario 2:** Given que la misma operación se reprocesa, When el backend detecta el mismo contexto, Then evita duplicar el evento y conserva la trazabilidad. | EP05 |
-| US40 | Solicitar eliminación de datos del estudiante | Como padre/tutor, deseo solicitar la supresión de los datos personales del estudiante para ejercer el control sobre su información. | **Escenario 1:** Given que soy tutor autorizado, When envío una solicitud de eliminación, Then el sistema registra la solicitud y su fecha para el flujo de atención correspondiente. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP01 |
-| US41 | Disparar notificación por evento relevante | Como padre/tutor, deseo recibir avisos solo cuando ocurra un evento relevante para mantenerme informado sin mensajes repetitivos. | **Escenario 1:** Given que ocurre un evento notificable y tengo acceso al viaje, When el sistema evalúa las reglas y preferencias, Then se genera una notificación dirigida a los destinatarios autorizados. // **Escenario 2:** Given que la misma operación se reprocesa, When el backend detecta el mismo contexto, Then evita duplicar el evento y conserva la trazabilidad. | EP05 |
-| US42 | Acceder a Rumbo desde el CTA del segmento | Como visitante, deseo ingresar a la experiencia correspondiente a mi segmento para comenzar a usar Rumbo. | Given que me identifico como padre/tutor o conductor, When selecciono el CTA correspondiente, Then soy dirigido al acceso o registro de ese segmento. | EP06 |
-| US43 | Enviar notificación | Como padre/tutor, deseo recibir la notificación generada para conocer oportunamente el evento de la ruta. | **Escenario 1:** Given que existe una notificación pendiente y un canal válido, When el servicio de mensajería procesa el envío, Then el sistema registra que la notificación fue enviada. // **Escenario 2:** Given que la misma operación se reprocesa, When el backend detecta el mismo contexto, Then evita duplicar el evento y conserva la trazabilidad. | EP05 |
-| US44 | Registrar fallo de entrega de notificación | Como padre/tutor, deseo que un fallo de notificación quede registrado para evitar que el sistema asuma que fui informado. | **Escenario 1:** Given que el proveedor devuelve un error de entrega, When el sistema procesa el resultado, Then se registra el fallo y la notificación no se marca como entregada. // **Escenario 2:** Given que la misma operación se reprocesa, When el backend detecta el mismo contexto, Then evita duplicar el evento y conserva la trazabilidad. | EP05 |
-| US45 | Marcar notificación como leída | Como padre/tutor, deseo marcar como leído un aviso consultado para distinguir información nueva de la revisada. | **Escenario 1:** Given que tengo una notificación visible, When abro su detalle, Then el sistema registra la lectura con fecha y hora. // **Escenario 2:** Given que la misma operación se reprocesa, When el backend detecta el mismo contexto, Then evita duplicar el evento y conserva la trazabilidad. | EP05 |
-| US46 | Consultar estado del viaje | Como padre/tutor, deseo consultar el estado actual del viaje para saber en pocos segundos en qué etapa está el traslado. | **Escenario 1:** Given que tengo acceso autorizado a un viaje, When abro la vista de estado, Then el sistema muestra el estado vigente y registra la consulta. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP05 |
-| US47 | Consultar línea de tiempo | Como padre/tutor, deseo consultar la línea de tiempo del trayecto para revisar los hitos ya ocurridos. | **Escenario 1:** Given que tengo acceso autorizado al viaje, When abro la línea de tiempo, Then el sistema muestra los eventos en orden cronológico y registra la consulta. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP05 |
-| US48 | Confirmar lectura de una incidencia | Como padre/tutor, deseo confirmar que he tomado conocimiento de una incidencia relevante para dejar constancia de que el aviso fue revisado. | **Escenario 1:** Given que existe una incidencia visible para mí, When selecciono confirmar conocimiento, Then el sistema registra el reconocimiento con usuario y fecha. // **Escenario 2:** Given que un usuario sin permiso intenta ejecutar la acción, When solicita la operación, Then el sistema la rechaza sin registrar el evento. | EP05 |
-| TS01 | Integración con ATU API para verificación de credenciales | Como Developer, deseo integrar el servicio externo disponible de ATU para soportar el flujo de verificación de credenciales sin simular una validación oficial. | Given una solicitud válida y disponibilidad del servicio externo, When se consulta la verificación, Then el backend registra la respuesta y su fuente; si el servicio no está disponible, no inventa un estado verificado. | EP07 |
-| TS02 | Integración con API Maps para rutas y paradas | Como Developer, deseo integrar una API de mapas para validar y representar ubicaciones de rutas y paradas cuando corresponda. | Given coordenadas o direcciones válidas, When el backend consulta el servicio, Then retorna la información necesaria sin convertir el GPS continuo en requisito del MVP. | EP07 |
-| TS03 | Integración con servicio de notificaciones | Como Developer, deseo integrar un proveedor de mensajería para procesar Notification Triggered, Notification Sent y Notification Delivery Failed. | Given una notificación válida, When el proveedor procesa el envío, Then el backend conserva el resultado y la trazabilidad del intento. | EP07 |
-| TS04 | Autenticación y autorización con JWT y RBAC | Como Developer, deseo proteger el RESTful API por identidad y rol para que padres, conductores y asistentes accedan solo a recursos autorizados. | Given un token válido, When se solicita un recurso, Then el backend aplica permisos; sin autorización suficiente responde con el código HTTP correspondiente. | EP07 |
-| TS05 | Documentación del RESTful API con OpenAPI/Swagger | Como Developer, deseo documentar endpoints y esquemas para facilitar pruebas y comprensión del servicio. | Given el backend en ejecución, When abro Swagger/OpenAPI, Then puedo consultar endpoints, parámetros, schemas y respuestas esperadas. | EP07 |
-| TS06 | Internacionalización del RESTful API | Como Developer, deseo localizar mensajes de validación y error para en_US y es_419 manteniendo inglés como idioma predeterminado. | Given una solicitud sin preferencia, When se genera un mensaje, Then usa en_US; Given es_419, When existe traducción, Then devuelve español latinoamericano. | EP07 |
-| TS07 | Auditoría de eventos operativos | Como Developer, deseo conservar quién, cuándo y qué cambió en eventos críticos de rutas y viajes para mantener trazabilidad. | Given una operación crítica confirmada, When se persiste, Then se registra actor, fecha, acción y referencia del recurso. | EP07 |
-| TS08 | Persistencia transaccional con Entity Framework Core | Como Developer, deseo persistir agregados y eventos relevantes con EF Core para mantener consistencia entre estado y trazabilidad. | Given una operación válida, When la transacción se confirma, Then estado y evento quedan persistidos; si falla, no se deja información parcial. | EP07 |
+| EP01 | Identidad, perfiles y autorización | Registro de conductores, padres y estudiantes, acceso al sistema según rol, y control sobre qué tutores pueden consultar la información de cada menor, incluida la solicitud de supresión de sus datos. | — | — |
+| EP02 | Suscripción del conductor | Activación y vigencia del plan que habilita al conductor el uso de las funcionalidades de Rumbo. | — | — |
+| EP03 | Planificación de rutas y viajes | Creación de rutas con sus paradas, orden y horario, asignación de estudiantes autorizados, publicación de la ruta y programación de los viajes de cada jornada, incluyendo ausencias y cancelaciones. | — | — |
+| EP04 | Ejecución del traslado | Registro de los hitos del recorrido por parte del conductor: inicio del viaje, recojos, llegada al centro educativo, retorno, entregas y cierre del traslado. | — | — |
+| EP05 | Visibilidad, incidencias y comunicación | Consulta del estado y la línea de tiempo por parte de los tutores autorizados, y comunicación de retrasos, incidencias y notificaciones sobre los eventos relevantes de la ruta. | — | — |
+| EP06 | Landing Page e información pública | Contenido público que presenta la propuesta de valor de Rumbo, los beneficios por segmento, los documentos legales y los accesos a la aplicación web. | — | — |
+| EP07 | RESTful API e integraciones | Capacidades técnicas del RESTful API, incluyendo autenticación, documentación, internacionalización e integración con servicios externos requeridos por Rumbo. | — | — |
+
+#### User Stories
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|---|---|---|---|---|
+| US01 | Registrar cuenta de conductor | Como conductor, deseo crear mi cuenta para iniciar la configuración de mi servicio en Rumbo. | **Escenario 1: Registro exitoso**<br>Given que no existe una cuenta asociada al correo indicado<br>When el conductor completa los datos obligatorios y confirma el registro<br>Then el sistema crea la cuenta con rol de conductor y solicita la verificación del correo<br><br>**Escenario 2: Correo ya registrado**<br>Given que existe una cuenta asociada al correo indicado<br>When el conductor intenta registrarse con ese correo<br>Then el sistema rechaza el registro e indica que puede iniciar sesión o recuperar su acceso<br><br>**Escenario 3: Datos obligatorios incompletos**<br>Given un formulario de registro con datos faltantes<br>When el conductor confirma el registro<br>Then el sistema informa qué datos obligatorios debe completar y no crea la cuenta | EP01 |
+| US02 | Registrar vehículo y credenciales del servicio | Como conductor, deseo registrar mi vehículo y las credenciales que acreditan mi servicio para que las familias conozcan la información declarada de mi movilidad. | **Escenario 1: Registro de vehículo y credenciales**<br>Given un conductor con cuenta activa<br>When registra la placa, la capacidad del vehículo y los documentos requeridos<br>Then el sistema asocia el vehículo al conductor y deja las credenciales en estado pendiente de verificación<br><br>**Escenario 2: Placa ya registrada**<br>Given que la placa indicada pertenece a un vehículo activo de otro conductor<br>When el conductor intenta registrarla<br>Then el sistema rechaza el registro e informa que la placa ya se encuentra asociada<br><br>**Escenario 3: Verificación de credenciales**<br>Given credenciales enviadas y un servicio de verificación disponible<br>When el sistema obtiene una respuesta del servicio<br>Then registra el resultado junto con su fuente y fecha de consulta<br><br>**Escenario 4: Servicio de verificación no disponible**<br>Given credenciales enviadas y el servicio de verificación fuera de operación<br>When el sistema intenta la consulta<br>Then mantiene las credenciales como pendientes y no las declara verificadas | EP01 |
+| US03 | Registrar cuenta de padre o tutor | Como padre o tutor, deseo crear mi cuenta para acceder a la información autorizada de los traslados de mis hijos. | **Escenario 1: Registro exitoso**<br>Given que no existe una cuenta asociada al correo indicado<br>When el tutor completa los datos obligatorios y confirma el registro<br>Then el sistema crea la cuenta con rol de padre o tutor y solicita la verificación del correo<br><br>**Escenario 2: Correo ya registrado**<br>Given que existe una cuenta asociada al correo indicado<br>When el tutor intenta registrarse con ese correo<br>Then el sistema rechaza el registro e indica que puede iniciar sesión o recuperar su acceso | EP01 |
+| US04 | Iniciar sesión según rol | Como usuario registrado, deseo iniciar sesión con mis credenciales para acceder a las funcionalidades correspondientes a mi rol. | **Escenario 1: Acceso válido**<br>Given una cuenta activa con credenciales correctas<br>When el usuario inicia sesión<br>Then el sistema le otorga acceso a las funcionalidades permitidas para su rol<br><br>**Escenario 2: Credenciales inválidas**<br>Given credenciales incorrectas<br>When el usuario intenta iniciar sesión<br>Then el sistema rechaza el acceso sin revelar cuál de los datos es incorrecto<br><br>**Escenario 3: Cuenta sin verificar**<br>Given una cuenta cuyo correo no ha sido verificado<br>When el usuario intenta iniciar sesión<br>Then el sistema informa que debe completar la verificación antes de continuar | EP01 |
+| US05 | Recuperar acceso a la cuenta | Como usuario registrado, deseo restablecer mi contraseña para recuperar el acceso en caso de olvido. | **Escenario 1: Solicitud válida**<br>Given un correo asociado a una cuenta activa<br>When el usuario solicita recuperar su acceso<br>Then el sistema envía un enlace temporal para establecer una nueva contraseña<br><br>**Escenario 2: Enlace expirado o utilizado**<br>Given un enlace de recuperación vencido o ya usado<br>When el usuario intenta acceder con él<br>Then el sistema lo rechaza y solicita generar una nueva petición<br><br>**Escenario 3: Correo no registrado**<br>Given un correo que no corresponde a ninguna cuenta<br>When se solicita la recuperación<br>Then el sistema responde de forma uniforme sin revelar si el correo existe | EP01 |
+| US06 | Registrar estudiante y vincularse como tutor | Como padre o tutor, deseo registrar a mi hijo y quedar vinculado como su tutor para poder consultar la información de sus traslados. | **Escenario 1: Registro y vinculación**<br>Given un tutor autenticado<br>When registra los datos obligatorios del estudiante<br>Then el sistema crea el perfil del estudiante y establece la autorización del tutor sobre él<br><br>**Escenario 2: Actualización de datos**<br>Given un estudiante ya registrado<br>When el tutor modifica un dato permitido<br>Then el sistema actualiza la información y conserva la relación con sus viajes anteriores<br><br>**Escenario 3: Datos obligatorios incompletos**<br>Given un registro con datos faltantes<br>When el tutor confirma la operación<br>Then el sistema indica qué datos debe completar y no crea el perfil | EP01 |
+| US07 | Autorizar o revocar a otro tutor | Como padre o tutor, deseo autorizar o retirar el acceso de otro tutor sobre mi hijo para controlar quién puede consultar su información. | **Escenario 1: Autorización de un tutor adicional**<br>Given un tutor con autorización vigente sobre un estudiante<br>When autoriza a otra persona registrada como tutor de ese estudiante<br>Then el sistema crea la nueva autorización y la habilita para consultar la información del menor<br><br>**Escenario 2: Revocación**<br>Given una autorización vigente sobre un estudiante<br>When el tutor responsable la revoca<br>Then el sistema retira el acceso y la persona deja de recibir notificaciones sobre ese estudiante<br><br>**Escenario 3: Persona no registrada**<br>Given que la persona indicada no cuenta con una cuenta en Rumbo<br>When se intenta autorizarla<br>Then el sistema informa que debe registrarse previamente<br><br>**Escenario 4: Consulta sin autorización**<br>Given un usuario sin autorización vigente sobre un estudiante<br>When intenta consultar su información<br>Then el sistema rechaza la operación | EP01 |
+| US08 | Solicitar la supresión de datos del estudiante | Como padre o tutor, deseo solicitar la eliminación de los datos personales de mi hijo para ejercer el control sobre su información. | **Escenario 1: Solicitud registrada**<br>Given un tutor con autorización vigente sobre un estudiante<br>When envía una solicitud de supresión de datos<br>Then el sistema registra la solicitud con su fecha y la deriva al procedimiento de atención correspondiente<br><br>**Escenario 2: Estudiante con viajes en curso**<br>Given un estudiante asignado a un viaje que aún no finaliza<br>When se registra la solicitud<br>Then el sistema la conserva como pendiente hasta el cierre del viaje e informa esta condición al tutor | EP01 |
+| US09 | Activar la suscripción del conductor | Como conductor, deseo activar una suscripción para habilitar las funcionalidades incluidas en mi plan. | **Escenario 1: Activación válida**<br>Given un conductor con cuenta activa y un plan disponible<br>When el conductor confirma la activación de la suscripción<br>Then el sistema registra el plan y su periodo de vigencia y habilita las funcionalidades correspondientes<br><br>**Escenario 2: Suscripción ya activa**<br>Given un conductor con una suscripción vigente al mismo plan<br>When solicita activarla nuevamente<br>Then el sistema conserva la suscripción vigente y evita generar una activación duplicada | EP02 |
+| US10 | Crear una ruta con sus paradas | Como conductor, deseo crear una ruta con sus paradas en el orden en que las recorro para organizar mi servicio. | **Escenario 1: Creación de la ruta**<br>Given un conductor con cuenta activa y un vehículo registrado<br>When registra el nombre, el turno y los datos obligatorios de la ruta<br>Then el sistema crea la ruta en estado configurable<br><br>**Escenario 2: Incorporación de paradas**<br>Given una ruta en estado configurable<br>When el conductor agrega una parada con una dirección válida<br>Then el sistema la incorpora al recorrido y le asigna la siguiente posición disponible<br><br>**Escenario 3: Reordenamiento de paradas**<br>Given una ruta con dos o más paradas<br>When el conductor modifica el orden del recorrido<br>Then el sistema conserva la nueva secuencia para los viajes que se generen a partir de esa ruta<br><br>**Escenario 4: Dirección no localizable**<br>Given una dirección que el servicio de mapas no puede ubicar<br>When el conductor intenta agregar la parada<br>Then el sistema informa la situación y permite corregir la dirección antes de guardarla | EP03 |
+| US11 | Definir el horario de la ruta | Como conductor, deseo establecer los días y horarios de una ruta para que sus viajes se programen de forma recurrente. | **Escenario 1: Horario válido**<br>Given una ruta en estado configurable<br>When el conductor define los días de servicio y las horas correspondientes<br>Then el sistema guarda el horario y lo asocia a la ruta<br><br>**Escenario 2: Horario incompleto**<br>Given una ruta con datos de horario incompletos<br>When el conductor intenta confirmar la programación<br>Then el sistema rechaza la operación e indica qué información obligatoria falta | EP03 |
+| US12 | Asignar estudiantes a una ruta | Como conductor, deseo asignar a los estudiantes autorizados a una ruta y a su parada para incluirlos en los recorridos. | **Escenario 1: Asignación autorizada**<br>Given un estudiante registrado, una ruta existente y una vinculación autorizada<br>When el conductor asigna al estudiante a una parada de la ruta<br>Then el sistema registra la asignación y lo incluye en los viajes que se generen para esa ruta<br><br>**Escenario 2: Estudiante sin autorización**<br>Given un estudiante cuya vinculación no está autorizada<br>When el conductor intenta asignarlo a una ruta<br>Then el sistema rechaza la operación y no crea la asignación<br><br>**Escenario 3: Asignación duplicada**<br>Given un estudiante ya asignado a la misma ruta y turno<br>When el conductor intenta asignarlo nuevamente<br>Then el sistema conserva una sola asignación | EP03 |
+| US13 | Publicar una ruta | Como conductor, deseo publicar una ruta configurada para habilitar la programación de sus viajes y su visibilidad para los tutores autorizados. | **Escenario 1: Publicación exitosa**<br>Given una ruta con al menos una parada, un horario definido y un estudiante asignado<br>When el conductor la publica<br>Then el sistema cambia su estado a publicada y habilita la generación de viajes<br><br>**Escenario 2: Configuración incompleta**<br>Given una ruta sin horario definido o sin paradas<br>When el conductor intenta publicarla<br>Then el sistema impide la publicación e indica qué configuración falta<br><br>**Escenario 3: Visibilidad para los tutores**<br>Given una ruta publicada<br>When un tutor autorizado consulta el servicio de su hijo<br>Then puede conocer la ruta, su horario y el conductor responsable | EP03 |
+| US14 | Modificar una ruta publicada | Como conductor, deseo actualizar una ruta publicada para mantenerla alineada con mi operación real. | **Escenario 1: Modificación aplicada**<br>Given una ruta publicada<br>When el conductor modifica una parada, su orden o su horario<br>Then el sistema guarda el cambio para los viajes que se generen posteriormente<br><br>**Escenario 2: Viaje en curso**<br>Given un viaje activo generado a partir de la ruta<br>When el conductor modifica la configuración de la ruta<br>Then el viaje en curso conserva la configuración con la que fue iniciado | EP03 |
+| US15 | Programar el viaje de la jornada | Como conductor, deseo contar con el viaje del día y la lista de estudiantes prevista para saber a quiénes debo recoger. | **Escenario 1: Programación del viaje**<br>Given una ruta publicada con horario vigente<br>When corresponde un día de servicio según su horario<br>Then el sistema programa el viaje para esa fecha y turno<br><br>**Escenario 2: Generación de la lista**<br>Given un viaje programado<br>When el conductor consulta la lista antes de iniciar el recorrido<br>Then el sistema presenta a los estudiantes asignados en el orden de sus paradas, excluyendo las ausencias registradas<br><br>**Escenario 3: Ruta sin estudiantes activos**<br>Given una ruta publicada cuyos estudiantes reportaron ausencia para la fecha<br>When se programa el viaje<br>Then el sistema lo informa al conductor para que decida si realiza el recorrido | EP03 |
+| US16 | Reportar la ausencia del estudiante | Como padre o tutor, deseo informar que mi hijo no usará la movilidad para evitar una parada innecesaria. | **Escenario 1: Ausencia antes del inicio**<br>Given un viaje programado que aún no ha iniciado<br>When el tutor reporta la ausencia del estudiante para esa jornada<br>Then el sistema actualiza la lista del viaje y excluye su recojo<br><br>**Escenario 2: Ausencia durante el recorrido**<br>Given un viaje iniciado cuya parada del estudiante aún no ha sido atendida<br>When el tutor reporta la ausencia<br>Then el sistema actualiza la lista del viaje y comunica el cambio al conductor<br><br>**Escenario 3: Parada ya atendida**<br>Given que la parada correspondiente al estudiante ya fue completada<br>When el tutor intenta reportar la ausencia para ese viaje<br>Then el sistema rechaza el cambio para esa jornada | EP03 |
+| US17 | Cancelar un viaje | Como conductor, deseo cancelar un viaje que no se realizará para que las familias no esperen un servicio inexistente. | **Escenario 1: Cancelación antes del inicio**<br>Given un viaje programado que aún no ha iniciado<br>When el conductor lo cancela indicando el motivo<br>Then el sistema registra la cancelación e informa a los tutores de los estudiantes asignados<br><br>**Escenario 2: Cancelación con el viaje en curso**<br>Given un viaje iniciado que no puede continuar<br>When el conductor lo cancela indicando el motivo<br>Then el sistema conserva los hitos ya registrados, cierra el viaje como cancelado e informa a los tutores<br><br>**Escenario 3: Viaje completado**<br>Given un viaje que ya fue completado<br>When se intenta cancelarlo<br>Then el sistema rechaza la operación | EP03 |
+| US18 | Iniciar el viaje | Como conductor, deseo iniciar el recorrido para que los tutores sepan que la ruta está en ejecución. | **Escenario 1: Inicio del recorrido**<br>Given un viaje programado para la jornada<br>When el conductor confirma el inicio<br>Then el sistema registra la hora de inicio y cambia el estado del viaje a en ejecución<br><br>**Escenario 2: Viaje ya iniciado**<br>Given un viaje que ya se encuentra en ejecución<br>When se intenta iniciarlo nuevamente<br>Then el sistema mantiene el estado vigente y no registra un segundo inicio | EP04 |
+| US19 | Registrar los hitos de una parada | Como conductor, deseo confirmar los recojos de cada parada en pocos segundos para dejar constancia sin afectar mi recorrido. | **Escenario 1: Recojo confirmado**<br>Given un viaje en ejecución y un estudiante previsto en una parada<br>When el conductor confirma el recojo<br>Then el sistema registra el hito con fecha y hora y actualiza el estado del estudiante<br><br>**Escenario 2: Recojo no realizado**<br>Given un estudiante previsto que no aborda la movilidad<br>When el conductor registra el recojo como no realizado<br>Then el sistema conserva el resultado sin marcar al estudiante como recogido<br><br>**Escenario 3: Parada completada**<br>Given una parada cuyos estudiantes previstos tienen un resultado registrado<br>When el conductor confirma el cierre de la parada<br>Then el sistema marca la parada como completada y continúa con la siguiente etapa del recorrido | EP04 |
+| US20 | Confirmar la llegada al colegio e iniciar el retorno | Como conductor, deseo confirmar la llegada al centro educativo y dar inicio al retorno para diferenciar ambas etapas del servicio. | **Escenario 1: Llegada al colegio**<br>Given un viaje de ida en ejecución<br>When el conductor confirma la llegada al centro educativo<br>Then el sistema registra el hito e informa a los tutores de los estudiantes a bordo<br><br>**Escenario 2: Inicio del retorno**<br>Given una llegada al colegio confirmada y un retorno previsto<br>When el conductor inicia el recorrido de vuelta<br>Then el sistema registra el inicio del retorno y conserva el historial de la etapa de ida<br><br>**Escenario 3: Servicio sin retorno**<br>Given un viaje configurado únicamente como ida<br>When se confirma la llegada al colegio<br>Then el sistema habilita el cierre del viaje sin requerir un retorno | EP04 |
+| US21 | Confirmar la entrega del estudiante | Como conductor, deseo confirmar la entrega de cada estudiante para cerrar su traslado y avisar a su tutor. | **Escenario 1: Entrega confirmada**<br>Given un estudiante a bordo y el vehículo detenido en su punto de entrega<br>When el conductor confirma la entrega<br>Then el sistema registra el hito con destino, fecha y hora e informa a los tutores autorizados<br><br>**Escenario 2: Entrega no concretada**<br>Given un punto de entrega donde no se presenta una persona autorizada<br>When el conductor registra la entrega como no concretada indicando el motivo<br>Then el sistema conserva al estudiante como no entregado e informa a sus tutores de inmediato<br><br>**Escenario 3: Entrega posterior**<br>Given una entrega registrada como no concretada<br>When la entrega se concreta más adelante durante el mismo viaje<br>Then el sistema registra el nuevo hito conservando el intento anterior | EP04 |
+| US22 | Completar el viaje | Como conductor, deseo cerrar el viaje para consolidar su resultado y dejarlo disponible como historial. | **Escenario 1: Cierre del viaje**<br>Given un viaje cuyos estudiantes cuentan con un resultado registrado<br>When el conductor confirma el cierre del recorrido<br>Then el sistema registra la hora de término, consolida la línea de tiempo y archiva el viaje en el historial<br><br>**Escenario 2: Hitos pendientes**<br>Given un viaje con estudiantes sin resultado registrado<br>When el conductor intenta cerrarlo<br>Then el sistema advierte qué hitos se encuentran pendientes antes de permitir el cierre<br><br>**Escenario 3: Consulta posterior**<br>Given un viaje archivado<br>When un tutor autorizado consulta ese traslado<br>Then el sistema presenta los hitos registrados conservando su orden cronológico | EP04 |
+| US23 | Registrar un retraso | Como conductor, deseo registrar un retraso y su causa para informar con un solo registro a todas las familias afectadas. | **Escenario 1: Retraso registrado**<br>Given un viaje en ejecución y el vehículo detenido<br>When el conductor registra una demora indicando su causa y magnitud estimada<br>Then el sistema incorpora el retraso al viaje e informa a los tutores de los estudiantes pendientes de atención<br><br>**Escenario 2: Actualización del retraso**<br>Given un retraso previamente informado<br>When el conductor actualiza su estimación<br>Then el sistema conserva el registro anterior y comunica la información vigente<br><br>**Escenario 3: Estudiantes ya atendidos**<br>Given un retraso registrado<br>When se determinan los destinatarios del aviso<br>Then el sistema excluye a los tutores cuyos estudiantes ya fueron entregados | EP05 |
+| US24 | Registrar una incidencia | Como conductor, deseo registrar una incidencia para comunicar un imprevisto con contexto suficiente y sin repetir el mensaje a cada familia. | **Escenario 1: Incidencia registrada**<br>Given un viaje en ejecución y el vehículo detenido<br>When el conductor selecciona una categoría de incidencia y agrega una observación<br>Then el sistema la incorpora al viaje con fecha y hora e informa a los tutores correspondientes<br><br>**Escenario 2: Incidencia que afecta a un estudiante**<br>Given una incidencia asociada a un estudiante en particular<br>When el conductor la registra<br>Then el sistema la comunica únicamente a los tutores autorizados de ese estudiante<br><br>**Escenario 3: Categoría no indicada**<br>Given un registro de incidencia sin categoría seleccionada<br>When el conductor intenta guardarla<br>Then el sistema solicita completar la categoría antes de registrarla | EP05 |
+| US25 | Resolver una incidencia | Como conductor, deseo marcar una incidencia como resuelta para informar que la situación fue normalizada. | **Escenario 1: Resolución registrada**<br>Given una incidencia abierta<br>When el conductor registra su resolución indicando el desenlace<br>Then el sistema actualiza su estado e informa a los tutores que fueron notificados originalmente<br><br>**Escenario 2: Resolución posterior al viaje**<br>Given una incidencia abierta de un viaje ya completado<br>When el conductor la resuelve<br>Then el sistema conserva la resolución dentro del historial de ese viaje<br><br>**Escenario 3: Incidencia ya resuelta**<br>Given una incidencia con resolución registrada<br>When se intenta resolverla nuevamente<br>Then el sistema mantiene la resolución original | EP05 |
+| US26 | Consultar el estado actual del traslado | Como padre o tutor, deseo conocer en pocos segundos la etapa del traslado para evitar preguntarle al conductor. | **Escenario 1: Viaje en ejecución**<br>Given un viaje activo asociado a un estudiante sobre el que el tutor tiene autorización<br>When el tutor consulta su estado<br>Then el sistema presenta la etapa actual del recorrido y el último hito confirmado con su hora<br><br>**Escenario 2: Viaje aún no iniciado**<br>Given un viaje programado que no ha comenzado<br>When el tutor lo consulta<br>Then el sistema informa que el recorrido aún no ha iniciado y su horario previsto<br><br>**Escenario 3: Retraso vigente**<br>Given un viaje con un retraso registrado<br>When el tutor consulta su estado<br>Then el sistema presenta el retraso junto con la etapa actual del recorrido<br><br>**Escenario 4: Sin viajes para la fecha**<br>Given una fecha sin viajes programados para el estudiante<br>When el tutor consulta su estado<br>Then el sistema informa que no existe un traslado previsto para esa fecha | EP05 |
+| US27 | Consultar la línea de tiempo del trayecto | Como padre o tutor, deseo revisar los hitos ocurridos durante el recorrido para entender qué pasó sin revisar conversaciones. | **Escenario 1: Viaje en curso**<br>Given un viaje activo con hitos registrados<br>When el tutor consulta su línea de tiempo<br>Then el sistema presenta los hitos en orden cronológico con su fecha y hora<br><br>**Escenario 2: Viaje finalizado**<br>Given un viaje completado<br>When el tutor consulta su detalle<br>Then el sistema presenta los hitos del traslado, incluidos los retrasos e incidencias registrados<br><br>**Escenario 3: Alcance de la información**<br>Given un viaje con varios estudiantes a bordo<br>When el tutor consulta la línea de tiempo<br>Then el sistema presenta los hitos generales de la ruta y únicamente los específicos de sus propios estudiantes<br><br>**Escenario 4: Consulta del historial**<br>Given viajes archivados de fechas anteriores<br>When el tutor selecciona una fecha<br>Then el sistema presenta la línea de tiempo correspondiente a ese traslado | EP05 |
+| US28 | Recibir avisos de los eventos relevantes | Como padre o tutor, deseo recibir avisos solo cuando ocurre un evento relevante para mantenerme informado sin revisar la plataforma constantemente. | **Escenario 1: Aviso generado y entregado**<br>Given un evento notificable de un viaje sobre el que el tutor tiene autorización<br>When el sistema procesa el evento<br>Then genera el aviso, lo envía por el canal configurado y registra su envío<br><br>**Escenario 2: Fallo de entrega**<br>Given un aviso cuyo envío es rechazado por el proveedor de mensajería<br>When el sistema recibe el resultado<br>Then registra el fallo, conserva el aviso disponible en la plataforma y no lo considera entregado<br><br>**Escenario 3: Destinatarios autorizados**<br>Given un evento asociado a un estudiante<br>When se determinan los destinatarios<br>Then el sistema envía el aviso únicamente a los tutores con autorización vigente sobre ese estudiante<br><br>**Escenario 4: Aviso leído**<br>Given un aviso recibido y pendiente de revisión<br>When el tutor lo consulta<br>Then el sistema registra su lectura y lo distingue de los avisos no revisados | EP05 |
+| US29 | Configurar las preferencias de notificación | Como padre o tutor, deseo elegir qué avisos recibir para no ser saturado con información que no necesito. | **Escenario 1: Preferencia actualizada**<br>Given un tutor autenticado y un tipo de aviso configurable<br>When modifica su preferencia de notificación<br>Then el sistema guarda la configuración para los siguientes eventos aplicables<br><br>**Escenario 2: Aviso desactivado**<br>Given un tipo de aviso desactivado por el tutor<br>When ocurre un evento asociado a ese tipo de aviso<br>Then el sistema respeta la preferencia guardada y no envía ese aviso al tutor | EP05 |
+| US30 | Confirmar el conocimiento de una incidencia | Como padre o tutor, deseo confirmar que tomé conocimiento de una incidencia para que el conductor sepa que fui informado. | **Escenario 1: Confirmación registrada**<br>Given una incidencia comunicada al tutor<br>When este confirma haber tomado conocimiento<br>Then el sistema registra la confirmación con su fecha y la pone a disposición del conductor<br><br>**Escenario 2: Incidencia sin confirmar**<br>Given una incidencia comunicada y no confirmada<br>When el conductor consulta su estado<br>Then el sistema indica qué tutores aún no han confirmado su conocimiento | EP05 |
+| US31 | Conocer la propuesta de valor de Rumbo | Como visitante, deseo comprender qué es Rumbo y qué problema resuelve para decidir si me resulta relevante. | **Escenario 1: Propuesta de valor visible**<br>Given un visitante que accede al sitio público<br>When revisa su contenido principal<br>Then encuentra una explicación del producto y del beneficio que ofrece<br><br>**Escenario 2: Funcionamiento del servicio**<br>Given un visitante interesado<br>When continúa revisando el contenido<br>Then encuentra una explicación resumida de cómo opera Rumbo durante un traslado<br><br>**Escenario 3: Consulta desde un dispositivo móvil**<br>Given un visitante que accede desde un navegador móvil<br>When revisa el contenido<br>Then este se presenta de forma legible y navegable sin desplazamiento horizontal | EP06 |
+| US32 | Identificar los beneficios de mi segmento e ingresar a Rumbo | Como visitante, deseo conocer los beneficios correspondientes a mi perfil e ingresar a la experiencia que me corresponde. | **Escenario 1: Beneficios para padres y tutores**<br>Given un visitante del segmento de padres o tutores<br>When revisa el contenido dirigido a su perfil<br>Then encuentra beneficios relacionados con la visibilidad del traslado y los avisos<br><br>**Escenario 2: Beneficios para conductores**<br>Given un visitante del segmento de conductores<br>When revisa el contenido dirigido a su perfil<br>Then encuentra beneficios relacionados con la organización de su ruta y la reducción de mensajes repetitivos<br><br>**Escenario 3: Ingreso a la experiencia correspondiente**<br>Given un visitante que se identifica con uno de los dos segmentos<br>When selecciona la acción principal de ese segmento<br>Then es dirigido al acceso o registro correspondiente a ese perfil | EP06 |
+| US33 | Consultar el contenido en inglés o español | Como visitante, deseo consultar el contenido en un idioma disponible para comprenderlo con facilidad. | **Escenario 1: Idioma predeterminado**<br>Given un visitante que ingresa por primera vez<br>When se presenta el contenido público<br>Then este se muestra en inglés como idioma predeterminado<br><br>**Escenario 2: Cambio de idioma**<br>Given un visitante que selecciona español latinoamericano<br>When continúa navegando<br>Then el contenido se presenta en es_419 y la preferencia se conserva durante la sesión<br><br>**Escenario 3: Contenido sin traducción disponible**<br>Given un contenido sin traducción en el idioma seleccionado<br>When el visitante accede a él<br>Then se presenta en el idioma predeterminado sin interrumpir la navegación | EP06 |
+| US34 | Consultar los documentos legales del servicio | Como visitante, deseo conocer los términos de servicio y la política de privacidad para entender cómo se trata la información. | **Escenario 1: Documentos accesibles**<br>Given un visitante en cualquier sección del sitio público<br>When busca la información legal<br>Then encuentra los términos de servicio y la política de privacidad<br><br>**Escenario 2: Tratamiento de datos de menores**<br>Given un visitante que consulta la política de privacidad<br>When revisa su contenido<br>Then encuentra la descripción del tratamiento de los datos de los estudiantes y los derechos que puede ejercer<br><br>**Escenario 3: Acceso desde la aplicación**<br>Given un usuario autenticado<br>When busca la información legal<br>Then accede a los mismos documentos publicados en el sitio público | EP06 |
+| US35 | Resolver dudas antes de usar Rumbo | Como visitante, deseo resolver mis dudas o comunicarme con el equipo para decidir si utilizo el servicio. | **Escenario 1: Consulta enviada**<br>Given un visitante que completa los datos obligatorios con información válida<br>When envía su consulta<br>Then el sistema confirma que la solicitud fue registrada<br><br>**Escenario 2: Datos incompletos**<br>Given un formulario con datos obligatorios faltantes<br>When el visitante intenta enviarlo<br>Then el sistema indica qué información debe completar<br><br>**Escenario 3: Preguntas frecuentes por segmento**<br>Given un visitante con dudas sobre el servicio<br>When revisa las preguntas frecuentes de su segmento<br>Then encuentra respuestas sobre privacidad, funcionamiento y requisitos de uso | EP06 |
+| TS01 | Endpoints del RESTful API para viajes y hitos | Como Developer, deseo exponer endpoints REST para la gestión de viajes y sus hitos, de modo que la aplicación web pueda registrar y consultar el estado del traslado. | **Escenario 1: Registro de un hito**<br>Given una solicitud autenticada con un payload válido<br>When se invoca POST sobre el recurso de hitos del viaje<br>Then el servicio persiste el evento y responde con 201 y la representación del recurso creado<br><br>**Escenario 2: Payload inválido**<br>Given una solicitud con datos que no cumplen el esquema<br>When se invoca el endpoint<br>Then el servicio responde con 400 y el detalle de los campos rechazados<br><br>**Escenario 3: Consulta del estado**<br>Given un viaje existente y una solicitud autorizada<br>When se invoca GET sobre el recurso del viaje<br>Then el servicio responde con 200 y el estado vigente con su último hito<br><br>**Escenario 4: Recurso inexistente**<br>Given un identificador de viaje que no existe<br>When se invoca el endpoint<br>Then el servicio responde con 404 | EP07 |
+| TS02 | Autenticación y autorización con JWT y RBAC | Como Developer, deseo proteger el RESTful API mediante tokens y control de acceso por rol para que cada usuario acceda únicamente a los recursos autorizados. | **Escenario 1: Emisión del token**<br>Given credenciales válidas<br>When se invoca el endpoint de autenticación<br>Then el servicio responde con 200 y un token que contiene el rol del usuario<br><br>**Escenario 2: Solicitud sin token**<br>Given una solicitud a un recurso protegido sin credenciales<br>When el servicio la procesa<br>Then responde con 401<br><br>**Escenario 3: Rol sin permisos suficientes**<br>Given un token válido cuyo rol no permite la operación<br>When se invoca el recurso<br>Then el servicio responde con 403<br><br>**Escenario 4: Token expirado**<br>Given un token vencido<br>When se invoca un recurso protegido<br>Then el servicio responde con 401 e indica que la sesión debe renovarse | EP07 |
+| TS03 | Integración con el servicio de notificaciones | Como Developer, deseo integrar un proveedor de mensajería para distribuir los avisos generados por los eventos del viaje. | **Escenario 1: Envío exitoso**<br>Given un aviso pendiente y un destinatario con canal válido<br>When el backend delega el envío al proveedor<br>Then registra el resultado exitoso junto con su identificador de seguimiento<br><br>**Escenario 2: Error del proveedor**<br>Given un proveedor que devuelve un error de entrega<br>When el backend procesa la respuesta<br>Then registra el fallo y mantiene el aviso disponible para consulta<br><br>**Escenario 3: Reintento controlado**<br>Given un fallo temporal de entrega<br>When el backend reintenta el envío dentro del límite configurado<br>Then evita duplicar el aviso para el mismo destinatario y evento | EP07 |
+| TS04 | Integración con servicio de mapas para direcciones de paradas | Como Developer, deseo integrar un servicio externo de mapas para validar y normalizar las direcciones de las paradas de una ruta. | **Escenario 1: Dirección válida**<br>Given una dirección proporcionada por el conductor<br>When el backend consulta el servicio externo<br>Then obtiene la ubicación normalizada y la asocia a la parada<br><br>**Escenario 2: Dirección no localizable**<br>Given una dirección que el servicio no puede resolver<br>When el backend procesa la respuesta<br>Then devuelve un resultado que permite al usuario corregir la dirección<br><br>**Escenario 3: Servicio no disponible**<br>Given una falla del proveedor externo<br>When el backend realiza la consulta<br>Then responde indicando que la validación no está disponible sin bloquear el registro de la ruta | EP07 |
+| TS05 | Integración con el servicio de verificación de credenciales | Como Developer, deseo integrar el servicio público de consulta de habilitación para respaldar la verificación de credenciales del conductor. | **Escenario 1: Consulta exitosa**<br>Given una solicitud con los datos requeridos<br>When el backend consulta el servicio externo<br>Then registra la respuesta obtenida junto con su fuente y fecha de consulta<br><br>**Escenario 2: Servicio no disponible**<br>Given un servicio externo fuera de operación<br>When el backend intenta la consulta<br>Then conserva el estado pendiente y no declara la credencial como verificada<br><br>**Escenario 3: Resultado negativo**<br>Given una consulta cuyo resultado indica que la credencial no se encuentra habilitada<br>When el backend registra la respuesta<br>Then el estado de la credencial refleja ese resultado sin inferir información adicional | EP07 |
+| TS06 | Documentación del RESTful API con OpenAPI | Como Developer, deseo documentar los endpoints mediante OpenAPI para facilitar su comprensión y prueba por parte del equipo. | **Escenario 1: Documentación disponible**<br>Given el backend en ejecución<br>When se accede a la documentación publicada<br>Then se presentan los endpoints, sus parámetros y los esquemas de datos<br><br>**Escenario 2: Detalle de un endpoint**<br>Given un endpoint documentado<br>When se revisa su definición<br>Then se presentan sus códigos de respuesta y ejemplos de request y response<br><br>**Escenario 3: Sincronía con la implementación**<br>Given un endpoint modificado<br>When se genera la documentación<br>Then esta refleja la definición vigente del servicio | EP07 |
+| TS07 | Internacionalización del RESTful API | Como Developer, deseo localizar los mensajes del API para en_US y es_419 manteniendo el inglés como idioma predeterminado. | **Escenario 1: Sin preferencia de idioma**<br>Given una solicitud que no declara un idioma<br>When el servicio genera un mensaje de validación o error<br>Then lo devuelve en en_US<br><br>**Escenario 2: Preferencia soportada**<br>Given una solicitud que declara es_419<br>When existe traducción disponible<br>Then el servicio devuelve el mensaje en español latinoamericano conservando la estructura del response<br><br>**Escenario 3: Preferencia no soportada**<br>Given una solicitud que declara un idioma no contemplado<br>When el servicio genera el mensaje<br>Then utiliza en_US sin rechazar la solicitud | EP07 |
+| TS08 | Persistencia consistente del estado y eventos del viaje | Como Developer, deseo persistir el estado del viaje y sus eventos de forma consistente para evitar información parcial durante las operaciones del RESTful API. | **Escenario 1: Operación confirmada**<br>Given una solicitud válida que modifica el estado de un viaje<br>When el servicio completa la operación<br>Then persiste el estado y el evento asociado dentro de la misma transacción y responde con un resultado exitoso<br><br>**Escenario 2: Operación fallida**<br>Given una operación que falla durante la persistencia<br>When la transacción se revierte<br>Then el servicio no conserva información parcial y responde con el error correspondiente<br><br>**Escenario 3: Consulta del historial**<br>Given un viaje existente y una solicitud autorizada<br>When se consulta su historial de eventos<br>Then el servicio responde con la secuencia registrada y sus fechas | EP07 |
 
 ## 3.2. Impact Mapping
 
-| Business Goal | Actor | Impacto esperado | Deliverables / historias relacionadas |
-|---|---|---|---|
-| Reducir consultas repetitivas sobre el estado del traslado | Padre/Tutor | Consulta estado y timeline sin escribir al conductor | US38, US41, US43-US48 |
-| Registrar los principales hitos del traslado con pocos pasos | Conductor / Asistente | Mantiene el viaje actualizado sin conversaciones repetidas | US23-US33, US36-US37 |
-| Organizar rutas y estudiantes antes de iniciar | Conductor | Trabaja con una ruta, horario y nómina consistentes | US13-US22 |
-| Mantener acceso y datos bajo autorización | Padre/Tutor / Conductor | Cada usuario accede solo a información permitida | US01-US07, US40, TS04, TS07 |
-| Sostener el servicio mediante suscripción | Conductor | Activa el acceso comercial al producto | US08 |
-| Facilitar comprensión y adopción | Visitante | Entiende Rumbo y entra por el CTA de su segmento | US09-US12, US34-US35, US42 |
+El Impact Mapping de Rumbo relaciona los Business Goals definidos para el producto con los User Personas, los cambios de comportamiento esperados, los Deliverables y las User Stories que permiten alcanzar dichos objetivos.
+
+![Impact Mapping de Rumbo](assets/chapter3/impact-mapping.png)
+**Figura.** Impact Mapping de Rumbo elaborado en UXPressia.
+**Impact Mapping URL:** https://uxpressia.com/w/npnzh/i/yG8Dn?tagId=RwNGd
 
 ## 3.3. Product Backlog
 
@@ -1038,66 +1179,57 @@ El Product Backlog prioriza primero el alcance correspondiente al Landing Page d
 
 | # Orden | User Story Id | Título | Descripción | Story Points |
 |---:|---|---|---|:---:|
-| 1 | US09 | Presentar propuesta de valor en Landing Page | Como visitante, deseo conocer la propuesta de valor de Rumbo para comprender qué problema resuelve el producto. | 2 |
-| 2 | US10 | Presentar beneficios por segmento | Como visitante, deseo conocer beneficios específicos para padres/tutores y conductores para identificar si Rumbo responde a mis necesidades. | 2 |
-| 3 | US11 | Soportar inglés y español en Landing Page | Como visitante, deseo cambiar entre inglés y español para consultar el contenido en un idioma disponible. | 3 |
-| 4 | US12 | Acceder a términos y condiciones desde el footer | Como visitante, deseo acceder a Terms & Conditions y Privacy Policy para conocer las reglas de uso y tratamiento de datos. | 2 |
-| 5 | US42 | Acceder a Rumbo desde el CTA del segmento | Como visitante, deseo ingresar a la experiencia correspondiente a mi segmento para comenzar a usar Rumbo. | 2 |
-| 6 | US34 | Formulario público de contacto | Como visitante, deseo enviar una consulta desde la Landing Page para solicitar información sobre Rumbo. | 2 |
-| 7 | US35 | Sección de preguntas frecuentes por segmento | Como visitante, deseo consultar preguntas frecuentes para resolver dudas antes de usar Rumbo. | 2 |
-| 8 | US01 | Registrar cuenta de conductor | Como conductor, deseo crear mi cuenta de conductor para iniciar la configuración de mi servicio. | 3 |
-| 9 | US02 | Enviar credenciales del conductor | Como conductor, deseo enviar mis credenciales y documentos para solicitar su revisión dentro de Rumbo. | 3 |
-| 10 | US03 | Verificar credenciales del conductor | Como conductor, deseo obtener el resultado de verificación de mis credenciales para conocer si puedo continuar con el alta del servicio. | 5 |
-| 11 | US04 | Registrar vehículo | Como conductor, deseo registrar el vehículo que utilizaré para asociarlo a mis rutas escolares. | 3 |
-| 12 | US05 | Registrar cuenta de padre o tutor | Como padre/tutor, deseo crear mi cuenta para acceder a la información autorizada de los traslados. | 3 |
-| 13 | US06 | Registrar estudiante | Como padre/tutor, deseo registrar los datos básicos del estudiante para vincularlo posteriormente con una movilidad autorizada. | 3 |
-| 14 | US07 | Vincular tutor con estudiante | Como padre/tutor, deseo vincularme con el estudiante bajo mi responsabilidad para consultar únicamente la información que me corresponde. | 5 |
-| 15 | US08 | Activar suscripción del conductor | Como conductor, deseo activar una suscripción de Rumbo para habilitar las funciones incluidas en mi plan. | 5 |
-| 16 | US13 | Crear ruta escolar | Como conductor, deseo crear una ruta escolar para organizar un recorrido recurrente. | 5 |
-| 17 | US14 | Agregar parada a la ruta | Como conductor, deseo agregar una parada para definir los puntos de recojo o entrega del recorrido. | 3 |
-| 18 | US15 | Definir orden de paradas | Como conductor, deseo ordenar las paradas de la ruta para mantener una secuencia operativa clara. | 3 |
-| 19 | US16 | Asignar estudiante a la ruta | Como conductor, deseo asignar un estudiante autorizado a una ruta para incluirlo en los recorridos correspondientes. | 5 |
-| 20 | US17 | Definir horario de la ruta | Como conductor, deseo definir días y horarios de una ruta para programar sus recorridos recurrentes. | 3 |
-| 21 | US18 | Modificar ruta | Como conductor, deseo actualizar la configuración de una ruta para mantenerla alineada con la operación real. | 3 |
-| 22 | US19 | Programar viaje | Como conductor, deseo programar un viaje a partir de una ruta para preparar un traslado para una fecha y turno. | 3 |
-| 23 | US20 | Generar lista del viaje | Como conductor, deseo obtener la lista de estudiantes prevista para el viaje para saber a quiénes debo recoger o entregar. | 3 |
-| 24 | US21 | Reportar ausencia del estudiante | Como padre/tutor, deseo informar que el estudiante no usará la movilidad para evitar una parada innecesaria. | 3 |
-| 25 | US22 | Cancelar viaje | Como conductor, deseo cancelar un viaje que no se realizará para evitar que las familias esperen un servicio inexistente. | 3 |
-| 26 | US23 | Iniciar viaje | Como conductor, deseo iniciar el viaje programado para dejar visible que la ruta está en ejecución. | 3 |
-| 27 | US24 | Registrar llegada a una parada | Como conductor/asistente, deseo registrar que la movilidad llegó a una parada para mantener actualizado el avance de la ruta. | 2 |
-| 28 | US25 | Confirmar recojo del estudiante | Como conductor/asistente, deseo confirmar el recojo de un estudiante para dejar constancia del hito para su tutor. | 3 |
-| 29 | US26 | Registrar recojo no realizado | Como conductor/asistente, deseo marcar un recojo que no pudo realizarse para evitar que el estado del estudiante sea ambiguo. | 3 |
-| 30 | US27 | Completar parada | Como conductor/asistente, deseo cerrar una parada atendida para continuar con la siguiente etapa de la ruta. | 2 |
-| 31 | US28 | Registrar retraso | Como conductor/asistente, deseo registrar un retraso y su causa para informar a las familias afectadas con un solo registro. | 3 |
-| 32 | US29 | Reportar incidencia | Como conductor/asistente, deseo registrar una incidencia operativa para comunicar el imprevisto con contexto suficiente. | 5 |
-| 33 | US30 | Confirmar llegada al colegio | Como conductor/asistente, deseo confirmar la llegada al centro educativo para informar que la etapa de ida fue completada. | 3 |
-| 34 | US31 | Iniciar viaje de retorno | Como conductor, deseo iniciar el recorrido de retorno para diferenciarlo de la ruta de ida. | 3 |
-| 35 | US32 | Confirmar entrega del estudiante | Como conductor/asistente, deseo confirmar la entrega del estudiante para cerrar su traslado individual y avisar al tutor. | 3 |
-| 36 | US33 | Registrar entrega rechazada | Como conductor/asistente, deseo registrar que una entrega no pudo completarse para mantener trazabilidad y evitar marcar una entrega falsa. | 5 |
-| 37 | US36 | Completar viaje | Como conductor, deseo finalizar un viaje para consolidar su resultado e historial. | 3 |
-| 38 | US37 | Resolver incidencia | Como conductor/asistente, deseo marcar una incidencia como resuelta para informar que la situación fue normalizada. | 3 |
-| 39 | US38 | Generar línea de tiempo del viaje | Como padre/tutor, deseo disponer de una línea de tiempo ordenada para entender qué ocurrió sin revisar chats. | 5 |
-| 40 | US39 | Archivar historial del viaje | Como padre/tutor, deseo conservar el historial de viajes finalizados para consultar posteriormente dudas o reclamos. | 3 |
-| 41 | US40 | Solicitar eliminación de datos del estudiante | Como padre/tutor, deseo solicitar la supresión de los datos personales del estudiante para ejercer el control sobre su información. | 5 |
-| 42 | US41 | Disparar notificación por evento relevante | Como padre/tutor, deseo recibir avisos solo cuando ocurra un evento relevante para mantenerme informado sin mensajes repetitivos. | 3 |
-| 43 | US43 | Enviar notificación | Como padre/tutor, deseo recibir la notificación generada para conocer oportunamente el evento de la ruta. | 3 |
-| 44 | US44 | Registrar fallo de entrega de notificación | Como padre/tutor, deseo que un fallo de notificación quede registrado para evitar que el sistema asuma que fui informado. | 3 |
-| 45 | US45 | Marcar notificación como leída | Como padre/tutor, deseo marcar como leído un aviso consultado para distinguir información nueva de la revisada. | 2 |
-| 46 | US46 | Consultar estado del viaje | Como padre/tutor, deseo consultar el estado actual del viaje para saber en pocos segundos en qué etapa está el traslado. | 3 |
-| 47 | US47 | Consultar línea de tiempo | Como padre/tutor, deseo consultar la línea de tiempo del trayecto para revisar los hitos ya ocurridos. | 3 |
-| 48 | US48 | Confirmar lectura de una incidencia | Como padre/tutor, deseo confirmar que he tomado conocimiento de una incidencia relevante para dejar constancia de que el aviso fue revisado. | 2 |
-| 49 | TS01 | Integración con ATU API para verificación de credenciales | Como Developer, deseo integrar el servicio externo disponible de ATU para soportar el flujo de verificación de credenciales sin simular una validación oficial. | 5 |
-| 50 | TS02 | Integración con API Maps para rutas y paradas | Como Developer, deseo integrar una API de mapas para validar y representar ubicaciones de rutas y paradas cuando corresponda. | 5 |
-| 51 | TS03 | Integración con servicio de notificaciones | Como Developer, deseo integrar un proveedor de mensajería para procesar Notification Triggered, Notification Sent y Notification Delivery Failed. | 5 |
-| 52 | TS04 | Autenticación y autorización con JWT y RBAC | Como Developer, deseo proteger el RESTful API por identidad y rol para que padres, conductores y asistentes accedan solo a recursos autorizados. | 5 |
-| 53 | TS05 | Documentación del RESTful API con OpenAPI/Swagger | Como Developer, deseo documentar endpoints y esquemas para facilitar pruebas y comprensión del servicio. | 2 |
-| 54 | TS06 | Internacionalización del RESTful API | Como Developer, deseo localizar mensajes de validación y error para en_US y es_419 manteniendo inglés como idioma predeterminado. | 3 |
-| 55 | TS07 | Auditoría de eventos operativos | Como Developer, deseo conservar quién, cuándo y qué cambió en eventos críticos de rutas y viajes para mantener trazabilidad. | 5 |
-| 56 | TS08 | Persistencia transaccional con Entity Framework Core | Como Developer, deseo persistir agregados y eventos relevantes con EF Core para mantener consistencia entre estado y trazabilidad. | 5 |
+| 1 | US31 | Conocer la propuesta de valor de Rumbo | Como visitante, deseo comprender qué es Rumbo y qué problema resuelve para decidir si me resulta relevante. | 3 |
+| 2 | US32 | Identificar los beneficios de mi segmento e ingresar a Rumbo | Como visitante, deseo conocer los beneficios correspondientes a mi perfil e ingresar a la experiencia que me corresponde. | 3 |
+| 3 | US35 | Resolver dudas antes de usar Rumbo | Como visitante, deseo resolver mis dudas o comunicarme con el equipo para decidir si utilizo el servicio. | 3 |
+| 4 | US34 | Consultar los documentos legales del servicio | Como visitante, deseo conocer los términos de servicio y la política de privacidad para entender cómo se trata la información. | 2 |
+| 5 | US33 | Consultar el contenido en inglés o español | Como visitante, deseo consultar el contenido en un idioma disponible para comprenderlo con facilidad. | 3 |
+| 6 | US01 | Registrar cuenta de conductor | Como conductor, deseo crear mi cuenta para iniciar la configuración de mi servicio en Rumbo. | 3 |
+| 7 | US03 | Registrar cuenta de padre o tutor | Como padre o tutor, deseo crear mi cuenta para acceder a la información autorizada de los traslados de mis hijos. | 3 |
+| 8 | US04 | Iniciar sesión según rol | Como usuario registrado, deseo iniciar sesión con mis credenciales para acceder a las funcionalidades correspondientes a mi rol. | 3 |
+| 9 | TS02 | Autenticación y autorización con JWT y RBAC | Como Developer, deseo proteger el RESTful API mediante tokens y control de acceso por rol para que cada usuario acceda únicamente a los recursos autorizados. | 5 |
+| 10 | US06 | Registrar estudiante y vincularse como tutor | Como padre o tutor, deseo registrar a mi hijo y quedar vinculado como su tutor para poder consultar la información de sus traslados. | 5 |
+| 11 | US02 | Registrar vehículo y credenciales del servicio | Como conductor, deseo registrar mi vehículo y las credenciales que acreditan mi servicio para que las familias conozcan la información declarada de mi movilidad. | 5 |
+| 12 | US10 | Crear una ruta con sus paradas | Como conductor, deseo crear una ruta con sus paradas en el orden en que las recorro para organizar mi servicio. | 8 |
+| 13 | US11 | Definir el horario de la ruta | Como conductor, deseo establecer los días y horarios de una ruta para que sus viajes se programen de forma recurrente. | 3 |
+| 14 | US12 | Asignar estudiantes a una ruta | Como conductor, deseo asignar a los estudiantes autorizados a una ruta y a su parada para incluirlos en los recorridos. | 5 |
+| 15 | US13 | Publicar una ruta | Como conductor, deseo publicar una ruta configurada para habilitar la programación de sus viajes y su visibilidad para los tutores autorizados. | 3 |
+| 16 | US15 | Programar el viaje de la jornada | Como conductor, deseo contar con el viaje del día y la lista de estudiantes prevista para saber a quiénes debo recoger. | 5 |
+| 17 | TS01 | Endpoints del RESTful API para viajes y hitos | Como Developer, deseo exponer endpoints REST para la gestión de viajes y sus hitos, de modo que la aplicación web pueda registrar y consultar el estado del traslado. | 8 |
+| 18 | US18 | Iniciar el viaje | Como conductor, deseo iniciar el recorrido para que los tutores sepan que la ruta está en ejecución. | 3 |
+| 19 | US19 | Registrar los hitos de una parada | Como conductor, deseo confirmar los recojos de cada parada en pocos segundos para dejar constancia sin afectar mi recorrido. | 8 |
+| 20 | US26 | Consultar el estado actual del traslado | Como padre o tutor, deseo conocer en pocos segundos la etapa del traslado para evitar preguntarle al conductor. | 5 |
+| 21 | US21 | Confirmar la entrega del estudiante | Como conductor, deseo confirmar la entrega de cada estudiante para cerrar su traslado y avisar a su tutor. | 5 |
+| 22 | US20 | Confirmar la llegada al colegio e iniciar el retorno | Como conductor, deseo confirmar la llegada al centro educativo y dar inicio al retorno para diferenciar ambas etapas del servicio. | 3 |
+| 23 | US22 | Completar el viaje | Como conductor, deseo cerrar el viaje para consolidar su resultado y dejarlo disponible como historial. | 3 |
+| 24 | US27 | Consultar la línea de tiempo del trayecto | Como padre o tutor, deseo revisar los hitos ocurridos durante el recorrido para entender qué pasó sin revisar conversaciones. | 5 |
+| 25 | US28 | Recibir avisos de los eventos relevantes | Como padre o tutor, deseo recibir avisos solo cuando ocurre un evento relevante para mantenerme informado sin revisar la plataforma constantemente. | 8 |
+| 26 | TS03 | Integración con el servicio de notificaciones | Como Developer, deseo integrar un proveedor de mensajería para distribuir los avisos generados por los eventos del viaje. | 5 |
+| 27 | US23 | Registrar un retraso | Como conductor, deseo registrar un retraso y su causa para informar con un solo registro a todas las familias afectadas. | 5 |
+| 28 | US24 | Registrar una incidencia | Como conductor, deseo registrar una incidencia para comunicar un imprevisto con contexto suficiente y sin repetir el mensaje a cada familia. | 5 |
+| 29 | US25 | Resolver una incidencia | Como conductor, deseo marcar una incidencia como resuelta para informar que la situación fue normalizada. | 3 |
+| 30 | US16 | Reportar la ausencia del estudiante | Como padre o tutor, deseo informar que mi hijo no usará la movilidad para evitar una parada innecesaria. | 5 |
+| 31 | US17 | Cancelar un viaje | Como conductor, deseo cancelar un viaje que no se realizará para que las familias no esperen un servicio inexistente. | 3 |
+| 32 | US29 | Configurar las preferencias de notificación | Como padre o tutor, deseo elegir qué avisos recibir para no ser saturado con información que no necesito. | 3 |
+| 33 | US30 | Confirmar el conocimiento de una incidencia | Como padre o tutor, deseo confirmar que tomé conocimiento de una incidencia para que el conductor sepa que fui informado. | 2 |
+| 34 | US14 | Modificar una ruta publicada | Como conductor, deseo actualizar una ruta publicada para mantenerla alineada con mi operación real. | 5 |
+| 35 | US07 | Autorizar o revocar a otro tutor | Como padre o tutor, deseo autorizar o retirar el acceso de otro tutor sobre mi hijo para controlar quién puede consultar su información. | 5 |
+| 36 | US05 | Recuperar acceso a la cuenta | Como usuario registrado, deseo restablecer mi contraseña para recuperar el acceso en caso de olvido. | 3 |
+| 37 | TS04 | Integración con servicio de mapas para direcciones de paradas | Como Developer, deseo integrar un servicio externo de mapas para validar y normalizar las direcciones de las paradas de una ruta. | 5 |
+| 38 | TS08 | Persistencia consistente del estado y eventos del viaje | Como Developer, deseo persistir el estado del viaje y sus eventos de forma consistente para evitar información parcial durante las operaciones del RESTful API. | 5 |
+| 39 | US09 | Activar la suscripción del conductor | Como conductor, deseo activar una suscripción para habilitar las funcionalidades incluidas en mi plan. | 8 |
+| 40 | US08 | Solicitar la supresión de datos del estudiante | Como padre o tutor, deseo solicitar la eliminación de los datos personales de mi hijo para ejercer el control sobre su información. | 5 |
+| 41 | TS05 | Integración con el servicio de verificación de credenciales | Como Developer, deseo integrar el servicio público de consulta de habilitación para respaldar la verificación de credenciales del conductor. | 5 |
+| 42 | TS07 | Internacionalización del RESTful API | Como Developer, deseo localizar los mensajes del API para en_US y es_419 manteniendo el inglés como idioma predeterminado. | 3 |
+| 43 | TS06 | Documentación del RESTful API con OpenAPI | Como Developer, deseo documentar los endpoints mediante OpenAPI para facilitar su comprensión y prueba por parte del equipo. | 2 |
 
-> Las historias se redactan en el informe con Acceptance Criteria. Los Work-items de implementación se detallan en los Sprint Backlogs del Capítulo V para conservar trazabilidad sin duplicar tareas.
+El Product Backlog fue implementado en Trello y organizado visualmente por Epic para facilitar la lectura del alcance. Las tarjetas conservan su prioridad global, Story ID, Story Points, Epic relacionado y descripción, mientras que los colores permiten distinguir cada grupo funcional sin mezclar este artefacto con el Sprint Backlog.
 
----
+![Product Backlog de Rumbo en Trello](assets/chapter3/product-backlog.png)
+
+**Figura.** Product Backlog de Rumbo organizado por Epics en Trello.
+
+**Product Backlog URL:** https://trello.com/b/dd4dejIV/product-backlog
 
 # Capítulo IV: Product Design
 
@@ -1923,118 +2055,282 @@ Incluye planes, suscripciones, pagos y comprobantes asociados al ciclo comercial
 
 ### 5.1.1. Software Development Environment Configuration
 
-| Software / Servicio | Uso |
+Para el desarrollo de Rumbo se definieron las siguientes herramientas:
+
+| Herramienta | Uso en el proyecto |
 |---|---|
-| GitHub / Git | Repositorios, control de versiones y colaboración |
-| Visual Studio Code / WebStorm | Landing Page y Frontend Web Application |
-| Visual Studio / Rider | Web Service con ASP.NET Core |
-| Figma | Wireframes, Mock-ups y Prototype |
-| UXPressia | User Personas, Journey Maps, Empathy Maps, Impact Mapping y Lean UX Canvas |
-| FigJam / Miro / Lucidchart | Event Storming y flujos |
-| Structurizr | Diagramas C4 |
-| Trello / Jira / YouTrack | Product Backlog y Sprint Backlog |
-| MySQL / PostgreSQL | Persistencia relacional |
-| Swagger / OpenAPI | Documentación del RESTful API |
+| GitHub | Repositorios, control de versiones y colaboración. |
+| Git | Control de versiones local. |
+| Visual Studio Code / WebStorm | Desarrollo de la Landing Page y Frontend Web Application. |
+| Visual Studio / Rider | Desarrollo de RESTful Web Services con C# y ASP.NET Core. |
+| Figma | Wireframes, Mock-ups y prototipos. |
+| HTML5, CSS3 y JavaScript | Implementación de la Landing Page. |
+| Vue 3, JavaScript, PrimeVue y Material Design | Frontend Web Application. |
+| C#, ASP.NET Core y Entity Framework Core | RESTful Web Services. |
+| OpenAPI / Swagger | Documentación de Web Services. |
+| GitHub Pages | Despliegue de la Landing Page. |
+| Markdown | Documentación del Project Report. |
+
+Para AV1 la implementación se concentra en la primera versión de la Landing Page. El Frontend Web Application y los Web Services se desarrollarán en los siguientes Sprints.
 
 ### 5.1.2. Source Code Management
 
-| Producto | Repositorio |
-|---|---|
-| Project Report | https://github.com/AIpaca-UPC/web-applications-project-report |
-| Landing Page | https://github.com/AIpaca-UPC/landing-page |
-| Frontend Web Application | https://github.com/AIpaca-UPC/web-applications-web-app |
-| Web Service | https://github.com/AIpaca-UPC/web-applications-web-service |
+- Project Report: https://github.com/AIpaca-UPC/web-applications-project-report
+- Landing Page: https://github.com/AIpaca-UPC/landing-page
+- Frontend Web Application: https://github.com/AIpaca-UPC/web-applications-web-app
+- Web Services: https://github.com/AIpaca-UPC/web-applications-web-service
 
-**GitFlow:** `main`, `develop`, `feature/*`.  
-**Commits:** Conventional Commits.  
-**Versionado:** Semantic Versioning.
+GitHub es la plataforma utilizada para administrar el código y la documentación de Rumbo.
+
+#### Repositorios
+
+- **Project Report:** https://github.com/AIpaca-UPC/web-applications-project-report
+- **Landing Page:** https://github.com/AIpaca-UPC/landing-page
+- **Frontend Web Application:** https://github.com/AIpaca-UPC/web-applications-web-app
+- **Web Services:** https://github.com/AIpaca-UPC/web-applications-web-service
+
+#### GitFlow
+
+El proyecto utiliza el siguiente flujo de ramas:
+
+- `main`: versión estable.
+- `develop`: integración del trabajo del equipo.
+- `feature/*`: trabajo de una funcionalidad o sección específica.
+- `release/*`: preparación de una versión.
+- `hotfix/*`: correcciones urgentes.
+
+En el Project Report se emplean ramas como:
+
+- `feature/chapter-1-introduction`
+- `feature/chapter-2-requirements-elicitation-and-analysis`
+- `feature/chapter-3-requirements-specification`
+- `feature/chapter-4-product-design`
+- `feature/chapter-5-product-implementation-validation-and-deployment`
+
+La Landing Page dispone de `main`, `develop` y `feature/landing-page-v1`. La implementación funcional de AV1 se encuentra actualmente en `feature/landing-page-v1`; una vez revisada deberá integrarse mediante el flujo `feature → develop → main`.
+
+#### Convenciones
+
+Para los commits se utilizará Conventional Commits:
+
+- `feat`: nueva funcionalidad.
+- `fix`: corrección.
+- `docs`: documentación.
+- `style`: cambios de formato.
+- `refactor`: reorganización de código.
+- `test`: pruebas.
+- `chore`: mantenimiento.
+
+Las versiones seguirán Semantic Versioning con el formato `MAJOR.MINOR.PATCH`.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-- Identificadores de código en inglés.
-- HTML5 semántico.
-- CSS organizado por responsabilidad.
-- `camelCase` para variables y funciones JavaScript.
-- `PascalCase` para componentes y clases.
-- Uso de `alt`, labels y ARIA cuando corresponda.
-- Convenciones propias de Vue, PrimeVue, C# y ASP.NET Core.
+#### HTML
+
+La Landing Page utiliza HTML5 semántico, navegación mediante identificadores, atributos `alt` en imágenes y atributos ARIA cuando corresponde. Los nombres de clases se mantienen en `kebab-case`.
+
+Ejemplo:
+
+```html
+<section class="benefits section-cream" id="benefits">
+```
+
+#### CSS
+
+Los estilos se organizan por secciones y utilizan variables CSS para colores, tipografías, radios y sombras. El diseño responsive se implementa con Grid, Flexbox y media queries.
+
+```css
+:root {
+  --green: #3EA98A;
+  --green-dark: #12403D;
+  --sand: #F3D9A4;
+}
+```
+
+También se considera `prefers-reduced-motion` para mejorar la accesibilidad.
+
+#### JavaScript
+
+JavaScript se utiliza para el menú móvil y la validación básica del formulario de contacto. El código utiliza `strict mode`, nombres descriptivos y `camelCase` para variables y funciones.
+
+#### Frontend Web Application
+
+Para Vue se seguirá Vue Style Guide, utilizando `PascalCase` para componentes y `camelCase` para variables, funciones y props. Cuando exista un equivalente adecuado se utilizarán componentes PrimeVue antes de crear controles custom, manteniendo Material Design como referencia visual.
+
+#### Web Services
+
+Para C# y ASP.NET Core se utilizará `PascalCase` para clases, interfaces, métodos y propiedades públicas; `camelCase` para parámetros y variables locales; y una organización por responsabilidades y bounded contexts. Entity Framework Core se utilizará para persistencia y los endpoints serán documentados con OpenAPI/Swagger.
 
 ### 5.1.4. Software Deployment Configuration
 
-**Proveedor:** [GitHub Pages / Netlify / Vercel / otro]  
-**Production URL:** [Completar]
+La primera versión funcional de la Landing Page ya se encuentra implementada en la rama `feature/landing-page-v1`. El despliegue todavía está pendiente, por lo que se diferencia claramente entre **implementación disponible** y **publicación en producción**.
+
+| Configuración | Estado actual |
+|---|---|
+| **Repository** | `AIpaca-UPC/landing-page` |
+| **Branch con implementación AV1** | `feature/landing-page-v1` |
+| **Entry point** | `index.html` |
+| **Styles** | `css/styles.css` |
+| **JavaScript** | `js/app.js` |
+| **Legal pages** | `terms.html`, `privacy.html` |
+| **Provider / GitHub Pages** | Pendiente de configurar y verificar |
+| **Production URL** | Pendiente |
+
+La versión implementada cubre propuesta de valor, beneficios por segmento, internacionalización `en_US / es_419`, FAQ, contacto, Terms of Service, Privacy Policy y Responsive Web Design. El siguiente paso es integrar la rama a una versión estable y publicar la Landing Page para registrar la URL y evidencias de deployment.
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
 ### 5.2.1. Sprint 1
 
+El **Sprint 1** tiene como alcance el primer incremento público de Rumbo: la **Landing Page**. Para mantener coherencia con el Product Backlog vigente, el Sprint selecciona las cinco User Stories del Epic **EP06 · Landing Page** (US31–US35). El objetivo es que ambos segmentos puedan comprender la propuesta de valor, identificar beneficios, consultar información legal, cambiar el idioma y resolver dudas antes de utilizar el producto.
+
+A la fecha de esta revisión, `feature/landing-page-v1` ya contiene una primera versión funcional de la Landing Page. Las tareas de implementación del alcance US31–US35 se consideran desarrolladas en la rama feature; el Sprint Goal todavía no puede considerarse completamente alcanzado porque falta integrar una versión estable, desplegarla y registrar las evidencias de ejecución.
+
 #### 5.2.1.1. Sprint Planning 1
 
-| Campo | Detalle |
+La planificación del Sprint se centra únicamente en las historias que contribuyen al incremento de Landing Page. Las actividades de Requirements Specification o Product Design que pertenecen a otros capítulos no se contabilizan como funcionalidades completadas del Sprint.
+
+| **Sprint #** | Sprint 1 |
 |---|---|
-| Sprint | Sprint 1 |
-| Fecha | [Completar] |
-| Hora | [Completar] |
-| Lugar / medio | [Completar] |
-| Preparado por | [Completar] |
-| Asistentes | [Completar] |
-| Sprint Goal | Diseñar, implementar y desplegar la primera versión responsive del Landing Page de Rumbo. |
-| Duración | [Completar] |
+| **Sprint Planning Background** |  |
+| **Date** | 2026-09-09 |
+| **Time** | Pendiente de confirmar con el equipo |
+| **Location** | Pendiente de confirmar con el equipo |
+| **Prepared By** | Lino Quispe, Leonardo Miguel |
+| **Attendees (to planning meeting)** | Marcelo Barrientos, Alejandro Díaz, Kevin Geronimo, Leonardo Lino y Alexandra Meza |
+| **Sprint 0 Review Summary** | No aplica. Sprint 1 es el primer Sprint del proyecto. |
+| **Sprint 0 Retrospective Summary** | No aplica. Sprint 1 es el primer Sprint del proyecto. |
+| **Sprint 1 Goal** | **Our focus is on** publicar la primera versión funcional y responsive de la Landing Page de Rumbo. **We believe it delivers** una comprensión clara de la propuesta de valor, beneficios y formas de contacto a padres/tutores y conductores. **This will be confirmed when** US31, US32, US33, US34 y US35 estén implementadas y la Landing Page pueda abrirse desde una URL pública al cierre del Sprint. |
+| **Sprint 1 Velocity** | 14 Story Points de capacidad planificada |
+| **Sum of Story Points** | 14 |
+
+Las cinco historias seleccionadas corresponden a las prioridades iniciales del Product Backlog: US31 (3 SP), US32 (3 SP), US35 (3 SP), US34 (2 SP) y US33 (3 SP).
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-| Integrante | GitHub Username | Informe | UX/UI Landing Page | Implementación Landing Page | Deployment |
-|---|---|---|---|---|---|
-| [Integrante 1] | [usuario1] | L/C | L/C | L/C | L/C |
-| [Integrante 2] | [usuario2] | L/C | L/C | L/C | L/C |
-| [Integrante 3] | [usuario3] | L/C | L/C | L/C | L/C |
-| [Integrante 4] | [usuario4] | L/C | L/C | L/C | L/C |
-| [Integrante 5] | [usuario5] | L/C | L/C | L/C | L/C |
+Para Sprint 1 se separa la responsabilidad del **Project Report** de la responsabilidad sobre la **implementación de la Landing Page**. La matriz LACX usa **L** para Leader y **C** para Collaborator. La distribución documental acordada por el equipo es: Marcelo en el Capítulo I, Alexandra en el Capítulo II, Leonardo en los Capítulos III y V, y Kevin junto con Alejandro en el Capítulo IV.
+
+| Team Member | GitHub Username | Capítulo I | Capítulo II | Capítulo III | Capítulo IV | Capítulo V | Landing Page |
+|---|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Barrientos, Marcelo | `MarceloBarrientosQuispe` | L | — | — | — | — | C |
+| Meza, Alexandra | `AlexandraYMS` | — | L | — | — | — | C |
+| Lino Quispe, Leonardo Miguel | `linolw` | — | — | L | — | L | C |
+| Geronimo, Kevin | `qebim18` | — | — | — | L | — | L |
+| Díaz, Alejandro | Pendiente de registrar | — | — | — | C | — | C |
+
+En el **Capítulo IV**, Kevin Geronimo y Alejandro Díaz trabajan de forma conjunta; Kevin figura como Leader únicamente para mantener la convención LACX de un responsable principal y Alejandro como Collaborator directo. Esta distribución identifica responsabilidades del informe y no reemplaza la asignación de Work-items del Sprint Backlog.
+
+> **Pendiente:** registrar el GitHub Username real de Alejandro Díaz.
 
 #### 5.2.1.3. Sprint Backlog 1
 
-**Sprint Board:** [Insertar URL]
+El Sprint Backlog descompone las cinco User Stories seleccionadas en Work-items concretos. Las tareas adicionales de responsive, deployment y evidencia se registran como **N/A** porque son actividades necesarias para cumplir el Sprint Goal, pero no representan una User Story independiente.
 
-| Story ID | Tarea | Estimación | Responsable | Estado |
-|---|---|---:|---|---|
-| US06 | Definir estructura y contenido del Landing Page | 4 h | [ ] | To-do |
-| US06 | Diseñar Wireframes y Mock-ups Desktop/Mobile | 6 h | [ ] | To-do |
-| US06 | Implementar estructura HTML | 4 h | [ ] | To-do |
-| US06 | Implementar estilos responsive | 6 h | [ ] | To-do |
-| TS02 | Preparar internacionalización | 4 h | [ ] | To-do |
-| TS03 | Revisar accesibilidad | 4 h | [ ] | To-do |
-| US06 | Desplegar Landing Page | 4 h | [ ] | To-do |
+**Sprint Board URL:** https://trello.com/b/pZTeSjRE/rumbo-sprint-1
+
+**Sprint Board screenshot:** Pendiente de integrar la captura actual del Board. El Board ya se encuentra organizado con los estados `To-do`, `In-Process`, `To-Review` y `Done`.
+
+##### User Stories seleccionadas para la Landing Page
+
+Para la implementación de la Landing Page se seleccionaron únicamente las User Stories del Epic **EP06 · Landing Page**. Se mantienen separadas de las tareas documentales para no confundir funcionalidades del producto con trabajo del informe.
+
+| Story ID | User Story | Story Points |
+|---|---|:---:|
+| **US31** | Conocer la propuesta de valor de Rumbo | 3 |
+| **US32** | Identificar los beneficios de mi segmento e ingresar a Rumbo | 3 |
+| **US33** | Consultar el contenido en inglés o español | 3 |
+| **US34** | Consultar los documentos legales del servicio | 2 |
+| **US35** | Resolver dudas antes de usar Rumbo | 3 |
+|  | **Total** | **14** |
+
+| Sprint # | Sprint 1 |
+|---|---|
+
+| Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---:|---|---|
+| US31 | Conocer la propuesta de valor de Rumbo | T01 | Implementar propuesta de valor | Implementar hero, propuesta de valor y explicación resumida del funcionamiento de Rumbo. | 4 | Kevin Geronimo / Alejandro Díaz | Done |
+| US32 | Identificar los beneficios de mi segmento e ingresar a Rumbo | T02 | Beneficios y CTA por segmento | Mostrar beneficios para padres/tutores y conductores e incluir sus acciones principales. | 4 | Alejandro Díaz / Kevin Geronimo | Done |
+| US33 | Consultar el contenido en inglés o español | T03 | Selector de idioma | Implementar inglés como idioma predeterminado y español latinoamericano como alternativa. | 3 | Kevin Geronimo / Alejandro Díaz | Done |
+| US34 | Consultar los documentos legales del servicio | T04 | Documentos legales | Incorporar accesos a Terms of Service y Privacy Policy. | 2 | Kevin Geronimo / Alejandro Díaz | Done |
+| US35 | Resolver dudas antes de usar Rumbo | T05 | FAQ y contacto | Implementar preguntas frecuentes y formulario de contacto con validación básica. | 4 | Kevin Geronimo / Alejandro Díaz | Done |
+| N/A | Responsive constraint | T06 | Ajustar diseño responsive | Validar la Landing Page en Desktop y Mobile. | 4 | Alejandro Díaz / Kevin Geronimo | Done |
+| N/A | Deployment | T07 | Publicar Landing Page | Publicar la versión funcional y registrar la URL de producción. | 2 | Leonardo Lino / Kevin Geronimo | To-do |
+| N/A | Sprint Review Evidence | T08 | Registrar evidencias | Documentar commits, capturas, video, deployment y colaboración. | 3 | Leonardo Lino | In-Process |
+
+##### Trabajo documental del Sprint 1
+
+Estas tareas corresponden al **Project Report** y no se contabilizan como User Stories de la Landing Page.
+
+| Task ID | Report Scope | Responsible | Status |
+|---|---|---|---|
+| T09 | Capítulo I: Introducción | Marcelo Barrientos | Done |
+| T10 | Capítulo II: Requirements Elicitation & Analysis | Alexandra Meza | Done |
+| T11 | Capítulo III: Requirements Specification | Leonardo Lino | Done |
+| T12 | Capítulo IV: Product Design | Kevin Geronimo / Alejandro Díaz | Done |
+| T13 | Capítulo V: Product Implementation, Validation & Deployment | Leonardo Lino | In-Process |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-| Repositorio | Rama | Commit ID | Mensaje | Fecha |
-|---|---|---|---|---|
-| landing-page | [ ] | [ ] | [ ] | [ ] |
-| web-applications-project-report | [ ] | [ ] | [ ] | [ ] |
+La implementación de Sprint 1 se desarrolló en `feature/landing-page-v1`. La rama contiene el incremento funcional del Landing Page y conserva commits separados por tipo de cambio siguiendo Conventional Commits.
+
+| Repository | Branch | Commit ID | Commit Message | Evidencia asociada | Committed on |
+|---|---|---|---|---|---|
+| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `eaa0f79` | `feat: implement Rumbo AV1 landing page` | Estructura principal, propuesta de valor, beneficios, segmentos, FAQ y contacto. | 2026-09-20 |
+| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `7b5465a` | `style: add responsive landing page styles` | Responsive Web Design para Desktop y Mobile Web Browser. | 2026-09-20 |
+| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `4aac744` | `feat: add navigation i18n faq and contact interactions` | Navegación, `en_US / es_419`, FAQ y validación de contacto. | 2026-09-20 |
+| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `ae1fe63` | `feat: add terms of service page` | Terms of Service. | 2026-09-20 |
+| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `3ff9992` | `feat: add privacy policy page` | Privacy Policy. | 2026-09-20 |
+
+Estos commits constituyen la Development Evidence disponible para T01–T06. El deployment y la integración a una rama estable permanecen pendientes.
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-**Desktop:** [Insertar captura]  
-**Mobile:** [Insertar captura]  
-**Video:** [Insertar URL]
+La Landing Page ya cuenta con una versión funcional en `feature/landing-page-v1`. La evidencia visual de Sprint Review debe capturarse ejecutando esta versión y debe incluir Desktop, Mobile y un video corto de navegación.
+
+| Evidence | Status |
+|---|---|
+| Implementación funcional en GitHub | **Completado** — `feature/landing-page-v1` |
+| Desktop Web Browser screenshot | Pendiente de integrar |
+| Mobile Web Browser screenshot | Pendiente de integrar |
+| Video de ejecución / navegación (Microsoft Stream) | Pendiente |
+| URL ejecutable de producción | Pendiente de deployment |
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-En AV1 el incremento implementado se concentra en el Landing Page. La documentación de endpoints se incorporará cuando el Web Service forme parte del alcance de implementación de un Sprint posterior.
+Los **Web Services no forman parte del alcance funcional de Sprint 1**, cuyo incremento está centrado en la Landing Page. Por ello, en este Sprint no corresponde presentar endpoints como si hubieran sido implementados.
+
+El repositorio `AIpaca-UPC/web-applications-web-service` se mantiene como foundation para los Sprints posteriores. Cuando los Web Services ingresen al Sprint Backlog, la evidencia deberá incluir endpoints documentados con OpenAPI, verbos HTTP, parámetros, ejemplos de request/response, capturas y commits correspondientes.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-**Repositorio:** https://github.com/AIpaca-UPC/landing-page  
-**Proveedor:** [Completar]  
-**Production URL:** [Completar]  
-**Evidencia:** [Insertar capturas]
+Sprint 1 contempla el despliegue de la primera versión de la Landing Page. Sin embargo, la evidencia solo puede considerarse completa cuando exista una implementación funcional y una URL pública verificable.
+
+| Product | Repository | Provider | Production URL | Status |
+|---|---|---|---|---|
+| Landing Page | https://github.com/AIpaca-UPC/landing-page | Pendiente de configurar | Pendiente | To-do |
+
+Cuando se realice el despliegue se deben incorporar capturas de la configuración del proveedor, evidencia de publicación y la visualización de la Landing Page desplegada.
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-**Commits:** [Insertar captura]  
-**Network Graph:** [Insertar captura]  
-**Pull Requests / Contributors:** [Insertar capturas]  
-**Análisis:** [Completar con la participación real del Sprint]
+Esta sección debe evidenciar la **participación de los integrantes en la implementación del producto correspondiente al Sprint**, mediante commits y analíticos de GitHub. La colaboración existente en el Project Report sirve como evidencia documental del trabajo del equipo, pero no sustituye los commits de implementación requeridos para la Landing Page.
+
+| Evidence source | URL |
+|---|---|
+| Landing Page repository | https://github.com/AIpaca-UPC/landing-page |
+| Landing Page branches | https://github.com/AIpaca-UPC/landing-page/branches |
+| Landing Page commits | https://github.com/AIpaca-UPC/landing-page/commits/main |
+| Project Report repository | https://github.com/AIpaca-UPC/web-applications-project-report |
+| Project Report branches | https://github.com/AIpaca-UPC/web-applications-project-report/branches |
+| Project Report Network | https://github.com/AIpaca-UPC/web-applications-project-report/network |
+| Project Report Contributors | https://github.com/AIpaca-UPC/web-applications-project-report/graphs/contributors |
+| Project Report Pull Requests | https://github.com/AIpaca-UPC/web-applications-project-report/pulls |
+
+**Commits de implementación:** Disponibles en `feature/landing-page-v1` y registrados en 5.2.1.4.  
+**Network / Contributors screenshot:** Pendiente de integrar con evidencia real de AIpaca-UPC.  
+**Pull Requests screenshot:** Pendiente de integrar con evidencia real de AIpaca-UPC.
+
+La implementación funcional ya cuenta con commits verificables en la rama feature. La captura general de GitHub Insights documenta la colaboración del Project Report; la atribución individual de implementación debe mantenerse alineada con los commits y asignaciones reales del Sprint.
 
 ---
 
@@ -2045,8 +2341,8 @@ En AV1 el incremento implementado se concentra en el Landing Page. La documentac
 1. La existencia de 3758 vehículos escolares habilitados en Lima y Callao confirma que Rumbo se dirige a un servicio formal con un mercado concreto de familias y operadores.
 2. La congestión registrada en Lima durante 2025 sustenta la necesidad de considerar retrasos y variabilidad en los tiempos de traslado dentro de la experiencia del producto.
 3. La alta penetración de telefonía móvil e Internet en Lima Metropolitana respalda el uso de una solución web responsive como canal principal para los dos segmentos definidos.
-4. Las entrevistas de AV1 permitirán comprobar si el problema específico de visibilidad y comunicación planteado por Rumbo coincide con la experiencia real de padres y conductores.
-5. El Sprint 1 se concentra en el diseño, implementación y despliegue del Landing Page como primer incremento público del producto.
+4. Las seis entrevistas registradas en AV1 permitieron contrastar el problema de visibilidad, coordinación y comunicación con tres padres/tutores y tres conductores.
+5. Sprint 1 ya cuenta con una primera implementación funcional del Landing Page en la rama `feature/landing-page-v1`; queda pendiente su integración estable, deployment y evidencia final de ejecución.
 
 ---
 
