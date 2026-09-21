@@ -2216,11 +2216,9 @@ Para Sprint 1 se separa la responsabilidad del **Project Report** de la responsa
 | Meza, Alexandra | `AlexandraYMS` | — | L | — | — | — | C |
 | Lino Quispe, Leonardo Miguel | `linolw` | — | — | L | — | L | C |
 | Geronimo, Kevin | `qebim18` | — | — | — | L | — | L |
-| Díaz, Alejandro | Pendiente de registrar | — | — | — | C | — | C |
+| Díaz, Alejandro | `aleedr` | — | — | — | C | — | C |
 
 En el **Capítulo IV**, Kevin Geronimo y Alejandro Díaz trabajan de forma conjunta; Kevin figura como Leader únicamente para mantener la convención LACX de un responsable principal y Alejandro como Collaborator directo. Esta distribución identifica responsabilidades del informe y no reemplaza la asignación de Work-items del Sprint Backlog.
-
-> **Pendiente:** registrar el GitHub Username real de Alejandro Díaz.
 
 #### 5.2.1.3. Sprint Backlog 1
 
