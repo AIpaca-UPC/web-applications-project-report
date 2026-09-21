@@ -1723,10 +1723,12 @@ Este diagrama muestra la visión general del sistema Rumbo, posicionando la plat
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-Este diagrama expone la arquitectura física y de despliegue. Divide el sistema en contenedores ejecutables: la Landing Page, la aplicación cliente (SPA en Vue 3 con PrimeVue), la lógica de negocio (RESTful API en ASP.NET Core), la persistencia mediante Entity Framework Core y el DBMS relacional.
+- Landing Page.
+- Frontend Web Application.
+- RESTful Web Service.
+- Base de datos relacional.
 
-<img src="./assets/chapter04/webapps-container-diagram.svg" alt="Rumbo Web Applications Container Diagram" width="95%">
-
+**Structurizr:** [Insertar URL y captura]
 
 ### 4.6.4. Software Architecture Components Diagrams
 
