@@ -1515,15 +1515,6 @@ flowchart TD
 
 El mock-up de alta fidelidad mantiene una estética limpia, fondos claros, tipografía de alto contraste, tarjetas redondeadas y CTAs destacados. Se conserva la propuesta visual del proyecto anterior, eliminando del alcance actual cualquier afirmación que dependa de seguimiento GPS continuo o funcionalidades no consideradas en el Product Backlog.
 
-| Sección | Decisión de diseño |
-|---|---|
-| Hero | Propuesta de valor, descripción breve y CTA. |
-| Beneficios | Información diferenciada para padres/tutores y conductores. |
-| Cómo funciona | Recojo, trayecto, retrasos/incidencias y entrega como hitos principales. |
-| FAQ | Dudas frecuentes sobre privacidad, funcionamiento y uso durante la conducción. |
-| Contacto | Formulario con validación básica. |
-| Legal | Acceso a Terms of Service y Privacy Policy. |
-
 <div align="center">
   <img src="./assets/chapter04/landingMockupDsk.png" alt="Landing Page Desktop Mock-Up" width="750">
 </div>
@@ -1588,7 +1579,7 @@ flowchart LR
     F --> B
 ```
 
-**Wireflows en FigJam:** https://www.figma.com/board/fdlv24s9wIeJSi2zTbzI0m
+**Wireflows en Figma:** https://www.figma.com/board/fdlv24s9wIeJSi2zTbzI0m
 
 ### 4.4.3. Web Applications Mock-ups
 
@@ -1641,7 +1632,7 @@ flowchart TD
     J --> K[Finalizar Trip]
 ```
 
-**User Flows en FigJam:** https://www.figma.com/board/JN6GilTFsvrcTlUdRG1y2G
+**User Flows en Figma:** https://www.figma.com/board/JN6GilTFsvrcTlUdRG1y2G
 
 ## 4.5. Web Applications Prototyping
 
