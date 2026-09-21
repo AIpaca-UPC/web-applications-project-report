@@ -1723,9 +1723,10 @@ Este diagrama muestra la visión general del sistema Rumbo, posicionando la plat
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-Este diagrama expone la arquitectura física y de despliegue. Divide el sistema en contenedores ejecutables: la Landing Page, la aplicación cliente (SPA en Angular), la lógica de negocio (API en Spring Boot)
+Este diagrama expone la arquitectura física y de despliegue. Divide el sistema en contenedores ejecutables: la Landing Page, la aplicación cliente (SPA en Vue y PrimeVue), y la lógica de negocio (API en ASP.NET Core y Entity Framework Core).
 
-<img width="1069" height="1171" alt="Contenedores-Diagrama" src="https://github.com/user-attachments/assets/022fc782-e64d-481b-a732-9f64e2dcd7a4" />
+<img width="1069" height="1171" alt="Contenedores-diagrama (1)" src="https://github.com/user-attachments/assets/d2203148-4aed-4791-8c2b-5b55a60fdbce" />
+
 
 
 ### 4.6.4. Software Architecture Components Diagrams
