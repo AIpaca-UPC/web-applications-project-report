@@ -2020,7 +2020,7 @@ El Sprint Backlog descompone las cinco User Stories seleccionadas en Work-items 
 
 **Sprint Board URL:** https://trello.com/b/pZTeSjRE/rumbo-sprint-1
 
-**Sprint Board screenshot:** Pendiente de integrar cuando el Board de Sprint 1 esté creado y organizado con los estados `To-do`, `In-Process`, `To-Review` y `Done`.
+**Sprint Board screenshot:** Pendiente de integrar la captura actual del Board. El Board ya se encuentra organizado con los estados `To-do`, `In-Process`, `To-Review` y `Done`.
 
 ##### User Stories seleccionadas para la Landing Page
 
@@ -2047,7 +2047,7 @@ Para la implementación de la Landing Page se seleccionaron únicamente las User
 | US35 | Resolver dudas antes de usar Rumbo | T05 | FAQ y contacto | Implementar preguntas frecuentes y formulario de contacto con validación básica. | 4 | Kevin Geronimo / Alejandro Díaz | To-do |
 | N/A | Responsive constraint | T06 | Ajustar diseño responsive | Validar la Landing Page en Desktop y Mobile. | 4 | Alejandro Díaz / Kevin Geronimo | To-do |
 | N/A | Deployment | T07 | Publicar Landing Page | Publicar la versión funcional y registrar la URL de producción. | 2 | Leonardo Lino / Kevin Geronimo | To-do |
-| N/A | Sprint Review Evidence | T08 | Registrar evidencias | Documentar commits, capturas, video, deployment y colaboración. | 3 | Leonardo Lino | To-do |
+| N/A | Sprint Review Evidence | T08 | Registrar evidencias | Documentar commits, capturas, video, deployment y colaboración. | 3 | Leonardo Lino | In-Process |
 
 ##### Trabajo documental del Sprint 1
 
@@ -2059,7 +2059,7 @@ Estas tareas corresponden al **Project Report** y no se contabilizan como User S
 | T10 | Capítulo II: Requirements Elicitation & Analysis | Alexandra Meza | Done |
 | T11 | Capítulo III: Requirements Specification | Leonardo Lino | Done |
 | T12 | Capítulo IV: Product Design | Kevin Geronimo / Alejandro Díaz | Done |
-| T13 | Capítulo V: Product Implementation, Validation & Deployment | Leonardo Lino | Done |
+| T13 | Capítulo V: Product Implementation, Validation & Deployment | Leonardo Lino | In-Process |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
