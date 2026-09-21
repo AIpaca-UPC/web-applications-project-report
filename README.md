@@ -159,49 +159,42 @@ Alcance del proyecto: El alcance inicial de Rumbo está orientado a padres o tut
 
 <table>
   <thead>
-    <tr>
-      <th>Foto</th>
-      <th>Apellidos y nombres</th>
-      <th>Código</th>
-      <th>Carrera</th>
-      <th>Habilidades</th>
-    </tr>
+    <tr><th>Foto</th><th>Apellidos y nombres</th><th>Código</th><th>Carrera</th><th>Habilidades</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td align="center"><img src="assets/chaper1/marcelo.png" alt="Barrientos Quispe, Marcelo" width="120"/></td>
+      <td align="center"><img src="assets/chapter01/marcelo.png" alt="Marcelo Barrientos Quispe" width="120"/></td>
       <td>Barrientos Quispe, Marcelo</td>
       <td>U20221e646</td>
       <td>Ingeniería de Software</td>
       <td>Me considero una persona adaptable al entorno, sé trabajar en equipo y aprendo rápido. Cuento con conocimientos técnicos en tecnologías de JavaScript.</td>
     </tr>
     <tr>
-      <td align="center"><img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/feature/chapter-4-product-design/assets/chapter01/alejandro-diaz.png" alt="Alejandro Díaz Ramírez" width="120"/></td>
-      <td>Díaz Ramírez, Alejandro</td>
+      <td align="center"><img src="./assets/chapter01/alejandro-diaz.png" alt="Alejandro Diaz Ramirez" width="120"></td>
+      <td>Diaz Ramirez, Alejandro</td>
       <td>U202423084</td>
       <td>Ingeniería de Software</td>
-      <td>Estudiante de Ingeniería de Software con conocimientos en Python y C++, experiencia en prototipado con React Native y trabajo colaborativo con metodologías ágiles. Aporta principalmente en lógica del sistema, estructuración del código y desarrollo técnico.</td>
+      <td>Estudiante de Ingeniería de Software de 5.º ciclo, con una base sólida en Python y C++, así como experiencia en prototipado rápido con React Native, lo que me permite aportar en el desarrollo técnico del proyecto, especialmente en la lógica del sistema, la estructuración del código y el procesamiento de datos. También agregar que he trabajado en entornos colaborativos bajo metodologías ágiles, gestionando proyectos y equipos con Scrum para asegurar entregas eficientes y de calidad.</td>
     </tr>
     <tr>
-      <td align="center"><img src="https://github.com/user-attachments/assets/8be17c32-7b22-466c-a91e-daf42a5b31ea" alt="Kevin Joel Geronimo Puma" width="120"/></td>
+      <td align="center"><img width="120" alt="kevin" src="https://github.com/user-attachments/assets/8be17c32-7b22-466c-a91e-daf42a5b31ea" /></td>
       <td>Geronimo Puma, Kevin Joel</td>
       <td>U202423163</td>
       <td>Ingeniería de Software</td>
-      <td>Estudiante de Ingeniería de Software con conocimientos en Python y C++. Se desempeña especialmente en arquitectura de software, diseño de bases de datos, lógica del sistema y organización técnica del desarrollo.</td>
+      <td>Estudiante de Ingeniería de Software de 5.º ciclo, con una base sólida en Python y C++. Mi perfil me permite aportar en el desarrollo técnico del proyecto, destacando por mi facilidad para la arquitectura de software y el diseño de bases de datos, además de la lógica del sistema, la estructuración del código y el procesamiento de datos. Asimismo, tengo experiencia trabajando en entornos colaborativos bajo metodologías ágiles, asegurando siempre entregas eficientes y de calidad.</td>
     </tr>
     <tr>
-      <td align="center"><img src="assets/chaper1/leonardo-lino.svg" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
+      <td align="center"><img src="./assets/chapter01/leonardo-lino.jpg" alt="Leonardo Miguel Lino Quispe" width="120"></td>
       <td>Lino Quispe, Leonardo Miguel</td>
       <td>U202422298</td>
       <td>Ingeniería de Software</td>
-      <td>Soy estudiante de Ingeniería de Software del 4to ciclo en la UPC. Tengo conocimientos en programación en C++ y Python, y experiencia desarrollando proyectos académicos donde analizo y organizo soluciones tecnológicas. Me gusta enfocarme en aprender de forma práctica y en construir soluciones que sean claras, funcionales y aplicadas a problemas reales.</td>
+      <td>Soy estudiante de Ingeniería de Software del 5.º ciclo en la UPC. Tengo conocimientos en programación en C++ y Python, y experiencia desarrollando proyectos académicos donde analizo y organizo soluciones tecnológicas. Me gusta enfocarme en aprender de forma práctica y en construir soluciones que sean claras, funcionales y aplicadas a problemas reales.</td>
     </tr>
-    <tr>
-      <td align="center"><img src="assets/chaper1/alexandra-meza.png" alt="Alexandra Yamile Meza Soza" width="120"/></td>
+      <td align="center"><img src="assets/chapter01/alexandra-meza.png" alt="Alexandra Yamile Meza Soza" width="120"/></td>
       <td>Meza Soza, Alexandra Yamile</td>
       <td>U20241b451</td>
       <td>Ingeniería de Software</td>
-      <td>Estudiante de Ingeniería de Software con conocimientos en Python y C++. Se caracteriza por el aprendizaje rápido, el criterio para seleccionar información relevante y el trabajo colaborativo. En el equipo aporta investigación aplicada, análisis y documentación del producto.</td>
+      <td>Soy estudiante de Ingeniería de Software del 6.º ciclo en la UPC. Cuento con conocimientos en el desarrollo de sistemas utilizando los lenguajes Python y C++. Me caracterizo por aprendizaje rápido, criterio para filtrar información relevante y trabajo colaborativo. En el equipo aporto investigación aplicada y prototipos técnicos que conectan los hallazgos con funcionalidades del producto.</td>
     </tr>
   </tbody>
 </table>
