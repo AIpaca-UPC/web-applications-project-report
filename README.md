@@ -1739,13 +1739,14 @@ Este diagrama expone la arquitectura física y de despliegue. Divide el sistema 
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-Este diagrama profundiza en el contenedor lógico del backend (API Application). Muestra la estructura interna basada en el patrón MVC utilizado en Spring Boot, detallando los controladores (REST y WebSockets), los servicios que encapsulan las reglas de negocio, la capa de acceso a datos mediante repositorios y la barrera de seguridad (Security Filter).
+Este diagrama profundiza en el contenedor lógico del backend (API Application). Muestra la estructura interna basada en el ecosistema de ASP.NET Core, detallando los controladores (Web API y SignalR), los servicios que encapsulan las reglas de negocio, la capa de acceso a datos mediante Entity Framework Core y el middleware de seguridad.
 
-<img width="697" height="812" alt="component-diagram-1" src="https://github.com/user-attachments/assets/1d7ca398-5c9f-46e8-b3b9-39fe16430330" />
+<img width="1081" height="1369" alt="component-diagram-1C#" src="https://github.com/user-attachments/assets/49601878-4795-498a-9893-99e5ce29c715" />
 
-Este diagrama hace foco en la arquitectura interna de la Single Page Application (SPA) desarrollada en Angular. Detalla la separación de responsabilidades entre el enrutador protegido (AuthGuard), los componentes visuales de las vistas (mapas y paneles de gestión) y los servicios encargados de la conexión persistente (WebSockets) y el consumo de la API.
+Este diagrama hace foco en la arquitectura interna de la Single Page Application (SPA) desarrollada en Vue 3 y PrimeVue. Detalla la separación de responsabilidades entre el enrutador protegido (Vue Router), los componentes visuales de las vistas (mapas y paneles de gestión) y los servicios encargados de la conexión persistente (SignalR Client) y el consumo de la API.
 
-<img width="711" height="799" alt="component-diagram-2" src="https://github.com/user-attachments/assets/04eeb9b7-6dc2-4f13-9553-063b4cec2099" />
+<img width="981" height="1189" alt="component-diagram-2C#" src="https://github.com/user-attachments/assets/0ad8da26-adc5-44f0-9779-f5c73202c59f" />
+
 
 ## 4.7. Software Object-Oriented Design
 
