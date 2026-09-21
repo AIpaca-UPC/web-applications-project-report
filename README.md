@@ -1723,23 +1723,20 @@ Este diagrama muestra la visión general del sistema Rumbo, posicionando la plat
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-- Landing Page.
-- Frontend Web Application.
-- RESTful Web Service.
-- Base de datos relacional.
+Este diagrama expone la arquitectura física y de despliegue. Divide el sistema en contenedores ejecutables: la Landing Page, la aplicación cliente (SPA en Angular), la lógica de negocio (API en Spring Boot)
 
-**Structurizr:** [Insertar URL y captura]
+<img width="1069" height="1171" alt="Contenedores-Diagrama" src="https://github.com/user-attachments/assets/022fc782-e64d-481b-a732-9f64e2dcd7a4" />
+
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-Este diagrama profundiza en el contenedor lógico del backend (RESTful API). Muestra la estructura interna en ASP.NET Core, separando Controllers/Endpoints, Application Services, Domain Model, autorización/autenticación y persistencia mediante Entity Framework Core.
+Este diagrama profundiza en el contenedor lógico del backend (API Application). Muestra la estructura interna basada en el patrón MVC utilizado en Spring Boot, detallando los controladores (REST y WebSockets), los servicios que encapsulan las reglas de negocio, la capa de acceso a datos mediante repositorios y la barrera de seguridad (Security Filter).
 
-<img src="./assets/chapter04/webapps-backend-components.svg" alt="ASP.NET Core Backend Components Diagram" width="90%">
+<img width="697" height="812" alt="component-diagram-1" src="https://github.com/user-attachments/assets/1d7ca398-5c9f-46e8-b3b9-39fe16430330" />
 
-Este diagrama hace foco en la arquitectura interna de la Single Page Application desarrollada en Vue 3. Detalla la separación de responsabilidades entre Vue Router y sus navigation guards, Views, componentes reutilizables basados en PrimeVue, servicios de consumo del RESTful API, manejo de sesión e internacionalización.
+Este diagrama hace foco en la arquitectura interna de la Single Page Application (SPA) desarrollada en Angular. Detalla la separación de responsabilidades entre el enrutador protegido (AuthGuard), los componentes visuales de las vistas (mapas y paneles de gestión) y los servicios encargados de la conexión persistente (WebSockets) y el consumo de la API.
 
-<img src="./assets/chapter04/webapps-frontend-components.svg" alt="Vue PrimeVue Frontend Components Diagram" width="90%">
-
+<img width="711" height="799" alt="component-diagram-2" src="https://github.com/user-attachments/assets/04eeb9b7-6dc2-4f13-9553-063b4cec2099" />
 
 ## 4.7. Software Object-Oriented Design
 
