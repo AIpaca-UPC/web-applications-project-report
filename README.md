@@ -743,7 +743,7 @@ Las preguntas combinan información demográfica y contextual con preguntas abie
 
 ### 2.2.2. Registro de entrevistas
 
-Para cada entrevista se registrará nombre completo, edad, distrito, segmento, captura, URL del video, timing, duración y resumen descriptivo. Actualmente se cuenta con **cuatro entrevistas efectivamente registradas: una del segmento Padres/Tutores y tres del segmento Conductores de movilidad escolar**. Para alcanzar el mínimo de tres entrevistas por segmento todavía faltan **dos entrevistas de padres/tutores**.
+Para cada entrevista se registra nombre completo, edad, distrito, segmento, captura, URL del video, timing, duración y resumen descriptivo. Actualmente se cuenta con **seis entrevistas registradas: tres del segmento Padres/Tutores y tres del segmento Conductores de movilidad escolar**, cumpliendo el mínimo requerido para ambos segmentos.
 
 | # | Entrevistado | Edad | Distrito | Segmento | Duración | Referencia |
 | -: | ----------- | ---: | -------- | -------- | :-----   | ---------- |
@@ -844,13 +844,22 @@ En esta sección se presentan las User Personas correspondientes a los dos segme
 
 ### 2.3.2. User Task Matrix
 
-| Tarea | Padre/Tutor — Frecuencia | Padre/Tutor — Importancia | Conductor — Frecuencia | Conductor — Importancia |
-|---|---|---|---|---|
-| Confirmar que el menor fue recogido | [ ] | [ ] | [ ] | [ ] |
-| Consultar o comunicar un retraso | [ ] | [ ] | [ ] | [ ] |
-| Confirmar una entrega | [ ] | [ ] | [ ] | [ ] |
-| Comunicar una incidencia | [ ] | [ ] | [ ] | [ ] |
-| Revisar lo ocurrido durante la ruta | [ ] | [ ] | [ ] | [ ] |
+La User Task Matrix resume las tareas que realizan los dos segmentos objetivo en su rutina de movilidad escolar, independientemente de que exista Rumbo. Para mantener coherencia con los User Personas, se consideran **Gabriela Morales (Padre/Tutor)** y **Carlos Rivas (Conductor)**.
+
+| Tarea del usuario | Padre/Tutor — Frecuencia | Padre/Tutor — Importancia | Conductor — Frecuencia | Conductor — Importancia |
+|---|:---:|:---:|:---:|:---:|
+| Preparar al estudiante antes del recojo | Diaria | Alta | No aplica | No aplica |
+| Confirmar si el estudiante utilizará la movilidad | Diaria | Alta | Diaria | Alta |
+| Esperar / llegar al punto de recojo acordado | Diaria | Alta | Diaria | Alta |
+| Organizar el orden de paradas del recorrido | No aplica | No aplica | Diaria | Alta |
+| Confirmar que el estudiante fue recogido | Diaria | Alta | Diaria | Alta |
+| Consultar o comunicar el avance del traslado | Diaria | Alta | Diaria | Alta |
+| Comunicar un retraso | Ocasional | Alta | Ocasional | Alta |
+| Comunicar una incidencia | Ocasional | Alta | Ocasional | Alta |
+| Confirmar la llegada o entrega del estudiante | Diaria | Alta | Diaria | Alta |
+| Coordinar el retorno del estudiante | Diaria | Media | Diaria | Media |
+
+Las tareas de **confirmar asistencia, recojo y entrega** son recurrentes y de alta importancia para ambos segmentos. La diferencia principal está en que el padre/tutor necesita mantenerse informado, mientras que el conductor debe organizar el recorrido y comunicar cambios sin distraerse durante la conducción. Esta matriz respalda la prioridad dada a los estados del traslado, hitos, retrasos, incidencias y reporte de ausencias dentro del Product Backlog.
 
 ### 2.3.3. User Journey Mapping
 
