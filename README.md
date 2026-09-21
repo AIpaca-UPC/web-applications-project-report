@@ -1492,23 +1492,14 @@ Se compararán respuestas por segmento, separando **características objetivas**
 
 El wireframe de la Landing Page organiza el contenido de forma secuencial para explicar la propuesta de Rumbo antes de llevar al usuario a una acción. Se conserva el artefacto Desktop trabajado previamente en el proyecto Rumbo y se complementa con una adaptación Mobile para cubrir Responsive Web Design.
 
-```mermaid
-flowchart TD
-    A[Header y navegación] --> B[Hero: tranquilidad en cada trayecto]
-    B --> C[Beneficios principales]
-    C --> D[Cómo funciona Rumbo]
-    D --> E[Funcionalidades]
-    E --> F[Preguntas frecuentes]
-    F --> G[Contacto y documentos legales]
-    G --> H[Footer]
-```
-
 <div align="center">
   <img src="./assets/chapter04/landingWireframeDsk.png" alt="Landing Page Desktop Wireframe" width="750">
 </div>
 
+<br>
+
 <div align="center">
-  <img src="./assets/chapter04/landing-mobile-design.svg" alt="Landing Page Mobile Wireframe and Mock-up" width="750">
+  <img src="./assets/chapter04/landingWireframeMb.png" alt="Landing Page Mobile Wireframe" width="375">
 </div>
 
 ### 4.3.2. Landing Page Mock-up
@@ -1518,6 +1509,12 @@ El mock-up de alta fidelidad mantiene una estética limpia, fondos claros, tipog
 <div align="center">
   <img src="./assets/chapter04/landingMockupDsk.png" alt="Landing Page Desktop Mock-Up" width="750">
 </div>
+ 
+<br>
+
+<div align="center">
+  <img src="./assets/chapter04/landingMockupMb.png" alt="Landing Page Mobile Wireframe" width="375">
+</div>
 
 La versión funcional correspondiente a este diseño se implementa en `AIpaca-UPC/landing-page`, rama `feature/landing-page-v1`.
 
@@ -1525,7 +1522,7 @@ La versión funcional correspondiente a este diseño se implementa en `AIpaca-UP
 
 El diseño de la Web Application considera dos experiencias principales: **Padres/Tutores** y **Conductores**. Se tomó como base la estructura elaborada en el proyecto Rumbo anterior y se mantuvieron únicamente las vistas coherentes con los User Stories vigentes. Los padres consultan el estado e historial del traslado; los conductores organizan la ruta y registran hitos, retrasos e incidencias con acciones breves.
 
-**Archivo editable de UX/UI en Figma:** https://www.figma.com/design/1UjjmTqKROq4VXZPGHLSvx
+**Archivo editable de UX/UI en Figma:** https://www.figma.com/design/ZRq2CfgjUIw4jeMOc5d1vU/Rumbo-s-UI-Design?node-id=35-679&t=1q0UFDQCRhveyoFZ-1
 
 ### 4.4.1. Web Applications Wireframes
 
@@ -1579,19 +1576,95 @@ flowchart LR
     F --> B
 ```
 
-**Wireflows en Figma:** https://www.figma.com/board/fdlv24s9wIeJSi2zTbzI0m
+**Wireflows en Figma:** https://www.figma.com/design/ZRq2CfgjUIw4jeMOc5d1vU/Rumbo-s-UI-Design?node-id=35-679&t=1q0UFDQCRhveyoFZ-1
 
 ### 4.4.3. Web Applications Mock-ups
 
 Los Mock-ups reutilizan el lenguaje visual de Rumbo: fondo claro, tarjetas blancas, verde como color de acción, verde oscuro para superficies de contraste y tipografías Outfit/Roboto. Se prepararon vistas representativas Desktop y Mobile para ambos segmentos.
 
 <div align="center">
-  <img src="./assets/chapter04/webapp-mockups.svg" alt="Rumbo Web Application Mock-ups" width="95%">
+  <img src="./assets/chapter04/mockups/inicio-sesion.png" alt="Rumbo Web Application Mock-ups" width="95%">
 </div>
 
-El archivo de Figma incluye las siguientes vistas: **Desktop Sign In, Parent Dashboard, Driver Assigned Route, Mobile Parent Dashboard, Mobile Driver Route y Mobile Parent Notifications**.
+<br>
 
-**Mock-ups editables en Figma:** https://www.figma.com/design/1UjjmTqKROq4VXZPGHLSvx
+<div align="center">
+  <img src="./assets/chapter04/mockups/panel-tutor.png" alt="Rumbo Web Application Mock-ups" width="95%">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/chapter04/mockups/viaje-actual.png" alt="Rumbo Web Application Mock-ups" width="95%">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/chapter04/mockups/historial-viajes.png" alt="Rumbo Web Application Mock-ups" width="95%">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/chapter04/mockups/notificaciones-tutor.png" alt="Rumbo Web Application Mock-ups" width="95%">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/chapter04/mockups/perfil-estudiante.png" alt="Rumbo Web Application Mock-ups" width="95%">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/chapter04/mockups/documentos-conductor.png" alt="Rumbo Web Application Mock-ups" width="95%">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/chapter04/mockups/configuracion-tutor.png" alt="Rumbo Web Application Mock-ups" width="95%">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/chapter04/mockups/panel-conductor.png" alt="Rumbo Web Application Mock-ups" width="95%">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/chapter04/mockups/viajes.png" alt="Rumbo Web Application Mock-ups" width="95%">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/chapter04/mockups/rutas.png" alt="Rumbo Web Application Mock-ups" width="95%">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/chapter04/mockups/incidencias.png" alt="Rumbo Web Application Mock-ups" width="95%">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/chapter04/mockups/facturacion.png" alt="Rumbo Web Application Mock-ups" width="95%">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/chapter04/mockups/configuracion-conductor.png" alt="Rumbo Web Application Mock-ups" width="95%">
+</div>
+
+**Mock-ups editables en Figma:** https://www.figma.com/design/ZRq2CfgjUIw4jeMOc5d1vU/Rumbo-s-UI-Design?node-id=35-679&t=1q0UFDQCRhveyoFZ-1
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
