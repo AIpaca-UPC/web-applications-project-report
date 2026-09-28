@@ -2297,7 +2297,7 @@ Sprint 1 contempla el despliegue de la primera versión de la Landing Page. Sin 
 |---|---|---|---|---|
 | Landing Page | https://github.com/AIpaca-UPC/landing-page | GitHub Pages | https://aipaca-upc.github.io/landing-page/ | Published |
 
-**Deployment evidence URL:** https://github.com/AIpaca-UPC/landing-page/actions/runs/36452063217
+**Deployment evidence URL:** https://github.com/AIpaca-UPC/landing-page/actions/runs/36452263086
 
 El deployment fue realizado desde la rama `gh-pages`. La ejecución de GitHub Pages finalizó correctamente y la Landing Page quedó disponible mediante una URL pública.
 
