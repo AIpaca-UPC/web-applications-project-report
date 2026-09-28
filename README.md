@@ -2,7 +2,7 @@
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
-<img src="https://seeklogo.com/images/U/universidad-peruana-de-ciencias-aplicadas-upc-logo-B98C3A365C-seeklogo.com.png" alt="Logo UPC" width="260"/>
+<img src="./assets/upc-logo.svg" alt="Logo UPC - Universidad Peruana de Ciencias Aplicadas" width="260"/>
 
 ### Ingeniería de Software
 
@@ -43,7 +43,8 @@
 | Versión | Fecha | Autor(es) | Descripción de cambios |
 |---|---|---|---|
 | 0.1 | 07/09/2026 | Lino Quispe, Leonardo Miguel | Creación de la estructura base del informe de Rumbo. |
-| 0.2 | 11/09/2026 | Equipo Rumbo | Actualización de integrantes y refinamiento del Capítulo I para AV1. |\n| 0.3 | 20/09/2026 | Equipo Rumbo | Integración de Collaboration Insights, Student Outcome, artefactos de Product Design y avance de Sprint 1. |
+| 0.2 | 11/09/2026 | Equipo Rumbo | Actualización de integrantes y refinamiento del Capítulo I para AV1. |
+| 0.3 | 20/09/2026 | Equipo Rumbo | Integración de Collaboration Insights, Student Outcome, artefactos de Product Design y avance de Sprint 1. |
 
 ---
 
@@ -755,9 +756,9 @@ Para cada entrevista se registra nombre completo, edad, distrito, segmento, capt
 - **Distrito:** San Miguel.
 - **Frecuencia de uso:** 2 días a la semana.
 - **Timing de inicio:** 00:00.
-- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQAidRav7C7uTanDv_bGmDR7AelCr3B6zxh1HNJcxzSEYkY?e=jnKSeK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQAidRav7C7uTanDv_bGmDR7AelCr3B6zxh1HNJcxzSEYkY?e=jnKSeK
 
-<p align="center"><img width="1433" height="657" alt="image" src="/assets/chaper2/gisela-santi-entrevista.png" /></p>
+<p align="center"><img src="./assets/chaper2/gisela-santi-entrevista.png" alt="Entrevista a Gisela Paola Santi Quispe" width="90%"/></p>
 
 **Resumen preliminar:** 
 
@@ -775,9 +776,9 @@ Paola opina que lo que más le preocupa es el nivel de privacidad con respecto a
 - **Distrito:** Cercado de Lima.
 - **Frecuencia de uso:** 1 días a la semana.
 - **Timing de inicio:** 00:00.
-- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQBZEYrCvz0UTYUAl1mpybc0AY7AkjTMQVY_AlCxp-8OP34?e=nc6MsX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQBZEYrCvz0UTYUAl1mpybc0AY7AkjTMQVY_AlCxp-8OP34?e=nc6MsX
   
-<p align="center"><img width="1433" height="657" alt="image" src="/assets/chaper2/entrevista-marleny.png" /></p>
+<p align="center"><img src="./assets/chaper2/entrevista-marleny.png" alt="Entrevista a Marleny Nori Padilla Aguirre" width="90%"/></p>
   
 **Resumen preliminar:** 
 
@@ -797,7 +798,7 @@ Marleny opina que lo que más le preocupa es el nivel de privacidad con respecto
 - **Timing de inicio:** 00:00.
 - **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423163_upc_edu_pe/IQAiG1Qiytv5T7nH1uVETjB1AbaTGE1RMaOf4cY4BH8dFkE?e=9F3PT4
   
-  <p align="center"><img width="1433" height="657" alt="image" src="https://github.com/user-attachments/assets/b7505480-b81b-4072-b269-6384d712d131" /> </p>
+  <p align="center"><img src="https://github.com/user-attachments/assets/b7505480-b81b-4072-b269-6384d712d131" alt="Entrevista a padre o tutor" width="90%"/></p>
   
 **Resumen preliminar:** Leonel Adrián es un padre de familia de 24 años que reside en el distrito del Callao. Utiliza el servicio de movilidad escolar cinco días a la semana para que su hijo de 6 años asista al nido. Para comunicarse con el conductor, emplea principalmente WhatsApp. Por este medio, el chófer envía fotografías al grupo de padres como evidencia de que los niños han llegado a su destino, lo cual le genera tranquilidad. A pesar de no haber experimentado retrasos ni complicaciones con el servicio, Adrián admite sentir cierta incertidumbre durante el trayecto de su hijo debido a la inseguridad ciudadana que hay en su distrito. Si se implementara una herramienta digital para el servicio, considera que lo más útil sería poder visualizar la ubicación exacta del vehículo en tiempo real. Además, mencionó que sería ideal contar con cámaras de seguridad, aunque es consciente de que sería difícil de implementar. Por el momento, Adrián se encuentra completamente satisfecho con el servicio, siente que todo va acorde y no realizaría ningún cambio en la forma actual de coordinación.
 
@@ -810,7 +811,7 @@ Marleny opina que lo que más le preocupa es el nivel de privacidad con respecto
 - **Distrito:** Olivos.
 - **Duración:** 09:51.
 - **Timing de inicio:** 00:00.
-- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQC8MugJp8RuRYBv6-JB1JqxAa7zKfdSDfWOW6lMscwFzxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MUf4ft
+- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQC8MugJp8RuRYBv6-JB1JqxAa7zKfdSDfWOW6lMscwFzxg?e=MUf4ft
 
 <p align="center"><img src="assets/chaper2/gabriel-sosa-interview.png" alt="Captura de la entrevista a Gabriel Alexandro Sosa Guevara" width="850"/></p>
 
@@ -824,7 +825,7 @@ Marleny opina que lo que más le preocupa es el nivel de privacidad con respecto
 - **Distrito:** Pueblo Libre.
 - **Duración:** 09:05.
 - **Timing de inicio:** 00:00.
-- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQDViGOQ_7GOQYDKI1MqVAXNAacWQv3o8bRMqBJbKkhsKp8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6tRx0m
+- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQDViGOQ_7GOQYDKI1MqVAXNAacWQv3o8bRMqBJbKkhsKp8?e=6tRx0m
 
 <p align="center"><img src="assets/chaper2/brayan-solorzano-interview.png" alt="Captura de la entrevista a Brayan Solorzano Pineda" width="850"/></p>
 
@@ -838,7 +839,7 @@ Marleny opina que lo que más le preocupa es el nivel de privacidad con respecto
 - **Distrito:** San Miguel.
 - **Duración:** 18:14.
 - **Timing de inicio:** 00:06.
-- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b451_upc_edu_pe/IQAarNiMmGEZT73ZVhSkpNMNAVFqyptTBINEQvTJU6AW7BY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=asjxgo
+- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b451_upc_edu_pe/IQAarNiMmGEZT73ZVhSkpNMNAVFqyptTBINEQvTJU6AW7BY?e=asjxgo
 
 <p align="center"><img src="assets/chaper2/conductor-3.png" alt="Captura de la entrevista a Vilma Hoyos" width="850"/></p>
 
@@ -967,11 +968,11 @@ En esta sección se presentan las User Personas correspondientes a los dos segme
 
 ## Segmento — Padres y tutores
 
-<img width="1050" height="1438" alt="Gabriela Morales" src="https://github.com/user-attachments/assets/a1add856-d769-4711-a1ff-2767317ceb7a" />
+<p align="center"><img src="https://github.com/user-attachments/assets/a1add856-d769-4711-a1ff-2767317ceb7a" alt="User Persona Gabriela Morales" width="60%"/></p>
 
 ## Segmento — Conductores
 
-<img width="1050" height="1228" alt="Carlos Rivas" src="https://github.com/user-attachments/assets/84b05149-9953-4fa3-9ebe-e7d30a1ed526" />
+<p align="center"><img src="https://github.com/user-attachments/assets/84b05149-9953-4fa3-9ebe-e7d30a1ed526" alt="User Persona Carlos Rivas" width="60%"/></p>
 
 ### 2.3.2. User Task Matrix
 
@@ -1002,13 +1003,13 @@ Se presentan las versiones **As-Is**, que permiten analizar cómo se desarrolla 
 
 El journey de los padres de familia durante las mañanas inicia con la preparación en casa, donde alistan al menor con una sensación inicial de serenidad, aunque experimentan la falta de visibilidad sobre el inicio de la ruta. Al pasar a la espera en la acera, se vive un estado de vigilancia mientras aguardan a la intemperie la llegada de la movilidad, lo que da paso a la etapa de retraso e incertidumbre: al cumplirse más de quince minutos de demora sin respuesta del conductor debido a que va manejando, la ansiedad y el miedo a llegar tarde se apoderan del tutor. Posteriormente, durante el abordaje y despacho, la subida se realiza de forma apresurada y sin la certeza de las medidas de seguridad, generando temor. Finalmente, en el trayecto y llegada, los padres experimentan angustia e incertidumbre total hasta recibir la confirmación de que el menor ha ingresado sin novedades al colegio.
 
-<img width="1556" height="1086" alt="USER JOURNEY MAP - PADRE_TUTOR" src="https://github.com/user-attachments/assets/4bb04243-7f62-427a-80b3-590b55748984" />
+<p align="center"><img src="https://github.com/user-attachments/assets/4bb04243-7f62-427a-80b3-590b55748984" alt="User Journey Map - Padre Tutor" width="95%"/></p>
 
 ## Segmento — Conductores
 
 El recorrido diario del conductor inicia antes del viaje con una etapa neutral donde revisa chats de WhatsApp para corroborar asistencias de forma tediosa y repetitiva. Al pasar al durante el viaje de ida, la experiencia desciende hacia la molestia (annoyance) debido a lo estresante y peligroso que resulta manejar mientras responde mensajes constantes y llamadas sobre demoras. Posteriormente, en el después del viaje y la previa antes del viaje de retorno, el conductor se informa de cambios mediante chats fragmentados con una actitud serena y de anticipación. Al encontrarse en el colegio para la recogida, la experiencia se mantiene en un estado de vigilancia y neutralidad mientras cuenta y verifica la asistencia de los menores lidiando con llamadas de última hora. En el durante el viaje de regreso, vuelve a experimentar momentos neutrales al repartir a los estudiantes mientras responde chats y busca información de emergencia. Finalmente, la jornada concluye en el después del viaje de vuelta a casa con una sensación de serenidad al comunicarse individualmente con los padres para confirmar que los niños llegaron a sus domicilios.
 
-<img width="1556" height="1086" alt="USER JOURNEY MAP - CONDUCTOR" src="/assets/chaper2/user-journey-map-conductor.png" />
+<p align="center"><img src="./assets/chaper2/user-journey-map-conductor.png" alt="User Journey Map - Conductor" width="95%"/></p>
 
 ### 2.3.4. Empathy Mapping
 
@@ -1016,19 +1017,19 @@ En esta sección se presentan los **Empathy Maps** elaborados para cada uno de l
 
 ## Segmento — Padres y tutores
 
-<img width="1050" height="1318" alt="Empathy map (1)" src="https://github.com/user-attachments/assets/1add7ca8-41b3-40e0-9481-dbf693cb4642" />
+<p align="center"><img src="https://github.com/user-attachments/assets/1add7ca8-41b3-40e0-9481-dbf693cb4642" alt="Empathy Map - Padre Tutor" width="65%"/></p>
 
 ## Segmento — Conductores
 
-<img width="1050" height="1318" alt="CARLOS RIVAS EMPATHY MAP" src="/assets/chaper2/user-empathy-map-conductor.png" />
+<p align="center"><img src="./assets/chaper2/user-empathy-map-conductor.png" alt="Empathy Map - Carlos Rivas" width="65%"/></p>
 
 ## 2.4. Big Picture Event Storming
 
 El Big Picture EventStorming elaborado por el equipo permite construir una visión general del dominio del transporte escolar antes de definir la solución. Mediante una sesión colaborativa se organizan los eventos relevantes del negocio, actores, sistemas externos, puntos de decisión y posibles problemas u oportunidades del proceso.
 
-<img width="1050" alt="Event Storming" src="/assets/chaper2/eventstorming.png" />
+<p align="center"><img src="./assets/chaper2/eventstorming.png" alt="Big Picture Event Storming de Rumbo" width="95%"/></p>
 
-**Artefacto:** [Enlace Miro](https://miro.com/app/board/uXjVIveDKA8=/?share_link_id=909349762479)
+**Artefacto:** **URL del artefacto:** https://miro.com/app/board/uXjVIveDKA8=/?share_link_id=909349762479
 
 ## 2.5. Ubiquitous Language
 
@@ -1870,7 +1871,7 @@ Para mantener una lectura uniforme de los diagramas se utilizan las siguientes c
 
 Este fue el primer Bounded Context modelado por el equipo. Representa el registro y consulta de información de padres, conductores, estudiantes y vehículos, así como la relación autorizada entre estudiante y conductor.
 
-<img width="1171" height="853" alt="Profiles and Verification Bounded Context" src="https://github.com/user-attachments/assets/cc84ce11-880c-4a1b-aac6-9b7f1d9232c8" />
+<p align="center"><img src="https://github.com/user-attachments/assets/cc84ce11-880c-4a1b-aac6-9b7f1d9232c8" alt="Profiles and Verification Bounded Context" width="90%"/></p>
 
 > El Big Picture EventStorming incorpora **ATU API** como sistema externo en el flujo `Driver Credential Submitted → Driver Credential Verified`. Mientras esa integración no esté implementada y probada, Rumbo no debe afirmar una validación oficial; el diseño debe conservar la fuente y el resultado verificable cuando el servicio externo esté disponible.
 
@@ -1916,20 +1917,20 @@ Este contexto administra la habilitación comercial del conductor. En el alcance
 
 En conjunto, los seis Bounded Contexts establecen la base para los Class Diagrams y Database Diagrams de las secciones 4.7 y 4.8. La división evita concentrar toda la lógica en un único modelo y separa responsabilidades del dominio.
 
-**Tablero editable de Design-Level Event Storming:** [Rumbo - Design-Level Event Storming](https://miro.com/app/board/uXjVHl8Ic-k=/)
+**Tablero editable de Design-Level Event Storming:** **URL del artefacto:** https://miro.com/app/board/uXjVHl8Ic-k=/
 
 
 ### 4.6.2. Software Architecture Context Diagram
 
 Este diagrama muestra la visión general del sistema Rumbo, posicionando la plataforma en el centro y detallando sus interacciones con los usuarios (padres y conductores) y dependencias externas (Auth0, Google Maps, FCM y SendGrid).
 
-<img width="775" height="501" alt="Diagrama-Contextos" src="https://github.com/user-attachments/assets/1fa0067c-5228-433b-9755-bacebecd81f8" />
+<p align="center"><img src="https://github.com/user-attachments/assets/1fa0067c-5228-433b-9755-bacebecd81f8" alt="Diagrama-Contextos" width="90%"/></p>
 
 ### 4.6.3. Software Architecture Container Diagrams
 
 Este diagrama expone la arquitectura física y de despliegue. Divide el sistema en contenedores ejecutables: la Landing Page, la aplicación cliente (SPA en Vue y PrimeVue), y la lógica de negocio (API en ASP.NET Core y Entity Framework Core).
 
-<img width="1069" height="1171" alt="Contenedores-diagrama (1)" src="https://github.com/user-attachments/assets/d2203148-4aed-4791-8c2b-5b55a60fdbce" />
+<p align="center"><img src="https://github.com/user-attachments/assets/d2203148-4aed-4791-8c2b-5b55a60fdbce" alt="Contenedores-diagrama (1)" width="90%"/></p>
 
 
 
@@ -1937,11 +1938,11 @@ Este diagrama expone la arquitectura física y de despliegue. Divide el sistema 
 
 Este diagrama profundiza en el contenedor lógico del backend (API Application). Muestra la estructura interna basada en el ecosistema de ASP.NET Core, detallando los controladores (Web API y SignalR), los servicios que encapsulan las reglas de negocio, la capa de acceso a datos mediante Entity Framework Core y el middleware de seguridad.
 
-<img width="1081" height="1369" alt="component-diagram-1C#" src="https://github.com/user-attachments/assets/49601878-4795-498a-9893-99e5ce29c715" />
+<p align="center"><img src="https://github.com/user-attachments/assets/49601878-4795-498a-9893-99e5ce29c715" alt="component-diagram-1C#" width="90%"/></p>
 
 Este diagrama hace foco en la arquitectura interna de la Single Page Application (SPA) desarrollada en Vue 3 y PrimeVue. Detalla la separación de responsabilidades entre el enrutador protegido (Vue Router), los componentes visuales de las vistas (mapas y paneles de gestión) y los servicios encargados de la conexión persistente (SignalR Client) y el consumo de la API.
 
-<img width="981" height="1189" alt="component-diagram-2C#" src="https://github.com/user-attachments/assets/0ad8da26-adc5-44f0-9779-f5c73202c59f" />
+<p align="center"><img src="https://github.com/user-attachments/assets/0ad8da26-adc5-44f0-9779-f5c73202c59f" alt="component-diagram-2C#" width="90%"/></p>
 
 
 ## 4.7. Software Object-Oriented Design
@@ -1952,31 +1953,31 @@ Los Class Diagrams se presentan por **Bounded Context** para mantener la separac
 
 #### Profiles and Verification
 
-<img width="1360" height="969" alt="profiles-diagram" src="https://github.com/user-attachments/assets/67f6e598-c25e-450b-8523-0df4101e19ae" />
+<p align="center"><img src="https://github.com/user-attachments/assets/67f6e598-c25e-450b-8523-0df4101e19ae" alt="profiles-diagram" width="90%"/></p>
 
 #### Identity and Access Management (IAM)
 
-<img width="1872" height="853" alt="iam-diagram" src="https://github.com/user-attachments/assets/a98b37ca-a122-4dfc-81ad-353b91e1ed33" />
+<p align="center"><img src="https://github.com/user-attachments/assets/a98b37ca-a122-4dfc-81ad-353b91e1ed33" alt="iam-diagram" width="90%"/></p>
 
 
 #### Route and Trip Planning
 
-<img width="2363" height="866" alt="routing-diagram" src="https://github.com/user-attachments/assets/77311cab-5a0d-41ab-802b-6dd7d6159ac8" />
+<p align="center"><img src="https://github.com/user-attachments/assets/77311cab-5a0d-41ab-802b-6dd7d6159ac8" alt="routing-diagram" width="90%"/></p>
 
 
 #### Real-Time Tracking and Execution
 
-<img width="1636" height="991" alt="tracking-diagram" src="https://github.com/user-attachments/assets/75c02b89-282b-4cbe-8863-71d853d06ea1" />
+<p align="center"><img src="https://github.com/user-attachments/assets/75c02b89-282b-4cbe-8863-71d853d06ea1" alt="tracking-diagram" width="90%"/></p>
 
 
 #### Alerting and Incident Management
 
-<img width="2623" height="704" alt="alerting-diagram" src="https://github.com/user-attachments/assets/787439f2-e0c7-479e-978f-457677c9febb" />
+<p align="center"><img src="https://github.com/user-attachments/assets/787439f2-e0c7-479e-978f-457677c9febb" alt="alerting-diagram" width="90%"/></p>
 
 
 #### Subscriptions and Billing
 
-<img width="1378" height="922" alt="billing-diagram" src="https://github.com/user-attachments/assets/d6818143-09c1-4bbf-b001-2b2df9247f6e" />
+<p align="center"><img src="https://github.com/user-attachments/assets/d6818143-09c1-4bbf-b001-2b2df9247f6e" alt="billing-diagram" width="90%"/></p>
 
 
 ## 4.8. Database Design
@@ -2163,20 +2164,9 @@ Para C# y ASP.NET Core se utilizará `PascalCase` para clases, interfaces, méto
 
 ### 5.1.4. Software Deployment Configuration
 
-La primera versión funcional de la Landing Page ya se encuentra implementada en la rama `feature/landing-page-v1`. El despliegue todavía está pendiente, por lo que se diferencia claramente entre **implementación disponible** y **publicación en producción**.
+La primera versión funcional de la Landing Page fue integrada mediante GitFlow desde `feature/landing-page-v1` hacia `develop` y posteriormente hacia `main`. Para la publicación se configuró GitHub Pages y se creó la rama `gh-pages` junto con el workflow de deployment.
 
-| Configuración | Estado actual |
-|---|---|
-| **Repository** | `AIpaca-UPC/landing-page` |
-| **Branch con implementación AV1** | `feature/landing-page-v1` |
-| **Entry point** | `index.html` |
-| **Styles** | `css/styles.css` |
-| **JavaScript** | `js/app.js` |
-| **Legal pages** | `terms.html`, `privacy.html` |
-| **Provider / GitHub Pages** | Pendiente de configurar y verificar |
-| **Production URL** | Pendiente |
-
-La versión implementada cubre propuesta de valor, beneficios por segmento, internacionalización `en_US / es_419`, FAQ, contacto, Terms of Service, Privacy Policy y Responsive Web Design. El siguiente paso es integrar la rama a una versión estable y publicar la Landing Page para registrar la URL y evidencias de deployment.
+**Landing Page desplegada:** https://aipaca-upc.github.io/landing-page/
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -2252,7 +2242,7 @@ Para la implementación de la Landing Page se seleccionaron únicamente las User
 | US34 | Consultar los documentos legales del servicio | T04 | Documentos legales | Incorporar accesos a Terms of Service y Privacy Policy. | 2 | Kevin Geronimo / Alejandro Díaz | Done |
 | US35 | Resolver dudas antes de usar Rumbo | T05 | FAQ y contacto | Implementar preguntas frecuentes y formulario de contacto con validación básica. | 4 | Kevin Geronimo / Alejandro Díaz | Done |
 | N/A | Responsive constraint | T06 | Ajustar diseño responsive | Validar la Landing Page en Desktop y Mobile. | 4 | Alejandro Díaz / Kevin Geronimo | Done |
-| N/A | Deployment | T07 | Publicar Landing Page | Publicar la versión funcional y registrar la URL de producción. | 2 | Leonardo Lino / Kevin Geronimo | To-do |
+| N/A | Deployment | T07 | Publicar Landing Page | Publicar la versión funcional y registrar la URL de producción. | 2 | Leonardo Lino / Kevin Geronimo | Done |
 | N/A | Sprint Review Evidence | T08 | Registrar evidencias | Documentar commits, capturas, video, deployment y colaboración. | 3 | Leonardo Lino | In-Process |
 
 ##### Trabajo documental del Sprint 1
@@ -2291,7 +2281,7 @@ La Landing Page ya cuenta con una versión funcional en `feature/landing-page-v1
 | Desktop Web Browser screenshot | Pendiente de integrar |
 | Mobile Web Browser screenshot | Pendiente de integrar |
 | Video de ejecución / navegación (Microsoft Stream) | Pendiente |
-| URL ejecutable de producción | Pendiente de deployment |
+| URL ejecutable de producción | **Completado** — https://aipaca-upc.github.io/landing-page/ |
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -2305,7 +2295,7 @@ Sprint 1 contempla el despliegue de la primera versión de la Landing Page. Sin 
 
 | Product | Repository | Provider | Production URL | Status |
 |---|---|---|---|---|
-| Landing Page | https://github.com/AIpaca-UPC/landing-page | Pendiente de configurar | Pendiente | To-do |
+| Landing Page | https://github.com/AIpaca-UPC/landing-page | GitHub Pages | https://aipaca-upc.github.io/landing-page/ | Published |
 
 Cuando se realice el despliegue se deben incorporar capturas de la configuración del proveedor, evidencia de publicación y la visualización de la Landing Page desplegada.
 
@@ -2340,7 +2330,7 @@ La implementación funcional ya cuenta con commits verificables en la rama featu
 2. La congestión registrada en Lima durante 2025 sustenta la necesidad de considerar retrasos y variabilidad en los tiempos de traslado dentro de la experiencia del producto.
 3. La alta penetración de telefonía móvil e Internet en Lima Metropolitana respalda el uso de una solución web responsive como canal principal para los dos segmentos definidos.
 4. Las seis entrevistas registradas en AV1 permitieron contrastar el problema de visibilidad, coordinación y comunicación con tres padres/tutores y tres conductores.
-5. Sprint 1 ya cuenta con una primera implementación funcional del Landing Page en la rama `feature/landing-page-v1`; queda pendiente su integración estable, deployment y evidencia final de ejecución.
+5. Sprint 1 cuenta con una primera implementación funcional del Landing Page, integrada a `main` mediante GitFlow y publicada mediante GitHub Pages en https://aipaca-upc.github.io/landing-page/
 
 ---
 
