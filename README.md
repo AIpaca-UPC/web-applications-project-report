@@ -201,7 +201,7 @@ Alcance del proyecto: El alcance inicial de Rumbo está orientado a padres o tut
   </thead>
   <tbody>
     <tr>
-      <td align="center"><img src="assets/chaper1/marcelo.png" alt="Barrientos Quispe, Marcelo" width="120"/></td>
+      <td align="center"><img src="assets/chapter01/marcelo.png" alt="Barrientos Quispe, Marcelo" width="120"/></td>
       <td>Barrientos Quispe, Marcelo</td>
       <td>U20221E646</td>
       <td>Ingeniería de Software</td>
@@ -222,7 +222,7 @@ Alcance del proyecto: El alcance inicial de Rumbo está orientado a padres o tut
       <td>Estudiante de Ingeniería de Software con conocimientos en Python y C++. Se desempeña especialmente en arquitectura de software, diseño de bases de datos, lógica del sistema y organización técnica del desarrollo.</td>
     </tr>
     <tr>
-      <td align="center"><img src="./assets/chaper1/leonardo-lino.jpg" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
+      <td align="center"><img src="./assets/chapter01/leonardo-lino.jpg" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
       <td>Lino Quispe, Leonardo Miguel</td>
       <td>U202422298</td>
       <td>Ingeniería de Software</td>
@@ -521,7 +521,7 @@ Creemos que lograremos que al menos el 60 % de los conductores del piloto contin
 El **Lean UX Canvas** resume en un solo artefacto los elementos trabajados en el Lean UX Process: el problema de negocio, los resultados esperados, los segmentos objetivo, sus beneficios, las soluciones propuestas y las hipótesis que las conectan. Además, identifica el supuesto más riesgoso para Rumbo y los experimentos de menor esfuerzo que permitirán validarlo.
 
 
-<p align="center"><img src="assets/chaper1/lean-ux.png" alt="Lean UX Canvas de Rumbo" width="100%"/></p>
+<p align="center"><img src="assets/chapter01/lean-ux.png" alt="Lean UX Canvas de Rumbo" width="100%"/></p>
 
 ## 1.3. Segmentos objetivo
 
