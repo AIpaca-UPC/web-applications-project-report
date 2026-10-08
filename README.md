@@ -1261,16 +1261,29 @@ Los criterios de aceptación se redactan en presente, son comprobables y utiliza
 
 ## 3.2. Impact Mapping
 
-El **Impact Mapping de Rumbo** se adapta a Aplicaciones Web a partir del artefacto consolidado del mismo dominio y de los hallazgos obtenidos en los Capítulos I y II. El mapa vincula los **Business Goals** del producto con los dos User Personas del Needfinding —**Gabriela Morales**, representante de padres/tutores, y **Carlos Rivas**, representante de conductores—, los cambios de comportamiento esperados, los Deliverables y las User Stories que permiten materializarlos.
+El **Impact Mapping de Rumbo** vincula los **Business Goals** del producto con los dos User Personas construidos en el Needfinding —**Gabriela Morales**, representante de padres/tutores, y **Carlos Rivas**, representante de conductores—, los cambios de comportamiento esperados en cada uno, los Deliverables que los habilitan y las User Stories que permiten materializarlos.
 
-Para el segmento **Padre/Tutor**, los impactos se concentran en reducir la necesidad de contactar constantemente al conductor, consultar información confiable del servicio y del traslado, recibir avisos relevantes y disponer de información necesaria ante una emergencia. En este frente, las historias **US36** y **US38** refuerzan respectivamente la confianza sobre la información declarada del conductor/vehículo y la disponibilidad controlada de contactos de emergencia.
+Los Business Goals considerados son los siguientes:
 
-Para el segmento **Conductor**, los impactos se enfocan en organizar la operación diaria, registrar los principales hitos del viaje, comunicar retrasos e incidencias de forma estructurada y delegar tareas operativas sin compartir credenciales. La historia **US37** complementa este último impacto mediante un acceso limitado para asistentes y trazabilidad del responsable de cada registro.
+| # | Business Goal |
+|---|---|
+| BG1 | Reducir en 60 % las consultas al conductor sobre el estado de la ruta |
+| BG2 | Lograr que al menos el 80 % de los recojos y entregas quede confirmado en Rumbo |
+| BG3 | Lograr que al menos el 70 % de los padres y tutores activos consulte Rumbo 3 o más días de clases por semana |
+| BG4 | Lograr que al menos el 60 % de los conductores del piloto siga usando Rumbo después del primer mes |
+| BG5 | Lograr que al menos el 90 % de los retrasos e incidencias sea comunicado mediante Rumbo |
+| BG6 | Mantener por debajo del 20 % la proporción de padres y tutores que desactiva las notificaciones durante el primer mes |
+
+Cada Business Goal corresponde a una de las seis hipótesis formuladas en la sección 1.2.2.3, lo que permite verificar que el mapa no introduce objetivos ajenos al Lean UX Process.
+
+Para el segmento **Padre/Tutor**, los impactos se concentran en reducir la necesidad de contactar constantemente al conductor, consultar información confiable del servicio y del traslado, recibir avisos relevantes y disponer de información necesaria ante una emergencia. En este frente, las historias **US36** y **US38** refuerzan respectivamente la confianza sobre la información declarada del conductor y del vehículo, y la disponibilidad controlada de contactos de emergencia.
+
+Para el segmento **Conductor**, los impactos se enfocan en organizar la operación diaria, registrar los principales hitos del viaje, comunicar retrasos e incidencias de forma estructurada y delegar tareas operativas sin compartir credenciales. La historia **US37** complementa este último impacto mediante un acceso limitado para asistentes y la trazabilidad del responsable de cada registro.
 
 El Impact Mapping se mantiene como un artefacto de **nivel estratégico**: no es necesario que cada User Story aparezca como un nodo independiente en la imagen, siempre que exista trazabilidad entre Business Goals, Actors, Impacts, Deliverables y las historias del Product Backlog.
 
 <p align="center">
-  <img src="./assets/chapter03/impact-mapping.png" alt="Impact Mapping de Rumbo adaptado a Aplicaciones Web" width="100%"/>
+  <img src="./assets/chapter03/impact-mapping.png" alt="Impact Mapping de Rumbo" width="100%"/>
 </p>
 
 **Figura.** Impact Mapping consolidado de Rumbo, reutilizado y adaptado al alcance del curso de Aplicaciones Web.  
@@ -1278,11 +1291,9 @@ El Impact Mapping se mantiene como un artefacto de **nivel estratégico**: no es
 
 ## 3.3. Product Backlog
 
-El **Product Backlog de Rumbo** se prioriza de acuerdo con el valor para el negocio. Las historias del **Landing Page** permanecen al inicio porque corresponden al primer incremento del producto. A continuación se ubican las capacidades centrales del servicio —vehículos, estudiantes, rutas, viajes, hitos, incidencias y comunicación—. Las historias de creación de cuenta, inicio de sesión y autorización se colocan después de las capacidades principales, evitando priorizar la seguridad por encima del valor de negocio. Finalmente se agrupan las **Technical Stories** del RESTful API.
+El **Product Backlog de Rumbo** se prioriza de acuerdo con el valor para el negocio. Las historias del **Landing Page** permanecen al inicio porque corresponden al primer incremento público del producto. A continuación se ubican las capacidades centrales del servicio —vehículos, estudiantes, rutas, viajes, hitos, incidencias y comunicación—. Las historias de creación de cuenta, inicio de sesión y autorización se colocan después de las capacidades principales, de modo que el orden exprese prioridad de valor y no secuencia de construcción; las dependencias técnicas entre historias se resuelven al conformar cada Sprint Backlog.
 
-Se incorporan las historias **US36, US37 y US38** identificadas durante la revisión del equipo. Las historias **US39 y US40** sobre administración ampliada de la suscripción se mantienen fuera del backlog obligatorio por el momento, ya que fueron señaladas como opcionales y pueden incorporarse en una iteración posterior si el alcance lo requiere.
-
-Para las nuevas historias se propone una estimación inicial por complejidad relativa: **US36 = 3 SP**, **US37 = 5 SP** y **US38 = 5 SP**. Estas estimaciones deben validarse por el equipo durante el refinamiento del backlog.
+Las historias **US36**, **US37** y **US38** se incorporan al backlog con una estimación por complejidad relativa de 3, 5 y 5 Story Points respectivamente.
 
 | # Orden | User Story Id | Título | Descripción | Story Points |
 |---:|---|---|---|:---:|
