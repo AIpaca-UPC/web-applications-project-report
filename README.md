@@ -1102,9 +1102,11 @@ El equipo realizó una sesión de Big Picture EventStorming para comprender el d
 
 **1. Exploración del dominio.** Se recorrieron de extremo a extremo las actividades de los dos segmentos objetivo: la habilitación del conductor y su vehículo, el registro de las familias y sus estudiantes, la planificación de rutas y paradas, la programación y ejecución del traslado, la gestión de retrasos e incidencias, la comunicación hacia los tutores autorizados y el cierre e historial del servicio.
 
-**2. Identificación de Domain Events.** Los hechos se registraron en tiempo pasado y en inglés, para mantener consistencia con el Ubiquitous Language. Se obtuvieron treinta y cinco eventos en la línea principal, entre ellos `Driver Credential Verified`, `Vehicle Registered`, `Parent Linked to Student`, `Route Created`, `Stop Order Defined`, `Student Assigned to Route`, `Trip Scheduled`, `Trip Roster Generated`, `Stop Reached`, `Student Pickup Confirmed`, `Student Pickup Missed`, `Delay Registered`, `Incident Reported`, `School Arrival Confirmed`, `Student Drop-off Confirmed`, `Trip Timeline Generated` y `Student Data Deletion Requested`. Ninguno de ellos describe pantallas ni decisiones técnicas: todos corresponden a cambios observables del negocio.
+**2. Identificación de Domain Events.** Los hechos se registraron en tiempo pasado y en inglés, para mantener consistencia con el Ubiquitous Language. Se obtuvieron treinta y siete eventos en la línea principal, entre ellos `Driver Credential Verified`, `Vehicle Registered`, `Parent Linked to Student`, `Emergency Contact Registered`, `Route Created`, `Stop Order Defined`, `Student Assigned to Route`, `Assistant Access Granted`, `Trip Scheduled`, `Trip Roster Generated`, `Stop Reached`, `Student Pickup Confirmed`, `Student Pickup Missed`, `Delay Registered`, `Incident Reported`, `School Arrival Confirmed`, `Student Drop-off Confirmed`, `Trip Timeline Generated` y `Student Data Deletion Requested`. Ninguno de ellos describe pantallas ni decisiones técnicas: todos corresponden a cambios observables del negocio.
 
 **3. Ordenamiento temporal y Pivotal Events.** Los eventos se ordenaron siguiendo el flujo real del servicio y se identificaron cuatro **pivotal events** que marcan transiciones irreversibles del dominio. Cada uno separa una fase de la siguiente mediante una línea divisoria:
+
+Adicionalmente se identificó un **carril paralelo** de ocho eventos que no pertenecen a la secuencia principal porque pueden ocurrir en cualquier momento del ciclo: `Notification Triggered`, `Notification Sent`, `Notification Delivery Failed`, `Notification Read`, `Trip Status Consulted`, `Trip Timeline Consulted`, `Driver Information Consulted` e `Incident Acknowledged`. Los tres eventos de consulta representan lecturas de los usuarios y no modifican el estado del dominio; `Incident Acknowledged` sí lo hace, porque deja constancia de que el tutor fue informado.
 
 | Pivotal Event      | Qué habilita                                                                                            |
 | ------------------ | ------------------------------------------------------------------------------------------------------- |
@@ -1133,7 +1135,7 @@ Adicionalmente se identificó un **carril paralelo** de siete eventos que no per
 **Captura consolidada y resultado**
 
 <div align="center">
-  <img src="./assets/chapter02/event-storming.png" alt="Rumbo Big Picture Event Storming consolidado" width="95%">
+  <img src="./assets/chapter02/event-storming-vf.png" alt="Rumbo Big Picture Event Storming consolidado" width="95%">
 </div>
 
 **Artefacto colaborativo:** https://miro.com/app/board/uXjVIveDKA8=/?share_link_id=909349762479
@@ -1158,6 +1160,8 @@ El glosario se mantiene centrado únicamente en términos del dominio del transp
 | **Driver Credential** (Credencial del conductor)             | Documento que acredita al conductor como habilitado para prestar el servicio de transporte de estudiantes.               |
 | **Tutor Authorization** (Autorización de tutor)              | Permiso otorgado a un padre o tutor para acceder a la información de un estudiante determinado.                          |
 | **School Transport Service** (Servicio de movilidad escolar) | Servicio destinado al traslado recurrente de estudiantes entre puntos de recojo, centros educativos y puntos de entrega. |
+| **Emergency Contact** (Contacto de emergencia) | Persona designada por un tutor para ser contactada ante una situación imprevista durante el traslado de un estudiante. |
+| **Assistant** (Asistente) | Persona habilitada por el conductor para confirmar hitos de una ruta específica, sin acceso a su configuración ni a su suscripción. |
 
 ##### Planificación de rutas
 
