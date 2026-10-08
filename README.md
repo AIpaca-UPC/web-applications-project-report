@@ -24,13 +24,13 @@
 
 ### Integrantes
 
-| Apellidos y Nombres | Código de Alumno |
-|---|---|
-| Barrientos Quispe, Marcelo | U20221E646 |
-| Díaz Ramírez, Alejandro | U202423084 |
-| Geronimo Puma, Kevin Joel | U202423163 |
-| Lino Quispe, Leonardo Miguel | U202422298 |
-| Meza Soza, Alexandra Yamile | U20241b451 |
+| Apellidos y Nombres          | Código de Alumno |
+| ---------------------------- | ---------------- |
+| Barrientos Quispe, Marcelo   | U20221E646       |
+| Díaz Ramírez, Alejandro      | U202423084       |
+| Geronimo Puma, Kevin Joel    | U202423163       |
+| Lino Quispe, Leonardo Miguel | U202422298       |
+| Meza Soza, Alexandra Yamile  | U20241b451       |
 
 ### SEPTIEMBRE - 2026
 
@@ -40,11 +40,11 @@
 
 ## Registro de Versiones del Informe
 
-| Versión | Fecha | Autor(es) | Descripción de cambios |
-|---|---|---|---|
-| 0.1 | 07/09/2026 | Lino Quispe, Leonardo Miguel | Creación de la estructura base del informe de Rumbo. |
-| 0.2 | 11/09/2026 | Equipo Rumbo | Actualización de integrantes y refinamiento del Capítulo I para AV1. |
-| 0.3 | 20/09/2026 | Equipo Rumbo | Integración de Collaboration Insights, Student Outcome, artefactos de Product Design y avance de Sprint 1. |
+| Versión | Fecha      | Autor(es)                    | Descripción de cambios                                                                                     |
+| ------- | ---------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| 0.1     | 07/09/2026 | Lino Quispe, Leonardo Miguel | Creación de la estructura base del informe de Rumbo.                                                       |
+| 0.2     | 11/09/2026 | Equipo Rumbo                 | Actualización de integrantes y refinamiento del Capítulo I para AV1.                                       |
+| 0.3     | 20/09/2026 | Equipo Rumbo                 | Integración de Collaboration Insights, Student Outcome, artefactos de Product Design y avance de Sprint 1. |
 
 ---
 
@@ -161,10 +161,10 @@ Como evidencia complementaria de colaboración se utilizan los recursos nativos 
 
 El curso contribuye al cumplimiento del **ABET – EAC – Student Outcome 5**: la capacidad de funcionar efectivamente en un equipo cuyos miembros proporcionan liderazgo de manera conjunta, crean un entorno colaborativo e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---|---|---|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **Barrientos Quispe, Marcelo — AV1:** liderazgo del Capítulo I. <br> **Meza Soza, Alexandra Yamile — AV1:** liderazgo del Capítulo II. <br> **Lino Quispe, Leonardo Miguel — AV1:** liderazgo de los Capítulos III y V e integración de evidencias. <br> **Geronimo Puma, Kevin Joel — AV1:** desarrollo conjunto del Capítulo IV. <br> **Díaz Ramírez, Alejandro — AV1:** desarrollo conjunto del Capítulo IV. | El equipo distribuyó el liderazgo por capítulos y coordinó la integración de los entregables para mantener una versión común del Project Report. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Marcelo, Alexandra, Leonardo, Kevin y Alejandro — AV1:** organizaron el trabajo mediante ramas feature en GitHub, revisión de cambios, Product/Sprint Backlog en Trello y artefactos colaborativos en las herramientas definidas para el proyecto. | La planificación por responsabilidades y el uso de herramientas compartidas permitió organizar el avance, revisar el trabajo de otros integrantes y mantener trazabilidad del Sprint 1. |
+| Criterio específico                                                                             | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                             | Conclusiones                                                                                                                                                                            |
+| ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                | **Barrientos Quispe, Marcelo — AV1:** liderazgo del Capítulo I. <br> **Meza Soza, Alexandra Yamile — AV1:** liderazgo del Capítulo II. <br> **Lino Quispe, Leonardo Miguel — AV1:** liderazgo de los Capítulos III y V e integración de evidencias. <br> **Geronimo Puma, Kevin Joel — AV1:** desarrollo conjunto del Capítulo IV. <br> **Díaz Ramírez, Alejandro — AV1:** desarrollo conjunto del Capítulo IV. | El equipo distribuyó el liderazgo por capítulos y coordinó la integración de los entregables para mantener una versión común del Project Report.                                        |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Marcelo, Alexandra, Leonardo, Kevin y Alejandro — AV1:** organizaron el trabajo mediante ramas feature en GitHub, revisión de cambios, Product/Sprint Backlog en Trello y artefactos colaborativos en las herramientas definidas para el proyecto.                                                                                                                                                            | La planificación por responsabilidades y el uso de herramientas compartidas permitió organizar el avance, revisar el trabajo de otros integrantes y mantener trazabilidad del Sprint 1. |
 
 ---
 
@@ -200,35 +200,35 @@ Alcance del proyecto: El alcance inicial de Rumbo está orientado a padres o tut
   </thead>
   <tbody>
     <tr>
-      <td align="center"><img src="assets/chaper1/marcelo.png" alt="Barrientos Quispe, Marcelo" width="120"/></td>
+      <td align="center"><img src="assets/chapter1/marcelo.png" alt="Barrientos Quispe, Marcelo" width="120"/></td>
       <td>Barrientos Quispe, Marcelo</td>
       <td>U20221E646</td>
       <td>Ingeniería de Software</td>
       <td>Estudiante de Ingeniería de Software con capacidad de adaptación, aprendizaje rápido y trabajo colaborativo. Cuenta con conocimientos técnicos en tecnologías basadas en JavaScript y aporta al equipo en tareas de desarrollo frontend y organización del trabajo.</td>
     </tr>
     <tr>
-      <td align="center"><img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter01/alejandro-diaz.png" alt="Alejandro Díaz Ramírez" width="120"/></td>
+      <td align="center"><img src="./assets//chapter1/alejandro.png" alt="Alejandro Díaz Ramírez" width="120"/></td>
       <td>Díaz Ramírez, Alejandro</td>
       <td>U202423084</td>
       <td>Ingeniería de Software</td>
       <td>Estudiante de Ingeniería de Software con conocimientos en Python y C++, experiencia en prototipado con React Native y trabajo colaborativo con metodologías ágiles. Aporta principalmente en lógica del sistema, estructuración del código y desarrollo técnico.</td>
     </tr>
     <tr>
-      <td align="center"><img src="https://github.com/user-attachments/assets/8be17c32-7b22-466c-a91e-daf42a5b31ea" alt="Kevin Joel Geronimo Puma" width="120"/></td>
+      <td align="center"><img src="./assets/chapter1/kevin.png" alt="Kevin Joel Geronimo Puma" width="120"/></td>
       <td>Geronimo Puma, Kevin Joel</td>
       <td>U202423163</td>
       <td>Ingeniería de Software</td>
       <td>Estudiante de Ingeniería de Software con conocimientos en Python y C++. Se desempeña especialmente en arquitectura de software, diseño de bases de datos, lógica del sistema y organización técnica del desarrollo.</td>
     </tr>
     <tr>
-      <td align="center"><img src="./assets/chaper1/leonardo-lino.jpg" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
+      <td align="center"><img src="./assets/chapter1/leonardo-lino.jpg" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
       <td>Lino Quispe, Leonardo Miguel</td>
       <td>U202422298</td>
       <td>Ingeniería de Software</td>
       <td>Soy estudiante de Ingeniería de Software del 5.º ciclo en la UPC. Tengo conocimientos en programación en C++ y Python, y experiencia desarrollando proyectos académicos donde analizo y organizo soluciones tecnológicas. Me gusta enfocarme en aprender de forma práctica y en construir soluciones que sean claras, funcionales y aplicadas a problemas reales.</td>
     </tr>
     <tr>
-      <td align="center"><img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter01/alexandra-meza.png" alt="Alexandra Yamile Meza Soza" width="120"/></td>
+      <td align="center"><img src="./assets/chapter1/alexandra.png" alt="Alexandra Yamile Meza Soza" width="120"/></td>
       <td>Meza Soza, Alexandra Yamile</td>
       <td>U20241b451</td>
       <td>Ingeniería de Software</td>
@@ -251,31 +251,35 @@ En esta sección se analiza el contexto en el que surge la problemática princip
 
 #### Técnica de las 5 W's + 2 H's
 
-**What (¿Qué?) — ¿Cuál es el problema?**  
+**What (¿Qué?) — ¿Cuál es el problema?**
 
 El transporte escolar en Lima y Callao es un servicio formal y regulado. Sin embargo, la coordinación diaria entre padres y conductores sigue dependiendo de mensajes y llamadas individuales. Según la Autoridad de Transporte Urbano para Lima y Callao (ATU), 3758 vehículos cuentan con habilitación para prestar este servicio durante 2026, tras un proceso de verificación y autorización realizado en 2025 (Infobae, 2026a). Además, la ATU habilitó un enlace público para que los padres verifiquen si el vehículo y el conductor contratados están autorizados (Exitosa Noticias, 2026).
 
 Estos mecanismos resuelven la pregunta de si el servicio es formal antes de contratarlo, pero no la de qué está pasando durante la ruta. Los padres no cuentan con una vista única donde consultar si el menor ya fue recogido, si la movilidad está retrasada, si llegó al colegio o si ocurrió un imprevisto. Esa información se transmite de forma dispersa, y buena parte de ella recae sobre el conductor, que debe responder las mismas consultas a varias familias mientras cumple su ruta.
 
-**When (¿Cuándo?) — ¿Cuándo ocurre?**  
+**When (¿Cuándo?) — ¿Cuándo ocurre?**
 
 El problema ocurre todos los días de clases, en tres momentos: antes del recojo, durante el traslado y al momento de la llegada o entrega. El Ministerio de Educación fijó el inicio del año escolar 2026 para el lunes 16 de marzo y su término para el viernes 18 de diciembre, con 36 semanas de clases (Infobae, 2026a). Durante todo ese periodo, cada familia depende de uno o dos trayectos diarios.
 
 La incertidumbre se intensifica porque los horarios escolares coinciden con las horas de mayor congestión. En Lima el tráfico se concentra entre las 6 a. m. y las 9 a. m., y nuevamente en las horas punta de la tarde (El Comercio, 2026). En esas franjas un retraso de pocos minutos puede convertirse en una espera prolongada, y es cuando los padres más necesitan información oportuna.
 
-**Where (¿Dónde?) — ¿Dónde surge?**  
+**Where (¿Dónde?) — ¿Dónde surge?**
 
 El problema se presenta principalmente en Lima Metropolitana y el Callao, en las rutas que conectan hogares, puntos de recojo y centros educativos. Se trata de una de las ciudades con mayor congestión del mundo: el TomTom Traffic Index 2025 ubicó a Lima como la novena ciudad más congestionada del mundo, con un nivel de tráfico de 69,3 %, y con 195 horas anuales perdidas por conductor en embotellamientos (El Popular, 2026).
 
 La situación se mantiene en 2026. Con datos de TomTom consolidados hasta el 3 de agosto de 2026, en la hora punta matinal de los días laborables la velocidad promedio en Lima fue de 14,74 km/h, la más baja frente a Ciudad de México, Bogotá y Santiago de Chile (Energiminas, 2026). En este entorno, los tiempos de llegada son difíciles de anticipar para las familias.
 
-**Who (¿Quiénes?) — ¿Quiénes son los afectados?**  
+**Who (¿Quiénes?) — ¿Quiénes son los afectados?**
 
 - **Padres y tutores**, que necesitan saber en qué etapa se encuentra el traslado de sus hijos y hoy dependen de preguntarle directamente al conductor.
 
 - **Conductores de movilidad escolar**, que deben cumplir su ruta en medio del tráfico y, al mismo tiempo, comunicar recojos, retrasos o incidencias a varias familias de forma individual. Su trabajo está sujeto a exigencias formales: la ATU verifica que los vehículos cuenten con SOAT y CITV vigentes y que los conductores tengan licencia de categoría AIIB (Infobae, 2026a).
 
-**Why (¿Por qué?) — ¿Por qué ocurre y por qué importa?**  
+- **Estudiantes**, beneficiarios indirectos del servicio. No interactúan con la plataforma, pero su seguridad y la protección de sus datos personales condicionan el diseño de la solución.
+
+Ambos grupos constituyen los segmentos objetivo de Rumbo, por ser quienes utilizarán la plataforma. Los estudiantes, en cambio, reciben el servicio pero no interactúan con ella: su condición de menores de edad resulta relevante porque la información que Rumbo registra sobre sus traslados constituye datos personales sujetos a la Ley N.º 29733, lo que condiciona el diseño de permisos y visibilidad de la solución.
+
+**Why (¿Por qué?) — ¿Por qué ocurre y por qué importa?**
 
 - **Comunicación fragmentada en canales generales:** La coordinación se realiza principalmente por mensajería instantánea. Según la Encuesta Residencial de Servicios de Telecomunicaciones (ERESTEL) 2025 de Osiptel, el 68,6 % de los peruanos usó plataformas de comunicación instantánea durante el último año, y entre ellos WhatsApp alcanza el 98,6 % de usuarios (Expreso, 2026). Estos canales son útiles, pero no fueron diseñados para registrar hitos de una ruta: la información queda mezclada con otros mensajes y cada familia recibe actualizaciones distintas.
 
@@ -287,7 +291,7 @@ La situación se mantiene en 2026. Con datos de TomTom consolidados hasta el 3 d
 
 - **Verificación sin visibilidad en ruta:** Las herramientas oficiales permiten comprobar la formalidad del servicio, pero no ofrecen seguimiento del estado de cada traslado.
 
-**How (¿Cómo?) — ¿Cómo se abordará?**  
+**How (¿Cómo?) — ¿Cómo se abordará?**
 
 Para responder a esta necesidad, AIpaca propone Rumbo, una plataforma web responsive orientada al uso móvil que centraliza el estado de cada traslado. La elección del canal responde al contexto local: según el INEI, en el cuarto trimestre de 2025 el 98,4 % de los hogares de Lima Metropolitana contó con telefonía móvil, y en ese mismo periodo el uso de Internet en Lima Metropolitana alcanzó el 90,3 % de la población de 6 años a más (Instituto Nacional de Estadística e Informática [INEI], 2026). Además, el 89,2 % de los usuarios de Internet accedió a la red mediante un teléfono celular (Altavoz, 2026).
 
@@ -299,7 +303,7 @@ La información de cada menor será visible únicamente para los usuarios autori
 
 Rumbo no reemplaza las obligaciones de seguridad, autorización y operación de los prestadores del servicio, ni la comunicación humana cuando sea necesaria. Su objetivo es complementarlas con información estructurada que reduzca la incertidumbre de las familias y la carga del conductor.
 
-**How much (¿Cuánto?)**  
+**How much (¿Cuánto?)**
 
 La implementación de Rumbo requiere una inversión inicial orientada al desarrollo de software, la infraestructura en la nube, la adecuación a la normativa de datos personales y un piloto con familias y conductores. Al ser una solución exclusivamente de software, no requiere fabricar hardware, lo que reduce la inversión inicial y facilita escalar el modelo SaaS.
 
@@ -307,28 +311,35 @@ Como referencia del mercado, el precio mensual por estudiante de una movilidad e
 
 Presupuesto estimado (estimación referencial elaborada por el equipo):
 
-Desarrollo de software
-Diseño UX/UI y prototipado: S/ 2,000 – S/ 3,000
-Frontend web responsive (Vue + PrimeVue): S/ 4,000 – S/ 6,000
-Backend, RESTful API y base de datos (ASP.NET Core + C#): S/ 4,500 – S/ 6,500
-Integración de servicios de ubicación y notificaciones: S/ 1,500 – S/ 2,500
+| Categoría               | Concepto                                      | Rango estimado (S/) |
+| ----------------------- | --------------------------------------------- | ------------------- |
+| Desarrollo              | Diseño UX/UI y prototipado                    | 2,000 – 3,000       |
+| Desarrollo              | Frontend web responsive                       | 4,000 – 6,000       |
+| Desarrollo              | Backend, RESTful API y base de datos          | 4,500 – 6,500       |
+| Desarrollo              | Integración de servicios externos             | 1,500 – 2,500       |
+| Infraestructura (anual) | Dominio, hosting y base de datos gestionada   | 1,500 – 2,500       |
+| Infraestructura (anual) | Servicio de notificaciones                    | 800 – 1,500         |
+| Seguridad               | Adecuación a la Ley N.º 29733                 | 1,500 – 2,500       |
+| Seguridad               | Pruebas de seguridad                          | 1,000 – 1,500       |
+| Marketing               | Landing Page, estrategia digital y materiales | 2,000 – 3,000       |
+| Marketing               | Piloto con conductores y familias             | 1,500 – 2,500       |
+| Mantenimiento (anual)   | Actualizaciones y soporte técnico             | 3,000 – 5,000       |
+| **Total**               |                                               | **23,300 – 36,500** |
 
-Infraestructura (anual)
-Dominio, hosting en la nube y base de datos gestionada: S/ 1,500 – S/ 2,500
-Servicio de notificaciones (push, correo o SMS): S/ 800 – S/ 1,500
+#### Objetivos del proyecto
 
-Seguridad y cumplimiento
-Adecuación a la Ley N.º 29733 (políticas de privacidad, consentimiento y asesoría legal): S/ 1,500 – S/ 2,500
-Pruebas de seguridad: S/ 1,000 – S/ 1,500
+- Reducir la cantidad de consultas directas que los padres y tutores dirigen al conductor durante la ruta.
+- Permitir que el conductor registre los hitos del traslado con interacciones breves y seguras.
+- Conservar un registro estructurado de cada traslado que permita resolver dudas posteriores.
+- Garantizar que la información de cada estudiante sea visible únicamente para sus tutores autorizados.
 
-Marketing y lanzamiento
-Landing page, estrategia digital y materiales: S/ 2,000 – S/ 3,000
-Piloto con conductores y familias (capacitación e incentivos): S/ 1,500 – S/ 2,500
+#### Restricciones del proyecto
 
-Mantenimiento y soporte (anual)
-Actualizaciones de software y soporte técnico: S/ 3,000 – S/ 5,000
-
-Total estimado: S/ 23,300 – S/ 36,500
+- El alcance del curso comprende Landing Page, Web Application responsive y RESTful API de elaboración interna; no contempla aplicaciones móviles nativas.
+- El seguimiento continuo de ubicación, el ETA dinámico y el geofencing quedan fuera del alcance inicial y se consideran parte del roadmap.
+- Rumbo no sustituye las obligaciones de autorización, seguridad y operación que la normativa asigna a los prestadores del servicio.
+- El tratamiento de datos de menores se sujeta a la Ley N.º 29733 y su reglamento, lo que condiciona la retención y la visibilidad de la información.
+- La validación inicial se limita a Lima Metropolitana y el Callao.
 
 ### 1.2.2. Lean UX Process
 
@@ -354,7 +365,7 @@ Padres, madres y tutores de estudiantes que usan movilidad escolar.
 
 Conductores de movilidad escolar que realizan rutas recurrentes.
 
-- **Pain Points:** 
+- **Pain Points:**
 
 **Padres y Tutores**
 
@@ -372,7 +383,7 @@ Conductores de movilidad escolar que realizan rutas recurrentes.
 
 - Ausencia de un registro ordenado de recojos, entregas e incidencias para resolver dudas posteriores.
 
-- **Gap:** Creemos que no existe una solución de uso extendido en Lima y Callao que combine, en una sola plataforma, el estado del traslado, la confirmación de recojos y entregas, el registro de incidencias y notificaciones dirigidas solo a los tutores autorizados. Este supuesto será contrastado en el análisis competitivo. 
+- **Gap:** Creemos que no existe una solución de uso extendido en Lima y Callao que combine, en una sola plataforma, el estado del traslado, la confirmación de recojos y entregas, el registro de incidencias y notificaciones dirigidas solo a los tutores autorizados. Este supuesto será contrastado en el análisis competitivo.
 
 - **Vision/Strategy:** Consolidar a AIpaca como una empresa referente en soluciones digitales para la coordinación del transporte escolar en el Perú y Latinoamérica, reconocida por generar confianza entre familias y conductores mediante tecnología accesible, segura y escalable.
 
@@ -390,8 +401,8 @@ Estas Business Assumptions servirán como base para formular los Feature Assumpt
 
 2. Creemos que una plataforma web responsive con estados, hitos, notificaciones e incidencias puede satisfacer esta necesidad mejor que la mensajería de uso general.
 
-3. Creemos que nuestros clientes iniciales serán conductores independientes de 
-movilidad escolar en Lima y Callao, junto con las familias que contratan sus servicios.
+3. Creemos que nuestros clientes iniciales serán conductores independientes de
+   movilidad escolar en Lima y Callao, junto con las familias que contratan sus servicios.
 
 4. Creemos que el valor más importante para los padres es la tranquilidad de saber qué ocurre en la ruta sin tener que preguntar y, para los conductores, la reducción de mensajes repetitivos.
 
@@ -419,14 +430,13 @@ movilidad escolar en Lima y Callao, junto con las familias que contratan sus ser
 
 6. Lograr que al menos el 60 % de los conductores que participen en el piloto continúe usando Rumbo después del primer mes.
 
-
 ##### User Assumptions
 
 En esta etapa se identificaron los principales supuestos sobre los usuarios, sus necesidades y el contexto de uso, antes de realizar las entrevistas de validación.
 
 **¿Quién es el usuario?**
 
-- **Padres, madres y tutores:** 
+- **Padres, madres y tutores:**
 
 1. Creemos que los padres y tutores trabajan o realizan otras actividades durante el horario de traslado y consultan el celular solo en momentos breves.
 
@@ -438,8 +448,7 @@ En esta etapa se identificaron los principales supuestos sobre los usuarios, sus
 
 5. Creemos que solo confiarán en una plataforma si la información de su hijo es visible únicamente para los tutores autorizados.
 
-
-- **Conductores de movilidad escolar:** 
+- **Conductores de movilidad escolar:**
 
 6. Creemos que los conductores realizan rutas recurrentes en las que atienden a varias familias y paradas por jornada.
 
@@ -483,35 +492,29 @@ En esta sección se detallan los supuestos sobre las funcionalidades del product
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Se formula un Hypothesis Statement por cada Feature Assumption, siguiendo la estructura: *Creemos que lograremos [resultado de negocio] si [persona] obtiene [beneficio] con [funcionalidad].*
+Se formula un Hypothesis Statement por cada Feature Assumption, siguiendo la estructura: _Creemos que lograremos [resultado de negocio] si [persona] obtiene [beneficio] con [funcionalidad]._
 
-
-**Hipótesis 1 — Estado actual del viaje**  
+**Hipótesis 1 — Estado actual del viaje**
 
 Creemos que lograremos reducir en 60 % los mensajes y llamadas al conductor para consultar el estado de la ruta si los padres y tutores conocen en pocos segundos la etapa actual del traslado con una vista de estado actual del viaje.
 
-
-**Hipótesis 2 — Línea de tiempo del trayecto**  
+**Hipótesis 2 — Línea de tiempo del trayecto**
 
 Creemos que lograremos que al menos el 70 % de los padres y tutores activos consulte Rumbo en tres o más días de clases por semana si comprenden lo ocurrido durante el recorrido sin revisar conversaciones dispersas con una línea de tiempo del trayecto.
 
-
-**Hipótesis 3 — Confirmación de recojo y entrega**  
+**Hipótesis 3 — Confirmación de recojo y entrega**
 
 Creemos que lograremos que al menos el 80 % de los recojos y entregas de cada ruta quede confirmado en Rumbo si los conductores dejan constancia de cada hito en segundos con la confirmación de recojo y entrega en una sola acción.
 
-
-**Hipótesis 4 — Registro de incidencias**  
+**Hipótesis 4 — Registro de incidencias**
 
 Creemos que lograremos que al menos el 90 % de los retrasos e incidencias se comunique mediante Rumbo si los conductores informan un imprevisto a todas las familias afectadas mediante un único registro con categorías predefinidas.
 
-
-**Hipótesis 5 — Centro de notificaciones**  
+**Hipótesis 5 — Centro de notificaciones**
 
 Creemos que lograremos mantener por debajo del 20 % la proporción de padres y tutores que desactiva las notificaciones durante el primer mes si se anticipan a los retrasos sin recibir avisos innecesarios con notificaciones limitadas a eventos relevantes.
 
-
-**Hipótesis 6 — Vista de ruta del conductor**  
+**Hipótesis 6 — Vista de ruta del conductor**
 
 Creemos que lograremos que al menos el 60 % de los conductores del piloto continúe usando Rumbo después del primer mes si organizan su jornada con la lista de estudiantes y el orden de paradas en un solo lugar con una vista de ruta con estudiantes asignados.
 
@@ -519,8 +522,7 @@ Creemos que lograremos que al menos el 60 % de los conductores del piloto contin
 
 El **Lean UX Canvas** resume en un solo artefacto los elementos trabajados en el Lean UX Process: el problema de negocio, los resultados esperados, los segmentos objetivo, sus beneficios, las soluciones propuestas y las hipótesis que las conectan. Además, identifica el supuesto más riesgoso para Rumbo y los experimentos de menor esfuerzo que permitirán validarlo.
 
-
-<p align="center"><img src="assets/chaper1/lean-ux.png" alt="Lean UX Canvas de Rumbo" width="100%"/></p>
+<p align="center"><img src="assets/chapter1/lean-ux.png" alt="Lean UX Canvas de Rumbo" width="100%"/></p>
 
 ## 1.3. Segmentos objetivo
 
@@ -532,6 +534,7 @@ En esta sección se identifican y describen los **segmentos de usuarios** hacia 
 Padres, madres o tutores responsables de menores que utilizan servicios de movilidad escolar en Lima y Callao. Este segmento busca disminuir la incertidumbre durante los recorridos y acceder a información clara sobre recojo, traslado, retrasos, llegada e incidencias.
 
 **Características demográficas y comportamiento:**
+
 - Adultos responsables de menores en edad escolar que contratan o utilizan servicios de movilidad escolar.
 - Utilizan principalmente el teléfono móvil para comunicarse y consultar información cotidiana.
 - Valoran la inmediatez, claridad y facilidad de uso por encima de interfaces complejas.
@@ -539,6 +542,7 @@ Padres, madres o tutores responsables de menores que utilizan servicios de movil
 - La confianza en la plataforma depende de la privacidad y del control sobre quién puede consultar información del menor.
 
 **Sustento estadístico:**
+
 - La ATU reportó **3758 vehículos habilitados para transporte escolar en Lima y Callao** en enero de 2026, evidenciando un mercado formal y recurrente de familias usuarias del servicio (Infobae, 2026a).
 - El INEI informó que **98,4 % de los hogares de Lima Metropolitana contaba con telefonía móvil** y que **90,3 % de la población de 6 años a más utilizaba Internet** durante el cuarto trimestre de 2025. Además, una fuente secundaria citada por el equipo reporta que **89,2 % de los usuarios de Internet accedía mediante teléfono celular** (Altavoz, 2026). Esto respalda una experiencia web orientada principalmente al uso móvil.
 
@@ -548,6 +552,7 @@ Padres, madres o tutores responsables de menores que utilizan servicios de movil
 Conductores que realizan rutas programadas para el traslado de estudiantes entre hogares, puntos de recojo y centros educativos. Este segmento necesita organizar el recorrido y comunicar a las familias los principales eventos de la ruta de forma rápida y consistente.
 
 **Características demográficas y comportamiento:**
+
 - Prestadores de un servicio regulado que operan vehículos autorizados para transporte de estudiantes.
 - Trabajan con rutas, horarios, puntos de recojo y varios estudiantes durante una misma jornada.
 - Necesitan reducir acciones digitales mientras conducen, por lo que las interacciones deben ser breves y ejecutarse únicamente cuando sea seguro hacerlo.
@@ -555,6 +560,7 @@ Conductores que realizan rutas programadas para el traslado de estudiantes entre
 - Valoran herramientas que simplifiquen la coordinación sin reemplazar sus responsabilidades operativas y de seguridad.
 
 **Sustento estadístico:**
+
 - La ATU reportó **3758 vehículos escolares habilitados en Lima y Callao** (Infobae, 2026a), lo que permite identificar un grupo concreto de operadores y conductores dentro del mercado formal.
 - Lima registró **69,3 % de congestión promedio durante 2025**, con recorridos de 10 km de hasta **51 min 17 s en la hora punta de la tarde** y aproximadamente **195 horas anuales perdidas en tráfico de hora punta** (El Popular, 2026). Este contexto sustenta la necesidad de gestionar retrasos y comunicar variaciones de tiempo de manera ordenada.
 
