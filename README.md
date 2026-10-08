@@ -1077,23 +1077,49 @@ En esta sección se presentan los **Empathy Maps** elaborados para cada uno de l
 
 ## 2.4. Big Picture Event Storming
 
-El equipo realizó una sesión colaborativa de **Big Picture EventStorming** para comprender el dominio de la movilidad escolar antes de definir la solución técnica. El objetivo fue representar visualmente los eventos relevantes del negocio, sus relaciones, reglas, actores y puntos de riesgo, manteniendo el análisis independiente de Vue, ASP.NET Core u otras decisiones de implementación del curso.
+El equipo realizó una sesión colaborativa de **Big Picture Event Storming** para comprender de manera integral el dominio de **Rumbo**. Aunque las entrevistas y los hallazgos de Needfinding de este curso corresponden específicamente al proyecto de **Aplicaciones Web**, el dominio del negocio es el mismo: la coordinación, planificación, ejecución y comunicación del servicio de movilidad escolar. Por ello, se reutiliza y adapta el artefacto consolidado del dominio, manteniéndolo independiente de las decisiones tecnológicas de implementación.
 
-### Proceso realizado
+El objetivo de esta actividad es identificar los eventos significativos del negocio, ordenar sus relaciones, reconocer reglas, riesgos y oportunidades, y obtener una primera delimitación de responsabilidades que posteriormente será refinada mediante Domain-Driven Design en el Capítulo IV.
 
-1. **Exploración del dominio.** Se recorrió el servicio desde la planificación de una ruta hasta el recojo, traslado, entrega, comunicación de retrasos e incidencias y cierre del viaje.
-2. **Identificación de Domain Events.** Se registraron hechos relevantes en pasado, como `Route Scheduled`, `Trip Started`, `Student Picked Up`, `Delay Reported`, `Incident Reported`, `Student Dropped Off` y `Route Completed`.
-3. **Relación de eventos y decisiones.** Se revisó qué eventos dependen de una ruta, una asignación de estudiante, una ausencia reportada o una acción del conductor.
-4. **Reglas y hotspots.** Se identificaron riesgos como información dispersa, cambios de último momento, acceso no autorizado a datos del menor, baja conectividad y distracciones durante la conducción.
-5. **Delimitación preliminar de responsabilidades.** El artefacto permite reconocer áreas del dominio que posteriormente serán refinadas mediante Domain-Driven Design, sin asumir que todas deben implementarse en el mismo Sprint.
+### Resumen del proceso realizado
 
-La captura siguiente corresponde al artefacto elaborado para **Aplicaciones Web** y se mantiene como la evidencia principal de esta sección.
+**1. Exploración del dominio.**  
+Se recorrió el servicio de extremo a extremo considerando las principales actividades de padres/tutores y conductores: registro y configuración inicial, administración de estudiantes y vehículos, planificación de rutas, programación y ejecución de viajes, confirmación de recojos y entregas, reporte de ausencias, gestión de retrasos e incidencias y comunicación de eventos relevantes.
 
-<img width="1050" alt="Rumbo Big Picture Event Storming - Aplicaciones Web" src="./assets/chapter02/event-storming.png" />
+**2. Identificación de Domain Events.**  
+El equipo registró hechos significativos del negocio en tiempo pasado, entre ellos *Account Registered*, *Student Registered*, *Vehicle Registered*, *Route Published*, *Trip Scheduled*, *Trip Started*, *Student Picked Up*, *Delay Reported*, *Incident Registered*, *Student Dropped Off*, *Notification Sent* y *Subscription Activated*. Estos eventos permiten representar cambios relevantes del dominio sin depender de pantallas, frameworks o detalles técnicos.
 
-**Artefacto colaborativo:** [Miro - Big Picture EventStorming](https://miro.com/app/board/uXjVIveDKA8=/?share_link_id=909349762479)
+**3. Ordenamiento y relación de eventos.**  
+Los eventos se organizaron de acuerdo con el flujo del negocio. Una cuenta habilita la gestión del perfil; los vehículos y credenciales permiten configurar el servicio; las rutas y asignaciones originan viajes programados; durante la ejecución se producen recojos, entregas, retrasos o incidencias; y estos eventos pueden generar notificaciones para usuarios autorizados.
 
-El resultado evidencia que el núcleo del dominio se concentra en la planificación y ejecución segura del traslado escolar, mientras que perfiles, vehículos, autorizaciones, incidencias y notificaciones aportan capacidades necesarias para mantener trazabilidad y comunicación entre los participantes.
+**4. Identificación de reglas, vistas y hotspots.**  
+Durante el análisis se identificaron reglas como validar la capacidad del vehículo, considerar ausencias reportadas antes del recojo y limitar la información del menor a tutores autorizados. También se reconocieron riesgos como credenciales inválidas, direcciones no localizables, cambios de último momento, pérdida de conectividad, distracciones durante la conducción, destinatarios incorrectos y fallos en procesos externos. Las vistas de consulta representan información necesaria para conocer el estado del dominio, como *Current Trip Status*, *Trip Timeline* y *Notification Inbox*.
+
+**5. Delimitación preliminar de Bounded Contexts.**  
+Como resultado del Big Picture se reconocen ocho áreas de responsabilidad preliminares. Esta delimitación sirve como insumo para el **Design-Level EventStorming** del Capítulo IV; no significa que todos los contextos deban implementarse en el mismo Sprint o entrega.
+
+| Bounded Context | Responsabilidad principal |
+|---|---|
+| **Identity & Access Management** | Gestionar cuentas, autenticación, verificación de correo y recuperación de acceso. |
+| **Profiles & Relationship Management** | Gestionar estudiantes, tutores y relaciones de autorización. |
+| **Vehicle & Credential Management** | Gestionar vehículos, credenciales y su estado de verificación. |
+| **Route & Trip Planning** | Gestionar rutas, paradas, horarios, asignaciones, ausencias y programación de viajes. |
+| **Trip Execution & Monitoring** | Registrar el inicio y desarrollo del viaje, recojos, entregas, estado y línea de tiempo. |
+| **Incident & Delay Management** | Gestionar retrasos, incidencias, actualizaciones y resolución. |
+| **Notification Management** | Gestionar generación, envío, lectura y preferencias de notificación. |
+| **Subscriptions & Billing** | Representar planes, suscripciones, pagos y comprobantes previstos para la evolución comercial del producto. |
+
+### Captura consolidada y resultado
+
+La siguiente captura presenta el **Big Picture Event Storming consolidado de Rumbo**, utilizado como referencia común del dominio para el proyecto de Aplicaciones Web.
+
+<div align="center">
+  <img src="./assets/chapter02/big-picture-event-storming.jpg" alt="Rumbo Big Picture Event Storming consolidado" width="95%">
+</div>
+
+**Artefacto colaborativo:** [Miro - Rumbo Big Picture Event Storming](https://miro.com/app/board/uXjVHr48KA8=/?share_link_id=942564800097)
+
+El Big Picture evidencia que el núcleo operativo de Rumbo se concentra en la planificación y ejecución del traslado escolar, mientras que identidad, perfiles, vehículos, incidencias, notificaciones y suscripciones aportan capacidades de soporte. Esta vista de alto nivel será refinada posteriormente en **4.6.1 Design-Level EventStorming**, donde se profundizará en Bounded Contexts, Aggregates, Commands, Events y Queries.
 
 ## 2.5. Ubiquitous Language
 
