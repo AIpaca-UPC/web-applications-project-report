@@ -543,8 +543,9 @@ Padres, madres o tutores responsables de menores que utilizan servicios de movil
 
 **Sustento estadístico:**
 
-- La ATU reportó **3758 vehículos habilitados para transporte escolar en Lima y Callao** en enero de 2026, evidenciando un mercado formal y recurrente de familias usuarias del servicio (Infobae, 2026a).
-- El INEI informó que **98,4 % de los hogares de Lima Metropolitana contaba con telefonía móvil** y que **90,3 % de la población de 6 años a más utilizaba Internet** durante el cuarto trimestre de 2025. Además, una fuente secundaria citada por el equipo reporta que **89,2 % de los usuarios de Internet accedía mediante teléfono celular** (Altavoz, 2026). Esto respalda una experiencia web orientada principalmente al uso móvil.
+- La ATU reportó **3758 vehículos habilitados para transporte escolar en Lima y Callao** en enero de 2026, evidenciando un mercado formal y recurrente de familias usuarias del servicio (Infobae, 2026).
+
+- El INEI informó que **98,4 % de los hogares de Lima Metropolitana contaba con telefonía móvil**, que **90,3 % de la población de 6 años a más utilizaba Internet** y que **89,2 % de los usuarios accedía a la red mediante un teléfono celular** durante el cuarto trimestre de 2025 (INEI, 2026). Esto respalda una experiencia web orientada principalmente al uso móvil.
 
 ### Conductores de movilidad escolar
 
@@ -720,6 +721,22 @@ Conductores que realizan rutas programadas para el traslado de estudiantes entre
 
 # Bibliografía
 
----
+Altavoz. (2026, 26 de marzo). *El 98,4% de los hogares de Lima Metropolitana contó con telefonía móvil durante el cuarto trimestre de 2025*. https://altavoz.pe/economia/el-984-de-los-hogares-de-lima-metropolitana-conto-con-telefonia-movil-durante-el-cuarto-trimestre-de-2025/
+
+Comparabien. (2025, 22 de abril). *¿Cuánto se gana en movilidad escolar? Guía para emprendedores*. https://comparabien.com.pe/blog-consejos/cuanto-gana-movilidad-escolar-guia-emprendedores
+
+Decreto Supremo N.º 016-2024-JUS. (2024, 30 de noviembre). *Reglamento de la Ley N.º 29733, Ley de Protección de Datos Personales*. Diario Oficial El Peruano. https://www.gob.pe/institucion/smv/normas-legales/6426760-016-2024-jus
+
+El Comercio. (2026, 26 de febrero). *Lima en el top 5 de ciudades con peor tráfico a nivel mundial*. https://elcomercio.pe/lima/sucesos/lima-en-el-top-5-de-ciudades-con-peor-trafico-a-nivel-mundial-mas-de-8-dias-al-ano-atrapados-en-el-trafico-vehicular-tomtom-traffic-index-ultimas-noticia/
+
+Exitosa Noticias. (2026, 24 de febrero). *Retorno a clases seguro: ATU habilita link para saber si la movilidad escolar de tus hijos está autorizada*. https://www.exitosanoticias.pe/actualidad/retorno-clases-seguro-atu-habilita-link-saber-movilidad-escolar-tus-hijos-esta-autorizada-n169563
+
+Infobae. (2026, 10 de enero). *Movilidad escolar para el inicio de clases 2026: así puedes identificar vehículos autorizados por la ATU*. https://www.infobae.com/peru/2026/01/10/movilidad-escolar-para-el-inicio-de-clases-2026-asi-puedes-identificar-vehiculos-autorizados-por-la-atu/
+
+Instituto Nacional de Estadística e Informática. (2026, 26 de marzo). *El 98,4% de los hogares de Lima Metropolitana contó con telefonía móvil durante el cuarto trimestre de 2025*. Plataforma del Estado Peruano. https://www.gob.pe/institucion/inei/noticias/1371146-el-98-4-de-los-hogares-de-lima-metropolitana-conto-con-telefonia-movil-durante-el-cuarto-trimestre-de-2025
+
+Organismo Supervisor de Inversión Privada en Telecomunicaciones. (2026). *Encuesta Residencial de Servicios de Telecomunicaciones (ERESTEL) 2025*. https://www.osiptel.gob.pe
+
+TomTom. (2026). *TomTom Traffic Index 2025: Lima*. https://www.tomtom.com/traffic-index/lima-traffic/
 
 # Anexos
