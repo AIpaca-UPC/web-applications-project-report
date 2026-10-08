@@ -2,7 +2,7 @@
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
-<img src="https://seeklogo.com/images/U/universidad-peruana-de-ciencias-aplicadas-upc-logo-B98C3A365C-seeklogo.com.png" alt="Logo UPC" width="260"/>
+<img src="./assets/upc-logo.png" alt="Logo UPC" width="260"/>
 
 ### Ingeniería de Software
 
@@ -18,7 +18,7 @@
 
 # Informe de Trabajo Final
 
-### Startup: Rumbo
+### Startup: AIpaca
 
 ### Producto: Rumbo
 
@@ -26,7 +26,7 @@
 
 | Apellidos y Nombres | Código de Alumno |
 |---|---|
-| Barrientos Quispe, Marcelo | U20221e646 |
+| Barrientos Quispe, Marcelo | U20221E646 |
 | Díaz Ramírez, Alejandro | U202423084 |
 | Geronimo Puma, Kevin Joel | U202423163 |
 | Lino Quispe, Leonardo Miguel | U202422298 |
@@ -44,6 +44,9 @@
 |---|---|---|---|
 | 0.1 | 07/09/2026 | Lino Quispe, Leonardo Miguel | Creación de la estructura base del informe de Rumbo. |
 | 0.2 | 11/09/2026 | Equipo Rumbo | Actualización de integrantes y refinamiento del Capítulo I para AV1. |
+| 0.3 | 20/09/2026 | Equipo Rumbo | Integración de Collaboration Insights, Student Outcome, artefactos de Product Design y avance de Sprint 1. |
+| 0.4 | 08/10/2026 | Equipo Rumbo | Consolidación del Capítulo II para Aplicaciones Web: análisis competitivo, entrevistas, Needfinding, Big Picture EventStorming y Ubiquitous Language. |
+| 0.5 | 08/10/2026 | Equipo Rumbo | Consolidación de los Capítulos I y II en la rama de Requirements Specification, conservando los capítulos posteriores para revisión. |
 
 ---
 
@@ -57,14 +60,18 @@
 
 ### AV1
 
-**Team Collaboration Commits**  
-[Insertar captura]
+<div align="center">
+  <img src="./assets/collaboration/av1-project-report-insights.svg" alt="GitHub Pulse de colaboración del Project Report para AV1" width="95%">
+</div>
 
-**Team Collaboration Network**  
-[Insertar captura]
+Durante el periodo mostrado por GitHub Insights (20 de agosto al 20 de septiembre de 2026), el Project Report registra **4 autores activos**, **109 commits en todas las ramas** y **6 pull requests fusionados**. La captura también muestra **0 pull requests abiertos** y **0 issues activos** al cierre del periodo.
 
-**Contributors / Pull Requests**  
-[Insertar capturas]
+Como evidencia complementaria de colaboración se utilizan los recursos nativos del repositorio:
+
+- **Commits:** https://github.com/AIpaca-UPC/web-applications-project-report/commits
+- **Network:** https://github.com/AIpaca-UPC/web-applications-project-report/network
+- **Contributors:** https://github.com/AIpaca-UPC/web-applications-project-report/graphs/contributors
+- **Pull Requests:** https://github.com/AIpaca-UPC/web-applications-project-report/pulls
 
 ---
 
@@ -98,7 +105,7 @@
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
@@ -106,17 +113,47 @@
   - [3.3. Product Backlog](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
   - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
   - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
   - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
   - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
   - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
 - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+  - [Video About-The-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -128,8 +165,8 @@ El curso contribuye al cumplimiento del **ABET – EAC – Student Outcome 5**: 
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---|---|---|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **[Integrante 1]** — AV1: [acción]. <br> **[Integrante 2]** — AV1: [acción]. <br> **[Integrante 3]** — AV1: [acción]. <br> **[Integrante 4]** — AV1: [acción]. <br> **[Integrante 5]** — AV1: [acción]. | [Conclusión grupal]. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **[Integrante 1]** — AV1: [acción]. <br> **[Integrante 2]** — AV1: [acción]. <br> **[Integrante 3]** — AV1: [acción]. <br> **[Integrante 4]** — AV1: [acción]. <br> **[Integrante 5]** — AV1: [acción]. | [Conclusión grupal]. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **Barrientos Quispe, Marcelo — AV1:** liderazgo del Capítulo I. <br> **Meza Soza, Alexandra Yamile — AV1:** liderazgo del Capítulo II. <br> **Lino Quispe, Leonardo Miguel — AV1:** liderazgo de los Capítulos III y V e integración de evidencias. <br> **Geronimo Puma, Kevin Joel — AV1:** desarrollo conjunto del Capítulo IV. <br> **Díaz Ramírez, Alejandro — AV1:** desarrollo conjunto del Capítulo IV. | El equipo distribuyó el liderazgo por capítulos y coordinó la integración de los entregables para mantener una versión común del Project Report. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Marcelo, Alexandra, Leonardo, Kevin y Alejandro — AV1:** organizaron el trabajo mediante ramas feature en GitHub, revisión de cambios, Product/Sprint Backlog en Trello y artefactos colaborativos en las herramientas definidas para el proyecto. | La planificación por responsabilidades y el uso de herramientas compartidas permitió organizar el avance, revisar el trabajo de otros integrantes y mantener trazabilidad del Sprint 1. |
 
 ---
 
@@ -155,54 +192,62 @@ Alcance del proyecto: El alcance inicial de Rumbo está orientado a padres o tut
 
 <table>
   <thead>
-    <tr><th>Foto</th><th>Apellidos y nombres</th><th>Código</th><th>Carrera</th><th>Habilidades</th></tr>
+    <tr>
+      <th>Foto</th>
+      <th>Apellidos y nombres</th>
+      <th>Código</th>
+      <th>Carrera</th>
+      <th>Habilidades</th>
+    </tr>
   </thead>
   <tbody>
     <tr>
-      <td align="center"><img src="assets/chaper1/marcelo.png" alt="Barrientos Quispe, Marcelo" width="120"/></td>
+      <td align="center"><img src="assets/chapter01/marcelo.png" alt="Barrientos Quispe, Marcelo" width="120"/></td>
       <td>Barrientos Quispe, Marcelo</td>
-      <td>U20221e646</td>
+      <td>U20221E646</td>
       <td>Ingeniería de Software</td>
-      <td>Me considero una persona adaptable al entorno, sé trabajar en equipo y aprendo rápido. Cuento con conocimientos técnicos en tecnologías de JavaScript.</td>
+      <td>Estudiante de Ingeniería de Software con capacidad de adaptación, aprendizaje rápido y trabajo colaborativo. Cuenta con conocimientos técnicos en tecnologías basadas en JavaScript y aporta al equipo en tareas de desarrollo frontend y organización del trabajo.</td>
     </tr>
     <tr>
-      <td align="center">[Insertar foto]</td>
+      <td align="center"><img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter01/alejandro-diaz.png" alt="Alejandro Díaz Ramírez" width="120"/></td>
       <td>Díaz Ramírez, Alejandro</td>
       <td>U202423084</td>
       <td>Ingeniería de Software</td>
-      <td>[Completar perfil]</td>
+      <td>Estudiante de Ingeniería de Software con conocimientos en Python y C++, experiencia en prototipado con React Native y trabajo colaborativo con metodologías ágiles. Aporta principalmente en lógica del sistema, estructuración del código y desarrollo técnico.</td>
     </tr>
     <tr>
-      <td align="center">[Insertar foto]</td>
+      <td align="center"><img src="https://github.com/user-attachments/assets/8be17c32-7b22-466c-a91e-daf42a5b31ea" alt="Kevin Joel Geronimo Puma" width="120"/></td>
       <td>Geronimo Puma, Kevin Joel</td>
       <td>U202423163</td>
       <td>Ingeniería de Software</td>
-      <td>[Completar perfil]</td>
+      <td>Estudiante de Ingeniería de Software con conocimientos en Python y C++. Se desempeña especialmente en arquitectura de software, diseño de bases de datos, lógica del sistema y organización técnica del desarrollo.</td>
     </tr>
     <tr>
-      <td align="center"><img src="assets/chaper1/leonardo-lino.svg" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
+      <td align="center"><img src="./assets/chapter01/leonardo-lino.jpg" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
       <td>Lino Quispe, Leonardo Miguel</td>
       <td>U202422298</td>
       <td>Ingeniería de Software</td>
-      <td>Soy estudiante de Ingeniería de Software del 4to ciclo en la UPC. Tengo conocimientos en programación en C++ y Python, y experiencia desarrollando proyectos académicos donde analizo y organizo soluciones tecnológicas. Me gusta enfocarme en aprender de forma práctica y en construir soluciones que sean claras, funcionales y aplicadas a problemas reales.</td>
+      <td>Soy estudiante de Ingeniería de Software del 5.º ciclo en la UPC. Tengo conocimientos en programación en C++ y Python, y experiencia desarrollando proyectos académicos donde analizo y organizo soluciones tecnológicas. Me gusta enfocarme en aprender de forma práctica y en construir soluciones que sean claras, funcionales y aplicadas a problemas reales.</td>
     </tr>
     <tr>
-      <td align="center"><img src="assets/chaper1/alexandra-meza.png" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter01/alexandra-meza.png" alt="Alexandra Yamile Meza Soza" width="120"/></td>
       <td>Meza Soza, Alexandra Yamile</td>
       <td>U20241b451</td>
       <td>Ingeniería de Software</td>
-      <td>[Completar perfil]</td>
+      <td>Estudiante de Ingeniería de Software con conocimientos en Python y C++. Se caracteriza por el aprendizaje rápido, el criterio para seleccionar información relevante y el trabajo colaborativo. En el equipo aporta investigación aplicada, análisis y documentación del producto.</td>
     </tr>
   </tbody>
 </table>
 
 ## 1.2. Solution Profile
 
-El **Solution Profile** presenta una descripción general de la solución propuesta por **AIpaca**. Aborda el contexto en el que opera el transporte escolar en Lima y Callao, los problemas detectados en la coordinación entre familias y conductores, y las suposiciones estratégicas que guían el desarrollo de **Rumbo**. Esta sección busca conectar los hallazgos de la fase de descubrimiento con una propuesta de valor clara y sentar las bases para el diseño, la validación y el desarrollo de la solución.
+El **Solution Profile** presenta una descripción general de la solución propuesta por **AIpaca** y de su producto **Rumbo**. Aborda el contexto en el que opera el transporte escolar en Lima y Callao, los problemas detectados en la coordinación entre familias y conductores y las suposiciones estratégicas que guían el desarrollo del producto. Esta sección conecta los hallazgos de la fase de descubrimiento con una propuesta de valor clara y sienta las bases para el diseño, la validación y el desarrollo posterior de la solución.
+
+Para el curso de **Aplicaciones Web**, Rumbo se plantea como una experiencia compuesta por un **Landing Page**, una **Web Application responsive** y, en las etapas de implementación correspondientes, una **RESTful API de elaboración interna** integrada con la aplicación web y con al menos un servicio externo de terceros. Esta delimitación tecnológica corresponde al alcance específico del curso y no debe confundirse con la implementación realizada en otros cursos del proyecto.
 
 ### 1.2.1. Antecedentes y problemática
 
-El transporte escolar constituye un servicio formal y regulado en Lima y Callao. En enero de 2026, la Autoridad de Transporte Urbano para Lima y Callao (ATU) informó que **3758 vehículos se encontraban habilitados para prestar el servicio de transporte de estudiantes** y recordó que los padres pueden verificar digitalmente si el vehículo y el conductor están autorizados [1]. Esta cifra confirma que existe un ecosistema amplio de familias, conductores y operadores que realizan traslados escolares de manera recurrente.
+El transporte escolar constituye un servicio formal y regulado en Lima y Callao. En enero de 2026, la Autoridad de Transporte Urbano para Lima y Callao (ATU) informó que **3758 vehículos se encontraban habilitados para prestar el servicio de transporte de estudiantes** y recordó que los padres pueden verificar digitalmente si el vehículo y el conductor están autorizados (Infobae, 2026a). Esta cifra confirma que existe un ecosistema amplio de familias, conductores y operadores que realizan traslados escolares de manera recurrente.
 
 En esta sección se analiza el contexto en el que surge la problemática principal, considerando sus factores sociales, tecnológicos y operativos. Se utiliza la técnica de las 5 W y 2 H para responder de forma estructurada qué ocurre, quiénes están involucrados, cuándo y dónde sucede, por qué ocurre, cómo se abordará y cuánto costará implementar la solución.
 
@@ -210,13 +255,13 @@ En esta sección se analiza el contexto en el que surge la problemática princip
 
 **What (¿Qué?) — ¿Cuál es el problema?**  
 
-El transporte escolar en Lima y Callao es un servicio formal y regulado. Sin embargo, la coordinación diaria entre padres y conductores sigue dependiendo de mensajes y llamadas individuales. Según la Autoridad de Transporte Urbano para Lima y Callao (ATU), 3758 vehículos cuentan con habilitación para prestar este servicio durante 2026, tras un proceso de verificación y autorización realizado en 2025 (Infobae, 2026a). Además, la ATU habilitó un enlace público para que los padres verifiquen si el vehículo y el conductor contratados están autorizados (Exitosa Noticias, 2026)
+El transporte escolar en Lima y Callao es un servicio formal y regulado. Sin embargo, la coordinación diaria entre padres y conductores sigue dependiendo de mensajes y llamadas individuales. Según la Autoridad de Transporte Urbano para Lima y Callao (ATU), 3758 vehículos cuentan con habilitación para prestar este servicio durante 2026, tras un proceso de verificación y autorización realizado en 2025 (Infobae, 2026a). Además, la ATU habilitó un enlace público para que los padres verifiquen si el vehículo y el conductor contratados están autorizados (Exitosa Noticias, 2026).
 
 Estos mecanismos resuelven la pregunta de si el servicio es formal antes de contratarlo, pero no la de qué está pasando durante la ruta. Los padres no cuentan con una vista única donde consultar si el menor ya fue recogido, si la movilidad está retrasada, si llegó al colegio o si ocurrió un imprevisto. Esa información se transmite de forma dispersa, y buena parte de ella recae sobre el conductor, que debe responder las mismas consultas a varias familias mientras cumple su ruta.
 
 **When (¿Cuándo?) — ¿Cuándo ocurre?**  
 
-El problema ocurre todos los días de clases, en tres momentos: antes del recojo, durante el traslado y al momento de la llegada o entrega. El Ministerio de Educación fijó el inicio del año escolar 2026 para el lunes 16 de marzo y su término para el viernes 18 de diciembre, con 36 semanas de clases (Infobae, 2026a). Durante todo ese periodo, cada familia depende de uno o dos trayectos diarios
+El problema ocurre todos los días de clases, en tres momentos: antes del recojo, durante el traslado y al momento de la llegada o entrega. El Ministerio de Educación fijó el inicio del año escolar 2026 para el lunes 16 de marzo y su término para el viernes 18 de diciembre, con 36 semanas de clases (Infobae, 2026a). Durante todo ese periodo, cada familia depende de uno o dos trayectos diarios.
 
 La incertidumbre se intensifica porque los horarios escolares coinciden con las horas de mayor congestión. En Lima el tráfico se concentra entre las 6 a. m. y las 9 a. m., y nuevamente en las horas punta de la tarde (El Comercio, 2026). En esas franjas un retraso de pocos minutos puede convertirse en una espera prolongada, y es cuando los padres más necesitan información oportuna.
 
@@ -267,7 +312,7 @@ Presupuesto estimado (estimación referencial elaborada por el equipo):
 Desarrollo de software
 Diseño UX/UI y prototipado: S/ 2,000 – S/ 3,000
 Frontend web responsive (Vue + PrimeVue): S/ 4,000 – S/ 6,000
-Backend, API REST y base de datos (ASP.NET Core): S/ 4,500 – S/ 6,500
+Backend, RESTful API y base de datos (ASP.NET Core + C#): S/ 4,500 – S/ 6,500
 Integración de servicios de ubicación y notificaciones: S/ 1,500 – S/ 2,500
 
 Infraestructura (anual)
@@ -477,7 +522,7 @@ Creemos que lograremos que al menos el 60 % de los conductores del piloto contin
 El **Lean UX Canvas** resume en un solo artefacto los elementos trabajados en el Lean UX Process: el problema de negocio, los resultados esperados, los segmentos objetivo, sus beneficios, las soluciones propuestas y las hipótesis que las conectan. Además, identifica el supuesto más riesgoso para Rumbo y los experimentos de menor esfuerzo que permitirán validarlo.
 
 
-<p align="center"><img src="assets/chaper1/lean-ux.png" alt="Lean UX Canvas de Rumbo" width="100%"/></p>
+<p align="center"><img src="assets/chapter01/lean-ux.png" alt="Lean UX Canvas de Rumbo" width="100%"/></p>
 
 ## 1.3. Segmentos objetivo
 
@@ -496,8 +541,8 @@ Padres, madres o tutores responsables de menores que utilizan servicios de movil
 - La confianza en la plataforma depende de la privacidad y del control sobre quién puede consultar información del menor.
 
 **Sustento estadístico:**
-- La ATU reportó **3758 vehículos habilitados para transporte escolar en Lima y Callao** en enero de 2026, evidenciando un mercado formal y recurrente de familias usuarias del servicio [1].
-- El INEI informó que **98,4 % de los hogares de Lima Metropolitana contaba con telefonía móvil**, **90,3 % de la población de 6 años a más utilizaba Internet** y **91,0 % de los usuarios de Internet accedía mediante celular** durante el cuarto trimestre de 2025 [4]. Esto respalda una experiencia web orientada principalmente al uso móvil.
+- La ATU reportó **3758 vehículos habilitados para transporte escolar en Lima y Callao** en enero de 2026, evidenciando un mercado formal y recurrente de familias usuarias del servicio (Infobae, 2026a).
+- El INEI informó que **98,4 % de los hogares de Lima Metropolitana contaba con telefonía móvil** y que **90,3 % de la población de 6 años a más utilizaba Internet** durante el cuarto trimestre de 2025. Además, una fuente secundaria citada por el equipo reporta que **89,2 % de los usuarios de Internet accedía mediante teléfono celular** (Altavoz, 2026). Esto respalda una experiencia web orientada principalmente al uso móvil.
 
 ### Conductores de movilidad escolar
 
@@ -512,190 +557,202 @@ Conductores que realizan rutas programadas para el traslado de estudiantes entre
 - Valoran herramientas que simplifiquen la coordinación sin reemplazar sus responsabilidades operativas y de seguridad.
 
 **Sustento estadístico:**
-- La ATU reportó **3758 vehículos escolares habilitados en Lima y Callao** [1], lo que permite identificar un grupo concreto de operadores y conductores dentro del mercado formal.
-- Lima registró **69,3 % de congestión promedio durante 2025**, con recorridos de 10 km de hasta **51 min 17 s en la hora punta de la tarde** y aproximadamente **195 horas anuales perdidas en tráfico de hora punta** [2]. Este contexto sustenta la necesidad de gestionar retrasos y comunicar variaciones de tiempo de manera ordenada.
+- La ATU reportó **3758 vehículos escolares habilitados en Lima y Callao** (Infobae, 2026a), lo que permite identificar un grupo concreto de operadores y conductores dentro del mercado formal.
+- Lima registró **69,3 % de congestión promedio durante 2025**, con recorridos de 10 km de hasta **51 min 17 s en la hora punta de la tarde** y aproximadamente **195 horas anuales perdidas en tráfico de hora punta** (El Popular, 2026). Este contexto sustenta la necesidad de gestionar retrasos y comunicar variaciones de tiempo de manera ordenada.
 
 ---
 
 # Capítulo II: Requirements Elicitation & Analysis
 
+Este capítulo reúne la obtención y el análisis de requisitos de **Rumbo** para el curso de **Aplicaciones Web**. Los hallazgos se utilizan como base para la especificación posterior del Landing Page, la Frontend Web Application responsive y los RESTful Web Services. El análisis del dominio se mantiene separado de las decisiones tecnológicas de implementación, de modo que los artefactos reflejen primero las necesidades reales de padres/tutores y conductores.
+
 ## 2.1. Competidores
-
-En esta sección se identifican y describen los principales competidores de Rumbo 
-dentro del mercado de la coordinación del transporte escolar.
-
-### titiGO (competidor directo)
-
-titiGO es una plataforma para el seguimiento y control del transporte escolar que 
-opera en Lima. Conecta colegios, movilidades y padres de familia. Los conductores 
-crean un perfil de movilidad que el colegio confirma como verificado. Los padres 
-reciben notificaciones sobre los estados del viaje, pueden cancelar recogidas e 
-informar imprevistos. Incorpora un código QR diario que el personal del colegio 
-escanea para confirmar el retiro del estudiante.
-
-### Transporte Escolar (competidor directo)
-
-Transporte Escolar es una aplicación desarrollada en Ecuador para el seguimiento 
-escolar en tiempo real. Conductores y padres se registran gratuitamente y acceden a 
-paneles diferenciados. El conductor comparte su ubicación, gestiona estudiantes y 
-rutas, y envía alertas. El padre vincula a sus hijos mediante un código proporcionado 
-por el conductor y visualiza su estado, la distancia al destino y el recorrido.
-
-
-### WhatsApp (competidor indirecto)
-
-WhatsApp es la herramienta de mensajería que conductores y padres utilizan hoy para 
-coordinar el servicio. Permite grupos, chats individuales y compartir ubicación en 
-tiempo real. Sin embargo, la información queda distribuida entre conversaciones y 
-carece de funciones para gestionar rutas, estudiantes o registrar hitos del recorrido.
 
 ### 2.1.1. Análisis competitivo
 
-En esta sección se realiza un análisis detallado de nuestros tres principales competidores: **WhatsApp, Transporte Escolar y titiGO**. Para ello, se presenta un **Competitive Analysis Landscape**, cuyo objetivo es conocer y comparar las principales características de cada competidor, considerando sus fortalezas, debilidades, oportunidades de mejora y modelos de negocio. Este análisis permitirá identificar oportunidades de diferenciación y establecer las estrategias y tácticas de negocio que **Rumbo** adoptará para desarrollar una ventaja competitiva dentro del mercado del seguimiento y gestión de movilidades escolares.
-
-## Competitive Analysis Landscape
+El análisis competitivo se desarrolla mediante el **Competitive Analysis Landscape** solicitado para el curso de **Aplicaciones Web**. Se compara a **Rumbo** con dos soluciones especializadas en transporte escolar —**SchoolBusTracker** y **Bus esCool**— y con un sustituto informal compuesto por herramientas de uso general como **WhatsApp y Waze**. El objetivo es reconocer diferencias reales entre las alternativas, identificar fortalezas y debilidades y analizar las oportunidades y amenazas particulares de cada una, evitando asumir funcionalidades o condiciones comerciales que no hayan sido verificadas.
 
 <table>
   <thead>
-    <tr>
-      <th colspan="2">¿Por qué llevar a cabo este análisis?</th>
-      <th colspan="4">Comparar a Rumbo con los competidores identificados para reconocer diferencias, oportunidades y riesgos relevantes para la propuesta.</th>
-    </tr>
-    <tr>
-      <th colspan="2"></th>
-      <th>Rumbo</th>
-      <th>titiGO</th>
-      <th>Transporte Escolar</th>
-      <th>WhatsApp</th>
-    </tr>
-    <tr>
-      <th>Competidores</th>
-      <th></th>
-      <th>[logo] AIpaca — Rumbo</th>
-      <th>[logo] titiGO</th>
-      <th>[logo] Transporte Escolar</th>
-      <th>[logo] WhatsApp</th>
-    </tr>
+    <tr><th colspan="6">Competitive Analysis Landscape</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="2"><b>Perfil</b></td>
-      <td>Overview</td>
-      <td>Plataforma web responsive que centraliza el estado del traslado escolar, sus hitos e incidencias, dirigida a padres/tutores y conductores.</td>
-      <td>Plataforma de seguimiento y control del transporte escolar que conecta colegios, movilidades y padres.</td>
-      <td>Aplicación móvil de seguimiento escolar en tiempo real para conductores y padres.</td>
-      <td>Aplicación de mensajería de uso general empleada para coordinar el servicio de movilidad escolar.</td>
+      <th colspan="2">¿Por qué llevar a cabo este análisis?</th>
+      <td colspan="4">Identificar cómo puede Rumbo diferenciarse frente a soluciones especializadas de transporte escolar y frente a los canales informales que actualmente pueden utilizar padres/tutores y conductores, considerando producto, mercado, canales y factores SWOT.</td>
     </tr>
     <tr>
-      <td>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</td>
-      <td>Muestra el estado del traslado mediante hitos confirmados y una línea de tiempo, sin exigir seguimiento continuo de ubicación ni depender de un colegio.</td>
-      <td>Valida el retiro del estudiante mediante códigos QR verificados por el colegio.</td>
-      <td>Permite visualizar la ubicación de la movilidad y el estado del estudiante durante el recorrido.</td>
-      <td>Comunicación inmediata, gratuita y ya adoptada por ambos segmentos.</td>
+      <th colspan="2">Competidores / Startup</th>
+      <th>
+        <img src="./assets/chapter02/rumbo-logo.png" alt="Logo de Rumbo" width="120"/><br>
+        AIpaca / Rumbo
+      </th>
+      <th>
+        <img src="./assets/chapter02/bustracker.png" alt="Logo de SchoolBusTracker" width="110"/><br>
+        SchoolBusTracker
+      </th>
+      <th>
+        <img src="./assets/chapter02/busschool.png" alt="Logo de Bus esCool" width="100"/><br>
+        Bus esCool
+      </th>
+      <th>
+        <img src="./assets/chapter02/whatsapp.png" alt="Logo de WhatsApp" width="105"/><br>
+        <img src="./assets/chapter02/waze.png" alt="Logo de Waze" width="105"/><br>
+        Canales informales (WhatsApp + Waze)
+      </th>
     </tr>
     <tr>
-      <td rowspan="2"><b>Perfil de Marketing</b></td>
-      <td>Mercado objetivo</td>
-      <td>Padres/tutores y conductores de movilidad escolar en Lima y Callao.</td>
-      <td>Colegios, movilidades escolares y padres de familia.</td>
-      <td>Conductores de movilidad escolar y padres de familia en Ecuador.</td>
-      <td>Público general; en este contexto, conductores y padres de familia.</td>
+      <th rowspan="2">Perfil</th>
+      <th>Overview</th>
+      <td><strong>Rumbo</strong>, producto de la startup <strong>AIpaca</strong>, es una plataforma web responsive orientada a la coordinación del transporte escolar entre padres/tutores y conductores. El alcance actual prioriza estados e hitos del viaje, rutas, estudiantes, retrasos, incidencias y notificaciones.</td>
+      <td>Suite especializada de transporte escolar dirigida principalmente a instituciones educativas. Incluye aplicaciones para padres y conductores y un panel administrativo para gestionar y supervisar el servicio.</td>
+      <td>Plataforma de monitoreo y control de rutas escolares que conecta a colegios, padres de familia, coordinadores de transporte, monitores y conductores.</td>
+      <td>Combinación de aplicaciones de mensajería, llamadas, navegación y ubicación que pueden utilizarse para coordinar el servicio, pero que no conforman por sí mismas un sistema especializado de transporte escolar.</td>
     </tr>
     <tr>
-      <td>Estrategias de marketing</td>
-      <td>Captación directa de conductores independientes, quienes incorporan a las familias de su ruta; difusión en redes sociales y demostraciones.</td>
-      <td>Captación de colegios para integrar luego a movilidades y familias.</td>
-      <td>Difusión mediante tiendas de aplicaciones.</td>
-      <td>Crecimiento por adopción masiva, sin especialización en transporte escolar.</td>
+      <th>Ventaja competitiva / ¿Qué valor ofrece a los clientes?</th>
+      <td>Experiencia enfocada inicialmente en padres/tutores y conductores, con información estructurada del traslado y un historial de eventos que reduce la dependencia de consultas repetitivas.</td>
+      <td>Oferta madura e integrada: seguimiento en tiempo real, registro de subida y bajada, alertas, reservas, pagos, administración y reportes dentro de una misma suite.</td>
+      <td>Seguimiento en tiempo real, avisos sobre imprevistos, control de inasistencias, información de abordaje y herramientas específicas para la operación de rutas escolares.</td>
+      <td>Familiaridad de uso, amplia presencia en los teléfonos de los usuarios y posibilidad de comunicarse o consultar navegación sin adoptar inicialmente una plataforma adicional.</td>
     </tr>
     <tr>
-      <td rowspan="3"><b>Perfil de Producto</b></td>
-      <td>Productos &amp; Servicios</td>
-      <td>Estado actual del viaje, línea de tiempo, confirmación de recojo y entrega, registro de incidencias y centro de notificaciones.</td>
-      <td>Seguimiento del transporte, notificaciones, control de retiro mediante QR y gestión de movilidades.</td>
-      <td>Seguimiento GPS, gestión de estudiantes y rutas, mensajería, alertas y notificaciones.</td>
-      <td>Mensajería, grupos, llamadas y ubicación en tiempo real.</td>
+      <th rowspan="2">Perfil de Marketing</th>
+      <th>Mercado objetivo</th>
+      <td>Padres/tutores y conductores de movilidad escolar de Lima y Callao.</td>
+      <td>Colegios y organizaciones que administran transporte escolar, junto con padres, estudiantes y conductores que utilizan el servicio.</td>
+      <td>Colegios, padres de familia, coordinadores de transporte, monitores y conductores vinculados a rutas escolares.</td>
+      <td>Mercado general de usuarios de mensajería y navegación; dentro del problema de Rumbo actúan como herramientas sustitutas para familias y conductores.</td>
     </tr>
     <tr>
-      <td>Precios &amp; Costos</td>
-      <td>Modelo SaaS: acceso gratuito para padres y tutores, suscripción mensual para conductores.</td>
-      <td>No especificado públicamente.</td>
-      <td>Descarga gratuita; condiciones comerciales no especificadas.</td>
-      <td>Gratuito en sus funciones principales.</td>
+      <th>Estrategias de marketing</th>
+      <td>Propuesta centrada en simplificar la coordinación entre los dos segmentos iniciales y reducir la comunicación manual mediante una experiencia web responsive.</td>
+      <td>Comercialización orientada a instituciones mediante demostraciones, paquetes de servicio y posibilidades de personalización de la experiencia para cada organización.</td>
+      <td>Adopción vinculada a instituciones y operadores de transporte, con una propuesta multirrol y un plan de prueba piloto comunicado desde su sitio oficial.</td>
+      <td>No existe una estrategia única de transporte escolar: la adopción deriva principalmente de la presencia y utilidad general de cada aplicación.</td>
     </tr>
     <tr>
-      <td>Canales de distribución<br>(Web y/o Móvil)</td>
-      <td>Landing Page y aplicación web responsive, optimizada para navegador móvil.</td>
-      <td>Aplicación móvil.</td>
-      <td>Aplicación móvil.</td>
-      <td>Aplicación móvil, versión web y de escritorio.</td>
+      <th rowspan="3">Perfil de Producto</th>
+      <th>Productos &amp; Servicios</th>
+      <td>Gestión de rutas, paradas y estudiantes; programación del traslado; estados e hitos del viaje; confirmaciones de recojo y entrega; retrasos, incidencias, notificaciones e historial.</td>
+      <td>Parent App, Driver App y Admin Panel; seguimiento de rutas, registro de abordaje y descenso, alertas, reservas, pagos, gestión administrativa y reportes.</td>
+      <td>Ubicación de la ruta en tiempo real, notificaciones de imprevistos y proximidad, gestión de inasistencias, información de abordaje, herramientas para conductor/monitor y panel de coordinación con reportes.</td>
+      <td>Chats, llamadas, envío de mensajes, ubicación compartida y navegación. La información queda repartida entre herramientas y conversaciones diferentes.</td>
     </tr>
     <tr>
-      <td rowspan="4"><b>Análisis SWOT</b></td>
-      <td>Fortalezas</td>
-      <td>Especialización en el contexto peruano; información centralizada por hitos; permisos por rol que limitan la visibilidad de datos del menor; no depende de la participación de un colegio.</td>
-      <td>Integración entre colegios, movilidades y padres; validación del retiro mediante QR.</td>
-      <td>Seguimiento GPS y gestión completa de estudiantes y rutas.</td>
-      <td>Amplia base de usuarios, facilidad de uso y comunicación instantánea.</td>
+      <th>Precios &amp; Costos</th>
+      <td>El modelo SaaS constituye una hipótesis del proyecto; el precio y las condiciones comerciales todavía requieren validación.</td>
+      <td>Dispone de paquetes comerciales para instituciones. En este análisis no se asigna un precio concreto porque no se ha verificado uno aplicable de manera general.</td>
+      <td>Servicio comercial para instituciones y usuarios vinculados a la ruta. En las fuentes consultadas no se verificó un precio público general aplicable a todos los clientes.</td>
+      <td>No requieren una licencia específica de transporte escolar; el usuario puede tener costos asociados a conectividad o a las condiciones generales de cada servicio.</td>
     </tr>
     <tr>
-      <td>Debilidades</td>
-      <td>Producto nuevo sin base de usuarios; depende de que el conductor registre los hitos; sin aplicación móvil nativa en el alcance inicial.</td>
-      <td>Depende de que el colegio verifique las movilidades, lo que excluye a conductores independientes.</td>
-      <td>Menor integración con instituciones educativas; su enfoque en ubicación continua puede generar reparos de privacidad.</td>
-      <td>Sin funciones especializadas; la información queda dispersa entre conversaciones y no deja registro estructurado.</td>
+      <th>Canales de distribución (Web y/o Móvil)</th>
+      <td>Landing Page y Frontend Web Application responsive.</td>
+      <td>Aplicaciones móviles para usuarios y plataforma/panel de administración.</td>
+      <td>Aplicaciones móviles para los participantes de la ruta y plataforma web para coordinación.</td>
+      <td>Principalmente aplicaciones móviles; algunos servicios también disponen de acceso web.</td>
     </tr>
     <tr>
-      <td>Oportunidades</td>
-      <td>Digitalización de las movilidades escolares independientes y alta penetración de Internet móvil en Lima Metropolitana.</td>
-      <td>Expansión hacia más instituciones educativas.</td>
-      <td>Incorporación de nuevas funciones de gestión y seguridad.</td>
-      <td>Integración con otras herramientas que complementen la coordinación.</td>
+      <th rowspan="4">Análisis SWOT</th>
+      <th>Fortalezas</th>
+      <td>Enfoque concreto en los dos segmentos iniciales de Rumbo; estructura de eventos del viaje; experiencia responsive; el valor del MVP no depende de GPS continuo, ETA dinámico o geofencing.</td>
+      <td>Suite especializada consolidada, múltiples aplicaciones por rol, seguimiento en tiempo real, registro de pasajeros, administración, reportes, reservas y pagos.</td>
+      <td>Especialización en rutas escolares, ubicación en tiempo real, notificaciones de eventos, gestión de inasistencias y coordinación entre varios roles.</td>
+      <td>Alta familiaridad, disponibilidad inmediata y flexibilidad para mensajería, llamadas, navegación y ubicación compartida.</td>
     </tr>
     <tr>
-      <td>Amenazas</td>
-      <td>Resistencia de los conductores a cambiar de herramienta; preferencia consolidada por WhatsApp; exigencias de la Ley N.º 29733 sobre datos de menores.</td>
-      <td>Aparición de plataformas dirigidas directamente a conductores independientes.</td>
-      <td>Competencia de plataformas con mayor integración institucional.</td>
-      <td>Aparición de soluciones especializadas que cubran lo que hoy se coordina por mensajería.</td>
+      <th>Debilidades</th>
+      <td>Producto nuevo y sin base instalada; varias capacidades todavía deben implementarse y validarse; el MVP actual no contempla como requisito GPS continuo, ETA dinámico ni geofencing.</td>
+      <td>Su propuesta está orientada principalmente a instituciones y operaciones de transporte organizadas, por lo que puede resultar más amplia que las necesidades iniciales de una relación directa conductor–familia.</td>
+      <td>La propuesta articula colegio, coordinadores, monitores y conductores, por lo que su adopción está fuertemente vinculada a una operación institucional o de ruta ya organizada.</td>
+      <td>Información fragmentada, historial difícil de estructurar, ausencia de un ciclo de vida propio del viaje y necesidad de repetir comunicaciones manualmente.</td>
+    </tr>
+    <tr>
+      <th>Oportunidades</th>
+      <td>Atender la coordinación digital entre familias y conductores de movilidad escolar en Lima y Callao con una solución enfocada, accesible desde navegador y adaptada al contexto local.</td>
+      <td>Ampliar su presencia a nuevos mercados e instituciones y aprovechar su suite existente para organizaciones que buscan digitalizar integralmente la gestión del transporte escolar.</td>
+      <td>Extender alianzas con colegios y operadores de transporte escolar en más mercados latinoamericanos y aprovechar su experiencia de monitoreo y comunicación multirrol.</td>
+      <td>Mantenerse como alternativa sustituta debido a la baja fricción de adopción y a que los usuarios ya conocen estas herramientas, incorporando además nuevas capacidades generales de comunicación y navegación.</td>
+    </tr>
+    <tr>
+      <th>Amenazas</th>
+      <td>Hábitos arraigados de coordinación mediante mensajería y llamadas; presencia de plataformas especializadas ya operativas; exigencias de confianza y privacidad por tratar información relacionada con menores.</td>
+      <td>Competidores locales más ligeros o adaptados a mercados específicos; barreras de adopción para operadores pequeños; sustitución parcial mediante herramientas generalistas de comunicación y navegación.</td>
+      <td>Entrada de soluciones con onboarding más simple para conductores independientes; competencia de suites internacionales y permanencia de canales informales ya adoptados.</td>
+      <td>Las plataformas especializadas pueden reemplazar parte de su uso en transporte escolar al ofrecer permisos por rol, trazabilidad, estados del viaje, notificaciones estructuradas y reportes.</td>
     </tr>
   </tbody>
 </table>
 
+**Fuentes consultadas para contrastar las capacidades de los competidores:**  
+- SchoolBusTracker: https://www.schoolbustrackerapp.com/  
+- Bus esCool: https://busescool.com/  
+- WhatsApp Brand Resources: https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/  
+- Waze: https://www.waze.com/
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-A partir de las fortalezas, debilidades, oportunidades y amenazas identificadas, se 
-definen las siguientes estrategias y tácticas preliminares que Rumbo adoptará para 
-diferenciarse en el mercado del transporte escolar.
+Para organizar las estrategias y tácticas preliminares de **Rumbo** frente a la competencia, se emplean las matrices **FODA** y **CAME**. La matriz FODA resume la situación interna de la startup y el contexto externo identificado en el Competitive Analysis Landscape. A partir de ello, la matriz CAME plantea acciones para **Corregir debilidades, Afrontar amenazas, Mantener fortalezas y Explotar oportunidades**.
 
-| Hallazgo del análisis | Estrategia de Rumbo | Táctica |
-|---|---|---|
-| WhatsApp concentra la coordinación actual, pero dispersa la información entre conversaciones. | Diferenciarse mediante la centralización estructurada de los hitos del traslado. | Registrar cada recojo, entrega, retraso e incidencia como un evento consultable en una línea de tiempo, en lugar de mensajes sueltos. |
-| titiGO depende de la verificación del colegio. | Atender al conductor independiente, que hoy queda fuera de esa propuesta. | Permitir que el conductor cree y publique su ruta, asigne estudiantes y opere sin intervención de una institución educativa. |
-| Transporte Escolar basa su valor en la ubicación continua. | Diferenciarse con una experiencia menos invasiva y más clara. | Mostrar estados e hitos confirmados en lugar de una secuencia continua de coordenadas, y limitar la información visible a los tutores autorizados. |
-| La adopción de una herramienta nueva es el mayor riesgo. | Reducir el costo de cambio frente a herramientas conocidas. | Diseñar la confirmación de hitos en una sola acción y ofrecer pilotos gratuitos a conductores durante el primer mes. |
-| El manejo de datos de menores condiciona la confianza. | Convertir el cumplimiento normativo en un atributo visible del producto. | Implementar permisos por rol, política de privacidad conforme a la Ley N.º 29733 y términos de servicio enlazados en el footer. |
-| Existe una oportunidad de digitalización del sector. | Posicionar a Rumbo como la alternativa especializada para Lima y Callao. | Difundir la plataforma mediante redes sociales, demostraciones a conductores autorizados por la ATU y alianzas con asociaciones del rubro. |                                               |
+#### Matriz FODA
 
-### Estrategias principales
+<table>
+  <thead>
+    <tr>
+      <th>Interno / Externo</th>
+      <th>Positivo</th>
+      <th>Negativo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Interno</th>
+      <td>
+        <strong>Fortalezas (F)</strong><br><br>
+        • Enfoque específico en los dos segmentos objetivo del proyecto: padres/tutores y conductores de movilidad escolar.<br><br>
+        • Centralización de estados del traslado, hitos, retrasos, incidencias y notificaciones dentro de un mismo flujo de información.<br><br>
+        • Web Application responsive planteada para funcionar con los dispositivos de los usuarios y sin requerir hardware propietario para las funcionalidades del MVP.
+      </td>
+      <td>
+        <strong>Debilidades (D)</strong><br><br>
+        • Producto nuevo, sin una base instalada ni confianza consolidada frente a soluciones que ya operan en el mercado.<br><br>
+        • El alcance actual no contempla todavía GPS continuo, ETA dinámico ni geofencing, mientras que competidores especializados ya ofrecen capacidades de seguimiento en tiempo real.<br><br>
+        • El valor de la coordinación depende de que conductores y familias adopten y utilicen de manera consistente la plataforma.
+      </td>
+    </tr>
+    <tr>
+      <th>Externo</th>
+      <td>
+        <strong>Oportunidades (O)</strong><br><br>
+        • Los canales informales como mensajería, llamadas y ubicación compartida no estructuran el ciclo del traslado escolar ni consolidan un historial único de eventos.<br><br>
+        • Las soluciones especializadas analizadas presentan una fuerte orientación a colegios, administradores y operaciones de transporte, lo que permite a Rumbo enfocarse en una experiencia directa para padres/tutores y conductores.<br><br>
+        • La necesidad de reducir incertidumbre, mensajes repetitivos y falta de trazabilidad durante el traslado abre espacio para una solución centrada en estados e hitos claramente registrados.
+      </td>
+      <td>
+        <strong>Amenazas (A)</strong><br><br>
+        • SchoolBusTracker y Bus esCool ya ofrecen funciones especializadas de seguimiento, notificaciones y gestión del transporte escolar.<br><br>
+        • WhatsApp, llamadas y herramientas de navegación cuentan con alta familiaridad y pueden seguir siendo suficientes para usuarios que no perciban un beneficio adicional al cambiar de herramienta.<br><br>
+        • Las expectativas de los usuarios pueden estar influenciadas por competidores que ya ofrecen localización en tiempo real y otras capacidades que Rumbo ha dejado fuera del alcance actual.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-1. Estrategia de diferenciación por especialización
-Rumbo buscará diferenciarse de herramientas generales como WhatsApp mediante funciones diseñadas específicamente para las necesidades de las movilidades escolares, como seguimiento de rutas, estados del viaje, gestión de estudiantes e incidencias.
+#### Matriz CAME
 
-2. Estrategia de adaptación al mercado peruano
-A diferencia de soluciones que dependen principalmente de colegios o sistemas de transporte institucionales, Rumbo estará orientado inicialmente a la realidad de las movilidades escolares independientes, permitiendo que los conductores puedan gestionar su servicio y relacionarse directamente con los padres.
-
-3. Estrategia de centralización de información
-Rumbo buscará solucionar el problema de utilizar múltiples herramientas para administrar el servicio. La plataforma reunirá seguimiento, comunicación, notificaciones, horarios, incidencias y confirmaciones en un mismo espacio.
-
-4. Estrategia de adopción y confianza
-Para afrontar la amenaza de que los usuarios prefieran continuar utilizando herramientas conocidas, Rumbo priorizará una interfaz sencilla y funciones fáciles de entender, además de mecanismos que permitan a los padres conocer el estado del traslado de sus hijos y recibir confirmaciones durante el recorrido.
+| Estrategia | Tácticas preliminares de Rumbo |
+|---|---|
+| **C — Corregir Debilidades** | Validar progresivamente el MVP con ambos segmentos objetivo para mejorar usabilidad y confianza. Mantener claramente delimitado el alcance actual y evaluar GPS continuo, ETA dinámico y geofencing únicamente como evolución posterior si la validación demuestra su necesidad. Reforzar onboarding, autorizaciones y manejo de información de menores para reducir barreras de adopción. |
+| **A — Afrontar Amenazas** | Diferenciarse de las soluciones especializadas mediante una experiencia más acotada a la coordinación directa entre conductor y familia. Frente a WhatsApp, llamadas y navegación, demostrar el valor de disponer de estados, hitos, retrasos e incidencias en un registro estructurado. Evitar competir mediante funcionalidades que todavía no están implementadas y sostener la propuesta sobre capacidades verificables del producto. |
+| **M — Mantener Fortalezas** | Conservar el enfoque en los dos segmentos definidos, la estructura cronológica de eventos del viaje y la centralización de información relevante. Mantener una experiencia responsive y consistente entre las vistas destinadas a conductores y padres/tutores. Preservar las reglas de autorización y privacidad previstas por el proyecto. |
+| **E — Explotar Oportunidades** | Orientar la adopción hacia casos donde la coordinación actual depende de mensajes o llamadas repetitivas. Posicionar a Rumbo como una alternativa estructurada para registrar y consultar el estado del traslado sin requerir una plataforma completa de administración de flotas. Priorizar en la experiencia las funcionalidades que cubren directamente los vacíos detectados: hitos del viaje, retrasos, incidencias, notificaciones y trazabilidad. |
 
 ## 2.2. Entrevistas
 
-Para este bloque se realizarán **entrevistas semiestructuradas** con el objetivo de comprender las necesidades, hábitos, dificultades y expectativas de los dos segmentos objetivo de Rumbo: **padres o tutores** y **conductores de movilidad escolar**. Las entrevistas buscan conocer cómo se coordina actualmente el traslado escolar, qué información se intercambia, qué situaciones generan mayor incertidumbre y cuáles son las barreras que podrían influir en la adopción de una solución digital.
+Para este bloque se realizaron **entrevistas semiestructuradas** con el objetivo de comprender las necesidades, hábitos, dificultades y expectativas de los dos segmentos objetivo de Rumbo: **padres o tutores** y **conductores de movilidad escolar**. Las entrevistas buscan conocer cómo se coordina actualmente el traslado escolar, qué información se intercambia, qué situaciones generan mayor incertidumbre y cuáles son las barreras que podrían influir en la adopción de una solución digital.
 
-Se realizarán **seis entrevistas en total: tres por cada segmento**, de acuerdo con el alcance definido para AV1. La información obtenida servirá como evidencia para construir los User Personas, User Task Matrix, User Journey Maps, Empathy Maps y los demás artefactos de Needfinding.
+Se realizaron **seis entrevistas en total: tres por cada segmento**, de acuerdo con el alcance definido para AV1. La información obtenida servirá como evidencia para construir los User Personas, User Task Matrix, User Journey Maps, Empathy Maps y los demás artefactos de Needfinding.
 
 ### 2.2.1. Diseño de entrevistas
 
@@ -733,17 +790,56 @@ Las preguntas combinan información demográfica y contextual con preguntas abie
 
 ### 2.2.2. Registro de entrevistas
 
-Para cada entrevista se registrará nombre completo, edad, distrito, segmento, captura, URL del video, timing, duración y resumen descriptivo. Actualmente se cuenta con **cuatro entrevistas efectivamente registradas: una del segmento Padres/Tutores y tres del segmento Conductores de movilidad escolar**. Para alcanzar el mínimo de tres entrevistas por segmento todavía faltan **dos entrevistas de padres/tutores**.
+Para cada entrevista se registra nombre completo, edad, distrito, segmento, captura, URL del video, timing, duración y resumen descriptivo. Actualmente se cuenta con **seis entrevistas registradas: tres del segmento Padres/Tutores y tres del segmento Conductores de movilidad escolar**, cumpliendo el mínimo requerido para ambos segmentos.
 
 | # | Entrevistado | Edad | Distrito | Segmento | Duración | Referencia |
 | -: | ----------- | ---: | -------- | -------- | :-----   | ---------- |
-|  1 | **Pendiente** | — | — | Padre/Tutor | — | Pendiente |
-|  2 | **Pendiente** | — | — | Padre/Tutor | — | Pendiente |
-|  3 | Leonel Adrián Mitma Garro | 24 | Callao | Padre/Tutor | [Completar] | [Entrevista 3](#entrevista-3--leonel-adrián-mitma-garro) |
-|  4 | Gabriel Alexandro Sosa Guevara | 20 | Olivos | Conductor | 09:51 | [Entrevista 4](#entrevista-4--gabriel-alexandro-sosa-guevara) |
+|  1 | Gisela Paola Santi Quispe | 45 | San Miguel | Padre/Tutor | 12:55 | [Entrevista 1](#entrevista-1--gisela-paola-santi-quispe) |
+|  2 | Marleny Nori Padilla Aguirre | 47 | Cercado de Lima | Padre/Tutor | 15:32 | [Entrevista 2](#entrevista-2--marleny-nori-padilla-aguirre) |
+|  3 | Leonel Adrián Mitma Garro | 24 | Callao | Padre/Tutor | 7:43 | [Entrevista 3](#entrevista-3--leonel-adrián-mitma-garro) |
+|  4 | Gabriel Alexandro Sosa Guevara | 20 | Los Olivos | Conductor | 09:51 | [Entrevista 4](#entrevista-4--gabriel-alexandro-sosa-guevara) |
 |  5 | Brayan Solorzano Pineda | 25 | Pueblo Libre | Conductor | 09:05 | [Entrevista 5](#entrevista-5--brayan-solorzano-pineda) |
 |  6 | Vilma Hoyos Martinez | 56 | San Miguel | Conductor | 18:14 | [Entrevista 6](#entrevista-6--vilma-hoyos-martinez) |
 
+## Entrevista 1 — Gisela Paola Santi Quispe
+
+- **Edad:** 45 años.
+- **Ocupación / segmento:** Padre o tutor de familia.
+- **Edad del menor:** 12 años y  6 años
+- **Distrito:** San Miguel.
+- **Frecuencia de uso:** 2 días a la semana.
+- **Timing de inicio:** 00:00.
+- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQAidRav7C7uTanDv_bGmDR7AelCr3B6zxh1HNJcxzSEYkY?e=jnKSeK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+<p align="center"><img width="1433" height="657" alt="image" src="./assets/chapter02/interview-gisela-santi.png" /></p>
+
+**Resumen:** 
+
+Paola Santi es una madre de familia de 45 años de edad que reside en el distrito de San Miguel. Utiliza el servicio de movilidad escolar de forma moderada, aproximadamente dos veces a la semana, para sus hijos de 6 y 12 años que asisten a la escuela.
+
+Para comunicarse con el chófer o el tutor, usa WhatsApp, medio por el cual se envían mensajes y actualizaciones del conductor.
+
+Paola opina que lo que más le preocupa es el nivel de privacidad con respecto a la ubicación de sus menores, así como la información del chofer, siendo fundamental que este sea de confianza absoluta.
+
+## Entrevista 2 — Marleny Nori Padilla Aguirre
+
+- **Edad:** 47 años.
+- **Ocupación / segmento:** Padre o tutor de familia.
+- **Edad del menor:** 14 años.
+- **Distrito:** Cercado de Lima.
+- **Frecuencia de uso:** 1 día a la semana.
+- **Timing de inicio:** 00:00.
+- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQBZEYrCvz0UTYUAl1mpybc0AY7AkjTMQVY_AlCxp-8OP34?e=nc6MsX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+  
+<p align="center"><img width="1433" height="657" alt="image" src="./assets/chapter02/interview-marleny-padilla.png" /></p>
+  
+**Resumen:** 
+
+Marleny Padilla es una madre de familia y ama de casa de 47 años de edad que reside en el distrito de Cercado de Lima. Utiliza el servicio de movilidad escolar con baja frecuencia para su hija de 14 años que asiste a una escuela secundaria.
+
+Para comunicarse con el tutor o el chófer, usa WhatsApp, medio por el cual se envían mensajes y actualizaciones de ubicación.
+
+Marleny opina que lo que más le preocupa es el nivel de privacidad con respecto a la ubicación de su menor, así como la información del chofer, siendo fundamental que este sea de confianza absoluta.
 
 ## Entrevista 3 — Leonel Adrián Mitma Garro
 
@@ -757,7 +853,7 @@ Para cada entrevista se registrará nombre completo, edad, distrito, segmento, c
   
   <p align="center"><img width="1433" height="657" alt="image" src="https://github.com/user-attachments/assets/b7505480-b81b-4072-b269-6384d712d131" /> </p>
   
-**Resumen preliminar:** Leonel Adrián es un padre de familia de 24 años que reside en el distrito del Callao. Utiliza el servicio de movilidad escolar cinco días a la semana para que su hijo de 6 años asista al nido. Para comunicarse con el conductor, emplea principalmente WhatsApp. Por este medio, el chófer envía fotografías al grupo de padres como evidencia de que los niños han llegado a su destino, lo cual le genera tranquilidad. A pesar de no haber experimentado retrasos ni complicaciones con el servicio, Adrián admite sentir cierta incertidumbre durante el trayecto de su hijo debido a la inseguridad ciudadana que hay en su distrito. Si se implementara una herramienta digital para el servicio, considera que lo más útil sería poder visualizar la ubicación exacta del vehículo en tiempo real. Además, mencionó que sería ideal contar con cámaras de seguridad, aunque es consciente de que sería difícil de implementar. Por el momento, Adrián se encuentra completamente satisfecho con el servicio, siente que todo va acorde y no realizaría ningún cambio en la forma actual de coordinación.
+**Resumen:** Leonel Adrián es un padre de familia de 24 años que reside en el distrito del Callao. Utiliza el servicio de movilidad escolar cinco días a la semana para que su hijo de 6 años asista al nido. Para comunicarse con el conductor, emplea principalmente WhatsApp. Por este medio, el chófer envía fotografías al grupo de padres como evidencia de que los niños han llegado a su destino, lo cual le genera tranquilidad. A pesar de no haber experimentado retrasos ni complicaciones con el servicio, Adrián admite sentir cierta incertidumbre durante el trayecto de su hijo debido a la inseguridad ciudadana que hay en su distrito. Si se implementara una herramienta digital para el servicio, considera que lo más útil sería poder visualizar la ubicación exacta del vehículo en tiempo real. Además, mencionó que sería ideal contar con cámaras de seguridad, aunque es consciente de que sería difícil de implementar. Por el momento, Adrián se encuentra completamente satisfecho con el servicio, siente que todo va acorde y no realizaría ningún cambio en la forma actual de coordinación.
 
 
 ## Entrevista 4 — Gabriel Alexandro Sosa Guevara
@@ -765,14 +861,14 @@ Para cada entrevista se registrará nombre completo, edad, distrito, segmento, c
 - **Edad:** 20 años.
 - **Ocupación / segmento:** Conductor de movilidad escolar.
 - **Experiencia en el rubro:** 2 años.
-- **Distrito:** Olivos.
+- **Distrito:** Los Olivos.
 - **Duración:** 09:51.
 - **Timing de inicio:** 00:00.
 - **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQC8MugJp8RuRYBv6-JB1JqxAa7zKfdSDfWOW6lMscwFzxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MUf4ft
 
-<p align="center"><img src="assets/chaper2/gabriel-sosa-interview.png" alt="Captura de la entrevista a Gabriel Alexandro Sosa Guevara" width="850"/></p>
+<p align="center"><img src="./assets/chapter02/interview-gabriel-sosa.png" alt="Captura de la entrevista a Gabriel Alexandro Sosa Guevara" width="850"/></p>
 
-**Resumen preliminar:** Gabriel cuenta con 2 años de experiencia realizando transporte escolar. Utiliza diariamente su teléfono para trabajar y principalmente usa WhatsApp para comunicarse con las familias y Google Maps para organizar sus rutas. Comenta que uno de los problemas que presenta es tener la información fragmentada en distintos chats, lo que hace poco práctico buscar entre conversaciones para verificar si un estudiante será recogido o consultar la dirección de un punto de llegada alternativo. Además, menciona que es repetitivo responder diariamente las preguntas de los padres sobre cuánto falta para que llegue su hijo, si la movilidad se encuentra cerca o si el estudiante se encuentra bien, ya que esto puede distraerlo mientras conduce. También considera que, en caso de utilizar una aplicación, esta debería ser fácil y rápida de utilizar para no quitarle tiempo durante la conducción. Entre las funcionalidades que considera útiles se encuentran una lista de alumnos, el orden de recojo y la posibilidad de registrar rápidamente cuándo recoge o entrega a un estudiante. Asimismo, le gustaría que los padres puedan visualizar el estado de la ruta y su ubicación para mantenerse informados sin necesidad de comunicarse constantemente con él.
+**Resumen:** Gabriel cuenta con 2 años de experiencia realizando transporte escolar. Utiliza diariamente su teléfono para trabajar y principalmente usa WhatsApp para comunicarse con las familias y Google Maps para organizar sus rutas. Comenta que uno de los problemas que presenta es tener la información fragmentada en distintos chats, lo que hace poco práctico buscar entre conversaciones para verificar si un estudiante será recogido o consultar la dirección de un punto de llegada alternativo. Además, menciona que es repetitivo responder diariamente las preguntas de los padres sobre cuánto falta para que llegue su hijo, si la movilidad se encuentra cerca o si el estudiante se encuentra bien, ya que esto puede distraerlo mientras conduce. También considera que, en caso de utilizar una aplicación, esta debería ser fácil y rápida de utilizar para no quitarle tiempo durante la conducción. Entre las funcionalidades que considera útiles se encuentran una lista de alumnos, el orden de recojo y la posibilidad de registrar rápidamente cuándo recoge o entrega a un estudiante. Asimismo, le gustaría que los padres puedan visualizar el estado de la ruta y su ubicación para mantenerse informados sin necesidad de comunicarse constantemente con él.
 
 ## Entrevista 5 — Brayan Solorzano Pineda
 
@@ -784,9 +880,9 @@ Para cada entrevista se registrará nombre completo, edad, distrito, segmento, c
 - **Timing de inicio:** 00:00.
 - **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQDViGOQ_7GOQYDKI1MqVAXNAacWQv3o8bRMqBJbKkhsKp8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6tRx0m
 
-<p align="center"><img src="assets/chaper2/brayan-solorzano-interview.png" alt="Captura de la entrevista a Brayan Solorzano Pineda" width="850"/></p>
+<p align="center"><img src="./assets/chapter02/interview-brayan-solorzano.png" alt="Captura de la entrevista a Brayan Solorzano Pineda" width="850"/></p>
 
-**Resumen preliminar:** Brayan cuenta con 5 años de experiencia en el rubro. Comenzó trabajando en transporte personal, pero luego se trasladó al rubro del transporte escolar. Utiliza un grupo de WhatsApp para enviar avisos a los padres; sin embargo, los tutores prefieren escribirle por privado. Además, utiliza WaySide para evitar el tráfico y el calendario de su teléfono para recordar horarios especiales. Ha tenido problemas para recordar cambios en las rutas debido a modificaciones en el recojo de un alumno, especialmente porque varios padres le escriben. Diariamente, los padres también le preguntan si ya se encuentra cerca o si los niños ya llegaron a la escuela, lo cual considera repetitivo. Comenta que durante la conducción no utilizaría una aplicación. Sin embargo, le sería útil contar con un registro del inicio del recorrido, la hora de recojo de cada alumno y la hora de llegada a la escuela. También considera útil registrar cuando un alumno no será recogido. En general, considera que una aplicación debería ayudarlo a organizar los cambios y permitir que los padres puedan seguir la ruta sin necesidad de preguntarle constantemente. No utilizaría una aplicación que lo obligue a realizar muchas acciones manualmente o que tenga un costo muy elevado. Como característica adicional, le gustaría que pudiera utilizarse en zonas donde existe poca señal.
+**Resumen:** Brayan cuenta con 5 años de experiencia en el rubro. Comenzó trabajando en transporte personal, pero luego se trasladó al rubro del transporte escolar. Utiliza un grupo de WhatsApp para enviar avisos a los padres; sin embargo, los tutores prefieren escribirle por privado. Además, utiliza Waze para evitar el tráfico y el calendario de su teléfono para recordar horarios especiales. Ha tenido problemas para recordar cambios en las rutas debido a modificaciones en el recojo de un alumno, especialmente porque varios padres le escriben. Diariamente, los padres también le preguntan si ya se encuentra cerca o si los niños ya llegaron a la escuela, lo cual considera repetitivo. Comenta que durante la conducción no utilizaría una aplicación. Sin embargo, le sería útil contar con un registro del inicio del recorrido, la hora de recojo de cada alumno y la hora de llegada a la escuela. También considera útil registrar cuando un alumno no será recogido. En general, considera que una aplicación debería ayudarlo a organizar los cambios y permitir que los padres puedan seguir la ruta sin necesidad de preguntarle constantemente. No utilizaría una aplicación que lo obligue a realizar muchas acciones manualmente o que tenga un costo muy elevado. Como característica adicional, le gustaría que pudiera utilizarse en zonas donde existe poca señal.
 
 ## Entrevista 6 — Vilma Hoyos Martinez
 
@@ -798,25 +894,124 @@ Para cada entrevista se registrará nombre completo, edad, distrito, segmento, c
 - **Timing de inicio:** 00:06.
 - **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b451_upc_edu_pe/IQAarNiMmGEZT73ZVhSkpNMNAVFqyptTBINEQvTJU6AW7BY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=asjxgo
 
-<p align="center"><img src="assets/chaper2/conductor-3.png" alt="Captura de la entrevista a Vilma Hoyos" width="850"/></p>
+<p align="center"><img src="./assets/chapter02/interview-vilma-hoyos.png" alt="Captura de la entrevista a Vilma Hoyos" width="850"/></p>
 
-**Resumen preliminar:** Vilma cuenta con 25 años de experiencia en el rubro de la movilidad escolar. Empezó llevando a estudiantes del colegio San Toribio, en el Rímac, hace 10 años y actualmente está a cargo de 26 niños en San Miguel, a quienes lleva a los colegios Claretiano y Los Rosales. La señora Vilma cuenta con un ayudante, quien utiliza la aplicación WhatsApp para comunicarse con las familias, coordinar horarios, llamar para avisar que deben bajar, informar si el niño asistirá, si necesita esperar y compartir su ubicación en tiempo real. Ha presentado problemas con la puntualidad de los niños y con la coordinación con los padres respecto a si los niños serán recogidos o no. Comenta que tiene conocimientos casi nulos en tecnología. Los padres le han recomendado utilizar algunas aplicaciones para poder realizar un mejor seguimiento del recorrido de sus hijos, pero menciona que no sabe cómo utilizarlas y, por ese motivo, no las implementa.
+**Resumen:** Vilma cuenta con 25 años de experiencia en el rubro de la movilidad escolar. Empezó llevando a estudiantes del colegio San Toribio, en el Rímac, hace 10 años y actualmente está a cargo de 26 niños en San Miguel, a quienes lleva a los colegios Claretiano y Los Rosales. La señora Vilma cuenta con un ayudante, quien utiliza la aplicación WhatsApp para comunicarse con las familias, coordinar horarios, llamar para avisar que deben bajar, informar si el niño asistirá, si necesita esperar y compartir su ubicación en tiempo real. Ha presentado problemas con la puntualidad de los niños y con la coordinación con los padres respecto a si los niños serán recogidos o no. Comenta que tiene conocimientos casi nulos en tecnología. Los padres le han recomendado utilizar algunas aplicaciones para poder realizar un mejor seguimiento del recorrido de sus hijos, pero menciona que no sabe cómo utilizarlas y, por ese motivo, no las implementa.
 
 
 ### 2.2.3. Análisis de entrevistas
 
-Una vez finalizadas las entrevistas, se compararán las respuestas entre ambos segmentos para identificar patrones, diferencias y necesidades recurrentes. Los porcentajes se completarán únicamente con los resultados reales obtenidos durante el trabajo de campo.
+En esta sección se analizan las respuestas obtenidas en las entrevistas registradas, con el fin de identificar las características objetivas y subjetivas más frecuentes en cada segmento objetivo. Los resultados presentados provienen exclusivamente de las entrevistas documentadas en la sección anterior y constituyen la base para la construcción de los User Personas.
 
-Con las **tres entrevistas de conductores** registradas se cuenta con un primer perfil descriptivo del segmento: las edades son **20, 25 y 56 años**, con un promedio de **33,7 años**; la experiencia declarada en transporte escolar es de **2, 5 y 25 años**, con un promedio de **10,7 años**. El análisis porcentual comparativo entre ambos segmentos se cerrará cuando se completen las **dos entrevistas pendientes de padres/tutores**, sin inventar porcentajes antes de contar con esa evidencia.
+#### Segmento 1: Conductores de movilidad escolar
 
-| Variable de análisis | Padres y tutores | Conductores de movilidad escolar |
-|---|---:|---:|
-| Canal principal de comunicación utilizado actualmente | [ ]% | [ ]% |
-| Necesidad de conocer o comunicar el estado de la ruta | [ ]% | [ ]% |
-| Necesidad de confirmación de recojo y entrega | [ ]% | [ ]% |
-| Experiencia con retrasos o cambios de horario | [ ]% | [ ]% |
-| Interés en notificaciones de eventos relevantes | [ ]% | [ ]% |
-| Preocupación por privacidad y seguridad de la información | [ ]% | [ ]% |
+Se registraron tres entrevistas a conductores de movilidad escolar que operan en Lima Metropolitana.
+
+**Características demográficas y de contexto**
+
+| Variable | Resultado |
+|---|---|
+| Edad de los entrevistados | 20, 25 y 56 años (promedio: 33,7 años) |
+| Distritos de operación | Los Olivos, Pueblo Libre y San Miguel (100 % Lima Metropolitana) |
+| Experiencia en el rubro | 2, 5 y 25 años (promedio: 10,7 años) |
+| Conductores que operan de forma independiente | 100 % |
+| Conductores que cuentan con un ayudante o asistente | 33,3 % |
+
+**Herramientas y canales digitales utilizados**
+
+| Variable | Porcentaje |
+|---|---:|
+| Utiliza WhatsApp como canal principal con las familias | 100 % |
+| Utiliza una aplicación de navegación (Google Maps, Waze) | 66,7 % |
+| Utiliza el calendario del teléfono para horarios especiales | 33,3 % |
+| Declara conocimientos casi nulos en tecnología | 33,3 % |
+| Delega el uso del teléfono en un ayudante durante la ruta | 33,3 % |
+
+**Frustraciones identificadas**
+
+| Variable | Porcentaje |
+|---|---:|
+| Recibe consultas repetitivas de los padres sobre el avance de la ruta | 100 % |
+| Presenta dificultades para coordinar si un estudiante será recogido o no | 100 % |
+| Considera que la información queda fragmentada entre conversaciones | 66,7 % |
+| Indica que responder mensajes lo distrae mientras conduce | 66,7 % |
+| Ha tenido problemas para recordar cambios comunicados por los padres | 33,3 % |
+| Ha tenido problemas de puntualidad con los estudiantes | 33,3 % |
+
+**Necesidades y expectativas sobre una solución digital**
+
+| Variable | Porcentaje |
+|---|---:|
+| Considera útil registrar los hitos de recojo y entrega | 66,7 % |
+| Requiere que la aplicación sea rápida y de pocos pasos | 66,7 % |
+| Desea que los padres puedan seguir la ruta sin contactarlo | 66,7 % |
+| Considera útil contar con la lista de alumnos y el orden de recojo | 33,3 % |
+| Declara que no utilizaría la aplicación mientras conduce | 33,3 % |
+| Menciona el costo como condición para adoptar la herramienta | 33,3 % |
+| Menciona el funcionamiento en zonas con poca señal | 33,3 % |
+| No adopta aplicaciones recomendadas por desconocimiento de su uso | 33,3 % |
+
+#### Segmento 2: Padres y tutores
+
+Se registraron tres entrevistas a padres y tutores de estudiantes que utilizan el servicio de movilidad escolar en Lima Metropolitana y el Callao.
+
+**Características demográficas y de contexto**
+
+| Variable | Resultado |
+|---|---|
+| Edad de los entrevistados | 24, 45 y 47 años (promedio: 38,7 años) |
+| Distritos de residencia | Callao, Cercado de Lima y San Miguel |
+| Edad de los menores que utilizan el servicio | 6, 6, 12 y 14 años (promedio: 9,5 años) |
+| Entrevistados con más de un menor en el servicio | 33,3 % |
+| Frecuencia de uso del servicio | 1, 2 y 5 días a la semana |
+| Entrevistados que utilizan el servicio de forma diaria | 33,3 % |
+
+**Herramientas y canales digitales utilizados**
+
+| Variable | Porcentaje |
+|---|---:|
+| Utiliza WhatsApp como canal principal con el conductor | 100 % |
+| Recibe actualizaciones de estado o ubicación por ese canal | 100 % |
+| Recibe evidencia de llegada mediante fotografías en el grupo de padres | 33,3 % |
+
+**Frustraciones y preocupaciones identificadas**
+
+| Variable | Porcentaje |
+|---|---:|
+| Manifiesta preocupación por la privacidad de la ubicación del menor | 66,7 % |
+| Considera fundamental la confianza en el conductor y su información | 66,7 % |
+| Declara incertidumbre durante el trayecto del menor | 33,3 % |
+| Asocia esa incertidumbre a la inseguridad ciudadana de su distrito | 33,3 % |
+| Ha experimentado retrasos o complicaciones con el servicio | 0 % |
+| Manifiesta estar conforme con la forma actual de coordinación | 33,3 % |
+
+**Necesidades y expectativas sobre una solución digital**
+
+| Variable | Porcentaje |
+|---|---:|
+| Considera prioritaria la ubicación del vehículo en tiempo real | 33,3 % |
+| Valora recibir evidencia de que el menor llegó a su destino | 33,3 % |
+| Menciona funcionalidades de videovigilancia dentro del vehículo | 33,3 % |
+| Condiciona el uso de la herramienta al tratamiento de los datos del menor | 66,7 % |
+| Declara que no modificaría su forma actual de coordinación | 33,3 % |
+
+#### Hallazgos del análisis
+
+**WhatsApp es el canal universal de coordinación.** La totalidad de los entrevistados de ambos segmentos utiliza esta aplicación para coordinar el servicio, lo que confirma el supuesto de que la comunicación ocurre hoy en un canal de uso general no diseñado para este fin.
+
+**Las consultas repetitivas afectan principalmente al conductor.** Los tres conductores señalaron responder diariamente las mismas preguntas sobre la proximidad de la movilidad, y dos de ellos indicaron que esto los distrae mientras conducen. En contraste, ningún padre entrevistado describió esa comunicación como un problema propio. Esto sugiere que la reducción de consultas es un beneficio percibido con mayor claridad por el segmento de conductores, y que la propuesta de valor hacia las familias debe sustentarse en la tranquilidad y la confianza antes que en la eficiencia.
+
+**La privacidad es la principal preocupación de los padres y tutores.** Dos de los tres entrevistados manifestaron que su mayor inquietud es el tratamiento de la ubicación del menor y la información del conductor, y condicionaron su confianza en una herramienta digital a este aspecto. Este hallazgo valida el supuesto de que la adopción dependerá de una adecuada gestión de permisos y visibilidad, y otorga prioridad a las historias de autorización de tutores y control de acceso.
+
+**La expectativa de ubicación en tiempo real es menor a la anticipada.** Solo uno de los tres padres entrevistados mencionó la ubicación en tiempo real como la funcionalidad más valiosa, mientras que dos expresaron reparos precisamente sobre ese tipo de información. Esto respalda la decisión de diseño de Rumbo de mostrar estados e hitos confirmados en lugar de una secuencia continua de coordenadas, y de mantener el seguimiento de ubicación fuera del alcance inicial.
+
+**La coordinación de ausencias es un problema no anticipado en su magnitud.** Los tres conductores mencionaron dificultades para saber si un estudiante será recogido, ya sea por mensajes dispersos, cambios de último momento o falta de aviso. Este hallazgo otorga mayor prioridad a la historia de reporte de ausencias de la que se le había asignado inicialmente en el Product Backlog.
+
+**La evidencia de llegada tiene valor para las familias.** Un entrevistado destacó que recibir fotografías de la llegada le genera tranquilidad, lo que sugiere que la confirmación de hitos cumple una función equivalente sin exponer la ubicación continua del menor ni su imagen.
+
+**La alfabetización digital es una barrera real de adopción.** La conductora con mayor experiencia en el rubro declaró conocimientos casi nulos en tecnología y delega el uso del teléfono en un ayudante, pese a que los padres le han recomendado aplicaciones de seguimiento. Este hallazgo refuerza la necesidad de una interfaz de pocos pasos e introduce la figura del ayudante como un usuario no previsto en los segmentos objetivo.
+
+**La satisfacción con el servicio actual puede reducir la urgencia percibida.** Ningún padre entrevistado reportó haber experimentado retrasos o complicaciones, y uno manifestó no modificaría su forma actual de coordinación. Rumbo debe, por tanto, presentarse como un complemento que aporta tranquilidad y orden, y no como la corrección de un problema que las familias perciban como crítico.
 
 ## 2.3. Needfinding
 
@@ -834,13 +1029,22 @@ En esta sección se presentan las User Personas correspondientes a los dos segme
 
 ### 2.3.2. User Task Matrix
 
-| Tarea | Padre/Tutor — Frecuencia | Padre/Tutor — Importancia | Conductor — Frecuencia | Conductor — Importancia |
-|---|---|---|---|---|
-| Confirmar que el menor fue recogido | [ ] | [ ] | [ ] | [ ] |
-| Consultar o comunicar un retraso | [ ] | [ ] | [ ] | [ ] |
-| Confirmar una entrega | [ ] | [ ] | [ ] | [ ] |
-| Comunicar una incidencia | [ ] | [ ] | [ ] | [ ] |
-| Revisar lo ocurrido durante la ruta | [ ] | [ ] | [ ] | [ ] |
+La User Task Matrix resume las tareas que realizan los dos segmentos objetivo en su rutina de movilidad escolar, independientemente de que exista Rumbo. Para mantener coherencia con los User Personas, se consideran **Gabriela Morales (Padre/Tutor)** y **Carlos Rivas (Conductor)**.
+
+| Tarea del usuario | Padre/Tutor — Frecuencia | Padre/Tutor — Importancia | Conductor — Frecuencia | Conductor — Importancia |
+|---|:---:|:---:|:---:|:---:|
+| Preparar al estudiante antes del recojo | Diaria | Alta | No aplica | No aplica |
+| Confirmar si el estudiante utilizará la movilidad | Diaria | Alta | Diaria | Alta |
+| Esperar / llegar al punto de recojo acordado | Diaria | Alta | Diaria | Alta |
+| Organizar el orden de paradas del recorrido | No aplica | No aplica | Diaria | Alta |
+| Confirmar que el estudiante fue recogido | Diaria | Alta | Diaria | Alta |
+| Consultar o comunicar el avance del traslado | Diaria | Alta | Diaria | Alta |
+| Comunicar un retraso | Ocasional | Alta | Ocasional | Alta |
+| Comunicar una incidencia | Ocasional | Alta | Ocasional | Alta |
+| Confirmar la llegada o entrega del estudiante | Diaria | Alta | Diaria | Alta |
+| Coordinar el retorno del estudiante | Diaria | Media | Diaria | Media |
+
+Las tareas de **confirmar asistencia, recojo y entrega** son recurrentes y de alta importancia para ambos segmentos. La diferencia principal está en que el padre/tutor necesita mantenerse informado, mientras que el conductor debe organizar el recorrido y comunicar cambios sin distraerse durante la conducción. Esta matriz respalda la prioridad dada a los estados del traslado, hitos, retrasos, incidencias y reporte de ausencias dentro del Product Backlog.
 
 ### 2.3.3. User Journey Mapping
 
@@ -850,7 +1054,7 @@ Se presentan las versiones **As-Is**, que permiten analizar cómo se desarrolla 
 
 ## Segmento — Padres y tutores
 
-El journey de los padres de familia durante las mañanas inicia con la preparación en casa, donde alistan al menor con una sensación inicial de serenidad, aunque experimentan la falta de visibilidad sobre el inicio de la ruta. Al pasar a la espera en la acera, se vive un estado de vigilancia mientras aguardan a la intemperie la llegada de la movilidad, lo que da paso a la etapa de retraso e incertidumbre: al cumplirse más de quince minutos de demora sin respuesta del conductor debido a que va manejando, la ansiedad y el miedo a llegar tarde se apoderan del tutor. Posteriormente, durante el abordaje y despacho, la subida se realiza de forma apresurada y sin la certeza de las medidas de seguridad, generando temor. Finalmente, en el trayecto y llegada, los padres experimentan angustia e incertidumbre total hasta recibir la confirmación de que el menor ha ingresado sin novedades al colegio.
+El journey del segmento Padre/Tutor inicia con la preparación del menor y la coordinación del servicio mediante WhatsApp. Durante la espera y el traslado, la principal necesidad es contar con información suficiente para confirmar el avance y la llegada sin depender de consultas constantes al conductor. Las entrevistas de Aplicaciones Web también muestran que la **privacidad de la ubicación del menor** y la **confianza en el conductor** son factores determinantes para adoptar una herramienta digital. Por ello, las oportunidades de mejora se concentran en ofrecer confirmaciones claras del traslado, información visible únicamente para usuarios autorizados y una experiencia que complemente —en lugar de complicar— la coordinación actual.
 
 <img width="1556" height="1086" alt="USER JOURNEY MAP - PADRE_TUTOR" src="https://github.com/user-attachments/assets/4bb04243-7f62-427a-80b3-590b55748984" />
 
@@ -858,7 +1062,7 @@ El journey de los padres de familia durante las mañanas inicia con la preparaci
 
 El recorrido diario del conductor inicia antes del viaje con una etapa neutral donde revisa chats de WhatsApp para corroborar asistencias de forma tediosa y repetitiva. Al pasar al durante el viaje de ida, la experiencia desciende hacia la molestia (annoyance) debido a lo estresante y peligroso que resulta manejar mientras responde mensajes constantes y llamadas sobre demoras. Posteriormente, en el después del viaje y la previa antes del viaje de retorno, el conductor se informa de cambios mediante chats fragmentados con una actitud serena y de anticipación. Al encontrarse en el colegio para la recogida, la experiencia se mantiene en un estado de vigilancia y neutralidad mientras cuenta y verifica la asistencia de los menores lidiando con llamadas de última hora. En el durante el viaje de regreso, vuelve a experimentar momentos neutrales al repartir a los estudiantes mientras responde chats y busca información de emergencia. Finalmente, la jornada concluye en el después del viaje de vuelta a casa con una sensación de serenidad al comunicarse individualmente con los padres para confirmar que los niños llegaron a sus domicilios.
 
-<img width="1556" height="1086" alt="USER JOURNEY MAP - CONDUCTOR" src="/assets/chaper2/user-journey-map-conductor.png" />
+<img width="1556" height="1086" alt="USER JOURNEY MAP - CONDUCTOR" src="./assets/chapter02/user-journey-map-conductor.png" />
 
 ### 2.3.4. Empathy Mapping
 
@@ -870,15 +1074,53 @@ En esta sección se presentan los **Empathy Maps** elaborados para cada uno de l
 
 ## Segmento — Conductores
 
-<img width="1050" height="1318" alt="CARLOS RIVAS EMPATHY MAP" src="/assets/chaper2/user-empathy-map-conductor.png" />
+<img width="1050" height="1318" alt="CARLOS RIVAS EMPATHY MAP" src="./assets/chapter02/user-empathy-map-conductor.png" />
 
 ## 2.4. Big Picture Event Storming
 
-El Big Picture EventStorming elaborado por el equipo permite construir una visión general del dominio del transporte escolar antes de definir la solución. Mediante una sesión colaborativa se organizan los eventos relevantes del negocio, actores, sistemas externos, puntos de decisión y posibles problemas u oportunidades del proceso.
+El equipo realizó una sesión colaborativa de **Big Picture Event Storming** para comprender de manera integral el dominio de **Rumbo**. Aunque las entrevistas y los hallazgos de Needfinding de este curso corresponden específicamente al proyecto de **Aplicaciones Web**, el dominio del negocio es el mismo: la coordinación, planificación, ejecución y comunicación del servicio de movilidad escolar. Por ello, se reutiliza y adapta el artefacto consolidado del dominio, manteniéndolo independiente de las decisiones tecnológicas de implementación.
 
-<img width="1050" alt="Event Storming" src="/assets/chaper2/eventstorming.png" />
+El objetivo de esta actividad es identificar los eventos significativos del negocio, ordenar sus relaciones, reconocer reglas, riesgos y oportunidades, y obtener una primera delimitación de responsabilidades que posteriormente será refinada mediante Domain-Driven Design en el Capítulo IV.
 
-**Artefacto:** [Enlace Miro](https://miro.com/app/board/uXjVIveDKA8=/?share_link_id=909349762479)
+### Resumen del proceso realizado
+
+**1. Exploración del dominio.**  
+Se recorrió el servicio de extremo a extremo considerando las principales actividades de padres/tutores y conductores: registro y configuración inicial, administración de estudiantes y vehículos, planificación de rutas, programación y ejecución de viajes, confirmación de recojos y entregas, reporte de ausencias, gestión de retrasos e incidencias y comunicación de eventos relevantes.
+
+**2. Identificación de Domain Events.**  
+El equipo registró hechos significativos del negocio en tiempo pasado, entre ellos *Account Registered*, *Student Registered*, *Vehicle Registered*, *Route Published*, *Trip Scheduled*, *Trip Started*, *Student Picked Up*, *Delay Reported*, *Incident Registered*, *Student Dropped Off*, *Notification Sent* y *Subscription Activated*. Estos eventos permiten representar cambios relevantes del dominio sin depender de pantallas, frameworks o detalles técnicos.
+
+**3. Ordenamiento y relación de eventos.**  
+Los eventos se organizaron de acuerdo con el flujo del negocio. Una cuenta habilita la gestión del perfil; los vehículos y credenciales permiten configurar el servicio; las rutas y asignaciones originan viajes programados; durante la ejecución se producen recojos, entregas, retrasos o incidencias; y estos eventos pueden generar notificaciones para usuarios autorizados.
+
+**4. Identificación de reglas, vistas y hotspots.**  
+Durante el análisis se identificaron reglas como validar la capacidad del vehículo, considerar ausencias reportadas antes del recojo y limitar la información del menor a tutores autorizados. También se reconocieron riesgos como credenciales inválidas, direcciones no localizables, cambios de último momento, pérdida de conectividad, distracciones durante la conducción, destinatarios incorrectos y fallos en procesos externos. Las vistas de consulta representan información necesaria para conocer el estado del dominio, como *Current Trip Status*, *Trip Timeline* y *Notification Inbox*.
+
+**5. Delimitación preliminar de Bounded Contexts.**  
+Como resultado del Big Picture se reconocen ocho áreas de responsabilidad preliminares. Esta delimitación sirve como insumo para el **Design-Level EventStorming** del Capítulo IV; no significa que todos los contextos deban implementarse en el mismo Sprint o entrega.
+
+| Bounded Context | Responsabilidad principal |
+|---|---|
+| **Identity & Access Management** | Gestionar cuentas, autenticación, verificación de correo y recuperación de acceso. |
+| **Profiles & Relationship Management** | Gestionar estudiantes, tutores y relaciones de autorización. |
+| **Vehicle & Credential Management** | Gestionar vehículos, credenciales y su estado de verificación. |
+| **Route & Trip Planning** | Gestionar rutas, paradas, horarios, asignaciones, ausencias y programación de viajes. |
+| **Trip Execution & Monitoring** | Registrar el inicio y desarrollo del viaje, recojos, entregas, estado y línea de tiempo. |
+| **Incident & Delay Management** | Gestionar retrasos, incidencias, actualizaciones y resolución. |
+| **Notification Management** | Gestionar generación, envío, lectura y preferencias de notificación. |
+| **Subscriptions & Billing** | Representar planes, suscripciones, pagos y comprobantes previstos para la evolución comercial del producto. |
+
+### Captura consolidada y resultado
+
+La siguiente captura presenta el **Big Picture Event Storming consolidado de Rumbo**, utilizado como referencia común del dominio para el proyecto de Aplicaciones Web.
+
+<div align="center">
+  <img src="./assets/chapter02/big-picture-event-storming.jpg" alt="Rumbo Big Picture Event Storming consolidado" width="95%">
+</div>
+
+**Artefacto colaborativo:** [Miro - Rumbo Big Picture Event Storming](https://miro.com/app/board/uXjVHr48KA8=/?share_link_id=942564800097)
+
+El Big Picture evidencia que el núcleo operativo de Rumbo se concentra en la planificación y ejecución del traslado escolar, mientras que identidad, perfiles, vehículos, incidencias, notificaciones y suscripciones aportan capacidades de soporte. Esta vista de alto nivel será refinada posteriormente en **4.6.1 Design-Level EventStorming**, donde se profundizará en Bounded Contexts, Aggregates, Commands, Events y Queries.
 
 ## 2.5. Ubiquitous Language
 
@@ -948,6 +1190,8 @@ El glosario se mantiene centrado únicamente en términos del dominio del transp
 | Término | Definición en el dominio de Rumbo |
 |---|---|
 | **Subscription** (Suscripción) | Plan contratado por un conductor que le habilita el uso de Rumbo durante un periodo determinado. |
+
+---
 
 # Capítulo III: Requirements Specification
 
