@@ -1422,6 +1422,17 @@ En Desktop se aprovecha el espacio horizontal para agrupar información relacion
 
 El layout evita anchos rígidos que provoquen desplazamiento horizontal. Los márgenes y separaciones emplean la escala de spacing definida en la sección anterior.
 
+**Breakpoints**
+
+| Rango | Dispositivo objetivo | Comportamiento del layout |
+|---|---|---|
+| < 640 px | Móvil | Columna única. Navegación colapsada en menú. Tarjetas a ancho completo. Márgenes laterales de 16 px. |
+| 640 – 1023 px | Tablet | Dos columnas en secciones de beneficios y listados. Navegación visible. |
+| 1024 – 1439 px | Escritorio | Distribución horizontal completa. Dashboard con panel lateral fijo. |
+| ≥ 1440 px | Escritorio amplio | Contenido centrado con ancho máximo para conservar la longitud de línea legible. |
+
+Los valores se eligieron para coincidir con los breakpoints por defecto de PrimeVue, de modo que la implementación no requiera redefinir el sistema de rejilla.
+
 #### Visual Hierarchy
 
 La jerarquía se establece mediante tamaño tipográfico, peso, contraste y espaciado. Los títulos principales utilizan **Outfit**, mientras que contenidos funcionales y de lectura continua utilizan **Roboto**. Las acciones principales se diferencian mediante el verde **#3EA98A**, y el texto se mantiene principalmente sobre superficies claras para preservar legibilidad.
