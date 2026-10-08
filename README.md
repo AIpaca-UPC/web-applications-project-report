@@ -48,6 +48,7 @@
 | 0.4 | 08/10/2026 | Equipo Rumbo | Consolidación del Capítulo II para Aplicaciones Web: análisis competitivo, entrevistas, Needfinding, Big Picture EventStorming y Ubiquitous Language. |
 | 0.5 | 08/10/2026 | Equipo Rumbo | Consolidación de los Capítulos I y II en la rama de Requirements Specification, conservando los capítulos posteriores para revisión. |
 | 0.6 | 08/10/2026 | Equipo Rumbo | Actualización del Capítulo III: Impact Mapping adaptado, incorporación de US36–US38 y repriorización del Product Backlog por valor de negocio. |
+| 0.7 | 08/10/2026 | Equipo Rumbo | Actualización de evidencia del Product Backlog, corrección de Story Points del Landing Page y restauración del esqueleto de capítulos posteriores. |
 
 ---
 
@@ -1285,11 +1286,11 @@ Para las nuevas historias se propone una estimación inicial por complejidad rel
 
 | # Orden | User Story Id | Título | Descripción | Story Points |
 |---:|---|---|---|:---:|
-| 1 | US31 | Conocer la propuesta de valor de Rumbo | Como visitante, deseo comprender qué es Rumbo y qué problema resuelve para decidir si me resulta relevante. | 3 |
-| 2 | US32 | Identificar los beneficios de mi segmento e ingresar a Rumbo | Como visitante, deseo conocer los beneficios correspondientes a mi perfil e ingresar a la experiencia que me corresponde. | 3 |
-| 3 | US33 | Consultar el contenido en inglés o español | Como visitante, deseo consultar el contenido en un idioma disponible para comprenderlo con facilidad. | 3 |
-| 4 | US34 | Consultar los documentos legales del servicio | Como visitante, deseo conocer los términos de servicio y la política de privacidad para entender cómo se trata la información. | 2 |
-| 5 | US35 | Resolver dudas antes de usar Rumbo | Como visitante, deseo resolver mis dudas o comunicarme con el equipo para decidir si utilizo el servicio. | 3 |
+| 1 | US31 | Conocer la propuesta de valor de Rumbo | Como visitante, deseo comprender qué es Rumbo y qué problema resuelve para decidir si me resulta relevante. | 2 |
+| 2 | US32 | Identificar los beneficios de mi segmento e ingresar a Rumbo | Como visitante, deseo conocer los beneficios correspondientes a mi perfil e ingresar a la experiencia que me corresponde. | 2 |
+| 3 | US33 | Consultar el contenido en inglés o español | Como visitante, deseo consultar el contenido en un idioma disponible para comprenderlo con facilidad. | 1 |
+| 4 | US34 | Consultar los documentos legales del servicio | Como visitante, deseo conocer los términos de servicio y la política de privacidad para entender cómo se trata la información. | 1 |
+| 5 | US35 | Resolver dudas antes de usar Rumbo | Como visitante, deseo resolver mis dudas o comunicarme con el equipo para decidir si utilizo el servicio. | 2 |
 | 6 | US02 | Registrar vehículo y credenciales del servicio | Como conductor, deseo registrar mi vehículo y las credenciales que acreditan mi servicio para que las familias conozcan la información declarada de mi movilidad. | 5 |
 | 7 | US36 | Consultar la información declarada del conductor | Como padre o tutor, deseo consultar la información declarada del conductor y del vehículo para confiar en el servicio que traslada a mi hijo. | 3 |
 | 8 | US06 | Registrar estudiante y vincularse como tutor | Como padre o tutor, deseo registrar a mi hijo y quedar vinculado como su tutor para poder consultar la información de sus traslados. | 5 |
@@ -1332,625 +1333,127 @@ Para las nuevas historias se propone una estimación inicial por complejidad rel
 | 45 | TS07 | Internacionalización del RESTful API | Como Developer, deseo localizar los mensajes del API para en_US y es_419 manteniendo el inglés como idioma predeterminado. | 3 |
 | 46 | TS08 | Persistencia consistente del estado y eventos del viaje | Como Developer, deseo persistir el estado del viaje y sus eventos de forma consistente para evitar información parcial durante las operaciones del RESTful API. | 5 |
 
+El Product Backlog fue actualizado en Trello con la priorización vigente, incluyendo **US36, US37 y US38** y conservando las Technical Stories al final del backlog.
+
+<div align="center">
+  <img src="./assets/chapter03/product-backlog-webs.png" alt="Product Backlog actualizado de Rumbo para Aplicaciones Web" width="100%">
+</div>
+
+**Figura.** Product Backlog actualizado de Rumbo organizado por Epics y prioridad global.  
 **Product Backlog URL:** https://trello.com/b/dd4dejIV/product-backlog
-
-La captura existente del Product Backlog corresponde a una versión anterior de la priorización. Antes de la entrega debe actualizarse el tablero de Trello con las **46 entradas vigentes** y volver a registrar la captura en esta sección.
-
-<!-- PENDIENTE: actualizar assets/chapter03/product-backlog.png después de reflejar US36-US38 y el nuevo orden en Trello. -->
 
 # Capítulo IV: Product Design
 
-El diseño de Rumbo mantiene los artefactos funcionales y de dominio ya definidos para el producto, pero adapta las decisiones de interfaz y arquitectura a las tecnologías exigidas por el curso de Aplicaciones Web. La Frontend Web Application se diseña para ser implementada con Vue 3 y JavaScript, utilizando PrimeVue como biblioteca de componentes y Material Design como lenguaje visual. El backend se proyecta como un RESTful API con ASP.NET Core, C# y Entity Framework Core.
-
 ## 4.1. Style Guidelines
-
-Las Style Guidelines establecen una base visual común para Landing Page y Frontend Web Application. Los diseños de Figma deben poder implementarse sin redefinir por completo los componentes del framework seleccionado.
 
 ### 4.1.1. General Style Guidelines
 
-#### Branding
-
-Rumbo busca transmitir tranquilidad, claridad y control durante el transporte escolar. La identidad evita un tono alarmista y prioriza una lectura rápida de estados, hitos e incidencias.
-
-#### Color Palette
-
-| Token | Valor | Uso |
-|---|---|---|
-| Primary | #3EA98A | Acciones principales, estados positivos y énfasis |
-| Primary Dark | #12403D | Encabezados, navegación y contraste |
-| Secondary | #F3D9A4 | Énfasis secundario y superficies de apoyo |
-| Surface | #FBFAF6 | Fondo principal |
-| Surface Alt | #F5F4EA | Secciones alternas |
-| Text | #0F172A | Texto principal |
-
-Los colores se implementarán como design tokens o variables CSS para que puedan reutilizarse en la Landing Page y en la configuración de tema de PrimeVue.
-
-#### Typography
-
-Rumbo utiliza **Outfit** para títulos y mensajes de alto impacto y **Roboto** para contenido funcional, formularios, navegación y lectura continua. En la implementación se definirán fallbacks web-safe y se evitarán tamaños que comprometan la legibilidad en dispositivos móviles.
-
-#### Spacing and Shapes
-
-Se adopta una escala de espaciado basada en múltiplos de 4 px y bordes redondeados consistentes. Las superficies, tarjetas, diálogos y controles deben conservar proporciones compatibles con componentes de PrimeVue y patrones de Material Design.
-
-#### Tone of Voice
-
-| Dimensión | Posicionamiento |
-|---|---|
-| Divertido – Serio | Serio con cercanía |
-| Formal – Casual | Moderadamente casual |
-| Respetuoso – Irreverente | Respetuoso |
-| Entusiasta – Sereno | Sereno y positivo |
-
 ### 4.1.2. Web Style Guidelines
-
-La experiencia se diseña bajo Responsive Web Design y debe ser implementable directamente con **Vue 3 + PrimeVue**, manteniendo **Material Design** como referencia visual. Los mock-ups no deben depender de controles personalizados que no tengan un equivalente razonable en la biblioteca seleccionada.
-
-| Necesidad de interfaz | Componente PrimeVue compatible |
-|---|---|
-| Acciones primarias y secundarias | Button |
-| Agrupación de información | Card / Panel |
-| Navegación superior o lateral | Menubar / Drawer |
-| Campos de texto y contraseña | InputText / Password |
-| Selección de opciones | Select |
-| Confirmaciones modales | Dialog / ConfirmDialog |
-| Mensajes de estado | Toast / Message |
-| Listados tabulares | DataTable |
-| Hitos de viaje | Timeline |
-| Paginación | Paginator |
-| Carga / estado de proceso | ProgressSpinner / ProgressBar |
-
-Las vistas diseñadas en Figma deberán respetar los estados visuales Default, Hover, Focus, Active, Disabled, Loading y Error cuando correspondan. La personalización de PrimeVue se realizará mediante tokens, variables CSS y configuración de tema; no se modificará la semántica de interacción de los componentes únicamente para replicar una apariencia.
-
-#### Responsive Layout
-
-En Desktop se aprovechará la distribución horizontal para dashboards, listas y paneles. En Mobile los componentes se reorganizarán verticalmente, manteniendo targets táctiles adecuados y evitando pérdida de información funcional.
-
-#### Accessibility
-
-Se utilizará HTML semántico, navegación por teclado, focus visible, texto alternativo y atributos ARIA cuando la semántica nativa no sea suficiente. Los componentes PrimeVue seleccionados deberán conservar sus capacidades de accesibilidad y no se eliminarán roles o atributos necesarios durante la personalización.
-
-#### Internationalization
-
-La Landing Page, Frontend Web Application y RESTful API contemplarán **en_US** y **es_419**. El idioma predeterminado será inglés. En Vue, los textos no deberán quedar hardcoded en los componentes cuando deban ser localizables.
 
 ## 4.2. Information Architecture
 
-La arquitectura de información diferencia las necesidades de visitantes, padres/tutores y conductores. La Landing Page prioriza comprensión y conversión; la Web Application prioriza tareas operativas y consulta del estado del viaje.
-
 ### 4.2.1. Organization Systems
-
-| Producto / contenido | Sistema | Aplicación |
-|---|---|---|
-| Landing Page | Jerárquico | Propuesta de valor, beneficios, funcionamiento, funcionalidades y CTA |
-| How it works | Secuencial | Recojo, ruta en curso, retraso/incidencia y llegada |
-| Parent/Tutor Dashboard | Jerárquico | Estado actual primero; luego estudiante, viaje, conductor y eventos |
-| Trip Timeline | Cronológico | Hitos ordenados por fecha y hora |
-| Driver Assigned Route | Orientado a tareas | Próxima parada, estudiantes y acciones operativas |
-| Notifications | Cronológico | Avisos ordenados por momento de generación |
 
 ### 4.2.2. Labeling Systems
 
-Las etiquetas serán breves, consistentes y principalmente en inglés por ser el idioma predeterminado.
-
-| English | Spanish | Uso |
-|---|---|---|
-| Dashboard | Panel principal | Vista principal del tutor |
-| Current Trip | Viaje actual | Estado del viaje activo |
-| Timeline | Línea de tiempo | Historial cronológico |
-| Assigned Route | Ruta asignada | Vista operativa del conductor |
-| Students | Estudiantes | Lista de estudiantes |
-| Confirm Pickup | Confirmar recojo | Registro de recojo |
-| Confirm Drop-off | Confirmar entrega | Registro de entrega |
-| Report Delay | Reportar retraso | Registro de demora |
-| Report Incident | Reportar incidencia | Registro de incidencia |
-| Notifications | Notificaciones | Avisos relevantes |
-
 ### 4.2.3. SEO Tags and Meta Tags
-
-| Página | Title | Description | Keywords | Author |
-|---|---|---|---|---|
-| Landing Page | Rumbo | School transport coordination for families and drivers. | school transport, routes, parents, drivers | AIpaca UPC |
-| Sign In | Sign In - Rumbo | Access the Rumbo web application. | Rumbo, sign in, school transport | AIpaca UPC |
-| Parent Dashboard | Parent Dashboard - Rumbo | View current trip status and route events. | trip status, timeline, parent | AIpaca UPC |
-| Driver Route | Assigned Route - Rumbo | Manage the assigned route and trip events. | driver, route, students | AIpaca UPC |
-
-También se incluirán charset, viewport y metadatos Open Graph cuando correspondan.
 
 ### 4.2.4. Searching Systems
 
-El Landing Page no requiere búsqueda interna. En la Web Application se consideran búsquedas y filtros cuando el volumen de información lo justifique:
-
-- historial de viajes por fecha y estado;
-- estudiantes por nombre o ruta;
-- incidencias por tipo, estado y fecha;
-- notificaciones por tipo o estado de lectura.
-
-Los resultados deberán presentar estados vacíos, loading y errores mediante componentes compatibles con PrimeVue.
-
 ### 4.2.5. Navigation Systems
-
-La Landing Page utilizará navegación global mediante un menú superior y enlaces ancla. La Web Application separará la navegación por rol.
-
-**Parent/Tutor:** Sign In → Dashboard → Current Trip → Trip Detail → Timeline / Notifications.
-
-**Driver:** Sign In → Assigned Route → Students → Confirm Pickup / Confirm Drop-off / Report Delay / Report Incident.
-
-En Mobile la navegación deberá poder representarse con Drawer u otro patrón equivalente de PrimeVue sin alterar la jerarquía definida.
 
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
 
-Los wireframes Desktop y Mobile deben reflejar la jerarquía definida en Information Architecture y reservar componentes que luego puedan implementarse con HTML5, CSS3 y JavaScript sin depender de Vue.
-
-**Figma:** [Insertar URL]  
-**Desktop:** [Insertar captura]  
-**Mobile:** [Insertar captura]
-
 ### 4.3.2. Landing Page Mock-up
-
-Los mock-ups aplicarán la paleta, tipografías, Material Design y los patrones de responsive definidos. El CTA de cada segmento deberá dirigir posteriormente a la vista correspondiente de la Frontend Web Application.
-
-**Figma:** [Insertar URL]  
-**Desktop:** [Insertar captura]  
-**Mobile:** [Insertar captura]
 
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
 
-Los wireframes se mantienen centrados en las tareas del usuario y se diseñan pensando en su implementación con Vue y PrimeVue.
-
-| Rol | Vista | Objetivo | Componentes PrimeVue previstos |
-|---|---|---|---|
-| Parent/Tutor | Sign In | Acceder a la cuenta | InputText, Password, Button, Message |
-| Parent/Tutor | Dashboard | Consultar estado actual | Card, Tag, Button |
-| Parent/Tutor | Trip Detail | Revisar el viaje activo | Card, Timeline, Tag |
-| Parent/Tutor | Notifications | Consultar avisos | DataView/List, Tag, Button |
-| Driver | Assigned Route | Revisar ruta activa | Card, DataTable/DataView, Button |
-| Driver | Student List | Consultar estudiantes | DataTable, Tag, Button |
-| Driver | Register Event | Confirmar recojo/entrega | Dialog, Button, Toast |
-| Driver | Report Incident | Registrar incidencia | Select, InputText/Textarea, Button, Toast |
-
-**Figma:** [Insertar URL y capturas]
-
 ### 4.4.2. Web Applications Wireflow Diagrams
-
-Debe elaborarse un Wireflow por User Goal. Como base se mantienen los siguientes recorridos:
-
-- Padre/Tutor: Sign In → Dashboard → Trip Detail → Timeline / Notifications.
-- Conductor: Sign In → Assigned Route → Student List → Register Event.
-- Conductor: Assigned Route → Report Delay / Report Incident → Confirmation → Assigned Route.
-
-Cada flujo deberá mostrar el cambio de estado de la pantalla después de la interacción y mantener correspondencia con los wireframes de Figma.
-
-**Artefactos:** [Insertar Wireflows y URL]
 
 ### 4.4.3. Web Applications Mock-ups
 
-Los mock-ups deben representar componentes que puedan implementarse mediante PrimeVue y Material Design. Se evitará diseñar variantes visuales que obliguen a reemplazar controles accesibles de la biblioteca por elementos completamente custom.
-
-**Figma:** [Insertar URL y capturas]
-
 ### 4.4.4. Web Applications User Flow Diagrams
-
-Se elaborará un User Flow por User Goal, incluyendo happy path y unhappy paths. Los flujos deberán contemplar validaciones, estados vacíos, errores de API, permisos insuficientes y confirmaciones de acción.
-
-**Artefactos:** [Insertar User Flow Diagrams y URL]
 
 ## 4.5. Web Applications Prototyping
 
-El prototipo de Figma deberá cubrir Desktop y Mobile Web Browser y mantener los mismos recorridos definidos en los User Flow Diagrams. La navegación simulada deberá ser compatible con la estructura que posteriormente se implementará en Vue.
-
-**Prototype URL:** [Insertar URL de Figma]  
-**Video de navegación:** [Insertar Microsoft Stream URL]
-
 ## 4.6. Domain-Driven Software Architecture
 
-La organización del dominio se mantiene independiente del framework. La adaptación a Aplicaciones Web afecta principalmente a la implementación de los containers y components.
-
-### 4.6.1. Design-Level Event Storming
-
-Se mantienen seis Bounded Contexts para separar responsabilidades:
-
-| Bounded Context | Responsabilidad |
-|---|---|
-| Profiles and Verification | Perfiles, estudiantes, vehículos, documentación y vínculos autorizados |
-| Identity and Access Management | Cuentas, autenticación, recuperación y roles |
-| Route and Trip Planning | Rutas, paradas, asignaciones y programación |
-| Real-Time Tracking and Execution | Viajes, estados, recojos, entregas y timeline |
-| Alerting and Incident Management | Retrasos, incidencias, alertas y notificaciones |
-| Subscriptions and Billing | Planes, suscripciones, pagos y comprobantes |
-
-**Artefacto:** [Insertar captura y URL de FigJam / LucidChart / Miro]
+### 4.6.1. Design-Level EventStorming
 
 ### 4.6.2. Software Architecture Context Diagram
 
-El contexto mantiene a Rumbo como sistema central y a Parent/Tutor y Driver como usuarios principales. Las integraciones externas se incorporarán solo cuando exista una decisión real de implementación.
-
-**Structurizr / Diagram-as-Code:** [Insertar URL y captura]
-
 ### 4.6.3. Software Architecture Container Diagrams
 
-| Container | Tecnología objetivo | Responsabilidad |
-|---|---|---|
-| Landing Page | HTML5, CSS3, JavaScript | Presentar el modelo de negocio y dirigir a la Web Application |
-| Frontend Web Application | Vue 3, JavaScript, PrimeVue, Material Design | Interfaz responsive por rol y consumo del RESTful API |
-| RESTful Web Service | ASP.NET Core, C# | Exponer recursos, reglas de aplicación, seguridad e integración |
-| Persistence | Entity Framework Core + Relational DBMS | Mapeo y persistencia relacional |
-| Relational Database | MySQL Server o PostgreSQL | Persistencia de datos del dominio |
-
-La comunicación entre la Frontend Web Application y el Web Service se realizará mediante HTTP/HTTPS y JSON. El frontend no accederá directamente a la base de datos.
-
-**Structurizr / Diagram-as-Code:** [Insertar URL y captura]
-
 ### 4.6.4. Software Architecture Components Diagrams
-
-Para la **Frontend Web Application**, el Component Diagram deberá reflejar al menos:
-
-- Vue Views / Pages;
-- reusable Vue Components basados en PrimeVue;
-- routing and route guards;
-- API client / services;
-- internationalization resources;
-- authentication/session handling.
-
-Para el **RESTful Web Service**, el Component Diagram deberá reflejar al menos:
-
-- ASP.NET Core Controllers / Endpoints;
-- Application Services;
-- Domain Model / Aggregates;
-- authorization and authentication;
-- EF Core DbContext and repositories;
-- OpenAPI/Swagger;
-- adapters para servicios externos cuando existan.
-
-**Artefactos:** [Insertar Component Diagrams]
 
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
 
-Los Class Diagrams deben mantenerse por Bounded Context y describir clases, interfaces, enumeraciones, atributos, métodos, visibilidad, relaciones y multiplicidades. La estructura de dominio no depende de Vue; su implementación de lado servidor se mapeará a clases e interfaces en C#.
-
-| Bounded Context | Clases principales de referencia |
-|---|---|
-| Profiles and Verification | Parent, Driver, Student, Vehicle, Document, StudentDriverLink |
-| Identity and Access Management | UserAccount, Role, Permission, RecoveryToken |
-| Route and Trip Planning | Route, Stop, RouteStudent, TripSchedule, Absence |
-| Real-Time Tracking and Execution | Trip, TripStudent, TripEvent, Pickup, DropOff, LocationRecord |
-| Alerting and Incident Management | Delay, Incident, Notification, NotificationPreference |
-| Subscriptions and Billing | Plan, Subscription, Payment, Receipt |
-
-**UML:** [Insertar capturas y URLs]
-
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
-
-El diseño de persistencia seguirá los mismos Bounded Contexts. Para el curso se utilizará un DBMS relacional permitido —MySQL Server o PostgreSQL— y Entity Framework Core para el mapeo objeto-relacional.
-
-Cada diagrama deberá incluir tablas, columnas, primary keys, foreign keys, constraints y cardinalidades. Los nombres físicos se definirán en inglés y deberán mantener correspondencia con el modelo de dominio.
-
-| Bounded Context | Persistencia esperada |
-|---|---|
-| Profiles and Verification | users/profiles, students, drivers, vehicles, documents, links |
-| Identity and Access Management | accounts, roles, permissions, refresh/recovery data |
-| Route and Trip Planning | routes, stops, assignments, schedules, absences |
-| Real-Time Tracking and Execution | trips, trip_students, trip_events, pickups, dropoffs, locations |
-| Alerting and Incident Management | delays, incidents, notifications, preferences |
-| Subscriptions and Billing | plans, subscriptions, payments, receipts |
-
-**Database Diagrams:** [Insertar capturas y URLs]
 
 ---
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
-Este capítulo adapta la implementación de Rumbo a las restricciones tecnológicas del curso de Aplicaciones Web. Para AV1 el incremento funcional obligatorio se concentra en la primera versión del Landing Page. La Frontend Web Application y el RESTful Web Service se preparan desde el diseño y la gestión de configuración, pero su implementación funcional corresponde a entregas posteriores.
-
 ## 5.1. Software Configuration Management
 
 ### 5.1.1. Software Development Environment Configuration
 
-| Área | Software / Servicio | Uso en Rumbo |
-|---|---|---|
-| Version Control | Git + GitHub | Repositorios, ramas, Pull Requests y trazabilidad |
-| Project Management | YouTrack / Jira / Trello | Product Backlog, Sprint Backlog y seguimiento |
-| UX Research | UXPressia | Personas, Journey Maps, Empathy Maps, Impact Mapping |
-| UX/UI Design | Figma | Wireframes, Mock-ups y Prototype |
-| Flows / Event Storming | FigJam / LucidChart / Miro | Wireflows, User Flows y Event Storming |
-| Architecture | Structurizr / PlantUML / Mermaid | C4 y Diagram-as-Code |
-| Frontend IDE | VS Code / WebStorm | Landing Page y Vue Web Application |
-| Backend IDE | Visual Studio / Rider | ASP.NET Core Web Service |
-| Frontend Framework | Vue 3 + JavaScript | Frontend Web Application |
-| UI Components | PrimeVue | Componentes Vue accesibles y reutilizables |
-| Design Language | Material Design | Lineamientos visuales de Landing Page y Web Application |
-| i18n | Vue i18n / recursos localizados | en_US y es_419; inglés por defecto |
-| Backend | ASP.NET Core + C# | RESTful API |
-| ORM | Entity Framework Core | Persistencia y acceso a datos |
-| Database | MySQL Server o PostgreSQL | DBMS relacional |
-| API Documentation | OpenAPI / Swagger | Contrato y prueba de endpoints |
-
 ### 5.1.2. Source Code Management
-
-Los repositorios de la organización AIpaca-UPC son:
-
-| Producto | Repositorio |
-|---|---|
-| Project Report | https://github.com/AIpaca-UPC/web-applications-project-report |
-| Landing Page | https://github.com/AIpaca-UPC/landing-page |
-| Frontend Web Application | https://github.com/AIpaca-UPC/web-applications-web-app |
-| RESTful Web Service | https://github.com/AIpaca-UPC/web-applications-web-service |
-
-#### GitFlow
-
-Se utilizará el siguiente esquema:
-
-- main: versiones estables.
-- develop: integración del trabajo del equipo.
-- feature/<kebab-case>: una rama por feature o incremento.
-- release/vMAJOR.MINOR.PATCH: preparación de una versión.
-- hotfix/<kebab-case>: correcciones urgentes sobre una versión estable.
-
-En el estado actual ya existen ramas develop y feature en los cuatro repositorios. Para el Project Report se mantienen ramas por capítulo; el Landing Page cuenta con feature/landing-page-v1; la Frontend Web Application cuenta con feature/app-foundation; y el Web Service cuenta con feature/service-foundation.
-
-Los mensajes de commit seguirán Conventional Commits y las releases seguirán Semantic Versioning.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-Todos los identificadores de código se redactarán en inglés.
-
-#### HTML
-
-- HTML5 semántico.
-- atributos alt para imágenes informativas;
-- labels asociados a inputs;
-- ARIA cuando la semántica nativa no sea suficiente;
-- atributos y clases con nombres consistentes.
-
-#### CSS
-
-- estilos organizados por responsabilidad;
-- design tokens para color, spacing, radius y typography;
-- responsive layouts con Flexbox/Grid;
-- evitar valores visuales duplicados cuando puedan expresarse mediante variables;
-- la personalización debe conservar compatibilidad con Material Design y PrimeVue.
-
-#### JavaScript and Vue
-
-- Vue Style Guide como referencia principal;
-- camelCase para variables, funciones, props y composables;
-- PascalCase para nombres de componentes Vue;
-- componentes pequeños y reutilizables;
-- separación entre presentación, navegación y consumo del API;
-- no hardcodear textos que deban internacionalizarse;
-- utilizar componentes PrimeVue cuando exista un equivalente adecuado antes de crear controles custom.
-
-#### PrimeVue and Material Design
-
-PrimeVue será la biblioteca de componentes de UI para la Frontend Web Application. Los estilos visuales definidos en Figma deberán poder aplicarse mediante themes, tokens y CSS sin reemplazar la semántica ni las capacidades de accesibilidad de los componentes.
-
-#### C# and ASP.NET Core
-
-- PascalCase para clases, interfaces, métodos, propiedades y tipos públicos;
-- camelCase para parámetros y variables locales;
-- interfaces con prefijo I cuando aplique;
-- async/await para operaciones de I/O;
-- separación por responsabilidades;
-- validación de inputs y manejo consistente de errores;
-- endpoints REST orientados a recursos;
-- Entity Framework Core para persistencia;
-- documentación OpenAPI/Swagger.
-
-#### Gherkin and API Contracts
-
-Los Acceptance Criteria utilizarán Given-When-Then. Las Technical Stories del RESTful API deberán contemplar request, response, códigos HTTP y escenarios de error verificables.
-
 ### 5.1.4. Software Deployment Configuration
-
-La estrategia de despliegue se realizará por producto y se documentará con evidencia cuando cada incremento entre en alcance.
-
-| Producto | Configuración prevista | Estado al adaptar este informe |
-|---|---|---|
-| Landing Page | Publicación estática desde el repositorio landing-page; GitHub Pages es una opción válida para AV1 | Pendiente de implementación y publicación funcional |
-| Frontend Web Application | Build de Vue y despliegue en un hosting para SPA | Corresponde a Sprint posterior |
-| RESTful Web Service | Build/publish de ASP.NET Core en plataforma Server Side o Cloud | Corresponde a Sprint posterior |
-| Database | Instancia MySQL o PostgreSQL accesible por el Web Service | Corresponde a Sprint posterior |
-
-Para la Frontend Web Application deberá contemplarse la configuración de rutas de SPA, variables de entorno y URL base del API. Para el Web Service deberán definirse environment variables, connection string, CORS, HTTPS, migraciones de Entity Framework Core y publicación de Swagger según el entorno.
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
-### 5.2.1. Sprint 1
+### 5.2.X. Sprint n
 
-El Sprint 1 se enfoca en el primer incremento requerido para AV1: diseñar, implementar y desplegar la Landing Page de Rumbo. La Frontend Web Application y el RESTful Web Service permanecen como foundations de repositorio y diseño; no se atribuyen features funcionales que todavía no existen en AIpaca-UPC.
+#### 5.2.X.1. Sprint Planning n
 
-### 5.2.1.1. Sprint Planning 1
+#### 5.2.X.2. Aspect Leaders and Collaborators
 
-| Campo | Detalle |
-|---|---|
-| Sprint | Sprint 1 |
-| Date | [Completar] |
-| Time | [Completar] |
-| Location | [Completar: presencial/virtual] |
-| Prepared By | [Completar] |
-| Attendees | [Completar] |
-| Previous Sprint Review | N/A — primer Sprint |
-| Previous Sprint Retrospective | N/A — primer Sprint |
-| Sprint Goal | Implementar y publicar una Landing Page responsive de Rumbo que comunique la propuesta de valor a padres/tutores y conductores y permita acceder a los CTA de cada segmento. |
-| Sprint Velocity | [Completar] |
-| Sum of Story Points | [Completar según selección final] |
+#### 5.2.X.3. Sprint Backlog n
 
-### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.X.4. Development Evidence for Sprint Review
 
-El equipo deberá cerrar la matriz LACX antes de iniciar la implementación para que cada aspecto tenga un líder y colaboradores identificados.
+#### 5.2.X.5. Execution Evidence for Sprint Review
 
-| Team Member | GitHub Username | Project Report | Landing UX/UI | Landing Development | Deployment |
-|---|---|---|---|---|---|
-| Lino Quispe, Leonardo Miguel | linolw | [L/C] | [L/C] | [L/C] | [L/C] |
-| Geronimo Puma, Kevin Joel | [Completar] | [L/C] | [L/C] | [L/C] | [L/C] |
-| Meza Soza, Alexandra Yamile | [Completar] | [L/C] | [L/C] | [L/C] | [L/C] |
-| Barrientos Quispe, Marcelo | [Completar] | [L/C] | [L/C] | [L/C] | [L/C] |
-| [Integrante 5] | [Completar] | [L/C] | [L/C] | [L/C] | [L/C] |
+#### 5.2.X.6. Services Documentation Evidence for Sprint Review
 
-### 5.2.1.3. Sprint Backlog 1
+#### 5.2.X.7. Software Deployment Evidence for Sprint Review
 
-Los Work-items se vinculan con las User Stories del Product Backlog. Las tareas transversales se identifican como N/A.
+#### 5.2.X.8. Team Collaboration Insights during Sprint
 
-**Sprint Board:** [Insertar URL público]
+## 5.3. Validation Interviews
 
-| Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
-|---|---|---|---|---|---:|---|---|
-| US09 | Presentar propuesta de valor en Landing Page | T01 | Landing structure | Implementar hero, propuesta de valor y navegación principal. | 4 | [Completar] | To-do |
-| US10 | Presentar beneficios por segmento | T02 | Benefits sections | Implementar beneficios para padres/tutores y conductores. | 3 | [Completar] | To-do |
-| US35 | Sección de preguntas frecuentes por segmento | T03 | FAQ | Implementar contenido y comportamiento de FAQ. | 2 | [Completar] | To-do |
-| US42 | Acceder a Rumbo desde el CTA del segmento | T04 | CTA navigation | Implementar CTA y preparar enlace hacia la Web Application. | 2 | [Completar] | To-do |
-| US11 | Soportar inglés y español en Landing Page | T05 | Language support | Implementar en_US por defecto y es_419 como idioma alternativo. | 3 | [Completar] | To-do |
-| US12 | Acceder a términos y condiciones desde el footer | T06 | Legal links | Incorporar Terms & Conditions y Privacy Policy. | 2 | [Completar] | To-do |
-| US34 | Formulario público de contacto | T07 | Contact form | Implementar formulario y validación de datos. | 3 | [Completar] | To-do |
-| N/A | Responsive constraint | T08 | Responsive design | Verificar Desktop y Mobile Web Browser. | 4 | [Completar] | To-do |
-| N/A | Accessibility constraint | T09 | a11y review | Verificar teclado, focus, contraste y ARIA. | 3 | [Completar] | To-do |
-| N/A | Deployment | T10 | Landing deployment | Publicar la primera versión y registrar evidencia. | 2 | [Completar] | To-do |
+### 5.3.1. Diseño de Entrevistas
 
-### 5.2.1.4. Development Evidence for Sprint Review
+### 5.3.2. Registro de Entrevistas
 
-Al momento de esta adaptación, los repositorios de AIpaca-UPC contienen las foundations documentales, pero el repositorio del Landing Page todavía no evidencia una implementación funcional. Por ello, esta sección registra únicamente el estado verificable y deberá actualizarse al cierre de Sprint 1.
+### 5.3.3. Evaluaciones según heurísticas
 
-| Repository | Branch | Commit ID | Commit Message | Evidencia actual |
-|---|---|---|---|---|
-| AIpaca-UPC/landing-page | main | 2656490 | docs: initialize Rumbo landing page | Foundation documental; no constituye implementación funcional |
-| AIpaca-UPC/web-applications-web-app | main | 3004e64 | docs: initialize Rumbo frontend repository | Foundation para Sprint posterior |
-| AIpaca-UPC/web-applications-web-service | main | d0e9755 | docs: initialize Rumbo web services repository | Foundation para Sprint posterior |
-
-Los commits funcionales de Landing Page deberán añadirse aquí con Repository, Branch, Commit ID, Commit Message, Commit Message Body y fecha.
-
-### 5.2.1.5. Execution Evidence for Sprint Review
-
-Esta evidencia se completará después de implementar la Landing Page.
-
-- Desktop Web Browser: [Insertar captura].
-- Mobile Web Browser: [Insertar captura].
-- Video de ejecución/navegación: [Insertar Microsoft Stream URL].
-
-No se incluirán capturas de una Frontend Web Application o Web Service que todavía no formen parte del incremento funcional del Sprint.
-
-### 5.2.1.6. Services Documentation Evidence for Sprint Review
-
-Durante Sprint 1 no se implementan endpoints funcionales del RESTful Web Service. Cuando el Web Service entre en alcance, esta sección deberá incluir los endpoints ASP.NET Core documentados con OpenAPI/Swagger, sus verbos HTTP, parámetros, ejemplos de request/response, códigos HTTP, capturas de interacción y commits relacionados.
-
-### 5.2.1.7. Software Deployment Evidence for Sprint Review
-
-La evidencia se completará cuando se publique la primera versión funcional del Landing Page.
-
-**Repositorio:** https://github.com/AIpaca-UPC/landing-page  
-**Provider:** [Completar]  
-**Production URL:** [Completar]  
-**Evidence:** [Insertar capturas y explicación de configuración]
-
-Para entregas posteriores se agregarán por separado las evidencias de despliegue de Vue Web Application, ASP.NET Core Web Service y base de datos.
-
-### 5.2.1.8. Team Collaboration Insights during Sprint
-
-La sección deberá evidenciar participación real del equipo mediante:
-
-- commits por repositorio;
-- Network Graph;
-- Pull Requests;
-- Contributors;
-- relación entre la matriz LACX y los Work-items asumidos.
-
-**Commits:** [Insertar captura]  
-**Network Graph:** [Insertar captura]  
-**Pull Requests / Contributors:** [Insertar capturas]  
-**Análisis del Sprint:** [Completar con datos reales al cierre]
+## 5.4. Video About-the-Product
 
 ---
 
 # Conclusiones
 
-## Avance AV1
+## Conclusiones y recomendaciones
 
-1. La existencia de 3758 vehículos escolares habilitados en Lima y Callao confirma que Rumbo se dirige a un servicio formal con un mercado concreto de familias y operadores.
-2. La congestión registrada en Lima durante 2025 sustenta la necesidad de considerar retrasos y variabilidad en los tiempos de traslado dentro de la experiencia del producto.
-3. La alta penetración de telefonía móvil e Internet en Lima Metropolitana respalda el uso de una solución web responsive como canal principal para los dos segmentos definidos.
-4. Las entrevistas de AV1 permitirán comprobar si el problema específico de visibilidad y comunicación planteado por Rumbo coincide con la experiencia real de padres y conductores.
-5. El Sprint 1 se concentra en el diseño, implementación y despliegue del Landing Page como primer incremento público del producto.
+## Video About-The-Team
 
 ---
 
 # Bibliografía
 
-- Agencia Andina. (2026, septiembre). [MML: Más de 300 niños y adolescentes murieron por accidentes vehiculares durante 2025](https://andina.pe/agencia/noticia-mml-mas-300-ninos-y-adolescentes-murieron-accidentes-vehiculares-durante-2025-1090366.aspx).
-
-- Altavoz. (2026, 26 de marzo). [El 98,4% de los hogares de Lima Metropolitana contó con telefonía móvil durante el cuarto trimestre de 2025](https://altavoz.pe/economia/el-984-de-los-hogares-de-lima-metropolitana-conto-con-telefonia-movil-durante-el-cuarto-trimestre-de-2025/).
-
-- Comparabien. (2025, 22 de abril). [¿Cuánto se gana en movilidad escolar? Guía para emprendedores](https://comparabien.com.pe/blog-consejos/cuanto-gana-movilidad-escolar-guia-emprendedores).
-
-- El Comercio. (2026, 26 de febrero). [Lima en el top 5 de ciudades con peor tráfico a nivel mundial: más de 8 días al año atrapados en el tráfico vehicular](https://elcomercio.pe/lima/sucesos/lima-en-el-top-5-de-ciudades-con-peor-trafico-a-nivel-mundial-mas-de-8-dias-al-ano-atrapados-en-el-trafico-vehicular-tomtom-traffic-index-ultimas-noticia/).
-
-- El Popular. (2026, 31 de enero). [Lima entre las más congestionadas del mundo: peruanos desperdician en promedio 8 días al año atascados en el tráfico](https://elpopular.pe/actualidad/2026/01/31/lima-entre-las-mas-congestionadas-del-mundo-peruanos-desperdician-en-promedio-8-dias-al-ano-atascados-en-el-trafico-1378787).
-
-- Energiminas. (2026, 7 de agosto). [Lima sigue siendo una de las ciudades latinoamericanas con menor velocidad de circulación](https://energiminas.com/2026/08/07/lima-sigue-siendo-una-de-las-ciudades-latinoamericanas-con-menor-velocidad-de-circulacion/).
-
-- Escobedo, C. (2024). [Se publica el nuevo reglamento de protección de datos personales en Perú](https://iapp.org/news/a/se-publica-el-nuevo-reglamento-de-protecci-n-de-datos-personales-en-per-). *International Association of Privacy Professionals*.
-
-- Exitosa Noticias. (2026, 24 de febrero). [Retorno a clases seguro: ATU habilita link para saber si la movilidad escolar de tus hijos está autorizada](https://www.exitosanoticias.pe/actualidad/retorno-clases-seguro-atu-habilita-link-saber-movilidad-escolar-tus-hijos-esta-autorizada-n169563).
-
-- Expreso. (2026, 1 de junio). [WhatsApp y Yape lideran el uso digital en Perú, según Erestel 2025](https://www.expreso.com.pe/actualidad/whatsapp-y-yape-lideran-el-uso-digital-en-peru-segun-erestel-2025-noticia/1291271).
-
-- Infobae. (2026a, 10 de enero). [Movilidad escolar para el inicio de clases 2026: así puedes identificar vehículos autorizados por la ATU](https://www.infobae.com/peru/2026/01/10/movilidad-escolar-para-el-inicio-de-clases-2026-asi-puedes-identificar-vehiculos-autorizados-por-la-atu/).
-
-- Instituto Nacional de Estadística e Informática. (2026, 26 de marzo). [El 98,4% de los hogares de Lima Metropolitana contó con telefonía móvil durante el cuarto trimestre de 2025](https://www.gob.pe/institucion/inei/noticias/1371146-el-98-4-de-los-hogares-de-lima-metropolitana-conto-con-telefonia-movil-durante-el-cuarto-trimestre-de-2025). *Plataforma del Estado Peruano*.
-
-- LP Derecho. (s. f.). [Ley 29733: repercusión en el sistema de búsqueda de expedientes judiciales (CEJ)](https://lpderecho.pe/ley-29733-repercusion-sistema-busqueda-expedientes-judiciales-cej/).
-
-
-- Gothelf, J., & Seiden, J. *Lean UX: Designing Great Products with Agile Teams*.
-- Material Design. https://m3.material.io/
-- Vue.js. https://vuejs.org/
-- PrimeVue. https://primevue.org/
-- Microsoft ASP.NET Core. https://learn.microsoft.com/aspnet/core/
-- Entity Framework Core. https://learn.microsoft.com/ef/core/
-- Conventional Commits. https://www.conventionalcommits.org/
-- Semantic Versioning. https://semver.org/
-
 ---
 
 # Anexos
-
-## Videos de Exposición
-
-### AV1
-
-**Microsoft Stream:** [Completar]  
-**Archivo:** `upc-pre-202620-1asi0730-8137-rumbo-expo-av1.mp4`
-
-## Entrevistas de Needfinding
-
-**Videos registrados hasta el momento:**  
-- [Conductor 1 — Gabriel Alexandro Sosa Guevara](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQC8MugJp8RuRYBv6-JB1JqxAa7zKfdSDfWOW6lMscwFzxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MUf4ft) — 09:51.  
-- [Conductor 2 — Brayan Solorzano Pineda](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQDViGOQ_7GOQYDKI1MqVAXNAacWQv3o8bRMqBJbKkhsKp8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6tRx0m) — 09:05.
-
-**Archivo consolidado final:** `upc-pre-202620-1asi0730-8137-rumbo-needfinding-sprint-1.mp4` [pendiente si el equipo decide consolidar las entrevistas].
-
-## Navegación del Prototipo
-
-**Microsoft Stream:** [Completar]  
-**Archivo:** `upc-pre-202620-1asi0730-8137-rumbo-prototypenavigation-sprint-1.mp4`
-
-## Enlaces del proyecto
-
-- **Organización:** https://github.com/AIpaca-UPC
-- **Project Report:** https://github.com/AIpaca-UPC/web-applications-project-report
-- **Landing Page:** https://github.com/AIpaca-UPC/landing-page
-- **Frontend Web Application:** https://github.com/AIpaca-UPC/web-applications-web-app
-- **Web Service:** https://github.com/AIpaca-UPC/web-applications-web-service
-
-## Artefactos externos
-
-- **UXPressia:** [Completar]
-- **Figma:** [Completar]
-- **Sprint Board:** [Completar]
-- **Structurizr:** [Completar]
