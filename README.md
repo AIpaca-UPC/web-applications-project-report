@@ -2430,7 +2430,7 @@ El workflow de deployment ejecuta la instalación de dependencias, la compilaci�
 <!-- PENDIENTE IMAGEN C5-03: Captura de GitHub Actions mostrando build y deploy exitosos. -->
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter5/web-application.png" alt="Frontend Web Application de Rumbo desplegada públicamente en GitHub Pages" width="95%">
+  <img src="./assets/chapter5/web-application.png" alt="Frontend Web Application de Rumbo desplegada públicamente en GitHub Pages" width="95%">
 </div>
 
 ## 5.2. Landing Page, Services & Applications Implementation
@@ -2588,7 +2588,7 @@ La Landing Page continúa publicada mediante GitHub Pages. El PR #1 de TB1 fue i
 
 <!-- PENDIENTE IMAGEN C5-S1-03: GitHub Pages / Actions o Settings mostrando el deployment vigente. -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter5/landing-public-deploy.jpg" alt="Landing Page desplegada públicamente en GitHub Pages" width="95%">
+  <img src="./assets/chapter5/landing-public-deploy.jpg" alt="Landing Page desplegada públicamente en GitHub Pages" width="95%">
 </div>
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
@@ -2660,7 +2660,7 @@ El Final Project Statement exige que la captura del Board y el URL público sean
 La siguiente captura corresponde al Board de Trello utilizado para el seguimiento del **Sprint 2**, donde se visualizan los work-items y su estado durante el Sprint.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter5/Sprint-2.png" alt="Sprint 2 Backlog Board en Trello" width="95%">
+  <img src="./assets/chapter5/Sprint-2.png" alt="Sprint 2 Backlog Board en Trello" width="95%">
 </div>
 
 | Story Id | Story Title | SP | Task Id | Task Title / Description | Estimation (Hours) | Assigned To | Status |
@@ -2730,28 +2730,28 @@ La aplicación se ejecuta desde el código integrado de `develop`. A continuaci�
 La siguiente evidencia muestra la vista implementada para la gestión de vehículos dentro del Frontend.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter5/execution-vehicles.png" alt="Execution Evidence - Vehicle Management" width="95%">
+  <img src="./assets/chapter5/execution-vehicles.png" alt="Execution Evidence - Vehicle Management" width="95%">
 </div>
 **Profiles & Relationship Management**
 
 La siguiente evidencia muestra la vista implementada para la gestión de estudiantes dentro del Frontend.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter5/execution-students.png" alt="Execution Evidence - Student Management" width="95%">
+  <img src="./assets/chapter5/execution-students.png" alt="Execution Evidence - Student Management" width="95%">
 </div>
 **Route & Trip Planning**
 
 La siguiente evidencia muestra la vista implementada para la gestión de rutas dentro del Frontend.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter5/execution-routes.png" alt="Execution Evidence - Route Management" width="95%">
+  <img src="./assets/chapter5/execution-routes.png" alt="Execution Evidence - Route Management" width="95%">
 </div>
 **Alerting & Incident Management**
 
 La siguiente evidencia corresponde a una vista operativa del contexto de alertas e incidencias implementado en el Frontend.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter5/execution-operations.png" alt="Execution Evidence - Alerting and Incident Operations" width="95%">
+  <img src="./assets/chapter5/execution-operations.png" alt="Execution Evidence - Alerting and Incident Operations" width="95%">
 </div>
 
 **Subscriptions & Billing**
@@ -2759,7 +2759,7 @@ La siguiente evidencia corresponde a una vista operativa del contexto de alertas
 La siguiente evidencia muestra la vista implementada para la gestión de suscripciones dentro del Frontend.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter5/execution-subscriptions.png" alt="Execution Evidence - Subscriptions and Billing" width="95%">
+  <img src="./assets/chapter5/execution-subscriptions.png" alt="Execution Evidence - Subscriptions and Billing" width="95%">
 </div>
 <!-- PENDIENTE IMAGEN C5-S2-08: Una vista representativa en Mobile. -->
 
@@ -2816,7 +2816,7 @@ El workflow de deployment completó satisfactoriamente las etapas de **build** y
 **Frontend publicado**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter5/web-application.png" alt="Frontend Web Application de Rumbo desplegada en GitHub Pages" width="95%">
+  <img src="./assets/chapter5/web-application.png" alt="Frontend Web Application de Rumbo desplegada en GitHub Pages" width="95%">
 </div>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
@@ -2835,7 +2835,7 @@ La evidencia del repositorio permite identificar contribuciones de los cinco int
 La siguiente captura muestra el resumen de actividad reciente del repositorio durante el periodo de trabajo del Sprint.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter5/collaboration-pulse.png" alt="Team Collaboration Insights - GitHub Pulse" width="95%">
+  <img src="./assets/chapter5/collaboration-pulse.png" alt="Team Collaboration Insights - GitHub Pulse" width="95%">
 </div>
 <!-- PENDIENTE IMAGEN C5-S2-17: Contributors del Frontend. -->
 **Network Graph — trazabilidad de ramas e integración**
@@ -2843,12 +2843,12 @@ La siguiente captura muestra el resumen de actividad reciente del repositorio du
 Las siguientes capturas muestran el Network Graph utilizado como evidencia de la creación de ramas, evolución de commits e integración del trabajo del equipo durante el Sprint.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter5/network-1.png" alt="Frontend Network Graph - Evidence 1" width="95%"><br><br>
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter5/network-2.png" alt="Frontend Network Graph - Evidence 2" width="95%"><br><br>
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter5/network-3.png" alt="Frontend Network Graph - Evidence 3" width="95%"><br><br>
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter5/network-4.png" alt="Frontend Network Graph - Evidence 4" width="95%"><br><br>
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter5/network-5.png" alt="Frontend Network Graph - Evidence 5" width="95%"><br><br>
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter5/network-6.png" alt="Frontend Network Graph - Evidence 6" width="95%">
+  <img src="./assets/chapter5/network-1.png" alt="Frontend Network Graph - Evidence 1" width="95%"><br><br>
+  <img src="./assets/chapter5/network-2.png" alt="Frontend Network Graph - Evidence 2" width="95%"><br><br>
+  <img src="./assets/chapter5/network-3.png" alt="Frontend Network Graph - Evidence 3" width="95%"><br><br>
+  <img src="./assets/chapter5/network-4.png" alt="Frontend Network Graph - Evidence 4" width="95%"><br><br>
+  <img src="./assets/chapter5/network-5.png" alt="Frontend Network Graph - Evidence 5" width="95%"><br><br>
+  <img src="./assets/chapter5/network-6.png" alt="Frontend Network Graph - Evidence 6" width="95%">
 </div>
 <!-- PENDIENTE IMAGEN C5-S2-19: Pull Requests #5, #6, #7 y #8 cerrados/merged. -->
 
