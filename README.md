@@ -49,7 +49,6 @@
 | 0.5 | 08/10/2026 | Equipo Rumbo | Consolidación de los Capítulos I y II en la rama de Requirements Specification, conservando los capítulos posteriores para revisión. |
 | 0.6 | 08/10/2026 | Equipo Rumbo | Actualización del Capítulo III: Impact Mapping adaptado, incorporación de US36–US38 y repriorización del Product Backlog por valor de negocio. |
 | 0.7 | 08/10/2026 | Equipo Rumbo | Actualización de evidencia del Product Backlog, corrección de Story Points del Landing Page y restauración del esqueleto de capítulos posteriores. |
-| 0.8 | 08/10/2026 | Equipo Rumbo | Migración completa del Capítulo IV desde el proyecto Open Source para revisión y adaptación posterior al curso de Aplicaciones Web. |
 
 ---
 
@@ -1358,7 +1357,7 @@ La propuesta toma como referencia principios de **Material Design** y los adapta
 La identidad visual de **Rumbo** busca proyectar una imagen cercana, segura y confiable. Se evita una apariencia excesivamente tecnológica o alarmista y se priorizan superficies claras, jerarquías simples y una paleta basada en verdes, tonos crema y colores de apoyo suaves.
 
 <div align="center">
-  <img src="./assets/chapter04/logotipoRumbo.png" alt="Logotipo de Rumbo" width="280">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/logotipoRumbo.png" alt="Logotipo de Rumbo" width="280">
   <p><em>Logotipo principal de Rumbo.</em></p>
 </div>
 
@@ -1369,7 +1368,7 @@ El logotipo se utiliza como identificador principal de la marca y debe conservar
 La paleta de colores de Rumbo organiza los tonos principales, secundarios y neutros que se utilizarán de manera consistente en el Landing Page y la Web Application. Los verdes refuerzan la identidad visual y las acciones relevantes; los tonos crema y arena ayudan a reducir la carga visual y aportar calidez; y el azul oscuro se reserva para texto, contraste y elementos de alta legibilidad.
 
 <div align="center">
-  <img src="./assets/chapter04/paleta-de-colores.png" alt="Paleta de colores de Rumbo" width="760">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/paleta-de-colores.png" alt="Paleta de colores de Rumbo" width="760">
   <p><em>Paleta de colores de Rumbo.</em></p>
 </div>
 
@@ -1459,7 +1458,7 @@ Rumbo adopta un enfoque de diseño inclusivo mediante:
 La experiencia contempla **English (en_US)** y **Latin American Spanish (es_419)**, con **English como idioma predeterminado**, de acuerdo con los lineamientos del proyecto. La estructura de los componentes debe tolerar variaciones de longitud entre traducciones sin romper el layout.
 
 <div align="center">
-  <img src="./assets/chapter04/landingMockupDsk.png" alt="Referencia visual de las Web Style Guidelines en Desktop" width="760">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/landingMockupDsk.png" alt="Referencia visual de las Web Style Guidelines en Desktop" width="760">
   <p><em>Aplicación de las Web Style Guidelines en el Landing Page para Desktop Web Browser.</em></p>
 </div>
 
@@ -1481,7 +1480,7 @@ Las principales decisiones son:
 Cuando un componente cambia de disposición entre Desktop y Mobile, debe conservar la misma función, etiqueta y prioridad. La adaptación responsive no debe introducir una ruta de navegación diferente para realizar la misma tarea.
 
 <div align="center">
-  <img src="./assets/chapter04/landingMockupMb.png" alt="Referencia visual de las Mobile Style Guidelines" width="360">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/landingMockupMb.png" alt="Referencia visual de las Mobile Style Guidelines" width="360">
   <p><em>Aplicación de las Mobile Style Guidelines en el Landing Page para Mobile Web Browser.</em></p>
 </div>
 
@@ -1641,12 +1640,12 @@ Los wireframes fueron elaborados para **Desktop Web Browser** y **Mobile Web Bro
 En Desktop, la distribución aprovecha el ancho disponible para organizar contenidos relacionados y facilitar la exploración progresiva. En Mobile, los mismos bloques se reorganizan verticalmente y preservan el orden lógico de lectura. En ambos casos, la ubicación de las acciones principales responde a la arquitectura de información descrita previamente.
 
 <div align="center">
-  <img src="./assets/chapter04/landingWireframeDsk.png" alt="Landing Page Wireframe - Desktop Web Browser" width="750">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/landingWireframeDsk.png" alt="Landing Page Wireframe - Desktop Web Browser" width="750">
   <p><em>Wireframe del Landing Page para Desktop Web Browser.</em></p>
 </div>
 
 <div align="center">
-  <img src="./assets/chapter04/landingWireframeMb.png" alt="Landing Page Wireframe - Mobile Web Browser" width="360">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/landingWireframeMb.png" alt="Landing Page Wireframe - Mobile Web Browser" width="360">
   <p><em>Wireframe del Landing Page para Mobile Web Browser.</em></p>
 </div>
 
@@ -1659,12 +1658,12 @@ Los mock-ups aplican el Design System definido en 4.1 sobre la estructura valida
 El Desktop Mock-up conserva una jerarquía amplia y permite presentar agrupaciones de contenido en más de una columna cuando existe espacio suficiente. El Mobile Mock-up transforma esas agrupaciones en bloques verticales, manteniendo las mismas asociaciones, etiquetas y prioridad de acciones.
 
 <div align="center">
-  <img src="./assets/chapter04/landingMockupDsk.png" alt="Landing Page Mock-up - Desktop Web Browser" width="750">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/landingMockupDsk.png" alt="Landing Page Mock-up - Desktop Web Browser" width="750">
   <p><em>Mock-up del Landing Page para Desktop Web Browser.</em></p>
 </div>
 
 <div align="center">
-  <img src="./assets/chapter04/landingMockupMb.png" alt="Landing Page Mock-up - Mobile Web Browser" width="360">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/landingMockupMb.png" alt="Landing Page Mock-up - Mobile Web Browser" width="360">
   <p><em>Mock-up del Landing Page para Mobile Web Browser.</em></p>
 </div>
 
@@ -2273,8 +2272,6 @@ El esquema comercial relaciona al Driver con un plan y con el estado de su suscr
 </div>
 
 En conjunto, los ocho Database Diagrams mantienen correspondencia con los Bounded Contexts definidos en 4.6 y con los Class Diagrams de 4.7, conservando la separación de responsabilidades entre identidad, perfiles, vehículos, planificación, ejecución, incidencias, notificaciones y suscripciones.
-
----
 
 ---
 
