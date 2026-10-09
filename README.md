@@ -2797,12 +2797,12 @@ Durante el Sprint 1 se realizó la primera publicación de la Landing Page. El p
 | URL pública | https://aipaca-upc.github.io/landing-page/ |
  
 <div align="center">
-  <img src="./assets/chapter05/deploy-pages-settings.png" alt="Configuración de GitHub Pages del repositorio landing-page mostrando la rama publicada y la URL pública activa." width="90%">
-  <p><em>Figura 5.S1-12. Configuración de GitHub Pages del repositorio <code>AIpaca-UPC/landing-page</code> con el despliegue vigente.</em></p>
+  <img src="./assets/chapter5/sprint1/landing-deployment.png" alt="Evidencia visual del despliegue de la Landing Page de Rumbo durante el Sprint 1." width="90%">
+  <p><em>Figura 5.S1-12. Evidencia de despliegue de la Landing Page de Rumbo durante el Sprint 1.</em></p>
 </div>
 <div align="center">
-  <img src="./assets/chapter05/deploy-public-site.png" alt="Landing Page de Rumbo accesible en su URL pública desde el navegador." width="90%">
-  <p><em>Figura 5.S1-13. Landing Page accesible en su URL pública, con la barra de direcciones visible.</em></p>
+  <img src="./assets/chapter5/landing-1.png" alt="Vista principal de la Landing Page de Rumbo, incluida como referencia visual del sitio publicado." width="90%">
+  <p><em>Figura 5.S1-13. Vista principal de la Landing Page de Rumbo.</em></p>
 </div>
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
