@@ -1763,7 +1763,7 @@ Los wireflows mantienen trazabilidad con los User Stories, la Information Archit
 **Explicación del flujo:** El Parent selecciona su experiencia en la pantalla de acceso, ingresa sus credenciales y, después de autenticarse correctamente, accede al Panel principal con la información más reciente del viaje activo.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/wireflows/wireflow-access-parent.png" alt="Wireflow - Access parent dashboard" width="95%">
+  <img src="./assets/chapter04/user-goal-1.png" alt="Wireflow - Access parent dashboard" width="95%">
 </div>
 
 #### User Goal 2 — Consult current trip status
@@ -1773,7 +1773,7 @@ Los wireflows mantienen trazabilidad con los User Stories, la Information Archit
 **Explicación del flujo:** Desde el Panel principal, el Parent abre el detalle del viaje activo y puede profundizar en la línea de tiempo para comprender los eventos registrados durante el recorrido.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/wireflows/wireflow-consult-trip.png" alt="Wireflow - Consult current trip status" width="95%">
+  <img src="./assets/chapter04/user-goal-2.png" alt="Wireflow - Consult current trip status" width="95%">
 </div>
 
 #### User Goal 3 — Review important notifications
@@ -1783,7 +1783,7 @@ Los wireflows mantienen trazabilidad con los User Stories, la Information Archit
 **Explicación del flujo:** El Parent accede desde el Panel principal al centro de notificaciones, revisa las actualizaciones recientes y abre el detalle de un aviso relevante para conocer su contexto y estado.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/wireflows/wireflow-review-notifications.png" alt="Wireflow - Review important notifications" width="95%">
+  <img src="./assets/chapter04/user-goal-3.png" alt="Wireflow - Review important notifications" width="95%">
 </div>
 
 #### User Goal 4 — Start and execute a route
@@ -1793,7 +1793,7 @@ Los wireflows mantienen trazabilidad con los User Stories, la Information Archit
 **Explicación del flujo:** El Driver abre su ruta asignada, inicia el recorrido y accede a la lista de estudiantes para continuar registrando los hitos operativos de recojo y entrega.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/wireflows/wireflow-start-route.png" alt="Wireflow - Start and execute a route" width="95%">
+  <img src="./assets/chapter04/user-goal-4.png" alt="Wireflow - Start and execute a route" width="95%">
 </div>
 
 #### User Goal 5 — Configure route and stops
@@ -1803,7 +1803,7 @@ Los wireflows mantienen trazabilidad con los User Stories, la Information Archit
 **Explicación del flujo:** El Driver parte de la ruta asignada, ingresa a la configuración, ajusta el orden de paradas y guarda los cambios para que la planificación quede disponible en los siguientes recorridos.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/wireflows/wireflow-configure-route.png" alt="Wireflow - Configure route and stops" width="95%">
+  <img src="./assets/chapter04/user-goal-5.png" alt="Wireflow - Configure route and stops" width="95%">
 </div>
 
 #### User Goal 6 — Monitor operational notifications
@@ -1813,7 +1813,7 @@ Los wireflows mantienen trazabilidad con los User Stories, la Information Archit
 **Explicación del flujo:** Desde la ruta asignada, el Driver accede al centro de notificaciones, consulta las actualizaciones recientes y marca los avisos revisados para mantener control sobre los eventos informados.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/wireflows/wireflow-monitor-notifications.png" alt="Wireflow - Monitor operational notifications" width="95%">
+  <img src="./assets/chapter04/user-goal-6.png" alt="Wireflow - Monitor operational notifications" width="95%">
 </div>
 
 #### User Goal 7 — Manage account and billing
@@ -1823,7 +1823,7 @@ Los wireflows mantienen trazabilidad con los User Stories, la Information Archit
 **Explicación del flujo:** El Driver accede a Configuración para revisar su información de perfil y vehículo y, desde las opciones de cuenta, consulta el resumen de Plan y facturación correspondiente al servicio.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/wireflows/wireflow-manage-account.png" alt="Wireflow - Manage account and billing" width="95%">
+  <img src="./assets/chapter04/user-goal-7.png" alt="Wireflow - Manage account and billing" width="95%">
 </div>
 
 ### 4.4.3. Web Applications Mock-ups
@@ -2379,48 +2379,485 @@ En conjunto, los ocho Database Diagrams mantienen correspondencia con los Bounde
 ---
 
 # Capítulo V: Product Implementation, Validation & Deployment
-
+ 
+En este capítulo se describe y evidencia el proceso de configuración, implementación y despliegue de **Rumbo**. La solución está conformada por tres productos: la **Landing Page** del modelo de negocio, la **Frontend Web Application** y el **RESTful API de elaboración interna**. La Landing Page se implementa con HTML5, CSS3 y JavaScript; la Frontend Web Application con **Vue 3**, **PrimeVue** y **Axios** sobre un lenguaje de diseño basado en Material Design; y los Web Services con **ASP.NET Core** y **Entity Framework Core** en C#, documentados mediante OpenAPI vía Swagger.
+ 
+El capítulo distingue de forma explícita tres estados para cada elemento: **implementado e integrado** en el repositorio correspondiente, **implementado sobre persistencia emulada** mientras el RESTful API no esté disponible, y **previsto para un Sprint posterior**. Esta separación evita atribuir a un Sprint funcionalidades que aún no cuentan con evidencia verificable.
+ 
 ## 5.1. Software Configuration Management
-
+ 
+Esta sección documenta las decisiones de configuración que sostienen el ciclo de vida del producto: las herramientas y productos de software utilizados en cada actividad, la administración del código fuente, las convenciones de codificación aplicadas por tecnología y la configuración de despliegue de cada producto de la solución.
+ 
 ### 5.1.1. Software Development Environment Configuration
-
+ 
+A continuación se detallan los productos de software utilizados o previstos en el ciclo de vida de Rumbo, organizados por tipo de actividad. Para cada uno se indica su uso concreto en el proyecto, su tipo de licenciamiento o modalidad de acceso, y su referencia oficial.
+ 
+| Tipo de actividad | Producto / herramienta | Uso en Rumbo | Tipo | Referencia |
+|---|---|---|---|---|
+| Project Management | Trello | Product Backlog, Sprint Backlog, Work-items y seguimiento de estados por Sprint. | SaaS | https://trello.com |
+| Requirements Management | GitHub / Markdown | User Stories, criterios de aceptación en Gherkin y trazabilidad dentro del Project Report. | SaaS / Open Standard | https://github.com/AIpaca-UPC |
+| User Research & Modeling | UXPressia | User Personas, Empathy Maps, User Journey Maps e Impact Mapping. | SaaS | https://uxpressia.com |
+| Product UX/UI Design | Figma | Wireframes, Mock-ups y Prototipos de la Landing Page y de la Frontend Web Application. | SaaS | https://www.figma.com |
+| Interaction Flow Design | FigJam / LucidChart | Wireflow Diagrams y User Flow Diagrams por User Goal. | SaaS | https://www.figma.com/figjam/ · https://www.lucidchart.com |
+| Domain Modeling | Miro | Big Picture EventStorming y Design-Level EventStorming del dominio de Rumbo. | SaaS | https://miro.com |
+| Software Architecture | Structurizr | Diagramas de arquitectura bajo C4 Model: Context, Container y Component. | SaaS | https://structurizr.com |
+| UML Modeling | LucidChart | Class Diagrams del diseño orientado a objetos. | SaaS | https://www.lucidchart.com |
+| Database Design | MySQL Workbench / ERDPlus | Diagramas de base de datos y modelo relacional de la solución. | Open Source / SaaS | https://www.mysql.com/products/workbench/ · https://erdplus.com |
+| Source Code Management | Git / GitHub | Repositorios, ramas, commits, Pull Requests, revisión e integración bajo GitFlow. | Local / SaaS | https://git-scm.com · https://github.com/AIpaca-UPC |
+| Frontend IDE | Visual Studio Code / WebStorm | Desarrollo y revisión de la Landing Page y de la Frontend Web Application. | Open Source / Local | https://code.visualstudio.com · https://www.jetbrains.com/webstorm/ |
+| Backend IDE | Visual Studio / JetBrains Rider | Desarrollo y depuración de los Web Services en C# y ASP.NET Core. | Local | https://visualstudio.microsoft.com · https://www.jetbrains.com/rider/ |
+| Landing Page | HTML5 / CSS3 / JavaScript | Implementación del sitio web estático del modelo de negocio. | Open Standard | https://developer.mozilla.org |
+| Frontend Framework | Vue 3 | Single Page Application de la Frontend Web Application, con routing por Bounded Context. | Open Source | https://vuejs.org |
+| UI Components | PrimeVue | Biblioteca de componentes de interfaz de la Frontend Web Application. | Open Source | https://primevue.org |
+| HTTP Client | Axios | Consumo de recursos REST desde la Frontend Web Application. | Open Source | https://axios-http.com |
+| Design Language | Material Design | Lenguaje de diseño de referencia para la Landing Page y la Web Application. | Open Standard | https://m3.material.io |
+| Internationalization | Recursos JSON de traducción (Landing Page) / Vue I18n (Web Application) | Internacionalización bajo i18n para en_US y es_419, con inglés como idioma predeterminado. | Open Standard / Open Source | https://vue-i18n.intlify.dev |
+| Emulated REST persistence | MockAPI | Persistencia emulada remota que permite integrar la Frontend Web Application mientras el RESTful API propio no se encuentra desplegado. | SaaS | https://mockapi.io |
+| Web Services | ASP.NET Core / Entity Framework Core / C# | RESTful API de elaboración interna y acceso a datos de la solución. | Open Source | https://dotnet.microsoft.com/apps/aspnet · https://learn.microsoft.com/ef/core/ |
+| Relational DBMS | MySQL Server | Base de datos relacional de los Web Services. | Open Source | https://www.mysql.com |
+| API Documentation | OpenAPI Specification / Swagger | Documentación de los endpoints del RESTful API. | Open Standard / Open Source | https://www.openapis.org · https://swagger.io |
+| Landing Page Deployment | GitHub Pages | Publicación del sitio web estático del modelo de negocio. | SaaS | https://pages.github.com |
+| Web Application Deployment | Vercel | Publicación prevista de la Frontend Web Application con soporte de enrutamiento del lado del cliente. | SaaS | https://vercel.com |
+| Web Services Deployment | Microsoft Azure App Service | Publicación prevista del RESTful API en ASP.NET Core. | SaaS | https://azure.microsoft.com/products/app-service |
+| Software Documentation | Markdown | Elaboración colaborativa del Project Report en el repositorio de control de versiones. | Open Standard | https://www.markdownguide.org |
+ 
+La incorporación de las herramientas sigue el avance del alcance por Sprint. El **Sprint 1** utiliza únicamente las herramientas asociadas a la Landing Page y a su publicación. El **Sprint 2** incorpora las herramientas de la Frontend Web Application y la persistencia emulada que permite integrar sus vistas antes de disponer del RESTful API. Los **Sprints posteriores** incorporan las herramientas de Web Services, documentación OpenAPI y despliegue del API, momento en el que la persistencia emulada se reemplaza por el servicio propio.
+ 
 ### 5.1.2. Source Code Management
-
+ 
+La organización pública del equipo en GitHub es **AIpaca-UPC**. El trabajo se distribuye en cuatro repositorios, uno por producto de la solución más el del informe:
+ 
+| Producto | Repositorio |
+|---|---|
+| Project Report | https://github.com/AIpaca-UPC/web-applications-project-report |
+| Landing Page | https://github.com/AIpaca-UPC/landing-page |
+| Frontend Web Application | https://github.com/AIpaca-UPC/web-applications-web-app |
+| Web Services | https://github.com/AIpaca-UPC/web-applications-web-service |
+ 
+#### GitFlow
+ 
+Los cuatro repositorios aplican **GitFlow** con el siguiente flujo de integración:
+ 
+`feature/* → develop → main`
+ 
+| Rama | Propósito |
+|---|---|
+| `main` | Versión estable y publicable del producto. |
+| `develop` | Rama de integración del trabajo del equipo durante el Sprint. |
+| `feature/*` | Implementación de una funcionalidad, capítulo o Bounded Context. |
+| `release/*` | Preparación de una versión antes de su integración en `main`. |
+| `hotfix/*` | Corrección urgente sobre una versión ya publicada. |
+ 
+La convención de nombres de rama se adapta al contenido de cada repositorio:
+ 
+- **Project Report:** una rama por capítulo, con la forma `feature/chapter-<n>-<nombre-del-capítulo>`, por ejemplo `feature/chapter-1-introduction` o `feature/chapter-5-product-implementation-validation-and-deployment`.
+- **Landing Page:** una rama por incremento o sección funcional, por ejemplo `feature/landing-page-v1`.
+- **Frontend Web Application:** una rama por Bounded Context, de modo que la estructura del repositorio refleje la arquitectura definida en el Capítulo IV.
+- **Web Services:** una rama por Bounded Context o por conjunto de endpoints asociado a una Technical Story.
+#### Conventional Commits
+ 
+Los mensajes de commit siguen **Conventional Commits**, con la estructura `<tipo>(<alcance opcional>): <descripción en imperativo>`:
+ 
+| Prefijo | Uso |
+|---|---|
+| `feat` | Incorporación de una funcionalidad. |
+| `fix` | Corrección de un defecto. |
+| `docs` | Cambios en documentación, incluido el Project Report. |
+| `style` | Cambios de formato que no alteran el comportamiento. |
+| `refactor` | Reorganización de código sin cambio funcional. |
+| `test` | Incorporación o ajuste de pruebas. |
+| `chore` | Tareas de mantenimiento y configuración del proyecto. |
+ 
+#### Semantic Versioning
+ 
+Las versiones publicables de cada producto siguen **Semantic Versioning** con el formato `MAJOR.MINOR.PATCH`: se incrementa `MAJOR` ante un cambio incompatible, `MINOR` ante la incorporación de funcionalidad compatible y `PATCH` ante una corrección que no altera la interfaz del producto.
+ 
+#### Trazabilidad
+ 
+La trazabilidad del trabajo del equipo se documenta con la siguiente cadena, que permite recorrer cualquier funcionalidad desde el requisito hasta su integración:
+ 
+**User Story → Work-items / Tasks → Feature Branch → Commits → Pull Request → `develop` → `main`**
+ 
+No se crean User Stories para actividades de documentación. Las historias comprometidas en cada Sprint corresponden a funcionalidades de producto ya existentes en el Product Backlog, y las Tasks representan trabajo técnico concreto sobre esas funcionalidades.
+ 
 ### 5.1.3. Source Code Style Guide & Conventions
-
+ 
+Las convenciones se aplican con nomenclatura técnica en inglés en los cuatro repositorios, de acuerdo con las guías de estilo de referencia indicadas en el Final Project Statement.
+ 
+#### HTML
+ 
+Se sigue el **HTML Style Guide** de W3Schools y la **Google HTML/CSS Style Guide**.
+ 
+- Uso de HTML5 semántico: `header`, `nav`, `main`, `section`, `footer`.
+- Atributo `alt` en toda imagen informativa.
+- Atributos **ARIA** cuando el componente requiere información adicional de accesibilidad bajo a11y.
+- Nombres de clases en `kebab-case` y navegación interna mediante identificadores.
+- Separación estricta entre estructura, presentación y comportamiento.
+```html
+<section class="benefits section-cream" id="benefits">
+```
+ 
+#### CSS
+ 
+- Variables CSS declaradas en `:root` para colores, tipografías, radios y sombras, de modo que el Design System del Capítulo IV tenga un único punto de definición.
+- Diseño responsive implementado con Grid, Flexbox y media queries, alineado con los breakpoints declarados en las Web Style Guidelines.
+- Uso de `prefers-reduced-motion` para respetar las preferencias de accesibilidad del visitante.
+- Selectores descriptivos en inglés y sin duplicación innecesaria de reglas.
+```css
+:root {
+  --green: #3EA98A;
+  --green-dark: #12403D;
+  --sand: #F3D9A4;
+}
+```
+ 
+#### JavaScript
+ 
+Se sigue la **Google JavaScript Style Guide** y las **MDN JavaScript guidelines**.
+ 
+- Uso de `strict mode`.
+- `camelCase` para variables, funciones y propiedades; `PascalCase` para clases.
+- Nombres descriptivos en inglés y funciones de responsabilidad única.
+- En la Landing Page, JavaScript se emplea para la navegación responsive, el comportamiento de acordeón de las preguntas frecuentes, la validación del formulario de contacto y el cambio de idioma.
+#### Vue
+ 
+Se sigue la **Vue Style Guide**.
+ 
+- Componentes en `PascalCase`, con un componente por archivo.
+- `camelCase` para variables, funciones, props y eventos.
+- Organización por Bounded Context, separando las responsabilidades de `domain`, `application`, `infrastructure` y `presentation`.
+- El acceso HTTP se encapsula en servicios de infraestructura que utilizan **Axios**, sin invocaciones directas desde los componentes de presentación.
+- Se prefieren componentes de **PrimeVue** antes de construir controles propios, manteniendo Material Design como referencia visual.
+- Rutas registradas mediante Vue Router, con carga diferida por Bounded Context cuando corresponde.
+#### C# y ASP.NET Core
+ 
+Se siguen las **C# Coding Conventions** de Microsoft y las **ASP.NET Core Coding Guidelines**.
+ 
+- `PascalCase` para clases, interfaces, métodos y propiedades públicas; `camelCase` para parámetros y variables locales; prefijo `I` en interfaces.
+- Organización del proyecto por Bounded Context, con separación de dominio, aplicación, infraestructura e interfaz.
+- Persistencia mediante **Entity Framework Core**, con las entidades y configuraciones del contexto declaradas de forma explícita.
+- Endpoints REST con nombres de recurso en plural y verbos HTTP según la operación, documentados con **OpenAPI** y mensajes de respuesta en inglés como idioma predeterminado.
+#### Gherkin
+ 
+Los criterios de aceptación se redactan en **tiempo presente**, **tercera persona** y con la estructura **Given – When – Then**, sin referencias a detalles de interfaz de usuario y con resultados comprobables, según lo establecido en el Final Project Statement y en las Gherkin Conventions for Readable Specifications.
+ 
 ### 5.1.4. Software Deployment Configuration
-
+ 
+Esta sección documenta la configuración de despliegue de cada producto de la solución, distinguiendo lo que se encuentra publicado y verificable de lo que está previsto para un Sprint posterior.
+ 
+#### Landing Page — desplegada
+ 
+La Landing Page se publica mediante **GitHub Pages** desde el repositorio `AIpaca-UPC/landing-page`. La configuración vigente es la siguiente:
+ 
+| Configuración | Valor |
+|---|---|
+| Repository | `AIpaca-UPC/landing-page` |
+| Branch publicada | `main` |
+| Entry point | `index.html` |
+| Styles | `css/styles.css` |
+| JavaScript | `js/app.js` |
+| Legal pages | `terms.html`, `privacy.html` |
+| Recursos de idioma | Recursos JSON para `en_US` y `es_419` |
+| Proveedor de despliegue | GitHub Pages |
+| **URL pública** | **https://aipaca-upc.github.io/landing-page/** |
+ 
+El procedimiento consistió en integrar la rama de implementación en `develop` y luego en `main` mediante Pull Request, habilitar GitHub Pages sobre la rama de publicación y verificar la accesibilidad de la URL resultante desde Desktop y Mobile Web Browser. Las evidencias de este proceso se presentan en la sección 5.2.1.7.
+ 
+#### Frontend Web Application — prevista para el Sprint 2
+ 
+| Configuración | Valor |
+|---|---|
+| Repository | `AIpaca-UPC/web-applications-web-app` |
+| Branch de publicación | `main` |
+| Framework | Vue 3 |
+| Artefacto publicado | Build de producción generado por el empaquetador del proyecto |
+| Proveedor de despliegue previsto | Vercel |
+| Origen de datos durante el Sprint 2 | MockAPI |
+ 
+La Frontend Web Application es una Single Page Application con enrutamiento del lado del cliente. Por ello, el proveedor de despliegue debe reescribir toda ruta no encontrada hacia el punto de entrada de la aplicación; de lo contrario, el acceso directo a una vista interna o la recarga de la página devuelve un error. Se selecciona **Vercel** porque incorpora esta reescritura de forma nativa, a diferencia del hospedaje estático utilizado para la Landing Page.
+ 
+Mientras el RESTful API propio no se encuentre desplegado, la Frontend Web Application consume recursos de **persistencia emulada remota**. Esta decisión se documenta de forma explícita: no constituye el RESTful API de elaboración interna exigido por el alcance del proyecto, sino un mecanismo transitorio que permite integrar y verificar las vistas de la aplicación. No se utiliza persistencia emulada local, dado que un servicio ejecutado en la máquina de desarrollo no es alcanzable desde la aplicación publicada.
+ 
+#### Web Services — previstos para el Sprint 3
+ 
+| Configuración | Valor |
+|---|---|
+| Repository | `AIpaca-UPC/web-applications-web-service` |
+| Branch de publicación | `main` |
+| Framework | ASP.NET Core con Entity Framework Core |
+| Proveedor de despliegue previsto | Microsoft Azure App Service |
+| Base de datos | MySQL Server gestionado |
+| Documentación | OpenAPI vía Swagger, publicada junto con el servicio |
+ 
+El despliegue de los Web Services requiere además la configuración de **CORS** en el servicio, autorizando los orígenes de la Landing Page y de la Frontend Web Application, dado que los tres productos se publican en dominios distintos. Las cadenas de conexión y las claves de los servicios externos se administran mediante variables de entorno del proveedor y no se incorporan al repositorio.
+ 
 ## 5.2. Landing Page, Services & Applications Implementation
+ 
+Esta sección presenta la implementación de los productos de la solución organizada por Sprint. El alcance se distribuye de la siguiente manera:
+ 
+- **Sprint 1:** Landing Page del modelo de negocio, implementada con HTML5, CSS3 y JavaScript, y publicada en su URL pública.
+- **Sprint 2:** primera versión de la Frontend Web Application con Vue 3, PrimeVue y Axios, organizada por Bounded Context y soportada por persistencia emulada remota mientras el RESTful API propio no esté disponible.
+- **Sprint 3:** RESTful API de elaboración interna con ASP.NET Core y Entity Framework Core, su documentación OpenAPI y la integración de la Frontend Web Application con el servicio propio.
+No se atribuye a un Sprint lógica de negocio de servidor que no cuente con evidencia verificable en el repositorio correspondiente. Cuando una funcionalidad del Frontend opera sobre persistencia emulada, se declara de forma explícita en la sección del Sprint que la implementa.
+ 
+### 5.2.1. Sprint 1
+ 
+Sprint 1 se concentra únicamente en la **Landing Page** de Rumbo. Las Technical Stories del RESTful API (**TS01–TS08**, rol Developer) no pertenecen a este Sprint: corresponden a la implementación de Web Services con **ASP.NET Core y Entity Framework Core**, programada para un Sprint posterior. El **Sprint 2** se concentra en la primera versión de la Frontend Web Application con **Vue 3 y PrimeVue**.
+ 
+La implementación de la Landing Page se traza contra las User Stories **US31–US35** definidas en el Capítulo III, de modo que cada bloque implementado queda asociado a una historia y no existan funcionalidades sin trazabilidad. Durante el Sprint se incorporaron, además del contenido base, la **sección de demostración del producto con su acción de acceso directo**, la **sección de presentación del equipo** y el **selector de idioma**, todas registradas como Tasks en el Sprint Backlog.
+ 
+#### 5.2.1.1. Sprint Planning 1
+ 
+En esta sección se registran los principales acuerdos del Sprint Planning Meeting de Sprint 1 utilizando la estructura indicada en el Final Project Statement.
+ 
+<table>
+  <tbody>
+    <tr><th>Sprint #</th><td>Sprint 1</td></tr>
+    <tr><th colspan="2">Sprint Planning Background</th></tr>
+    <tr><td colspan="2">Primera iteración de implementación del producto. El alcance se concentra en la Landing Page pública de Rumbo, primer incremento visible del producto y punto de entrada de los dos segmentos objetivo.</td></tr>
+    <tr><th>Date</th><td>2026-09-09</td></tr>
+    <tr><th>Time</th><td>[hora de inicio de la reunión]</td></tr>
+    <tr><th>Location</th><td>[medio o lugar real de la reunión]</td></tr>
+    <tr><th>Prepared By</th><td>Lino Quispe, Leonardo Miguel</td></tr>
+    <tr><th>Attendees (to planning meeting)</th><td>Barrientos Quispe, Marcelo / Díaz Ramírez, Alejandro / Geronimo Puma, Kevin Joel / Lino Quispe, Leonardo Miguel / Meza Soza, Alexandra Yamile</td></tr>
+    <tr><th>Sprint 0 Review Summary</th><td>No aplica. Sprint 1 es la primera iteración de implementación del proyecto.</td></tr>
+    <tr><th>Sprint 0 Retrospective Summary</th><td>No aplica.</td></tr>
+    <tr><th colspan="2">Sprint Goal &amp; User Stories</th></tr>
+    <tr><th>Sprint 1 Goal</th><td>Our focus is on publishing the first responsive Landing Page that communicates Rumbo's value proposition and guides both target segments to their next action. We believe it delivers clear product understanding to visitors and a direct entry point for parents/tutors and school transport drivers. This will be confirmed when the five committed Landing Page User Stories satisfy their Acceptance Criteria and the site is publicly accessible on Desktop and Mobile Web Browser.</td></tr>
+    <tr><th>Sprint 1 Velocity</th><td>8 Story Points</td></tr>
+    <tr><th>Sum of Story Points</th><td>8 Story Points</td></tr>
+  </tbody>
+</table>
+Las historias comprometidas y su estimación vigente en el Product Backlog son: **US31 (2 SP)**, **US32 (2 SP)**, **US33 (1 SP)**, **US34 (1 SP)** y **US35 (2 SP)**, lo que totaliza los 8 Story Points declarados.
+ 
+La equivalencia usada para la estimación es la indicada por el docente: **1 SP ≈ 1–2 días de trabajo** y **8 SP ≈ un Sprint completo de dos semanas**. Los Story Points no se obtienen sumando horas; las horas se utilizan para dimensionar las Tasks y verificar que ninguna supere las 8 horas.
+ 
+#### 5.2.1.2. Aspect Leaders and Collaborators
+ 
+La Leadership-and-Collaboration Matrix (LACX) identifica, para cada aspecto del alcance del Sprint, quién actúa como **Leader (L)** y quiénes participan como **Collaborators (C)**. Para Sprint 1 se separa la responsabilidad sobre el Project Report de la responsabilidad sobre la implementación y el despliegue de la Landing Page. La distribución documental acordada por el equipo es: Marcelo en el Capítulo I, Alexandra en el Capítulo II, Leonardo en los Capítulos III y V, y Kevin junto con Alejandro en el Capítulo IV.
+ 
+<table>
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>GitHub Username</th>
+      <th>Capítulo I</th>
+      <th>Capítulo II</th>
+      <th>Capítulo III</th>
+      <th>Capítulo IV</th>
+      <th>Capítulo V</th>
+      <th>Landing Page Development</th>
+      <th>Deployment &amp; Evidence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Barrientos Quispe, Marcelo</td><td>MarceloBarrientosQuispe</td><td>L</td><td>—</td><td>—</td><td>—</td><td>—</td><td>C</td><td>C</td></tr>
+    <tr><td>Díaz Ramírez, Alejandro</td><td>aleedr</td><td>—</td><td>—</td><td>—</td><td>C</td><td>—</td><td>C</td><td>—</td></tr>
+    <tr><td>Geronimo Puma, Kevin Joel</td><td>qebim18</td><td>—</td><td>—</td><td>—</td><td>L</td><td>—</td><td>L</td><td>C</td></tr>
+    <tr><td>Lino Quispe, Leonardo Miguel</td><td>linolw</td><td>—</td><td>—</td><td>L</td><td>—</td><td>L</td><td>C</td><td>L</td></tr>
+    <tr><td>Meza Soza, Alexandra Yamile</td><td>AlexandraYMS</td><td>—</td><td>L</td><td>—</td><td>—</td><td>—</td><td>C</td><td>—</td></tr>
+  </tbody>
+</table>
+En el Capítulo IV, Kevin Geronimo y Alejandro Díaz trabajan de forma conjunta; Kevin figura como Leader únicamente para mantener la convención LACX de un responsable principal, y Alejandro como Collaborator directo. Esta distribución identifica responsabilidades del informe y del incremento del Sprint, y no reemplaza la asignación de Work-items del Sprint Backlog.
+ 
+#### 5.2.1.3. Sprint Backlog 1
+ 
+El objetivo del Sprint 1 es implementar y desplegar la primera versión responsive de la Landing Page de Rumbo. El Sprint Board público del equipo se encuentra en:
+ 
+**Sprint Board público:** [URL del board de Trello del equipo AIpaca-UPC]
+ 
+<table>
+<thead>
+<tr>
+<th>Sprint #</th>
+<th colspan="7">Sprint 1</th>
+</tr>
+<tr>
+<th colspan="2">User Story</th>
+<th colspan="6">Work-Item / Task</th>
+</tr>
+<tr>
+<th>Story Id</th>
+<th>Story Title</th>
+<th>Task Id</th>
+<th>Task Title</th>
+<th>Task Description</th>
+<th>Estimation (Hours)</th>
+<th>Assigned To</th>
+<th>Status<br>(To-do / In-Process / To-Review / Done)</th>
+</tr>
+</thead>
+<tbody>
+<tr><td rowspan="5">US31</td><td rowspan="5">Conocer la propuesta de valor de Rumbo</td><td>T01</td><td>Implement hero section</td><td>Construir la sección principal con la propuesta de valor del producto y la acción general de la Landing Page.</td><td>6</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td>T02</td><td>Implement service explanation</td><td>Construir la sección que explica cómo opera Rumbo durante un traslado y los hitos principales del servicio.</td><td>6</td><td>Alejandro Díaz</td><td>Done</td></tr>
+<tr><td>T03</td><td>Implement product showcase and demo action</td><td>Construir la sección de demostración del producto con las vistas del panel principal, seguimiento, notificaciones y gestión de rutas, junto con la acción de acceso directo a la demostración.</td><td>6</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td>T04</td><td>Implement team section</td><td>Construir la sección de presentación de los integrantes de la startup con su rol declarado dentro del proyecto.</td><td>4</td><td>Alejandro Díaz</td><td>Done</td></tr>
+<tr><td>T05</td><td>Implement responsive navigation</td><td>Implementar la navegación para Desktop y Mobile Web Browser, el menú responsive y los atributos ARIA de la barra de navegación.</td><td>5</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td rowspan="4">US32</td><td rowspan="4">Identificar los beneficios de mi segmento e ingresar a Rumbo</td><td>T06</td><td>Structure segment benefits</td><td>Organizar el contenido público para diferenciar los beneficios de padres/tutores y de conductores de movilidad escolar.</td><td>5</td><td>Alejandro Díaz</td><td>Done</td></tr>
+<tr><td>T07</td><td>Implement segment benefit sections</td><td>Implementar visualmente las secciones de beneficios correspondientes a cada segmento objetivo.</td><td>5</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td>T08</td><td>Implement segment call-to-action</td><td>Implementar las acciones diferenciadas de ingreso o registro para padre/tutor y para conductor.</td><td>5</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td>T09</td><td>Connect call-to-action to Web Application</td><td>Enlazar el call-to-action de cada segmento con la vista correspondiente de la Frontend Web Application. Depende de la publicación del Frontend, prevista para el Sprint 2.</td><td>4</td><td>Alejandro Díaz</td><td>To-do</td></tr>
+<tr><td rowspan="3">US33</td><td rowspan="3">Consultar el contenido en inglés o español</td><td>T10</td><td>Prepare English content resources</td><td>Preparar el recurso de traducción en_US del contenido público y mantenerlo como idioma predeterminado del sitio.</td><td>4</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td>T11</td><td>Prepare Latin American Spanish content resources</td><td>Preparar el recurso de traducción es_419 con el contenido equivalente de la Landing Page.</td><td>4</td><td>Alejandro Díaz</td><td>Done</td></tr>
+<tr><td>T12</td><td>Implement language selector</td><td>Implementar el control de cambio de idioma, la sustitución de contenido mediante claves de traducción y la persistencia de la preferencia durante la sesión.</td><td>5</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td rowspan="3">US34</td><td rowspan="3">Consultar los documentos legales del servicio</td><td>T13</td><td>Implement Terms of Service</td><td>Crear el contenido navegable de Terms of Service con las condiciones del servicio.</td><td>4</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td>T14</td><td>Implement Privacy Policy</td><td>Crear el contenido navegable de Privacy Policy, incluyendo el tratamiento de los datos de los estudiantes conforme a la Ley N.º 29733.</td><td>5</td><td>Alejandro Díaz</td><td>Done</td></tr>
+<tr><td>T15</td><td>Integrate legal navigation in footer</td><td>Enlazar Terms of Service y Privacy Policy desde el pie de página y verificar su acceso desde cualquier sección del sitio público.</td><td>4</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td rowspan="5">US35</td><td rowspan="5">Resolver dudas antes de usar Rumbo</td><td>T16</td><td>Implement FAQ content</td><td>Construir la sección de preguntas frecuentes con contenido dirigido a los dos segmentos objetivo.</td><td>5</td><td>Alejandro Díaz</td><td>Done</td></tr>
+<tr><td>T17</td><td>Implement FAQ interaction</td><td>Implementar el comportamiento de acordeón de la sección de preguntas frecuentes.</td><td>4</td><td>Alejandro Díaz</td><td>Done</td></tr>
+<tr><td>T18</td><td>Implement contact form UI</td><td>Construir el formulario público de contacto con sus campos obligatorios.</td><td>4</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td>T19</td><td>Implement contact form validation</td><td>Implementar la validación de campos obligatorios y los mensajes que indican qué información debe completarse.</td><td>4</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td>T20</td><td>Implement submission feedback</td><td>Implementar la confirmación visual del registro de una consulta válida.</td><td>4</td><td>Alejandro Díaz</td><td>Done</td></tr>
+<tr><td>N/A</td><td>General Sprint Constraint</td><td>S01</td><td>Publish Landing Page</td><td>Publicar la Landing Page mediante GitHub Pages y verificar que la URL pública sea accesible desde Desktop y Mobile Web Browser.</td><td>4</td><td>Leonardo Lino / Kevin Geronimo</td><td>Done</td></tr>
+<tr><td>N/A</td><td>General Sprint Constraint</td><td>S02</td><td>Register Sprint 1 evidence</td><td>Registrar las evidencias de desarrollo, ejecución y despliegue del Sprint, incluyendo capturas Desktop y Mobile y el video de navegación.</td><td>5</td><td>Leonardo Lino</td><td>In-Process</td></tr>
+</tbody>
+</table>
+Todas las User Stories del Sprint cumplen la regla de **mínimo dos Tasks por User Story** y ninguna Task supera las **8 horas** de estimación. Las Tasks **S01** y **S02** corresponden a constraints generales del Sprint, por lo que no generan Story Points y no se asocian a una User Story.
+ 
+Al cierre del Sprint 1 se completaron **6 de los 8 Story Points** comprometidos, correspondientes a **US31**, **US33**, **US34** y **US35**. La historia **US32 (2 SP)** no se considera terminada porque la Task **T09** requiere que la Frontend Web Application se encuentre publicada para enlazar el call-to-action de cada segmento con su vista correspondiente; dicha Task se traslada al Sprint 2 sin reestimar la historia. Este traslado se declara de forma explícita para que la velocidad registrada corresponda al trabajo efectivamente terminado y no al comprometido.
+ 
+#### 5.2.1.4. Development Evidence for Sprint Review
+ 
+La evidencia de implementación del Sprint 1 se conserva en el repositorio `AIpaca-UPC/landing-page`, cuyo historial registra los commits de construcción de la Landing Page, la incorporación de la sección de demostración del producto, la sección de equipo y el mecanismo de internacionalización.
+ 
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body / alcance | Committed on |
+|---|---|---|---|---|---|
+| | | | | | |
+ 
+**URL del repositorio:** https://github.com/AIpaca-UPC/landing-page
+ 
+#### 5.2.1.5. Execution Evidence for Sprint Review
+ 
+La evidencia de ejecución del Sprint 1 se presenta mediante capturas de la **Landing Page de Rumbo** publicada en **https://aipaca-upc.github.io/landing-page/** (repositorio: [AIpaca-UPC/landing-page](https://github.com/AIpaca-UPC/landing-page)). Las capturas registran la propuesta de valor, las secciones de beneficios por segmento, la demostración del producto, los planes, las preguntas frecuentes y la presentación del equipo. Constituyen evidencia del alcance implementado en la Landing Page y no de funcionamiento de Web Services, que no forman parte de este Sprint.
+ 
+**Internacionalización (i18n) — US33.** Las Figuras **5.S1-01** y **5.S1-02** presentan el mismo bloque principal en **inglés** y en **español**, con el selector de idioma visible. La implementación utiliza un mecanismo de traducción por claves que sustituye el contenido de los elementos marcados y conserva la preferencia del visitante durante la sesión. Esta evidencia se relaciona con **US33: Consultar el contenido en inglés o español** y con el requisito de **Internationalization (i18n)** del Final Project Statement, que establece **English (en_US)** y **Latin American Spanish (es_419)** como idiomas de referencia, con **inglés como idioma predeterminado**.
+ 
+**Demostración del producto — US31.** Las Figuras **5.S1-04** a **5.S1-07** corresponden a la sección de demostración incorporada durante el Sprint, accesible desde su acción directa en la navegación. Esta sección presenta las vistas previstas de la Frontend Web Application con fines informativos; no constituye evidencia de funcionamiento del Frontend, cuya primera versión corresponde al Sprint 2.
+ 
+**Presentación del equipo.** La Figura **5.S1-10** corresponde a la sección de equipo incorporada durante el Sprint, que presenta a los integrantes de AIpaca y su rol declarado en el proyecto.
+ 
+##### Capturas de la Landing Page — Sprint 1
+ 
+<div align="center">
+  <img src="./assets/chapter5/landing-1.png" alt="Sección principal de la Landing Page de Rumbo en inglés, con la propuesta de valor y el selector de idioma." width="90%">
+  <p><em>Figura 5.S1-01. Sección principal de la Landing Page en inglés (en_US), idioma predeterminado, con el selector de idioma.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter5/landing-2.png" alt="Sección principal de la Landing Page de Rumbo en español, versión equivalente del contenido." width="90%">
+  <p><em>Figura 5.S1-02. Sección principal de la Landing Page en español latinoamericano (es_419) tras el cambio de idioma.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter5/landing-3.png" alt="Secciones de beneficios por segmento objetivo y explicación del funcionamiento del servicio." width="90%">
+  <p><em>Figura 5.S1-03. Secciones de beneficios diferenciados por segmento objetivo y explicación del funcionamiento del servicio.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter5/landing-4.png" alt="Sección de demostración del producto: vista del panel principal de Rumbo." width="90%">
+  <p><em>Figura 5.S1-04. Sección de demostración del producto: vista del panel principal.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter5/landing-5.png" alt="Sección de demostración del producto: vista de seguimiento del viaje." width="90%">
+  <p><em>Figura 5.S1-05. Sección de demostración del producto: vista de seguimiento del viaje.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter5/landing-6.png" alt="Sección de demostración del producto: vista de notificaciones." width="90%">
+  <p><em>Figura 5.S1-06. Sección de demostración del producto: vista de notificaciones.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter5/landing-7.png" alt="Sección de demostración del producto: vista de gestión de rutas." width="90%">
+  <p><em>Figura 5.S1-07. Sección de demostración del producto: vista de gestión de rutas.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter5/landing-8.png" alt="Sección de planes de suscripción e indicadores del servicio." width="90%">
+  <p><em>Figura 5.S1-08. Sección de planes de suscripción e indicadores presentados en la Landing Page.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter5/landing-9.png" alt="Preguntas frecuentes, llamada a la acción final y pie de página con los enlaces legales." width="90%">
+  <p><em>Figura 5.S1-09. Preguntas frecuentes, llamada a la acción final y pie de página con los enlaces a los documentos legales.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter5/landing-10.png" alt="Sección de presentación del equipo de AIpaca con sus integrantes." width="90%">
+  <p><em>Figura 5.S1-10. Sección de presentación del equipo de AIpaca y sus integrantes.</em></p>
+</div>
+ 
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+ 
+El Sprint 1 no incluye Web Services dentro de su alcance. La Landing Page se implementa con HTML5, CSS3 y JavaScript, sin consumo de servicios propios, por lo que no corresponde documentación OpenAPI en esta iteración. La documentación del RESTful API con **OpenAPI vía Swagger** se incorpora en el Sprint en el que se implementen los Web Services con ASP.NET Core, según lo previsto en el Product Backlog mediante la Technical Story **TS06**.
+ 
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+ 
+Durante el Sprint 1 se realizó la primera publicación de la Landing Page. El proceso consistió en habilitar GitHub Pages sobre el repositorio `AIpaca-UPC/landing-page`, definir la rama de publicación y el punto de entrada del sitio, y verificar la accesibilidad de la URL pública resultante desde Desktop y Mobile Web Browser.
+ 
+| Configuración | Valor |
+|---|---|
+| Repository | `AIpaca-UPC/landing-page` |
+| Branch publicada | `main` |
+| Entry point | `index.html` |
+| Proveedor de despliegue | GitHub Pages |
+| URL pública | https://aipaca-upc.github.io/landing-page/ |
+ 
+<div align="center">
+  <img src="./assets/chapter05/deploy-pages-settings.png" alt="Configuración de GitHub Pages del repositorio landing-page mostrando la rama publicada y la URL pública activa." width="90%">
+  <p><em>Figura 5.S1-12. Configuración de GitHub Pages del repositorio <code>AIpaca-UPC/landing-page</code> con el despliegue vigente.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter05/deploy-public-site.png" alt="Landing Page de Rumbo accesible en su URL pública desde el navegador." width="90%">
+  <p><em>Figura 5.S1-13. Landing Page accesible en su URL pública, con la barra de direcciones visible.</em></p>
+</div>
 
-### 5.2.X. Sprint n
-
-#### 5.2.X.1. Sprint Planning n
-
-#### 5.2.X.2. Aspect Leaders and Collaborators
-
-#### 5.2.X.3. Sprint Backlog n
-
-#### 5.2.X.4. Development Evidence for Sprint Review
-
-#### 5.2.X.5. Execution Evidence for Sprint Review
-
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review
-
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review
-
-#### 5.2.X.8. Team Collaboration Insights during Sprint
-
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+ 
+La colaboración del equipo durante el Sprint 1 se evidencia mediante los insights del repositorio de la Landing Page, que registran la distribución de commits por integrante y la evolución de las ramas durante la iteración.
+ 
+- **Commits:** https://github.com/AIpaca-UPC/landing-page/commits/main/
+- **Contributors:** https://github.com/AIpaca-UPC/landing-page/graphs/contributors
+- **Network:** https://github.com/AIpaca-UPC/landing-page/network
+<div align="center">
+  <img src="./assets/chapter05/insights-commits.png" alt="Gráfico de commits del repositorio landing-page durante el Sprint 1." width="90%">
+  <p><em>Figura 5.S1-14. Actividad de commits del repositorio <code>AIpaca-UPC/landing-page</code> durante el Sprint 1.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter05/insights-contributors.png" alt="Gráfico de contributors del repositorio landing-page durante el Sprint 1." width="90%">
+  <p><em>Figura 5.S1-15. Contribuciones por integrante en el repositorio <code>AIpaca-UPC/landing-page</code>.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter05/insights-network.png" alt="Grafo de red de ramas del repositorio landing-page durante el Sprint 1." width="90%">
+  <p><em>Figura 5.S1-16. Grafo de ramas e integraciones del repositorio <code>AIpaca-UPC/landing-page</code>.</em></p>
+</div>
+El análisis de estos insights permitió al equipo verificar que la implementación de la Landing Page se concentró en los responsables declarados en la matriz LACX y que la integración de cambios se realizó sobre la rama de publicación conforme al flujo adoptado en la sección 5.1.2.
+ 
+### 5.2.2. Sprint 2
+ 
+El Sprint 2 tiene como alcance la **primera versión de la Frontend Web Application** de Rumbo, implementada con Vue 3, PrimeVue y Axios, organizada por Bounded Context y soportada por persistencia emulada remota mientras el RESTful API propio no se encuentre desplegado. Incluye además la Task **T09** trasladada desde el Sprint 1, que enlaza el call-to-action de cada segmento de la Landing Page con la vista correspondiente de la aplicación.
+ 
+#### 5.2.2.1. Sprint Planning 2
+ 
+#### 5.2.2.2. Aspect Leaders and Collaborators
+ 
+#### 5.2.2.3. Sprint Backlog 2
+ 
+#### 5.2.2.4. Development Evidence for Sprint Review
+ 
+#### 5.2.2.5. Execution Evidence for Sprint Review
+ 
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+ 
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+ 
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+ 
 ## 5.3. Validation Interviews
-
+ 
+Esta sección presenta las entrevistas de validación realizadas sobre la versión implementada del producto con participantes de los dos segmentos objetivo, junto con la evaluación de la experiencia según heurísticas de usabilidad. Su contenido corresponde a una entrega posterior, una vez que la Frontend Web Application cuente con los flujos necesarios para ser evaluada por usuarios.
+ 
 ### 5.3.1. Diseño de Entrevistas
-
+ 
 ### 5.3.2. Registro de Entrevistas
-
+ 
 ### 5.3.3. Evaluaciones según heurísticas
-
+ 
 ## 5.4. Video About-the-Product
-
----
+ 
+Esta sección presenta el video promocional del producto, con una duración de entre uno y tres minutos, que incluye al menos una opinión por cada segmento objetivo y se incrusta en una sección de la Landing Page. Su contenido corresponde a una entrega posterior.
 
 # Conclusiones
 
