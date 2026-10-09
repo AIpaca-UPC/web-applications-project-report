@@ -609,7 +609,7 @@ El análisis competitivo se desarrolla mediante el **Competitive Analysis Landsc
     </tr>
     <tr>
       <th>Ventaja competitiva / ¿Qué valor ofrece a los clientes?</th>
-      <td>Comunica hitos confirmados por el conductor en lugar de ubicación continua, lo que reduce la exposición de datos del menor. Es la única plataforma especializada del análisis que no requiere la participación de un colegio: el conductor independiente administra su propia ruta, sus familias y su suscripción.</td>
+      <td>Experiencia enfocada inicialmente en padres/tutores y conductores, con información estructurada del traslado y un historial de eventos que reduce la dependencia de consultas repetitivas.</td>
       <td>Oferta madura e integrada: seguimiento en tiempo real, registro de subida y bajada, alertas, reservas, pagos, administración y reportes dentro de una misma suite.</td>
       <td>Seguimiento en tiempo real, avisos sobre imprevistos, control de inasistencias, información de abordaje y herramientas específicas para la operación de rutas escolares.</td>
       <td>Familiaridad de uso, amplia presencia en los teléfonos de los usuarios y posibilidad de comunicarse o consultar navegación sin adoptar inicialmente una plataforma adicional.</td>
@@ -624,7 +624,7 @@ El análisis competitivo se desarrolla mediante el **Competitive Analysis Landsc
     </tr>
     <tr>
       <th>Estrategias de marketing</th>
-      <td>Captación directa del conductor independiente, que al adoptar Rumbo incorpora a las familias de su propia ruta: cada conductor convertido trae consigo entre diez y veinte tutores sin costo de adquisición adicional. La difusión se apoya en redes sociales locales y demostraciones presenciales en puntos de concentración de movilidades escolares.</td>
+      <td>Propuesta centrada en simplificar la coordinación entre los dos segmentos iniciales y reducir la comunicación manual mediante una experiencia web responsive.</td>
       <td>Comercialización orientada a instituciones mediante demostraciones, paquetes de servicio y posibilidades de personalización de la experiencia para cada organización.</td>
       <td>Adopción vinculada a instituciones y operadores de transporte, con una propuesta multirrol y un plan de prueba piloto comunicado desde su sitio oficial.</td>
       <td>No existe una estrategia única de transporte escolar: la adopción deriva principalmente de la presencia y utilidad general de cada aplicación.</td>
@@ -638,12 +638,12 @@ El análisis competitivo se desarrolla mediante el **Competitive Analysis Landsc
       <td>Chats, llamadas, envío de mensajes, ubicación compartida y navegación. La información queda repartida entre herramientas y conversaciones diferentes.</td>
     </tr>
     <tr>
-  <th>Precios &amp; Costos</th>
-  <td>Modelo SaaS con cobro al prestador del servicio: acceso gratuito para padres y tutores, y suscripción mensual para el conductor, que es quien obtiene el ahorro operativo. El usuario final no asume costo alguno. El rango de precio se validará durante el piloto.</td>
-  <td>Comercialización por paquetes dirigidos a instituciones, sin tarifa pública general. La ausencia de un precio abierto y de contratación directa indica un modelo B2B negociado caso por caso con cada organización.</td>
-  <td>Servicio comercial vinculado a la institución o al operador de la ruta. No publica planes de contratación individual, lo que sitúa la decisión de compra en el colegio y no en el conductor ni en la familia.</td>
-  <td>No requieren una licencia específica de transporte escolar; el usuario puede tener costos asociados a conectividad o a las condiciones generales de cada servicio.</td>
-</tr>
+      <th>Precios &amp; Costos</th>
+      <td>El modelo SaaS constituye una hipótesis del proyecto; el precio y las condiciones comerciales todavía requieren validación.</td>
+      <td>Dispone de paquetes comerciales para instituciones. En este análisis no se asigna un precio concreto porque no se ha verificado uno aplicable de manera general.</td>
+      <td>Servicio comercial para instituciones y usuarios vinculados a la ruta. En las fuentes consultadas no se verificó un precio público general aplicable a todos los clientes.</td>
+      <td>No requieren una licencia específica de transporte escolar; el usuario puede tener costos asociados a conectividad o a las condiciones generales de cada servicio.</td>
+    </tr>
     <tr>
       <th>Canales de distribución (Web y/o Móvil)</th>
       <td>Landing Page y Frontend Web Application responsive.</td>
@@ -654,14 +654,14 @@ El análisis competitivo se desarrolla mediante el **Competitive Analysis Landsc
     <tr>
       <th rowspan="4">Análisis SWOT</th>
       <th>Fortalezas</th>
-      <td>Enfoque concreto en los dos segmentos iniciales; estructura de eventos del viaje que permite reconstruir cualquier traslado; experiencia responsive accesible desde navegador sin instalación. El valor del MVP se sostiene sobre hitos confirmados y no sobre GPS continuo, ETA dinámico ni geofencing, lo que reduce el costo de infraestructura y la exposición de datos del menor.</td>
+      <td>Enfoque concreto en los dos segmentos iniciales de Rumbo; estructura de eventos del viaje; experiencia responsive; el valor del MVP no depende de GPS continuo, ETA dinámico o geofencing.</td>
       <td>Suite especializada consolidada, múltiples aplicaciones por rol, seguimiento en tiempo real, registro de pasajeros, administración, reportes, reservas y pagos.</td>
       <td>Especialización en rutas escolares, ubicación en tiempo real, notificaciones de eventos, gestión de inasistencias y coordinación entre varios roles.</td>
       <td>Alta familiaridad, disponibilidad inmediata y flexibilidad para mensajería, llamadas, navegación y ubicación compartida.</td>
     </tr>
     <tr>
       <th>Debilidades</th>
-      <td>Producto nuevo y sin base instalada. La calidad de la información depende de que el conductor registre los hitos durante la jornada, por lo que la adopción del segmento conductor condiciona el valor percibido por las familias. No ofrece validación institucional de credenciales, respaldo con el que sí cuentan las soluciones vinculadas a un colegio.</td>
+      <td>Producto nuevo y sin base instalada; varias capacidades todavía deben implementarse y validarse; el MVP actual no contempla como requisito GPS continuo, ETA dinámico ni geofencing.</td>
       <td>Su propuesta está orientada principalmente a instituciones y operaciones de transporte organizadas, por lo que puede resultar más amplia que las necesidades iniciales de una relación directa conductor–familia.</td>
       <td>La propuesta articula colegio, coordinadores, monitores y conductores, por lo que su adopción está fuertemente vinculada a una operación institucional o de ruta ya organizada.</td>
       <td>Información fragmentada, historial difícil de estructurar, ausencia de un ciclo de vida propio del viaje y necesidad de repetir comunicaciones manualmente.</td>
@@ -683,11 +683,10 @@ El análisis competitivo se desarrolla mediante el **Competitive Analysis Landsc
   </tbody>
 </table>
 
-**Fuentes consultadas para contrastar las capacidades de los competidores:**
-
-- SchoolBusTracker: https://www.schoolbustrackerapp.com/
-- Bus esCool: https://busescool.com/
-- WhatsApp Brand Resources: https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/
+**Fuentes consultadas para contrastar las capacidades de los competidores:**  
+- SchoolBusTracker: https://www.schoolbustrackerapp.com/  
+- Bus esCool: https://busescool.com/  
+- WhatsApp Brand Resources: https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/  
 - Waze: https://www.waze.com/
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
@@ -740,11 +739,11 @@ Para organizar las estrategias y tácticas preliminares de **Rumbo** frente a la
 
 #### Matriz CAME
 
-| Estrategia                     | Tácticas preliminares de Rumbo                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **C — Corregir Debilidades**   | Validar progresivamente el MVP con ambos segmentos objetivo para mejorar usabilidad y confianza. Mantener claramente delimitado el alcance actual y evaluar GPS continuo, ETA dinámico y geofencing únicamente como evolución posterior si la validación demuestra su necesidad. Reforzar onboarding, autorizaciones y manejo de información de menores para reducir barreras de adopción.                                                               |
-| **A — Afrontar Amenazas**      | Diferenciarse de las soluciones especializadas mediante una experiencia más acotada a la coordinación directa entre conductor y familia. Frente a WhatsApp, llamadas y navegación, demostrar el valor de disponer de estados, hitos, retrasos e incidencias en un registro estructurado. Evitar competir mediante funcionalidades que todavía no están implementadas y sostener la propuesta sobre capacidades verificables del producto.                |
-| **M — Mantener Fortalezas**    | Conservar el enfoque en los dos segmentos definidos, la estructura cronológica de eventos del viaje y la centralización de información relevante. Mantener una experiencia responsive y consistente entre las vistas destinadas a conductores y padres/tutores. Preservar las reglas de autorización y privacidad previstas por el proyecto.                                                                                                             |
+| Estrategia | Tácticas preliminares de Rumbo |
+|---|---|
+| **C — Corregir Debilidades** | Validar progresivamente el MVP con ambos segmentos objetivo para mejorar usabilidad y confianza. Mantener claramente delimitado el alcance actual y evaluar GPS continuo, ETA dinámico y geofencing únicamente como evolución posterior si la validación demuestra su necesidad. Reforzar onboarding, autorizaciones y manejo de información de menores para reducir barreras de adopción. |
+| **A — Afrontar Amenazas** | Diferenciarse de las soluciones especializadas mediante una experiencia más acotada a la coordinación directa entre conductor y familia. Frente a WhatsApp, llamadas y navegación, demostrar el valor de disponer de estados, hitos, retrasos e incidencias en un registro estructurado. Evitar competir mediante funcionalidades que todavía no están implementadas y sostener la propuesta sobre capacidades verificables del producto. |
+| **M — Mantener Fortalezas** | Conservar el enfoque en los dos segmentos definidos, la estructura cronológica de eventos del viaje y la centralización de información relevante. Mantener una experiencia responsive y consistente entre las vistas destinadas a conductores y padres/tutores. Preservar las reglas de autorización y privacidad previstas por el proyecto. |
 | **E — Explotar Oportunidades** | Orientar la adopción hacia casos donde la coordinación actual depende de mensajes o llamadas repetitivas. Posicionar a Rumbo como una alternativa estructurada para registrar y consultar el estado del traslado sin requerir una plataforma completa de administración de flotas. Priorizar en la experiencia las funcionalidades que cubren directamente los vacíos detectados: hitos del viaje, retrasos, incidencias, notificaciones y trazabilidad. |
 
 ## 2.2. Entrevistas
@@ -755,24 +754,9 @@ Se realizaron **seis entrevistas en total: tres por cada segmento**, de acuerdo 
 
 ### 2.2.1. Diseño de entrevistas
 
-#### Aristas de la investigación
+Las preguntas combinan información demográfica y contextual con preguntas abiertas sobre comportamientos reales. Durante la entrevista se priorizará que el participante describa experiencias concretas antes de presentar posibles funcionalidades de Rumbo, con el fin de reducir el sesgo de confirmación y detectar necesidades que el equipo todavía no haya considerado.
 
-Las entrevistas se diseñaron como **semiestructuradas**: cada ítem del guion plantea un tema a explorar y el entrevistador profundiza con repreguntas según lo que el participante relata, por lo que varios ítems agrupan deliberadamente más de un aspecto de una misma arista. El guion se organizó en seis aristas derivadas de los Assumptions formulados en el Lean UX Process, de modo que los hallazgos puedan contrastarse directamente contra los supuestos declarados.
-
-| #   | Arista                                       | Qué busca establecer                                                                                                                       | Padres/Tutores | Conductores  |
-| --- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------- | ------------ |
-| A1  | Contexto y perfil del usuario                | Quién es, dónde opera, con qué frecuencia participa del servicio y con qué herramientas digitales está familiarizado.                      | 1, 2, 3        | 1, 2, 3      |
-| A2  | Proceso actual de coordinación               | Cómo se organiza hoy el recojo, el traslado y el retorno, y por qué medios se confirma cada hito.                                          | 4, 5           | 4, 5         |
-| A3  | Fricciones, imprevistos e incertidumbre      | Qué falla durante el recorrido, cómo se resuelve y en qué momentos la falta de información pesa más.                                       | 6, 7           | 6            |
-| A4  | Carga de comunicación                        | Volumen, motivo y repetición de los intercambios entre familias y conductor, y qué parte de esa carga es evitable.                         | 8              | 7            |
-| A5  | Privacidad, confianza y tratamiento de datos | Qué información se considera sensible y qué condiciones debe cumplir una plataforma para merecer confianza.                                | 10             | 10           |
-| A6  | Condiciones y barreras de adopción           | Qué tendría que ofrecer una herramienta para usarse de forma recurrente, qué la haría abandonarse y en qué momentos su uso resulta viable. | 9, 11, 12      | 8, 9, 11, 12 |
-
-Las aristas A2, A3 y A4 indagan sobre comportamiento ya ocurrido y se ubicaron al inicio del guion para que el participante describa situaciones concretas antes de considerar cualquier funcionalidad. Las aristas A5 y A6 recogen criterios de decisión y se dejaron para el tramo final, de modo que no condicionen las respuestas anteriores.
-
-Las preguntas combinan información demográfica y contextual con preguntas abiertas sobre comportamientos reales. Durante la entrevista se priorizó que el participante describa experiencias concretas antes de presentar posibles funcionalidades de Rumbo, con el fin de reducir el sesgo de confirmación y detectar necesidades que el equipo todavía no haya considerado.
-
-#### Preguntas dirigidas al primer segmento — Padres y tutores
+### Preguntas dirigidas al primer segmento — Padres y tutores
 
 1. ¿Cuál es tu nombre completo, edad, ocupación y distrito de residencia?
 2. ¿Qué relación tienes con el menor que utiliza movilidad escolar, qué edad tiene y con qué frecuencia utiliza este servicio?
@@ -787,7 +771,7 @@ Las preguntas combinan información demográfica y contextual con preguntas abie
 11. ¿Qué tendría que ofrecer una herramienta digital para que confíes en ella y la utilices con frecuencia, y qué dificultades podrían hacer que dejaras de usarla?
 12. Si pudieras cambiar una sola cosa de la forma en que hoy se coordina la movilidad escolar, ¿qué cambiarías y por qué?
 
-#### Preguntas dirigidas al segundo segmento — Conductores de movilidad escolar
+### Preguntas dirigidas al segundo segmento — Conductores de movilidad escolar
 
 1. ¿Cuál es tu nombre completo, edad, ocupación, distrito de residencia y cuántos años de experiencia tienes realizando transporte escolar?
 2. ¿Cuántos estudiantes y rutas manejas normalmente durante una jornada de trabajo?
@@ -802,75 +786,75 @@ Las preguntas combinan información demográfica y contextual con preguntas abie
 11. ¿Qué tendría que ofrecer una herramienta digital para que la utilices de manera recurrente y qué barreras podrían impedir que la adoptes?
 12. Si pudieras mejorar una sola parte de la coordinación con padres y tutores, ¿cuál sería y por qué?
 
-**Limitaciones del instrumento.** La pregunta 9 del primer segmento recoge expectativas declaradas y no comportamiento observado, por lo que sus respuestas se interpretaron como indicio de prioridad y no como evidencia de uso. Esta distinción se mantiene en el análisis de la sección 2.2.3: los hallazgos relativos a la ubicación en tiempo real se contrastaron contra lo que los entrevistados describieron hacer actualmente, y no únicamente contra lo que declararon preferir.
-
 ### 2.2.2. Registro de entrevistas
 
 Para cada entrevista se registra nombre completo, edad, distrito, segmento, captura, URL del video, timing, duración y resumen descriptivo. Actualmente se cuenta con **seis entrevistas registradas: tres del segmento Padres/Tutores y tres del segmento Conductores de movilidad escolar**, cumpliendo el mínimo requerido para ambos segmentos.
 
-|   # | Entrevistado                   | Edad | Distrito        | Segmento    | Duración | Referencia                                                    |
-| --: | ------------------------------ | ---: | --------------- | ----------- | :------- | ------------------------------------------------------------- |
-|   1 | Gisela Paola Santi Quispe      |   45 | San Miguel      | Padre/Tutor | 12:55    | [Entrevista 1](#entrevista-1--gisela-paola-santi-quispe)      |
-|   2 | Marleny Nori Padilla Aguirre   |   47 | Cercado de Lima | Padre/Tutor | 15:32    | [Entrevista 2](#entrevista-2--marleny-nori-padilla-aguirre)   |
-|   3 | Leonel Adrián Mitma Garro      |   24 | Callao          | Padre/Tutor | 7:43     | [Entrevista 3](#entrevista-3--leonel-adrián-mitma-garro)      |
-|   4 | Gabriel Alexandro Sosa Guevara |   20 | Los Olivos      | Conductor   | 09:51    | [Entrevista 4](#entrevista-4--gabriel-alexandro-sosa-guevara) |
-|   5 | Brayan Solorzano Pineda        |   25 | Pueblo Libre    | Conductor   | 09:05    | [Entrevista 5](#entrevista-5--brayan-solorzano-pineda)        |
-|   6 | Vilma Hoyos Martinez           |   56 | San Miguel      | Conductor   | 18:14    | [Entrevista 6](#entrevista-6--vilma-hoyos-martinez)           |
+| # | Entrevistado | Edad | Distrito | Segmento | Duración | Referencia |
+| -: | ----------- | ---: | -------- | -------- | :-----   | ---------- |
+|  1 | Gisela Paola Santi Quispe | 45 | San Miguel | Padre/Tutor | 12:55 | [Entrevista 1](#entrevista-1--gisela-paola-santi-quispe) |
+|  2 | Marleny Nori Padilla Aguirre | 47 | Cercado de Lima | Padre/Tutor | 15:32 | [Entrevista 2](#entrevista-2--marleny-nori-padilla-aguirre) |
+|  3 | Leonel Adrián Mitma Garro | 24 | Callao | Padre/Tutor | 7:43 | [Entrevista 3](#entrevista-3--leonel-adrián-mitma-garro) |
+|  4 | Gabriel Alexandro Sosa Guevara | 20 | Los Olivos | Conductor | 09:51 | [Entrevista 4](#entrevista-4--gabriel-alexandro-sosa-guevara) |
+|  5 | Brayan Solorzano Pineda | 25 | Pueblo Libre | Conductor | 09:05 | [Entrevista 5](#entrevista-5--brayan-solorzano-pineda) |
+|  6 | Vilma Hoyos Martinez | 56 | San Miguel | Conductor | 18:14 | [Entrevista 6](#entrevista-6--vilma-hoyos-martinez) |
 
-#### Entrevista 1 — Gisela Paola Santi Quispe
+## Entrevista 1 — Gisela Paola Santi Quispe
 
 - **Edad:** 45 años.
 - **Ocupación / segmento:** Padre o tutor de familia.
-- **Edad del menor:** 12 años y 6 años
+- **Edad del menor:** 12 años y  6 años
 - **Distrito:** San Miguel.
 - **Frecuencia de uso:** 2 días a la semana.
-- **Duración:** 12:55. 
 - **Timing de inicio:** 00:00.
 - **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQAidRav7C7uTanDv_bGmDR7AelCr3B6zxh1HNJcxzSEYkY?e=jnKSeK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 <p align="center"><img width="1433" height="657" alt="image" src="./assets/chapter02/interview-gisela-santi.png" /></p>
 
-**Resumen:**
+**Resumen:** 
 
-Gisela Santi, de 45 años, reside en San Miguel y utiliza el servicio de movilidad escolar dos días por semana para dos menores de 6 y 12 años. Coordinar a dos estudiantes de edades distintas en una misma jornada es lo que caracteriza su uso del servicio: depende por completo de WhatsApp para saber en qué punto del recorrido se encuentra cada uno, y es por ese canal que el conductor le envía mensajes y actualizaciones.
+Paola Santi es una madre de familia de 45 años de edad que reside en el distrito de San Miguel. Utiliza el servicio de movilidad escolar de forma moderada, aproximadamente dos veces a la semana, para sus hijos de 6 y 12 años que asisten a la escuela.
 
-No ha experimentado retrasos ni complicaciones con el servicio. Su preocupación no está en la operación sino en la información: lo que más le inquieta es el nivel de privacidad sobre la ubicación de sus menores y los datos del conductor, a quien considera que debe conocer con certeza antes de confiarle el traslado. Condiciona el uso de cualquier herramienta digital al tratamiento que esta haga de esa información.
+Para comunicarse con el chófer o el tutor, usa WhatsApp, medio por el cual se envían mensajes y actualizaciones del conductor.
 
-#### Entrevista 2 — Marleny Nori Padilla Aguirre
+Paola opina que lo que más le preocupa es el nivel de privacidad con respecto a la ubicación de sus menores, así como la información del chofer, siendo fundamental que este sea de confianza absoluta.
+
+## Entrevista 2 — Marleny Nori Padilla Aguirre
 
 - **Edad:** 47 años.
 - **Ocupación / segmento:** Padre o tutor de familia.
 - **Edad del menor:** 14 años.
 - **Distrito:** Cercado de Lima.
 - **Frecuencia de uso:** 1 día a la semana.
-- **Duración:** 15:32.           
 - **Timing de inicio:** 00:00.
 - **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQBZEYrCvz0UTYUAl1mpybc0AY7AkjTMQVY_AlCxp-8OP34?e=nc6MsX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
+  
 <p align="center"><img width="1433" height="657" alt="image" src="./assets/chapter02/interview-marleny-padilla.png" /></p>
   
-**Resumen:**
+**Resumen:** 
 
-Marleny Padilla, de 47 años, es ama de casa y reside en Cercado de Lima. Utiliza el servicio con baja frecuencia —un día por semana— para su hija de 14 años, que cursa secundaria. Al permanecer en casa durante la jornada, su coordinación se concentra en los momentos de salida y retorno, y se apoya íntegramente en WhatsApp, por donde recibe los mensajes y las actualizaciones de ubicación del conductor.
+Marleny Padilla es una madre de familia y ama de casa de 47 años de edad que reside en el distrito de Cercado de Lima. Utiliza el servicio de movilidad escolar con baja frecuencia para su hija de 14 años que asiste a una escuela secundaria.
 
-Tampoco ha enfrentado retrasos ni incidentes con el servicio. Su reserva coincide con la de la entrevistada anterior, y la coincidencia resulta significativa: pese a tratarse de una adolescente y no de una niña pequeña, la privacidad de la ubicación y la identidad del conductor siguen siendo su principal condición para adoptar una plataforma. La edad del estudiante no reduce la exigencia de confianza.
+Para comunicarse con el tutor o el chófer, usa WhatsApp, medio por el cual se envían mensajes y actualizaciones de ubicación.
 
-#### Entrevista 3 — Leonel Adrián Mitma Garro
+Marleny opina que lo que más le preocupa es el nivel de privacidad con respecto a la ubicación de su menor, así como la información del chofer, siendo fundamental que este sea de confianza absoluta.
+
+## Entrevista 3 — Leonel Adrián Mitma Garro
 
 - **Edad:** 24 años.
 - **Ocupación / segmento:** Padre o tutor de familia.
 - **Edad del menor:** 6 años.
 - **Distrito:** Callao.
 - **Frecuencia de uso:** 5 días a la semana.
-- **Duración:** 07:43.         
 - **Timing de inicio:** 00:00.
 - **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423163_upc_edu_pe/IQAiG1Qiytv5T7nH1uVETjB1AbaTGE1RMaOf4cY4BH8dFkE?e=9F3PT4
-
-  <p align="center"><img width="1433" height="657" alt="image" src="./assets/chapter02/leonel-entrevista.png" /></p>
-
+  
+  <p align="center"><img width="1433" height="657" alt="image" src="https://github.com/user-attachments/assets/b7505480-b81b-4072-b269-6384d712d131" /> </p>
+  
 **Resumen:** Leonel Adrián es un padre de familia de 24 años que reside en el distrito del Callao. Utiliza el servicio de movilidad escolar cinco días a la semana para que su hijo de 6 años asista al nido. Para comunicarse con el conductor, emplea principalmente WhatsApp. Por este medio, el chófer envía fotografías al grupo de padres como evidencia de que los niños han llegado a su destino, lo cual le genera tranquilidad. A pesar de no haber experimentado retrasos ni complicaciones con el servicio, Adrián admite sentir cierta incertidumbre durante el trayecto de su hijo debido a la inseguridad ciudadana que hay en su distrito. Si se implementara una herramienta digital para el servicio, considera que lo más útil sería poder visualizar la ubicación exacta del vehículo en tiempo real. Además, mencionó que sería ideal contar con cámaras de seguridad, aunque es consciente de que sería difícil de implementar. Por el momento, Adrián se encuentra completamente satisfecho con el servicio, siente que todo va acorde y no realizaría ningún cambio en la forma actual de coordinación.
 
-#### Entrevista 4 — Gabriel Alexandro Sosa Guevara
+
+## Entrevista 4 — Gabriel Alexandro Sosa Guevara
 
 - **Edad:** 20 años.
 - **Ocupación / segmento:** Conductor de movilidad escolar.
@@ -884,7 +868,7 @@ Tampoco ha enfrentado retrasos ni incidentes con el servicio. Su reserva coincid
 
 **Resumen:** Gabriel cuenta con 2 años de experiencia realizando transporte escolar. Utiliza diariamente su teléfono para trabajar y principalmente usa WhatsApp para comunicarse con las familias y Google Maps para organizar sus rutas. Comenta que uno de los problemas que presenta es tener la información fragmentada en distintos chats, lo que hace poco práctico buscar entre conversaciones para verificar si un estudiante será recogido o consultar la dirección de un punto de llegada alternativo. Además, menciona que es repetitivo responder diariamente las preguntas de los padres sobre cuánto falta para que llegue su hijo, si la movilidad se encuentra cerca o si el estudiante se encuentra bien, ya que esto puede distraerlo mientras conduce. También considera que, en caso de utilizar una aplicación, esta debería ser fácil y rápida de utilizar para no quitarle tiempo durante la conducción. Entre las funcionalidades que considera útiles se encuentran una lista de alumnos, el orden de recojo y la posibilidad de registrar rápidamente cuándo recoge o entrega a un estudiante. Asimismo, le gustaría que los padres puedan visualizar el estado de la ruta y su ubicación para mantenerse informados sin necesidad de comunicarse constantemente con él.
 
-#### Entrevista 5 — Brayan Solorzano Pineda
+## Entrevista 5 — Brayan Solorzano Pineda
 
 - **Edad:** 25 años.
 - **Ocupación / segmento:** Conductor de movilidad escolar.
@@ -898,7 +882,7 @@ Tampoco ha enfrentado retrasos ni incidentes con el servicio. Su reserva coincid
 
 **Resumen:** Brayan cuenta con 5 años de experiencia en el rubro. Comenzó trabajando en transporte personal, pero luego se trasladó al rubro del transporte escolar. Utiliza un grupo de WhatsApp para enviar avisos a los padres; sin embargo, los tutores prefieren escribirle por privado. Además, utiliza Waze para evitar el tráfico y el calendario de su teléfono para recordar horarios especiales. Ha tenido problemas para recordar cambios en las rutas debido a modificaciones en el recojo de un alumno, especialmente porque varios padres le escriben. Diariamente, los padres también le preguntan si ya se encuentra cerca o si los niños ya llegaron a la escuela, lo cual considera repetitivo. Comenta que durante la conducción no utilizaría una aplicación. Sin embargo, le sería útil contar con un registro del inicio del recorrido, la hora de recojo de cada alumno y la hora de llegada a la escuela. También considera útil registrar cuando un alumno no será recogido. En general, considera que una aplicación debería ayudarlo a organizar los cambios y permitir que los padres puedan seguir la ruta sin necesidad de preguntarle constantemente. No utilizaría una aplicación que lo obligue a realizar muchas acciones manualmente o que tenga un costo muy elevado. Como característica adicional, le gustaría que pudiera utilizarse en zonas donde existe poca señal.
 
-#### Entrevista 6 — Vilma Hoyos Martinez
+## Entrevista 6 — Vilma Hoyos Martinez
 
 - **Edad:** 56 años.
 - **Ocupación / segmento:** Conductor de movilidad escolar.
@@ -912,53 +896,102 @@ Tampoco ha enfrentado retrasos ni incidentes con el servicio. Su reserva coincid
 
 **Resumen:** Vilma cuenta con 25 años de experiencia en el rubro de la movilidad escolar. Empezó llevando a estudiantes del colegio San Toribio, en el Rímac, hace 10 años y actualmente está a cargo de 26 niños en San Miguel, a quienes lleva a los colegios Claretiano y Los Rosales. La señora Vilma cuenta con un ayudante, quien utiliza la aplicación WhatsApp para comunicarse con las familias, coordinar horarios, llamar para avisar que deben bajar, informar si el niño asistirá, si necesita esperar y compartir su ubicación en tiempo real. Ha presentado problemas con la puntualidad de los niños y con la coordinación con los padres respecto a si los niños serán recogidos o no. Comenta que tiene conocimientos casi nulos en tecnología. Los padres le han recomendado utilizar algunas aplicaciones para poder realizar un mejor seguimiento del recorrido de sus hijos, pero menciona que no sabe cómo utilizarlas y, por ese motivo, no las implementa.
 
+
 ### 2.2.3. Análisis de entrevistas
 
 En esta sección se analizan las respuestas obtenidas en las entrevistas registradas, con el fin de identificar las características objetivas y subjetivas más frecuentes en cada segmento objetivo. Los resultados presentados provienen exclusivamente de las entrevistas documentadas en la sección anterior y constituyen la base para la construcción de los User Personas.
 
-#### Segmento 1: Padres y tutores
+#### Segmento 1: Conductores de movilidad escolar
 
-Este grupo de análisis reúne las entrevistas 1, 2 y 3, correspondientes a Gisela Paola Santi Quispe (45, San Miguel), Marleny Nori Padilla Aguirre (47, Cercado de Lima) y Leonel Adrián Mitma Garro (24, Callao). Los tres son responsables de uno o más menores que utiliza movilidad escolar en Lima Metropolitana o el Callao y contratan el servicio de forma directa con el conductor, sin intermediación del colegio, lo que los hace comparables entre sí.
+Se registraron tres entrevistas a conductores de movilidad escolar que operan en Lima Metropolitana.
 
 **Características demográficas y de contexto**
 
-| Variable                                               | Resultado                               |
-| ------------------------------------------------------ | --------------------------------------- |
-| Edad de los entrevistados                              | 24, 45 y 47 años (promedio: 38,7 años)  |
-| Distritos de residencia                                | Callao, Cercado de Lima y San Miguel    |
-| Edad de los menores que utilizan el servicio           | 6, 6, 12 y 14 años (promedio: 9,5 años) |
-| Entrevistados con más de un menor en el servicio       | 33,3 %                                  |
-| Frecuencia de uso del servicio                         | 1, 2 y 5 días a la semana               |
-| Entrevistados que utilizan el servicio de forma diaria | 33,3 %                                  |
+| Variable | Resultado |
+|---|---|
+| Edad de los entrevistados | 20, 25 y 56 años (promedio: 33,7 años) |
+| Distritos de operación | Los Olivos, Pueblo Libre y San Miguel (100 % Lima Metropolitana) |
+| Experiencia en el rubro | 2, 5 y 25 años (promedio: 10,7 años) |
+| Conductores que operan de forma independiente | 100 % |
+| Conductores que cuentan con un ayudante o asistente | 33,3 % |
 
 **Herramientas y canales digitales utilizados**
 
-| Variable                                                               | Porcentaje |
-| ---------------------------------------------------------------------- | ---------: |
-| Utiliza WhatsApp como canal principal con el conductor                 |      100 % |
-| Recibe actualizaciones de estado o ubicación por ese canal             |      100 % |
-| Recibe evidencia de llegada mediante fotografías en el grupo de padres |     33,3 % |
+| Variable | Porcentaje |
+|---|---:|
+| Utiliza WhatsApp como canal principal con las familias | 100 % |
+| Utiliza una aplicación de navegación (Google Maps, Waze) | 66,7 % |
+| Utiliza el calendario del teléfono para horarios especiales | 33,3 % |
+| Declara conocimientos casi nulos en tecnología | 33,3 % |
+| Delega el uso del teléfono en un ayudante durante la ruta | 33,3 % |
 
-**Frustraciones y preocupaciones identificadas**
+**Frustraciones identificadas**
 
-| Variable                                                            | Porcentaje |
-| ------------------------------------------------------------------- | ---------: |
-| Manifiesta preocupación por la privacidad de la ubicación del menor |     66,7 % |
-| Considera fundamental la confianza en el conductor y su información |     66,7 % |
-| Declara incertidumbre durante el trayecto del menor                 |     33,3 % |
-| Asocia esa incertidumbre a la inseguridad ciudadana de su distrito  |     33,3 % |
-| Ha experimentado retrasos o complicaciones con el servicio          |        0 % |
-| Manifiesta estar conforme con la forma actual de coordinación       |     33,3 % |
+| Variable | Porcentaje |
+|---|---:|
+| Recibe consultas repetitivas de los padres sobre el avance de la ruta | 100 % |
+| Presenta dificultades para coordinar si un estudiante será recogido o no | 100 % |
+| Considera que la información queda fragmentada entre conversaciones | 66,7 % |
+| Indica que responder mensajes lo distrae mientras conduce | 66,7 % |
+| Ha tenido problemas para recordar cambios comunicados por los padres | 33,3 % |
+| Ha tenido problemas de puntualidad con los estudiantes | 33,3 % |
 
 **Necesidades y expectativas sobre una solución digital**
 
-| Variable                                                                  | Porcentaje |
-| ------------------------------------------------------------------------- | ---------: |
-| Considera prioritaria la ubicación del vehículo en tiempo real            |     33,3 % |
-| Valora recibir evidencia de que el menor llegó a su destino               |     33,3 % |
-| Menciona funcionalidades de videovigilancia dentro del vehículo           |     33,3 % |
-| Condiciona el uso de la herramienta al tratamiento de los datos del menor |     66,7 % |
-| Declara que no modificaría su forma actual de coordinación                |     33,3 % |
+| Variable | Porcentaje |
+|---|---:|
+| Considera útil registrar los hitos de recojo y entrega | 66,7 % |
+| Requiere que la aplicación sea rápida y de pocos pasos | 66,7 % |
+| Desea que los padres puedan seguir la ruta sin contactarlo | 66,7 % |
+| Considera útil contar con la lista de alumnos y el orden de recojo | 33,3 % |
+| Declara que no utilizaría la aplicación mientras conduce | 33,3 % |
+| Menciona el costo como condición para adoptar la herramienta | 33,3 % |
+| Menciona el funcionamiento en zonas con poca señal | 33,3 % |
+| No adopta aplicaciones recomendadas por desconocimiento de su uso | 33,3 % |
+
+#### Segmento 2: Padres y tutores
+
+Se registraron tres entrevistas a padres y tutores de estudiantes que utilizan el servicio de movilidad escolar en Lima Metropolitana y el Callao.
+
+**Características demográficas y de contexto**
+
+| Variable | Resultado |
+|---|---|
+| Edad de los entrevistados | 24, 45 y 47 años (promedio: 38,7 años) |
+| Distritos de residencia | Callao, Cercado de Lima y San Miguel |
+| Edad de los menores que utilizan el servicio | 6, 6, 12 y 14 años (promedio: 9,5 años) |
+| Entrevistados con más de un menor en el servicio | 33,3 % |
+| Frecuencia de uso del servicio | 1, 2 y 5 días a la semana |
+| Entrevistados que utilizan el servicio de forma diaria | 33,3 % |
+
+**Herramientas y canales digitales utilizados**
+
+| Variable | Porcentaje |
+|---|---:|
+| Utiliza WhatsApp como canal principal con el conductor | 100 % |
+| Recibe actualizaciones de estado o ubicación por ese canal | 100 % |
+| Recibe evidencia de llegada mediante fotografías en el grupo de padres | 33,3 % |
+
+**Frustraciones y preocupaciones identificadas**
+
+| Variable | Porcentaje |
+|---|---:|
+| Manifiesta preocupación por la privacidad de la ubicación del menor | 66,7 % |
+| Considera fundamental la confianza en el conductor y su información | 66,7 % |
+| Declara incertidumbre durante el trayecto del menor | 33,3 % |
+| Asocia esa incertidumbre a la inseguridad ciudadana de su distrito | 33,3 % |
+| Ha experimentado retrasos o complicaciones con el servicio | 0 % |
+| Manifiesta estar conforme con la forma actual de coordinación | 33,3 % |
+
+**Necesidades y expectativas sobre una solución digital**
+
+| Variable | Porcentaje |
+|---|---:|
+| Considera prioritaria la ubicación del vehículo en tiempo real | 33,3 % |
+| Valora recibir evidencia de que el menor llegó a su destino | 33,3 % |
+| Menciona funcionalidades de videovigilancia dentro del vehículo | 33,3 % |
+| Condiciona el uso de la herramienta al tratamiento de los datos del menor | 66,7 % |
+| Declara que no modificaría su forma actual de coordinación | 33,3 % |
 
 #### Hallazgos del análisis
 
@@ -978,93 +1011,36 @@ Este grupo de análisis reúne las entrevistas 1, 2 y 3, correspondientes a Gise
 
 **La satisfacción con el servicio actual puede reducir la urgencia percibida.** Ningún padre entrevistado reportó haber experimentado retrasos o complicaciones, y uno manifestó no modificaría su forma actual de coordinación. Rumbo debe, por tanto, presentarse como un complemento que aporta tranquilidad y orden, y no como la corrección de un problema que las familias perciban como crítico.
 
-#### Segmento 2: Conductores de movilidad escolar
-
-Este grupo de análisis reúne las entrevistas 4, 5 y 6, correspondientes a Gabriel Alexandro Sosa Guevara (20, Los Olivos), Brayan Solorzano Pineda (25, Pueblo Libre) y Vilma Hoyos Martinez (56, San Miguel). Los tres operan de forma independiente en Lima Metropolitana y gestionan su propia cartera de familias, por lo que comparten la misma estructura de trabajo pese a diferir ampliamente en edad y en años de experiencia.
-
-**Características demográficas y de contexto**
-
-| Variable                                            | Resultado                                                        |
-| --------------------------------------------------- | ---------------------------------------------------------------- |
-| Edad de los entrevistados                           | 20, 25 y 56 años (promedio: 33,7 años)                           |
-| Distritos de operación                              | Los Olivos, Pueblo Libre y San Miguel (100 % Lima Metropolitana) |
-| Experiencia en el rubro                             | 2, 5 y 25 años (promedio: 10,7 años)                             |
-| Conductores que operan de forma independiente       | 100 %                                                            |
-| Conductores que cuentan con un ayudante o asistente | 33,3 %                                                           |
-
-**Herramientas y canales digitales utilizados**
-
-| Variable                                                    | Porcentaje |
-| ----------------------------------------------------------- | ---------: |
-| Utiliza WhatsApp como canal principal con las familias      |      100 % |
-| Utiliza una aplicación de navegación (Google Maps, Waze)    |     66,7 % |
-| Utiliza el calendario del teléfono para horarios especiales |     33,3 % |
-| Declara conocimientos casi nulos en tecnología              |     33,3 % |
-| Delega el uso del teléfono en un ayudante durante la ruta   |     33,3 % |
-
-**Frustraciones identificadas**
-
-| Variable                                                                 | Porcentaje |
-| ------------------------------------------------------------------------ | ---------: |
-| Recibe consultas repetitivas de los padres sobre el avance de la ruta    |      100 % |
-| Presenta dificultades para coordinar si un estudiante será recogido o no |      100 % |
-| Considera que la información queda fragmentada entre conversaciones      |     66,7 % |
-| Indica que responder mensajes lo distrae mientras conduce                |     66,7 % |
-| Ha tenido problemas para recordar cambios comunicados por los padres     |     33,3 % |
-| Ha tenido problemas de puntualidad con los estudiantes                   |     33,3 % |
-
-**Necesidades y expectativas sobre una solución digital**
-
-| Variable                                                           | Porcentaje |
-| ------------------------------------------------------------------ | ---------: |
-| Considera útil registrar los hitos de recojo y entrega             |     66,7 % |
-| Requiere que la aplicación sea rápida y de pocos pasos             |     66,7 % |
-| Desea que los padres puedan seguir la ruta sin contactarlo         |     66,7 % |
-| Considera útil contar con la lista de alumnos y el orden de recojo |     33,3 % |
-| Declara que no utilizaría la aplicación mientras conduce           |     33,3 % |
-| Menciona el costo como condición para adoptar la herramienta       |     33,3 % |
-| Menciona el funcionamiento en zonas con poca señal                 |     33,3 % |
-| No adopta aplicaciones recomendadas por desconocimiento de su uso  |     33,3 % |
-
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
-En esta sección se presentan las User Personas correspondientes a los dos segmentos objetivo. Cada arquetipo se construyó sobre un conjunto definido de entrevistados, seleccionado por compartir estructura de uso y no por similitud demográfica.
+En esta sección se presentan las User Personas correspondientes a los dos segmentos objetivos: **Padres/Tutores y Conductores**. Estas User Personas fueron elaboradas a partir de la información recopilada en las entrevistas previamente analizadas, con el objetivo de identificar un perfil común para cada segmento. En ellas se describe el perfil de nuestro usuario ideal, incluyendo sus características, necesidades y principales comportamientos.
 
-| User Persona         | Segmento      | Conjunto de entrevistados                                           | Patrón compartido que sustenta el arquetipo                                                                                                                                                       |
-| -------------------- | ------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Gabriela Morales** | Padre / Tutor | Entrevistas 1, 2 y 3 — Gisela Santi, Marleny Padilla y Leonel Mitma | Los tres coordinan exclusivamente por WhatsApp, no disponen de ninguna vista del estado del traslado y condicionan su confianza en una herramienta digital al tratamiento de los datos del menor. |
-| **Carlos Rivas**     | Conductor     | Entrevistas 4, 5 y 6 — Gabriel Sosa, Brayan Solórzano y Vilma Hoyos | Los tres operan de forma independiente, responden a diario las mismas consultas sobre el avance de la ruta y declararon dificultades para saber con antelación si un estudiante será recogido.    |
+## Segmento — Padres y tutores
 
-La edad y los años de experiencia no se utilizaron como criterio de agrupación, porque dentro de cada conjunto presentan una dispersión amplia —de 24 a 47 años en el primero y de 2 a 25 años de experiencia en el segundo— mientras que el proceso de trabajo y las frustraciones se mantienen constantes. Por ello, los rasgos demográficos de cada User Persona corresponden al valor medio del conjunto y no a ninguno de los entrevistados en particular.
+<img width="1050" height="1438" alt="Gabriela Morales" src="https://github.com/user-attachments/assets/a1add856-d769-4711-a1ff-2767317ceb7a" />
 
-**Perfil no cubierto por los arquetipos.** La entrevistada 6 declaró conocimientos casi nulos en tecnología y delegar el uso del teléfono en un ayudante durante la ruta. Este rasgo no se incorporó a Carlos Rivas por no ser compartido por el conjunto, pero se conservó como restricción de diseño: la interfaz debe ser operable en pocos pasos y con el vehículo detenido, sin asumir que quien registra los eventos es necesariamente quien conduce.
+## Segmento — Conductores
 
-#### Segmento — Padres y tutores
-
-<img width="1050" height="1438" alt="Gabriela Morales" src="./assets/chapter02/user-persona-gabriela.png"/>
-
-#### Segmento — Conductores
-
-<img width="1050" height="1228" alt="Carlos Rivas" src="./assets/chapter02/user-persona-carlos.png" />
+<img width="1050" height="1228" alt="Carlos Rivas" src="https://github.com/user-attachments/assets/84b05149-9953-4fa3-9ebe-e7d30a1ed526" />
 
 ### 2.3.2. User Task Matrix
 
 La User Task Matrix resume las tareas que realizan los dos segmentos objetivo en su rutina de movilidad escolar, independientemente de que exista Rumbo. Para mantener coherencia con los User Personas, se consideran **Gabriela Morales (Padre/Tutor)** y **Carlos Rivas (Conductor)**.
 
-| Tarea del usuario                                 | Padre/Tutor — Frecuencia | Padre/Tutor — Importancia | Conductor — Frecuencia | Conductor — Importancia |
-| ------------------------------------------------- | :----------------------: | :-----------------------: | :--------------------: | :---------------------: |
-| Preparar al estudiante antes del recojo           |          Diaria          |           Alta            |       No aplica        |        No aplica        |
-| Confirmar si el estudiante utilizará la movilidad |          Diaria          |           Alta            |         Diaria         |          Alta           |
-| Esperar / llegar al punto de recojo acordado      |          Diaria          |           Alta            |         Diaria         |          Alta           |
-| Organizar el orden de paradas del recorrido       |        No aplica         |         No aplica         |         Diaria         |          Alta           |
-| Confirmar que el estudiante fue recogido          |          Diaria          |           Alta            |         Diaria         |          Alta           |
-| Consultar o comunicar el avance del traslado      |          Diaria          |           Alta            |         Diaria         |          Alta           |
-| Comunicar un retraso                              |        Ocasional         |           Alta            |       Ocasional        |          Alta           |
-| Comunicar una incidencia                          |        Ocasional         |           Alta            |       Ocasional        |          Alta           |
-| Confirmar la llegada o entrega del estudiante     |          Diaria          |           Alta            |         Diaria         |          Alta           |
-| Coordinar el retorno del estudiante               |          Diaria          |           Media           |         Diaria         |          Media          |
+| Tarea del usuario | Padre/Tutor — Frecuencia | Padre/Tutor — Importancia | Conductor — Frecuencia | Conductor — Importancia |
+|---|:---:|:---:|:---:|:---:|
+| Preparar al estudiante antes del recojo | Diaria | Alta | No aplica | No aplica |
+| Confirmar si el estudiante utilizará la movilidad | Diaria | Alta | Diaria | Alta |
+| Esperar / llegar al punto de recojo acordado | Diaria | Alta | Diaria | Alta |
+| Organizar el orden de paradas del recorrido | No aplica | No aplica | Diaria | Alta |
+| Confirmar que el estudiante fue recogido | Diaria | Alta | Diaria | Alta |
+| Consultar o comunicar el avance del traslado | Diaria | Alta | Diaria | Alta |
+| Comunicar un retraso | Ocasional | Alta | Ocasional | Alta |
+| Comunicar una incidencia | Ocasional | Alta | Ocasional | Alta |
+| Confirmar la llegada o entrega del estudiante | Diaria | Alta | Diaria | Alta |
+| Coordinar el retorno del estudiante | Diaria | Media | Diaria | Media |
 
 Las tareas de **confirmar asistencia, recojo y entrega** son recurrentes y de alta importancia para ambos segmentos. La diferencia principal está en que el padre/tutor necesita mantenerse informado, mientras que el conductor debe organizar el recorrido y comunicar cambios sin distraerse durante la conducción. Esta matriz respalda la prioridad dada a los estados del traslado, hitos, retrasos, incidencias y reporte de ausencias dentro del Product Backlog.
 
@@ -1074,15 +1050,15 @@ En esta sección se presentan los **User Journey Maps** correspondientes a los d
 
 Se presentan las versiones **As-Is**, que permiten analizar cómo se desarrolla actualmente el proceso sin la intervención de nuestra solución. A través de las diferentes etapas, actividades, puntos de contacto y dificultades identificadas, se busca comprender la experiencia de cada User Persona y detectar oportunidades de mejora.
 
-#### Segmento — Padres y tutores
+## Segmento — Padres y tutores
 
-El journey del segmento Padre/Tutor inicia con la preparación del menor y la coordinación del servicio mediante WhatsApp. Durante la espera y el traslado, la principal necesidad es contar con información suficiente para confirmar el avance y la llegada sin depender de consultas constantes al conductor. Las entrevistas realizadas también muestran que la **privacidad de la ubicación del menor** y la **confianza en el conductor** son factores determinantes para adoptar una herramienta digital. Por ello, las oportunidades de mejora se concentran en ofrecer confirmaciones claras del traslado, información visible únicamente para usuarios autorizados y una experiencia que complemente —en lugar de complicar— la coordinación actual.
+El journey del segmento Padre/Tutor inicia con la preparación del menor y la coordinación del servicio mediante WhatsApp. Durante la espera y el traslado, la principal necesidad es contar con información suficiente para confirmar el avance y la llegada sin depender de consultas constantes al conductor. Las entrevistas de Aplicaciones Web también muestran que la **privacidad de la ubicación del menor** y la **confianza en el conductor** son factores determinantes para adoptar una herramienta digital. Por ello, las oportunidades de mejora se concentran en ofrecer confirmaciones claras del traslado, información visible únicamente para usuarios autorizados y una experiencia que complemente —en lugar de complicar— la coordinación actual.
 
-<img width="1556" height="1086" alt="USER JOURNEY MAP - PADRE-TUTOR" src="./assets/chapter02/user-journey-map-padres.png" />
+<img width="1556" height="1086" alt="USER JOURNEY MAP - PADRE_TUTOR" src="https://github.com/user-attachments/assets/4bb04243-7f62-427a-80b3-590b55748984" />
 
-#### Segmento — Conductores
+## Segmento — Conductores
 
-El recorrido diario del conductor inicia **antes del viaje**, en un estado neutral, revisando chats de WhatsApp para corroborar las asistencias de forma tediosa y repetitiva. **Durante el viaje de ida** la experiencia desciende hacia la molestia, debido a lo estresante y peligroso que resulta manejar mientras responde mensajes constantes y llamadas sobre demoras. Al **terminar la ida y preparar el retorno**, recupera una actitud serena y de anticipación, aunque debe informarse de los cambios a través de conversaciones fragmentadas. **En el colegio**, durante la recogida, la experiencia se mantiene en vigilancia y neutralidad mientras cuenta y verifica la asistencia de los menores lidiando con llamadas de última hora. **Durante el viaje de regreso** vuelve a un estado neutral: reparte a los estudiantes mientras responde chats y busca información de contacto ante cualquier emergencia. Finalmente, **al concluir la jornada**, la sensación es de serenidad, aunque alcanzarla le exige comunicarse individualmente con cada familia para confirmar que los niños llegaron a sus domicilios.
+El recorrido diario del conductor inicia antes del viaje con una etapa neutral donde revisa chats de WhatsApp para corroborar asistencias de forma tediosa y repetitiva. Al pasar al durante el viaje de ida, la experiencia desciende hacia la molestia (annoyance) debido a lo estresante y peligroso que resulta manejar mientras responde mensajes constantes y llamadas sobre demoras. Posteriormente, en el después del viaje y la previa antes del viaje de retorno, el conductor se informa de cambios mediante chats fragmentados con una actitud serena y de anticipación. Al encontrarse en el colegio para la recogida, la experiencia se mantiene en un estado de vigilancia y neutralidad mientras cuenta y verifica la asistencia de los menores lidiando con llamadas de última hora. En el durante el viaje de regreso, vuelve a experimentar momentos neutrales al repartir a los estudiantes mientras responde chats y busca información de emergencia. Finalmente, la jornada concluye en el después del viaje de vuelta a casa con una sensación de serenidad al comunicarse individualmente con los padres para confirmar que los niños llegaron a sus domicilios.
 
 <img width="1556" height="1086" alt="USER JOURNEY MAP - CONDUCTOR" src="./assets/chapter02/user-journey-map-conductor.png" />
 
@@ -1090,61 +1066,59 @@ El recorrido diario del conductor inicia **antes del viaje**, en un estado neutr
 
 En esta sección se presentan los **Empathy Maps** elaborados para cada uno de los User Personas: **Parent/Tutor y Driver**. Estos mapas fueron construidos a partir de las observaciones obtenidas durante las entrevistas y permiten comprender sus necesidades, comportamientos, pensamientos, emociones, Pains y Gains dentro del contexto de la movilidad escolar.
 
-##### Segmento — Padres y tutores
+## Segmento — Padres y tutores
 
-<img width="1050" height="1318" alt="Empathy map" src="./assets/chapter02/user-empthy-map-padres.png" />
+<img width="1050" height="1318" alt="Empathy map (1)" src="https://github.com/user-attachments/assets/1add7ca8-41b3-40e0-9481-dbf693cb4642" />
 
-##### Segmento — Conductores
+## Segmento — Conductores
 
 <img width="1050" height="1318" alt="CARLOS RIVAS EMPATHY MAP" src="./assets/chapter02/user-empathy-map-conductor.png" />
 
 ## 2.4. Big Picture Event Storming
 
-El equipo realizó una sesión de Big Picture EventStorming para comprender el dominio de la movilidad escolar de extremo a extremo antes de definir la solución. El objetivo fue identificar los hechos relevantes del negocio, ordenarlos según su secuencia real, reconocer quién los origina, qué sistemas externos participan y qué preguntas quedan abiertas, para obtener una primera delimitación de responsabilidades que será refinada posteriormente en el diseño DDD.
+El equipo realizó una sesión colaborativa de **Big Picture Event Storming** para comprender de manera integral el dominio de **Rumbo**. Aunque las entrevistas y los hallazgos de Needfinding de este curso corresponden específicamente al proyecto de **Aplicaciones Web**, el dominio del negocio es el mismo: la coordinación, planificación, ejecución y comunicación del servicio de movilidad escolar. Por ello, se reutiliza y adapta el artefacto consolidado del dominio, manteniéndolo independiente de las decisiones tecnológicas de implementación.
 
-**Resumen del proceso realizado**
+El objetivo de esta actividad es identificar los eventos significativos del negocio, ordenar sus relaciones, reconocer reglas, riesgos y oportunidades, y obtener una primera delimitación de responsabilidades que posteriormente será refinada mediante Domain-Driven Design en el Capítulo IV.
 
-**1. Exploración del dominio.** Se recorrieron de extremo a extremo las actividades de los dos segmentos objetivo: la habilitación del conductor y su vehículo, el registro de las familias y sus estudiantes, la planificación de rutas y paradas, la programación y ejecución del traslado, la gestión de retrasos e incidencias, la comunicación hacia los tutores autorizados y el cierre e historial del servicio.
+### Resumen del proceso realizado
 
-**2. Identificación de Domain Events.** Los hechos se registraron en tiempo pasado y en inglés, para mantener consistencia con el Ubiquitous Language. Se obtuvieron treinta y siete eventos en la línea principal, entre ellos `Driver Credential Verified`, `Vehicle Registered`, `Parent Linked to Student`, `Emergency Contact Registered`, `Route Created`, `Stop Order Defined`, `Student Assigned to Route`, `Assistant Access Granted`, `Trip Scheduled`, `Trip Roster Generated`, `Stop Reached`, `Student Pickup Confirmed`, `Student Pickup Missed`, `Delay Registered`, `Incident Reported`, `School Arrival Confirmed`, `Student Drop-off Confirmed`, `Trip Timeline Generated` y `Student Data Deletion Requested`. Ninguno de ellos describe pantallas ni decisiones técnicas: todos corresponden a cambios observables del negocio.
+**1. Exploración del dominio.**  
+Se recorrió el servicio de extremo a extremo considerando las principales actividades de padres/tutores y conductores: registro y configuración inicial, administración de estudiantes y vehículos, planificación de rutas, programación y ejecución de viajes, confirmación de recojos y entregas, reporte de ausencias, gestión de retrasos e incidencias y comunicación de eventos relevantes.
 
-**3. Ordenamiento temporal y Pivotal Events.** Los eventos se ordenaron siguiendo el flujo real del servicio y se identificaron cuatro **pivotal events** que marcan transiciones irreversibles del dominio. Cada uno separa una fase de la siguiente mediante una línea divisoria:
+**2. Identificación de Domain Events.**  
+El equipo registró hechos significativos del negocio en tiempo pasado, entre ellos *Account Registered*, *Student Registered*, *Vehicle Registered*, *Route Published*, *Trip Scheduled*, *Trip Started*, *Student Picked Up*, *Delay Reported*, *Incident Registered*, *Student Dropped Off*, *Notification Sent* y *Subscription Activated*. Estos eventos permiten representar cambios relevantes del dominio sin depender de pantallas, frameworks o detalles técnicos.
 
-Adicionalmente se identificó un **carril paralelo** de ocho eventos que no pertenecen a la secuencia principal porque pueden ocurrir en cualquier momento del ciclo: `Notification Triggered`, `Notification Sent`, `Notification Delivery Failed`, `Notification Read`, `Trip Status Consulted`, `Trip Timeline Consulted`, `Driver Information Consulted` e `Incident Acknowledged`. Los tres eventos de consulta representan lecturas de los usuarios y no modifican el estado del dominio; `Incident Acknowledged` sí lo hace, porque deja constancia de que el tutor fue informado.
+**3. Ordenamiento y relación de eventos.**  
+Los eventos se organizaron de acuerdo con el flujo del negocio. Una cuenta habilita la gestión del perfil; los vehículos y credenciales permiten configurar el servicio; las rutas y asignaciones originan viajes programados; durante la ejecución se producen recojos, entregas, retrasos o incidencias; y estos eventos pueden generar notificaciones para usuarios autorizados.
 
-| Pivotal Event      | Qué habilita                                                                                            |
-| ------------------ | ------------------------------------------------------------------------------------------------------- |
-| `Driver Onboarded` | Cierra la habilitación del conductor, su vehículo y su suscripción; sin este hito no puede crear rutas. |
-| `Route Published`  | Convierte una ruta en configuración vigente y habilita la programación de viajes.                       |
-| `Trip Started`     | Marca el paso de la planificación a la ejecución; a partir de aquí los eventos se registran en campo.   |
-| `Trip Completed`   | Cierra la ejecución y habilita la consolidación de la línea de tiempo y el historial.                   |
+**4. Identificación de reglas, vistas y hotspots.**  
+Durante el análisis se identificaron reglas como validar la capacidad del vehículo, considerar ausencias reportadas antes del recojo y limitar la información del menor a tutores autorizados. También se reconocieron riesgos como credenciales inválidas, direcciones no localizables, cambios de último momento, pérdida de conectividad, distracciones durante la conducción, destinatarios incorrectos y fallos en procesos externos. Las vistas de consulta representan información necesaria para conocer el estado del dominio, como *Current Trip Status*, *Trip Timeline* y *Notification Inbox*.
 
-Adicionalmente se identificó un **carril paralelo** de siete eventos que no pertenecen a la secuencia principal porque pueden ocurrir en cualquier momento del ciclo: `Notification Triggered`, `Notification Sent`, `Notification Delivery Failed`, `Notification Read`, `Trip Status Consulted`, `Trip Timeline Consulted` e `Incident Acknowledged`. Los tres últimos representan consultas de los usuarios y no modifican el estado del dominio.
+**5. Delimitación preliminar de Bounded Contexts.**  
+Como resultado del Big Picture se reconocen ocho áreas de responsabilidad preliminares. Esta delimitación sirve como insumo para el **Design-Level EventStorming** del Capítulo IV; no significa que todos los contextos deban implementarse en el mismo Sprint o entrega.
 
-**4. Actores, sistemas externos y hot spots.** Se asignó a cada evento el actor que lo origina, distinguiendo al **Driver**, que genera los eventos de configuración de ruta y de ejecución del traslado, del **Parent/Tutor**, que genera el registro de estudiantes, el reporte de ausencias, la lectura de notificaciones y la solicitud de eliminación de datos. Se incorporaron tres sistemas externos: la **ATU API** para contrastar la habilitación del conductor y del vehículo, la **API de Mapas** para resolver direcciones de paradas y estimar el avance del recorrido, y la **API de Notificaciones** como proveedor de entrega de los avisos. Finalmente se registraron los puntos de incertidumbre que el equipo no puede resolver en esta etapa:
+| Bounded Context | Responsabilidad principal |
+|---|---|
+| **Identity & Access Management** | Gestionar cuentas, autenticación, verificación de correo y recuperación de acceso. |
+| **Profiles & Relationship Management** | Gestionar estudiantes, tutores y relaciones de autorización. |
+| **Vehicle & Credential Management** | Gestionar vehículos, credenciales y su estado de verificación. |
+| **Route & Trip Planning** | Gestionar rutas, paradas, horarios, asignaciones, ausencias y programación de viajes. |
+| **Trip Execution & Monitoring** | Registrar el inicio y desarrollo del viaje, recojos, entregas, estado y línea de tiempo. |
+| **Incident & Delay Management** | Gestionar retrasos, incidencias, actualizaciones y resolución. |
+| **Notification Management** | Gestionar generación, envío, lectura y preferencias de notificación. |
+| **Subscriptions & Billing** | Representar planes, suscripciones, pagos y comprobantes previstos para la evolución comercial del producto. |
 
-| Hot spot                                                                   | Evento asociado              |
-| -------------------------------------------------------------------------- | ---------------------------- |
-| ¿Qué ocurre si la credencial del conductor vence durante el ciclo escolar? | `Driver Credential Verified` |
-| ¿Qué sucede si falla el cobro de la suscripción con un servicio en curso?  | `Subscription Activated`     |
-| ¿Cómo se valida que la dirección de una parada sea localizable?            | `Stop Added to Route`        |
-| ¿Qué pasa si los estudiantes asignados superan la capacidad del vehículo?  | `Student Assigned to Route`  |
-| ¿Quién puede cancelar un viaje ya programado y con cuánta anticipación?    | `Trip Cancelled`             |
-| ¿Qué ocurre si el conductor pierde conectividad durante el recorrido?      | `Stop Reached`               |
-| ¿Quién autoriza una entrega a una persona no registrada como tutor?        | `Drop-off Rejected`          |
-| ¿Cuánto tiempo se conserva el historial antes de su eliminación?           | `Trip History Archived`      |
+### Captura consolidada y resultado
 
-**5. Límites emergentes del dominio.** Los pivotal events no solo ordenan la secuencia: señalan los puntos donde el dominio cambia de responsable y de naturaleza. `Driver Onboarded` cierra la habilitación del prestador y abre la configuración del servicio; `Route Published` cierra la configuración y abre la operación; `Trip Started` separa la planificación de la ejecución en campo; y `Trip Completed` separa la ejecución del cierre documental. El carril paralelo de notificaciones y consultas se comporta de forma independiente a esta secuencia, lo que sugiere una responsabilidad propia. Estos límites emergentes constituyen la entrada para el Design-Level EventStorming, donde se formalizan como Bounded Contexts y se detallan sus commands, aggregates, policies y read models (sección 4.6.1).
-
-**Captura consolidada y resultado**
+La siguiente captura presenta el **Big Picture Event Storming consolidado de Rumbo**, utilizado como referencia común del dominio para el proyecto de Aplicaciones Web.
 
 <div align="center">
-  <img src="./assets/chapter02/event-storming-vf.png" alt="Rumbo Big Picture Event Storming consolidado" width="95%">
+  <img src="./assets/chapter02/big-picture-event-storming.jpg" alt="Rumbo Big Picture Event Storming consolidado" width="95%">
 </div>
 
-**Artefacto colaborativo:** https://miro.com/app/board/uXjVIveDKA8=/?share_link_id=909349762479
+**Artefacto colaborativo:** [Miro - Rumbo Big Picture Event Storming](https://miro.com/app/board/uXjVHr48KA8=/?share_link_id=942564800097)
 
-El Big Picture evidencia que el núcleo operativo de Rumbo se concentra entre `Route Published` y `Trip Completed`, es decir, en la planificación y ejecución del traslado, mientras que identidad, perfiles, vehículos, incidencias, notificaciones y suscripción aportan capacidades de soporte. Los cuatro pivotal events delimitan las fases que estructurarán los Epics del Product Backlog, y los hot spots registrados anticipan las reglas de negocio y los riesgos que deberán resolverse en el Design-Level EventStorming y en el diseño de la base de datos.
+El Big Picture evidencia que el núcleo operativo de Rumbo se concentra en la planificación y ejecución del traslado escolar, mientras que identidad, perfiles, vehículos, incidencias, notificaciones y suscripciones aportan capacidades de soporte. Esta vista de alto nivel será refinada posteriormente en **4.6.1 Design-Level EventStorming**, donde se profundizará en Bounded Contexts, Aggregates, Commands, Events y Queries.
 
 ## 2.5. Ubiquitous Language
 
@@ -1152,69 +1126,67 @@ En esta sección se define el glosario de términos del dominio de Rumbo, con el
 
 El glosario se mantiene centrado únicamente en términos del dominio del transporte escolar y evita términos técnicos de ingeniería de software.
 
-##### Personas y entidades del servicio
+### Personas y entidades del servicio
 
-| Término                                                      | Definición en el dominio de Rumbo                                                                                        |
-| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
-| **Student** (Estudiante)                                     | Menor que utiliza el servicio de movilidad escolar y se encuentra asignado a una o más rutas.                            |
-| **Parent / Tutor** (Padre o tutor)                           | Persona autorizada para consultar la información de un estudiante y recibir notificaciones sobre sus traslados.          |
-| **Driver** (Conductor)                                       | Persona responsable de ejecutar una ruta de movilidad escolar y registrar los eventos del recorrido.                     |
-| **Vehicle** (Vehículo)                                       | Unidad utilizada por un conductor para prestar el servicio de movilidad escolar.                                         |
-| **Authorized User** (Usuario autorizado)                     | Persona cuya identidad y permisos le habilitan a acceder a información específica dentro de Rumbo.                       |
-| **Driver Credential** (Credencial del conductor)             | Documento que acredita al conductor como habilitado para prestar el servicio de transporte de estudiantes.               |
-| **Tutor Authorization** (Autorización de tutor)              | Permiso otorgado a un padre o tutor para acceder a la información de un estudiante determinado.                          |
+| Término | Definición en el dominio de Rumbo |
+|---|---|
+| **Student** (Estudiante) | Menor que utiliza el servicio de movilidad escolar y se encuentra asignado a una o más rutas. |
+| **Parent / Tutor** (Padre o tutor) | Persona autorizada para consultar la información de un estudiante y recibir notificaciones sobre sus traslados. |
+| **Driver** (Conductor) | Persona responsable de ejecutar una ruta de movilidad escolar y registrar los eventos del recorrido. |
+| **Vehicle** (Vehículo) | Unidad utilizada por un conductor para prestar el servicio de movilidad escolar. |
+| **Authorized User** (Usuario autorizado) | Persona cuya identidad y permisos le habilitan a acceder a información específica dentro de Rumbo. |
+| **Driver Credential** (Credencial del conductor) | Documento que acredita al conductor como habilitado para prestar el servicio de transporte de estudiantes. |
+| **Tutor Authorization** (Autorización de tutor) | Permiso otorgado a un padre o tutor para acceder a la información de un estudiante determinado. |
 | **School Transport Service** (Servicio de movilidad escolar) | Servicio destinado al traslado recurrente de estudiantes entre puntos de recojo, centros educativos y puntos de entrega. |
-| **Emergency Contact** (Contacto de emergencia) | Persona designada por un tutor para ser contactada ante una situación imprevista durante el traslado de un estudiante. |
-| **Assistant** (Asistente) | Persona habilitada por el conductor para confirmar hitos de una ruta específica, sin acceso a su configuración ni a su suscripción. |
 
-##### Planificación de rutas
+### Planificación de rutas
 
-| Término                                    | Definición en el dominio de Rumbo                                                           |
-| ------------------------------------------ | ------------------------------------------------------------------------------------------- |
-| **Route** (Ruta)                           | Recorrido planificado que contiene un conjunto ordenado de paradas y estudiantes asignados. |
-| **Stop** (Parada)                          | Punto planificado dentro de una ruta donde se realiza un recojo o una entrega.              |
-| **Stop Order** (Orden de paradas)          | Secuencia en la que el conductor debe visitar las paradas de una ruta.                      |
-| **Route Schedule** (Horario de la ruta)    | Días y horas en los que una ruta se ejecuta de forma recurrente.                            |
-| **Assigned Student** (Estudiante asignado) | Estudiante incluido dentro de una ruta específica para una jornada o periodo determinado.   |
+| Término | Definición en el dominio de Rumbo |
+|---|---|
+| **Route** (Ruta) | Recorrido planificado que contiene un conjunto ordenado de paradas y estudiantes asignados. |
+| **Stop** (Parada) | Punto planificado dentro de una ruta donde se realiza un recojo o una entrega. |
+| **Stop Order** (Orden de paradas) | Secuencia en la que el conductor debe visitar las paradas de una ruta. |
+| **Route Schedule** (Horario de la ruta) | Días y horas en los que una ruta se ejecuta de forma recurrente. |
+| **Assigned Student** (Estudiante asignado) | Estudiante incluido dentro de una ruta específica para una jornada o periodo determinado. |
 
-##### Ejecución del traslado
+### Ejecución del traslado
 
-| Término                                          | Definición en el dominio de Rumbo                                                                         |
-| ------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
-| **Trip** (Viaje)                                 | Ejecución concreta de una ruta en una fecha y franja horaria determinadas.                                |
-| **Trip Roster** (Lista de estudiantes del viaje) | Relación de estudiantes previstos para un viaje específico, considerando las ausencias reportadas.        |
-| **Trip Status** (Estado del viaje)               | Situación general de un viaje: programado, iniciado, en recorrido, retrasado, completado o cancelado.     |
-| **Student Absence** (Ausencia del estudiante)    | Comunicación anticipada de que un estudiante no utilizará el servicio en una jornada determinada.         |
-| **Pickup** (Recojo)                              | Evento mediante el cual el conductor confirma que un estudiante fue recogido en el punto correspondiente. |
-| **Drop-off** (Entrega)                           | Evento mediante el cual el conductor confirma que un estudiante fue entregado en el destino previsto.     |
-| **School Arrival** (Llegada al colegio)          | Evento que confirma que la movilidad llegó al centro educativo correspondiente.                           |
-| **Return Trip** (Viaje de retorno)               | Ejecución de la ruta en sentido inverso, desde el centro educativo hacia los puntos de entrega.           |
-| **Route Completion** (Cierre de la ruta)         | Término de un viaje después de completar los recojos o entregas previstos.                                |
+| Término | Definición en el dominio de Rumbo |
+|---|---|
+| **Trip** (Viaje) | Ejecución concreta de una ruta en una fecha y franja horaria determinadas. |
+| **Trip Roster** (Lista de estudiantes del viaje) | Relación de estudiantes previstos para un viaje específico, considerando las ausencias reportadas. |
+| **Trip Status** (Estado del viaje) | Situación general de un viaje: programado, iniciado, en recorrido, retrasado, completado o cancelado. |
+| **Student Absence** (Ausencia del estudiante) | Comunicación anticipada de que un estudiante no utilizará el servicio en una jornada determinada. |
+| **Pickup** (Recojo) | Evento mediante el cual el conductor confirma que un estudiante fue recogido en el punto correspondiente. |
+| **Drop-off** (Entrega) | Evento mediante el cual el conductor confirma que un estudiante fue entregado en el destino previsto. |
+| **School Arrival** (Llegada al colegio) | Evento que confirma que la movilidad llegó al centro educativo correspondiente. |
+| **Return Trip** (Viaje de retorno) | Ejecución de la ruta en sentido inverso, desde el centro educativo hacia los puntos de entrega. |
+| **Route Completion** (Cierre de la ruta) | Término de un viaje después de completar los recojos o entregas previstos. |
 
-##### Eventos e incidencias
+### Eventos e incidencias
 
-| Término                                                     | Definición en el dominio de Rumbo                                                                                                                 |
-| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Route Event** (Evento de ruta)                            | Acontecimiento relevante producido durante la ejecución de un viaje.                                                                              |
-| **Trip Timeline** (Línea de tiempo del viaje)               | Secuencia cronológica de los principales eventos registrados durante un viaje.                                                                    |
-| **Delay** (Retraso)                                         | Diferencia significativa entre el horario previsto de una ruta y su avance real.                                                                  |
-| **ETA** (Tiempo estimado de llegada) | Hora estimada en la que la movilidad arribará a una parada o destino. Rumbo no calcula ETA dinámico en el alcance actual; el término se conserva porque aparece en las expectativas de los usuarios entrevistados. |
-| **Incident** (Incidencia)                                   | Situación imprevista ocurrida durante el servicio que requiere ser registrada y comunicada a los tutores autorizados.                             |
-| **Incident Type** (Tipo de incidencia)                      | Categoría que clasifica una incidencia según la naturaleza del imprevisto registrado.                                                             |
-| **Trip History** (Historial de viajes)                      | Registro de los viajes ejecutados y sus eventos, conservado para consulta posterior.                                                              |
+| Término | Definición en el dominio de Rumbo |
+|---|---|
+| **Route Event** (Evento de ruta) | Acontecimiento relevante producido durante la ejecución de un viaje. |
+| **Trip Timeline** (Línea de tiempo del viaje) | Secuencia cronológica de los principales eventos registrados durante un viaje. |
+| **Delay** (Retraso) | Diferencia significativa entre el horario previsto de una ruta y su avance real. |
+| **ETA** (Tiempo estimado de llegada) | Hora estimada en la que la movilidad arribará a una parada o destino. |
+| **Incident** (Incidencia) | Situación imprevista ocurrida durante el servicio que requiere ser registrada y comunicada a los tutores autorizados. |
+| **Incident Type** (Tipo de incidencia) | Categoría que clasifica una incidencia según la naturaleza del imprevisto registrado. |
+| **Trip History** (Historial de viajes) | Registro de los viajes ejecutados y sus eventos, conservado para consulta posterior. |
 | **Data Deletion Request** (Solicitud de supresión de datos) | Pedido de un tutor para que se eliminen los datos personales de un estudiante, conforme a la normativa vigente de protección de datos personales. |
 
-##### Comunicación
+### Comunicación
 
-| Término                                                   | Definición en el dominio de Rumbo                                                          |
-| --------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| **Notification** (Notificación)                           | Aviso enviado a un usuario autorizado como consecuencia de un evento relevante de la ruta. |
-| **Notification Preference** (Preferencia de notificación) | Configuración mediante la cual un padre o tutor determina qué avisos desea recibir.        |
+| Término | Definición en el dominio de Rumbo |
+|---|---|
+| **Notification** (Notificación) | Aviso enviado a un usuario autorizado como consecuencia de un evento relevante de la ruta. |
+| **Notification Preference** (Preferencia de notificación) | Configuración mediante la cual un padre o tutor determina qué avisos desea recibir. |
 
-##### Modelo de negocio
+### Modelo de negocio
 
-| Término                        | Definición en el dominio de Rumbo                                                                |
-| ------------------------------ | ------------------------------------------------------------------------------------------------ |
+| Término | Definición en el dominio de Rumbo |
+|---|---|
 | **Subscription** (Suscripción) | Plan contratado por un conductor que le habilita el uso de Rumbo durante un periodo determinado. |
 
 ---
@@ -1392,57 +1364,968 @@ El Product Backlog fue actualizado en Trello con la priorización vigente, inclu
 
 ## 4.1. Style Guidelines
 
+Las **Style Guidelines de Rumbo** constituyen la referencia visual común para el Landing Page y la Web Application. Su objetivo es mantener consistencia entre los productos digitales mediante un conjunto compartido de decisiones de branding, tipografía, color, espaciado, tono de comunicación, componentes, responsive design, accesibilidad e internacionalización.
+
+La propuesta toma como referencia principios de **Material Design** y los adapta a la identidad de Rumbo. Las decisiones se orientan a transmitir tranquilidad, confianza y claridad, considerando que el producto acompaña actividades relacionadas con el traslado escolar y debe ser comprensible tanto para padres/tutores como para conductores.
+
 ### 4.1.1. General Style Guidelines
 
-**3. Ordenamiento temporal y Pivotal Events.** Los eventos se ordenaron siguiendo el flujo real del servicio y se identificaron cuatro **pivotal events** que marcan transiciones irreversibles del dominio. Cada uno separa una fase de la siguiente mediante una línea divisoria:
+#### Branding
+
+La identidad visual de **Rumbo** busca proyectar una imagen cercana, segura y confiable. Se evita una apariencia excesivamente tecnológica o alarmista y se priorizan superficies claras, jerarquías simples y una paleta basada en verdes, tonos crema y colores de apoyo suaves.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/logotipoRumbo.png" alt="Logotipo de Rumbo" width="280">
+  <p><em>Logotipo principal de Rumbo.</em></p>
+</div>
+
+El logotipo se utiliza como identificador principal de la marca y debe conservar proporciones, legibilidad y espacio libre alrededor de su contorno. No debe deformarse, rotarse ni colocarse sobre fondos que reduzcan su contraste.
+
+#### Color Palette
+
+La paleta de colores de Rumbo organiza los tonos principales, secundarios y neutros que se utilizarán de manera consistente en el Landing Page y la Web Application. Los verdes refuerzan la identidad visual y las acciones relevantes; los tonos crema y arena ayudan a reducir la carga visual y aportar calidez; y el azul oscuro se reserva para texto, contraste y elementos de alta legibilidad.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/paleta-de-colores.png" alt="Paleta de colores de Rumbo" width="760">
+  <p><em>Paleta de colores de Rumbo.</em></p>
+</div>
+
+#### Typography
+
+Rumbo emplea las familias tipográficas **Outfit** y **Roboto**. La combinación permite diferenciar los contenidos de alta jerarquía de los elementos funcionales y textos de lectura continua.
+
+| Typeface | Aplicación |
+|---|---|
+| **Outfit** | Títulos principales, encabezados de sección y mensajes de alto impacto. |
+| **Roboto** | Párrafos, navegación, botones, etiquetas, formularios y contenido complementario. |
+
+**Outfit** refuerza la personalidad visual en mensajes destacados, mientras que **Roboto** favorece la lectura rápida en componentes funcionales. La jerarquía debe apoyarse también en tamaño, peso y espaciado, evitando depender únicamente del color.
+
+#### Spacing and Shapes
+
+El sistema de espaciado utiliza una escala basada en múltiplos de **4 px**, lo que permite mantener alineación y ritmo visual entre componentes.
+
+| Token | Tamaño | Uso |
+|---|---:|---|
+| spacing-xs | 4 px | Separación mínima entre elementos estrechamente relacionados. |
+| spacing-s | 8 px | Iconos, etiquetas y espacios internos pequeños. |
+| spacing-m | 12 px | Padding de controles compactos. |
+| spacing-l | 16 px | Separación estándar y margen lateral base en mobile. |
+| spacing-xl | 24 px | Padding de tarjetas y agrupaciones principales. |
+| spacing-xxl | 32 px | Separación entre bloques importantes en desktop. |
+| spacing-3xl | 48 px | Separación estructural entre secciones. |
+
+Las superficies, tarjetas y controles utilizan bordes redondeados de forma consistente con los mock-ups del producto. La forma nunca debe reducir la claridad de los estados interactivos o de los límites entre elementos.
+
+#### Tone of Voice
+
+El tono de Rumbo debe transmitir confianza y tranquilidad, especialmente porque el producto trabaja con información asociada al traslado de menores.
+
+| Dimensión | Posicionamiento | Justificación |
+|---|---|---|
+| Divertido – Serio | **Serio con cercanía** | La información operativa requiere claridad y responsabilidad. |
+| Formal – Casual | **Moderadamente casual** | Se utiliza lenguaje directo y comprensible, evitando tecnicismos innecesarios. |
+| Respetuoso – Irreverente | **Respetuoso** | Las comunicaciones deben preservar la confianza entre familias y conductores. |
+| Entusiasta – Sereno | **Sereno y positivo** | El producto busca reducir incertidumbre, no generar alarma. |
+
+Los mensajes deben ser breves, accionables y consistentes. En retrasos o incidencias se prioriza información factual y clara; en contenido comercial se comunica el beneficio sin exagerar capacidades que no formen parte del alcance real del producto.
+
+### 4.1.2. Web Style Guidelines
+
+Las interfaces web de Rumbo trasladan las decisiones anteriores a experiencias responsive para Desktop y Mobile Web Browser. La organización visual utiliza contenedores claros, jerarquía tipográfica, tarjetas, botones y estados interactivos consistentes con Material Design y con la identidad establecida.
+
+#### Responsive Layout
+
+En Desktop se aprovecha el espacio horizontal para agrupar información relacionada y facilitar la comparación visual. En tamaños menores, los contenidos se reorganizan en una sola columna o en grupos verticales, conservando el orden de lectura y las acciones principales.
+
+El layout evita anchos rígidos que provoquen desplazamiento horizontal. Los márgenes y separaciones emplean la escala de spacing definida en la sección anterior.
+
+**Breakpoints**
+
+| Rango | Dispositivo objetivo | Comportamiento del layout |
+|---|---|---|
+| < 640 px | Móvil | Columna única. Navegación colapsada en menú. Tarjetas a ancho completo. Márgenes laterales de 16 px. |
+| 640 – 1023 px | Tablet | Dos columnas en secciones de beneficios y listados. Navegación visible. |
+| 1024 – 1439 px | Escritorio | Distribución horizontal completa. Dashboard con panel lateral fijo. |
+| ≥ 1440 px | Escritorio amplio | Contenido centrado con ancho máximo para conservar la longitud de línea legible. |
+
+Los valores se eligieron para coincidir con los breakpoints por defecto de PrimeVue, de modo que la implementación no requiera redefinir el sistema de rejilla.
+
+#### Visual Hierarchy
+
+La jerarquía se establece mediante tamaño tipográfico, peso, contraste y espaciado. Los títulos principales utilizan **Outfit**, mientras que contenidos funcionales y de lectura continua utilizan **Roboto**. Las acciones principales se diferencian mediante el verde **#3EA98A**, y el texto se mantiene principalmente sobre superficies claras para preservar legibilidad.
+
+#### Buttons and Call-to-Action
+
+| Tipo | Uso |
+|---|---|
+| **Primary Button** | Acción principal de una vista o bloque. |
+| **Secondary Button** | Acción complementaria que no debe competir visualmente con la principal. |
+| **Text Action** | Navegación contextual o acciones de menor prioridad. |
+
+Las etiquetas utilizan verbos o expresiones breves y deben describir el resultado esperado de la acción. Los estados **default, hover, focus, active y disabled** deben distinguirse visualmente; el estado no puede depender exclusivamente del color.
+
+#### Cards and Content Containers
+
+Las tarjetas agrupan información relacionada como beneficios, pasos, estado del traslado, estudiantes o notificaciones. Mantienen superficies claras, padding consistente y una jerarquía interna predecible entre título, contenido, estado y acción.
+
+#### Accessibility and Inclusive Design
+
+Rumbo adopta un enfoque de diseño inclusivo mediante:
+
+- contraste suficiente entre texto y fondo;
+- indicadores visibles de focus;
+- navegación mediante teclado;
+- uso de HTML semántico;
+- texto alternativo para imágenes informativas;
+- áreas de interacción suficientemente amplias;
+- mensajes comprensibles que no dependan solo del color;
+- atributos **ARIA** cuando la semántica nativa no sea suficiente.
+
+#### Internationalization
+
+La experiencia contempla **English (en_US)** y **Latin American Spanish (es_419)**, con **English como idioma predeterminado**, de acuerdo con los lineamientos del proyecto. La estructura de los componentes debe tolerar variaciones de longitud entre traducciones sin romper el layout.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/landingMockupDsk.png" alt="Referencia visual de las Web Style Guidelines en Desktop" width="760">
+  <p><em>Aplicación de las Web Style Guidelines en el Landing Page para Desktop Web Browser.</em></p>
+</div>
+
+### 4.1.3. Mobile Style Guidelines
+
+La versión para **Mobile Web Browser** conserva el mismo Design System y prioriza legibilidad, interacción táctil y navegación sencilla. No se define una identidad distinta para mobile; se adapta la misma jerarquía visual a un espacio reducido.
+
+Las principales decisiones son:
+
+- disposición predominantemente vertical;
+- margen lateral base de **16 px**;
+- reducción de columnas y agrupación de contenido en tarjetas apiladas;
+- acciones principales visibles sin competir con acciones secundarias;
+- controles táctiles con áreas de interacción amplias;
+- textos y estados legibles sin depender de zoom;
+- navegación simplificada y orden de lectura consistente;
+- conservación de a11y e i18n en los mismos términos que la experiencia Desktop.
+
+Cuando un componente cambia de disposición entre Desktop y Mobile, debe conservar la misma función, etiqueta y prioridad. La adaptación responsive no debe introducir una ruta de navegación diferente para realizar la misma tarea.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/landingMockupMb.png" alt="Referencia visual de las Mobile Style Guidelines" width="360">
+  <p><em>Aplicación de las Mobile Style Guidelines en el Landing Page para Mobile Web Browser.</em></p>
+</div>
 
 ## 4.2. Information Architecture
+
+La arquitectura de información de Rumbo define cómo se organizan, etiquetan y conectan los contenidos del Landing Page y de la Web Application. Las decisiones se basan en los User Personas, User Stories e Impact Mapping previamente definidos.
+
+En el Landing Page se utiliza una estructura informativa progresiva: primero se comunica la propuesta de valor, después se presentan beneficios y funcionamiento y, finalmente, se ofrecen acciones de acceso o contacto. En la Web Application la organización cambia según la audiencia: los padres/tutores consultan información del traslado y los conductores administran y registran elementos operativos de su servicio.
 
 ### 4.2.1. Organization Systems
 
+Rumbo combina sistemas de organización jerárquicos, secuenciales, cronológicos y por audiencia de acuerdo con la naturaleza de cada contenido.
+
+| Producto / contenido | Sistema | Aplicación |
+|---|---|---|
+| Landing Page | Jerárquico | Propuesta de valor → beneficios → funcionamiento → funcionalidades → recursos → acción final. |
+| How it works | Secuencial | Explica el servicio siguiendo el orden lógico de sus principales etapas. |
+| Web Application | Por audiencia | Se diferencian las tareas de Parent/Guardian y Driver. |
+| Parent/Guardian Dashboard | Jerárquico | Se prioriza el estado actual del traslado y luego la información complementaria autorizada. |
+| Trip Timeline | Cronológico | Los eventos se presentan según su momento de ocurrencia. |
+| Driver route management | Jerárquico y orientado a tareas | La ruta, estudiantes y acciones operativas relevantes se presentan según prioridad. |
+| Notifications | Cronológico | Los avisos se ordenan por fecha y hora. |
+
+La organización evita duplicar una misma responsabilidad en diferentes áreas. Por ejemplo, los datos de estudiantes y tutores pertenecen a sus funciones de perfil, mientras que rutas, ejecución, incidencias y notificaciones mantienen estructuras diferenciadas.
+
 ### 4.2.2. Labeling Systems
+
+El sistema de etiquetado utiliza palabras breves y consistentes con el Ubiquitous Language del proyecto. Debido a que el idioma predeterminado es **en_US**, las etiquetas principales se definen en inglés y cuentan con equivalente **es_419**.
+
+| English (en_US) | Spanish (es_419) | Asociación |
+|---|---|---|
+| Benefits | Beneficios | Landing Page |
+| How it works | Cómo funciona | Landing Page |
+| Features | Funcionalidades | Landing Page |
+| Resources | Recursos | Landing Page |
+| Sign in | Iniciar sesión | Acceso |
+| Sign up | Registrarse | Registro |
+| Dashboard | Panel principal | Parent/Guardian |
+| Trip Status | Estado del traslado | Consulta de viaje |
+| Trip Detail | Detalle del traslado | Consulta ampliada |
+| Timeline | Línea de tiempo | Eventos del viaje |
+| Notifications | Notificaciones | Avisos relevantes |
+| Routes | Rutas | Gestión del conductor |
+| Students | Estudiantes | Gestión y asignación |
+| Confirm Pickup | Confirmar recojo | Ejecución del viaje |
+| Confirm Drop-off | Confirmar entrega | Ejecución del viaje |
+| Report Delay | Reportar retraso | Gestión de retrasos |
+| Report Incident | Reportar incidencia | Gestión de incidencias |
+| Terms of Service | Términos del servicio | Información legal |
+| Privacy | Privacidad | Tratamiento de datos |
+
+La misma etiqueta debe representar la misma acción en navegación, botones, formularios, mensajes y documentación, evitando sinónimos que puedan confundir al usuario.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+Las principales páginas incluyen como mínimo **Title, Description, Keywords y Author**. Los valores se redactan en inglés debido a que **en_US** es el idioma predeterminado.
+
+#### Landing Page
+
+| Elemento | Valor |
+|---|---|
+| **Title** | Rumbo - School Transport Coordination and Trip Information |
+| **Meta Description** | Rumbo helps families and school transport drivers coordinate routes, trip events, delays and notifications in one place. |
+| **Meta Keywords** | school transport, school routes, trip status, parents, drivers, incidents, notifications |
+| **Meta Author** | AIpaca OS |
+
+#### Web Application – Sign In
+
+| Elemento | Valor |
+|---|---|
+| **Title** | Sign In - Rumbo |
+| **Meta Description** | Access Rumbo to manage or consult authorized school transport information. |
+| **Meta Keywords** | Rumbo sign in, school transport, parents, drivers |
+| **Meta Author** | AIpaca OS |
+
+#### Web Application – Parent/Guardian Dashboard
+
+| Elemento | Valor |
+|---|---|
+| **Title** | Parent Dashboard - Rumbo |
+| **Meta Description** | Consult the current trip status, timeline and notifications associated with an authorized student. |
+| **Meta Keywords** | school trip status, parent dashboard, trip timeline, school transport notifications |
+| **Meta Author** | AIpaca OS |
+
+#### Web Application – Driver Routes
+
+| Elemento | Valor |
+|---|---|
+| **Title** | Routes - Rumbo |
+| **Meta Description** | Manage school transport routes, students, trip events, delays and incidents in Rumbo. |
+| **Meta Keywords** | school route, driver, students, pickup, drop-off, delay, incident |
+| **Meta Author** | AIpaca OS |
+
 ### 4.2.4. Searching Systems
+
+El alcance actual no incorpora un buscador global porque los User Stories priorizados presentan información contextual y acotada para cada usuario. Incluir búsqueda sin un requerimiento que la sustente agregaría complejidad sin valor validado.
+
+| Vista / contenido | Búsqueda o filtro actual | Presentación |
+|---|---|---|
+| Landing Page | No requiere búsqueda | Navegación directa mediante secciones y enlaces. |
+| Parent/Guardian Dashboard | No requiere búsqueda global | Muestra información directamente asociada al usuario autorizado. |
+| Trip Timeline | Orden cronológico | Los eventos se muestran dentro del viaje consultado. |
+| Driver Routes | Acceso contextual a las rutas del conductor | Las rutas disponibles se presentan como lista o tarjetas. |
+| Student List | Listado asociado a una ruta | Los estudiantes se muestran dentro del contexto de la ruta seleccionada. |
+| Notifications | Orden cronológico | Los avisos se presentan desde el más reciente al más antiguo. |
+
+Si en una iteración posterior el volumen de rutas, estudiantes, viajes históricos o notificaciones justifica mecanismos de búsqueda o filtrado, éstos deberán incorporarse mediante User Stories específicas antes de agregarse al producto.
 
 ### 4.2.5. Navigation Systems
 
+Rumbo utiliza navegación global y contextual en el Landing Page y navegación orientada a tareas en la Web Application. La estructura busca que cada persona llegue a su objetivo mediante rutas cortas y predecibles.
+
+#### Landing Page Navigation
+
+El header permite recorrer las principales secciones del contenido:
+
+**Home → Benefits → How it works → Features → Resources**
+
+Las acciones de acceso se presentan de forma independiente: **Sign in** y **Sign up**.
+
+El footer complementa la navegación con información de la startup, contacto y documentos legales.
+
+#### Parent/Guardian Navigation
+
+Después de autenticarse, el usuario accede a su panel principal y desde allí consulta el traslado y las notificaciones correspondientes a los estudiantes sobre los que mantiene autorización.
+
+Ruta principal: **Sign In → Dashboard → Trip Detail → Trip Timeline**
+
+Ruta complementaria: **Dashboard → Notifications**
+
+La navegación prioriza primero el estado actual y después el detalle histórico o complementario.
+
+#### Driver Navigation
+
+El conductor accede a las funciones operativas del servicio de acuerdo con el contexto de la ruta y el viaje.
+
+Ruta de planificación: **Sign In → Routes → Route Detail → Students / Schedule**
+
+Ruta de ejecución: **Active Trip → Student List → Pickup / Drop-off**
+
+Rutas de excepción: **Active Trip → Report Delay** y **Active Trip → Report Incident**.
+
+Después de registrar un evento, la navegación retorna al contexto del viaje activo para evitar recorridos innecesarios.
+
+La estructura anterior resume la arquitectura de navegación, pero no sustituye los Wireflows y User Flows exigidos en la sección 4.4, los cuales deben elaborarse posteriormente con las herramientas indicadas.
+
 ## 4.3. Landing Page UI Design
 
-## 4.2. Information Architecture
+La propuesta de UI del Landing Page traduce las decisiones de Style Guidelines e Information Architecture a una experiencia responsive para visitantes. La jerarquía visual conduce desde la propuesta de valor hacia beneficios, funcionamiento, funcionalidades y acciones finales, conservando la identidad de Rumbo y diferenciando claramente contenido informativo de elementos interactivos.
 
-### 4.3.2. Landing Page Mock-up
-
-## 4.4. Web Applications UX/UI Design
+La adaptación Desktop/Mobile mantiene el mismo orden semántico, las mismas etiquetas y el mismo Design System. En pantallas pequeñas los bloques se apilan y la navegación se simplifica sin alterar la prioridad del contenido. El diseño considera legibilidad, contraste, navegación por teclado, textos alternativos y áreas de interacción adecuadas como parte del enfoque inclusivo.
 
 ### 4.3.1. Landing Page Wireframe
 
+Los wireframes fueron elaborados para **Desktop Web Browser** y **Mobile Web Browser** con el objetivo de validar estructura, jerarquía y organización antes de aplicar estilos finales.
+
+En Desktop, la distribución aprovecha el ancho disponible para organizar contenidos relacionados y facilitar la exploración progresiva. En Mobile, los mismos bloques se reorganizan verticalmente y preservan el orden lógico de lectura. En ambos casos, la ubicación de las acciones principales responde a la arquitectura de información descrita previamente.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/landingWireframeDsk.png" alt="Landing Page Wireframe - Desktop Web Browser" width="750">
+  <p><em>Wireframe del Landing Page para Desktop Web Browser.</em></p>
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/landingWireframeMb.png" alt="Landing Page Wireframe - Mobile Web Browser" width="360">
+  <p><em>Wireframe del Landing Page para Mobile Web Browser.</em></p>
+</div>
+
+Los wireframes priorizan una lectura clara, agrupaciones comprensibles y navegación predecible. El enfoque inclusivo se refleja en la ausencia de dependencias exclusivas del color, la estructura lineal de contenido en mobile y la reserva de espacios suficientemente amplios para controles interactivos.
+
+### 4.3.2. Landing Page Mock-up
+
+Los mock-ups aplican el Design System definido en 4.1 sobre la estructura validada en los wireframes. Se utiliza la paleta verde, crema y arena de Rumbo, junto con **Outfit** para títulos y **Roboto** para contenidos funcionales y de lectura continua.
+
+El Desktop Mock-up conserva una jerarquía amplia y permite presentar agrupaciones de contenido en más de una columna cuando existe espacio suficiente. El Mobile Mock-up transforma esas agrupaciones en bloques verticales, manteniendo las mismas asociaciones, etiquetas y prioridad de acciones.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/landingMockupDsk.png" alt="Landing Page Mock-up - Desktop Web Browser" width="750">
+  <p><em>Mock-up del Landing Page para Desktop Web Browser.</em></p>
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/landingMockupMb.png" alt="Landing Page Mock-up - Mobile Web Browser" width="360">
+  <p><em>Mock-up del Landing Page para Mobile Web Browser.</em></p>
+</div>
+
+La propuesta conserva consistencia con la arquitectura de información y con los principios de diseño inclusivo: contraste suficiente, jerarquía tipográfica, textos comprensibles, acciones claramente diferenciadas y adaptación responsive sin pérdida de contenido o funcionalidad.
+
+## 4.4. Web Applications UX/UI Design
+
+El diseño de la Web Application considera dos experiencias principales: **padres/tutores** y **conductores**. En ambos casos se prioriza la información del trayecto, pero las acciones disponibles cambian según el rol. Los padres consultan; los conductores registran eventos de la ruta con la menor cantidad posible de pasos.
+
+### 4.4.1. Web Applications Wireframes
+
+Los wireframes se definieron a partir de las tareas centrales de cada segmento.
+
+| Rol | Vista | Contenido principal |
+|---|---|---|
+| Padre/Tutor | Sign In | Correo, contraseña y recuperación de acceso. |
+| Padre/Tutor | Dashboard | Estado actual, estudiante, conductor, vehículo y ETA. |
+| Padre/Tutor | Trip Detail | Mapa o progreso de ruta y datos del trayecto. |
+| Padre/Tutor | Trip Timeline | Recojo, retrasos, incidencias y llegada en orden cronológico. |
+| Padre/Tutor | Notifications | Avisos relevantes asociados al estudiante. |
+| Conductor | Sign In | Acceso seguro al panel de ruta. |
+| Conductor | Assigned Route | Ruta activa, horario, paradas y estudiantes asignados. |
+| Conductor | Student List | Estado de recojo o entrega de cada estudiante. |
+| Conductor | Register Event | Confirmación rápida de recojo, llegada o entrega. |
+| Conductor | Report Incident | Tipo de incidencia, descripción breve y registro del evento. |
+
+La prioridad del wireframe es que la vista principal responda rápidamente a dos preguntas: **“¿qué está pasando en el trayecto?”** para la familia y **“¿qué debo registrar ahora?”** para el conductor.
+
 ### 4.4.2. Web Applications Wireflow Diagrams
+
+Los Wireflow Diagrams de Rumbo representan los principales recorridos de interacción de la Web Application a partir de los **User Goals** de los segmentos **Parent** y **Driver**. Cada flujo conecta estados de interfaz consecutivos para evidenciar cómo una persona avanza desde una vista inicial hasta completar una meta concreta.
+
+Los wireflows mantienen trazabilidad con los User Stories, la Information Architecture y los mock-ups definidos para la aplicación. Para evitar diagramas redundantes, se agrupan las acciones relacionadas bajo siete User Goals representativos del alcance funcional.
+
+#### User Goal 1 — Access parent dashboard
+
+**User Persona:** Parent  
+**User Goal:** Acceder al panel principal y visualizar la información del traslado escolar actual.  
+**Explicación del flujo:** El Parent selecciona su experiencia en la pantalla de acceso, ingresa sus credenciales y, después de autenticarse correctamente, accede al Panel principal con la información más reciente del viaje activo.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/wireflows/wireflow-access-parent.png" alt="Wireflow - Access parent dashboard" width="95%">
+</div>
+
+#### User Goal 2 — Consult current trip status
+
+**User Persona:** Parent  
+**User Goal:** Consultar el estado actual del traslado y revisar la secuencia de eventos del viaje.  
+**Explicación del flujo:** Desde el Panel principal, el Parent abre el detalle del viaje activo y puede profundizar en la línea de tiempo para comprender los eventos registrados durante el recorrido.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/wireflows/wireflow-consult-trip.png" alt="Wireflow - Consult current trip status" width="95%">
+</div>
+
+#### User Goal 3 — Review important notifications
+
+**User Persona:** Parent  
+**User Goal:** Revisar avisos relevantes asociados al traslado escolar.  
+**Explicación del flujo:** El Parent accede desde el Panel principal al centro de notificaciones, revisa las actualizaciones recientes y abre el detalle de un aviso relevante para conocer su contexto y estado.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/wireflows/wireflow-review-notifications.png" alt="Wireflow - Review important notifications" width="95%">
+</div>
+
+#### User Goal 4 — Start and execute a route
+
+**User Persona:** Driver  
+**User Goal:** Iniciar la ruta asignada y continuar con la ejecución del recorrido.  
+**Explicación del flujo:** El Driver abre su ruta asignada, inicia el recorrido y accede a la lista de estudiantes para continuar registrando los hitos operativos de recojo y entrega.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/wireflows/wireflow-start-route.png" alt="Wireflow - Start and execute a route" width="95%">
+</div>
+
+#### User Goal 5 — Configure route and stops
+
+**User Persona:** Driver  
+**User Goal:** Configurar la ruta, el orden de las paradas y las vinculaciones necesarias para el servicio.  
+**Explicación del flujo:** El Driver parte de la ruta asignada, ingresa a la configuración, ajusta el orden de paradas y guarda los cambios para que la planificación quede disponible en los siguientes recorridos.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/wireflows/wireflow-configure-route.png" alt="Wireflow - Configure route and stops" width="95%">
+</div>
+
+#### User Goal 6 — Monitor operational notifications
+
+**User Persona:** Driver  
+**User Goal:** Revisar notificaciones operativas relacionadas con la ruta.  
+**Explicación del flujo:** Desde la ruta asignada, el Driver accede al centro de notificaciones, consulta las actualizaciones recientes y marca los avisos revisados para mantener control sobre los eventos informados.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/wireflows/wireflow-monitor-notifications.png" alt="Wireflow - Monitor operational notifications" width="95%">
+</div>
+
+#### User Goal 7 — Manage account and billing
+
+**User Persona:** Driver  
+**User Goal:** Consultar la configuración de la cuenta y el estado de la suscripción.  
+**Explicación del flujo:** El Driver accede a Configuración para revisar su información de perfil y vehículo y, desde las opciones de cuenta, consulta el resumen de Plan y facturación correspondiente al servicio.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/wireflows/wireflow-manage-account.png" alt="Wireflow - Manage account and billing" width="95%">
+</div>
 
 ### 4.4.3. Web Applications Mock-ups
 
+Los mock-ups de la Web Application de **Rumbo** aplican el Design System definido previamente y muestran cómo se materializan las principales funcionalidades para los segmentos **Parent** y **Driver**. Las vistas mantienen una estructura consistente de navegación lateral, tarjetas, estados, acciones principales, tipografía y paleta visual. A continuación se presenta cada pantalla junto con una breve descripción de su propósito dentro de la experiencia.
+
+#### Sign In
+
+La pantalla de inicio de sesión funciona como punto de acceso común a la Web Application. Permite seleccionar la experiencia correspondiente, ingresar las credenciales y acceder a las funcionalidades asociadas al rol del usuario.
+
+<div align="center">
+  <img src="./assets/chapter04/d-sign.png" alt="Mock-up - Sign In" width="750">
+</div>
+
+#### Driver — Assigned Route
+
+La vista **Ruta asignada** concentra la información operativa principal del Driver. Presenta el estado del recorrido, los estudiantes asociados y accesos rápidos para reportar retrasos, incidencias o continuar con las acciones de la ruta.
+
+<div align="center">
+  <img src="./assets/chapter04/d-assigned.png" alt="Mock-up - Driver Assigned Route" width="750">
+</div>
+
+#### Driver — Student List
+
+La **Lista de estudiantes** permite al Driver revisar los estudiantes asociados a la ruta y registrar acciones breves como confirmar recojo o entrega. Los estados visuales permiten distinguir rápidamente estudiantes recogidos, pendientes o ausentes.
+
+<div align="center">
+  <img src="./assets/chapter04/d-student.png" alt="Mock-up - Driver Student List" width="750">
+</div>
+
+#### Driver — Route Configuration
+
+La pantalla **Configurar ruta** permite administrar el orden de las paradas y las vinculaciones relacionadas con el servicio. La organización en bloques mantiene separadas las tareas de planificación de las acciones propias de la ejecución del viaje.
+
+<div align="center">
+  <img src="./assets/chapter04/d-route.png" alt="Mock-up - Driver Route Configuration" width="750">
+</div>
+
+#### Driver — Notifications
+
+El centro de **Notificaciones** reúne los principales eventos operativos asociados a la ruta. La vista prioriza retrasos, confirmaciones y actualizaciones recientes para que el Driver pueda revisar información relevante sin depender de mensajes dispersos.
+
+<div align="center">
+  <img src="./assets/chapter04/d-noti.png" alt="Mock-up - Driver Notifications" width="750">
+</div>
+
+#### Driver — Plan and Billing
+
+La vista **Plan y facturación** presenta el estado de la suscripción, el periodo actual, los comprobantes disponibles y las acciones relacionadas con la gestión del plan. Esta pantalla concentra la información comercial sin mezclarla con las tareas operativas de la ruta.
+
+<div align="center">
+  <img src="./assets/chapter04/d-plan.png" alt="Mock-up - Driver Plan and Billing" width="750">
+</div>
+
+#### Driver — Settings
+
+La sección **Configuración** permite al Driver revisar su información personal, los datos del vehículo y las preferencias de idioma. La vista utiliza la misma jerarquía de tarjetas que el resto de la aplicación para mantener consistencia visual.
+
+<div align="center">
+  <img src="./assets/chapter04/d-settings.png" alt="Mock-up - Driver Settings" width="750">
+</div>
+
+#### Parent — Dashboard
+
+El **Panel principal** del Parent resume la información más reciente del traslado escolar. Presenta el estado del viaje activo, los últimos eventos registrados, el Driver asociado y accesos directos al detalle del viaje y a las notificaciones.
+
+<div align="center">
+  <img src="./assets/chapter04/p-dash.png" alt="Mock-up - Parent Dashboard" width="750">
+</div>
+
+#### Parent — Current Trip
+
+La vista **Viaje actual** amplía el estado del recorrido y organiza los principales eventos en una línea de tiempo. Su objetivo es permitir que el Parent comprenda rápidamente qué ha ocurrido durante el viaje y cuál es el estado registrado más reciente.
+
+<div align="center">
+  <img src="./assets/chapter04/p-current.png" alt="Mock-up - Parent Current Trip" width="750">
+</div>
+
+#### Parent — Trip History
+
+El **Historial de viajes** permite consultar recorridos anteriores y revisar información resumida como fecha, conductor, número de eventos y estado del viaje. La presentación tabular facilita comparar registros sin sobrecargar la vista principal.
+
+<div align="center">
+  <img src="./assets/chapter04/p-trip.png" alt="Mock-up - Parent Trip History" width="750">
+</div>
+
+#### Parent — Notifications
+
+La sección **Notificaciones** centraliza los avisos relacionados con el traslado del estudiante. Los eventos recientes se presentan de forma cronológica y con indicadores visuales para diferenciar confirmaciones, retrasos y actualizaciones operativas.
+
+<div align="center">
+  <img src="./assets/chapter04/p-noti.png" alt="Mock-up - Parent Notifications" width="750">
+</div>
+
+#### Parent — Student Profile
+
+El **Perfil del estudiante** presenta los datos principales del estudiante y la información necesaria para comprender su asociación con el servicio. La vista también permite acceder a información complementaria relacionada con el traslado.
+
+<div align="center">
+  <img src="./assets/chapter04/p-student.png" alt="Mock-up - Parent Student Profile" width="750">
+</div>
+
+#### Parent — Driver and Vehicle Documents
+
+La vista **Documentos del conductor y vehículo** permite al Parent consultar la información declarada del servicio, como licencia, registro del vehículo y seguro. Esta información se presenta como referencia dentro de la experiencia y evita mezclar documentos con el seguimiento operativo del viaje.
+
+<div align="center">
+  <img src="./assets/chapter04/p-driver.png" alt="Mock-up - Driver and Vehicle Documents" width="750">
+</div>
+
+#### Parent — Settings
+
+La sección **Configuración** del Parent reúne preferencias de notificaciones e información de la cuenta. Los controles permiten activar o desactivar avisos sin alterar el resto de la experiencia y mantienen visible la configuración de idioma del producto.
+
+<div align="center">
+  <img src="./assets/chapter04/p-settings.png" alt="Mock-up - Parent Settings" width="750">
+</div>
+
 ### 4.4.4. Web Applications User Flow Diagrams
+
+Los **User Flow Diagrams** de Rumbo representan las rutas esperadas para completar los principales objetivos de los segmentos **Parent** y **Driver**. A diferencia de los Wireflows, estos diagramas incorporan los mock-ups finales de las vistas y muestran tanto el **happy path** como rutas alternativas relevantes, manteniendo consistencia con los User Goals definidos previamente.
+
+#### Vista general de navegación por segmento
+
+Antes del detalle por User Goal, se presenta la vista consolidada de cada segmento, que evidencia cómo se articulan entre sí los distintos objetivos a partir del Panel principal y qué rutas de navegación conectan unos con otros.
+
+**Segmento Conductor**
+
+<div align="center">
+  <img src="./assets/chapter04/userflow-overview-conductores.png" alt="Vista general de navegación - Segmento Conductor" width="100%">
+</div>
+
+**Segmento Padre/Tutor**
+
+<div align="center">
+  <img src="./assets/chapter04/userflow-overview-padres.png" alt="Vista general de navegación - Segmento Padre/Tutor" width="100%">
+</div>
+
+A continuación se detalla cada User Goal con su ruta esperada y sus rutas alternativas.
+
+
+#### User Flow 1 — Access Parent Dashboard
+
+**User Persona:** Parent  
+**User Goal:** Access the main dashboard and review the latest school trip information.  
+**Flow Description:** The Parent selects the Parent experience, signs in successfully, and reaches the main dashboard with the active trip overview. If the credentials are invalid, the system shows an error and allows a new attempt.
+
+<div align="center">
+  <img src="./assets/chapter04/user-flow/user-flow-1.png" alt="User Flow 1 - Access Parent Dashboard" width="95%">
+</div>
+
+#### User Flow 2 — Consult Current Trip Status
+
+**User Persona:** Parent  
+**User Goal:** Consult the current trip status and review the trip timeline.  
+**Flow Description:** The Parent opens the dashboard, accesses the current trip detail, and reviews the chronological sequence of route events. The alternative path represents the case in which the trip has already been completed.
+
+<div align="center">
+  <img src="./assets/chapter04/user-flow/user-flow-2.png" alt="User Flow 2 - Consult Current Trip Status" width="95%">
+</div>
+
+#### User Flow 3 — Review Important Notifications
+
+**User Persona:** Parent  
+**User Goal:** Review relevant notifications related to the school trip.  
+**Flow Description:** The Parent accesses the notification center, reviews recent alerts, and opens the detail of a relevant event. When there are no unread notifications, the interface displays an informative empty state.
+
+<div align="center">
+  <img src="./assets/chapter04/user-flow/user-flow-3.png" alt="User Flow 3 - Review Important Notifications" width="95%">
+</div>
+
+#### User Flow 4 — Start and Execute a Route
+
+**User Persona:** Driver  
+**User Goal:** Start the assigned route and continue the execution of the trip.  
+**Flow Description:** The Driver opens the assigned route, starts the trip, and continues the route through the student list to register operational milestones. The alternative path covers the reporting of a delay while the route remains active.
+
+<div align="center">
+  <img src="./assets/chapter04/user-flow/user-flow-4.png" alt="User Flow 4 - Start and Execute a Route" width="95%">
+</div>
+
+#### User Flow 5 — Configure Route and Stops
+
+**User Persona:** Driver  
+**User Goal:** Configure the assigned route, its stops, and the main service settings.  
+**Flow Description:** The Driver accesses the route configuration, adjusts the stop order and student links, and saves the updated configuration. If required information is missing or invalid, the system shows a validation error before allowing the operation to continue.
+
+<div align="center">
+  <img src="./assets/chapter04/user-flow/user-flow-5.png" alt="User Flow 5 - Configure Route and Stops" width="95%">
+</div>
+
+#### User Flow 6 — Monitor Operational Notifications
+
+**User Persona:** Driver  
+**User Goal:** Review operational notifications associated with the route.  
+**Flow Description:** The Driver opens the notification center, reviews the latest operational updates, opens an alert and marks it as reviewed when appropriate. If there are no recent updates, the system presents an empty state instead of an unnecessary list.
+
+<div align="center">
+  <img src="./assets/chapter04/user-flow/user-flow-6.png" alt="User Flow 6 - Monitor Operational Notifications" width="95%">
+</div>
+
+#### User Flow 7 — Manage Account and Billing
+
+**User Persona:** Driver  
+**User Goal:** Review profile settings and subscription information.  
+**Flow Description:** The Driver accesses the account settings, reviews profile and vehicle information, and then checks the subscription and billing overview. The alternative path illustrates a paused subscription state that can later be reactivated.
+
+<div align="center">
+  <img src="./assets/chapter04/user-flow/user-flow-7.png" alt="User Flow 7 - Manage Account and Billing" width="95%">
+</div>
 
 ## 4.5. Web Applications Prototyping
 
+El prototipo de la Web Application de **Rumbo** integra los principales mock-ups de los segmentos **Parent** y **Driver** en una navegación coherente con los Wireflows y User Flow Diagrams definidos previamente. La propuesta permite validar la continuidad entre pantallas, la ubicación de las acciones principales y la consistencia del sistema de navegación antes de la implementación final.
+
+<div align="center">
+  <img src="./assets/chapter04/user-flow/user-wireflows.png" width="750" alt="Web Applications Prototype">
+</div>
+
 ## 4.6. Domain-Driven Software Architecture
 
-### 4.6.1. Design-Level EventStorming
+### 4.6.1. Design-Level Event Storming
+
+El **Design-Level Event Storming** de Rumbo refina el Big Picture Event Storming desarrollado previamente y organiza el dominio con mayor nivel de detalle. En esta etapa se identifican **Actors, Commands, Aggregates, Domain Events, Business Policies, Read Models y Hotspots**, manteniendo trazabilidad con los User Stories y con el Ubiquitous Language del proyecto.
+
+El artefacto colaborativo de **Design-Level Event Storming** se mantiene en **Miro**, donde el equipo organiza visualmente los elementos del dominio y su relación por Bounded Context. Como respaldo dentro del Project Report se incorporan las exportaciones de los **ocho Bounded Contexts** definidos para Rumbo.
+
+**Miro — Design-Level Event Storming:** https://miro.com/app/board/uXjVEd2_XFE=/?share_link_id=545994946915
+
+| Bounded Context | Responsabilidad principal |
+|---|---|
+| **Identity & Access Management** | Gestionar cuentas, autenticación, verificación de correo y recuperación de acceso. |
+| **Profiles & Relationship Management** | Gestionar perfiles de Parent, Driver y Student, además de las relaciones de autorización sobre cada estudiante. |
+| **Vehicle & Credential Management** | Gestionar vehículos, credenciales declaradas y el estado registrado de su verificación. |
+| **Route & Trip Planning** | Gestionar rutas, paradas, horarios, asignaciones, ausencias, publicación y programación de viajes. |
+| **Trip Execution & Monitoring** | Registrar el inicio y desarrollo del viaje, recojos, entregas, etapas, estado y línea de tiempo. |
+| **Incident & Delay Management** | Gestionar retrasos, incidencias, actualizaciones, resolución y confirmación de conocimiento. |
+| **Notification Management** | Gestionar generación, distribución, lectura, fallos de entrega y preferencias de notificación. |
+| **Subscriptions & Billing** | Gestionar la activación y el estado de la suscripción del Driver y la información del plan asociada. |
+
+#### Evidencia visual del Design-Level Event Storming
+
+La siguiente vista general presenta los ocho Bounded Contexts y sus relaciones dentro de un mismo tablero.
+
+<div align="center">
+  <img src="./assets/chapter04/event-storming/ddd-overview.png" alt="Design-Level Event Storming de Rumbo - vista general de los ocho Bounded Contexts" width="100%">
+</div>
+
+A continuación se presenta la exportación individual de cada Bounded Context, donde se distinguen sus Actors, Commands, Domain Events, Business Policies, Read Models y Hotspots.
+
+**Identity & Access Management**
+
+<div align="center">
+  <img src="./assets/chapter04/event-storming/ddd-identity.png" alt="Design-Level Event Storming - Identity and Access Management" width="95%">
+</div>
+
+**Profiles & Relationship Management**
+
+<div align="center">
+  <img src="./assets/chapter04/event-storming/ddd-profiles.png" alt="Design-Level Event Storming - Profiles and Relationship Management" width="95%">
+</div>
+
+**Vehicle & Credential Management**
+
+<div align="center">
+  <img src="./assets/chapter04/event-storming/ddd-vehicle.png" alt="Design-Level Event Storming - Vehicle and Credential Management" width="95%">
+</div>
+
+**Route & Trip Planning**
+
+<div align="center">
+  <img src="./assets/chapter04/event-storming/ddd-route.png" alt="Design-Level Event Storming - Route and Trip Planning" width="95%">
+</div>
+
+**Trip Execution & Monitoring**
+
+<div align="center">
+  <img src="./assets/chapter04/event-storming/ddd-trip.png" alt="Design-Level Event Storming - Trip Execution and Monitoring" width="95%">
+</div>
+
+**Incident & Delay Management**
+
+<div align="center">
+  <img src="./assets/chapter04/event-storming/ddd-incident.png" alt="Design-Level Event Storming - Incident and Delay Management" width="95%">
+</div>
+
+**Notification Management**
+
+<div align="center">
+  <img src="./assets/chapter04/event-storming/ddd-notification.png" alt="Design-Level Event Storming - Notification Management" width="95%">
+</div>
+
+**Subscriptions**
+
+<div align="center">
+  <img src="./assets/chapter04/event-storming/ddd-subscriptions.png" alt="Design-Level Event Storming - Subscriptions" width="95%">
+</div>
 
 ### 4.6.2. Software Architecture Context Diagram
 
+El **Software Architecture Context Diagram** presenta a Rumbo como un único sistema de software y resume sus relaciones principales con las personas y servicios externos que participan en la solución. Esta vista permite comprender el límite general de la plataforma antes de detallar sus unidades de despliegue e implementación.
+
+<div align="center">
+  <img src="./assets/chapter04/container/context-diagram.png" width="95%">
+</div>
+
 ### 4.6.3. Software Architecture Container Diagrams
+
+El **Container Diagram** describe la arquitectura objetivo de Rumbo a nivel de unidades de despliegue. Se distinguen el Landing Page, la Web Application desarrollada con Angular, el RESTful API previsto en Spring Boot y la capa de persistencia, además de las dependencias externas requeridas por la solución. Para Sprint 2, el Frontend Web Application trabaja con Angular y una fuente de datos simulada; la integración completa con el backend corresponde a los siguientes Sprints.
+
+<div align="center">
+  <img src="./assets/chapter04/container/context-container.png" alt="Rumbo - Software Architecture Container Diagram" width="95%">
+</div>
 
 ### 4.6.4. Software Architecture Components Diagrams
 
+Los **Component Diagrams** descomponen el contenedor de aplicación en componentes asociados a los Bounded Contexts identificados para Rumbo. Cada diagrama muestra responsabilidades, servicios, controladores, repositorios y dependencias necesarias para mantener separadas las capacidades del dominio.
+
+#### Identity & Access Management
+
+Este diagrama representa los componentes responsables de cuentas, autenticación, autorización y recuperación de acceso. El contexto mantiene separadas las responsabilidades de identidad respecto de perfiles, vehículos y operaciones del servicio.
+
+<div align="center">
+  <img src="./assets/chapter04/container/iam-container.png" alt="Identity and Access Management Component Diagram" width="95%">
+</div>
+
+#### Profiles & Relationship Management
+
+Este contexto concentra la gestión de perfiles de Parent, Driver y Student, junto con las relaciones de autorización que determinan quién puede consultar la información de cada estudiante.
+
+<div align="center">
+  <img src="./assets/chapter04/container/profile-container.png" alt="Profiles and Relationship Management Component Diagram" width="95%">
+</div>
+
+#### Vehicle & Credential Management
+
+El diagrama separa el registro y mantenimiento del vehículo de la gestión de credenciales declaradas por el Driver. Los componentes permiten conservar la información del vehículo y el estado de los documentos asociados sin mezclarla con la planificación de rutas.
+
+<div align="center">
+  <img src="./assets/chapter04/container/vehicle-container.png" alt="Vehicle and Credential Management Component Diagram" width="95%">
+</div>
+
+#### Route & Trip Planning
+
+Este diagrama representa los componentes encargados de rutas, paradas, secuencia de recorrido, asignaciones de estudiantes y planificación de viajes. El contexto prepara la información que posteriormente utiliza la ejecución del traslado.
+
+<div align="center">
+  <img src="./assets/chapter04/container/route-container.png" alt="Route and Trip Planning Component Diagram" width="95%">
+</div>
+
+#### Trip Execution & Monitoring
+
+El contexto de ejecución coordina el inicio y desarrollo de un viaje, los eventos operativos y los estados de recojo y entrega. La información registrada alimenta la vista del viaje y su línea de tiempo.
+
+<div align="center">
+  <img src="./assets/chapter04/container/trip-container.png" alt="Trip Execution and Monitoring Component Diagram" width="95%">
+</div>
+
+#### Incident & Delay Management
+
+Este diagrama concentra el registro y actualización de retrasos e incidencias ocurridos durante el servicio. Sus componentes mantienen el estado de cada evento y permiten comunicar los cambios relevantes al contexto de notificaciones.
+
+<div align="center">
+  <img src="./assets/chapter04/container/incident-container.png" alt="Incident and Delay Management Component Diagram" width="95%">
+</div>
+
+#### Notification Management
+
+El contexto de notificaciones administra la generación, persistencia, preferencias y distribución de avisos relacionados con eventos relevantes del traslado. Se mantiene separado de Incident & Delay Management para evitar mezclar el evento de negocio con su mecanismo de comunicación.
+
+<div align="center">
+  <img src="./assets/chapter04/container/notification-container.png" alt="Notification Management Component Diagram" width="95%">
+</div>
+
+#### Subscriptions & Billing
+
+Este diagrama representa la gestión del plan y de la suscripción del Driver dentro de la arquitectura objetivo. El contexto encapsula la información comercial para que no interfiera con las responsabilidades operativas de rutas y viajes.
+
+<div align="center">
+  <img src="./assets/chapter04/container/subscription-container.png" alt="Subscriptions and Billing Component Diagram" width="95%">
+</div>
+
 ## 4.7. Software Object-Oriented Design
+
+Esta sección presenta el diseño orientado a objetos de **Rumbo** a partir de los Bounded Contexts refinados en la sección 4.6. El objetivo es describir con mayor detalle las clases principales, sus atributos y operaciones, así como las relaciones y multiplicidades que permiten representar las responsabilidades de cada parte del dominio.
+
+Los diagramas UML se organizan según los **ocho Bounded Contexts** definidos para la arquitectura objetivo. Cuando una clase perteneciente a otro contexto aparece dentro de un diagrama, se utiliza únicamente como **referencia para expresar una asociación** y no implica que el contexto que la consume sea propietario de dicha entidad.
 
 ### 4.7.1. Class Diagrams
 
+Los Class Diagrams incluyen clases y enumeraciones relevantes, atributos, métodos, visibilidad, asociaciones y multiplicidades. Esta separación mantiene trazabilidad con el Design-Level Event Storming y con los Component Diagrams de la sección 4.6.4.
+
+#### Identity & Access Management
+
+El diagrama modela las responsabilidades relacionadas con cuentas, sesiones, tokens, recuperación de acceso, roles y permisos. De esta forma, la autenticación y autorización permanecen separadas de los datos operativos de perfiles, rutas y viajes.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/class-diagrams/class-diagram-iam.png" alt="Identity and Access Management Class Diagram" width="95%">
+</div>
+
+#### Profiles & Relationship Management
+
+Este contexto representa los perfiles utilizados por Rumbo y las relaciones de autorización vinculadas al estudiante. Su responsabilidad principal es mantener la información de Parent, Driver y Student y determinar qué relaciones permiten consultar la información del estudiante. Las referencias a credenciales o vehículos se interpretan como vínculos hacia sus contextos propietarios.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/class-diagrams/class-diagram-profiles-relationship.png" alt="Profiles and Relationship Management Class Diagram" width="95%">
+</div>
+
+#### Vehicle & Credential Management
+
+El diagrama representa la información del vehículo y los registros asociados a su operación y documentación. Este contexto concentra la responsabilidad de los datos del vehículo y de las credenciales declaradas por el Driver, evitando que Route & Trip Planning administre directamente dicha información.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/class-diagrams/class-diagram-vehicle-credential.png" alt="Vehicle and Credential Management Class Diagram" width="95%">
+</div>
+
+#### Route & Trip Planning
+
+Este contexto modela rutas, paradas, horarios y asignaciones necesarias antes de iniciar un traslado. Las asociaciones con Student y Driver permiten expresar qué participantes intervienen en la planificación, mientras que sus perfiles completos continúan perteneciendo a sus respectivos Bounded Contexts.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/class-diagrams/class-diagram-route-trip-planning.png" alt="Route and Trip Planning Class Diagram" width="95%">
+</div>
+
+#### Trip Execution & Monitoring
+
+El diagrama describe el viaje en ejecución y los registros que permiten conocer su evolución: eventos, hitos, recojos, entregas y línea de tiempo. La arquitectura de Rumbo prioriza el seguimiento mediante estados y eventos del recorrido; cualquier dato de ubicación representado se considera complementario y no modifica la separación de responsabilidades definida para el dominio.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/class-diagrams/class-diagram-trip-execution.png" alt="Trip Execution and Monitoring Class Diagram" width="95%">
+</div>
+
+#### Incident & Delay Management
+
+Este contexto concentra el registro y seguimiento de retrasos e incidencias vinculados a un viaje. Las clases relacionadas con evidencias, notas o elementos afectados permiten conservar el contexto del evento y su evolución hasta su resolución sin mezclar esta responsabilidad con la distribución de notificaciones.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/class-diagrams/class-diagram-incident-delay.png" alt="Incident and Delay Management Class Diagram" width="95%">
+</div>
+
+#### Notification Management
+
+El diagrama representa la creación y entrega de avisos, las preferencias del usuario y los canales utilizados para distribuirlos. Los eventos de retraso, incidencia, recojo o entrega funcionan como información de entrada, mientras que este contexto se responsabiliza únicamente de convertirlos en comunicaciones hacia los destinatarios correspondientes.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/class-diagrams/class-diagram-notification.png" alt="Notification Management Class Diagram" width="95%">
+</div>
+
+#### Subscriptions & Billing
+
+Este contexto representa la relación entre el Driver, el plan y el estado de su suscripción. Los elementos comerciales incluidos en el modelo se consideran parte de la arquitectura objetivo; para el alcance actual, la funcionalidad prioritaria continúa siendo la activación y consulta del estado de la suscripción definida en los requisitos.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/class-diagrams/class-diagram-subscriptions-billing.png" alt="Subscriptions and Billing Class Diagram" width="95%">
+</div>
+
+En conjunto, los ocho Class Diagrams mantienen la separación establecida en el diseño de dominio y sirven como referencia para los Database Diagrams de la siguiente sección. El modelado se utiliza como diseño de la arquitectura objetivo y no implica que todos los componentes de backend se encuentren implementados durante Sprint 2.
+
 ## 4.8. Database Design
 
+El diseño de persistencia de **Rumbo** mantiene la misma separación establecida en el modelado DDD y en los Class Diagrams. Cada Database Diagram representa las principales tablas, columnas, claves primarias, claves foráneas y relaciones necesarias para persistir la información administrada por su Bounded Context.
+
+Los diagramas corresponden a la **arquitectura objetivo** del producto. Por ello, algunas tablas representan capacidades previstas para etapas posteriores y no implican que todo el backend se encuentre implementado durante Sprint 2.
+
 ### 4.8.1. Database Diagrams
+
+#### Identity & Access Management
+
+Este esquema concentra la persistencia de cuentas, sesiones, recuperación de acceso, roles y permisos. Las tablas de relación permiten separar la identidad del usuario de las capacidades que puede ejecutar dentro de la plataforma.
+
+<div align="center">
+  <img src="./assets/chapter04/dataclass-diagrams/iam-class-diagram.png" alt="Identity and Access Management Database Diagram" width="95%">
+</div>
+
+#### Profiles & Relationship Management
+
+El esquema almacena los perfiles de Parent, Driver y Student, junto con las relaciones de autorización y datos complementarios necesarios para representar quién puede consultar la información de cada estudiante.
+
+<div align="center">
+  <img src="./assets/chapter04/dataclass-diagrams/profile-class-diagram.png" alt="Profiles and Relationship Management Database Diagram" width="95%">
+</div>
+
+#### Vehicle & Credential Management
+
+Este diagrama representa la persistencia de vehículos, asignaciones, documentos y credenciales asociadas al Driver. Las claves foráneas permiten mantener la relación con el conductor sin trasladar la responsabilidad del vehículo a otros Bounded Contexts.
+
+<div align="center">
+  <img src="./assets/chapter04/dataclass-diagrams/vehicle-class-diagram.png" alt="Vehicle and Credential Management Database Diagram" width="95%">
+</div>
+
+#### Route & Trip Planning
+
+El modelo de datos de planificación mantiene rutas, paradas, estudiantes asignados y programación de viajes. Estas relaciones permiten conservar el orden de recorrido y preparar la información que utilizará posteriormente la ejecución del traslado.
+
+<div align="center">
+  <img src="./assets/chapter04/dataclass-diagrams/route-class-diagram.png" alt="Route and Trip Planning Database Diagram" width="95%">
+</div>
+
+#### Trip Execution & Monitoring
+
+Este esquema persiste los viajes ejecutados y los principales eventos generados durante el recorrido, incluyendo estados de estudiantes, recojos, entregas, entradas de línea de tiempo y registros complementarios de ubicación cuando correspondan.
+
+<div align="center">
+  <img src="./assets/chapter04/dataclass-diagrams/trip-class-diagram.png" alt="Trip Execution and Monitoring Database Diagram" width="95%">
+</div>
+
+#### Incident & Delay Management
+
+El diagrama separa la persistencia de retrasos e incidencias de la lógica de notificaciones. Incluye información del evento, estudiantes afectados, evidencia y acciones de resolución necesarias para conservar la trazabilidad de cada situación reportada.
+
+<div align="center">
+  <img src="./assets/chapter04/dataclass-diagrams/incident-class-diagram.png" alt="Incident and Delay Management Database Diagram" width="95%">
+</div>
+
+#### Notification Management
+
+Este esquema administra notificaciones, destinatarios, preferencias, reglas de alerta y registros de entrega. Su propósito es persistir el ciclo de comunicación generado a partir de eventos del dominio sin duplicar los datos propios de rutas, viajes o incidencias.
+
+<div align="center">
+  <img src="./assets/chapter04/dataclass-diagrams/notification-class-diagram.png" alt="Notification Management Database Diagram" width="95%">
+</div>
+
+#### Subscriptions & Billing
+
+El esquema comercial relaciona al Driver con un plan y con el estado de su suscripción. También representa entidades de facturación previstas por la arquitectura objetivo; para el alcance actual, la funcionalidad prioritaria continúa siendo la activación y consulta del estado de la suscripción.
+
+<div align="center">
+  <img src="./assets/chapter04/dataclass-diagrams/susbscription-class-diagram.png" alt="Subscriptions and Billing Database Diagram" width="95%">
+</div>
+
+En conjunto, los ocho Database Diagrams mantienen correspondencia con los Bounded Contexts definidos en 4.6 y con los Class Diagrams de 4.7, conservando la separación de responsabilidades entre identidad, perfiles, vehículos, planificación, ejecución, incidencias, notificaciones y suscripciones.
 
 ---
 
@@ -1488,9 +2371,9 @@ El Product Backlog fue actualizado en Trello con la priorización vigente, inclu
 
 ## 5.4. Video About-the-Product
 
-## Conclusiones y recomendaciones
+---
 
-## Video About-The-Team
+# Conclusiones
 
 ## Conclusiones y recomendaciones
 
