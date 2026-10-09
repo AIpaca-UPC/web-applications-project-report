@@ -2061,7 +2061,7 @@ A continuación se presenta la exportación individual de cada Bounded Context, 
 El **Software Architecture Context Diagram** presenta a Rumbo como un único sistema de software y resume sus relaciones principales con las personas y servicios externos que participan en la solución. Esta vista permite comprender el límite general de la plataforma antes de detallar sus unidades de despliegue e implementación.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/software-architecture/diagram-system-context.png" alt="Rumbo - Software Architecture Context Diagram" width="95%">
+  <img src="./assets/chapter04/container/context-diagram.png" width="95%">
 </div>
 
 ### 4.6.3. Software Architecture Container Diagrams
@@ -2069,7 +2069,7 @@ El **Software Architecture Context Diagram** presenta a Rumbo como un único sis
 El **Container Diagram** describe la arquitectura objetivo de Rumbo a nivel de unidades de despliegue. Se distinguen el Landing Page, la Web Application desarrollada con Angular, el RESTful API previsto en Spring Boot y la capa de persistencia, además de las dependencias externas requeridas por la solución. Para Sprint 2, el Frontend Web Application trabaja con Angular y una fuente de datos simulada; la integración completa con el backend corresponde a los siguientes Sprints.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/software-architecture/diagram-container.png" alt="Rumbo - Software Architecture Container Diagram" width="95%">
+  <img src="./assets/chapter04/container/context-container.png" alt="Rumbo - Software Architecture Container Diagram" width="95%">
 </div>
 
 ### 4.6.4. Software Architecture Components Diagrams
@@ -2081,7 +2081,7 @@ Los **Component Diagrams** descomponen el contenedor de aplicación en component
 Este diagrama representa los componentes responsables de cuentas, autenticación, autorización y recuperación de acceso. El contexto mantiene separadas las responsabilidades de identidad respecto de perfiles, vehículos y operaciones del servicio.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/software-architecture/diagram-iam.png" alt="Identity and Access Management Component Diagram" width="95%">
+  <img src="./assets/chapter04/container/iam-container.png" alt="Identity and Access Management Component Diagram" width="95%">
 </div>
 
 #### Profiles & Relationship Management
@@ -2089,7 +2089,7 @@ Este diagrama representa los componentes responsables de cuentas, autenticación
 Este contexto concentra la gestión de perfiles de Parent, Driver y Student, junto con las relaciones de autorización que determinan quién puede consultar la información de cada estudiante.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/software-architecture/diagram-profiles.png" alt="Profiles and Relationship Management Component Diagram" width="95%">
+  <img src="./assets/chapter04/container/profile-container.png" alt="Profiles and Relationship Management Component Diagram" width="95%">
 </div>
 
 #### Vehicle & Credential Management
@@ -2097,7 +2097,7 @@ Este contexto concentra la gestión de perfiles de Parent, Driver y Student, jun
 El diagrama separa el registro y mantenimiento del vehículo de la gestión de credenciales declaradas por el Driver. Los componentes permiten conservar la información del vehículo y el estado de los documentos asociados sin mezclarla con la planificación de rutas.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/software-architecture/diagram-vehicle.png" alt="Vehicle and Credential Management Component Diagram" width="95%">
+  <img src="./assets/chapter04/container/vehicle-container.png" alt="Vehicle and Credential Management Component Diagram" width="95%">
 </div>
 
 #### Route & Trip Planning
@@ -2105,7 +2105,7 @@ El diagrama separa el registro y mantenimiento del vehículo de la gestión de c
 Este diagrama representa los componentes encargados de rutas, paradas, secuencia de recorrido, asignaciones de estudiantes y planificación de viajes. El contexto prepara la información que posteriormente utiliza la ejecución del traslado.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/software-architecture/diagram-route-planning.png" alt="Route and Trip Planning Component Diagram" width="95%">
+  <img src="./assets/chapter04/container/route-container.png" alt="Route and Trip Planning Component Diagram" width="95%">
 </div>
 
 #### Trip Execution & Monitoring
@@ -2113,7 +2113,7 @@ Este diagrama representa los componentes encargados de rutas, paradas, secuencia
 El contexto de ejecución coordina el inicio y desarrollo de un viaje, los eventos operativos y los estados de recojo y entrega. La información registrada alimenta la vista del viaje y su línea de tiempo.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/software-architecture/diagram-trip.png" alt="Trip Execution and Monitoring Component Diagram" width="95%">
+  <img src="./assets/chapter04/container/trip-container.png" alt="Trip Execution and Monitoring Component Diagram" width="95%">
 </div>
 
 #### Incident & Delay Management
@@ -2121,7 +2121,7 @@ El contexto de ejecución coordina el inicio y desarrollo de un viaje, los event
 Este diagrama concentra el registro y actualización de retrasos e incidencias ocurridos durante el servicio. Sus componentes mantienen el estado de cada evento y permiten comunicar los cambios relevantes al contexto de notificaciones.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/software-architecture/diagram-incident.png" alt="Incident and Delay Management Component Diagram" width="95%">
+  <img src="./assets/chapter04/container/incident-container.png" alt="Incident and Delay Management Component Diagram" width="95%">
 </div>
 
 #### Notification Management
@@ -2129,7 +2129,7 @@ Este diagrama concentra el registro y actualización de retrasos e incidencias o
 El contexto de notificaciones administra la generación, persistencia, preferencias y distribución de avisos relacionados con eventos relevantes del traslado. Se mantiene separado de Incident & Delay Management para evitar mezclar el evento de negocio con su mecanismo de comunicación.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/software-architecture/diagram-notifications.png" alt="Notification Management Component Diagram" width="95%">
+  <img src="./assets/chapter04/container/notification-container.png" alt="Notification Management Component Diagram" width="95%">
 </div>
 
 #### Subscriptions & Billing
@@ -2137,7 +2137,7 @@ El contexto de notificaciones administra la generación, persistencia, preferenc
 Este diagrama representa la gestión del plan y de la suscripción del Driver dentro de la arquitectura objetivo. El contexto encapsula la información comercial para que no interfiera con las responsabilidades operativas de rutas y viajes.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/software-architecture/diagram-subscription.png" alt="Subscriptions and Billing Component Diagram" width="95%">
+  <img src="./assets/chapter04/container/subscription-container.png" alt="Subscriptions and Billing Component Diagram" width="95%">
 </div>
 
 ## 4.7. Software Object-Oriented Design
