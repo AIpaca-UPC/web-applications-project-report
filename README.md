@@ -276,6 +276,10 @@ La situación se mantiene en 2026. Con datos de TomTom consolidados hasta el 3 d
 
 - **Conductores de movilidad escolar**, que deben cumplir su ruta en medio del tráfico y, al mismo tiempo, comunicar recojos, retrasos o incidencias a varias familias de forma individual. Su trabajo está sujeto a exigencias formales: la ATU verifica que los vehículos cuenten con SOAT y CITV vigentes y que los conductores tengan licencia de categoría AIIB (Infobae, 2026a).
 
+- **Estudiantes**, beneficiarios indirectos del servicio. No interactúan con la plataforma, pero su seguridad y la protección de sus datos personales condicionan el diseño de la solución.
+
+Ambos grupos constituyen los segmentos objetivo de Rumbo, por ser quienes utilizarán la plataforma. Los estudiantes, en cambio, reciben el servicio pero no interactúan con ella: su condición de menores de edad resulta relevante porque la información que Rumbo registra sobre sus traslados constituye datos personales sujetos a la Ley N.º 29733, lo que condiciona el diseño de permisos y visibilidad de la solución.
+
 **Why (¿Por qué?) — ¿Por qué ocurre y por qué importa?**
 
 - **Comunicación fragmentada en canales generales:** La coordinación se realiza principalmente por mensajería instantánea. Según la Encuesta Residencial de Servicios de Telecomunicaciones (ERESTEL) 2025 de Osiptel, el 68,6 % de los peruanos usó plataformas de comunicación instantánea durante el último año, y entre ellos WhatsApp alcanza el 98,6 % de usuarios (Expreso, 2026). Estos canales son útiles, pero no fueron diseñados para registrar hitos de una ruta: la información queda mezclada con otros mensajes y cada familia recibe actualizaciones distintas.
@@ -1325,17 +1329,16 @@ El glosario se mantiene centrado únicamente en términos del dominio del transp
 
 ## 5.4. Video About-the-Product
 
----
-
-# Conclusiones
+La propuesta visual toma como referencia los mock-ups elaborados en Figma para la Landing Page y extiende el mismo sistema de colores, tipografía, tarjetas y botones hacia la aplicación web.
 
 ## Conclusiones y recomendaciones
 
 ## Video About-The-Team
 
----
+- `Trip Detail`
+- `Notifications`
 
-# Bibliografía
+A partir de Trip Detail puede profundizar hacia:
 
 ---
 

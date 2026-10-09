@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360">
+  <rect width="1100" height="360" rx="18" fill="#0d1117"/>
+  <text x="42" y="52" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="27" font-weight="700">Project Report Collaboration Insights — AV1</text>
+  <text x="42" y="84" fill="#8b949e" font-family="Arial, sans-serif" font-size="16">GitHub Insights · Pulse · August 20, 2026 — September 20, 2026</text>
+
+  <g transform="translate(42,122)">
+    <rect width="235" height="122" rx="12" fill="#161b22" stroke="#30363d"/>
+    <text x="22" y="34" fill="#8b949e" font-family="Arial" font-size="15">Authors</text>
+    <text x="22" y="82" fill="#f0f6fc" font-family="Arial" font-size="38" font-weight="700">4</text>
+    <text x="82" y="82" fill="#c9d1d9" font-family="Arial" font-size="15">active contributors</text>
+  </g>
+
+  <g transform="translate(295,122)">
+    <rect width="235" height="122" rx="12" fill="#161b22" stroke="#30363d"/>
+    <text x="22" y="34" fill="#8b949e" font-family="Arial" font-size="15">Commits</text>
+    <text x="22" y="82" fill="#f0f6fc" font-family="Arial" font-size="38" font-weight="700">109</text>
+    <text x="102" y="82" fill="#c9d1d9" font-family="Arial" font-size="15">to all branches</text>
+  </g>
+
+  <g transform="translate(548,122)">
+    <rect width="235" height="122" rx="12" fill="#161b22" stroke="#30363d"/>
+    <text x="22" y="34" fill="#8b949e" font-family="Arial" font-size="15">Merged PRs</text>
+    <text x="22" y="82" fill="#f0f6fc" font-family="Arial" font-size="38" font-weight="700">6</text>
+    <text x="62" y="82" fill="#c9d1d9" font-family="Arial" font-size="15">merged pull requests</text>
+  </g>
+
+  <g transform="translate(801,122)">
+    <rect width="257" height="122" rx="12" fill="#161b22" stroke="#30363d"/>
+    <text x="22" y="34" fill="#8b949e" font-family="Arial" font-size="15">Open work</text>
+    <text x="22" y="82" fill="#3fb950" font-family="Arial" font-size="38" font-weight="700">0</text>
+    <text x="58" y="72" fill="#c9d1d9" font-family="Arial" font-size="14">open PRs</text>
+    <text x="58" y="94" fill="#c9d1d9" font-family="Arial" font-size="14">active issues</text>
+  </g>
+
+  <text x="42" y="286" fill="#c9d1d9" font-family="Arial, sans-serif" font-size="16">Summary: 4 authors pushed 2 commits to main and 109 commits across all branches during the selected period.</text>
+  <text x="42" y="316" fill="#8b949e" font-family="Arial, sans-serif" font-size="14">Evidence summarized from the GitHub Pulse screenshot supplied for the Project Report repository.</text>
+</svg>
