@@ -3041,22 +3041,25 @@ La evidencia de ejecución del Sprint 2 se presenta mediante capturas de la **Fr
 
 ##### Vehicle &amp; Credential Management — Vehicles
  
-<!-- IMAGEN 5.S2-06 · VEHICLES (listado)
-     Captura: vista de listado de vehículos con sus registros de muestra.
-     Archivo: ./assets/chapter05/sprint2/vehicles-list.png -->
+Las siguientes capturas documentan la interfaz de **Vehicle & Credential Management** implementada durante el Sprint 2. Se presentan las cuatro evidencias disponibles, manteniendo su secuencia original.
+ 
 <div align="center">
-  <img src="./assets/chapter05/sprint2/vehicles-list.png" alt="Vista de listado de vehículos con los registros existentes y los controles de edición y eliminación." width="90%">
-  <p><em>Figura 5.S2-06. Listado de vehículos del contexto Vehicle &amp; Credential Management.</em></p>
+  <img src="./assets/chapter5/sprint2/vehicles-1.jpeg" alt="Captura 1 de la interfaz de Vehicle & Credential Management en Rumbo." width="90%">
+  <p><em>Figura 5.S2-06 (a). Primera captura del Bounded Context Vehicle & Credential Management.</em></p>
 </div>
-<!-- IMAGEN 5.S2-07 · VEHICLES (formulario con credenciales)
-     Captura: formulario de registro de un vehículo mostrando los campos de las
-     credenciales declaradas del servicio y su estado.
-     Archivo: ./assets/chapter05/sprint2/vehicles-form.png -->
 <div align="center">
-  <img src="./assets/chapter05/sprint2/vehicles-form.png" alt="Formulario de registro de un vehículo con sus credenciales declaradas del servicio." width="90%">
-  <p><em>Figura 5.S2-07. Formulario de registro de un vehículo y de sus credenciales declaradas.</em></p>
+  <img src="./assets/chapter5/sprint2/vehicles-2.jpeg" alt="Captura 2 de la interfaz de Vehicle & Credential Management en Rumbo." width="90%">
+  <p><em>Figura 5.S2-06 (b). Segunda captura del Bounded Context Vehicle & Credential Management.</em></p>
 </div>
-
+<div align="center">
+  <img src="./assets/chapter5/sprint2/vehicles-3.jpeg" alt="Captura 3 de la interfaz de Vehicle & Credential Management en Rumbo." width="90%">
+  <p><em>Figura 5.S2-07 (a). Tercera captura del Bounded Context Vehicle & Credential Management.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter5/sprint2/vehicles-4.jpeg" alt="Captura 4 de la interfaz de Vehicle & Credential Management en Rumbo." width="90%">
+  <p><em>Figura 5.S2-07 (b). Cuarta captura del Bounded Context Vehicle & Credential Management.</em></p>
+</div>
+ 
 ##### Alerting &amp; Incident Management — Notifications
  
 <!-- IMAGEN 5.S2-08 · NOTIFICATIONS
