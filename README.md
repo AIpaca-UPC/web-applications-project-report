@@ -59,21 +59,37 @@
 
 ### TB1 — Collaboration Insights
 
+Las siguientes imágenes son **capturas reales aportadas por el equipo** sobre la actividad del repositorio de la **Frontend Web Application de Rumbo**, correspondiente al proyecto de **Aplicaciones Web**. Se presentan como evidencia del historial de commits y del trabajo con ramas durante TB1, sin reemplazarlas por gráficos creados artificialmente.
+
+**Historial de commits**
+
 <div align="center">
-  <img src="./assets/collaboration/tb1-project-report-insights.svg" alt="Resumen de colaboración del Project Report para TB1: 5 autores de commits, 90 commits en develop y 8 pull requests fusionados." width="95%">
+  <img src="./assets/chapter5/sprint2/commits.png" alt="Captura real de la actividad de commits del proyecto Web Applications Web App." width="95%">
+  <p><em>Figura TB1-C1. Evidencia de commits del repositorio de la Frontend Web Application de Rumbo.</em></p>
 </div>
 
-Para la actualización del **TB1**, se revisó la actividad del repositorio `AIpaca-UPC/web-applications-project-report` desde el **21 de septiembre hasta el 9 de octubre de 2026 (UTC)**. En ese periodo, el historial alcanzable desde `develop` registra **90 commits** y **5 cuentas autoras distintas**. En el repositorio se identificaron **8 pull requests fusionados** durante el mismo intervalo. A la fecha de consulta, no había pull requests ni issues abiertos.
+**Network — ramas de trabajo**
 
-Estas cifras describen el periodo consultado para esta actualización; no son estadísticas de todas las ramas ni un rango oficial de fechas de la evaluación. El gráfico se elaboró a partir del historial de GitHub y reemplaza el resumen previo de AV1.
+<div align="center">
+  <img src="./assets/chapter5/sprint2/network.png" alt="Captura real de Network del repositorio de la Frontend Web Application de Rumbo." width="95%">
+  <p><em>Figura TB1-C2. Historial visual de ramas en GitHub Network.</em></p>
+</div>
 
-**Evidencias verificables del Project Report:**
+<div align="center">
+  <img src="./assets/chapter5/sprint2/network-web-2.png" alt="Segunda captura real de Network del repositorio de la Frontend Web Application de Rumbo." width="95%">
+  <p><em>Figura TB1-C3. Evidencia complementaria del flujo de ramas del repositorio.</em></p>
+</div>
 
-- **Commits de `develop`:** https://github.com/AIpaca-UPC/web-applications-project-report/commits/develop/
-- **Pull requests fusionados:** https://github.com/AIpaca-UPC/web-applications-project-report/pulls?q=is%3Apr+is%3Amerged+merged%3A2026-09-21..2026-10-09
-- **Network (ramas e integraciones):** https://github.com/AIpaca-UPC/web-applications-project-report/network
-- **Contributors:** https://github.com/AIpaca-UPC/web-applications-project-report/graphs/contributors
-- **Pull requests abiertos:** https://github.com/AIpaca-UPC/web-applications-project-report/pulls?q=is%3Apr+is%3Aopen
+**Enlaces de verificación del proyecto de Aplicaciones Web:**
+
+- **Frontend Web Application — Commits:** https://github.com/AIpaca-UPC/web-applications-web-app/commits/develop/
+- **Frontend Web Application — Network:** https://github.com/AIpaca-UPC/web-applications-web-app/network
+- **Frontend Web Application — Contributors:** https://github.com/AIpaca-UPC/web-applications-web-app/graphs/contributors
+- **Frontend Web Application — Pull Requests:** https://github.com/AIpaca-UPC/web-applications-web-app/pulls?q=is%3Apr
+- **Project Report — Commits:** https://github.com/AIpaca-UPC/web-applications-project-report/commits/develop/
+- **Project Report — Network:** https://github.com/AIpaca-UPC/web-applications-project-report/network
+- **Project Report — Contributors:** https://github.com/AIpaca-UPC/web-applications-project-report/graphs/contributors
+- **Project Report — Pull Requests:** https://github.com/AIpaca-UPC/web-applications-project-report/pulls?q=is%3Apr
 
 ---
 
