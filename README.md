@@ -1985,7 +1985,7 @@ El **Design-Level Event Storming** de Rumbo refina el Big Picture Event Storming
 
 El artefacto colaborativo de **Design-Level Event Storming** se mantiene en **Miro**, donde el equipo organiza visualmente los elementos del dominio y su relación por Bounded Context. Como respaldo dentro del Project Report se incorporan las exportaciones de los **ocho Bounded Contexts** definidos para Rumbo.
 
-**Miro — Design-Level Event Storming:** https://miro.com/app/board/uXjVHr48KA8=/?share_link_id=942564800097
+**Miro — Design-Level Event Storming:** https://miro.com/app/board/uXjVEd2_XFE=/?share_link_id=545994946915
 
 | Bounded Context | Responsabilidad principal |
 |---|---|
@@ -2000,54 +2000,60 @@ El artefacto colaborativo de **Design-Level Event Storming** se mantiene en **Mi
 
 #### Evidencia visual del Design-Level Event Storming
 
-A continuación se presentan las exportaciones visuales correspondientes a los **ocho Bounded Contexts** definidos para Rumbo.
+La siguiente vista general presenta los ocho Bounded Contexts y sus relaciones dentro de un mismo tablero.
+
+<div align="center">
+  <img src="./assets/chapter04/event-storming/ddd-overview.png" alt="Design-Level Event Storming de Rumbo - vista general de los ocho Bounded Contexts" width="100%">
+</div>
+
+A continuación se presenta la exportación individual de cada Bounded Context, donde se distinguen sus Actors, Commands, Domain Events, Business Policies, Read Models y Hotspots.
 
 **Identity & Access Management**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/event-storming/ddd-identity.jpeg" alt="Design-Level Event Storming - Identity and Access Management" width="95%">
+  <img src="./assets/chapter04/event-storming/ddd-identity.png" alt="Design-Level Event Storming - Identity and Access Management" width="95%">
 </div>
 
 **Profiles & Relationship Management**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/event-storming/ddd-profile.png" alt="Design-Level Event Storming - Profiles and Relationship Management" width="95%">
+  <img src="./assets/chapter04/event-storming/ddd-profiles.png" alt="Design-Level Event Storming - Profiles and Relationship Management" width="95%">
 </div>
 
 **Vehicle & Credential Management**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/event-storming/ddd-vehicle-credential.jpeg" alt="Design-Level Event Storming - Vehicle and Credential Management" width="95%">
+  <img src="./assets/chapter04/event-storming/ddd-vehicle.png" alt="Design-Level Event Storming - Vehicle and Credential Management" width="95%">
 </div>
 
 **Route & Trip Planning**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/event-storming/ddd-route.jpeg" alt="Design-Level Event Storming - Route and Trip Planning" width="95%">
+  <img src="./assets/chapter04/event-storming/ddd-route.png" alt="Design-Level Event Storming - Route and Trip Planning" width="95%">
 </div>
 
 **Trip Execution & Monitoring**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/event-storming/ddd-trip.jpeg" alt="Design-Level Event Storming - Trip Execution and Monitoring" width="95%">
+  <img src="./assets/chapter04/event-storming/ddd-trip.png" alt="Design-Level Event Storming - Trip Execution and Monitoring" width="95%">
 </div>
 
 **Incident & Delay Management**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/event-storming/ddd-incident.jpeg" alt="Design-Level Event Storming - Incident and Delay Management" width="95%">
+  <img src="./assets/chapter04/event-storming/ddd-incident.png" alt="Design-Level Event Storming - Incident and Delay Management" width="95%">
 </div>
 
 **Notification Management**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/event-storming/ddd-notification.jpeg" alt="Design-Level Event Storming - Notification Management" width="95%">
+  <img src="./assets/chapter04/event-storming/ddd-notification.png" alt="Design-Level Event Storming - Notification Management" width="95%">
 </div>
 
-**Subscriptions & Billing**
+**Subscriptions**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/event-storming/ddd-subscriptions-billing.jpeg" alt="Design-Level Event Storming - Subscriptions and Billing" width="95%">
+  <img src="./assets/chapter04/event-storming/ddd-subscriptions.png" alt="Design-Level Event Storming - Subscriptions" width="95%">
 </div>
 
 ### 4.6.2. Software Architecture Context Diagram
