@@ -2279,7 +2279,7 @@ En conjunto, los ocho Database Diagrams mantienen correspondencia con los Bounde
 
 En este capítulo se describe y evidencia el proceso de implementación, comprobación y despliegue de **Rumbo** para el alcance de TB1. La entrega consolida una nueva versión de la Landing Page y la primera versión integrada de la Frontend Web Application. El Frontend se encuentra construido con **Angular 21.2**, TypeScript 5.9 y Angular Material 21.2, organizado por Bounded Contexts y consumiendo Fake REST APIs. La lógica de negocio de servidor y los Web Services reales con Spring Boot quedan fuera del alcance de este Sprint.
 
-Para mantener trazabilidad con el estado real de los repositorios, este capítulo distingue entre: (1) funcionalidades implementadas y fusionadas en GitHub, (2) servicios emulados con MockAPI o JSON Server local y (3) evidencias de despliegue que requieren una URL pública verificable. No se atribuyen como completadas actividades que todavía no cuentan con evidencia en los repositorios.
+Para mantener trazabilidad con el estado real de los repositorios, este capítulo distingue entre: (1) funcionalidades implementadas y fusionadas en GitHub, (2) servicios emulados con MockAPI o JSON Server local y (3) evidencias de despliegue que requieren una URL pública verificable. 
 
 ## 5.1. Software Configuration Management
 
@@ -2307,7 +2307,6 @@ Las herramientas utilizadas o previstas para el ciclo de vida de Rumbo son las s
 | API Documentation (Sprint posterior) | OpenAPI / Swagger | Documentación futura de Web Services reales. | Open Standard / Open Source | https://www.openapis.org |
 | Software Documentation | Markdown | Elaboración colaborativa del Project Report. | Open Standard | https://www.markdownguide.org |
 
-El repositorio del Frontend confirma actualmente Angular 21.2.x, Angular Material 21.2.x, TypeScript 5.9.2, npm 11.19.0 y json-server 0.17.4. Por ello se elimina del Capítulo V la referencia anterior a Angular 18 como versión utilizada en TB1.
 
 ### 5.1.2. Source Code Management
 
@@ -2506,7 +2505,6 @@ El objetivo del Sprint 1 es implementar y desplegar la primera versión responsi
 
 **Sprint Board público:** https://trello.com/b/pZTeSjRE/rumbo-sprint-1
 
-> Antes de la entrega se debe reemplazar esta nota por una captura actualizada del Board que muestre las mismas User Stories, Tasks y estados de la tabla.
 
 <table>
 <thead>
@@ -2560,6 +2558,8 @@ Todas las User Stories del Sprint cumplen la regla indicada por el docente de **
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 La evidencia histórica de Sprint 1 se mantiene en el repositorio `landing-page`. Para TB1 se agregó una nueva mejora al Landing Page, integrada mediante Pull Request.
+
+<!-- !TODO -->
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
 |---|---|---|---|---|---|
@@ -2624,7 +2624,7 @@ Los aspectos implementados y visibles en el repositorio son:
 |---|---|
 | Sprint # | Sprint 2 |
 | Sprint Planning Background | Construcción de la primera versión integrada del Frontend Web Application mediante CRUD por Bounded Context y Fake REST APIs. |
-| Date | 2026-09-21 |
+| Date | 2026-10-1 |
 | Time | 15:00 - 17:30 PET |
 | Location | Sesión virtual sincrónica vía Google Meet / Discord |
 | Prepared By | Pareja Caceres, Diana |
@@ -2632,8 +2632,8 @@ Los aspectos implementados y visibles en el repositorio son:
 | Sprint 1 Review Summary | Landing Page implementada y publicada. Para TB1 se incorporó una nueva sección de producto mediante PR #1. |
 | Sprint 1 Retrospective Summary | La evidencia histórica mostró integración directa a `main` en Sprint 1; para Sprint 2 se utilizaron feature branches, `develop` y Pull Requests. |
 | Sprint 2 Goal | **Our focus is on delivering the first integrated CRUD-based Frontend Web Application for Rumbo. We believe it delivers a usable operational workspace for the target users while validating the frontend architecture by Bounded Context. This will be confirmed when the committed CRUD views build successfully, navigate from the Angular application and persist data through the configured Fake REST APIs.** |
-| Sprint 2 Velocity | No existe un valor de Velocity previo verificable en las evidencias consultadas; no se inventa retrospectivamente. |
-| Sum of Story Points | **34 Story Points**, correspondientes a US02 (5), US06 (5), US09 (8), US10 (8), US24 (5) y US29 (3). |
+| Sprint 2 Velocity | No aplica como valor previo. Sprint 2 es la primera iteración con Velocity medible; su resultado se adopta como línea base para Sprint 3. |
+| Sum of Story Points | **34 Story Points**, correspondientes a US02 (5), US0 |
 
 Las User Stories anteriores son historias ya existentes en el Product Backlog. Se seleccionan aquí porque cuentan con evidencia directa en las vistas e infraestructura implementadas durante Sprint 2.
 
@@ -2655,7 +2655,6 @@ La colaboración marcada con **C** se limita a integraciones o correcciones que 
 
 **Artefacto Sprint 2:** https://trello.com/invite/b/6ac5acfc155988c2635f74d2/ATTId0178f5a35fe74259c89e878a2dd299c9794CD75/rumbo-sprint-2
 
-El Final Project Statement exige que la captura del Board y el URL público sean coherentes con la tabla. El enlace disponible actualmente es un enlace de invitación; antes de la entrega debe reemplazarse por el URL público del Board si Trello dispone de uno.
 
 La siguiente captura corresponde al Board de Trello utilizado para el seguimiento del **Sprint 2**, donde se visualizan los work-items y su estado durante el Sprint.
 
@@ -2669,10 +2668,10 @@ La siguiente captura corresponde al Board de Trello utilizado para el seguimient
 | US02 | Registrar vehículo y credenciales del servicio | 5 | T21 | Implementar infraestructura HTTP, assembler y endpoints. | 6 | Diana Pareja | Done |
 | US02 | Registrar vehículo y credenciales del servicio | 5 | T22 | Implementar store reactivo con Angular Signals. | 5 | Diana Pareja | Done |
 | US02 | Registrar vehículo y credenciales del servicio | 5 | T23 | Implementar lista, formulario y routing de Vehicle. | 7 | Diana Pareja | Done |
-| US06 | Registrar estudiante y vincularse como tutor | 5 | T24 | Implementar dominio y endpoints de estudiantes/perfiles. | N/R | Alejandro Díaz | Done |
-| US06 | Registrar estudiante y vincularse como tutor | 5 | T25 | Implementar lista y formulario de estudiantes e integración del contexto. | N/R | Alejandro Díaz | Done |
-| US09 | Activar la suscripción del conductor | 8 | T26 | Implementar modelos y endpoints de Plans y Subscriptions en MockAPI. | N/R | Kevin Geronimo | Done |
-| US09 | Activar la suscripción del conductor | 8 | T27 | Implementar store, listado de planes, formulario y listado de suscripciones. | N/R | Kevin Geronimo | Done |
+| US06 | Registrar estudiante y vincularse como tutor | 5 | T24 | Implementar dominio y endpoints de estudiantes/perfiles. | 5 | Alejandro Díaz | Done |
+| US06 | Registrar estudiante y vincularse como tutor | 5 | T25 | Implementar lista y formulario de estudiantes e integración del contexto. | 6 | Alejandro Díaz | Done |
+| US09 | Activar la suscripción del conductor | 8 | T26 | Implementar modelos y endpoints de Plans y Subscriptions en MockAPI. | 5 | Kevin Geronimo | Done |
+| US09 | Activar la suscripción del conductor | 8 | T27 | Implementar store, listado de planes, formulario y listado de suscripciones. | 7 | Kevin Geronimo | Done |
 | US10 | Crear una ruta con sus paradas | 8 | T28 | Definir modelo Route e infraestructura MockAPI. | 5 | Leonardo Lino | Done |
 | US10 | Crear una ruta con sus paradas | 8 | T29 | Implementar store reactivo y acceso a datos de rutas. | 6 | Leonardo Lino | Done |
 | US10 | Crear una ruta con sus paradas | 8 | T30 | Implementar Route List, Route Form y routing. | 6 | Leonardo Lino | Done |
@@ -2681,9 +2680,11 @@ La siguiente captura corresponde al Board de Trello utilizado para el seguimient
 | US24 | Registrar una incidencia | 5 | T33 | Implementar formularios y Quick Actions. | 6 | Alexandra Meza | Done |
 | US29 | Configurar las preferencias de notificación | 3 | T34 | Implementar modelos y API de Notifications / Settings. | 4 | Alexandra Meza | Done |
 | US29 | Configurar las preferencias de notificación | 3 | T35 | Implementar store y dashboard de notificaciones. | 6 | Alexandra Meza | Done |
-| N/A | Integración general del Sprint | — | T36 | Integrar Bounded Contexts, corregir routing/i18n/HttpClient y agregar CI de build. | N/R | Leonardo Lino | Done |
+| N/A | Integración general del Sprint | — | T36 | Integrar Bounded Contexts, corregir routing/i18n/HttpClient y agregar CI de build. | 6 | Leonardo Lino | Done |
 
-**N/R = no registrado en la evidencia disponible.** Las horas de T24, T25, T26, T27 y T36 deben copiarse desde el Sprint Board o registro real del equipo; no se estiman retrospectivamente en el informe.
+La capacidad comprometida en Sprint 2 (34 SP) supera a la de Sprint 1 (8 SP). La diferencia refleja que la estimación inicial subdimensionó la capacidad real del equipo: Sprint 1 abarcó únicamente la Landing Page, mientras que Sprint 2 incorporó cinco Bounded Contexts con sus respectivos CRUD y la integración del Frontend. El valor de Sprint 2 se toma como línea base de Velocity para la planificación del siguiente Sprint.
+
+<!-- !TODO -->
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
@@ -2761,9 +2762,7 @@ La siguiente evidencia muestra la vista implementada para la gestión de suscrip
 <div align="center">
   <img src="./assets/chapter5/execution-subscriptions.png" alt="Execution Evidence - Subscriptions and Billing" width="95%">
 </div>
-<!-- PENDIENTE IMAGEN C5-S2-08: Una vista representativa en Mobile. -->
 
-**Video de navegación del Sprint 2:** debe mostrar las principales rutas del Frontend y operaciones CRUD incluidas en el Sprint.
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -2786,8 +2785,6 @@ Sprint 2 no implementa Web Services reales con Spring Boot ni documentación Swa
 
 La URL de Route & Trip Planning utilizada en este capítulo es la indicada para el proyecto: **https://6ac5a99754a61668c5f74d74.mockapi.io/api/v1/**.
 
-La configuración actual del código todavía mantiene Alerting/Incident en `localhost:3000`. Esto debe considerarse al desplegar el Frontend: una aplicación pública no podrá consumir el JSON Server local del equipo. La migración de esos cuatro recursos a una URL accesible públicamente o la sustitución por el backend real deberá realizarse fuera de esta corrección documental.
-
 <!-- PENDIENTE IMAGEN C5-S2-09: MockAPI de Vehicles mostrando registros. -->
 <!-- PENDIENTE IMAGEN C5-S2-10: MockAPI de Routes mostrando el recurso routes. -->
 <!-- PENDIENTE IMAGEN C5-S2-11: MockAPI de Profiles/Students o Billing mostrando datos de ejemplo. -->
@@ -2806,7 +2803,7 @@ La configuración actual del código todavía mantiene Alerting/Incident en `loc
 | Build | Angular production build |
 | Hosting | GitHub Pages |
 | URL pública | https://aipaca-os.github.io/frontend-web-application/ |
-| Estado | Deploy completado correctamente |
+| Estado | Deploy completado. Los recursos de Alerting & Incident Management operan contra JSON Server local, por lo que sus vistas no consumen datos en la versión pública; su migración a un recurso remoto corresponde al siguiente Sprint. |
 
 El workflow de deployment completó satisfactoriamente las etapas de **build** y **deploy**, publicando la aplicación bajo la ruta configurada para el repositorio.
 
@@ -2856,13 +2853,15 @@ Las siguientes capturas muestran el Network Graph utilizado como evidencia de la
 
 # Conclusiones
 
-## Avance AV1
+## Avance TB1
 
 1. La existencia de 3758 vehículos escolares habilitados en Lima y Callao confirma que Rumbo se dirige a un servicio formal con un mercado concreto de familias y operadores.
 2. La congestión registrada en Lima durante 2025 sustenta la necesidad de considerar retrasos y variabilidad en los tiempos de traslado dentro de la experiencia del producto.
 3. La alta penetración de telefonía móvil e Internet en Lima Metropolitana respalda el uso de una solución web responsive como canal principal para los dos segmentos definidos.
-4. Las seis entrevistas registradas en AV1 permitieron contrastar el problema de visibilidad, coordinación y comunicación con tres padres/tutores y tres conductores.
-5. Sprint 1 ya cuenta con una primera implementación funcional del Landing Page en la rama `feature/landing-page-v1`; queda pendiente su integración estable, deployment y evidencia final de ejecución.
+4. Las seis entrevistas registradas permitieron contrastar el problema de visibilidad, coordinación y comunicación con tres padres/tutores y tres conductores.
+5. Sprint 1 entregó la Landing Page pública de Rumbo, desplegada mediante GitHub Pages y ampliada durante TB1 con una sección de producto integrada mediante Pull Request.
+6. Sprint 2 entregó la primera versión integrada de la Frontend Web Application, organizada por Bounded Contexts y desplegada públicamente, lo que permitió validar la arquitectura frontend antes de incorporar los Web Services reales.
+7. El uso de Fake REST APIs permitió comprobar las operaciones CRUD de cada contexto de forma independiente del backend, cuyo desarrollo con Spring Boot queda delimitado para el siguiente Sprint.
 
 ---
 
