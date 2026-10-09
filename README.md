@@ -57,20 +57,23 @@
 **Frontend Web Application:** https://github.com/AIpaca-UPC/web-applications-web-app  
 **Web Service:** https://github.com/AIpaca-UPC/web-applications-web-service
 
-### AV1
+### TB1 — Collaboration Insights
 
 <div align="center">
-  <img src="./assets/collaboration/av1-project-report-insights.svg" alt="GitHub Pulse de colaboración del Project Report para AV1" width="95%">
+  <img src="./assets/collaboration/tb1-project-report-insights.svg" alt="Resumen de colaboración del Project Report para TB1: 5 autores de commits, 90 commits en develop y 8 pull requests fusionados." width="95%">
 </div>
 
-Durante el periodo mostrado por GitHub Insights (20 de agosto al 20 de septiembre de 2026), el Project Report registra **4 autores activos**, **109 commits en todas las ramas** y **6 pull requests fusionados**. La captura también muestra **0 pull requests abiertos** y **0 issues activos** al cierre del periodo.
+Para la actualización del **TB1**, se revisó la actividad del repositorio `AIpaca-UPC/web-applications-project-report` desde el **21 de septiembre hasta el 9 de octubre de 2026 (UTC)**. En ese periodo, el historial alcanzable desde `develop` registra **90 commits** y **5 cuentas autoras distintas**. En el repositorio se identificaron **8 pull requests fusionados** durante el mismo intervalo. A la fecha de consulta, no había pull requests ni issues abiertos.
 
-Como evidencia complementaria de colaboración se utilizan los recursos nativos del repositorio:
+Estas cifras describen el periodo consultado para esta actualización; no son estadísticas de todas las ramas ni un rango oficial de fechas de la evaluación. El gráfico se elaboró a partir del historial de GitHub y reemplaza el resumen previo de AV1.
 
-- **Commits:** https://github.com/AIpaca-UPC/web-applications-project-report/commits
-- **Network:** https://github.com/AIpaca-UPC/web-applications-project-report/network
+**Evidencias verificables del Project Report:**
+
+- **Commits de `develop`:** https://github.com/AIpaca-UPC/web-applications-project-report/commits/develop/
+- **Pull requests fusionados:** https://github.com/AIpaca-UPC/web-applications-project-report/pulls?q=is%3Apr+is%3Amerged+merged%3A2026-09-21..2026-10-09
+- **Network (ramas e integraciones):** https://github.com/AIpaca-UPC/web-applications-project-report/network
 - **Contributors:** https://github.com/AIpaca-UPC/web-applications-project-report/graphs/contributors
-- **Pull Requests:** https://github.com/AIpaca-UPC/web-applications-project-report/pulls
+- **Pull requests abiertos:** https://github.com/AIpaca-UPC/web-applications-project-report/pulls?q=is%3Apr+is%3Aopen
 
 ---
 
