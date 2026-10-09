@@ -1899,6 +1899,25 @@ La sección **Configuración** del Parent reúne preferencias de notificaciones 
 
 Los **User Flow Diagrams** de Rumbo representan las rutas esperadas para completar los principales objetivos de los segmentos **Parent** y **Driver**. A diferencia de los Wireflows, estos diagramas incorporan los mock-ups finales de las vistas y muestran tanto el **happy path** como rutas alternativas relevantes, manteniendo consistencia con los User Goals definidos previamente.
 
+#### Vista general de navegación por segmento
+
+Antes del detalle por User Goal, se presenta la vista consolidada de cada segmento, que evidencia cómo se articulan entre sí los distintos objetivos a partir del Panel principal y qué rutas de navegación conectan unos con otros.
+
+**Segmento Conductor**
+
+<div align="center">
+  <img src="./assets/chapter04/userflow-overview-conductores.png" alt="Vista general de navegación - Segmento Conductor" width="100%">
+</div>
+
+**Segmento Padre/Tutor**
+
+<div align="center">
+  <img src="./assets/chapter04/userflow-overview-padres.png" alt="Vista general de navegación - Segmento Padre/Tutor" width="100%">
+</div>
+
+A continuación se detalla cada User Goal con su ruta esperada y sus rutas alternativas.
+
+
 #### User Flow 1 — Access Parent Dashboard
 
 **User Persona:** Parent  
