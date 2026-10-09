@@ -2277,7 +2277,7 @@ El diagrama representa la creación y entrega de avisos, las preferencias del us
 Este contexto representa la relación entre el Driver, el plan y el estado de su suscripción. Los elementos comerciales incluidos en el modelo se consideran parte de la arquitectura objetivo; para el alcance actual, la funcionalidad prioritaria continúa siendo la activación y consulta del estado de la suscripción definida en los requisitos.
 
 <div align="center">
-  <img src="./assets/chapter04/dataclass-diagrams/susbscription-class-diagram.png" alt="Subscriptions and Billing Class Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/subscription-class-diagram.png" alt="Subscriptions and Billing Class Diagram" width="95%">
 </div>
 
 En conjunto, los ocho Class Diagrams mantienen la separación establecida en el diseño de dominio y sirven como referencia para los Database Diagrams de la siguiente sección. El modelado se utiliza como diseño de la arquitectura objetivo y no implica que todos los componentes de backend se encuentren implementados durante Sprint 2.
