@@ -2571,12 +2571,67 @@ La evidencia histórica de Sprint 1 se mantiene en el repositorio `landing-page`
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-La Landing Page debe evidenciarse desde su URL pública y en sus vistas Desktop y Mobile.
+La evidencia de ejecución del **Sprint 1** se presenta mediante diez capturas de la versión actualizada de la **Landing Page de Rumbo** en **Desktop Web Browser**. Las imágenes registran tanto la propuesta de valor como las secciones informativas, la presentación de las pantallas del producto, los planes, las preguntas frecuentes y el equipo de la startup. Las capturas corresponden a la versión pública mostrada en **https://aipaca-upc.github.io/landing-page/** (repositorio: [AIpaca-UPC/landing-page](https://github.com/AIpaca-UPC/landing-page/)) y se incorporan como evidencia visual del alcance implementado, no como prueba de funcionamiento del backend.
 
-**URL pública:** https://aipaca-os.github.io/landing-page/
+**Internacionalización (i18n) — US33.** Las Figuras **5.S1-01** y **5.S1-02** muestran el mismo bloque principal de la Landing Page en **español** e **inglés**, respectivamente, con el selector de idioma disponible. En el código de la versión documentada se observa un mecanismo de internacionalización mediante `js/i18n.js` y recursos de traducción `assets/i18n/es.json` y `assets/i18n/en.json`; se usan claves `data-i18n` para actualizar el contenido y `localStorage` para conservar la selección de idioma. Esta evidencia se relaciona con **US33: Consultar el contenido en inglés o español** y con el requisito de **Internationalization (i18n)** del Final Project Statement, que establece como idiomas de referencia **English (en_US)** y **Latin American Spanish (es_419)**.
 
-<!-- PENDIENTE IMAGEN C5-S1-01: Landing Page TB1 en Desktop mostrando Hero y la nueva sección de producto. -->
-<!-- PENDIENTE IMAGEN C5-S1-02: Landing Page TB1 en Mobile mostrando navegación responsive. -->
+**Observación de conformidad con la rúbrica:** el Final Project Statement establece **inglés como idioma predeterminado**. Sin embargo, la implementación revisada de `AIpaca-UPC/landing-page` utiliza `DEFAULT_LANGUAGE = "es"` y claves de idioma `es`/`en`. Por tanto, las capturas acreditan la presentación bilingüe, pero **no permiten afirmar todavía el cumplimiento completo de la configuración inicial solicitada**; queda pendiente cambiar el idioma predeterminado a inglés y revisar la correspondencia de las configuraciones regionales `en_US`/`es_419`. No se modifica el código de la Landing Page desde este capítulo documental.
+
+##### Capturas de la Landing Page — Sprint 1
+
+<div align="center">
+  <img src="./assets/chapter5/landing-1.png" alt="Portada de la Landing Page de Rumbo en español (es): sección principal o Hero y selector de idioma." width="90%">
+  <p><em>Figura 5.S1-01. Portada de la Landing Page de Rumbo en español (es): sección principal o Hero y selector de idioma.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter5/landing-2.png" alt="Portada de la Landing Page de Rumbo en inglés (en): versión equivalente del Hero y selector de idioma." width="90%">
+  <p><em>Figura 5.S1-02. Portada de la Landing Page de Rumbo en inglés (en): versión equivalente del Hero y selector de idioma.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter5/landing-3.png" alt="Secciones de beneficios del servicio y explicación de su funcionamiento." width="90%">
+  <p><em>Figura 5.S1-03. Secciones de beneficios del servicio y explicación de su funcionamiento.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter5/landing-4.png" alt="Sección de demostración del producto: vista del panel principal de Rumbo." width="90%">
+  <p><em>Figura 5.S1-04. Sección de demostración del producto: vista del panel principal de Rumbo.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter5/landing-5.png" alt="Sección de demostración del producto: vista de seguimiento del viaje." width="90%">
+  <p><em>Figura 5.S1-05. Sección de demostración del producto: vista de seguimiento del viaje.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter5/landing-6.png" alt="Sección de demostración del producto: vista de notificaciones." width="90%">
+  <p><em>Figura 5.S1-06. Sección de demostración del producto: vista de notificaciones.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter5/landing-7.png" alt="Sección de demostración del producto: vista de gestión de rutas." width="90%">
+  <p><em>Figura 5.S1-07. Sección de demostración del producto: vista de gestión de rutas.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter5/landing-8.png" alt="Sección de planes de suscripción e indicadores presentados en la Landing Page." width="90%">
+  <p><em>Figura 5.S1-08. Sección de planes de suscripción e indicadores presentados en la Landing Page.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter5/landing-9.png" alt="Preguntas frecuentes (FAQ), llamada a la acción (CTA) y pie de página." width="90%">
+  <p><em>Figura 5.S1-09. Preguntas frecuentes (FAQ), llamada a la acción (CTA) y pie de página.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter5/landing-10.png" alt="Sección «Nuestro equipo» con la presentación de los integrantes." width="90%">
+  <p><em>Figura 5.S1-10. Sección «Nuestro equipo» con la presentación de los integrantes.</em></p>
+</div>
+
+**Alcance de la evidencia:** las diez capturas corresponden a vistas de escritorio. Para completar los requisitos de **Execution Evidence for Sprint Review**, aún corresponde incorporar **una captura de la vista Mobile Web Browser** y **el enlace al video de navegación del Sprint**, de acuerdo con el Final Project Statement. Las capturas de demostración del frontend (Figuras 5.S1-04 a 5.S1-07) corresponden al carrusel informativo de la Landing Page y no sustituyen las evidencias de funcionamiento independiente de la Frontend Web Application del Sprint 2.
+
+<!-- Pendiente: agregar captura de Landing Page Mobile Web Browser y enlace al video de navegación de Sprint 1. -->
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
