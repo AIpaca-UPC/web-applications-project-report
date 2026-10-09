@@ -190,49 +190,42 @@ Alcance del proyecto: El alcance inicial de Rumbo está orientado a padres o tut
 
 <table>
   <thead>
-    <tr>
-      <th>Foto</th>
-      <th>Apellidos y nombres</th>
-      <th>Código</th>
-      <th>Carrera</th>
-      <th>Habilidades</th>
-    </tr>
+    <tr><th>Foto</th><th>Apellidos y nombres</th><th>Código</th><th>Carrera</th><th>Habilidades</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td align="center"><img src="assets/chapter1/marcelo.png" alt="Barrientos Quispe, Marcelo" width="120"/></td>
+      <td align="center"><img src="assets/chapter01/marcelo.png" alt="Marcelo Barrientos Quispe" width="120"/></td>
       <td>Barrientos Quispe, Marcelo</td>
       <td>U20221E646</td>
       <td>Ingeniería de Software</td>
       <td>Estudiante de Ingeniería de Software con capacidad de adaptación, aprendizaje rápido y trabajo colaborativo. Cuenta con conocimientos técnicos en tecnologías basadas en JavaScript y aporta al equipo en tareas de desarrollo frontend y organización del trabajo.</td>
     </tr>
     <tr>
-      <td align="center"><img src="./assets//chapter1/alejandro.png" alt="Alejandro Díaz Ramírez" width="120"/></td>
-      <td>Díaz Ramírez, Alejandro</td>
+      <td align="center"><img src="./assets/chapter01/alejandro-diaz.png" alt="Alejandro Diaz Ramirez" width="120"></td>
+      <td>Diaz Ramirez, Alejandro</td>
       <td>U202423084</td>
       <td>Ingeniería de Software</td>
-      <td>Estudiante de Ingeniería de Software con conocimientos en Python y C++, experiencia en prototipado con React Native y trabajo colaborativo con metodologías ágiles. Aporta principalmente en lógica del sistema, estructuración del código y desarrollo técnico.</td>
+      <td>Estudiante de Ingeniería de Software de 5.º ciclo, con una base sólida en Python y C++, así como experiencia en prototipado rápido con React Native, lo que me permite aportar en el desarrollo técnico del proyecto, especialmente en la lógica del sistema, la estructuración del código y el procesamiento de datos. También agregar que he trabajado en entornos colaborativos bajo metodologías ágiles, gestionando proyectos y equipos con Scrum para asegurar entregas eficientes y de calidad.</td>
     </tr>
     <tr>
-      <td align="center"><img src="./assets/chapter1/kevin.png" alt="Kevin Joel Geronimo Puma" width="120"/></td>
+      <td align="center"><img width="120" alt="kevin" src="https://github.com/user-attachments/assets/8be17c32-7b22-466c-a91e-daf42a5b31ea" /></td>
       <td>Geronimo Puma, Kevin Joel</td>
       <td>U202423163</td>
       <td>Ingeniería de Software</td>
-      <td>Estudiante de Ingeniería de Software con conocimientos en Python y C++. Se desempeña especialmente en arquitectura de software, diseño de bases de datos, lógica del sistema y organización técnica del desarrollo.</td>
+      <td>Estudiante de Ingeniería de Software de 5.º ciclo, con una base sólida en Python y C++. Mi perfil me permite aportar en el desarrollo técnico del proyecto, destacando por mi facilidad para la arquitectura de software y el diseño de bases de datos, además de la lógica del sistema, la estructuración del código y el procesamiento de datos. Asimismo, tengo experiencia trabajando en entornos colaborativos bajo metodologías ágiles, asegurando siempre entregas eficientes y de calidad.</td>
     </tr>
     <tr>
-      <td align="center"><img src="./assets/chapter1/leonardo-lino.jpg" alt="Leonardo Miguel Lino Quispe" width="120"/></td>
+      <td align="center"><img src="./assets/chapter01/leonardo-lino.jpg" alt="Leonardo Miguel Lino Quispe" width="120"></td>
       <td>Lino Quispe, Leonardo Miguel</td>
       <td>U202422298</td>
       <td>Ingeniería de Software</td>
       <td>Soy estudiante de Ingeniería de Software del 5.º ciclo en la UPC. Tengo conocimientos en programación en C++ y Python, y experiencia desarrollando proyectos académicos donde analizo y organizo soluciones tecnológicas. Me gusta enfocarme en aprender de forma práctica y en construir soluciones que sean claras, funcionales y aplicadas a problemas reales.</td>
     </tr>
-    <tr>
-      <td align="center"><img src="./assets/chapter1/alexandra.png" alt="Alexandra Yamile Meza Soza" width="120"/></td>
+      <td align="center"><img src="assets/chapter01/alexandra-meza.png" alt="Alexandra Yamile Meza Soza" width="120"/></td>
       <td>Meza Soza, Alexandra Yamile</td>
       <td>U20241b451</td>
       <td>Ingeniería de Software</td>
-      <td>Estudiante de Ingeniería de Software con conocimientos en Python y C++. Se caracteriza por el aprendizaje rápido, el criterio para seleccionar información relevante y el trabajo colaborativo. En el equipo aporta investigación aplicada, análisis y documentación del producto.</td>
+      <td>Soy estudiante de Ingeniería de Software del 6.º ciclo en la UPC. Cuento con conocimientos en el desarrollo de sistemas utilizando los lenguajes Python y C++. Me caracterizo por aprendizaje rápido, criterio para filtrar información relevante y trabajo colaborativo. En el equipo aporto investigación aplicada y prototipos técnicos que conectan los hallazgos con funcionalidades del producto.</td>
     </tr>
   </tbody>
 </table>
@@ -571,6 +564,34 @@ Conductores que realizan rutas programadas para el traslado de estudiantes entre
 
 ## 2.1. Competidores
 
+En esta sección se identifican y describen los principales competidores de Rumbo 
+dentro del mercado de la coordinación del transporte escolar.
+
+### titiGO (competidor directo)
+
+titiGO es una plataforma para el seguimiento y control del transporte escolar que 
+opera en Lima. Conecta colegios, movilidades y padres de familia. Los conductores 
+crean un perfil de movilidad que el colegio confirma como verificado. Los padres 
+reciben notificaciones sobre los estados del viaje, pueden cancelar recogidas e 
+informar imprevistos. Incorpora un código QR diario que el personal del colegio 
+escanea para confirmar el retiro del estudiante.
+
+### Transporte Escolar (competidor directo)
+
+Transporte Escolar es una aplicación desarrollada en Ecuador para el seguimiento 
+escolar en tiempo real. Conductores y padres se registran gratuitamente y acceden a 
+paneles diferenciados. El conductor comparte su ubicación, gestiona estudiantes y 
+rutas, y envía alertas. El padre vincula a sus hijos mediante un código proporcionado 
+por el conductor y visualiza su estado, la distancia al destino y el recorrido.
+
+
+### WhatsApp (competidor indirecto)
+
+WhatsApp es la herramienta de mensajería que conductores y padres utilizan hoy para 
+coordinar el servicio. Permite grupos, chats individuales y compartir ubicación en 
+tiempo real. Sin embargo, la información queda distribuida entre conversaciones y 
+carece de funciones para gestionar rutas, estudiantes o registrar hitos del recorrido.
+
 ### 2.1.1. Análisis competitivo
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
@@ -609,17 +630,17 @@ Conductores que realizan rutas programadas para el traslado de estudiantes entre
 
 ---
 
-# Capítulo IV: Product Design
+![Secondary Color I](./assets/chapter04/secondaryColor1.png)
 
-## 4.1. Style Guidelines
+**Secondary Color II (#F3D9A4):** Color arena usado para elementos de énfasis secundario.
 
-### 4.1.1. General Style Guidelines
+![Secondary Color II](./assets/chapter04/secondaryColor2.png)
 
 ### 4.1.2. Web Style Guidelines
 
 ## 4.2. Information Architecture
 
-### 4.2.1. Organization Systems
+![Neutral Color III](./assets/chapter04/neutralColor3.png)
 
 ### 4.2.2. Labeling Systems
 
@@ -631,13 +652,13 @@ Conductores que realizan rutas programadas para el traslado de estudiantes entre
 
 ## 4.3. Landing Page UI Design
 
-### 4.3.1. Landing Page Wireframe
 
 ### 4.3.2. Landing Page Mock-up
 
 ## 4.4. Web Applications UX/UI Design
 
-### 4.4.1. Web Applications Wireframes
+### 4.1.2. Web Style Guidelines
+Las Web Style Guidelines de Rumbo definen la manera en que las decisiones establecidas en las General Style Guidelines se aplican a las interfaces web del producto. Su propósito es mantener consistencia visual y de interacción entre el Landing Page y la Web Application, considerando distintos tamaños de pantalla y las necesidades particulares de los segmentos objetivo.
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -651,7 +672,7 @@ Conductores que realizan rutas programadas para el traslado de estudiantes entre
 
 ### 4.6.1. Design-Level EventStorming
 
-### 4.6.2. Software Architecture Context Diagram
+#### Cards
 
 ### 4.6.3. Software Architecture Container Diagrams
 
@@ -659,19 +680,18 @@ Conductores que realizan rutas programadas para el traslado de estudiantes entre
 
 ## 4.7. Software Object-Oriented Design
 
-### 4.7.1. Class Diagrams
+Las interfaces de Rumbo se diseñan considerando principios de accesibilidad desde las primeras etapas del producto.
 
 ## 4.8. Database Design
 
-### 4.8.1. Database Diagrams
+#### Internationalization
 
 ---
 
-# Capítulo V: Product Implementation, Validation & Deployment
+En el Landing Page, la información se organiza con un enfoque informativo y progresivo, permitiendo que un visitante conozca primero la propuesta de valor de Rumbo, posteriormente sus beneficios y funcionamiento, y finalmente pueda acceder a una acción de registro o inicio de sesión.
 
-## 5.1. Software Configuration Management
+En la Web Application, la organización se encuentra orientada a tareas y cambia de acuerdo con el rol del usuario. Para padres y tutores se prioriza la consulta del estado actual del trayecto, su detalle, línea de tiempo y notificaciones. Para conductores se prioriza la ruta asignada y las acciones necesarias para registrar recojos, entregas, retrasos e incidencias con la menor cantidad posible de pasos.
 
-### 5.1.1. Software Development Environment Configuration
 
 ### 5.1.2. Source Code Management
 
@@ -709,17 +729,33 @@ Conductores que realizan rutas programadas para el traslado de estudiantes entre
 
 ## 5.4. Video About-the-Product
 
----
+- acceso a la información principal en pocos pasos;
+- jerarquía clara del estado actual y ETA;
+- acciones breves para el conductor;
+- confirmación visual después de registrar un evento;
+- consistencia con la identidad visual de Rumbo;
+- comportamiento responsive para escritorio y dispositivos móviles.
 
-# Conclusiones
+La propuesta visual toma como referencia los mock-ups elaborados en Figma para la Landing Page y extiende el mismo sistema de colores, tipografía, tarjetas y botones hacia la aplicación web.
 
 ## Conclusiones y recomendaciones
 
 ## Video About-The-Team
 
----
+- `Trip Detail`
+- `Notifications`
 
-# Bibliografía
+A partir de Trip Detail puede profundizar hacia:
+
+- `Trip Timeline`
+
+La estructura prioriza la consulta del estado actual antes de presentar información histórica o complementaria.
+
+#### Driver Navigation
+
+Después de iniciar sesión, el Driver accede directamente a la ruta que tiene asignada:
+
+`Sign In → Assigned Route`
 
 Altavoz. (2026, 26 de marzo). *El 98,4% de los hogares de Lima Metropolitana contó con telefonía móvil durante el cuarto trimestre de 2025*. https://altavoz.pe/economia/el-984-de-los-hogares-de-lima-metropolitana-conto-con-telefonia-movil-durante-el-cuarto-trimestre-de-2025/
 
