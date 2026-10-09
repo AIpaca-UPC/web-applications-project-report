@@ -2263,7 +2263,10 @@ Los diagramas corresponden a la **arquitectura objetivo** del producto. Por ello
 
 #### Identity & Access Management
 
-Este esquema concentra la persistencia de cuentas, sesiones, recuperación de acceso, roles y permisos. Las tablas de relación permiten separar la identidad del usuario de las capacidades que puede ejecutar dentro de la plataforma.
+El esquema almacena las cuentas de acceso de padres, tutores y conductores, junto con su rol, el estado de verificación y la aceptación de los términos del 
+servicio. También guarda los tokens temporales de verificación de correo, recuperación de contraseña y renovación de sesión, conservando únicamente su hash. 
+Las restricciones de unicidad sobre el correo y el hash del token impiden registrar dos cuentas con la misma dirección y garantizan que cada enlace temporal 
+identifique una sola solicitud.
 
 <div align="center">
   <img src="./assets/chapter04/dataclass-diagrams/iam-class-diagram.png" alt="Identity and Access Management Database Diagram" width="95%">
@@ -2271,7 +2274,9 @@ Este esquema concentra la persistencia de cuentas, sesiones, recuperación de ac
 
 #### Profiles & Relationship Management
 
-El esquema almacena los perfiles de Parent, Driver y Student, junto con las relaciones de autorización y datos complementarios necesarios para representar quién puede consultar la información de cada estudiante.
+El esquema almacena los vehículos registrados por cada conductor, junto con la licencia de conducir y los documentos declarados del vehículo. Cada documento 
+conserva su vigencia y su estado de verificación, sin darlo por verificado mientras no exista una consulta a la fuente oficial. La placa es única y se guarda 
+normalizada en mayúsculas para impedir que un mismo vehículo se registre dos veces con distinta escritura, y la capacidad debe ser mayor que cero.
 
 <div align="center">
   <img src="./assets/chapter04/dataclass-diagrams/profile-class-diagram.png" alt="Profiles and Relationship Management Database Diagram" width="95%">
@@ -2279,7 +2284,8 @@ El esquema almacena los perfiles de Parent, Driver y Student, junto con las rela
 
 #### Vehicle & Credential Management
 
-Este diagrama representa la persistencia de vehículos, asignaciones, documentos y credenciales asociadas al Driver. Las claves foráneas permiten mantener la relación con el conductor sin trasladar la responsabilidad del vehículo a otros Bounded Contexts.
+El esquema almacena los vehículos registrados por cada conductor, junto con la licencia de conducir y los documentos declarados del vehículo. Cada documento
+conserva su vigencia y su estado de verificación, sin darlo por verificado mientras no exista una consulta a la fuente oficial.
 
 <div align="center">
   <img src="./assets/chapter04/dataclass-diagrams/vehicle-class-diagram.png" alt="Vehicle and Credential Management Database Diagram" width="95%">
@@ -2287,7 +2293,10 @@ Este diagrama representa la persistencia de vehículos, asignaciones, documentos
 
 #### Route & Trip Planning
 
-El modelo de datos de planificación mantiene rutas, paradas, estudiantes asignados y programación de viajes. Estas relaciones permiten conservar el orden de recorrido y preparar la información que utilizará posteriormente la ejecución del traslado.
+El esquema almacena la configuración reutilizable de cada ruta: sus paradas ordenadas con hora prevista, los días y horarios de operación y los estudiantes 
+asignados a su parada. La asignación usa una clave foránea compuesta (route_id, route_stop_id) hacia route_stops (route_id, id), que impide asignar a un 
+estudiante una parada perteneciente a otra ruta. Un índice único parcial evita que el mismo estudiante tenga dos asignaciones activas en una ruta, y una 
+restricción de verificación exige que las paradas de tipo SCHOOL identifiquen a su colegio.
 
 <div align="center">
   <img src="./assets/chapter04/dataclass-diagrams/route-class-diagram.png" alt="Route and Trip Planning Database Diagram" width="95%">
@@ -2295,7 +2304,11 @@ El modelo de datos de planificación mantiene rutas, paradas, estudiantes asigna
 
 #### Trip Execution & Monitoring
 
-Este esquema persiste los viajes ejecutados y los principales eventos generados durante el recorrido, incluyendo estados de estudiantes, recojos, entregas, entradas de línea de tiempo y registros complementarios de ubicación cuando correspondan.
+El esquema almacena cada viaje desde su programación hasta su cierre, junto con una copia de las paradas y la nómina del día, de modo que los cambios 
+posteriores en la ruta no alteren el historial. Registra los hitos del recorrido, el estado de recojo y entrega de cada pasajero y las ausencias reportadas, 
+que en conjunto forman la línea de tiempo que consultan los tutores. Las claves foráneas compuestas que incluyen trip_id garantizan que todos los elementos 
+pertenezcan al mismo viaje. La unicidad de la ruta por fecha impide crear dos veces el mismo viaje, y el identificador generado en el dispositivo evita 
+duplicar un hito cuando se reenvía con poca señal.
 
 <div align="center">
   <img src="./assets/chapter04/dataclass-diagrams/trip-class-diagram.png" alt="Trip Execution and Monitoring Database Diagram" width="95%">
@@ -2303,7 +2316,9 @@ Este esquema persiste los viajes ejecutados y los principales eventos generados 
 
 #### Incident & Delay Management
 
-El diagrama separa la persistencia de retrasos e incidencias de la lógica de notificaciones. Incluye información del evento, estudiantes afectados, evidencia y acciones de resolución necesarias para conservar la trazabilidad de cada situación reportada.
+El esquema almacena las incidencias y los retrasos ocurridos durante un viaje, con su categoría, su estado y su resolución, y registra qué tutores 
+confirmaron haber tomado conocimiento de cada incidencia. Los retrasos usan una relación recursiva compuesta (trip_id, replaces_delay_id) hacia delays 
+(trip_id, id), que conserva el historial de estimaciones y garantiza que una actualización solo reemplace a un retraso del mismo viaje.
 
 <div align="center">
   <img src="./assets/chapter04/dataclass-diagrams/incident-class-diagram.png" alt="Incident and Delay Management Database Diagram" width="95%">
@@ -2311,7 +2326,10 @@ El diagrama separa la persistencia de retrasos e incidencias de la lógica de no
 
 #### Notification Management
 
-Este esquema administra notificaciones, destinatarios, preferencias, reglas de alerta y registros de entrega. Su propósito es persistir el ciclo de comunicación generado a partir de eventos del dominio sin duplicar los datos propios de rutas, viajes o incidencias.
+El esquema almacena los avisos dirigidos a cada destinatario, junto con su origen, su estado de entrega y su lectura, y las preferencias de notificación 
+de cada tutor. No contiene claves foráneas internas, porque todas sus referencias apuntan a entidades administradas por otros servicios. La unicidad del 
+par (source_event_id, recipient_profile_id) garantiza que un mismo evento no genere avisos duplicados aunque el mensaje llegue más de una vez. 
+Las tablas de réplica guardan copias locales de las autorizaciones y los datos de contacto, actualizadas mediante eventos de los servicios que las administran.
 
 <div align="center">
   <img src="./assets/chapter04/dataclass-diagrams/notification-class-diagram.png" alt="Notification Management Database Diagram" width="95%">
@@ -2319,10 +2337,12 @@ Este esquema administra notificaciones, destinatarios, preferencias, reglas de a
 
 #### Subscriptions & Billing
 
-El esquema comercial relaciona al Driver con un plan y con el estado de su suscripción. También representa entidades de facturación previstas por la arquitectura objetivo; para el alcance actual, la funcionalidad prioritaria continúa siendo la activación y consulta del estado de la suscripción.
+El esquema almacena los planes disponibles, la suscripción de cada conductor con su periodo vigente y su renovación, y los cobros realizados por periodo. 
+Cada cobro conserva el monto y la moneda aplicados en su momento, aunque el precio del plan cambie después. Un índice único parcial permite una sola suscripción 
+activa o pausada por conductor, lo que evita activaciones duplicadas, y la unicidad por suscripción y periodo impide registrar dos cobros para el mismo periodo.
 
 <div align="center">
-  <img src="./assets/chapter04/dataclass-diagrams/susbscription-class-diagram.png" alt="Subscriptions and Billing Database Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/subscription-class-diagram.png" alt="Subscriptions and Billing Database Diagram" width="95%">
 </div>
 
 En conjunto, los ocho Database Diagrams mantienen correspondencia con los Bounded Contexts definidos en 4.6 y con los Class Diagrams de 4.7, conservando la separación de responsabilidades entre identidad, perfiles, vehículos, planificación, ejecución, incidencias, notificaciones y suscripciones.
