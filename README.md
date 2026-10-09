@@ -1906,7 +1906,7 @@ Los **User Flow Diagrams** de Rumbo representan las rutas esperadas para complet
 **Flow Description:** The Parent selects the Parent experience, signs in successfully, and reaches the main dashboard with the active trip overview. If the credentials are invalid, the system shows an error and allows a new attempt.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/userflows/userflow-access-parent.png" alt="User Flow 1 - Access Parent Dashboard" width="95%">
+  <img src="./assets/chapter04/user-flow/user-flow-1.png" alt="User Flow 1 - Access Parent Dashboard" width="95%">
 </div>
 
 #### User Flow 2 — Consult Current Trip Status
@@ -1916,7 +1916,7 @@ Los **User Flow Diagrams** de Rumbo representan las rutas esperadas para complet
 **Flow Description:** The Parent opens the dashboard, accesses the current trip detail, and reviews the chronological sequence of route events. The alternative path represents the case in which the trip has already been completed.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/userflows/userflow-consult.png" alt="User Flow 2 - Consult Current Trip Status" width="95%">
+  <img src="./assets/chapter04/user-flow/user-flow-2.png" alt="User Flow 2 - Consult Current Trip Status" width="95%">
 </div>
 
 #### User Flow 3 — Review Important Notifications
@@ -1926,7 +1926,7 @@ Los **User Flow Diagrams** de Rumbo representan las rutas esperadas para complet
 **Flow Description:** The Parent accesses the notification center, reviews recent alerts, and opens the detail of a relevant event. When there are no unread notifications, the interface displays an informative empty state.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/userflows/userflow-review.png" alt="User Flow 3 - Review Important Notifications" width="95%">
+  <img src="./assets/chapter04/user-flow/user-flow-3.png" alt="User Flow 3 - Review Important Notifications" width="95%">
 </div>
 
 #### User Flow 4 — Start and Execute a Route
@@ -1936,7 +1936,7 @@ Los **User Flow Diagrams** de Rumbo representan las rutas esperadas para complet
 **Flow Description:** The Driver opens the assigned route, starts the trip, and continues the route through the student list to register operational milestones. The alternative path covers the reporting of a delay while the route remains active.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/userflows/userflow-start-route.png" alt="User Flow 4 - Start and Execute a Route" width="95%">
+  <img src="./assets/chapter04/user-flow/user-flow-4.png" alt="User Flow 4 - Start and Execute a Route" width="95%">
 </div>
 
 #### User Flow 5 — Configure Route and Stops
@@ -1946,7 +1946,7 @@ Los **User Flow Diagrams** de Rumbo representan las rutas esperadas para complet
 **Flow Description:** The Driver accesses the route configuration, adjusts the stop order and student links, and saves the updated configuration. If required information is missing or invalid, the system shows a validation error before allowing the operation to continue.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/userflows/userflow-configure-route.png" alt="User Flow 5 - Configure Route and Stops" width="95%">
+  <img src="./assets/chapter04/user-flow/user-flow-5.png" alt="User Flow 5 - Configure Route and Stops" width="95%">
 </div>
 
 #### User Flow 6 — Monitor Operational Notifications
@@ -1956,7 +1956,7 @@ Los **User Flow Diagrams** de Rumbo representan las rutas esperadas para complet
 **Flow Description:** The Driver opens the notification center, reviews the latest operational updates, opens an alert and marks it as reviewed when appropriate. If there are no recent updates, the system presents an empty state instead of an unnecessary list.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/userflows/userflow-monitor.png" alt="User Flow 6 - Monitor Operational Notifications" width="95%">
+  <img src="./assets/chapter04/user-flow/user-flow-6.png" alt="User Flow 6 - Monitor Operational Notifications" width="95%">
 </div>
 
 #### User Flow 7 — Manage Account and Billing
@@ -1966,7 +1966,7 @@ Los **User Flow Diagrams** de Rumbo representan las rutas esperadas para complet
 **Flow Description:** The Driver accesses the account settings, reviews profile and vehicle information, and then checks the subscription and billing overview. The alternative path illustrates a paused subscription state that can later be reactivated.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/userflows/userflow-manage-account.png" alt="User Flow 7 - Manage Account and Billing" width="95%">
+  <img src="./assets/chapter04/user-flow/user-flow-7.png" alt="User Flow 7 - Manage Account and Billing" width="95%">
 </div>
 
 ## 4.5. Web Applications Prototyping
@@ -1974,7 +1974,7 @@ Los **User Flow Diagrams** de Rumbo representan las rutas esperadas para complet
 El prototipo de la Web Application de **Rumbo** integra los principales mock-ups de los segmentos **Parent** y **Driver** en una navegación coherente con los Wireflows y User Flow Diagrams definidos previamente. La propuesta permite validar la continuidad entre pantallas, la ubicación de las acciones principales y la consistencia del sistema de navegación antes de la implementación final.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/web-app-mockup/prototype.png" width="750" alt="Web Applications Prototype">
+  <img src="./assets/chapter04/user-flow/user-wireflows.png" width="750" alt="Web Applications Prototype">
 </div>
 
 ## 4.6. Domain-Driven Software Architecture
