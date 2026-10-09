@@ -2,7 +2,7 @@
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
-<img src="./assets/upc-logo.svg" alt="Logo UPC - Universidad Peruana de Ciencias Aplicadas" width="260"/>
+<img src="./assets/upc-logo.png" alt="Logo UPC" width="260"/>
 
 ### Ingeniería de Software
 
@@ -18,19 +18,19 @@
 
 # Informe de Trabajo Final
 
-### Startup: Rumbo
+### Startup: AIpaca
 
 ### Producto: Rumbo
 
 ### Integrantes
 
-| Apellidos y Nombres | Código de Alumno |
-|---|---|
-| Barrientos Quispe, Marcelo | U20221e646 |
-| Díaz Ramírez, Alejandro | U202423084 |
-| Geronimo Puma, Kevin Joel | U202423163 |
-| Lino Quispe, Leonardo Miguel | U202422298 |
-| Meza Soza, Alexandra Yamile | U20241b451 |
+| Apellidos y Nombres          | Código de Alumno |
+| ---------------------------- | ---------------- |
+| Barrientos Quispe, Marcelo   | U20221E646       |
+| Díaz Ramírez, Alejandro      | U202423084       |
+| Geronimo Puma, Kevin Joel    | U202423163       |
+| Lino Quispe, Leonardo Miguel | U202422298       |
+| Meza Soza, Alexandra Yamile  | U20241b451       |
 
 ### SEPTIEMBRE - 2026
 
@@ -40,11 +40,11 @@
 
 ## Registro de Versiones del Informe
 
-| Versión | Fecha | Autor(es) | Descripción de cambios |
-|---|---|---|---|
-| 0.1 | 07/09/2026 | Lino Quispe, Leonardo Miguel | Creación de la estructura base del informe de Rumbo. |
-| 0.2 | 11/09/2026 | Equipo Rumbo | Actualización de integrantes y refinamiento del Capítulo I para AV1. |
-| 0.3 | 20/09/2026 | Equipo Rumbo | Integración de Collaboration Insights, Student Outcome, artefactos de Product Design y avance de Sprint 1. |
+| Versión | Fecha      | Autor(es)                    | Descripción de cambios                                                                                     |
+| ------- | ---------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| 0.1     | 07/09/2026 | Lino Quispe, Leonardo Miguel | Creación de la estructura base del informe de Rumbo.                                                       |
+| 0.2     | 11/09/2026 | Equipo Rumbo                 | Actualización de integrantes y refinamiento del Capítulo I para AV1.                                       |
+| 0.3     | 20/09/2026 | Equipo Rumbo                 | Integración de Collaboration Insights, Student Outcome, artefactos de Product Design y avance de Sprint 1. |
 
 ---
 
@@ -103,7 +103,7 @@ Como evidencia complementaria de colaboración se utilizan los recursos nativos 
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
@@ -111,17 +111,47 @@ Como evidencia complementaria de colaboración se utilizan los recursos nativos 
   - [3.3. Product Backlog](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
   - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
   - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
   - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
   - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
   - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
 - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+  - [Video About-The-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -131,10 +161,10 @@ Como evidencia complementaria de colaboración se utilizan los recursos nativos 
 
 El curso contribuye al cumplimiento del **ABET – EAC – Student Outcome 5**: la capacidad de funcionar efectivamente en un equipo cuyos miembros proporcionan liderazgo de manera conjunta, crean un entorno colaborativo e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---|---|---|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **Barrientos Quispe, Marcelo — AV1:** liderazgo del Capítulo I. <br> **Meza Soza, Alexandra Yamile — AV1:** liderazgo del Capítulo II. <br> **Lino Quispe, Leonardo Miguel — AV1:** liderazgo de los Capítulos III y V e integración de evidencias. <br> **Geronimo Puma, Kevin Joel — AV1:** desarrollo conjunto del Capítulo IV. <br> **Díaz Ramírez, Alejandro — AV1:** desarrollo conjunto del Capítulo IV. | El equipo distribuyó el liderazgo por capítulos y coordinó la integración de los entregables para mantener una versión común del Project Report. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Marcelo, Alexandra, Leonardo, Kevin y Alejandro — AV1:** organizaron el trabajo mediante ramas feature en GitHub, revisión de cambios, Product/Sprint Backlog en Trello y artefactos colaborativos en las herramientas definidas para el proyecto. | La planificación por responsabilidades y el uso de herramientas compartidas permitió organizar el avance, revisar el trabajo de otros integrantes y mantener trazabilidad del Sprint 1. |
+| Criterio específico                                                                             | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                             | Conclusiones                                                                                                                                                                            |
+| ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                | **Barrientos Quispe, Marcelo — AV1:** liderazgo del Capítulo I. <br> **Meza Soza, Alexandra Yamile — AV1:** liderazgo del Capítulo II. <br> **Lino Quispe, Leonardo Miguel — AV1:** liderazgo de los Capítulos III y V e integración de evidencias. <br> **Geronimo Puma, Kevin Joel — AV1:** desarrollo conjunto del Capítulo IV. <br> **Díaz Ramírez, Alejandro — AV1:** desarrollo conjunto del Capítulo IV. | El equipo distribuyó el liderazgo por capítulos y coordinó la integración de los entregables para mantener una versión común del Project Report.                                        |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Marcelo, Alexandra, Leonardo, Kevin y Alejandro — AV1:** organizaron el trabajo mediante ramas feature en GitHub, revisión de cambios, Product/Sprint Backlog en Trello y artefactos colaborativos en las herramientas definidas para el proyecto.                                                                                                                                                            | La planificación por responsabilidades y el uso de herramientas compartidas permitió organizar el avance, revisar el trabajo de otros integrantes y mantener trazabilidad del Sprint 1. |
 
 ---
 
@@ -166,9 +196,9 @@ Alcance del proyecto: El alcance inicial de Rumbo está orientado a padres o tut
     <tr>
       <td align="center"><img src="assets/chapter01/marcelo.png" alt="Marcelo Barrientos Quispe" width="120"/></td>
       <td>Barrientos Quispe, Marcelo</td>
-      <td>U20221e646</td>
+      <td>U20221E646</td>
       <td>Ingeniería de Software</td>
-      <td>Me considero una persona adaptable al entorno, sé trabajar en equipo y aprendo rápido. Cuento con conocimientos técnicos en tecnologías de JavaScript.</td>
+      <td>Estudiante de Ingeniería de Software con capacidad de adaptación, aprendizaje rápido y trabajo colaborativo. Cuenta con conocimientos técnicos en tecnologías basadas en JavaScript y aporta al equipo en tareas de desarrollo frontend y organización del trabajo.</td>
     </tr>
     <tr>
       <td align="center"><img src="./assets/chapter01/alejandro-diaz.png" alt="Alejandro Diaz Ramirez" width="120"></td>
@@ -202,41 +232,47 @@ Alcance del proyecto: El alcance inicial de Rumbo está orientado a padres o tut
 
 ## 1.2. Solution Profile
 
-El **Solution Profile** presenta una descripción general de la solución propuesta por **AIpaca**. Aborda el contexto en el que opera el transporte escolar en Lima y Callao, los problemas detectados en la coordinación entre familias y conductores, y las suposiciones estratégicas que guían el desarrollo de **Rumbo**. Esta sección busca conectar los hallazgos de la fase de descubrimiento con una propuesta de valor clara y sentar las bases para el diseño, la validación y el desarrollo de la solución.
+El **Solution Profile** presenta una descripción general de la solución propuesta por **AIpaca** y de su producto **Rumbo**. Aborda el contexto en el que opera el transporte escolar en Lima y Callao, los problemas detectados en la coordinación entre familias y conductores y las suposiciones estratégicas que guían el desarrollo del producto. Esta sección conecta los hallazgos de la fase de descubrimiento con una propuesta de valor clara y sienta las bases para el diseño, la validación y el desarrollo posterior de la solución.
+
+Para el curso de **Aplicaciones Web**, Rumbo se plantea como una experiencia compuesta por un **Landing Page**, una **Web Application responsive** y, en las etapas de implementación correspondientes, una **RESTful API de elaboración interna** integrada con la aplicación web y con al menos un servicio externo de terceros. Esta delimitación tecnológica corresponde al alcance específico del curso y no debe confundirse con la implementación realizada en otros cursos del proyecto.
 
 ### 1.2.1. Antecedentes y problemática
 
-El transporte escolar constituye un servicio formal y regulado en Lima y Callao. En enero de 2026, la Autoridad de Transporte Urbano para Lima y Callao (ATU) informó que **3758 vehículos se encontraban habilitados para prestar el servicio de transporte de estudiantes** y recordó que los padres pueden verificar digitalmente si el vehículo y el conductor están autorizados [1]. Esta cifra confirma que existe un ecosistema amplio de familias, conductores y operadores que realizan traslados escolares de manera recurrente.
+El transporte escolar constituye un servicio formal y regulado en Lima y Callao. En enero de 2026, la Autoridad de Transporte Urbano para Lima y Callao (ATU) informó que **3758 vehículos se encontraban habilitados para prestar el servicio de transporte de estudiantes** y recordó que los padres pueden verificar digitalmente si el vehículo y el conductor están autorizados (Infobae, 2026a). Esta cifra confirma que existe un ecosistema amplio de familias, conductores y operadores que realizan traslados escolares de manera recurrente.
 
 En esta sección se analiza el contexto en el que surge la problemática principal, considerando sus factores sociales, tecnológicos y operativos. Se utiliza la técnica de las 5 W y 2 H para responder de forma estructurada qué ocurre, quiénes están involucrados, cuándo y dónde sucede, por qué ocurre, cómo se abordará y cuánto costará implementar la solución.
 
 #### Técnica de las 5 W's + 2 H's
 
-**What (¿Qué?) — ¿Cuál es el problema?**  
+**What (¿Qué?) — ¿Cuál es el problema?**
 
-El transporte escolar en Lima y Callao es un servicio formal y regulado. Sin embargo, la coordinación diaria entre padres y conductores sigue dependiendo de mensajes y llamadas individuales. Según la Autoridad de Transporte Urbano para Lima y Callao (ATU), 3758 vehículos cuentan con habilitación para prestar este servicio durante 2026, tras un proceso de verificación y autorización realizado en 2025 (Infobae, 2026a). Además, la ATU habilitó un enlace público para que los padres verifiquen si el vehículo y el conductor contratados están autorizados (Exitosa Noticias, 2026)
+El transporte escolar en Lima y Callao es un servicio formal y regulado. Sin embargo, la coordinación diaria entre padres y conductores sigue dependiendo de mensajes y llamadas individuales. Según la Autoridad de Transporte Urbano para Lima y Callao (ATU), 3758 vehículos cuentan con habilitación para prestar este servicio durante 2026, tras un proceso de verificación y autorización realizado en 2025 (Infobae, 2026a). Además, la ATU habilitó un enlace público para que los padres verifiquen si el vehículo y el conductor contratados están autorizados (Exitosa Noticias, 2026).
 
 Estos mecanismos resuelven la pregunta de si el servicio es formal antes de contratarlo, pero no la de qué está pasando durante la ruta. Los padres no cuentan con una vista única donde consultar si el menor ya fue recogido, si la movilidad está retrasada, si llegó al colegio o si ocurrió un imprevisto. Esa información se transmite de forma dispersa, y buena parte de ella recae sobre el conductor, que debe responder las mismas consultas a varias familias mientras cumple su ruta.
 
-**When (¿Cuándo?) — ¿Cuándo ocurre?**  
+**When (¿Cuándo?) — ¿Cuándo ocurre?**
 
-El problema ocurre todos los días de clases, en tres momentos: antes del recojo, durante el traslado y al momento de la llegada o entrega. El Ministerio de Educación fijó el inicio del año escolar 2026 para el lunes 16 de marzo y su término para el viernes 18 de diciembre, con 36 semanas de clases (Infobae, 2026a). Durante todo ese periodo, cada familia depende de uno o dos trayectos diarios
+El problema ocurre todos los días de clases, en tres momentos: antes del recojo, durante el traslado y al momento de la llegada o entrega. El Ministerio de Educación fijó el inicio del año escolar 2026 para el lunes 16 de marzo y su término para el viernes 18 de diciembre, con 36 semanas de clases (Infobae, 2026a). Durante todo ese periodo, cada familia depende de uno o dos trayectos diarios.
 
 La incertidumbre se intensifica porque los horarios escolares coinciden con las horas de mayor congestión. En Lima el tráfico se concentra entre las 6 a. m. y las 9 a. m., y nuevamente en las horas punta de la tarde (El Comercio, 2026). En esas franjas un retraso de pocos minutos puede convertirse en una espera prolongada, y es cuando los padres más necesitan información oportuna.
 
-**Where (¿Dónde?) — ¿Dónde surge?**  
+**Where (¿Dónde?) — ¿Dónde surge?**
 
 El problema se presenta principalmente en Lima Metropolitana y el Callao, en las rutas que conectan hogares, puntos de recojo y centros educativos. Se trata de una de las ciudades con mayor congestión del mundo: el TomTom Traffic Index 2025 ubicó a Lima como la novena ciudad más congestionada del mundo, con un nivel de tráfico de 69,3 %, y con 195 horas anuales perdidas por conductor en embotellamientos (El Popular, 2026).
 
 La situación se mantiene en 2026. Con datos de TomTom consolidados hasta el 3 de agosto de 2026, en la hora punta matinal de los días laborables la velocidad promedio en Lima fue de 14,74 km/h, la más baja frente a Ciudad de México, Bogotá y Santiago de Chile (Energiminas, 2026). En este entorno, los tiempos de llegada son difíciles de anticipar para las familias.
 
-**Who (¿Quiénes?) — ¿Quiénes son los afectados?**  
+**Who (¿Quiénes?) — ¿Quiénes son los afectados?**
 
 - **Padres y tutores**, que necesitan saber en qué etapa se encuentra el traslado de sus hijos y hoy dependen de preguntarle directamente al conductor.
 
 - **Conductores de movilidad escolar**, que deben cumplir su ruta en medio del tráfico y, al mismo tiempo, comunicar recojos, retrasos o incidencias a varias familias de forma individual. Su trabajo está sujeto a exigencias formales: la ATU verifica que los vehículos cuenten con SOAT y CITV vigentes y que los conductores tengan licencia de categoría AIIB (Infobae, 2026a).
 
-**Why (¿Por qué?) — ¿Por qué ocurre y por qué importa?**  
+- **Estudiantes**, beneficiarios indirectos del servicio. No interactúan con la plataforma, pero su seguridad y la protección de sus datos personales condicionan el diseño de la solución.
+
+Ambos grupos constituyen los segmentos objetivo de Rumbo, por ser quienes utilizarán la plataforma. Los estudiantes, en cambio, reciben el servicio pero no interactúan con ella: su condición de menores de edad resulta relevante porque la información que Rumbo registra sobre sus traslados constituye datos personales sujetos a la Ley N.º 29733, lo que condiciona el diseño de permisos y visibilidad de la solución.
+
+**Why (¿Por qué?) — ¿Por qué ocurre y por qué importa?**
 
 - **Comunicación fragmentada en canales generales:** La coordinación se realiza principalmente por mensajería instantánea. Según la Encuesta Residencial de Servicios de Telecomunicaciones (ERESTEL) 2025 de Osiptel, el 68,6 % de los peruanos usó plataformas de comunicación instantánea durante el último año, y entre ellos WhatsApp alcanza el 98,6 % de usuarios (Expreso, 2026). Estos canales son útiles, pero no fueron diseñados para registrar hitos de una ruta: la información queda mezclada con otros mensajes y cada familia recibe actualizaciones distintas.
 
@@ -248,7 +284,7 @@ La situación se mantiene en 2026. Con datos de TomTom consolidados hasta el 3 d
 
 - **Verificación sin visibilidad en ruta:** Las herramientas oficiales permiten comprobar la formalidad del servicio, pero no ofrecen seguimiento del estado de cada traslado.
 
-**How (¿Cómo?) — ¿Cómo se abordará?**  
+**How (¿Cómo?) — ¿Cómo se abordará?**
 
 Para responder a esta necesidad, AIpaca propone Rumbo, una plataforma web responsive orientada al uso móvil que centraliza el estado de cada traslado. La elección del canal responde al contexto local: según el INEI, en el cuarto trimestre de 2025 el 98,4 % de los hogares de Lima Metropolitana contó con telefonía móvil, y en ese mismo periodo el uso de Internet en Lima Metropolitana alcanzó el 90,3 % de la población de 6 años a más (Instituto Nacional de Estadística e Informática [INEI], 2026). Además, el 89,2 % de los usuarios de Internet accedió a la red mediante un teléfono celular (Altavoz, 2026).
 
@@ -260,7 +296,7 @@ La información de cada menor será visible únicamente para los usuarios autori
 
 Rumbo no reemplaza las obligaciones de seguridad, autorización y operación de los prestadores del servicio, ni la comunicación humana cuando sea necesaria. Su objetivo es complementarlas con información estructurada que reduzca la incertidumbre de las familias y la carga del conductor.
 
-**How much (¿Cuánto?)**  
+**How much (¿Cuánto?)**
 
 La implementación de Rumbo requiere una inversión inicial orientada al desarrollo de software, la infraestructura en la nube, la adecuación a la normativa de datos personales y un piloto con familias y conductores. Al ser una solución exclusivamente de software, no requiere fabricar hardware, lo que reduce la inversión inicial y facilita escalar el modelo SaaS.
 
@@ -268,28 +304,35 @@ Como referencia del mercado, el precio mensual por estudiante de una movilidad e
 
 Presupuesto estimado (estimación referencial elaborada por el equipo):
 
-Desarrollo de software
-Diseño UX/UI y prototipado: S/ 2,000 – S/ 3,000
-Frontend web responsive (Vue + PrimeVue): S/ 4,000 – S/ 6,000
-Backend, API REST y base de datos (ASP.NET Core): S/ 4,500 – S/ 6,500
-Integración de servicios de ubicación y notificaciones: S/ 1,500 – S/ 2,500
+| Categoría               | Concepto                                      | Rango estimado (S/) |
+| ----------------------- | --------------------------------------------- | ------------------- |
+| Desarrollo              | Diseño UX/UI y prototipado                    | 2,000 – 3,000       |
+| Desarrollo              | Frontend web responsive                       | 4,000 – 6,000       |
+| Desarrollo              | Backend, RESTful API y base de datos          | 4,500 – 6,500       |
+| Desarrollo              | Integración de servicios externos             | 1,500 – 2,500       |
+| Infraestructura (anual) | Dominio, hosting y base de datos gestionada   | 1,500 – 2,500       |
+| Infraestructura (anual) | Servicio de notificaciones                    | 800 – 1,500         |
+| Seguridad               | Adecuación a la Ley N.º 29733                 | 1,500 – 2,500       |
+| Seguridad               | Pruebas de seguridad                          | 1,000 – 1,500       |
+| Marketing               | Landing Page, estrategia digital y materiales | 2,000 – 3,000       |
+| Marketing               | Piloto con conductores y familias             | 1,500 – 2,500       |
+| Mantenimiento (anual)   | Actualizaciones y soporte técnico             | 3,000 – 5,000       |
+| **Total**               |                                               | **23,300 – 36,500** |
 
-Infraestructura (anual)
-Dominio, hosting en la nube y base de datos gestionada: S/ 1,500 – S/ 2,500
-Servicio de notificaciones (push, correo o SMS): S/ 800 – S/ 1,500
+#### Objetivos del proyecto
 
-Seguridad y cumplimiento
-Adecuación a la Ley N.º 29733 (políticas de privacidad, consentimiento y asesoría legal): S/ 1,500 – S/ 2,500
-Pruebas de seguridad: S/ 1,000 – S/ 1,500
+- Reducir la cantidad de consultas directas que los padres y tutores dirigen al conductor durante la ruta.
+- Permitir que el conductor registre los hitos del traslado con interacciones breves y seguras.
+- Conservar un registro estructurado de cada traslado que permita resolver dudas posteriores.
+- Garantizar que la información de cada estudiante sea visible únicamente para sus tutores autorizados.
 
-Marketing y lanzamiento
-Landing page, estrategia digital y materiales: S/ 2,000 – S/ 3,000
-Piloto con conductores y familias (capacitación e incentivos): S/ 1,500 – S/ 2,500
+#### Restricciones del proyecto
 
-Mantenimiento y soporte (anual)
-Actualizaciones de software y soporte técnico: S/ 3,000 – S/ 5,000
-
-Total estimado: S/ 23,300 – S/ 36,500
+- El alcance del curso comprende Landing Page, Web Application responsive y RESTful API de elaboración interna; no contempla aplicaciones móviles nativas.
+- El seguimiento continuo de ubicación, el ETA dinámico y el geofencing quedan fuera del alcance inicial y se consideran parte del roadmap.
+- Rumbo no sustituye las obligaciones de autorización, seguridad y operación que la normativa asigna a los prestadores del servicio.
+- El tratamiento de datos de menores se sujeta a la Ley N.º 29733 y su reglamento, lo que condiciona la retención y la visibilidad de la información.
+- La validación inicial se limita a Lima Metropolitana y el Callao.
 
 ### 1.2.2. Lean UX Process
 
@@ -315,7 +358,7 @@ Padres, madres y tutores de estudiantes que usan movilidad escolar.
 
 Conductores de movilidad escolar que realizan rutas recurrentes.
 
-- **Pain Points:** 
+- **Pain Points:**
 
 **Padres y Tutores**
 
@@ -333,7 +376,7 @@ Conductores de movilidad escolar que realizan rutas recurrentes.
 
 - Ausencia de un registro ordenado de recojos, entregas e incidencias para resolver dudas posteriores.
 
-- **Gap:** Creemos que no existe una solución de uso extendido en Lima y Callao que combine, en una sola plataforma, el estado del traslado, la confirmación de recojos y entregas, el registro de incidencias y notificaciones dirigidas solo a los tutores autorizados. Este supuesto será contrastado en el análisis competitivo. 
+- **Gap:** Creemos que no existe una solución de uso extendido en Lima y Callao que combine, en una sola plataforma, el estado del traslado, la confirmación de recojos y entregas, el registro de incidencias y notificaciones dirigidas solo a los tutores autorizados. Este supuesto será contrastado en el análisis competitivo.
 
 - **Vision/Strategy:** Consolidar a AIpaca como una empresa referente en soluciones digitales para la coordinación del transporte escolar en el Perú y Latinoamérica, reconocida por generar confianza entre familias y conductores mediante tecnología accesible, segura y escalable.
 
@@ -351,8 +394,8 @@ Estas Business Assumptions servirán como base para formular los Feature Assumpt
 
 2. Creemos que una plataforma web responsive con estados, hitos, notificaciones e incidencias puede satisfacer esta necesidad mejor que la mensajería de uso general.
 
-3. Creemos que nuestros clientes iniciales serán conductores independientes de 
-movilidad escolar en Lima y Callao, junto con las familias que contratan sus servicios.
+3. Creemos que nuestros clientes iniciales serán conductores independientes de
+   movilidad escolar en Lima y Callao, junto con las familias que contratan sus servicios.
 
 4. Creemos que el valor más importante para los padres es la tranquilidad de saber qué ocurre en la ruta sin tener que preguntar y, para los conductores, la reducción de mensajes repetitivos.
 
@@ -380,14 +423,13 @@ movilidad escolar en Lima y Callao, junto con las familias que contratan sus ser
 
 6. Lograr que al menos el 60 % de los conductores que participen en el piloto continúe usando Rumbo después del primer mes.
 
-
 ##### User Assumptions
 
 En esta etapa se identificaron los principales supuestos sobre los usuarios, sus necesidades y el contexto de uso, antes de realizar las entrevistas de validación.
 
 **¿Quién es el usuario?**
 
-- **Padres, madres y tutores:** 
+- **Padres, madres y tutores:**
 
 1. Creemos que los padres y tutores trabajan o realizan otras actividades durante el horario de traslado y consultan el celular solo en momentos breves.
 
@@ -399,8 +441,7 @@ En esta etapa se identificaron los principales supuestos sobre los usuarios, sus
 
 5. Creemos que solo confiarán en una plataforma si la información de su hijo es visible únicamente para los tutores autorizados.
 
-
-- **Conductores de movilidad escolar:** 
+- **Conductores de movilidad escolar:**
 
 6. Creemos que los conductores realizan rutas recurrentes en las que atienden a varias familias y paradas por jornada.
 
@@ -444,35 +485,29 @@ En esta sección se detallan los supuestos sobre las funcionalidades del product
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Se formula un Hypothesis Statement por cada Feature Assumption, siguiendo la estructura: *Creemos que lograremos [resultado de negocio] si [persona] obtiene [beneficio] con [funcionalidad].*
+Se formula un Hypothesis Statement por cada Feature Assumption, siguiendo la estructura: _Creemos que lograremos [resultado de negocio] si [persona] obtiene [beneficio] con [funcionalidad]._
 
-
-**Hipótesis 1 — Estado actual del viaje**  
+**Hipótesis 1 — Estado actual del viaje**
 
 Creemos que lograremos reducir en 60 % los mensajes y llamadas al conductor para consultar el estado de la ruta si los padres y tutores conocen en pocos segundos la etapa actual del traslado con una vista de estado actual del viaje.
 
-
-**Hipótesis 2 — Línea de tiempo del trayecto**  
+**Hipótesis 2 — Línea de tiempo del trayecto**
 
 Creemos que lograremos que al menos el 70 % de los padres y tutores activos consulte Rumbo en tres o más días de clases por semana si comprenden lo ocurrido durante el recorrido sin revisar conversaciones dispersas con una línea de tiempo del trayecto.
 
-
-**Hipótesis 3 — Confirmación de recojo y entrega**  
+**Hipótesis 3 — Confirmación de recojo y entrega**
 
 Creemos que lograremos que al menos el 80 % de los recojos y entregas de cada ruta quede confirmado en Rumbo si los conductores dejan constancia de cada hito en segundos con la confirmación de recojo y entrega en una sola acción.
 
-
-**Hipótesis 4 — Registro de incidencias**  
+**Hipótesis 4 — Registro de incidencias**
 
 Creemos que lograremos que al menos el 90 % de los retrasos e incidencias se comunique mediante Rumbo si los conductores informan un imprevisto a todas las familias afectadas mediante un único registro con categorías predefinidas.
 
-
-**Hipótesis 5 — Centro de notificaciones**  
+**Hipótesis 5 — Centro de notificaciones**
 
 Creemos que lograremos mantener por debajo del 20 % la proporción de padres y tutores que desactiva las notificaciones durante el primer mes si se anticipan a los retrasos sin recibir avisos innecesarios con notificaciones limitadas a eventos relevantes.
 
-
-**Hipótesis 6 — Vista de ruta del conductor**  
+**Hipótesis 6 — Vista de ruta del conductor**
 
 Creemos que lograremos que al menos el 60 % de los conductores del piloto continúe usando Rumbo después del primer mes si organizan su jornada con la lista de estudiantes y el orden de paradas en un solo lugar con una vista de ruta con estudiantes asignados.
 
@@ -480,8 +515,7 @@ Creemos que lograremos que al menos el 60 % de los conductores del piloto contin
 
 El **Lean UX Canvas** resume en un solo artefacto los elementos trabajados en el Lean UX Process: el problema de negocio, los resultados esperados, los segmentos objetivo, sus beneficios, las soluciones propuestas y las hipótesis que las conectan. Además, identifica el supuesto más riesgoso para Rumbo y los experimentos de menor esfuerzo que permitirán validarlo.
 
-
-<p align="center"><img src="assets/chaper1/lean-ux.png" alt="Lean UX Canvas de Rumbo" width="100%"/></p>
+<p align="center"><img src="assets/chapter1/lean-ux.png" alt="Lean UX Canvas de Rumbo" width="100%"/></p>
 
 ## 1.3. Segmentos objetivo
 
@@ -493,6 +527,7 @@ En esta sección se identifican y describen los **segmentos de usuarios** hacia 
 Padres, madres o tutores responsables de menores que utilizan servicios de movilidad escolar en Lima y Callao. Este segmento busca disminuir la incertidumbre durante los recorridos y acceder a información clara sobre recojo, traslado, retrasos, llegada e incidencias.
 
 **Características demográficas y comportamiento:**
+
 - Adultos responsables de menores en edad escolar que contratan o utilizan servicios de movilidad escolar.
 - Utilizan principalmente el teléfono móvil para comunicarse y consultar información cotidiana.
 - Valoran la inmediatez, claridad y facilidad de uso por encima de interfaces complejas.
@@ -500,8 +535,10 @@ Padres, madres o tutores responsables de menores que utilizan servicios de movil
 - La confianza en la plataforma depende de la privacidad y del control sobre quién puede consultar información del menor.
 
 **Sustento estadístico:**
-- La ATU reportó **3758 vehículos habilitados para transporte escolar en Lima y Callao** en enero de 2026, evidenciando un mercado formal y recurrente de familias usuarias del servicio [1].
-- El INEI informó que **98,4 % de los hogares de Lima Metropolitana contaba con telefonía móvil**, **90,3 % de la población de 6 años a más utilizaba Internet** y **91,0 % de los usuarios de Internet accedía mediante celular** durante el cuarto trimestre de 2025 [4]. Esto respalda una experiencia web orientada principalmente al uso móvil.
+
+- La ATU reportó **3758 vehículos habilitados para transporte escolar en Lima y Callao** en enero de 2026, evidenciando un mercado formal y recurrente de familias usuarias del servicio (Infobae, 2026).
+
+- El INEI informó que **98,4 % de los hogares de Lima Metropolitana contaba con telefonía móvil**, que **90,3 % de la población de 6 años a más utilizaba Internet** y que **89,2 % de los usuarios accedía a la red mediante un teléfono celular** durante el cuarto trimestre de 2025 (INEI, 2026). Esto respalda una experiencia web orientada principalmente al uso móvil.
 
 ### Conductores de movilidad escolar
 
@@ -509,6 +546,7 @@ Padres, madres o tutores responsables de menores que utilizan servicios de movil
 Conductores que realizan rutas programadas para el traslado de estudiantes entre hogares, puntos de recojo y centros educativos. Este segmento necesita organizar el recorrido y comunicar a las familias los principales eventos de la ruta de forma rápida y consistente.
 
 **Características demográficas y comportamiento:**
+
 - Prestadores de un servicio regulado que operan vehículos autorizados para transporte de estudiantes.
 - Trabajan con rutas, horarios, puntos de recojo y varios estudiantes durante una misma jornada.
 - Necesitan reducir acciones digitales mientras conducen, por lo que las interacciones deben ser breves y ejecutarse únicamente cuando sea seguro hacerlo.
@@ -516,8 +554,9 @@ Conductores que realizan rutas programadas para el traslado de estudiantes entre
 - Valoran herramientas que simplifiquen la coordinación sin reemplazar sus responsabilidades operativas y de seguridad.
 
 **Sustento estadístico:**
-- La ATU reportó **3758 vehículos escolares habilitados en Lima y Callao** [1], lo que permite identificar un grupo concreto de operadores y conductores dentro del mercado formal.
-- Lima registró **69,3 % de congestión promedio durante 2025**, con recorridos de 10 km de hasta **51 min 17 s en la hora punta de la tarde** y aproximadamente **195 horas anuales perdidas en tráfico de hora punta** [2]. Este contexto sustenta la necesidad de gestionar retrasos y comunicar variaciones de tiempo de manera ordenada.
+
+- La ATU reportó **3758 vehículos escolares habilitados en Lima y Callao** (Infobae, 2026a), lo que permite identificar un grupo concreto de operadores y conductores dentro del mercado formal.
+- Lima registró **69,3 % de congestión promedio durante 2025**, con recorridos de 10 km de hasta **51 min 17 s en la hora punta de la tarde** y aproximadamente **195 horas anuales perdidas en tráfico de hora punta** (El Popular, 2026). Este contexto sustenta la necesidad de gestionar retrasos y comunicar variaciones de tiempo de manera ordenada.
 
 ---
 
@@ -555,716 +594,41 @@ carece de funciones para gestionar rutas, estudiantes o registrar hitos del reco
 
 ### 2.1.1. Análisis competitivo
 
-En esta sección se realiza un análisis detallado de nuestros tres principales competidores: **WhatsApp, Transporte Escolar y titiGO**. Para ello, se presenta un **Competitive Analysis Landscape**, cuyo objetivo es conocer y comparar las principales características de cada competidor, considerando sus fortalezas, debilidades, oportunidades de mejora y modelos de negocio. Este análisis permitirá identificar oportunidades de diferenciación y establecer las estrategias y tácticas de negocio que **Rumbo** adoptará para desarrollar una ventaja competitiva dentro del mercado del seguimiento y gestión de movilidades escolares.
-
-## Competitive Analysis Landscape
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="2">¿Por qué llevar a cabo este análisis?</th>
-      <th colspan="4">Comparar a Rumbo con los competidores identificados para reconocer diferencias, oportunidades y riesgos relevantes para la propuesta.</th>
-    </tr>
-    <tr>
-      <th colspan="2"></th>
-      <th>Rumbo</th>
-      <th>titiGO</th>
-      <th>Transporte Escolar</th>
-      <th>WhatsApp</th>
-    </tr>
-    <tr>
-      <th>Competidores</th>
-      <th></th>
-      <th>[logo] AIpaca — Rumbo</th>
-      <th>[logo] titiGO</th>
-      <th>[logo] Transporte Escolar</th>
-      <th>[logo] WhatsApp</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="2"><b>Perfil</b></td>
-      <td>Overview</td>
-      <td>Plataforma web responsive que centraliza el estado del traslado escolar, sus hitos e incidencias, dirigida a padres/tutores y conductores.</td>
-      <td>Plataforma de seguimiento y control del transporte escolar que conecta colegios, movilidades y padres.</td>
-      <td>Aplicación móvil de seguimiento escolar en tiempo real para conductores y padres.</td>
-      <td>Aplicación de mensajería de uso general empleada para coordinar el servicio de movilidad escolar.</td>
-    </tr>
-    <tr>
-      <td>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</td>
-      <td>Muestra el estado del traslado mediante hitos confirmados y una línea de tiempo, sin exigir seguimiento continuo de ubicación ni depender de un colegio.</td>
-      <td>Valida el retiro del estudiante mediante códigos QR verificados por el colegio.</td>
-      <td>Permite visualizar la ubicación de la movilidad y el estado del estudiante durante el recorrido.</td>
-      <td>Comunicación inmediata, gratuita y ya adoptada por ambos segmentos.</td>
-    </tr>
-    <tr>
-      <td rowspan="2"><b>Perfil de Marketing</b></td>
-      <td>Mercado objetivo</td>
-      <td>Padres/tutores y conductores de movilidad escolar en Lima y Callao.</td>
-      <td>Colegios, movilidades escolares y padres de familia.</td>
-      <td>Conductores de movilidad escolar y padres de familia en Ecuador.</td>
-      <td>Público general; en este contexto, conductores y padres de familia.</td>
-    </tr>
-    <tr>
-      <td>Estrategias de marketing</td>
-      <td>Captación directa de conductores independientes, quienes incorporan a las familias de su ruta; difusión en redes sociales y demostraciones.</td>
-      <td>Captación de colegios para integrar luego a movilidades y familias.</td>
-      <td>Difusión mediante tiendas de aplicaciones.</td>
-      <td>Crecimiento por adopción masiva, sin especialización en transporte escolar.</td>
-    </tr>
-    <tr>
-      <td rowspan="3"><b>Perfil de Producto</b></td>
-      <td>Productos &amp; Servicios</td>
-      <td>Estado actual del viaje, línea de tiempo, confirmación de recojo y entrega, registro de incidencias y centro de notificaciones.</td>
-      <td>Seguimiento del transporte, notificaciones, control de retiro mediante QR y gestión de movilidades.</td>
-      <td>Seguimiento GPS, gestión de estudiantes y rutas, mensajería, alertas y notificaciones.</td>
-      <td>Mensajería, grupos, llamadas y ubicación en tiempo real.</td>
-    </tr>
-    <tr>
-      <td>Precios &amp; Costos</td>
-      <td>Modelo SaaS: acceso gratuito para padres y tutores, suscripción mensual para conductores.</td>
-      <td>No especificado públicamente.</td>
-      <td>Descarga gratuita; condiciones comerciales no especificadas.</td>
-      <td>Gratuito en sus funciones principales.</td>
-    </tr>
-    <tr>
-      <td>Canales de distribución<br>(Web y/o Móvil)</td>
-      <td>Landing Page y aplicación web responsive, optimizada para navegador móvil.</td>
-      <td>Aplicación móvil.</td>
-      <td>Aplicación móvil.</td>
-      <td>Aplicación móvil, versión web y de escritorio.</td>
-    </tr>
-    <tr>
-      <td rowspan="4"><b>Análisis SWOT</b></td>
-      <td>Fortalezas</td>
-      <td>Especialización en el contexto peruano; información centralizada por hitos; permisos por rol que limitan la visibilidad de datos del menor; no depende de la participación de un colegio.</td>
-      <td>Integración entre colegios, movilidades y padres; validación del retiro mediante QR.</td>
-      <td>Seguimiento GPS y gestión completa de estudiantes y rutas.</td>
-      <td>Amplia base de usuarios, facilidad de uso y comunicación instantánea.</td>
-    </tr>
-    <tr>
-      <td>Debilidades</td>
-      <td>Producto nuevo sin base de usuarios; depende de que el conductor registre los hitos; sin aplicación móvil nativa en el alcance inicial.</td>
-      <td>Depende de que el colegio verifique las movilidades, lo que excluye a conductores independientes.</td>
-      <td>Menor integración con instituciones educativas; su enfoque en ubicación continua puede generar reparos de privacidad.</td>
-      <td>Sin funciones especializadas; la información queda dispersa entre conversaciones y no deja registro estructurado.</td>
-    </tr>
-    <tr>
-      <td>Oportunidades</td>
-      <td>Digitalización de las movilidades escolares independientes y alta penetración de Internet móvil en Lima Metropolitana.</td>
-      <td>Expansión hacia más instituciones educativas.</td>
-      <td>Incorporación de nuevas funciones de gestión y seguridad.</td>
-      <td>Integración con otras herramientas que complementen la coordinación.</td>
-    </tr>
-    <tr>
-      <td>Amenazas</td>
-      <td>Resistencia de los conductores a cambiar de herramienta; preferencia consolidada por WhatsApp; exigencias de la Ley N.º 29733 sobre datos de menores.</td>
-      <td>Aparición de plataformas dirigidas directamente a conductores independientes.</td>
-      <td>Competencia de plataformas con mayor integración institucional.</td>
-      <td>Aparición de soluciones especializadas que cubran lo que hoy se coordina por mensajería.</td>
-    </tr>
-  </tbody>
-</table>
-
 ### 2.1.2. Estrategias y tácticas frente a competidores
-
-A partir de las fortalezas, debilidades, oportunidades y amenazas identificadas, se 
-definen las siguientes estrategias y tácticas preliminares que Rumbo adoptará para 
-diferenciarse en el mercado del transporte escolar.
-
-| Hallazgo del análisis | Estrategia de Rumbo | Táctica |
-|---|---|---|
-| WhatsApp concentra la coordinación actual, pero dispersa la información entre conversaciones. | Diferenciarse mediante la centralización estructurada de los hitos del traslado. | Registrar cada recojo, entrega, retraso e incidencia como un evento consultable en una línea de tiempo, en lugar de mensajes sueltos. |
-| titiGO depende de la verificación del colegio. | Atender al conductor independiente, que hoy queda fuera de esa propuesta. | Permitir que el conductor cree y publique su ruta, asigne estudiantes y opere sin intervención de una institución educativa. |
-| Transporte Escolar basa su valor en la ubicación continua. | Diferenciarse con una experiencia menos invasiva y más clara. | Mostrar estados e hitos confirmados en lugar de una secuencia continua de coordenadas, y limitar la información visible a los tutores autorizados. |
-| La adopción de una herramienta nueva es el mayor riesgo. | Reducir el costo de cambio frente a herramientas conocidas. | Diseñar la confirmación de hitos en una sola acción y ofrecer pilotos gratuitos a conductores durante el primer mes. |
-| El manejo de datos de menores condiciona la confianza. | Convertir el cumplimiento normativo en un atributo visible del producto. | Implementar permisos por rol, política de privacidad conforme a la Ley N.º 29733 y términos de servicio enlazados en el footer. |
-| Existe una oportunidad de digitalización del sector. | Posicionar a Rumbo como la alternativa especializada para Lima y Callao. | Difundir la plataforma mediante redes sociales, demostraciones a conductores autorizados por la ATU y alianzas con asociaciones del rubro. |                                               |
-
-### Estrategias principales
-
-1. Estrategia de diferenciación por especialización
-Rumbo buscará diferenciarse de herramientas generales como WhatsApp mediante funciones diseñadas específicamente para las necesidades de las movilidades escolares, como seguimiento de rutas, estados del viaje, gestión de estudiantes e incidencias.
-
-2. Estrategia de adaptación al mercado peruano
-A diferencia de soluciones que dependen principalmente de colegios o sistemas de transporte institucionales, Rumbo estará orientado inicialmente a la realidad de las movilidades escolares independientes, permitiendo que los conductores puedan gestionar su servicio y relacionarse directamente con los padres.
-
-3. Estrategia de centralización de información
-Rumbo buscará solucionar el problema de utilizar múltiples herramientas para administrar el servicio. La plataforma reunirá seguimiento, comunicación, notificaciones, horarios, incidencias y confirmaciones en un mismo espacio.
-
-4. Estrategia de adopción y confianza
-Para afrontar la amenaza de que los usuarios prefieran continuar utilizando herramientas conocidas, Rumbo priorizará una interfaz sencilla y funciones fáciles de entender, además de mecanismos que permitan a los padres conocer el estado del traslado de sus hijos y recibir confirmaciones durante el recorrido.
 
 ## 2.2. Entrevistas
 
-Para este bloque se realizarán **entrevistas semiestructuradas** con el objetivo de comprender las necesidades, hábitos, dificultades y expectativas de los dos segmentos objetivo de Rumbo: **padres o tutores** y **conductores de movilidad escolar**. Las entrevistas buscan conocer cómo se coordina actualmente el traslado escolar, qué información se intercambia, qué situaciones generan mayor incertidumbre y cuáles son las barreras que podrían influir en la adopción de una solución digital.
-
-Se realizarán **seis entrevistas en total: tres por cada segmento**, de acuerdo con el alcance definido para AV1. La información obtenida servirá como evidencia para construir los User Personas, User Task Matrix, User Journey Maps, Empathy Maps y los demás artefactos de Needfinding.
-
 ### 2.2.1. Diseño de entrevistas
-
-Las preguntas combinan información demográfica y contextual con preguntas abiertas sobre comportamientos reales. Durante la entrevista se priorizará que el participante describa experiencias concretas antes de presentar posibles funcionalidades de Rumbo, con el fin de reducir el sesgo de confirmación y detectar necesidades que el equipo todavía no haya considerado.
-
-### Preguntas dirigidas al primer segmento — Padres y tutores
-
-1. ¿Cuál es tu nombre completo, edad, ocupación y distrito de residencia?
-2. ¿Qué relación tienes con el menor que utiliza movilidad escolar, qué edad tiene y con qué frecuencia utiliza este servicio?
-3. ¿Qué dispositivo, navegador y aplicaciones utilizas con mayor frecuencia para comunicarte o consultar información durante el día?
-4. Cuéntame cómo coordinas actualmente el recojo, traslado y regreso del menor con el conductor.
-5. ¿Cómo sabes actualmente que la movilidad está próxima, que el menor fue recogido o que llegó a su destino?
-6. ¿Qué situaciones inesperadas o retrasos has vivido durante un traslado escolar y cómo actuaste cuando ocurrieron?
-7. ¿En qué momentos del recorrido sientes mayor incertidumbre o falta de información?
-8. ¿Con qué frecuencia contactas al conductor durante una ruta, por qué motivos y qué consultas se repiten más?
-9. ¿Qué información o notificaciones te resultarían realmente útiles durante el recorrido y cuáles considerarías innecesarias?
-10. ¿Qué aspectos de privacidad o seguridad te preocuparían al utilizar una plataforma relacionada con la ubicación y el traslado de un menor?
-11. ¿Qué tendría que ofrecer una herramienta digital para que confíes en ella y la utilices con frecuencia, y qué dificultades podrían hacer que dejaras de usarla?
-12. Si pudieras cambiar una sola cosa de la forma en que hoy se coordina la movilidad escolar, ¿qué cambiarías y por qué?
-
-### Preguntas dirigidas al segundo segmento — Conductores de movilidad escolar
-
-1. ¿Cuál es tu nombre completo, edad, ocupación, distrito de residencia y cuántos años de experiencia tienes realizando transporte escolar?
-2. ¿Cuántos estudiantes y rutas manejas normalmente durante una jornada de trabajo?
-3. ¿Qué dispositivo, navegador y aplicaciones o canales digitales utilizas con mayor frecuencia para organizar tu trabajo y comunicarte con las familias?
-4. Cuéntame cómo organizas actualmente los estudiantes, horarios, puntos de recojo y cambios que pueden surgir antes de una ruta.
-5. ¿Cómo confirmas actualmente que un estudiante fue recogido o entregado y cómo comunicas esos eventos a sus familiares?
-6. ¿Qué situaciones imprevistas o retrasos ocurren con mayor frecuencia durante una ruta y cómo los comunicas a las familias?
-7. ¿Qué información te piden los padres con mayor frecuencia y qué parte de esa comunicación te quita más tiempo o se vuelve repetitiva?
-8. ¿En qué momentos sería seguro y realista registrar información en un sistema sin distraerte de la conducción, y qué acciones digitales serían poco prácticas durante tu jornada?
-9. ¿Qué información te sería útil conservar como historial de una ruta para resolver posteriormente dudas o reclamos?
-10. ¿Qué datos consideras privados o que no deberían mostrarse libremente dentro de una plataforma de movilidad escolar?
-11. ¿Qué tendría que ofrecer una herramienta digital para que la utilices de manera recurrente y qué barreras podrían impedir que la adoptes?
-12. Si pudieras mejorar una sola parte de la coordinación con padres y tutores, ¿cuál sería y por qué?
 
 ### 2.2.2. Registro de entrevistas
 
-Para cada entrevista se registra nombre completo, edad, distrito, segmento, captura, URL del video, timing, duración y resumen descriptivo. Actualmente se cuenta con **seis entrevistas registradas: tres del segmento Padres/Tutores y tres del segmento Conductores de movilidad escolar**, cumpliendo el mínimo requerido para ambos segmentos.
-
-| # | Entrevistado | Edad | Distrito | Segmento | Duración | Referencia |
-| -: | ----------- | ---: | -------- | -------- | :-----   | ---------- |
-|  1 | Gisela Paola Santi Quispe | 45 | San Miguel | Padre/Tutor | 12:55 | [Entrevista 1](#entrevista-1--gisela-paola-santi-quispe) |
-|  2 | Marleny Nori Padilla Aguirre | 47 | Cercado de Lima | Padre/Tutor | 15:32 | [Entrevista 2](#entrevista-2--marleny-nori-padilla-aguirre) |
-|  3 | Leonel Adrián Mitma Garro | 24 | Callao | Padre/Tutor | 7:43 | [Entrevista 3](#entrevista-3--leonel-adrián-mitma-garro) |
-|  4 | Gabriel Alexandro Sosa Guevara | 20 | Olivos | Conductor | 09:51 | [Entrevista 4](#entrevista-4--gabriel-alexandro-sosa-guevara) |
-|  5 | Brayan Solorzano Pineda | 25 | Pueblo Libre | Conductor | 09:05 | [Entrevista 5](#entrevista-5--brayan-solorzano-pineda) |
-|  6 | Vilma Hoyos Martinez | 56 | San Miguel | Conductor | 18:14 | [Entrevista 6](#entrevista-6--vilma-hoyos-martinez) |
-
-## Entrevista 1 — Gisela Paola Santi Quispe
-
-- **Edad:** 45 años.
-- **Ocupación / segmento:** Padre o tutor de familia.
-- **Edad del menor:** 12 años y  6 años
-- **Distrito:** San Miguel.
-- **Frecuencia de uso:** 2 días a la semana.
-- **Timing de inicio:** 00:00.
-- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQAidRav7C7uTanDv_bGmDR7AelCr3B6zxh1HNJcxzSEYkY?e=jnKSeK
-
-<p align="center"><img src="./assets/chaper2/gisela-santi-entrevista.png" alt="Entrevista a Gisela Paola Santi Quispe" width="90%"/></p>
-
-**Resumen preliminar:** 
-
-Paola Santi es una madre de familia de 45 años de edad que reside en el distrito de San Miguel. Utiliza el servicio de movilidad escolar de forma moderada, aproximadamente dos veces a la semana, para sus hijos de 6 y 12 años que asisten a la escuela.
-
-Para comunicarse con el chófer o el tutor, usa WhatsApp, medio por el cual se envían mensajes y actualizaciones del conductor.
-
-Paola opina que lo que más le preocupa es el nivel de privacidad con respecto a la ubicación de sus menores, así como la información del chofer, siendo fundamental que este sea de confianza absoluta.
-
-## Entrevista 2 — Marleny Nori Padilla Aguirre
-
-- **Edad:** 47 años.
-- **Ocupación / segmento:** Padre o tutor de familia.
-- **Edad del menor:** 14 años.
-- **Distrito:** Cercado de Lima.
-- **Frecuencia de uso:** 1 días a la semana.
-- **Timing de inicio:** 00:00.
-- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQBZEYrCvz0UTYUAl1mpybc0AY7AkjTMQVY_AlCxp-8OP34?e=nc6MsX
-  
-<p align="center"><img src="./assets/chaper2/entrevista-marleny.png" alt="Entrevista a Marleny Nori Padilla Aguirre" width="90%"/></p>
-  
-**Resumen preliminar:** 
-
-Marleny Padilla es una madre de familia y ama de casa de 47 años de edad que reside en el distrito de Cercado de Lima. Utiliza el servicio de movilidad escolar con baja frecuencia para su hija de 14 años que asiste a una escuela secundaria.
-
-Para comunicarse con el tutor o el chófer, usa WhatsApp, medio por el cual se envían mensajes y actualizaciones de ubicación.
-
-Marleny opina que lo que más le preocupa es el nivel de privacidad con respecto a la ubicación de su menor, así como la información del chofer, siendo fundamental que este sea de confianza absoluta.
-
-## Entrevista 3 — Leonel Adrián Mitma Garro
-
-- **Edad:** 24 años.
-- **Ocupación / segmento:** Padre o tutor de familia.
-- **Edad del menor:** 6 años.
-- **Distrito:** Callao.
-- **Frecuencia de uso:** 5 días a la semana.
-- **Timing de inicio:** 00:00.
-- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423163_upc_edu_pe/IQAiG1Qiytv5T7nH1uVETjB1AbaTGE1RMaOf4cY4BH8dFkE?e=9F3PT4
-  
-  <p align="center"><img src="https://github.com/user-attachments/assets/b7505480-b81b-4072-b269-6384d712d131" alt="Entrevista a padre o tutor" width="90%"/></p>
-  
-**Resumen preliminar:** Leonel Adrián es un padre de familia de 24 años que reside en el distrito del Callao. Utiliza el servicio de movilidad escolar cinco días a la semana para que su hijo de 6 años asista al nido. Para comunicarse con el conductor, emplea principalmente WhatsApp. Por este medio, el chófer envía fotografías al grupo de padres como evidencia de que los niños han llegado a su destino, lo cual le genera tranquilidad. A pesar de no haber experimentado retrasos ni complicaciones con el servicio, Adrián admite sentir cierta incertidumbre durante el trayecto de su hijo debido a la inseguridad ciudadana que hay en su distrito. Si se implementara una herramienta digital para el servicio, considera que lo más útil sería poder visualizar la ubicación exacta del vehículo en tiempo real. Además, mencionó que sería ideal contar con cámaras de seguridad, aunque es consciente de que sería difícil de implementar. Por el momento, Adrián se encuentra completamente satisfecho con el servicio, siente que todo va acorde y no realizaría ningún cambio en la forma actual de coordinación.
-
-
-## Entrevista 4 — Gabriel Alexandro Sosa Guevara
-
-- **Edad:** 20 años.
-- **Ocupación / segmento:** Conductor de movilidad escolar.
-- **Experiencia en el rubro:** 2 años.
-- **Distrito:** Olivos.
-- **Duración:** 09:51.
-- **Timing de inicio:** 00:00.
-- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQC8MugJp8RuRYBv6-JB1JqxAa7zKfdSDfWOW6lMscwFzxg?e=MUf4ft
-
-<p align="center"><img src="assets/chaper2/gabriel-sosa-interview.png" alt="Captura de la entrevista a Gabriel Alexandro Sosa Guevara" width="850"/></p>
-
-**Resumen preliminar:** Gabriel cuenta con 2 años de experiencia realizando transporte escolar. Utiliza diariamente su teléfono para trabajar y principalmente usa WhatsApp para comunicarse con las familias y Google Maps para organizar sus rutas. Comenta que uno de los problemas que presenta es tener la información fragmentada en distintos chats, lo que hace poco práctico buscar entre conversaciones para verificar si un estudiante será recogido o consultar la dirección de un punto de llegada alternativo. Además, menciona que es repetitivo responder diariamente las preguntas de los padres sobre cuánto falta para que llegue su hijo, si la movilidad se encuentra cerca o si el estudiante se encuentra bien, ya que esto puede distraerlo mientras conduce. También considera que, en caso de utilizar una aplicación, esta debería ser fácil y rápida de utilizar para no quitarle tiempo durante la conducción. Entre las funcionalidades que considera útiles se encuentran una lista de alumnos, el orden de recojo y la posibilidad de registrar rápidamente cuándo recoge o entrega a un estudiante. Asimismo, le gustaría que los padres puedan visualizar el estado de la ruta y su ubicación para mantenerse informados sin necesidad de comunicarse constantemente con él.
-
-## Entrevista 5 — Brayan Solorzano Pineda
-
-- **Edad:** 25 años.
-- **Ocupación / segmento:** Conductor de movilidad escolar.
-- **Experiencia en el rubro:** 5 años.
-- **Distrito:** Pueblo Libre.
-- **Duración:** 09:05.
-- **Timing de inicio:** 00:00.
-- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422298_upc_edu_pe/IQDViGOQ_7GOQYDKI1MqVAXNAacWQv3o8bRMqBJbKkhsKp8?e=6tRx0m
-
-<p align="center"><img src="assets/chaper2/brayan-solorzano-interview.png" alt="Captura de la entrevista a Brayan Solorzano Pineda" width="850"/></p>
-
-**Resumen preliminar:** Brayan cuenta con 5 años de experiencia en el rubro. Comenzó trabajando en transporte personal, pero luego se trasladó al rubro del transporte escolar. Utiliza un grupo de WhatsApp para enviar avisos a los padres; sin embargo, los tutores prefieren escribirle por privado. Además, utiliza WaySide para evitar el tráfico y el calendario de su teléfono para recordar horarios especiales. Ha tenido problemas para recordar cambios en las rutas debido a modificaciones en el recojo de un alumno, especialmente porque varios padres le escriben. Diariamente, los padres también le preguntan si ya se encuentra cerca o si los niños ya llegaron a la escuela, lo cual considera repetitivo. Comenta que durante la conducción no utilizaría una aplicación. Sin embargo, le sería útil contar con un registro del inicio del recorrido, la hora de recojo de cada alumno y la hora de llegada a la escuela. También considera útil registrar cuando un alumno no será recogido. En general, considera que una aplicación debería ayudarlo a organizar los cambios y permitir que los padres puedan seguir la ruta sin necesidad de preguntarle constantemente. No utilizaría una aplicación que lo obligue a realizar muchas acciones manualmente o que tenga un costo muy elevado. Como característica adicional, le gustaría que pudiera utilizarse en zonas donde existe poca señal.
-
-## Entrevista 6 — Vilma Hoyos Martinez
-
-- **Edad:** 56 años.
-- **Ocupación / segmento:** Conductor de movilidad escolar.
-- **Experiencia en el rubro:** 25 años.
-- **Distrito:** San Miguel.
-- **Duración:** 18:14.
-- **Timing de inicio:** 00:06.
-- **Video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b451_upc_edu_pe/IQAarNiMmGEZT73ZVhSkpNMNAVFqyptTBINEQvTJU6AW7BY?e=asjxgo
-
-<p align="center"><img src="assets/chaper2/conductor-3.png" alt="Captura de la entrevista a Vilma Hoyos" width="850"/></p>
-
-**Resumen preliminar:** Vilma cuenta con 25 años de experiencia en el rubro de la movilidad escolar. Empezó llevando a estudiantes del colegio San Toribio, en el Rímac, hace 10 años y actualmente está a cargo de 26 niños en San Miguel, a quienes lleva a los colegios Claretiano y Los Rosales. La señora Vilma cuenta con un ayudante, quien utiliza la aplicación WhatsApp para comunicarse con las familias, coordinar horarios, llamar para avisar que deben bajar, informar si el niño asistirá, si necesita esperar y compartir su ubicación en tiempo real. Ha presentado problemas con la puntualidad de los niños y con la coordinación con los padres respecto a si los niños serán recogidos o no. Comenta que tiene conocimientos casi nulos en tecnología. Los padres le han recomendado utilizar algunas aplicaciones para poder realizar un mejor seguimiento del recorrido de sus hijos, pero menciona que no sabe cómo utilizarlas y, por ese motivo, no las implementa.
-
-
 ### 2.2.3. Análisis de entrevistas
-
-En esta sección se analizan las respuestas obtenidas en las entrevistas registradas, con el fin de identificar las características objetivas y subjetivas más frecuentes en cada segmento objetivo. Los resultados presentados provienen exclusivamente de las entrevistas documentadas en la sección anterior y constituyen la base para la construcción de los User Personas.
-
-#### Segmento 1: Conductores de movilidad escolar
-
-Se registraron tres entrevistas a conductores de movilidad escolar que operan en Lima Metropolitana.
-
-**Características demográficas y de contexto**
-
-| Variable | Resultado |
-|---|---|
-| Edad de los entrevistados | 20, 25 y 56 años (promedio: 33,7 años) |
-| Distritos de operación | Los Olivos, Pueblo Libre y San Miguel (100 % Lima Metropolitana) |
-| Experiencia en el rubro | 2, 5 y 25 años (promedio: 10,7 años) |
-| Conductores que operan de forma independiente | 100 % |
-| Conductores que cuentan con un ayudante o asistente | 33,3 % |
-
-**Herramientas y canales digitales utilizados**
-
-| Variable | Porcentaje |
-|---|---:|
-| Utiliza WhatsApp como canal principal con las familias | 100 % |
-| Utiliza una aplicación de navegación (Google Maps, Waze) | 66,7 % |
-| Utiliza el calendario del teléfono para horarios especiales | 33,3 % |
-| Declara conocimientos casi nulos en tecnología | 33,3 % |
-| Delega el uso del teléfono en un ayudante durante la ruta | 33,3 % |
-
-**Frustraciones identificadas**
-
-| Variable | Porcentaje |
-|---|---:|
-| Recibe consultas repetitivas de los padres sobre el avance de la ruta | 100 % |
-| Presenta dificultades para coordinar si un estudiante será recogido o no | 100 % |
-| Considera que la información queda fragmentada entre conversaciones | 66,7 % |
-| Indica que responder mensajes lo distrae mientras conduce | 66,7 % |
-| Ha tenido problemas para recordar cambios comunicados por los padres | 33,3 % |
-| Ha tenido problemas de puntualidad con los estudiantes | 33,3 % |
-
-**Necesidades y expectativas sobre una solución digital**
-
-| Variable | Porcentaje |
-|---|---:|
-| Considera útil registrar los hitos de recojo y entrega | 66,7 % |
-| Requiere que la aplicación sea rápida y de pocos pasos | 66,7 % |
-| Desea que los padres puedan seguir la ruta sin contactarlo | 66,7 % |
-| Considera útil contar con la lista de alumnos y el orden de recojo | 33,3 % |
-| Declara que no utilizaría la aplicación mientras conduce | 33,3 % |
-| Menciona el costo como condición para adoptar la herramienta | 33,3 % |
-| Menciona el funcionamiento en zonas con poca señal | 33,3 % |
-| No adopta aplicaciones recomendadas por desconocimiento de su uso | 33,3 % |
-
-#### Segmento 2: Padres y tutores
-
-Se registraron tres entrevistas a padres y tutores de estudiantes que utilizan el servicio de movilidad escolar en Lima Metropolitana y el Callao.
-
-**Características demográficas y de contexto**
-
-| Variable | Resultado |
-|---|---|
-| Edad de los entrevistados | 24, 45 y 47 años (promedio: 38,7 años) |
-| Distritos de residencia | Callao, Cercado de Lima y San Miguel |
-| Edad de los menores que utilizan el servicio | 6, 6, 12 y 14 años (promedio: 9,5 años) |
-| Entrevistados con más de un menor en el servicio | 33,3 % |
-| Frecuencia de uso del servicio | 1, 2 y 5 días a la semana |
-| Entrevistados que utilizan el servicio de forma diaria | 33,3 % |
-
-**Herramientas y canales digitales utilizados**
-
-| Variable | Porcentaje |
-|---|---:|
-| Utiliza WhatsApp como canal principal con el conductor | 100 % |
-| Recibe actualizaciones de estado o ubicación por ese canal | 100 % |
-| Recibe evidencia de llegada mediante fotografías en el grupo de padres | 33,3 % |
-
-**Frustraciones y preocupaciones identificadas**
-
-| Variable | Porcentaje |
-|---|---:|
-| Manifiesta preocupación por la privacidad de la ubicación del menor | 66,7 % |
-| Considera fundamental la confianza en el conductor y su información | 66,7 % |
-| Declara incertidumbre durante el trayecto del menor | 33,3 % |
-| Asocia esa incertidumbre a la inseguridad ciudadana de su distrito | 33,3 % |
-| Ha experimentado retrasos o complicaciones con el servicio | 0 % |
-| Manifiesta estar conforme con la forma actual de coordinación | 33,3 % |
-
-**Necesidades y expectativas sobre una solución digital**
-
-| Variable | Porcentaje |
-|---|---:|
-| Considera prioritaria la ubicación del vehículo en tiempo real | 33,3 % |
-| Valora recibir evidencia de que el menor llegó a su destino | 33,3 % |
-| Menciona funcionalidades de videovigilancia dentro del vehículo | 33,3 % |
-| Condiciona el uso de la herramienta al tratamiento de los datos del menor | 66,7 % |
-| Declara que no modificaría su forma actual de coordinación | 33,3 % |
-
-#### Hallazgos del análisis
-
-**WhatsApp es el canal universal de coordinación.** La totalidad de los entrevistados de ambos segmentos utiliza esta aplicación para coordinar el servicio, lo que confirma el supuesto de que la comunicación ocurre hoy en un canal de uso general no diseñado para este fin.
-
-**Las consultas repetitivas afectan principalmente al conductor.** Los tres conductores señalaron responder diariamente las mismas preguntas sobre la proximidad de la movilidad, y dos de ellos indicaron que esto los distrae mientras conducen. En contraste, ningún padre entrevistado describió esa comunicación como un problema propio. Esto sugiere que la reducción de consultas es un beneficio percibido con mayor claridad por el segmento de conductores, y que la propuesta de valor hacia las familias debe sustentarse en la tranquilidad y la confianza antes que en la eficiencia.
-
-**La privacidad es la principal preocupación de los padres y tutores.** Dos de los tres entrevistados manifestaron que su mayor inquietud es el tratamiento de la ubicación del menor y la información del conductor, y condicionaron su confianza en una herramienta digital a este aspecto. Este hallazgo valida el supuesto de que la adopción dependerá de una adecuada gestión de permisos y visibilidad, y otorga prioridad a las historias de autorización de tutores y control de acceso.
-
-**La expectativa de ubicación en tiempo real es menor a la anticipada.** Solo uno de los tres padres entrevistados mencionó la ubicación en tiempo real como la funcionalidad más valiosa, mientras que dos expresaron reparos precisamente sobre ese tipo de información. Esto respalda la decisión de diseño de Rumbo de mostrar estados e hitos confirmados en lugar de una secuencia continua de coordenadas, y de mantener el seguimiento de ubicación fuera del alcance inicial.
-
-**La coordinación de ausencias es un problema no anticipado en su magnitud.** Los tres conductores mencionaron dificultades para saber si un estudiante será recogido, ya sea por mensajes dispersos, cambios de último momento o falta de aviso. Este hallazgo otorga mayor prioridad a la historia de reporte de ausencias de la que se le había asignado inicialmente en el Product Backlog.
-
-**La evidencia de llegada tiene valor para las familias.** Un entrevistado destacó que recibir fotografías de la llegada le genera tranquilidad, lo que sugiere que la confirmación de hitos cumple una función equivalente sin exponer la ubicación continua del menor ni su imagen.
-
-**La alfabetización digital es una barrera real de adopción.** La conductora con mayor experiencia en el rubro declaró conocimientos casi nulos en tecnología y delega el uso del teléfono en un ayudante, pese a que los padres le han recomendado aplicaciones de seguimiento. Este hallazgo refuerza la necesidad de una interfaz de pocos pasos e introduce la figura del ayudante como un usuario no previsto en los segmentos objetivo.
-
-**La satisfacción con el servicio actual puede reducir la urgencia percibida.** Ningún padre entrevistado reportó haber experimentado retrasos o complicaciones, y uno manifestó no modificaría su forma actual de coordinación. Rumbo debe, por tanto, presentarse como un complemento que aporta tranquilidad y orden, y no como la corrección de un problema que las familias perciban como crítico.
 
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
-En esta sección se presentan las User Personas correspondientes a los dos segmentos objetivos: **Padres/Tutores y Conductores**. Estas User Personas fueron elaboradas a partir de la información recopilada en las entrevistas previamente analizadas, con el objetivo de identificar un perfil común para cada segmento. En ellas se describe el perfil de nuestro usuario ideal, incluyendo sus características, necesidades y principales comportamientos.
-
-## Segmento — Padres y tutores
-
-<p align="center"><img src="https://github.com/user-attachments/assets/a1add856-d769-4711-a1ff-2767317ceb7a" alt="User Persona Gabriela Morales" width="60%"/></p>
-
-## Segmento — Conductores
-
-<p align="center"><img src="https://github.com/user-attachments/assets/84b05149-9953-4fa3-9ebe-e7d30a1ed526" alt="User Persona Carlos Rivas" width="60%"/></p>
-
 ### 2.3.2. User Task Matrix
-
-La User Task Matrix resume las tareas que realizan los dos segmentos objetivo en su rutina de movilidad escolar, independientemente de que exista Rumbo. Para mantener coherencia con los User Personas, se consideran **Gabriela Morales (Padre/Tutor)** y **Carlos Rivas (Conductor)**.
-
-| Tarea del usuario | Padre/Tutor — Frecuencia | Padre/Tutor — Importancia | Conductor — Frecuencia | Conductor — Importancia |
-|---|:---:|:---:|:---:|:---:|
-| Preparar al estudiante antes del recojo | Diaria | Alta | No aplica | No aplica |
-| Confirmar si el estudiante utilizará la movilidad | Diaria | Alta | Diaria | Alta |
-| Esperar / llegar al punto de recojo acordado | Diaria | Alta | Diaria | Alta |
-| Organizar el orden de paradas del recorrido | No aplica | No aplica | Diaria | Alta |
-| Confirmar que el estudiante fue recogido | Diaria | Alta | Diaria | Alta |
-| Consultar o comunicar el avance del traslado | Diaria | Alta | Diaria | Alta |
-| Comunicar un retraso | Ocasional | Alta | Ocasional | Alta |
-| Comunicar una incidencia | Ocasional | Alta | Ocasional | Alta |
-| Confirmar la llegada o entrega del estudiante | Diaria | Alta | Diaria | Alta |
-| Coordinar el retorno del estudiante | Diaria | Media | Diaria | Media |
-
-Las tareas de **confirmar asistencia, recojo y entrega** son recurrentes y de alta importancia para ambos segmentos. La diferencia principal está en que el padre/tutor necesita mantenerse informado, mientras que el conductor debe organizar el recorrido y comunicar cambios sin distraerse durante la conducción. Esta matriz respalda la prioridad dada a los estados del traslado, hitos, retrasos, incidencias y reporte de ausencias dentro del Product Backlog.
 
 ### 2.3.3. User Journey Mapping
 
-En esta sección se presentan los **User Journey Maps** correspondientes a los dos segmentos objetivos: **Padres/Tutores y Conductores**. Estos mapas representan el recorrido actual de cada usuario durante el servicio de movilidad escolar, desde el inicio hasta el final de su experiencia.
-
-Se presentan las versiones **As-Is**, que permiten analizar cómo se desarrolla actualmente el proceso sin la intervención de nuestra solución. A través de las diferentes etapas, actividades, puntos de contacto y dificultades identificadas, se busca comprender la experiencia de cada User Persona y detectar oportunidades de mejora.
-
-## Segmento — Padres y tutores
-
-El journey de los padres de familia durante las mañanas inicia con la preparación en casa, donde alistan al menor con una sensación inicial de serenidad, aunque experimentan la falta de visibilidad sobre el inicio de la ruta. Al pasar a la espera en la acera, se vive un estado de vigilancia mientras aguardan a la intemperie la llegada de la movilidad, lo que da paso a la etapa de retraso e incertidumbre: al cumplirse más de quince minutos de demora sin respuesta del conductor debido a que va manejando, la ansiedad y el miedo a llegar tarde se apoderan del tutor. Posteriormente, durante el abordaje y despacho, la subida se realiza de forma apresurada y sin la certeza de las medidas de seguridad, generando temor. Finalmente, en el trayecto y llegada, los padres experimentan angustia e incertidumbre total hasta recibir la confirmación de que el menor ha ingresado sin novedades al colegio.
-
-<p align="center"><img src="https://github.com/user-attachments/assets/4bb04243-7f62-427a-80b3-590b55748984" alt="User Journey Map - Padre Tutor" width="95%"/></p>
-
-## Segmento — Conductores
-
-El recorrido diario del conductor inicia antes del viaje con una etapa neutral donde revisa chats de WhatsApp para corroborar asistencias de forma tediosa y repetitiva. Al pasar al durante el viaje de ida, la experiencia desciende hacia la molestia (annoyance) debido a lo estresante y peligroso que resulta manejar mientras responde mensajes constantes y llamadas sobre demoras. Posteriormente, en el después del viaje y la previa antes del viaje de retorno, el conductor se informa de cambios mediante chats fragmentados con una actitud serena y de anticipación. Al encontrarse en el colegio para la recogida, la experiencia se mantiene en un estado de vigilancia y neutralidad mientras cuenta y verifica la asistencia de los menores lidiando con llamadas de última hora. En el durante el viaje de regreso, vuelve a experimentar momentos neutrales al repartir a los estudiantes mientras responde chats y busca información de emergencia. Finalmente, la jornada concluye en el después del viaje de vuelta a casa con una sensación de serenidad al comunicarse individualmente con los padres para confirmar que los niños llegaron a sus domicilios.
-
-<p align="center"><img src="./assets/chaper2/user-journey-map-conductor.png" alt="User Journey Map - Conductor" width="95%"/></p>
-
 ### 2.3.4. Empathy Mapping
 
-En esta sección se presentan los **Empathy Maps** elaborados para cada uno de los User Personas: **Parent/Tutor y Driver**. Estos mapas fueron construidos a partir de las observaciones obtenidas durante las entrevistas y permiten comprender sus necesidades, comportamientos, pensamientos, emociones, Pains y Gains dentro del contexto de la movilidad escolar.
-
-## Segmento — Padres y tutores
-
-<p align="center"><img src="https://github.com/user-attachments/assets/1add7ca8-41b3-40e0-9481-dbf693cb4642" alt="Empathy Map - Padre Tutor" width="65%"/></p>
-
-## Segmento — Conductores
-
-<p align="center"><img src="./assets/chaper2/user-empathy-map-conductor.png" alt="Empathy Map - Carlos Rivas" width="65%"/></p>
-
-## 2.4. Big Picture Event Storming
-
-El Big Picture EventStorming elaborado por el equipo permite construir una visión general del dominio del transporte escolar antes de definir la solución. Mediante una sesión colaborativa se organizan los eventos relevantes del negocio, actores, sistemas externos, puntos de decisión y posibles problemas u oportunidades del proceso.
-
-<p align="center"><img src="./assets/chaper2/eventstorming.png" alt="Big Picture Event Storming de Rumbo" width="95%"/></p>
-
-**Artefacto:** **URL del artefacto:** https://miro.com/app/board/uXjVIveDKA8=/?share_link_id=909349762479
+## 2.4. Big Picture EventStorming
 
 ## 2.5. Ubiquitous Language
 
-En esta sección se define el glosario de términos del dominio de Rumbo, con el fin de que todos los miembros del equipo y los stakeholders utilicen un lenguaje común y sin ambigüedades durante el ciclo de vida del producto. Los términos se expresan en inglés, acompañados de su equivalente en español, y sus definiciones corresponden exclusivamente al dominio del transporte escolar.
-
-El glosario se mantiene centrado únicamente en términos del dominio del transporte escolar y evita términos técnicos de ingeniería de software.
-
-### Personas y entidades del servicio
-
-| Término | Definición en el dominio de Rumbo |
-|---|---|
-| **Student** (Estudiante) | Menor que utiliza el servicio de movilidad escolar y se encuentra asignado a una o más rutas. |
-| **Parent / Tutor** (Padre o tutor) | Persona autorizada para consultar la información de un estudiante y recibir notificaciones sobre sus traslados. |
-| **Driver** (Conductor) | Persona responsable de ejecutar una ruta de movilidad escolar y registrar los eventos del recorrido. |
-| **Vehicle** (Vehículo) | Unidad utilizada por un conductor para prestar el servicio de movilidad escolar. |
-| **Authorized User** (Usuario autorizado) | Persona cuya identidad y permisos le habilitan a acceder a información específica dentro de Rumbo. |
-| **Driver Credential** (Credencial del conductor) | Documento que acredita al conductor como habilitado para prestar el servicio de transporte de estudiantes. |
-| **Tutor Authorization** (Autorización de tutor) | Permiso otorgado a un padre o tutor para acceder a la información de un estudiante determinado. |
-| **School Transport Service** (Servicio de movilidad escolar) | Servicio destinado al traslado recurrente de estudiantes entre puntos de recojo, centros educativos y puntos de entrega. |
-
-### Planificación de rutas
-
-| Término | Definición en el dominio de Rumbo |
-|---|---|
-| **Route** (Ruta) | Recorrido planificado que contiene un conjunto ordenado de paradas y estudiantes asignados. |
-| **Stop** (Parada) | Punto planificado dentro de una ruta donde se realiza un recojo o una entrega. |
-| **Stop Order** (Orden de paradas) | Secuencia en la que el conductor debe visitar las paradas de una ruta. |
-| **Route Schedule** (Horario de la ruta) | Días y horas en los que una ruta se ejecuta de forma recurrente. |
-| **Assigned Student** (Estudiante asignado) | Estudiante incluido dentro de una ruta específica para una jornada o periodo determinado. |
-
-### Ejecución del traslado
-
-| Término | Definición en el dominio de Rumbo |
-|---|---|
-| **Trip** (Viaje) | Ejecución concreta de una ruta en una fecha y franja horaria determinadas. |
-| **Trip Roster** (Lista de estudiantes del viaje) | Relación de estudiantes previstos para un viaje específico, considerando las ausencias reportadas. |
-| **Trip Status** (Estado del viaje) | Situación general de un viaje: programado, iniciado, en recorrido, retrasado, completado o cancelado. |
-| **Student Absence** (Ausencia del estudiante) | Comunicación anticipada de que un estudiante no utilizará el servicio en una jornada determinada. |
-| **Pickup** (Recojo) | Evento mediante el cual el conductor confirma que un estudiante fue recogido en el punto correspondiente. |
-| **Drop-off** (Entrega) | Evento mediante el cual el conductor confirma que un estudiante fue entregado en el destino previsto. |
-| **School Arrival** (Llegada al colegio) | Evento que confirma que la movilidad llegó al centro educativo correspondiente. |
-| **Return Trip** (Viaje de retorno) | Ejecución de la ruta en sentido inverso, desde el centro educativo hacia los puntos de entrega. |
-| **Route Completion** (Cierre de la ruta) | Término de un viaje después de completar los recojos o entregas previstos. |
-
-### Eventos e incidencias
-
-| Término | Definición en el dominio de Rumbo |
-|---|---|
-| **Route Event** (Evento de ruta) | Acontecimiento relevante producido durante la ejecución de un viaje. |
-| **Trip Timeline** (Línea de tiempo del viaje) | Secuencia cronológica de los principales eventos registrados durante un viaje. |
-| **Delay** (Retraso) | Diferencia significativa entre el horario previsto de una ruta y su avance real. |
-| **ETA** (Tiempo estimado de llegada) | Hora estimada en la que la movilidad arribará a una parada o destino. |
-| **Incident** (Incidencia) | Situación imprevista ocurrida durante el servicio que requiere ser registrada y comunicada a los tutores autorizados. |
-| **Incident Type** (Tipo de incidencia) | Categoría que clasifica una incidencia según la naturaleza del imprevisto registrado. |
-| **Trip History** (Historial de viajes) | Registro de los viajes ejecutados y sus eventos, conservado para consulta posterior. |
-| **Data Deletion Request** (Solicitud de supresión de datos) | Pedido de un tutor para que se eliminen los datos personales de un estudiante, conforme a la normativa vigente de protección de datos personales. |
-
-### Comunicación
-
-| Término | Definición en el dominio de Rumbo |
-|---|---|
-| **Notification** (Notificación) | Aviso enviado a un usuario autorizado como consecuencia de un evento relevante de la ruta. |
-| **Notification Preference** (Preferencia de notificación) | Configuración mediante la cual un padre o tutor determina qué avisos desea recibir. |
-
-### Modelo de negocio
-
-| Término | Definición en el dominio de Rumbo |
-|---|---|
-| **Subscription** (Suscripción) | Plan contratado por un conductor que le habilita el uso de Rumbo durante un periodo determinado. |
+---
 
 # Capítulo III: Requirements Specification
 
 ## 3.1. User Stories
 
-A continuación se presenta el conjunto de Epics y User Stories de Rumbo. Los criterios de aceptación siguen la estructura Gherkin (Given-When-Then), se redactan en tiempo presente y tercera persona. Las Technical Stories corresponden a las capacidades del RESTful API y utilizan el rol Developer.
-
-#### Epics
-
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|---|---|---|---|---|
-| EP01 | Identidad, perfiles y autorización | Registro de conductores, padres y estudiantes, acceso al sistema según rol, y control sobre qué tutores pueden consultar la información de cada menor, incluida la solicitud de supresión de sus datos. | — | — |
-| EP02 | Suscripción del conductor | Activación y vigencia del plan que habilita al conductor el uso de las funcionalidades de Rumbo. | — | — |
-| EP03 | Planificación de rutas y viajes | Creación de rutas con sus paradas, orden y horario, asignación de estudiantes autorizados, publicación de la ruta y programación de los viajes de cada jornada, incluyendo ausencias y cancelaciones. | — | — |
-| EP04 | Ejecución del traslado | Registro de los hitos del recorrido por parte del conductor: inicio del viaje, recojos, llegada al centro educativo, retorno, entregas y cierre del traslado. | — | — |
-| EP05 | Visibilidad, incidencias y comunicación | Consulta del estado y la línea de tiempo por parte de los tutores autorizados, y comunicación de retrasos, incidencias y notificaciones sobre los eventos relevantes de la ruta. | — | — |
-| EP06 | Landing Page e información pública | Contenido público que presenta la propuesta de valor de Rumbo, los beneficios por segmento, los documentos legales y los accesos a la aplicación web. | — | — |
-| EP07 | RESTful API e integraciones | Capacidades técnicas del RESTful API, incluyendo autenticación, documentación, internacionalización e integración con servicios externos requeridos por Rumbo. | — | — |
-
-#### User Stories
-
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|---|---|---|---|---|
-| US01 | Registrar cuenta de conductor | Como conductor, deseo crear mi cuenta para iniciar la configuración de mi servicio en Rumbo. | **Escenario 1: Registro exitoso**<br>Given que no existe una cuenta asociada al correo indicado<br>When el conductor completa los datos obligatorios y confirma el registro<br>Then el sistema crea la cuenta con rol de conductor y solicita la verificación del correo<br><br>**Escenario 2: Correo ya registrado**<br>Given que existe una cuenta asociada al correo indicado<br>When el conductor intenta registrarse con ese correo<br>Then el sistema rechaza el registro e indica que puede iniciar sesión o recuperar su acceso<br><br>**Escenario 3: Datos obligatorios incompletos**<br>Given un formulario de registro con datos faltantes<br>When el conductor confirma el registro<br>Then el sistema informa qué datos obligatorios debe completar y no crea la cuenta | EP01 |
-| US02 | Registrar vehículo y credenciales del servicio | Como conductor, deseo registrar mi vehículo y las credenciales que acreditan mi servicio para que las familias conozcan la información declarada de mi movilidad. | **Escenario 1: Registro de vehículo y credenciales**<br>Given un conductor con cuenta activa<br>When registra la placa, la capacidad del vehículo y los documentos requeridos<br>Then el sistema asocia el vehículo al conductor y deja las credenciales en estado pendiente de verificación<br><br>**Escenario 2: Placa ya registrada**<br>Given que la placa indicada pertenece a un vehículo activo de otro conductor<br>When el conductor intenta registrarla<br>Then el sistema rechaza el registro e informa que la placa ya se encuentra asociada<br><br>**Escenario 3: Verificación de credenciales**<br>Given credenciales enviadas y un servicio de verificación disponible<br>When el sistema obtiene una respuesta del servicio<br>Then registra el resultado junto con su fuente y fecha de consulta<br><br>**Escenario 4: Servicio de verificación no disponible**<br>Given credenciales enviadas y el servicio de verificación fuera de operación<br>When el sistema intenta la consulta<br>Then mantiene las credenciales como pendientes y no las declara verificadas | EP01 |
-| US03 | Registrar cuenta de padre o tutor | Como padre o tutor, deseo crear mi cuenta para acceder a la información autorizada de los traslados de mis hijos. | **Escenario 1: Registro exitoso**<br>Given que no existe una cuenta asociada al correo indicado<br>When el tutor completa los datos obligatorios y confirma el registro<br>Then el sistema crea la cuenta con rol de padre o tutor y solicita la verificación del correo<br><br>**Escenario 2: Correo ya registrado**<br>Given que existe una cuenta asociada al correo indicado<br>When el tutor intenta registrarse con ese correo<br>Then el sistema rechaza el registro e indica que puede iniciar sesión o recuperar su acceso | EP01 |
-| US04 | Iniciar sesión según rol | Como usuario registrado, deseo iniciar sesión con mis credenciales para acceder a las funcionalidades correspondientes a mi rol. | **Escenario 1: Acceso válido**<br>Given una cuenta activa con credenciales correctas<br>When el usuario inicia sesión<br>Then el sistema le otorga acceso a las funcionalidades permitidas para su rol<br><br>**Escenario 2: Credenciales inválidas**<br>Given credenciales incorrectas<br>When el usuario intenta iniciar sesión<br>Then el sistema rechaza el acceso sin revelar cuál de los datos es incorrecto<br><br>**Escenario 3: Cuenta sin verificar**<br>Given una cuenta cuyo correo no ha sido verificado<br>When el usuario intenta iniciar sesión<br>Then el sistema informa que debe completar la verificación antes de continuar | EP01 |
-| US05 | Recuperar acceso a la cuenta | Como usuario registrado, deseo restablecer mi contraseña para recuperar el acceso en caso de olvido. | **Escenario 1: Solicitud válida**<br>Given un correo asociado a una cuenta activa<br>When el usuario solicita recuperar su acceso<br>Then el sistema envía un enlace temporal para establecer una nueva contraseña<br><br>**Escenario 2: Enlace expirado o utilizado**<br>Given un enlace de recuperación vencido o ya usado<br>When el usuario intenta acceder con él<br>Then el sistema lo rechaza y solicita generar una nueva petición<br><br>**Escenario 3: Correo no registrado**<br>Given un correo que no corresponde a ninguna cuenta<br>When se solicita la recuperación<br>Then el sistema responde de forma uniforme sin revelar si el correo existe | EP01 |
-| US06 | Registrar estudiante y vincularse como tutor | Como padre o tutor, deseo registrar a mi hijo y quedar vinculado como su tutor para poder consultar la información de sus traslados. | **Escenario 1: Registro y vinculación**<br>Given un tutor autenticado<br>When registra los datos obligatorios del estudiante<br>Then el sistema crea el perfil del estudiante y establece la autorización del tutor sobre él<br><br>**Escenario 2: Actualización de datos**<br>Given un estudiante ya registrado<br>When el tutor modifica un dato permitido<br>Then el sistema actualiza la información y conserva la relación con sus viajes anteriores<br><br>**Escenario 3: Datos obligatorios incompletos**<br>Given un registro con datos faltantes<br>When el tutor confirma la operación<br>Then el sistema indica qué datos debe completar y no crea el perfil | EP01 |
-| US07 | Autorizar o revocar a otro tutor | Como padre o tutor, deseo autorizar o retirar el acceso de otro tutor sobre mi hijo para controlar quién puede consultar su información. | **Escenario 1: Autorización de un tutor adicional**<br>Given un tutor con autorización vigente sobre un estudiante<br>When autoriza a otra persona registrada como tutor de ese estudiante<br>Then el sistema crea la nueva autorización y la habilita para consultar la información del menor<br><br>**Escenario 2: Revocación**<br>Given una autorización vigente sobre un estudiante<br>When el tutor responsable la revoca<br>Then el sistema retira el acceso y la persona deja de recibir notificaciones sobre ese estudiante<br><br>**Escenario 3: Persona no registrada**<br>Given que la persona indicada no cuenta con una cuenta en Rumbo<br>When se intenta autorizarla<br>Then el sistema informa que debe registrarse previamente<br><br>**Escenario 4: Consulta sin autorización**<br>Given un usuario sin autorización vigente sobre un estudiante<br>When intenta consultar su información<br>Then el sistema rechaza la operación | EP01 |
-| US08 | Solicitar la supresión de datos del estudiante | Como padre o tutor, deseo solicitar la eliminación de los datos personales de mi hijo para ejercer el control sobre su información. | **Escenario 1: Solicitud registrada**<br>Given un tutor con autorización vigente sobre un estudiante<br>When envía una solicitud de supresión de datos<br>Then el sistema registra la solicitud con su fecha y la deriva al procedimiento de atención correspondiente<br><br>**Escenario 2: Estudiante con viajes en curso**<br>Given un estudiante asignado a un viaje que aún no finaliza<br>When se registra la solicitud<br>Then el sistema la conserva como pendiente hasta el cierre del viaje e informa esta condición al tutor | EP01 |
-| US09 | Activar la suscripción del conductor | Como conductor, deseo activar una suscripción para habilitar las funcionalidades incluidas en mi plan. | **Escenario 1: Activación válida**<br>Given un conductor con cuenta activa y un plan disponible<br>When el conductor confirma la activación de la suscripción<br>Then el sistema registra el plan y su periodo de vigencia y habilita las funcionalidades correspondientes<br><br>**Escenario 2: Suscripción ya activa**<br>Given un conductor con una suscripción vigente al mismo plan<br>When solicita activarla nuevamente<br>Then el sistema conserva la suscripción vigente y evita generar una activación duplicada | EP02 |
-| US10 | Crear una ruta con sus paradas | Como conductor, deseo crear una ruta con sus paradas en el orden en que las recorro para organizar mi servicio. | **Escenario 1: Creación de la ruta**<br>Given un conductor con cuenta activa y un vehículo registrado<br>When registra el nombre, el turno y los datos obligatorios de la ruta<br>Then el sistema crea la ruta en estado configurable<br><br>**Escenario 2: Incorporación de paradas**<br>Given una ruta en estado configurable<br>When el conductor agrega una parada con una dirección válida<br>Then el sistema la incorpora al recorrido y le asigna la siguiente posición disponible<br><br>**Escenario 3: Reordenamiento de paradas**<br>Given una ruta con dos o más paradas<br>When el conductor modifica el orden del recorrido<br>Then el sistema conserva la nueva secuencia para los viajes que se generen a partir de esa ruta<br><br>**Escenario 4: Dirección no localizable**<br>Given una dirección que el servicio de mapas no puede ubicar<br>When el conductor intenta agregar la parada<br>Then el sistema informa la situación y permite corregir la dirección antes de guardarla | EP03 |
-| US11 | Definir el horario de la ruta | Como conductor, deseo establecer los días y horarios de una ruta para que sus viajes se programen de forma recurrente. | **Escenario 1: Horario válido**<br>Given una ruta en estado configurable<br>When el conductor define los días de servicio y las horas correspondientes<br>Then el sistema guarda el horario y lo asocia a la ruta<br><br>**Escenario 2: Horario incompleto**<br>Given una ruta con datos de horario incompletos<br>When el conductor intenta confirmar la programación<br>Then el sistema rechaza la operación e indica qué información obligatoria falta | EP03 |
-| US12 | Asignar estudiantes a una ruta | Como conductor, deseo asignar a los estudiantes autorizados a una ruta y a su parada para incluirlos en los recorridos. | **Escenario 1: Asignación autorizada**<br>Given un estudiante registrado, una ruta existente y una vinculación autorizada<br>When el conductor asigna al estudiante a una parada de la ruta<br>Then el sistema registra la asignación y lo incluye en los viajes que se generen para esa ruta<br><br>**Escenario 2: Estudiante sin autorización**<br>Given un estudiante cuya vinculación no está autorizada<br>When el conductor intenta asignarlo a una ruta<br>Then el sistema rechaza la operación y no crea la asignación<br><br>**Escenario 3: Asignación duplicada**<br>Given un estudiante ya asignado a la misma ruta y turno<br>When el conductor intenta asignarlo nuevamente<br>Then el sistema conserva una sola asignación | EP03 |
-| US13 | Publicar una ruta | Como conductor, deseo publicar una ruta configurada para habilitar la programación de sus viajes y su visibilidad para los tutores autorizados. | **Escenario 1: Publicación exitosa**<br>Given una ruta con al menos una parada, un horario definido y un estudiante asignado<br>When el conductor la publica<br>Then el sistema cambia su estado a publicada y habilita la generación de viajes<br><br>**Escenario 2: Configuración incompleta**<br>Given una ruta sin horario definido o sin paradas<br>When el conductor intenta publicarla<br>Then el sistema impide la publicación e indica qué configuración falta<br><br>**Escenario 3: Visibilidad para los tutores**<br>Given una ruta publicada<br>When un tutor autorizado consulta el servicio de su hijo<br>Then puede conocer la ruta, su horario y el conductor responsable | EP03 |
-| US14 | Modificar una ruta publicada | Como conductor, deseo actualizar una ruta publicada para mantenerla alineada con mi operación real. | **Escenario 1: Modificación aplicada**<br>Given una ruta publicada<br>When el conductor modifica una parada, su orden o su horario<br>Then el sistema guarda el cambio para los viajes que se generen posteriormente<br><br>**Escenario 2: Viaje en curso**<br>Given un viaje activo generado a partir de la ruta<br>When el conductor modifica la configuración de la ruta<br>Then el viaje en curso conserva la configuración con la que fue iniciado | EP03 |
-| US15 | Programar el viaje de la jornada | Como conductor, deseo contar con el viaje del día y la lista de estudiantes prevista para saber a quiénes debo recoger. | **Escenario 1: Programación del viaje**<br>Given una ruta publicada con horario vigente<br>When corresponde un día de servicio según su horario<br>Then el sistema programa el viaje para esa fecha y turno<br><br>**Escenario 2: Generación de la lista**<br>Given un viaje programado<br>When el conductor consulta la lista antes de iniciar el recorrido<br>Then el sistema presenta a los estudiantes asignados en el orden de sus paradas, excluyendo las ausencias registradas<br><br>**Escenario 3: Ruta sin estudiantes activos**<br>Given una ruta publicada cuyos estudiantes reportaron ausencia para la fecha<br>When se programa el viaje<br>Then el sistema lo informa al conductor para que decida si realiza el recorrido | EP03 |
-| US16 | Reportar la ausencia del estudiante | Como padre o tutor, deseo informar que mi hijo no usará la movilidad para evitar una parada innecesaria. | **Escenario 1: Ausencia antes del inicio**<br>Given un viaje programado que aún no ha iniciado<br>When el tutor reporta la ausencia del estudiante para esa jornada<br>Then el sistema actualiza la lista del viaje y excluye su recojo<br><br>**Escenario 2: Ausencia durante el recorrido**<br>Given un viaje iniciado cuya parada del estudiante aún no ha sido atendida<br>When el tutor reporta la ausencia<br>Then el sistema actualiza la lista del viaje y comunica el cambio al conductor<br><br>**Escenario 3: Parada ya atendida**<br>Given que la parada correspondiente al estudiante ya fue completada<br>When el tutor intenta reportar la ausencia para ese viaje<br>Then el sistema rechaza el cambio para esa jornada | EP03 |
-| US17 | Cancelar un viaje | Como conductor, deseo cancelar un viaje que no se realizará para que las familias no esperen un servicio inexistente. | **Escenario 1: Cancelación antes del inicio**<br>Given un viaje programado que aún no ha iniciado<br>When el conductor lo cancela indicando el motivo<br>Then el sistema registra la cancelación e informa a los tutores de los estudiantes asignados<br><br>**Escenario 2: Cancelación con el viaje en curso**<br>Given un viaje iniciado que no puede continuar<br>When el conductor lo cancela indicando el motivo<br>Then el sistema conserva los hitos ya registrados, cierra el viaje como cancelado e informa a los tutores<br><br>**Escenario 3: Viaje completado**<br>Given un viaje que ya fue completado<br>When se intenta cancelarlo<br>Then el sistema rechaza la operación | EP03 |
-| US18 | Iniciar el viaje | Como conductor, deseo iniciar el recorrido para que los tutores sepan que la ruta está en ejecución. | **Escenario 1: Inicio del recorrido**<br>Given un viaje programado para la jornada<br>When el conductor confirma el inicio<br>Then el sistema registra la hora de inicio y cambia el estado del viaje a en ejecución<br><br>**Escenario 2: Viaje ya iniciado**<br>Given un viaje que ya se encuentra en ejecución<br>When se intenta iniciarlo nuevamente<br>Then el sistema mantiene el estado vigente y no registra un segundo inicio | EP04 |
-| US19 | Registrar los hitos de una parada | Como conductor, deseo confirmar los recojos de cada parada en pocos segundos para dejar constancia sin afectar mi recorrido. | **Escenario 1: Recojo confirmado**<br>Given un viaje en ejecución y un estudiante previsto en una parada<br>When el conductor confirma el recojo<br>Then el sistema registra el hito con fecha y hora y actualiza el estado del estudiante<br><br>**Escenario 2: Recojo no realizado**<br>Given un estudiante previsto que no aborda la movilidad<br>When el conductor registra el recojo como no realizado<br>Then el sistema conserva el resultado sin marcar al estudiante como recogido<br><br>**Escenario 3: Parada completada**<br>Given una parada cuyos estudiantes previstos tienen un resultado registrado<br>When el conductor confirma el cierre de la parada<br>Then el sistema marca la parada como completada y continúa con la siguiente etapa del recorrido | EP04 |
-| US20 | Confirmar la llegada al colegio e iniciar el retorno | Como conductor, deseo confirmar la llegada al centro educativo y dar inicio al retorno para diferenciar ambas etapas del servicio. | **Escenario 1: Llegada al colegio**<br>Given un viaje de ida en ejecución<br>When el conductor confirma la llegada al centro educativo<br>Then el sistema registra el hito e informa a los tutores de los estudiantes a bordo<br><br>**Escenario 2: Inicio del retorno**<br>Given una llegada al colegio confirmada y un retorno previsto<br>When el conductor inicia el recorrido de vuelta<br>Then el sistema registra el inicio del retorno y conserva el historial de la etapa de ida<br><br>**Escenario 3: Servicio sin retorno**<br>Given un viaje configurado únicamente como ida<br>When se confirma la llegada al colegio<br>Then el sistema habilita el cierre del viaje sin requerir un retorno | EP04 |
-| US21 | Confirmar la entrega del estudiante | Como conductor, deseo confirmar la entrega de cada estudiante para cerrar su traslado y avisar a su tutor. | **Escenario 1: Entrega confirmada**<br>Given un estudiante a bordo y el vehículo detenido en su punto de entrega<br>When el conductor confirma la entrega<br>Then el sistema registra el hito con destino, fecha y hora e informa a los tutores autorizados<br><br>**Escenario 2: Entrega no concretada**<br>Given un punto de entrega donde no se presenta una persona autorizada<br>When el conductor registra la entrega como no concretada indicando el motivo<br>Then el sistema conserva al estudiante como no entregado e informa a sus tutores de inmediato<br><br>**Escenario 3: Entrega posterior**<br>Given una entrega registrada como no concretada<br>When la entrega se concreta más adelante durante el mismo viaje<br>Then el sistema registra el nuevo hito conservando el intento anterior | EP04 |
-| US22 | Completar el viaje | Como conductor, deseo cerrar el viaje para consolidar su resultado y dejarlo disponible como historial. | **Escenario 1: Cierre del viaje**<br>Given un viaje cuyos estudiantes cuentan con un resultado registrado<br>When el conductor confirma el cierre del recorrido<br>Then el sistema registra la hora de término, consolida la línea de tiempo y archiva el viaje en el historial<br><br>**Escenario 2: Hitos pendientes**<br>Given un viaje con estudiantes sin resultado registrado<br>When el conductor intenta cerrarlo<br>Then el sistema advierte qué hitos se encuentran pendientes antes de permitir el cierre<br><br>**Escenario 3: Consulta posterior**<br>Given un viaje archivado<br>When un tutor autorizado consulta ese traslado<br>Then el sistema presenta los hitos registrados conservando su orden cronológico | EP04 |
-| US23 | Registrar un retraso | Como conductor, deseo registrar un retraso y su causa para informar con un solo registro a todas las familias afectadas. | **Escenario 1: Retraso registrado**<br>Given un viaje en ejecución y el vehículo detenido<br>When el conductor registra una demora indicando su causa y magnitud estimada<br>Then el sistema incorpora el retraso al viaje e informa a los tutores de los estudiantes pendientes de atención<br><br>**Escenario 2: Actualización del retraso**<br>Given un retraso previamente informado<br>When el conductor actualiza su estimación<br>Then el sistema conserva el registro anterior y comunica la información vigente<br><br>**Escenario 3: Estudiantes ya atendidos**<br>Given un retraso registrado<br>When se determinan los destinatarios del aviso<br>Then el sistema excluye a los tutores cuyos estudiantes ya fueron entregados | EP05 |
-| US24 | Registrar una incidencia | Como conductor, deseo registrar una incidencia para comunicar un imprevisto con contexto suficiente y sin repetir el mensaje a cada familia. | **Escenario 1: Incidencia registrada**<br>Given un viaje en ejecución y el vehículo detenido<br>When el conductor selecciona una categoría de incidencia y agrega una observación<br>Then el sistema la incorpora al viaje con fecha y hora e informa a los tutores correspondientes<br><br>**Escenario 2: Incidencia que afecta a un estudiante**<br>Given una incidencia asociada a un estudiante en particular<br>When el conductor la registra<br>Then el sistema la comunica únicamente a los tutores autorizados de ese estudiante<br><br>**Escenario 3: Categoría no indicada**<br>Given un registro de incidencia sin categoría seleccionada<br>When el conductor intenta guardarla<br>Then el sistema solicita completar la categoría antes de registrarla | EP05 |
-| US25 | Resolver una incidencia | Como conductor, deseo marcar una incidencia como resuelta para informar que la situación fue normalizada. | **Escenario 1: Resolución registrada**<br>Given una incidencia abierta<br>When el conductor registra su resolución indicando el desenlace<br>Then el sistema actualiza su estado e informa a los tutores que fueron notificados originalmente<br><br>**Escenario 2: Resolución posterior al viaje**<br>Given una incidencia abierta de un viaje ya completado<br>When el conductor la resuelve<br>Then el sistema conserva la resolución dentro del historial de ese viaje<br><br>**Escenario 3: Incidencia ya resuelta**<br>Given una incidencia con resolución registrada<br>When se intenta resolverla nuevamente<br>Then el sistema mantiene la resolución original | EP05 |
-| US26 | Consultar el estado actual del traslado | Como padre o tutor, deseo conocer en pocos segundos la etapa del traslado para evitar preguntarle al conductor. | **Escenario 1: Viaje en ejecución**<br>Given un viaje activo asociado a un estudiante sobre el que el tutor tiene autorización<br>When el tutor consulta su estado<br>Then el sistema presenta la etapa actual del recorrido y el último hito confirmado con su hora<br><br>**Escenario 2: Viaje aún no iniciado**<br>Given un viaje programado que no ha comenzado<br>When el tutor lo consulta<br>Then el sistema informa que el recorrido aún no ha iniciado y su horario previsto<br><br>**Escenario 3: Retraso vigente**<br>Given un viaje con un retraso registrado<br>When el tutor consulta su estado<br>Then el sistema presenta el retraso junto con la etapa actual del recorrido<br><br>**Escenario 4: Sin viajes para la fecha**<br>Given una fecha sin viajes programados para el estudiante<br>When el tutor consulta su estado<br>Then el sistema informa que no existe un traslado previsto para esa fecha | EP05 |
-| US27 | Consultar la línea de tiempo del trayecto | Como padre o tutor, deseo revisar los hitos ocurridos durante el recorrido para entender qué pasó sin revisar conversaciones. | **Escenario 1: Viaje en curso**<br>Given un viaje activo con hitos registrados<br>When el tutor consulta su línea de tiempo<br>Then el sistema presenta los hitos en orden cronológico con su fecha y hora<br><br>**Escenario 2: Viaje finalizado**<br>Given un viaje completado<br>When el tutor consulta su detalle<br>Then el sistema presenta los hitos del traslado, incluidos los retrasos e incidencias registrados<br><br>**Escenario 3: Alcance de la información**<br>Given un viaje con varios estudiantes a bordo<br>When el tutor consulta la línea de tiempo<br>Then el sistema presenta los hitos generales de la ruta y únicamente los específicos de sus propios estudiantes<br><br>**Escenario 4: Consulta del historial**<br>Given viajes archivados de fechas anteriores<br>When el tutor selecciona una fecha<br>Then el sistema presenta la línea de tiempo correspondiente a ese traslado | EP05 |
-| US28 | Recibir avisos de los eventos relevantes | Como padre o tutor, deseo recibir avisos solo cuando ocurre un evento relevante para mantenerme informado sin revisar la plataforma constantemente. | **Escenario 1: Aviso generado y entregado**<br>Given un evento notificable de un viaje sobre el que el tutor tiene autorización<br>When el sistema procesa el evento<br>Then genera el aviso, lo envía por el canal configurado y registra su envío<br><br>**Escenario 2: Fallo de entrega**<br>Given un aviso cuyo envío es rechazado por el proveedor de mensajería<br>When el sistema recibe el resultado<br>Then registra el fallo, conserva el aviso disponible en la plataforma y no lo considera entregado<br><br>**Escenario 3: Destinatarios autorizados**<br>Given un evento asociado a un estudiante<br>When se determinan los destinatarios<br>Then el sistema envía el aviso únicamente a los tutores con autorización vigente sobre ese estudiante<br><br>**Escenario 4: Aviso leído**<br>Given un aviso recibido y pendiente de revisión<br>When el tutor lo consulta<br>Then el sistema registra su lectura y lo distingue de los avisos no revisados | EP05 |
-| US29 | Configurar las preferencias de notificación | Como padre o tutor, deseo elegir qué avisos recibir para no ser saturado con información que no necesito. | **Escenario 1: Preferencia actualizada**<br>Given un tutor autenticado y un tipo de aviso configurable<br>When modifica su preferencia de notificación<br>Then el sistema guarda la configuración para los siguientes eventos aplicables<br><br>**Escenario 2: Aviso desactivado**<br>Given un tipo de aviso desactivado por el tutor<br>When ocurre un evento asociado a ese tipo de aviso<br>Then el sistema respeta la preferencia guardada y no envía ese aviso al tutor | EP05 |
-| US30 | Confirmar el conocimiento de una incidencia | Como padre o tutor, deseo confirmar que tomé conocimiento de una incidencia para que el conductor sepa que fui informado. | **Escenario 1: Confirmación registrada**<br>Given una incidencia comunicada al tutor<br>When este confirma haber tomado conocimiento<br>Then el sistema registra la confirmación con su fecha y la pone a disposición del conductor<br><br>**Escenario 2: Incidencia sin confirmar**<br>Given una incidencia comunicada y no confirmada<br>When el conductor consulta su estado<br>Then el sistema indica qué tutores aún no han confirmado su conocimiento | EP05 |
-| US31 | Conocer la propuesta de valor de Rumbo | Como visitante, deseo comprender qué es Rumbo y qué problema resuelve para decidir si me resulta relevante. | **Escenario 1: Propuesta de valor visible**<br>Given un visitante que accede al sitio público<br>When revisa su contenido principal<br>Then encuentra una explicación del producto y del beneficio que ofrece<br><br>**Escenario 2: Funcionamiento del servicio**<br>Given un visitante interesado<br>When continúa revisando el contenido<br>Then encuentra una explicación resumida de cómo opera Rumbo durante un traslado<br><br>**Escenario 3: Consulta desde un dispositivo móvil**<br>Given un visitante que accede desde un navegador móvil<br>When revisa el contenido<br>Then este se presenta de forma legible y navegable sin desplazamiento horizontal | EP06 |
-| US32 | Identificar los beneficios de mi segmento e ingresar a Rumbo | Como visitante, deseo conocer los beneficios correspondientes a mi perfil e ingresar a la experiencia que me corresponde. | **Escenario 1: Beneficios para padres y tutores**<br>Given un visitante del segmento de padres o tutores<br>When revisa el contenido dirigido a su perfil<br>Then encuentra beneficios relacionados con la visibilidad del traslado y los avisos<br><br>**Escenario 2: Beneficios para conductores**<br>Given un visitante del segmento de conductores<br>When revisa el contenido dirigido a su perfil<br>Then encuentra beneficios relacionados con la organización de su ruta y la reducción de mensajes repetitivos<br><br>**Escenario 3: Ingreso a la experiencia correspondiente**<br>Given un visitante que se identifica con uno de los dos segmentos<br>When selecciona la acción principal de ese segmento<br>Then es dirigido al acceso o registro correspondiente a ese perfil | EP06 |
-| US33 | Consultar el contenido en inglés o español | Como visitante, deseo consultar el contenido en un idioma disponible para comprenderlo con facilidad. | **Escenario 1: Idioma predeterminado**<br>Given un visitante que ingresa por primera vez<br>When se presenta el contenido público<br>Then este se muestra en inglés como idioma predeterminado<br><br>**Escenario 2: Cambio de idioma**<br>Given un visitante que selecciona español latinoamericano<br>When continúa navegando<br>Then el contenido se presenta en es_419 y la preferencia se conserva durante la sesión<br><br>**Escenario 3: Contenido sin traducción disponible**<br>Given un contenido sin traducción en el idioma seleccionado<br>When el visitante accede a él<br>Then se presenta en el idioma predeterminado sin interrumpir la navegación | EP06 |
-| US34 | Consultar los documentos legales del servicio | Como visitante, deseo conocer los términos de servicio y la política de privacidad para entender cómo se trata la información. | **Escenario 1: Documentos accesibles**<br>Given un visitante en cualquier sección del sitio público<br>When busca la información legal<br>Then encuentra los términos de servicio y la política de privacidad<br><br>**Escenario 2: Tratamiento de datos de menores**<br>Given un visitante que consulta la política de privacidad<br>When revisa su contenido<br>Then encuentra la descripción del tratamiento de los datos de los estudiantes y los derechos que puede ejercer<br><br>**Escenario 3: Acceso desde la aplicación**<br>Given un usuario autenticado<br>When busca la información legal<br>Then accede a los mismos documentos publicados en el sitio público | EP06 |
-| US35 | Resolver dudas antes de usar Rumbo | Como visitante, deseo resolver mis dudas o comunicarme con el equipo para decidir si utilizo el servicio. | **Escenario 1: Consulta enviada**<br>Given un visitante que completa los datos obligatorios con información válida<br>When envía su consulta<br>Then el sistema confirma que la solicitud fue registrada<br><br>**Escenario 2: Datos incompletos**<br>Given un formulario con datos obligatorios faltantes<br>When el visitante intenta enviarlo<br>Then el sistema indica qué información debe completar<br><br>**Escenario 3: Preguntas frecuentes por segmento**<br>Given un visitante con dudas sobre el servicio<br>When revisa las preguntas frecuentes de su segmento<br>Then encuentra respuestas sobre privacidad, funcionamiento y requisitos de uso | EP06 |
-| TS01 | Endpoints del RESTful API para viajes y hitos | Como Developer, deseo exponer endpoints REST para la gestión de viajes y sus hitos, de modo que la aplicación web pueda registrar y consultar el estado del traslado. | **Escenario 1: Registro de un hito**<br>Given una solicitud autenticada con un payload válido<br>When se invoca POST sobre el recurso de hitos del viaje<br>Then el servicio persiste el evento y responde con 201 y la representación del recurso creado<br><br>**Escenario 2: Payload inválido**<br>Given una solicitud con datos que no cumplen el esquema<br>When se invoca el endpoint<br>Then el servicio responde con 400 y el detalle de los campos rechazados<br><br>**Escenario 3: Consulta del estado**<br>Given un viaje existente y una solicitud autorizada<br>When se invoca GET sobre el recurso del viaje<br>Then el servicio responde con 200 y el estado vigente con su último hito<br><br>**Escenario 4: Recurso inexistente**<br>Given un identificador de viaje que no existe<br>When se invoca el endpoint<br>Then el servicio responde con 404 | EP07 |
-| TS02 | Autenticación y autorización con JWT y RBAC | Como Developer, deseo proteger el RESTful API mediante tokens y control de acceso por rol para que cada usuario acceda únicamente a los recursos autorizados. | **Escenario 1: Emisión del token**<br>Given credenciales válidas<br>When se invoca el endpoint de autenticación<br>Then el servicio responde con 200 y un token que contiene el rol del usuario<br><br>**Escenario 2: Solicitud sin token**<br>Given una solicitud a un recurso protegido sin credenciales<br>When el servicio la procesa<br>Then responde con 401<br><br>**Escenario 3: Rol sin permisos suficientes**<br>Given un token válido cuyo rol no permite la operación<br>When se invoca el recurso<br>Then el servicio responde con 403<br><br>**Escenario 4: Token expirado**<br>Given un token vencido<br>When se invoca un recurso protegido<br>Then el servicio responde con 401 e indica que la sesión debe renovarse | EP07 |
-| TS03 | Integración con el servicio de notificaciones | Como Developer, deseo integrar un proveedor de mensajería para distribuir los avisos generados por los eventos del viaje. | **Escenario 1: Envío exitoso**<br>Given un aviso pendiente y un destinatario con canal válido<br>When el backend delega el envío al proveedor<br>Then registra el resultado exitoso junto con su identificador de seguimiento<br><br>**Escenario 2: Error del proveedor**<br>Given un proveedor que devuelve un error de entrega<br>When el backend procesa la respuesta<br>Then registra el fallo y mantiene el aviso disponible para consulta<br><br>**Escenario 3: Reintento controlado**<br>Given un fallo temporal de entrega<br>When el backend reintenta el envío dentro del límite configurado<br>Then evita duplicar el aviso para el mismo destinatario y evento | EP07 |
-| TS04 | Integración con servicio de mapas para direcciones de paradas | Como Developer, deseo integrar un servicio externo de mapas para validar y normalizar las direcciones de las paradas de una ruta. | **Escenario 1: Dirección válida**<br>Given una dirección proporcionada por el conductor<br>When el backend consulta el servicio externo<br>Then obtiene la ubicación normalizada y la asocia a la parada<br><br>**Escenario 2: Dirección no localizable**<br>Given una dirección que el servicio no puede resolver<br>When el backend procesa la respuesta<br>Then devuelve un resultado que permite al usuario corregir la dirección<br><br>**Escenario 3: Servicio no disponible**<br>Given una falla del proveedor externo<br>When el backend realiza la consulta<br>Then responde indicando que la validación no está disponible sin bloquear el registro de la ruta | EP07 |
-| TS05 | Integración con el servicio de verificación de credenciales | Como Developer, deseo integrar el servicio público de consulta de habilitación para respaldar la verificación de credenciales del conductor. | **Escenario 1: Consulta exitosa**<br>Given una solicitud con los datos requeridos<br>When el backend consulta el servicio externo<br>Then registra la respuesta obtenida junto con su fuente y fecha de consulta<br><br>**Escenario 2: Servicio no disponible**<br>Given un servicio externo fuera de operación<br>When el backend intenta la consulta<br>Then conserva el estado pendiente y no declara la credencial como verificada<br><br>**Escenario 3: Resultado negativo**<br>Given una consulta cuyo resultado indica que la credencial no se encuentra habilitada<br>When el backend registra la respuesta<br>Then el estado de la credencial refleja ese resultado sin inferir información adicional | EP07 |
-| TS06 | Documentación del RESTful API con OpenAPI | Como Developer, deseo documentar los endpoints mediante OpenAPI para facilitar su comprensión y prueba por parte del equipo. | **Escenario 1: Documentación disponible**<br>Given el backend en ejecución<br>When se accede a la documentación publicada<br>Then se presentan los endpoints, sus parámetros y los esquemas de datos<br><br>**Escenario 2: Detalle de un endpoint**<br>Given un endpoint documentado<br>When se revisa su definición<br>Then se presentan sus códigos de respuesta y ejemplos de request y response<br><br>**Escenario 3: Sincronía con la implementación**<br>Given un endpoint modificado<br>When se genera la documentación<br>Then esta refleja la definición vigente del servicio | EP07 |
-| TS07 | Internacionalización del RESTful API | Como Developer, deseo localizar los mensajes del API para en_US y es_419 manteniendo el inglés como idioma predeterminado. | **Escenario 1: Sin preferencia de idioma**<br>Given una solicitud que no declara un idioma<br>When el servicio genera un mensaje de validación o error<br>Then lo devuelve en en_US<br><br>**Escenario 2: Preferencia soportada**<br>Given una solicitud que declara es_419<br>When existe traducción disponible<br>Then el servicio devuelve el mensaje en español latinoamericano conservando la estructura del response<br><br>**Escenario 3: Preferencia no soportada**<br>Given una solicitud que declara un idioma no contemplado<br>When el servicio genera el mensaje<br>Then utiliza en_US sin rechazar la solicitud | EP07 |
-| TS08 | Persistencia consistente del estado y eventos del viaje | Como Developer, deseo persistir el estado del viaje y sus eventos de forma consistente para evitar información parcial durante las operaciones del RESTful API. | **Escenario 1: Operación confirmada**<br>Given una solicitud válida que modifica el estado de un viaje<br>When el servicio completa la operación<br>Then persiste el estado y el evento asociado dentro de la misma transacción y responde con un resultado exitoso<br><br>**Escenario 2: Operación fallida**<br>Given una operación que falla durante la persistencia<br>When la transacción se revierte<br>Then el servicio no conserva información parcial y responde con el error correspondiente<br><br>**Escenario 3: Consulta del historial**<br>Given un viaje existente y una solicitud autorizada<br>When se consulta su historial de eventos<br>Then el servicio responde con la secuencia registrada y sus fechas | EP07 |
-
 ## 3.2. Impact Mapping
-
-El Impact Mapping de Rumbo relaciona los Business Goals definidos para el producto con los User Personas, los cambios de comportamiento esperados, los Deliverables y las User Stories que permiten alcanzar dichos objetivos.
-
-![Impact Mapping de Rumbo](assets/chapter3/impact-mapping.png)
-**Figura.** Impact Mapping de Rumbo elaborado en UXPressia.
-**Impact Mapping URL:** https://uxpressia.com/w/npnzh/i/yG8Dn?tagId=RwNGd
 
 ## 3.3. Product Backlog
 
-El Product Backlog prioriza primero el alcance correspondiente al Landing Page de AV1 y, a continuación, las funcionalidades necesarias para el registro, planificación, ejecución, comunicación e historial del servicio.
-
-| # Orden | User Story Id | Título | Descripción | Story Points |
-|---:|---|---|---|:---:|
-| 1 | US31 | Conocer la propuesta de valor de Rumbo | Como visitante, deseo comprender qué es Rumbo y qué problema resuelve para decidir si me resulta relevante. | 3 |
-| 2 | US32 | Identificar los beneficios de mi segmento e ingresar a Rumbo | Como visitante, deseo conocer los beneficios correspondientes a mi perfil e ingresar a la experiencia que me corresponde. | 3 |
-| 3 | US35 | Resolver dudas antes de usar Rumbo | Como visitante, deseo resolver mis dudas o comunicarme con el equipo para decidir si utilizo el servicio. | 3 |
-| 4 | US34 | Consultar los documentos legales del servicio | Como visitante, deseo conocer los términos de servicio y la política de privacidad para entender cómo se trata la información. | 2 |
-| 5 | US33 | Consultar el contenido en inglés o español | Como visitante, deseo consultar el contenido en un idioma disponible para comprenderlo con facilidad. | 3 |
-| 6 | US01 | Registrar cuenta de conductor | Como conductor, deseo crear mi cuenta para iniciar la configuración de mi servicio en Rumbo. | 3 |
-| 7 | US03 | Registrar cuenta de padre o tutor | Como padre o tutor, deseo crear mi cuenta para acceder a la información autorizada de los traslados de mis hijos. | 3 |
-| 8 | US04 | Iniciar sesión según rol | Como usuario registrado, deseo iniciar sesión con mis credenciales para acceder a las funcionalidades correspondientes a mi rol. | 3 |
-| 9 | TS02 | Autenticación y autorización con JWT y RBAC | Como Developer, deseo proteger el RESTful API mediante tokens y control de acceso por rol para que cada usuario acceda únicamente a los recursos autorizados. | 5 |
-| 10 | US06 | Registrar estudiante y vincularse como tutor | Como padre o tutor, deseo registrar a mi hijo y quedar vinculado como su tutor para poder consultar la información de sus traslados. | 5 |
-| 11 | US02 | Registrar vehículo y credenciales del servicio | Como conductor, deseo registrar mi vehículo y las credenciales que acreditan mi servicio para que las familias conozcan la información declarada de mi movilidad. | 5 |
-| 12 | US10 | Crear una ruta con sus paradas | Como conductor, deseo crear una ruta con sus paradas en el orden en que las recorro para organizar mi servicio. | 8 |
-| 13 | US11 | Definir el horario de la ruta | Como conductor, deseo establecer los días y horarios de una ruta para que sus viajes se programen de forma recurrente. | 3 |
-| 14 | US12 | Asignar estudiantes a una ruta | Como conductor, deseo asignar a los estudiantes autorizados a una ruta y a su parada para incluirlos en los recorridos. | 5 |
-| 15 | US13 | Publicar una ruta | Como conductor, deseo publicar una ruta configurada para habilitar la programación de sus viajes y su visibilidad para los tutores autorizados. | 3 |
-| 16 | US15 | Programar el viaje de la jornada | Como conductor, deseo contar con el viaje del día y la lista de estudiantes prevista para saber a quiénes debo recoger. | 5 |
-| 17 | TS01 | Endpoints del RESTful API para viajes y hitos | Como Developer, deseo exponer endpoints REST para la gestión de viajes y sus hitos, de modo que la aplicación web pueda registrar y consultar el estado del traslado. | 8 |
-| 18 | US18 | Iniciar el viaje | Como conductor, deseo iniciar el recorrido para que los tutores sepan que la ruta está en ejecución. | 3 |
-| 19 | US19 | Registrar los hitos de una parada | Como conductor, deseo confirmar los recojos de cada parada en pocos segundos para dejar constancia sin afectar mi recorrido. | 8 |
-| 20 | US26 | Consultar el estado actual del traslado | Como padre o tutor, deseo conocer en pocos segundos la etapa del traslado para evitar preguntarle al conductor. | 5 |
-| 21 | US21 | Confirmar la entrega del estudiante | Como conductor, deseo confirmar la entrega de cada estudiante para cerrar su traslado y avisar a su tutor. | 5 |
-| 22 | US20 | Confirmar la llegada al colegio e iniciar el retorno | Como conductor, deseo confirmar la llegada al centro educativo y dar inicio al retorno para diferenciar ambas etapas del servicio. | 3 |
-| 23 | US22 | Completar el viaje | Como conductor, deseo cerrar el viaje para consolidar su resultado y dejarlo disponible como historial. | 3 |
-| 24 | US27 | Consultar la línea de tiempo del trayecto | Como padre o tutor, deseo revisar los hitos ocurridos durante el recorrido para entender qué pasó sin revisar conversaciones. | 5 |
-| 25 | US28 | Recibir avisos de los eventos relevantes | Como padre o tutor, deseo recibir avisos solo cuando ocurre un evento relevante para mantenerme informado sin revisar la plataforma constantemente. | 8 |
-| 26 | TS03 | Integración con el servicio de notificaciones | Como Developer, deseo integrar un proveedor de mensajería para distribuir los avisos generados por los eventos del viaje. | 5 |
-| 27 | US23 | Registrar un retraso | Como conductor, deseo registrar un retraso y su causa para informar con un solo registro a todas las familias afectadas. | 5 |
-| 28 | US24 | Registrar una incidencia | Como conductor, deseo registrar una incidencia para comunicar un imprevisto con contexto suficiente y sin repetir el mensaje a cada familia. | 5 |
-| 29 | US25 | Resolver una incidencia | Como conductor, deseo marcar una incidencia como resuelta para informar que la situación fue normalizada. | 3 |
-| 30 | US16 | Reportar la ausencia del estudiante | Como padre o tutor, deseo informar que mi hijo no usará la movilidad para evitar una parada innecesaria. | 5 |
-| 31 | US17 | Cancelar un viaje | Como conductor, deseo cancelar un viaje que no se realizará para que las familias no esperen un servicio inexistente. | 3 |
-| 32 | US29 | Configurar las preferencias de notificación | Como padre o tutor, deseo elegir qué avisos recibir para no ser saturado con información que no necesito. | 3 |
-| 33 | US30 | Confirmar el conocimiento de una incidencia | Como padre o tutor, deseo confirmar que tomé conocimiento de una incidencia para que el conductor sepa que fui informado. | 2 |
-| 34 | US14 | Modificar una ruta publicada | Como conductor, deseo actualizar una ruta publicada para mantenerla alineada con mi operación real. | 5 |
-| 35 | US07 | Autorizar o revocar a otro tutor | Como padre o tutor, deseo autorizar o retirar el acceso de otro tutor sobre mi hijo para controlar quién puede consultar su información. | 5 |
-| 36 | US05 | Recuperar acceso a la cuenta | Como usuario registrado, deseo restablecer mi contraseña para recuperar el acceso en caso de olvido. | 3 |
-| 37 | TS04 | Integración con servicio de mapas para direcciones de paradas | Como Developer, deseo integrar un servicio externo de mapas para validar y normalizar las direcciones de las paradas de una ruta. | 5 |
-| 38 | TS08 | Persistencia consistente del estado y eventos del viaje | Como Developer, deseo persistir el estado del viaje y sus eventos de forma consistente para evitar información parcial durante las operaciones del RESTful API. | 5 |
-| 39 | US09 | Activar la suscripción del conductor | Como conductor, deseo activar una suscripción para habilitar las funcionalidades incluidas en mi plan. | 8 |
-| 40 | US08 | Solicitar la supresión de datos del estudiante | Como padre o tutor, deseo solicitar la eliminación de los datos personales de mi hijo para ejercer el control sobre su información. | 5 |
-| 41 | TS05 | Integración con el servicio de verificación de credenciales | Como Developer, deseo integrar el servicio público de consulta de habilitación para respaldar la verificación de credenciales del conductor. | 5 |
-| 42 | TS07 | Internacionalización del RESTful API | Como Developer, deseo localizar los mensajes del API para en_US y es_419 manteniendo el inglés como idioma predeterminado. | 3 |
-| 43 | TS06 | Documentación del RESTful API con OpenAPI | Como Developer, deseo documentar los endpoints mediante OpenAPI para facilitar su comprensión y prueba por parte del equipo. | 2 |
-
-El Product Backlog fue implementado en Trello y organizado visualmente por Epic para facilitar la lectura del alcance. Las tarjetas conservan su prioridad global, Story ID, Story Points, Epic relacionado y descripción, mientras que los colores permiten distinguir cada grupo funcional sin mezclar este artefacto con el Sprint Backlog.
-
-![Product Backlog de Rumbo en Trello](assets/chapter3/product-backlog.png)
-
-**Figura.** Product Backlog de Rumbo organizado por Epics en Trello.
-
-**Product Backlog URL:** https://trello.com/b/dd4dejIV/product-backlog
-
-# Capítulo IV: Product Design
-
-## 4.1. Style Guidelines
-
-Las Style Guidelines de Rumbo establecen los lineamientos visuales y de comunicación que permiten mantener una experiencia consistente entre el Landing Page y los demás productos digitales de la solución. Estas directrices comprenden el uso de colores, tipografías, espaciado, componentes visuales y tono de comunicación.
-
-La identidad visual fue diseñada buscando transmitir tranquilidad, confianza y cercanía, atributos relacionados con la propuesta de valor de Rumbo y con las necesidades de sus principales segmentos objetivo: padres de familia y conductores de transporte escolar. Para ello, se emplea una composición visual limpia, con amplios espacios entre contenidos, superficies claras y tonos verdes como elementos principales de identificación y acción.
-
-### 4.1.1. General Style Guidelines
-
-#### Branding
-La identidad visual de Rumbo busca proyectar una imagen cercana, segura y confiable. Al tratarse de una solución relacionada con el transporte escolar y la comunicación entre padres de familia y conductores, se priorizó una estética que transmita tranquilidad antes que una apariencia excesivamente tecnológica o corporativa.
-
-La marca utiliza principalmente tonalidades verdes acompañadas de colores crema y arena. Esta combinación permite diferenciar las acciones principales sin generar una interfaz visualmente agresiva. Asimismo, el uso de fondos claros y espacios amplios favorece la lectura y permite que los mensajes y Call-to-Action mantengan una jerarquía visual clara.
-
-<div align="center">
-  <img src="./assets/chapter04/logotipoRumbo.png" alt="Logotipo de Rumbo" width="300" height="300">
-  <p>Logotipo de Rumbo</p>
-</div>
-
-
-#### Color Palette
-La paleta cromática de Rumbo está compuesta principalmente por tonos verdes, crema y arena. Los colores verdes son utilizados para representar la identidad de la marca, destacar acciones y diferenciar elementos interactivos, mientras que los tonos crema permiten mantener superficies visualmente ligeras. Los tonos arena funcionan como colores de énfasis secundarios.
-
-**Primary Color I (#3EA98A):** Color verde usado para destacar elementos.
-
-![Primary Color I](./assets/chapter04/primaryColor1.png)
-
-**Primary Color II (#12403D):** Color verde oscuro usado para fondos y contraste.
-
-![Primary Color II](./assets/chapter04/primaryColor2.png)
-
-**Secondary Color I (#F3D9A4):** Color verde claro usado para elementos de énfasis secundario.
+---
 
 ![Secondary Color I](./assets/chapter04/secondaryColor1.png)
 
@@ -1272,284 +636,98 @@ La paleta cromática de Rumbo está compuesta principalmente por tonos verdes, c
 
 ![Secondary Color II](./assets/chapter04/secondaryColor2.png)
 
-**Neutral Color I (#FBFAF6):** Color crema usado para superficies de contenido.
+### 4.1.2. Web Style Guidelines
 
-![Neutral Color I](./assets/chapter04/neutralColor1.png)
-
-**Neutral Color II (#F5F4EA):** Color crema oscuro usado como fondo alternativo para distintas secciones.
-
-![Neutral Color II](./assets/chapter04/neutralColor2.png)
-
-**Neutral Color III (#0F172A):** Color azul oscuro usado para texto y detalles.
+## 4.2. Information Architecture
 
 ![Neutral Color III](./assets/chapter04/neutralColor3.png)
 
+### 4.2.2. Labeling Systems
 
-#### Typography
+### 4.2.3. SEO Tags and Meta Tags
 
-Rumbo emplea las familias tipográficas **Outfit** y **Roboto**, seleccionadas para diferenciar los contenidos de alta jerarquía de los elementos funcionales y textos de lectura continua.
+### 4.2.4. Searching Systems
 
-| Typeface | Aplicación |
-|---|---|
-| **Outfit** | Títulos principales, encabezados de sección y mensajes de alto impacto visual. |
-| **Roboto** | Párrafos, navegación, botones, etiquetas, formularios y contenido complementario. |
+### 4.2.5. Navigation Systems
 
-**Outfit** se utiliza en títulos como “Tranquilidad en cada trayecto”, “Beneficios diseñados para tu total tranquilidad” y “¿Cómo funciona Rumbo?”. Su geometría y peso visual permiten generar encabezados fácilmente identificables y fortalecer la personalidad del producto.
-
-**Roboto**, en cambio, se utiliza para los elementos que requieren una lectura rápida y continua, como textos descriptivos, opciones de navegación, Call-to-Action, preguntas frecuentes y contenido del footer. Su utilización permite mantener una alta legibilidad y una apariencia consistente en los distintos componentes de la interfaz.
+## 4.3. Landing Page UI Design
 
 
-#### Spacing and Shapes
+### 4.3.2. Landing Page Mock-up
 
-El sistema de espaciado de Rumbo está basado en múltiplos de 4px. Este enfoque garantiza consistencia visual en todos los componentes, facilita la alineación de elementos y reduce la toma de decisiones discrecionales durante el diseño y desarrollo. Todos los márgenes internos (padding) y la separación entre componentes siguen esta escala.
-
-| Nivel | Tamaño | Uso en Rumbo |
-|---|---:|---|
-| `spacing-xs` | 4 px | Espaciado mínimo. Se utiliza entre elementos muy relacionados, como un icono y su etiqueta, o pequeños elementos internos de un componente. |
-| `spacing-s` | 8 px | Espaciado pequeño. Se aplica entre textos, iconos y elementos estrechamente relacionados dentro de botones, tarjetas y controles. |
-| `spacing-m` | 12 px | Espaciado secundario. Se emplea principalmente como padding interno de botones compactos, campos de formulario y grupos pequeños de contenido. |
-| `spacing-l` | 16 px | Espaciado estándar. Se utiliza como margen lateral base en dispositivos móviles y para separar elementos dentro de tarjetas y bloques de contenido. |
-| `spacing-xl` | 24 px | Espaciado intermedio. Se aplica como padding de tarjetas y contenedores principales, además de separar grupos de contenido relacionados. |
-| `spacing-xxl` | 32 px | Espaciado grande. Se utiliza en márgenes laterales de la experiencia Desktop y para separar componentes principales dentro de una misma sección. |
-| `spacing-3xl` | 48 px | Espaciado estructural. Se reserva para separar secciones principales del Landing Page y establecer una clara diferenciación entre bloques de información. |
-
-
-#### Tone of Voice
-
-El tono de comunicación de Rumbo busca generar confianza y tranquilidad. Debido a que la solución se relaciona con el transporte de menores, el producto evita expresiones excesivamente informales, humorísticas o alarmistas.
-
-| Dimensión | Posicionamiento | Justificación |
-|---|---|---|
-| Divertido – Serio | Serio con cercanía | La información relacionada con trayectos, retrasos e incidencias debe comunicarse con claridad y responsabilidad. |
-| Formal – Casual | Moderadamente casual | Se utiliza lenguaje sencillo y directo, evitando tecnicismos innecesarios para padres y conductores. |
-| Respetuoso – Irreverente | Respetuoso | La comunicación debe mantener la confianza entre familias, conductores y organizaciones educativas. |
-| Entusiasta – Sereno | Sereno y positivo | Rumbo busca disminuir la incertidumbre y transmitir control antes que urgencia o preocupación. |
-
-Los mensajes principales emplean frases breves orientadas al beneficio del usuario, como “Tranquilidad en cada trayecto” y “Empieza a sentirte más tranquilo hoy”. De esta manera, la propuesta de valor se comunica desde la perspectiva de la tranquilidad y seguridad que obtiene el usuario, en lugar de centrarse únicamente en características técnicas.
+## 4.4. Web Applications UX/UI Design
 
 ### 4.1.2. Web Style Guidelines
 Las Web Style Guidelines de Rumbo definen la manera en que las decisiones establecidas en las General Style Guidelines se aplican a las interfaces web del producto. Su propósito es mantener consistencia visual y de interacción entre el Landing Page y la Web Application, considerando distintos tamaños de pantalla y las necesidades particulares de los segmentos objetivo.
 
-La experiencia web se diseña bajo un enfoque responsive, accesible y consistente. Se consideran los idiomas `en_US` y `es_419`, utilizando inglés como idioma predeterminado de la experiencia. Asimismo, los componentes interactivos deberán incorporar atributos semánticos y ARIA cuando sea necesario para facilitar su uso mediante tecnologías asistivas.\n\nPara **Aplicaciones Web**, los mock-ups de la Web Application se plantean para una implementación con **Vue 3 + JavaScript**, utilizando **PrimeVue** como biblioteca de componentes y **Material Design** como lenguaje visual. Por ello, botones, inputs, dialogs, cards, tables, timelines, notifications y navegación deben mantener dimensiones, estados y comportamientos que puedan mapearse a componentes PrimeVue sin rediseñar la experiencia al momento de implementar.
+### 4.4.2. Web Applications Wireflow Diagrams
 
-#### Responsive Layout
+### 4.4.3. Web Applications Mock-ups
 
-La interfaz utiliza una estructura flexible que permite reorganizar el contenido según el espacio disponible. En pantallas de mayor tamaño se aprovecha la distribución horizontal para presentar información relacionada en múltiples columnas, mientras que en dispositivos de menor tamaño los elementos se reorganizan progresivamente en una disposición vertical.
+### 4.4.4. Web Applications User Flow Diagrams
 
-En el Landing Page, este comportamiento se aplica principalmente a las secciones de beneficios, funcionamiento, indicadores y testimonios. En la Web Application, la misma lógica permitirá adaptar dashboards, listas, tarjetas y formularios sin alterar la jerarquía de la información.
+## 4.5. Web Applications Prototyping
 
-Los márgenes y separaciones utilizan el sistema de spacing definido previamente, evitando valores arbitrarios y manteniendo consistencia entre Desktop y Mobile Web Browser.
+## 4.6. Domain-Driven Software Architecture
 
-#### Visual Hierarchy
-
-La jerarquía visual se establece principalmente mediante tamaño tipográfico, peso, contraste y espaciado.
-
-Los títulos principales utilizan la tipografía Outfit y representan el mayor nivel de jerarquía visual. Los textos descriptivos, botones, formularios y elementos funcionales utilizan Roboto para mantener una lectura clara y consistente.
-
-El color `#0F172A` se utiliza principalmente para títulos y textos de alta relevancia, mientras que `#3EA98A` permite destacar acciones principales y elementos interactivos. Las superficies en `#FBFAF6`, `#F5F4EA` y blanco permiten diferenciar secciones sin generar una interfaz visualmente saturada.
-
-#### Buttons and Call-to-Action
-
-Los botones se organizan según la importancia de la acción que representan.
-
-| Tipo | Aplicación |
-|---|---|
-| Primary Button | Acciones principales como registro, confirmación o acceso a una funcionalidad destacada. Utiliza principalmente el color `#3EA98A`. |
-| Secondary Button | Acciones complementarias que no requieren competir visualmente con la acción principal. |
-| Text Action | Acciones de menor prioridad o navegación contextual. |
-
-Las etiquetas de los botones utilizan verbos o expresiones breves que permiten anticipar claramente el resultado de la acción.
+### 4.6.1. Design-Level EventStorming
 
 #### Cards
 
-Las tarjetas se utilizan para agrupar contenidos relacionados y facilitar su exploración visual. En Rumbo se aplican principalmente para representar beneficios, pasos del funcionamiento, testimonios, información del trayecto y otros grupos de datos relacionados.
+### 4.6.3. Software Architecture Container Diagrams
 
-Las tarjetas emplean superficies claras, bordes redondeados, espaciado interno consistente y sombras suaves cuando se requiere separarlas del fondo. Los títulos y acciones de cada tarjeta conservan la jerarquía tipográfica y cromática definida en las General Style Guidelines.
+### 4.6.4. Software Architecture Components Diagrams
 
-#### Interaction States
-
-Los componentes interactivos deben comunicar visualmente su estado durante la interacción.
-
-Se consideran como mínimo los siguientes estados:
-
-- **Default:** estado inicial del componente.
-- **Hover:** indica que un elemento puede ser seleccionado mediante un dispositivo apuntador.
-- **Focus:** permite identificar el componente activo durante la navegación mediante teclado.
-- **Active:** comunica que el elemento se encuentra siendo seleccionado o ejecutado.
-- **Disabled:** indica que una acción no se encuentra disponible en el contexto actual.
-
-Los estados no deben comunicarse únicamente mediante cambios de color; cuando sea necesario se utilizarán cambios adicionales de borde, forma, iconografía o texto.
-
-#### Accessibility
+## 4.7. Software Object-Oriented Design
 
 Las interfaces de Rumbo se diseñan considerando principios de accesibilidad desde las primeras etapas del producto.
 
-Entre las principales decisiones se encuentran:
-
-- mantener suficiente contraste entre texto y fondo;
-- proporcionar indicadores visibles de focus;
-- utilizar HTML semántico;
-- proporcionar texto alternativo para imágenes informativas;
-- permitir navegación mediante teclado;
-- evitar transmitir información exclusivamente mediante color;
-- utilizar atributos ARIA cuando la semántica nativa no sea suficiente;
-- mantener tamaños y áreas de interacción adecuados para dispositivos táctiles.
-
-Estas reglas deberán conservarse tanto en el Landing Page como en las diferentes vistas de la Web Application.
+## 4.8. Database Design
 
 #### Internationalization
 
-Rumbo considera soporte de internacionalización para `en_US` y `es_419`. El idioma predeterminado será inglés y los contenidos deberán conservar equivalencia semántica entre ambas versiones.
-
-Las etiquetas, botones, mensajes, alertas y demás elementos de interfaz deberán evitar textos incrustados directamente en los componentes cuando ello dificulte su posterior localización.
-
-## 4.2. Information Architecture
-La arquitectura de información de Rumbo define cómo se organizan, etiquetan y conectan los contenidos y funcionalidades del Landing Page y de la Web Application. Su diseño considera las necesidades diferenciadas de los dos principales segmentos objetivo: padres o tutores, quienes principalmente consultan el estado del trayecto, y conductores de movilidad escolar, quienes registran los eventos que ocurren durante la ruta.
+---
 
 En el Landing Page, la información se organiza con un enfoque informativo y progresivo, permitiendo que un visitante conozca primero la propuesta de valor de Rumbo, posteriormente sus beneficios y funcionamiento, y finalmente pueda acceder a una acción de registro o inicio de sesión.
 
 En la Web Application, la organización se encuentra orientada a tareas y cambia de acuerdo con el rol del usuario. Para padres y tutores se prioriza la consulta del estado actual del trayecto, su detalle, línea de tiempo y notificaciones. Para conductores se prioriza la ruta asignada y las acciones necesarias para registrar recojos, entregas, retrasos e incidencias con la menor cantidad posible de pasos.
 
 
-### 4.2.1. Organization Systems
+### 5.1.2. Source Code Management
 
-Rumbo combina diferentes sistemas de organización de acuerdo con el tipo de contenido y las tareas que debe realizar cada usuario. No se utiliza un único esquema para toda la experiencia, sino que se selecciona el sistema que permita comprender y localizar la información con mayor facilidad.
+### 5.1.3. Source Code Style Guide & Conventions
 
-| Producto / contenido | Sistema de organización | Aplicación |
-|---|---|---|
-| Landing Page | Jerárquico | El visitante encuentra primero la propuesta de valor y posteriormente beneficios, funcionamiento, funcionalidades, recursos y Call-to-Action. |
-| How it works | Secuencial | Los principales eventos del trayecto se presentan siguiendo su orden natural: recojo, ruta en curso, eventual incidencia y llegada. |
-| Web Application | Según audiencia | La información y acciones disponibles se diferencian entre Parent/Tutor y Driver. |
-| Parent/Tutor Dashboard | Jerárquico | El estado actual del viaje ocupa el mayor nivel de prioridad, seguido por información complementaria del estudiante, conductor, vehículo y ETA. |
-| Trip Timeline | Cronológico | Los eventos registrados durante el trayecto se muestran según el momento en que ocurrieron. |
-| Driver Assigned Route | Jerárquico y orientado a tareas | La ruta activa y la próxima acción del conductor se priorizan sobre información secundaria. |
-| Student List | Secuencial | Los estudiantes asociados a la ruta se presentan como parte del flujo operativo del conductor, permitiendo registrar recojo o entrega. |
-| Notifications | Cronológico | Los avisos relacionados con el trayecto se presentan de acuerdo con su fecha y hora de generación. |
+### 5.1.4. Software Deployment Configuration
 
-La organización del Landing Page sigue principalmente un esquema jerárquico debido a que un visitante necesita comprender primero qué es Rumbo antes de conocer detalles específicos del producto.
+## 5.2. Landing Page, Services & Applications Implementation
 
-En la Web Application predomina una organización por audiencia y por tareas. Esta separación responde a que padres/tutores y conductores persiguen objetivos diferentes: los primeros consultan información del trayecto, mientras que los segundos registran eventos de la operación.
+### 5.2.X. Sprint n
 
-Asimismo, la información temporal utiliza esquemas cronológicos. Esto resulta especialmente relevante en la línea de tiempo del viaje y en las notificaciones, donde el orden de ocurrencia permite comprender la evolución del trayecto.
+#### 5.2.X.1. Sprint Planning n
 
-### 4.2.2. Labeling Systems
+#### 5.2.X.2. Aspect Leaders and Collaborators
 
-El sistema de etiquetado de Rumbo utiliza términos breves, consistentes y relacionados con el dominio del transporte escolar. Las etiquetas buscan permitir que cada usuario anticipe con claridad qué información encontrará o qué acción realizará antes de seleccionar un elemento.
+#### 5.2.X.3. Sprint Backlog n
 
-Debido a que el idioma predeterminado de la solución será inglés (`en_US`), las etiquetas principales se definen en inglés y cuentan con su equivalente para español latinoamericano (`es_419`).
+#### 5.2.X.4. Development Evidence for Sprint Review
 
-| English (`en_US`) | Spanish (`es_419`) | Producto / asociación |
-|---|---|---|
-| Benefits | Beneficios | Landing Page: ventajas principales del producto. |
-| How it works | Cómo funciona | Landing Page: explicación resumida del funcionamiento de Rumbo. |
-| Features | Funcionalidades | Landing Page: principales capacidades del producto. |
-| Resources | Recursos | Landing Page: contenido complementario y FAQ. |
-| Sign in | Iniciar sesión | Acceso a la Web Application. |
-| Sign up | Registrarse | Creación de una cuenta. |
-| Dashboard | Panel principal | Vista principal de Parent/Tutor. |
-| Trip Status | Estado del trayecto | Estado actual del viaje. |
-| Trip Detail | Detalle del trayecto | Información ampliada sobre el viaje activo. |
-| Timeline | Línea de tiempo | Eventos del trayecto ordenados cronológicamente. |
-| Notifications | Notificaciones | Avisos asociados al estudiante o al trayecto. |
-| Assigned Route | Ruta asignada | Vista principal del conductor. |
-| Students | Estudiantes | Lista de estudiantes vinculados a la ruta. |
-| Confirm Pickup | Confirmar recojo | Registro de recojo de un estudiante. |
-| Confirm Drop-off | Confirmar entrega | Registro de entrega del estudiante. |
-| Report Delay | Reportar retraso | Registro de una demora durante el recorrido. |
-| Report Incident | Reportar incidencia | Registro de un evento excepcional. |
-| Terms of Service | Términos del servicio | Condiciones de utilización del producto. |
-| Privacy | Privacidad | Información relacionada con el tratamiento de datos. |
+#### 5.2.X.5. Execution Evidence for Sprint Review
 
-Las mismas etiquetas deben mantenerse entre navegación, botones, formularios, notificaciones y documentación del producto, evitando utilizar términos diferentes para representar una misma acción.
+#### 5.2.X.6. Services Documentation Evidence for Sprint Review
 
-### 4.2.3. SEO Tags and Meta Tags
+#### 5.2.X.7. Software Deployment Evidence for Sprint Review
 
-Rumbo utilizará SEO Tags y Meta Tags para describir correctamente el contenido de las principales páginas del Landing Page y de la Web Application. Estos elementos permitirán proporcionar información relevante a navegadores, motores de búsqueda y plataformas externas.
+#### 5.2.X.8. Team Collaboration Insights during Sprint
 
-De acuerdo con los lineamientos del proyecto, para cada página principal se definirán como mínimo los valores de **Title**, **Description**, **Keywords** y **Author**.
+## 5.3. Validation Interviews
 
-#### Landing Page
+### 5.3.1. Diseño de Entrevistas
 
-| Elemento | Valor |
-|---|---|
-| **Title** | `Rumbo | School Transport Tracking and Communication` |
-| **Meta Description** | `Rumbo helps families and school transport drivers stay informed through trip monitoring, alerts and direct communication.` |
-| **Meta Keywords** | `school transport, school routes, trip monitoring, parents, drivers, alerts, school mobility` |
-| **Meta Author** | `AIpaca OS` |
+### 5.3.2. Registro de Entrevistas
 
-#### Web Application – Sign In
+### 5.3.3. Evaluaciones según heurísticas
 
-| Elemento | Valor |
-|---|---|
-| **Title** | `Sign In | Rumbo` |
-| **Meta Description** | `Access your Rumbo account to view school trip information and manage route-related activities.` |
-| **Meta Keywords** | `Rumbo sign in, school transport, trip monitoring, parents, drivers` |
-| **Meta Author** | `AIpaca OS` |
-
-#### Web Application – Parent/Tutor Dashboard
-
-| Elemento | Valor |
-|---|---|
-| **Title** | `Parent Dashboard | Rumbo` |
-| **Meta Description** | `View the current school trip status, timeline and notifications associated with your student.` |
-| **Meta Keywords** | `school trip status, parent dashboard, trip timeline, school transport notifications` |
-| **Meta Author** | `AIpaca OS` |
-
-#### Web Application – Driver Assigned Route
-
-| Elemento | Valor |
-|---|---|
-| **Title** | `Assigned Route | Rumbo` |
-| **Meta Description** | `View the assigned school route and register pickups, drop-offs, delays and incidents.` |
-| **Meta Keywords** | `assigned route, school transport driver, pickup, drop-off, route incidents` |
-| **Meta Author** | `AIpaca OS` |
-
-### 4.2.4. Searching Systems
-
-En la versión actual de Rumbo no se incorpora un sistema de búsqueda general ni en el Landing Page ni en los principales flujos definidos para la Web Application.
-
-En el Landing Page, el volumen de información es reducido y todos los contenidos pueden ser localizados mediante navegación global y enlaces internos.
-
-En la Web Application, los flujos actuales presentan información contextual asociada directamente al usuario autenticado. El padre o tutor accede al trayecto y notificaciones vinculadas con su estudiante, mientras que el conductor accede directamente a su ruta y estudiantes asignados. Por esta razón, en el alcance actual no existe un volumen de información que requiera un motor de búsqueda.
-
-| Producto / vista | Searching System | Justificación |
-|---|---|---|
-| Landing Page | No requerido | El contenido es reducido y accesible mediante navegación directa. |
-| Parent/Tutor Dashboard | No requerido en el alcance actual | La información presentada corresponde directamente al usuario autenticado. |
-| Trip Timeline | No requerido inicialmente | Los eventos se presentan cronológicamente dentro de un único trayecto. |
-| Driver Assigned Route | No requerido en el alcance actual | El conductor accede directamente a la ruta que tiene asignada. |
-| Student List | No requerido inicialmente | La lista corresponde únicamente a los estudiantes asociados con la ruta activa. |
-
-Si durante iteraciones posteriores el volumen de rutas, estudiantes, notificaciones o viajes históricos aumenta, se evaluará la incorporación de mecanismos de búsqueda, filtrado y ordenamiento como parte de nuevos User Stories.
-
-### 4.2.5. Navigation Systems
-Rumbo utiliza diferentes sistemas de navegación de acuerdo con el contexto del usuario. El Landing Page emplea navegación global y contextual, mientras que la Web Application utiliza navegación orientada a tareas y roles.
-
-La navegación busca reducir la cantidad de decisiones necesarias para alcanzar las acciones principales. Esto resulta especialmente importante para el perfil Driver, debido a que sus interacciones deben mantenerse breves durante la operación del servicio.
-
-#### Landing Page Navigation
-
-La navegación global del Landing Page se encuentra disponible mediante el header y permite acceder directamente a las principales secciones:
-
-`Home, Benefits, How it works, Features, Resources`
-
-Asimismo, el header incluye los Call-to-Action relacionados con acceso:
-
-`Sign in, Sign up`
-
-El footer proporciona navegación complementaria hacia información del producto, de la startup y documentos legales.
-
-#### Parent/Tutor Navigation
-
-Después de autenticarse, el Parent/Tutor accede directamente al Dashboard, que funciona como punto central de su experiencia.
-
-El prototipo de Rumbo conecta las vistas principales definidas en los wireflows para validar el recorrido antes de la implementación en Vue 3 con PrimeVue. El alcance priorizado para AV1 considera los flujos de consulta del padre/tutor y de registro del conductor.
-
-**Recorrido del padre/tutor:** `Sign In → Dashboard → Trip Detail → Trip Timeline / Notifications`.
-
-**Recorrido del conductor:** `Sign In → Assigned Route → Student List → Register Event / Report Incident → Route Summary`.
-
-Durante la revisión del prototipo se consideran como criterios principales:
+## 5.4. Video About-the-Product
 
 - acceso a la información principal en pocos pasos;
 - jerarquía clara del estado actual y ETA;
@@ -1560,9 +738,9 @@ Durante la revisión del prototipo se consideran como criterios principales:
 
 La propuesta visual toma como referencia los mock-ups elaborados en Figma para la Landing Page y extiende el mismo sistema de colores, tipografía, tarjetas y botones hacia la aplicación web.
 
-`Sign In → Dashboard`
+## Conclusiones y recomendaciones
 
-Desde el Dashboard puede acceder a:
+## Video About-The-Team
 
 - `Trip Detail`
 - `Notifications`
@@ -1579,814 +757,22 @@ Después de iniciar sesión, el Driver accede directamente a la ruta que tiene a
 
 `Sign In → Assigned Route`
 
-Assigned Route funciona como el principal punto de navegación operativa. Desde esta vista el conductor puede:
+Altavoz. (2026, 26 de marzo). *El 98,4% de los hogares de Lima Metropolitana contó con telefonía móvil durante el cuarto trimestre de 2025*. https://altavoz.pe/economia/el-984-de-los-hogares-de-lima-metropolitana-conto-con-telefonia-movil-durante-el-cuarto-trimestre-de-2025/
 
-- consultar `Student List`;
-- registrar `Pickup / Drop-off`;
-- registrar `Delay`;
-- registrar `Incident`.
+Comparabien. (2025, 22 de abril). *¿Cuánto se gana en movilidad escolar? Guía para emprendedores*. https://comparabien.com.pe/blog-consejos/cuanto-gana-movilidad-escolar-guia-emprendedores
 
-Después de completar cualquiera de estas acciones, la navegación retorna a Assigned Route para evitar recorridos innecesarios.
+Decreto Supremo N.º 016-2024-JUS. (2024, 30 de noviembre). *Reglamento de la Ley N.º 29733, Ley de Protección de Datos Personales*. Diario Oficial El Peruano. https://www.gob.pe/institucion/smv/normas-legales/6426760-016-2024-jus
 
-<br>
+El Comercio. (2026, 26 de febrero). *Lima en el top 5 de ciudades con peor tráfico a nivel mundial*. https://elcomercio.pe/lima/sucesos/lima-en-el-top-5-de-ciudades-con-peor-trafico-a-nivel-mundial-mas-de-8-dias-al-ano-atrapados-en-el-trafico-vehicular-tomtom-traffic-index-ultimas-noticia/
 
-```mermaid
-flowchart TD
-    A["Rumbo"] --> B["Landing Page"]
-    A --> C["Web Application"]
+Exitosa Noticias. (2026, 24 de febrero). *Retorno a clases seguro: ATU habilita link para saber si la movilidad escolar de tus hijos está autorizada*. https://www.exitosanoticias.pe/actualidad/retorno-clases-seguro-atu-habilita-link-saber-movilidad-escolar-tus-hijos-esta-autorizada-n169563
 
-    B --> B1["Benefits"]
-    B --> B2["How it works"]
-    B --> B3["Features"]
-    B --> B4["Resources"]
-    B4 --> B41["FAQ"]
-    B --> B5["Sign In"]
-    B --> B6["Sign Up"]
+Infobae. (2026, 10 de enero). *Movilidad escolar para el inicio de clases 2026: así puedes identificar vehículos autorizados por la ATU*. https://www.infobae.com/peru/2026/01/10/movilidad-escolar-para-el-inicio-de-clases-2026-asi-puedes-identificar-vehiculos-autorizados-por-la-atu/
 
-    C --> P["Parent / Tutor"]
-    C --> D["Driver"]
+Instituto Nacional de Estadística e Informática. (2026, 26 de marzo). *El 98,4% de los hogares de Lima Metropolitana contó con telefonía móvil durante el cuarto trimestre de 2025*. Plataforma del Estado Peruano. https://www.gob.pe/institucion/inei/noticias/1371146-el-98-4-de-los-hogares-de-lima-metropolitana-conto-con-telefonia-movil-durante-el-cuarto-trimestre-de-2025
 
-    P --> P1["Dashboard"]
-    P1 --> P2["Trip Detail"]
-    P2 --> P3["Trip Timeline"]
-    P1 --> P4["Notifications"]
+Organismo Supervisor de Inversión Privada en Telecomunicaciones. (2026). *Encuesta Residencial de Servicios de Telecomunicaciones (ERESTEL) 2025*. https://www.osiptel.gob.pe
 
-    D --> D1["Assigned Route"]
-    D1 --> D2["Student List"]
-    D2 --> D3["Pickup / Drop-off"]
-    D1 --> D4["Report Delay"]
-    D1 --> D5["Report Incident"]
-```
-Se compararán respuestas por segmento, separando **características objetivas** (edad, distrito, experiencia, dispositivo, navegador, canales y organización) y **características subjetivas** (motivaciones, frustraciones, necesidades, actitud hacia tecnología, privacidad y barreras). Los porcentajes se completarán solo con datos reales.
-
-## 4.3. Landing Page UI Design
-
-### 4.3.1. Landing Page Wireframe
-
-El wireframe de la Landing Page organiza el contenido de forma secuencial para explicar la propuesta de Rumbo antes de llevar al usuario a una acción. Se conserva el artefacto Desktop trabajado previamente en el proyecto Rumbo y se complementa con una adaptación Mobile para cubrir Responsive Web Design.
-
-<div align="center">
-  <img src="./assets/chapter04/landingWireframeDsk.png" alt="Landing Page Desktop Wireframe" width="750">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="./assets/chapter04/landingWireframeMb.png" alt="Landing Page Mobile Wireframe" width="375">
-</div>
-
-### 4.3.2. Landing Page Mock-up
-
-El mock-up de alta fidelidad mantiene una estética limpia, fondos claros, tipografía de alto contraste, tarjetas redondeadas y CTAs destacados. Se conserva la propuesta visual del proyecto anterior, eliminando del alcance actual cualquier afirmación que dependa de seguimiento GPS continuo o funcionalidades no consideradas en el Product Backlog.
-
-<div align="center">
-  <img src="./assets/chapter04/landingMockupDsk.png" alt="Landing Page Desktop Mock-Up" width="750">
-</div>
- 
-<br>
-
-<div align="center">
-  <img src="./assets/chapter04/landingMockupMb.png" alt="Landing Page Mobile Wireframe" width="375">
-</div>
-
-La versión funcional correspondiente a este diseño se implementa en `AIpaca-UPC/landing-page`, rama `feature/landing-page-v1`.
-
-## 4.4. Web Applications UX/UI Design
-
-El diseño de la Web Application considera dos experiencias principales: **Padres/Tutores** y **Conductores**. Se tomó como base la estructura elaborada en el proyecto Rumbo anterior y se mantuvieron únicamente las vistas coherentes con los User Stories vigentes. Los padres consultan el estado e historial del traslado; los conductores organizan la ruta y registran hitos, retrasos e incidencias con acciones breves.
-
-**Archivo editable de UX/UI en Figma:** https://www.figma.com/design/ZRq2CfgjUIw4jeMOc5d1vU/Rumbo-s-UI-Design?node-id=35-679&t=1q0UFDQCRhveyoFZ-1
-
-### 4.4.1. Web Applications Wireframes
-
-Los wireframes se organizan a partir de las tareas centrales de cada segmento.
-
-| Rol | Vista | Contenido principal |
-|---|---|---|
-| Padre/Tutor | Sign In | Correo, contraseña y recuperación de acceso. |
-| Padre/Tutor | Dashboard | Estudiante, estado actual, conductor, vehículo y acceso al timeline. |
-| Padre/Tutor | Trip Detail / Timeline | Hitos, retrasos, incidencias y llegada en orden cronológico. |
-| Padre/Tutor | Notifications | Avisos relevantes asociados al estudiante. |
-| Conductor | Sign In | Acceso al panel correspondiente a su rol. |
-| Conductor | Assigned Route | Ruta activa, horario, paradas y estudiantes asignados. |
-| Conductor | Student List | Estado de recojo o entrega de cada estudiante. |
-| Conductor | Report Delay | Registro breve de demora. |
-| Conductor | Report Incident | Categoría y descripción de incidencia. |
-
-<div align="center">
-  <img src="./assets/chapter04/webapp-wireframes.svg" alt="Web Application Wireframes for Parent Tutor and Driver" width="95%">
-</div>
-
-La prioridad es que la interfaz responda rápidamente a **“¿qué está pasando en el traslado?”** para la familia y **“¿qué debo registrar ahora?”** para el conductor.
-
-### 4.4.2. Web Applications Wireflow Diagrams
-
-Los Wireflows mantienen las rutas definidas originalmente para ambos segmentos y fueron trasladados a un artefacto editable en FigJam.
-
-#### Wireflow — Padre/Tutor
-
-```mermaid
-flowchart LR
-    A[Sign In] --> B[Dashboard]
-    B --> C[Trip Detail]
-    C --> D[Trip Timeline]
-    B --> E[Notifications]
-    D --> C
-    E --> B
-```
-
-#### Wireflow — Conductor
-
-```mermaid
-flowchart LR
-    A[Sign In] --> B[Assigned Route]
-    B --> C[Student List]
-    C --> D[Register Pickup or Drop-off]
-    B --> E[Report Delay]
-    B --> F[Report Incident]
-    D --> B
-    E --> B
-    F --> B
-```
-
-**Wireflows en Figma:** https://www.figma.com/design/ZRq2CfgjUIw4jeMOc5d1vU/Rumbo-s-UI-Design?node-id=35-679&t=1q0UFDQCRhveyoFZ-1
-
-### 4.4.3. Web Applications Mock-ups
-
-Los Mock-ups reutilizan el lenguaje visual de Rumbo: fondo claro, tarjetas blancas, verde como color de acción, verde oscuro para superficies de contraste y tipografías Outfit/Roboto. Se prepararon vistas representativas Desktop y Mobile para ambos segmentos.
-
-<div align="center">
-  <img src="./assets/chapter04/mockups/inicio-sesion.png" alt="Rumbo Web Application Mock-ups" width="95%">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="./assets/chapter04/mockups/panel-tutor.png" alt="Rumbo Web Application Mock-ups" width="95%">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="./assets/chapter04/mockups/viaje-actual.png" alt="Rumbo Web Application Mock-ups" width="95%">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="./assets/chapter04/mockups/historial-viajes.png" alt="Rumbo Web Application Mock-ups" width="95%">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="./assets/chapter04/mockups/notificaciones-tutor.png" alt="Rumbo Web Application Mock-ups" width="95%">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="./assets/chapter04/mockups/perfil-estudiante.png" alt="Rumbo Web Application Mock-ups" width="95%">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="./assets/chapter04/mockups/documentos-conductor.png" alt="Rumbo Web Application Mock-ups" width="95%">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="./assets/chapter04/mockups/configuracion-tutor.png" alt="Rumbo Web Application Mock-ups" width="95%">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="./assets/chapter04/mockups/panel-conductor.png" alt="Rumbo Web Application Mock-ups" width="95%">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="./assets/chapter04/mockups/viajes.png" alt="Rumbo Web Application Mock-ups" width="95%">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="./assets/chapter04/mockups/rutas.png" alt="Rumbo Web Application Mock-ups" width="95%">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="./assets/chapter04/mockups/incidencias.png" alt="Rumbo Web Application Mock-ups" width="95%">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="./assets/chapter04/mockups/facturacion.png" alt="Rumbo Web Application Mock-ups" width="95%">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="./assets/chapter04/mockups/configuracion-conductor.png" alt="Rumbo Web Application Mock-ups" width="95%">
-</div>
-
-**Mock-ups editables en Figma:** https://www.figma.com/design/ZRq2CfgjUIw4jeMOc5d1vU/Rumbo-s-UI-Design?node-id=35-679&t=1q0UFDQCRhveyoFZ-1
-
-### 4.4.4. Web Applications User Flow Diagrams
-
-Los User Flows se derivan de los Wireflows y contemplan rutas principales y alternativas para autenticación, consulta del traslado y registro operativo.
-
-#### User Flow — Padre/Tutor
-
-```mermaid
-flowchart TD
-    A[Iniciar sesión] --> B{¿Credenciales válidas?}
-    B -- No --> C[Mostrar error y reintentar]
-    C --> A
-    B -- Sí --> D[Dashboard]
-    D --> E[Consultar estado actual]
-    E --> F{¿Necesita más detalle?}
-    F -- Sí --> G[Ver Trip Detail / Timeline]
-    F -- No --> H[Continuar monitoreando]
-    G --> I[Revisar retrasos, incidencias o llegada]
-    I --> H
-```
-
-#### User Flow — Conductor
-
-```mermaid
-flowchart TD
-    A[Iniciar sesión] --> B[Ruta asignada]
-    B --> C[Iniciar trayecto]
-    C --> D[Ver próxima parada]
-    D --> E{¿Qué ocurrió?}
-    E -- Recojo --> F[Confirmar Pickup]
-    E -- Retraso --> G[Registrar Delay]
-    E -- Incidencia --> H[Registrar Incident]
-    F --> I{¿Quedan paradas?}
-    G --> I
-    H --> I
-    I -- Sí --> D
-    I -- No --> J[Confirmar llegada / Drop-off]
-    J --> K[Finalizar Trip]
-```
-
-**User Flows en Figma:** https://www.figma.com/board/JN6GilTFsvrcTlUdRG1y2G
-
-## 4.5. Web Applications Prototyping
-
-Se preparó en Figma la base visual del prototipo para Desktop y Mobile, manteniendo los mismos paths definidos en los User Flow Diagrams. El archivo contiene las vistas principales de Padre/Tutor y Conductor y sirve como fuente editable para completar las conexiones de navegación.
-
-**Figma — Web Application UX/UI:** https://www.figma.com/design/1UjjmTqKROq4VXZPGHLSvx
-
-Para la evidencia final de AV1 todavía debe incorporarse el screenshot del video de navegación y su enlace de Microsoft Stream; estos elementos no se inventan hasta contar con la grabación real.
-
-## 4.6. Domain-Driven Software Architecture
-
-### 4.6.1. Design-Level Event Storming
-
-El **Design-Level Event Storming** permite detallar el comportamiento interno de cada parte del dominio de Rumbo a partir de **Actors, Commands, Aggregates, Domain Events, Business Policies, Read Models y Hotspots**. Para esta etapa se mantuvo la división en seis Bounded Contexts, de modo que cada uno concentre reglas y responsabilidades relacionadas y pueda evolucionar sin mezclar lógica de otros contextos.
-
-Los seis Bounded Contexts identificados son:
-
-| Bounded Context | Responsabilidad |
-|---|---|
-| **Profiles and Verification** | Gestiona los perfiles de padres, conductores y estudiantes, así como vehículos, documentación registrada y vínculos autorizados. |
-| **Identity and Access Management (IAM)** | Gestiona cuentas, autenticación, recuperación de acceso, roles y permisos. |
-| **Route and Trip Planning** | Gestiona rutas, paradas, asignaciones de estudiantes, turnos, programación y ausencias. |
-| **Real-Time Tracking and Execution** | Gestiona la ejecución del viaje, recojos, entregas, estados y línea de tiempo del trayecto. |
-| **Alerting and Incident Management** | Gestiona retrasos, incidencias, alertas, notificaciones y preferencias de aviso. |
-| **Subscriptions and Billing** | Gestiona planes, suscripciones, pagos, renovaciones y comprobantes. |
-
-Para mantener una lectura uniforme de los diagramas se utilizan las siguientes convenciones: **amarillo** para Actors, **azul** para Commands, **azul claro** para Aggregates, **naranja** para Domain Events, **morado** para Business Policies, **verde** para Read Models y **fucsia** para Hotspots.
-
-#### Profiles and Verification Bounded Context
-
-Este fue el primer Bounded Context modelado por el equipo. Representa el registro y consulta de información de padres, conductores, estudiantes y vehículos, así como la relación autorizada entre estudiante y conductor.
-
-<p align="center"><img src="https://github.com/user-attachments/assets/cc84ce11-880c-4a1b-aac6-9b7f1d9232c8" alt="Profiles and Verification Bounded Context" width="90%"/></p>
-
-> El Big Picture EventStorming incorpora **ATU API** como sistema externo en el flujo `Driver Credential Submitted → Driver Credential Verified`. Mientras esa integración no esté implementada y probada, Rumbo no debe afirmar una validación oficial; el diseño debe conservar la fuente y el resultado verificable cuando el servicio externo esté disponible.
-
-#### Identity and Access Management (IAM) Bounded Context
-
-Este contexto controla el acceso a Rumbo. Incluye registro de cuenta, autenticación, recuperación de contraseña y aplicación de permisos según el rol del usuario.
-
-<div align="center">
-  <img src="./assets/chapter04/event-storming/iam.png" alt="Identity and Access Management (IAM) Bounded Context" width="95%">
-</div>
-
-#### Route and Trip Planning Bounded Context
-
-Este contexto organiza la planificación operativa del servicio. Incluye la creación de rutas, la gestión de paradas, la asignación de estudiantes y la programación diaria de recorridos.
-
-<div align="center">
-  <img src="./assets/chapter04/event-storming/route-trip-planning.png" alt="Route and Trip Planning Bounded Context" width="95%">
-</div>
-
-#### Real-Time Tracking and Execution Bounded Context
-
-Este contexto supervisa la ejecución operativa del trayecto e incluye inicio del viaje, llegada y cierre de paradas, confirmación o pérdida de recojo, llegada al colegio, inicio del retorno, confirmación o rechazo de entrega, finalización del viaje y generación o consulta de la línea de tiempo.
-
-<div align="center">
-  <img src="./assets/chapter04/event-storming/realtime-tracking-execution.png" alt="Real-Time Tracking and Execution Bounded Context" width="95%">
-</div>
-
-#### Alerting and Incident Management Bounded Context
-
-Este contexto gestiona los eventos `Delay Registered`, `Incident Reported`, `Incident Resolved`, `Notification Triggered`, `Notification Sent`, `Notification Delivery Failed`, `Notification Read` e `Issue Acknowledged`, manteniendo comunicación únicamente con usuarios autorizados.
-
-<div align="center">
-  <img src="./assets/chapter04/event-storming/alerting-incident-management.png" alt="Alerting and Incident Management Bounded Context" width="95%">
-</div>
-
-#### Subscriptions and Billing Bounded Context
-
-Este contexto administra la habilitación comercial del conductor. En el alcance actual se considera la activación de la suscripción del conductor. Las funciones comerciales adicionales se documentarán cuando formen parte del alcance aprobado del producto.
-
-<div align="center">
-  <img src="./assets/chapter04/event-storming/subscriptions-billing.png" alt="Subscriptions and Billing Bounded Context" width="95%">
-</div>
-
-En conjunto, los seis Bounded Contexts establecen la base para los Class Diagrams y Database Diagrams de las secciones 4.7 y 4.8. La división evita concentrar toda la lógica en un único modelo y separa responsabilidades del dominio.
-
-**Tablero editable de Design-Level Event Storming:** **URL del artefacto:** https://miro.com/app/board/uXjVHl8Ic-k=/
-
-
-### 4.6.2. Software Architecture Context Diagram
-
-Este diagrama muestra la visión general del sistema Rumbo, posicionando la plataforma en el centro y detallando sus interacciones con los usuarios (padres y conductores) y dependencias externas (Auth0, Google Maps, FCM y SendGrid).
-
-<p align="center"><img src="https://github.com/user-attachments/assets/1fa0067c-5228-433b-9755-bacebecd81f8" alt="Diagrama-Contextos" width="90%"/></p>
-
-### 4.6.3. Software Architecture Container Diagrams
-
-Este diagrama expone la arquitectura física y de despliegue. Divide el sistema en contenedores ejecutables: la Landing Page, la aplicación cliente (SPA en Vue y PrimeVue), y la lógica de negocio (API en ASP.NET Core y Entity Framework Core).
-
-<p align="center"><img src="https://github.com/user-attachments/assets/d2203148-4aed-4791-8c2b-5b55a60fdbce" alt="Contenedores-diagrama (1)" width="90%"/></p>
-
-
-
-### 4.6.4. Software Architecture Components Diagrams
-
-Este diagrama profundiza en el contenedor lógico del backend (API Application). Muestra la estructura interna basada en el ecosistema de ASP.NET Core, detallando los controladores (Web API y SignalR), los servicios que encapsulan las reglas de negocio, la capa de acceso a datos mediante Entity Framework Core y el middleware de seguridad.
-
-<p align="center"><img src="https://github.com/user-attachments/assets/49601878-4795-498a-9893-99e5ce29c715" alt="component-diagram-1C#" width="90%"/></p>
-
-Este diagrama hace foco en la arquitectura interna de la Single Page Application (SPA) desarrollada en Vue 3 y PrimeVue. Detalla la separación de responsabilidades entre el enrutador protegido (Vue Router), los componentes visuales de las vistas (mapas y paneles de gestión) y los servicios encargados de la conexión persistente (SignalR Client) y el consumo de la API.
-
-<p align="center"><img src="https://github.com/user-attachments/assets/0ad8da26-adc5-44f0-9779-f5c73202c59f" alt="component-diagram-2C#" width="90%"/></p>
-
-
-## 4.7. Software Object-Oriented Design
-
-### 4.7.1. Class Diagrams
-
-Los Class Diagrams se presentan por **Bounded Context** para mantener la separación definida en el Design-Level Event Storming. Los diagramas incluyen clases, interfaces, enumeraciones, atributos, métodos, visibilidad, relaciones y multiplicidades, de acuerdo con el nivel de detalle solicitado para el diseño orientado a objetos.
-
-#### Profiles and Verification
-
-<p align="center"><img src="https://github.com/user-attachments/assets/67f6e598-c25e-450b-8523-0df4101e19ae" alt="profiles-diagram" width="90%"/></p>
-
-#### Identity and Access Management (IAM)
-
-<p align="center"><img src="https://github.com/user-attachments/assets/a98b37ca-a122-4dfc-81ad-353b91e1ed33" alt="iam-diagram" width="90%"/></p>
-
-
-#### Route and Trip Planning
-
-<p align="center"><img src="https://github.com/user-attachments/assets/77311cab-5a0d-41ab-802b-6dd7d6159ac8" alt="routing-diagram" width="90%"/></p>
-
-
-#### Real-Time Tracking and Execution
-
-<p align="center"><img src="https://github.com/user-attachments/assets/75c02b89-282b-4cbe-8863-71d853d06ea1" alt="tracking-diagram" width="90%"/></p>
-
-
-#### Alerting and Incident Management
-
-<p align="center"><img src="https://github.com/user-attachments/assets/787439f2-e0c7-479e-978f-457677c9febb" alt="alerting-diagram" width="90%"/></p>
-
-
-#### Subscriptions and Billing
-
-<p align="center"><img src="https://github.com/user-attachments/assets/d6818143-09c1-4bbf-b001-2b2df9247f6e" alt="billing-diagram" width="90%"/></p>
-
-
-## 4.8. Database Design
-
-El diseño de persistencia se divide por los mismos **Bounded Contexts** definidos en el modelado DDD. Cada diagrama representa las tablas, columnas, claves primarias, claves foráneas y relaciones que permiten persistir la información administrada por su contexto. Los ERD fueron elaborados en **Lucidchart** y se incorporan al informe como imágenes legibles junto con su fuente editable.
-
-### 4.8.1. Database Diagrams
-
-#### Profiles and Verification
-
-Incluye perfiles de padres, conductores y estudiantes, vehículos, documentos registrados y vínculos entre estudiantes y conductores.
-
-<div align="center">
-  <img src="./assets/chapter04/database-diagrams/profiles-verification.png" alt="Profiles and Verification Database Diagram" width="90%">
-</div>
-
-**Fuente editable:** https://lucid.app/lucidchart/c71a5220-bf71-4924-bbd8-cdec37c2f06c/edit
-
-#### Identity and Access Management (IAM)
-
-Incluye cuentas, credenciales, roles, permisos, relaciones de autorización y tokens de recuperación de acceso.
-
-<div align="center">
-  <img src="./assets/chapter04/database-diagrams/iam.png" alt="Identity and Access Management Database Diagram" width="90%">
-</div>
-
-**Fuente editable:** https://lucid.app/lucidchart/f8fd5cb8-8ed5-4ac9-ae4f-0127d8369a18/edit
-
-#### Route and Trip Planning
-
-Incluye rutas, paradas, asignaciones de estudiantes, programación de viajes y ausencias.
-
-<div align="center">
-  <img src="./assets/chapter04/database-diagrams/route-trip-planning.png" alt="Route and Trip Planning Database Diagram" width="90%">
-</div>
-
-**Fuente editable:** https://lucid.app/lucidchart/dc535238-b74a-409c-9270-8bfcf4ea11a7/edit
-
-#### Real-Time Tracking and Execution
-
-Incluye viajes, estudiantes del viaje, eventos, recojos, entregas, verificaciones y registros de ubicación previstos para la evolución del producto.
-
-<div align="center">
-  <img src="./assets/chapter04/database-diagrams/realtime-tracking-execution.png" alt="Real-Time Tracking and Execution Database Diagram" width="90%">
-</div>
-
-**Fuente editable:** https://lucid.app/lucidchart/3fcc7afd-47ae-4293-9ef2-66b0a7c74621/edit
-
-#### Alerting and Incident Management
-
-Incluye retrasos, incidencias, notificaciones, destinatarios y preferencias de notificación.
-
-<div align="center">
-  <img src="./assets/chapter04/database-diagrams/alerting-incident-management.png" alt="Alerting and Incident Management Database Diagram" width="90%">
-</div>
-
-**Fuente editable:** https://lucid.app/lucidchart/b464254e-0388-492e-862d-b93d5ee3e25f/edit
-
-#### Subscriptions and Billing
-
-Incluye planes, suscripciones, pagos y comprobantes asociados al ciclo comercial.
-
-<div align="center">
-  <img src="./assets/chapter04/database-diagrams/subscriptions-billing.png" alt="Subscriptions and Billing Database Diagram" width="90%">
-</div>
-
-**Fuente editable:** https://lucid.app/lucidchart/178dfc99-92f9-4eef-8699-ecd2085c650a/edit
-
----
-
----
-
-# Capítulo V: Product Implementation, Validation & Deployment
-
-## 5.1. Software Configuration Management
-
-### 5.1.1. Software Development Environment Configuration
-
-Para el desarrollo de Rumbo se definieron las siguientes herramientas:
-
-| Herramienta | Uso en el proyecto |
-|---|---|
-| GitHub | Repositorios, control de versiones y colaboración. |
-| Git | Control de versiones local. |
-| Visual Studio Code / WebStorm | Desarrollo de la Landing Page y Frontend Web Application. |
-| Visual Studio / Rider | Desarrollo de RESTful Web Services con C# y ASP.NET Core. |
-| Figma | Wireframes, Mock-ups y prototipos. |
-| HTML5, CSS3 y JavaScript | Implementación de la Landing Page. |
-| Vue 3, JavaScript, PrimeVue y Material Design | Frontend Web Application. |
-| C#, ASP.NET Core y Entity Framework Core | RESTful Web Services. |
-| OpenAPI / Swagger | Documentación de Web Services. |
-| GitHub Pages | Despliegue de la Landing Page. |
-| Markdown | Documentación del Project Report. |
-
-Para AV1 la implementación se concentra en la primera versión de la Landing Page. El Frontend Web Application y los Web Services se desarrollarán en los siguientes Sprints.
-
-### 5.1.2. Source Code Management
-
-- Project Report: https://github.com/AIpaca-UPC/web-applications-project-report
-- Landing Page: https://github.com/AIpaca-UPC/landing-page
-- Frontend Web Application: https://github.com/AIpaca-UPC/web-applications-web-app
-- Web Services: https://github.com/AIpaca-UPC/web-applications-web-service
-
-GitHub es la plataforma utilizada para administrar el código y la documentación de Rumbo.
-
-#### Repositorios
-
-- **Project Report:** https://github.com/AIpaca-UPC/web-applications-project-report
-- **Landing Page:** https://github.com/AIpaca-UPC/landing-page
-- **Frontend Web Application:** https://github.com/AIpaca-UPC/web-applications-web-app
-- **Web Services:** https://github.com/AIpaca-UPC/web-applications-web-service
-
-#### GitFlow
-
-El proyecto utiliza el siguiente flujo de ramas:
-
-- `main`: versión estable.
-- `develop`: integración del trabajo del equipo.
-- `feature/*`: trabajo de una funcionalidad o sección específica.
-- `release/*`: preparación de una versión.
-- `hotfix/*`: correcciones urgentes.
-
-En el Project Report se emplean ramas como:
-
-- `feature/chapter-1-introduction`
-- `feature/chapter-2-requirements-elicitation-and-analysis`
-- `feature/chapter-3-requirements-specification`
-- `feature/chapter-4-product-design`
-- `feature/chapter-5-product-implementation-validation-and-deployment`
-
-La Landing Page dispone de `main`, `develop` y `feature/landing-page-v1`. La implementación funcional de AV1 se encuentra actualmente en `feature/landing-page-v1`; una vez revisada deberá integrarse mediante el flujo `feature → develop → main`.
-
-#### Convenciones
-
-Para los commits se utilizará Conventional Commits:
-
-- `feat`: nueva funcionalidad.
-- `fix`: corrección.
-- `docs`: documentación.
-- `style`: cambios de formato.
-- `refactor`: reorganización de código.
-- `test`: pruebas.
-- `chore`: mantenimiento.
-
-Las versiones seguirán Semantic Versioning con el formato `MAJOR.MINOR.PATCH`.
-
-### 5.1.3. Source Code Style Guide & Conventions
-
-#### HTML
-
-La Landing Page utiliza HTML5 semántico, navegación mediante identificadores, atributos `alt` en imágenes y atributos ARIA cuando corresponde. Los nombres de clases se mantienen en `kebab-case`.
-
-Ejemplo:
-
-```html
-<section class="benefits section-cream" id="benefits">
-```
-
-#### CSS
-
-Los estilos se organizan por secciones y utilizan variables CSS para colores, tipografías, radios y sombras. El diseño responsive se implementa con Grid, Flexbox y media queries.
-
-```css
-:root {
-  --green: #3EA98A;
-  --green-dark: #12403D;
-  --sand: #F3D9A4;
-}
-```
-
-También se considera `prefers-reduced-motion` para mejorar la accesibilidad.
-
-#### JavaScript
-
-JavaScript se utiliza para el menú móvil y la validación básica del formulario de contacto. El código utiliza `strict mode`, nombres descriptivos y `camelCase` para variables y funciones.
-
-#### Frontend Web Application
-
-Para Vue se seguirá Vue Style Guide, utilizando `PascalCase` para componentes y `camelCase` para variables, funciones y props. Cuando exista un equivalente adecuado se utilizarán componentes PrimeVue antes de crear controles custom, manteniendo Material Design como referencia visual.
-
-#### Web Services
-
-Para C# y ASP.NET Core se utilizará `PascalCase` para clases, interfaces, métodos y propiedades públicas; `camelCase` para parámetros y variables locales; y una organización por responsabilidades y bounded contexts. Entity Framework Core se utilizará para persistencia y los endpoints serán documentados con OpenAPI/Swagger.
-
-### 5.1.4. Software Deployment Configuration
-
-La primera versión funcional de la Landing Page fue integrada mediante GitFlow desde `feature/landing-page-v1` hacia `develop` y posteriormente hacia `main`. Para la publicación se configuró GitHub Pages y se creó la rama `gh-pages` junto con el workflow de deployment.
-
-**Landing Page desplegada:** https://aipaca-upc.github.io/landing-page/
-
-## 5.2. Landing Page, Services & Applications Implementation
-
-### 5.2.1. Sprint 1
-
-El **Sprint 1** tiene como alcance el primer incremento público de Rumbo: la **Landing Page**. Para mantener coherencia con el Product Backlog vigente, el Sprint selecciona las cinco User Stories del Epic **EP06 · Landing Page** (US31–US35). El objetivo es que ambos segmentos puedan comprender la propuesta de valor, identificar beneficios, consultar información legal, cambiar el idioma y resolver dudas antes de utilizar el producto.
-
-A la fecha de esta revisión, `feature/landing-page-v1` ya contiene una primera versión funcional de la Landing Page. Las tareas de implementación del alcance US31–US35 se consideran desarrolladas en la rama feature; el Sprint Goal todavía no puede considerarse completamente alcanzado porque falta integrar una versión estable, desplegarla y registrar las evidencias de ejecución.
-
-#### 5.2.1.1. Sprint Planning 1
-
-La planificación del Sprint se centra únicamente en las historias que contribuyen al incremento de Landing Page. Las actividades de Requirements Specification o Product Design que pertenecen a otros capítulos no se contabilizan como funcionalidades completadas del Sprint.
-
-| **Sprint #** | Sprint 1 |
-|---|---|
-| **Sprint Planning Background** |  |
-| **Date** | 2026-09-09 |
-| **Time** | Pendiente de confirmar con el equipo |
-| **Location** | Pendiente de confirmar con el equipo |
-| **Prepared By** | Lino Quispe, Leonardo Miguel |
-| **Attendees (to planning meeting)** | Marcelo Barrientos, Alejandro Díaz, Kevin Geronimo, Leonardo Lino y Alexandra Meza |
-| **Sprint 0 Review Summary** | No aplica. Sprint 1 es el primer Sprint del proyecto. |
-| **Sprint 0 Retrospective Summary** | No aplica. Sprint 1 es el primer Sprint del proyecto. |
-| **Sprint 1 Goal** | **Our focus is on** publicar la primera versión funcional y responsive de la Landing Page de Rumbo. **We believe it delivers** una comprensión clara de la propuesta de valor, beneficios y formas de contacto a padres/tutores y conductores. **This will be confirmed when** US31, US32, US33, US34 y US35 estén implementadas y la Landing Page pueda abrirse desde una URL pública al cierre del Sprint. |
-| **Sprint 1 Velocity** | 14 Story Points de capacidad planificada |
-| **Sum of Story Points** | 14 |
-
-Las cinco historias seleccionadas corresponden a las prioridades iniciales del Product Backlog: US31 (3 SP), US32 (3 SP), US35 (3 SP), US34 (2 SP) y US33 (3 SP).
-
-#### 5.2.1.2. Aspect Leaders and Collaborators
-
-Para Sprint 1 se separa la responsabilidad del **Project Report** de la responsabilidad sobre la **implementación de la Landing Page**. La matriz LACX usa **L** para Leader y **C** para Collaborator. La distribución documental acordada por el equipo es: Marcelo en el Capítulo I, Alexandra en el Capítulo II, Leonardo en los Capítulos III y V, y Kevin junto con Alejandro en el Capítulo IV.
-
-| Team Member | GitHub Username | Capítulo I | Capítulo II | Capítulo III | Capítulo IV | Capítulo V | Landing Page |
-|---|---|:---:|:---:|:---:|:---:|:---:|:---:|
-| Barrientos, Marcelo | `MarceloBarrientosQuispe` | L | — | — | — | — | C |
-| Meza, Alexandra | `AlexandraYMS` | — | L | — | — | — | C |
-| Lino Quispe, Leonardo Miguel | `linolw` | — | — | L | — | L | C |
-| Geronimo, Kevin | `qebim18` | — | — | — | L | — | L |
-| Díaz, Alejandro | `aleedr` | — | — | — | C | — | C |
-
-En el **Capítulo IV**, Kevin Geronimo y Alejandro Díaz trabajan de forma conjunta; Kevin figura como Leader únicamente para mantener la convención LACX de un responsable principal y Alejandro como Collaborator directo. Esta distribución identifica responsabilidades del informe y no reemplaza la asignación de Work-items del Sprint Backlog.
-
-#### 5.2.1.3. Sprint Backlog 1
-
-El Sprint Backlog descompone las cinco User Stories seleccionadas en Work-items concretos. Las tareas adicionales de responsive, deployment y evidencia se registran como **N/A** porque son actividades necesarias para cumplir el Sprint Goal, pero no representan una User Story independiente.
-
-**Sprint Board URL:** https://trello.com/b/pZTeSjRE/rumbo-sprint-1
-
-**Sprint Board screenshot:** Pendiente de integrar la captura actual del Board. El Board ya se encuentra organizado con los estados `To-do`, `In-Process`, `To-Review` y `Done`.
-
-##### User Stories seleccionadas para la Landing Page
-
-Para la implementación de la Landing Page se seleccionaron únicamente las User Stories del Epic **EP06 · Landing Page**. Se mantienen separadas de las tareas documentales para no confundir funcionalidades del producto con trabajo del informe.
-
-| Story ID | User Story | Story Points |
-|---|---|:---:|
-| **US31** | Conocer la propuesta de valor de Rumbo | 3 |
-| **US32** | Identificar los beneficios de mi segmento e ingresar a Rumbo | 3 |
-| **US33** | Consultar el contenido en inglés o español | 3 |
-| **US34** | Consultar los documentos legales del servicio | 2 |
-| **US35** | Resolver dudas antes de usar Rumbo | 3 |
-|  | **Total** | **14** |
-
-| Sprint # | Sprint 1 |
-|---|---|
-
-| Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
-|---|---|---|---|---|---:|---|---|
-| US31 | Conocer la propuesta de valor de Rumbo | T01 | Implementar propuesta de valor | Implementar hero, propuesta de valor y explicación resumida del funcionamiento de Rumbo. | 4 | Kevin Geronimo / Alejandro Díaz | Done |
-| US32 | Identificar los beneficios de mi segmento e ingresar a Rumbo | T02 | Beneficios y CTA por segmento | Mostrar beneficios para padres/tutores y conductores e incluir sus acciones principales. | 4 | Alejandro Díaz / Kevin Geronimo | Done |
-| US33 | Consultar el contenido en inglés o español | T03 | Selector de idioma | Implementar inglés como idioma predeterminado y español latinoamericano como alternativa. | 3 | Kevin Geronimo / Alejandro Díaz | Done |
-| US34 | Consultar los documentos legales del servicio | T04 | Documentos legales | Incorporar accesos a Terms of Service y Privacy Policy. | 2 | Kevin Geronimo / Alejandro Díaz | Done |
-| US35 | Resolver dudas antes de usar Rumbo | T05 | FAQ y contacto | Implementar preguntas frecuentes y formulario de contacto con validación básica. | 4 | Kevin Geronimo / Alejandro Díaz | Done |
-| N/A | Responsive constraint | T06 | Ajustar diseño responsive | Validar la Landing Page en Desktop y Mobile. | 4 | Alejandro Díaz / Kevin Geronimo | Done |
-| N/A | Deployment | T07 | Publicar Landing Page | Publicar la versión funcional y registrar la URL de producción. | 2 | Leonardo Lino / Kevin Geronimo | Done |
-| N/A | Sprint Review Evidence | T08 | Registrar evidencias | Documentar commits, capturas, video, deployment y colaboración. | 3 | Leonardo Lino | In-Process |
-
-##### Trabajo documental del Sprint 1
-
-Estas tareas corresponden al **Project Report** y no se contabilizan como User Stories de la Landing Page.
-
-| Task ID | Report Scope | Responsible | Status |
-|---|---|---|---|
-| T09 | Capítulo I: Introducción | Marcelo Barrientos | Done |
-| T10 | Capítulo II: Requirements Elicitation & Analysis | Alexandra Meza | Done |
-| T11 | Capítulo III: Requirements Specification | Leonardo Lino | Done |
-| T12 | Capítulo IV: Product Design | Kevin Geronimo / Alejandro Díaz | Done |
-| T13 | Capítulo V: Product Implementation, Validation & Deployment | Leonardo Lino | In-Process |
-
-#### 5.2.1.4. Development Evidence for Sprint Review
-
-La implementación de Sprint 1 se desarrolló en `feature/landing-page-v1`. La rama contiene el incremento funcional del Landing Page y conserva commits separados por tipo de cambio siguiendo Conventional Commits.
-
-| Repository | Branch | Commit ID | Commit Message | Evidencia asociada | Committed on |
-|---|---|---|---|---|---|
-| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `eaa0f79` | `feat: implement Rumbo AV1 landing page` | Estructura principal, propuesta de valor, beneficios, segmentos, FAQ y contacto. | 2026-09-20 |
-| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `7b5465a` | `style: add responsive landing page styles` | Responsive Web Design para Desktop y Mobile Web Browser. | 2026-09-20 |
-| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `4aac744` | `feat: add navigation i18n faq and contact interactions` | Navegación, `en_US / es_419`, FAQ y validación de contacto. | 2026-09-20 |
-| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `ae1fe63` | `feat: add terms of service page` | Terms of Service. | 2026-09-20 |
-| `AIpaca-UPC/landing-page` | `feature/landing-page-v1` | `3ff9992` | `feat: add privacy policy page` | Privacy Policy. | 2026-09-20 |
-
-Estos commits constituyen la Development Evidence disponible para T01–T06. El deployment y la integración a una rama estable permanecen pendientes.
-
-#### 5.2.1.5. Execution Evidence for Sprint Review
-
-La Landing Page ya cuenta con una versión funcional en `feature/landing-page-v1`. La evidencia visual de Sprint Review debe capturarse ejecutando esta versión y debe incluir Desktop, Mobile y un video corto de navegación.
-
-| Evidence | Status |
-|---|---|
-| Implementación funcional en GitHub | **Completado** — `feature/landing-page-v1` |
-| Desktop Web Browser screenshot | Pendiente de integrar |
-| Mobile Web Browser screenshot | Pendiente de integrar |
-| Video de ejecución / navegación (Microsoft Stream) | Pendiente |
-| URL ejecutable de producción | **Completado** — https://aipaca-upc.github.io/landing-page/ |
-
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
-
-Los **Web Services no forman parte del alcance funcional de Sprint 1**, cuyo incremento está centrado en la Landing Page. Por ello, en este Sprint no corresponde presentar endpoints como si hubieran sido implementados.
-
-El repositorio `AIpaca-UPC/web-applications-web-service` se mantiene como foundation para los Sprints posteriores. Cuando los Web Services ingresen al Sprint Backlog, la evidencia deberá incluir endpoints documentados con OpenAPI, verbos HTTP, parámetros, ejemplos de request/response, capturas y commits correspondientes.
-
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
-
-Sprint 1 contempla el despliegue de la primera versión de la Landing Page. Sin embargo, la evidencia solo puede considerarse completa cuando exista una implementación funcional y una URL pública verificable.
-
-| Product | Repository | Provider | Production URL | Status |
-|---|---|---|---|---|
-| Landing Page | https://github.com/AIpaca-UPC/landing-page | GitHub Pages | https://aipaca-upc.github.io/landing-page/ | Published |
-
-**Deployment evidence URL:** https://github.com/AIpaca-UPC/landing-page/actions/runs/36452263086
-
-El deployment fue realizado desde la rama `gh-pages`. La ejecución de GitHub Pages finalizó correctamente y la Landing Page quedó disponible mediante una URL pública.
-
-#### 5.2.1.8. Team Collaboration Insights during Sprint
-
-Esta sección debe evidenciar la **participación de los integrantes en la implementación del producto correspondiente al Sprint**, mediante commits y analíticos de GitHub. La colaboración existente en el Project Report sirve como evidencia documental del trabajo del equipo, pero no sustituye los commits de implementación requeridos para la Landing Page.
-
-| Evidence source | URL |
-|---|---|
-| Landing Page repository | https://github.com/AIpaca-UPC/landing-page |
-| Landing Page branches | https://github.com/AIpaca-UPC/landing-page/branches |
-| Landing Page commits | https://github.com/AIpaca-UPC/landing-page/commits/main |
-| Project Report repository | https://github.com/AIpaca-UPC/web-applications-project-report |
-| Project Report branches | https://github.com/AIpaca-UPC/web-applications-project-report/branches |
-| Project Report Network | https://github.com/AIpaca-UPC/web-applications-project-report/network |
-| Project Report Contributors | https://github.com/AIpaca-UPC/web-applications-project-report/graphs/contributors |
-| Project Report Pull Requests | https://github.com/AIpaca-UPC/web-applications-project-report/pulls |
-
-**Commits de implementación:** Disponibles en `feature/landing-page-v1` y registrados en 5.2.1.4.  
-**Network / Contributors screenshot:** Pendiente de integrar con evidencia real de AIpaca-UPC.  
-**Pull Requests screenshot:** Pendiente de integrar con evidencia real de AIpaca-UPC.
-
-La implementación funcional ya cuenta con commits verificables en la rama feature. La captura general de GitHub Insights documenta la colaboración del Project Report; la atribución individual de implementación debe mantenerse alineada con los commits y asignaciones reales del Sprint.
-
----
-
-# Conclusiones
-
-## Avance AV1
-
-1. La existencia de 3758 vehículos escolares habilitados en Lima y Callao confirma que Rumbo se dirige a un servicio formal con un mercado concreto de familias y operadores.
-2. La congestión registrada en Lima durante 2025 sustenta la necesidad de considerar retrasos y variabilidad en los tiempos de traslado dentro de la experiencia del producto.
-3. La alta penetración de telefonía móvil e Internet en Lima Metropolitana respalda el uso de una solución web responsive como canal principal para los dos segmentos definidos.
-4. Las seis entrevistas registradas en AV1 permitieron contrastar el problema de visibilidad, coordinación y comunicación con tres padres/tutores y tres conductores.
-5. Sprint 1 cuenta con una primera implementación funcional del Landing Page, integrada a `main` mediante GitFlow y publicada mediante GitHub Pages en https://aipaca-upc.github.io/landing-page/
-
----
-
-# Bibliografía
-
-[1] Autoridad de Transporte Urbano para Lima y Callao. (2026, 10 de enero). *Vacaciones útiles seguras: ATU exhorta a padres de familia a usar movilidades escolares autorizadas*. https://www.gob.pe/institucion/atu/noticias/1331042-vacaciones-utiles-seguras-atu-exhorta-a-padres-de-familia-a-usar-movilidades-escolares-autorizadas
-
-[2] TomTom. (2026). *TomTom Traffic Index 2025: Lima, Peru*. https://www.tomtom.com/traffic-index/city/lima/
-
-[3] Observatorio Nacional de Seguridad Vial. (2026). *Estadísticas de siniestralidad vial 2025*. https://www.onsv.gob.pe/
-
-[4] Instituto Nacional de Estadística e Informática. (2026, 26 de marzo). *El 98,4% de los hogares de Lima Metropolitana contó con telefonía móvil durante el cuarto trimestre de 2025*. https://www.gob.pe/institucion/inei/noticias/1371146-el-98-4-de-los-hogares-de-lima-metropolitana-conto-con-telefonia-movil-durante-el-cuarto-trimestre-de-2025
-
-- Gothelf, J., & Seiden, J. *Lean UX: Designing Great Products with Agile Teams*.
-- Material Design. https://m3.material.io/
-- Vue.js. https://vuejs.org/
-- PrimeVue. https://primevue.org/
-- Microsoft ASP.NET Core. https://learn.microsoft.com/aspnet/core/
-- Entity Framework Core. https://learn.microsoft.com/ef/core/
-- Conventional Commits. https://www.conventionalcommits.org/
-- Semantic Versioning. https://semver.org/
-
----
+TomTom. (2026). *TomTom Traffic Index 2025: Lima*. https://www.tomtom.com/traffic-index/lima-traffic/
 
 # Anexos
-
-## Videos de Exposición
-
-### AV1
-
-**Microsoft Stream:** [Completar]  
-**Archivo:** `upc-pre-202620-1asi0730-8137-rumbo-expo-av1.mp4`
-
-## Entrevistas de Needfinding
-
-**Microsoft Stream:** [Completar]  
-**Archivo:** `upc-pre-202620-1asi0730-8137-rumbo-needfinding-sprint-1.mp4`
-
-## Navegación del Prototipo
-
-**Microsoft Stream:** [Completar]  
-**Archivo:** `upc-pre-202620-1asi0730-8137-rumbo-prototypenavigation-sprint-1.mp4`
-
-## Enlaces del proyecto
-
-- **Organización:** https://github.com/AIpaca-UPC
-- **Project Report:** https://github.com/AIpaca-UPC/web-applications-project-report
-- **Landing Page:** https://github.com/AIpaca-UPC/landing-page
-- **Frontend Web Application:** https://github.com/AIpaca-UPC/web-applications-web-app
-- **Web Service:** https://github.com/AIpaca-UPC/web-applications-web-service
-
-## Artefactos externos
-
-- **UXPressia:** [Completar]
-- **Figma:** [Completar]
-- **Sprint Board:** [Completar]
-- **Structurizr:** [Completar]
