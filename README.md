@@ -2221,7 +2221,7 @@ Los Class Diagrams incluyen clases y enumeraciones relevantes, atributos, métod
 El diagrama modela las responsabilidades relacionadas con cuentas, sesiones, tokens, recuperación de acceso, roles y permisos. De esta forma, la autenticación y autorización permanecen separadas de los datos operativos de perfiles, rutas y viajes.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/class-diagrams/class-diagram-iam.png" alt="Identity and Access Management Class Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/iam-class-diagram.png" alt="Identity and Access Management Class Diagram" width="95%">
 </div>
 
 #### Profiles & Relationship Management
@@ -2229,7 +2229,7 @@ El diagrama modela las responsabilidades relacionadas con cuentas, sesiones, tok
 Este contexto representa los perfiles utilizados por Rumbo y las relaciones de autorización vinculadas al estudiante. Su responsabilidad principal es mantener la información de Parent, Driver y Student y determinar qué relaciones permiten consultar la información del estudiante. Las referencias a credenciales o vehículos se interpretan como vínculos hacia sus contextos propietarios.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/class-diagrams/class-diagram-profiles-relationship.png" alt="Profiles and Relationship Management Class Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/profile-class-diagram.png" alt="Profiles and Relationship Management Class Diagram" width="95%">
 </div>
 
 #### Vehicle & Credential Management
@@ -2237,7 +2237,7 @@ Este contexto representa los perfiles utilizados por Rumbo y las relaciones de a
 El diagrama representa la información del vehículo y los registros asociados a su operación y documentación. Este contexto concentra la responsabilidad de los datos del vehículo y de las credenciales declaradas por el Driver, evitando que Route & Trip Planning administre directamente dicha información.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/class-diagrams/class-diagram-vehicle-credential.png" alt="Vehicle and Credential Management Class Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/vehicle-class-diagram.png" alt="Vehicle and Credential Management Class Diagram" width="95%">
 </div>
 
 #### Route & Trip Planning
@@ -2245,7 +2245,7 @@ El diagrama representa la información del vehículo y los registros asociados a
 Este contexto modela rutas, paradas, horarios y asignaciones necesarias antes de iniciar un traslado. Las asociaciones con Student y Driver permiten expresar qué participantes intervienen en la planificación, mientras que sus perfiles completos continúan perteneciendo a sus respectivos Bounded Contexts.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/class-diagrams/class-diagram-route-trip-planning.png" alt="Route and Trip Planning Class Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/route-class-diagram.png" alt="Route and Trip Planning Class Diagram" width="95%">
 </div>
 
 #### Trip Execution & Monitoring
@@ -2253,7 +2253,7 @@ Este contexto modela rutas, paradas, horarios y asignaciones necesarias antes de
 El diagrama describe el viaje en ejecución y los registros que permiten conocer su evolución: eventos, hitos, recojos, entregas y línea de tiempo. La arquitectura de Rumbo prioriza el seguimiento mediante estados y eventos del recorrido; cualquier dato de ubicación representado se considera complementario y no modifica la separación de responsabilidades definida para el dominio.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/class-diagrams/class-diagram-trip-execution.png" alt="Trip Execution and Monitoring Class Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/trip-class-diagram.png" alt="Trip Execution and Monitoring Class Diagram" width="95%">
 </div>
 
 #### Incident & Delay Management
@@ -2261,7 +2261,7 @@ El diagrama describe el viaje en ejecución y los registros que permiten conocer
 Este contexto concentra el registro y seguimiento de retrasos e incidencias vinculados a un viaje. Las clases relacionadas con evidencias, notas o elementos afectados permiten conservar el contexto del evento y su evolución hasta su resolución sin mezclar esta responsabilidad con la distribución de notificaciones.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/class-diagrams/class-diagram-incident-delay.png" alt="Incident and Delay Management Class Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/incident-class-diagram.png" alt="Incident and Delay Management Class Diagram" width="95%">
 </div>
 
 #### Notification Management
@@ -2269,7 +2269,7 @@ Este contexto concentra el registro y seguimiento de retrasos e incidencias vinc
 El diagrama representa la creación y entrega de avisos, las preferencias del usuario y los canales utilizados para distribuirlos. Los eventos de retraso, incidencia, recojo o entrega funcionan como información de entrada, mientras que este contexto se responsabiliza únicamente de convertirlos en comunicaciones hacia los destinatarios correspondientes.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/class-diagrams/class-diagram-notification.png" alt="Notification Management Class Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/notification-class-diagram.png" alt="Notification Management Class Diagram" width="95%">
 </div>
 
 #### Subscriptions & Billing
@@ -2277,7 +2277,7 @@ El diagrama representa la creación y entrega de avisos, las preferencias del us
 Este contexto representa la relación entre el Driver, el plan y el estado de su suscripción. Los elementos comerciales incluidos en el modelo se consideran parte de la arquitectura objetivo; para el alcance actual, la funcionalidad prioritaria continúa siendo la activación y consulta del estado de la suscripción definida en los requisitos.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/class-diagrams/class-diagram-subscriptions-billing.png" alt="Subscriptions and Billing Class Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/susbscription-class-diagram.png" alt="Subscriptions and Billing Class Diagram" width="95%">
 </div>
 
 En conjunto, los ocho Class Diagrams mantienen la separación establecida en el diseño de dominio y sirven como referencia para los Database Diagrams de la siguiente sección. El modelado se utiliza como diseño de la arquitectura objetivo y no implica que todos los componentes de backend se encuentren implementados durante Sprint 2.
