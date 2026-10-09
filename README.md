@@ -2537,6 +2537,7 @@ Se siguen las **C# Coding Conventions** de Microsoft y las **ASP.NET Core Coding
 - Organización del proyecto por Bounded Context, con separación de dominio, aplicación, infraestructura e interfaz.
 - Persistencia mediante **Entity Framework Core**, con las entidades y configuraciones del contexto declaradas de forma explícita.
 - Endpoints REST con nombres de recurso en plural y verbos HTTP según la operación, documentados con **OpenAPI** y mensajes de respuesta en inglés como idioma predeterminado.
+
 #### Gherkin
  
 Los criterios de aceptación se redactan en **tiempo presente**, **tercera persona** y con la estructura **Given – When – Then**, sin referencias a detalles de interfaz de usuario y con resultados comprobables, según lo establecido en el Final Project Statement y en las Gherkin Conventions for Readable Specifications.
@@ -2827,23 +2828,399 @@ El análisis de estos insights permitió al equipo verificar que la implementaci
  
 ### 5.2.2. Sprint 2
  
-El Sprint 2 tiene como alcance la **primera versión de la Frontend Web Application** de Rumbo, implementada con Vue 3, PrimeVue y Axios, organizada por Bounded Context y soportada por persistencia emulada remota mientras el RESTful API propio no se encuentre desplegado. Incluye además la Task **T09** trasladada desde el Sprint 1, que enlaza el call-to-action de cada segmento de la Landing Page con la vista correspondiente de la aplicación.
+El Sprint 2 tiene como alcance la **primera versión de la Frontend Web Application** de Rumbo, construida con **Vue 3**, **PrimeVue** y **Axios**. La iteración se concentra en el **espacio de trabajo del conductor**, que es el segmento con mayor carga operativa identificada en el Needfinding, e implementa las vistas de gestión de los cinco Bounded Contexts definidos en el Capítulo IV: **Vehicle & Credential Management**, **Profiles & Relationship Management**, **Route & Trip Planning**, **Alerting & Incident Management** y **Subscriptions & Billing**.
+ 
+Cada contexto se implementa con sus operaciones de creación, consulta, actualización y eliminación sobre **recursos REST emulados**. Esta persistencia emulada permite integrar y verificar las vistas antes de que exista el RESTful API propio; se declara de forma explícita que **no constituye el RESTful API de elaboración interna** exigido por el alcance del proyecto, cuya implementación con ASP.NET Core y Entity Framework Core corresponde al Sprint 3 mediante las Technical Stories **TS01–TS08**.
+ 
+El Sprint incorpora además la **vista de inicio** del espacio de trabajo y una **vista de recurso no encontrado**, que completan el sistema de navegación declarado en la sección 4.2.5, y la Task **T09** trasladada desde el Sprint 1, que enlaza el call-to-action de cada segmento de la Landing Page con la vista correspondiente de la aplicación.
  
 #### 5.2.2.1. Sprint Planning 2
  
+En esta sección se registran los principales acuerdos del Sprint Planning Meeting de Sprint 2 utilizando la estructura indicada en el Final Project Statement.
+ 
+<table>
+  <tbody>
+    <tr><th>Sprint #</th><td>Sprint 2</td></tr>
+    <tr><th colspan="2">Sprint Planning Background</th></tr>
+    <tr><td colspan="2">Segunda iteración de implementación. Con la Landing Page publicada, el alcance se traslada a la Frontend Web Application. El equipo acuerda distribuir el trabajo por Bounded Context, de modo que cada integrante asuma un contexto completo desde el modelo de dominio hasta sus vistas, y utilizar recursos REST emulados mientras el RESTful API propio no esté disponible.</td></tr>
+    <tr><th>Date</th><td>[fecha del planning de Sprint 2]</td></tr>
+    <tr><th>Time</th><td>[hora de inicio de la reunión]</td></tr>
+    <tr><th>Location</th><td>[medio o lugar real de la reunión]</td></tr>
+    <tr><th>Prepared By</th><td>Lino Quispe, Leonardo Miguel</td></tr>
+    <tr><th>Attendees (to planning meeting)</th><td>Barrientos Quispe, Marcelo / Díaz Ramírez, Alejandro / Geronimo Puma, Kevin Joel / Lino Quispe, Leonardo Miguel / Meza Soza, Alexandra Yamile</td></tr>
+    <tr><th>Sprint 1 Review Summary</th><td>La Landing Page fue publicada en su URL pública y se completaron 6 de los 8 Story Points comprometidos. Se verificaron la propuesta de valor, los beneficios por segmento, la internacionalización en_US / es_419, los documentos legales, las preguntas frecuentes y el formulario de contacto. La historia US32 quedó abierta porque su call-to-action requiere que exista la Frontend Web Application para enlazar la vista de destino de cada segmento.</td></tr>
+    <tr><th>Sprint 1 Retrospective Summary</th><td>El equipo identificó que la concentración de la implementación en dos integrantes limitó la capacidad del Sprint y retrasó el registro de evidencias. Se acuerda para el Sprint 2 distribuir la implementación entre los cinco integrantes asignando un Bounded Context a cada uno, registrar las evidencias de desarrollo durante el Sprint y no al cierre, y aplicar GitFlow con una rama por contexto para que el historial del repositorio refleje la arquitectura del producto.</td></tr>
+    <tr><th colspan="2">Sprint Goal &amp; User Stories</th></tr>
+    <tr><th>Sprint 2 Goal</th><td>Our focus is on delivering the first version of the Frontend Web Application, so that a school transport driver can manage the information of the service from a single workspace. We believe it delivers direct control over vehicles, students, routes, incidents, notification preferences and subscription state, replacing the dispersed coordination the driver performs today. This will be confirmed when each bounded context exposes its management views with create, read, update and delete operations over the application data source, and the integrated application is publicly accessible on Desktop and Mobile Web Browser.</td></tr>
+    <tr><th>Sprint 2 Velocity</th><td>34 Story Points</td></tr>
+    <tr><th>Sum of Story Points</th><td>34 Story Points</td></tr>
+  </tbody>
+</table>
+Las historias comprometidas y su estimación vigente en el Product Backlog son las siguientes:
+ 
+| Bounded Context | User Story Id | Título | Story Points | Responsable principal |
+|---|---|---|:---:|---|
+| Vehicle & Credential Management | US02 | Registrar vehículo y credenciales del servicio | 5 | Barrientos Quispe, Marcelo |
+| Profiles & Relationship Management | US06 | Registrar estudiante y vincularse como tutor | 5 | Díaz Ramírez, Alejandro |
+| Route & Trip Planning | US10 | Crear una ruta con sus paradas | 8 | Lino Quispe, Leonardo Miguel |
+| Alerting & Incident Management | US24 | Registrar una incidencia | 5 | Meza Soza, Alexandra Yamile |
+| Alerting & Incident Management | US29 | Configurar las preferencias de notificación | 3 | Meza Soza, Alexandra Yamile |
+| Subscriptions & Billing | US09 | Activar la suscripción del conductor | 8 | Geronimo Puma, Kevin Joel |
+| | | **Total** | **34** | |
+ 
+**Cálculo de la capacidad del Sprint.** La equivalencia indicada por el docente es **1 SP ≈ 1–2 días de trabajo** y **8 SP ≈ un Sprint completo de dos semanas para un integrante**. Con cinco integrantes dedicados a la implementación, la capacidad teórica del Sprint es de aproximadamente **40 Story Points**, de los cuales el equipo compromete **34**, reservando el margen restante para la integración de los contextos, la configuración del despliegue y el registro de evidencias. Esta distribución explica la diferencia respecto del Sprint 1, cuya velocidad comprometida fue de 8 Story Points porque la implementación se concentró en dos integrantes mientras el resto lideraba capítulos del informe.
+ 
+Las historias se seleccionaron respetando el orden de prioridad del Product Backlog de la sección 3.3: **US02** y **US06** ocupan las posiciones inmediatamente posteriores a las historias del Landing Page, **US10** encabeza las capacidades de rutas, y **US24**, **US29** y **US09** corresponden a las capacidades de comunicación y suscripción priorizadas para el espacio de trabajo del conductor. Las Technical Stories **TS01–TS08** se mantienen al final del backlog y no forman parte de esta iteración.
+ 
+**Alcance declarado de US06.** La historia US06 está redactada desde el rol de padre o tutor. En este Sprint se implementaron las vistas de gestión del contexto Profiles & Relationship Management que sostienen la historia —el registro y la administración de los datos del estudiante—, mientras que la vinculación autorizada entre tutor y estudiante depende del inicio de sesión por rol (**US04**) y se completa en el Sprint en el que se implemente la autenticación del RESTful API.
+ 
 #### 5.2.2.2. Aspect Leaders and Collaborators
+ 
+Para el Sprint 2 la matriz LACX se organiza por **Bounded Context**, de modo que cada integrante figura como Leader del contexto que implementó y como Collaborator en la integración y en las correcciones compartidas de la aplicación.
+ 
+<table>
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>GitHub Username</th>
+      <th>Vehicle &amp; Credential Management<br>L / C</th>
+      <th>Profiles &amp; Relationship Management<br>L / C</th>
+      <th>Route &amp; Trip Planning<br>L / C</th>
+      <th>Alerting &amp; Incident Management<br>L / C</th>
+      <th>Subscriptions &amp; Billing<br>L / C</th>
+      <th>Shared Layout &amp; Navigation<br>L / C</th>
+      <th>Integration &amp; Deployment<br>L / C</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Barrientos Quispe, Marcelo</td><td>MarceloBarrientosQuispe</td><td>L</td><td>—</td><td>—</td><td>—</td><td>—</td><td>C</td><td>C</td></tr>
+    <tr><td>Díaz Ramírez, Alejandro</td><td>aleedr</td><td>—</td><td>L</td><td>—</td><td>—</td><td>—</td><td>C</td><td>C</td></tr>
+    <tr><td>Geronimo Puma, Kevin Joel</td><td>qebim18</td><td>—</td><td>—</td><td>—</td><td>—</td><td>L</td><td>C</td><td>C</td></tr>
+    <tr><td>Lino Quispe, Leonardo Miguel</td><td>linolw</td><td>—</td><td>—</td><td>L</td><td>—</td><td>—</td><td>L</td><td>L</td></tr>
+    <tr><td>Meza Soza, Alexandra Yamile</td><td>AlexandraYMS</td><td>—</td><td>—</td><td>—</td><td>L</td><td>—</td><td>C</td><td>C</td></tr>
+  </tbody>
+</table>
+El aspecto **Shared Layout & Navigation** agrupa la estructura común de la aplicación: el layout del espacio de trabajo, el menú de navegación entre contextos, la vista de inicio y la vista de recurso no encontrado. El aspecto **Integration & Deployment** agrupa la integración de las ramas de cada contexto en `develop`, la resolución de conflictos compartidos y la publicación de la aplicación.
  
 #### 5.2.2.3. Sprint Backlog 2
  
+El objetivo del Sprint 2 es implementar y desplegar la primera versión de la Frontend Web Application de Rumbo con las vistas de gestión de los cinco Bounded Contexts. El Sprint Board público del equipo se encuentra en:
+ 
+**Sprint Board público:** [URL del board de Trello del Sprint 2]
+ 
+La numeración de Tasks continúa la del Sprint 1, que cerró en **T20** y **S02**.
+ 
+<table>
+<thead>
+<tr>
+<th>Sprint #</th>
+<th colspan="7">Sprint 2</th>
+</tr>
+<tr>
+<th colspan="2">User Story</th>
+<th colspan="6">Work-Item / Task</th>
+</tr>
+<tr>
+<th>Story Id</th>
+<th>Story Title</th>
+<th>Task Id</th>
+<th>Task Title</th>
+<th>Task Description</th>
+<th>Estimation (Hours)</th>
+<th>Assigned To</th>
+<th>Status<br>(To-do / In-Process / To-Review / Done)</th>
+</tr>
+</thead>
+<tbody>
+<tr><td rowspan="4">US02</td><td rowspan="4">Registrar vehículo y credenciales del servicio</td><td>T21</td><td>Define vehicle domain model</td><td>Definir la entidad de dominio del vehículo y la representación de cada credencial declarada del servicio, con su estado y vigencia.</td><td>5</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+<tr><td>T22</td><td>Implement vehicles data access</td><td>Implementar el recurso REST de vehículos, el cliente HTTP y los assemblers de respuesta sobre el origen de datos de la aplicación.</td><td>5</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+<tr><td>T23</td><td>Implement vehicle management views</td><td>Implementar la vista de listado y el formulario de vehículos con las operaciones de creación, actualización y eliminación, incluyendo el registro de credenciales.</td><td>6</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+<tr><td>T24</td><td>Register vehicles routing</td><td>Registrar las rutas del contexto en el enrutador de la aplicación e integrarlo en el menú de navegación del espacio de trabajo.</td><td>4</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+<tr><td rowspan="4">US06</td><td rowspan="4">Registrar estudiante y vincularse como tutor</td><td>T25</td><td>Define student and profile domain models</td><td>Definir las entidades de dominio del estudiante y del perfil de usuario, junto con los datos requeridos para su registro.</td><td>5</td><td>Alejandro Díaz</td><td>Done</td></tr>
+<tr><td>T26</td><td>Implement profiles data access</td><td>Implementar los recursos REST de estudiantes y perfiles, con su cliente HTTP y el mapeo de respuestas.</td><td>5</td><td>Alejandro Díaz</td><td>Done</td></tr>
+<tr><td>T27</td><td>Implement student management views</td><td>Implementar la vista de listado y el formulario de estudiantes con las operaciones de creación, actualización y eliminación.</td><td>6</td><td>Alejandro Díaz</td><td>Done</td></tr>
+<tr><td>T28</td><td>Register profiles routing</td><td>Registrar las rutas del contexto en el enrutador de la aplicación e integrarlo en el menú de navegación del espacio de trabajo.</td><td>4</td><td>Alejandro Díaz</td><td>Done</td></tr>
+<tr><td rowspan="5">US10</td><td rowspan="5">Crear una ruta con sus paradas</td><td>T29</td><td>Define route and stop domain models</td><td>Definir las entidades de dominio de la ruta y de la parada, con el orden de recorrido como atributo de la relación.</td><td>5</td><td>Leonardo Lino</td><td>Done</td></tr>
+<tr><td>T30</td><td>Implement routes data access</td><td>Implementar el recurso REST de rutas y paradas, su cliente HTTP y el mapeo de respuestas.</td><td>5</td><td>Leonardo Lino</td><td>Done</td></tr>
+<tr><td>T31</td><td>Implement reactive route store</td><td>Implementar el almacén de estado reactivo del contexto para mantener la ruta seleccionada y su colección de paradas durante la edición.</td><td>6</td><td>Leonardo Lino</td><td>Done</td></tr>
+<tr><td>T32</td><td>Implement route management views</td><td>Implementar la vista de listado y el formulario de rutas, incluyendo la incorporación de paradas y la definición de su orden de recorrido.</td><td>6</td><td>Leonardo Lino</td><td>Done</td></tr>
+<tr><td>T33</td><td>Register routes routing</td><td>Registrar las rutas del contexto en el enrutador de la aplicación e integrarlo en el menú de navegación del espacio de trabajo.</td><td>4</td><td>Leonardo Lino</td><td>Done</td></tr>
+<tr><td rowspan="4">US24</td><td rowspan="4">Registrar una incidencia</td><td>T34</td><td>Define incident and delay domain models</td><td>Definir las entidades de dominio de la incidencia y del retraso, con su tipo, causa y estado de resolución.</td><td>5</td><td>Alexandra Meza</td><td>Done</td></tr>
+<tr><td>T35</td><td>Implement alerting data access</td><td>Implementar los recursos REST de incidencias y retrasos, con su cliente HTTP y el mapeo de respuestas.</td><td>5</td><td>Alexandra Meza</td><td>Done</td></tr>
+<tr><td>T36</td><td>Implement incident management views</td><td>Implementar la vista de listado y el formulario de registro de incidencias y retrasos, con las operaciones de consulta, actualización y eliminación.</td><td>6</td><td>Alexandra Meza</td><td>Done</td></tr>
+<tr><td>T37</td><td>Register alerting routing</td><td>Registrar las rutas del contexto en el enrutador de la aplicación e integrarlo en el menú de navegación del espacio de trabajo.</td><td>4</td><td>Alexandra Meza</td><td>Done</td></tr>
+<tr><td rowspan="2">US29</td><td rowspan="2">Configurar las preferencias de notificación</td><td>T38</td><td>Define notification preference model and resource</td><td>Definir el modelo de preferencias de notificación por tipo de evento y su recurso REST asociado.</td><td>4</td><td>Alexandra Meza</td><td>Done</td></tr>
+<tr><td>T39</td><td>Implement notifications view</td><td>Implementar la vista de notificaciones con la consulta del historial de avisos y los controles de activación por tipo de evento, persistiendo la preferencia seleccionada.</td><td>5</td><td>Alexandra Meza</td><td>Done</td></tr>
+<tr><td rowspan="5">US09</td><td rowspan="5">Activar la suscripción del conductor</td><td>T40</td><td>Define plan and subscription domain models</td><td>Definir las entidades de dominio del plan y de la suscripción, con su periodo de vigencia y estado.</td><td>5</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td>T41</td><td>Implement subscriptions data access</td><td>Implementar los recursos REST de planes y suscripciones, su cliente HTTP y el mapeo de respuestas.</td><td>5</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td>T42</td><td>Implement plans and billing view</td><td>Implementar la vista de planes disponibles con sus características y el formulario de activación de la suscripción.</td><td>6</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td>T43</td><td>Implement subscriptions list view</td><td>Implementar la vista de suscripciones del conductor con su estado vigente y las operaciones de consulta, actualización y eliminación.</td><td>6</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td>T44</td><td>Register billing routing</td><td>Registrar las rutas del contexto en el enrutador de la aplicación e integrarlo en el menú de navegación del espacio de trabajo.</td><td>4</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td rowspan="1">US32</td><td rowspan="1">Identificar los beneficios de mi segmento e ingresar a Rumbo</td><td>T09</td><td>Connect call-to-action to Web Application</td><td>Task trasladada del Sprint 1. Enlazar el call-to-action de cada segmento de la Landing Page con la vista correspondiente de la Frontend Web Application publicada.</td><td>4</td><td>Alejandro Díaz</td><td>[estado real]</td></tr>
+<tr><td>N/A</td><td>General Sprint Constraint</td><td>S03</td><td>Scaffold Vue application</td><td>Inicializar el proyecto con Vue 3, PrimeVue, Axios y el enrutador, y establecer la estructura de carpetas por Bounded Context con separación de dominio, aplicación, infraestructura y presentación.</td><td>6</td><td>Leonardo Lino</td><td>Done</td></tr>
+<tr><td>N/A</td><td>General Sprint Constraint</td><td>S04</td><td>Implement shared layout and home view</td><td>Implementar el layout del espacio de trabajo, el menú de navegación entre contextos y la vista de inicio con los accesos a cada sección.</td><td>5</td><td>Leonardo Lino</td><td>Done</td></tr>
+<tr><td>N/A</td><td>General Sprint Constraint</td><td>S05</td><td>Implement not found view</td><td>Implementar la vista de recurso no encontrado y la ruta de respaldo del enrutador para toda dirección no reconocida.</td><td>4</td><td>Leonardo Lino</td><td>Done</td></tr>
+<tr><td>N/A</td><td>General Sprint Constraint</td><td>S06</td><td>Configure emulated REST resources</td><td>Configurar los recursos del origen de datos emulado de la aplicación y las variables de entorno con su URL base, de modo que cada contexto consuma su recurso sin credenciales en el repositorio.</td><td>4</td><td>Kevin Geronimo</td><td>Done</td></tr>
+<tr><td>N/A</td><td>General Sprint Constraint</td><td>S07</td><td>Integrate bounded contexts and deploy</td><td>Integrar las ramas de los cinco contextos en <code>develop</code>, resolver las correcciones compartidas de enrutamiento e internacionalización, y publicar la primera versión de la aplicación.</td><td>6</td><td>Leonardo Lino</td><td>Done</td></tr>
+<tr><td>N/A</td><td>General Sprint Constraint</td><td>S08</td><td>Register Sprint 2 evidence</td><td>Registrar las evidencias de desarrollo, ejecución, documentación de recursos y despliegue del Sprint, incluyendo capturas de cada vista y el video de navegación.</td><td>5</td><td>Leonardo Lino</td><td>In-Process</td></tr>
+</tbody>
+</table>
+Todas las User Stories del Sprint cumplen la regla de **mínimo dos Tasks por User Story** y ninguna Task supera las **8 horas** de estimación. Las Tasks **S03** a **S08** corresponden a constraints generales del Sprint —estructura del proyecto, navegación compartida, configuración del origen de datos, integración, despliegue y evidencias— por lo que no generan Story Points y no se asocian a una User Story.
+ 
 #### 5.2.2.4. Development Evidence for Sprint Review
+ 
+La evidencia de implementación del Sprint 2 se conserva en el repositorio `AIpaca-UPC/web-applications-web-app`. Conforme a la convención declarada en la sección 5.1.2, el trabajo se organizó en una rama por Bounded Context, que se integró en `develop` mediante Pull Request:
+ 
+| Bounded Context | Feature branch | Responsable principal |
+|---|---|---|
+| Vehicle & Credential Management | `feature/vehicle-credential-management` | Barrientos Quispe, Marcelo |
+| Profiles & Relationship Management | `feature/profiles-and-relationship-management` | Díaz Ramírez, Alejandro |
+| Route & Trip Planning | `feature/route-trip-planning` | Lino Quispe, Leonardo Miguel |
+| Alerting & Incident Management | `feature/alerting-and-incident-management` | Meza Soza, Alexandra Yamile |
+| Subscriptions & Billing | `feature/subscriptions-and-billing` | Geronimo Puma, Kevin Joel |
+ 
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body / alcance | Committed on |
+|---|---|---|---|---|---|
+| | | | | | |
+ 
+**URL del repositorio:** https://github.com/AIpaca-UPC/web-applications-web-app
  
 #### 5.2.2.5. Execution Evidence for Sprint Review
  
+La evidencia de ejecución del Sprint 2 se presenta mediante capturas de la **Frontend Web Application de Rumbo** publicada en su URL pública. Las capturas registran la vista de inicio del espacio de trabajo del conductor, las vistas de gestión de cada Bounded Context con sus operaciones de creación, consulta, actualización y eliminación, y la vista de recurso no encontrado. Las vistas operan sobre el origen de datos emulado descrito en la sección 5.1.4; no constituyen evidencia de funcionamiento del RESTful API propio, cuya implementación corresponde al Sprint 3.
+ 
+**URL pública de la aplicación:** [URL de la Frontend Web Application desplegada]
+ 
+##### Vista de inicio
+ 
+<!-- IMAGEN 5.S2-01 · HOME
+     Captura: vista de inicio del espacio de trabajo del conductor.
+     Debe mostrarse el menú de navegación con los accesos a Students, Routes, Vehicles,
+     Notifications y Plans & Billing, y el contenido de bienvenida del panel.
+     Archivo: ./assets/chapter05/sprint2/home.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/home.png" alt="Vista de inicio del espacio de trabajo del conductor en la Frontend Web Application de Rumbo, con el menú de navegación entre contextos." width="90%">
+  <p><em>Figura 5.S2-01. Vista de inicio del espacio de trabajo del conductor, con los accesos a cada Bounded Context.</em></p>
+</div>
+
+##### Profiles &amp; Relationship Management — Students
+ 
+<!-- IMAGEN 5.S2-02 · STUDENTS (listado)
+     Captura: vista de listado de estudiantes con al menos tres registros de muestra
+     y los controles de edición y eliminación visibles.
+     Archivo: ./assets/chapter05/sprint2/students-list.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/students-list.png" alt="Vista de listado de estudiantes con los registros existentes y los controles de edición y eliminación." width="90%">
+  <p><em>Figura 5.S2-02. Listado de estudiantes del contexto Profiles &amp; Relationship Management.</em></p>
+</div>
+<!-- IMAGEN 5.S2-03 · STUDENTS (formulario)
+     Captura: formulario de registro o edición de un estudiante con sus campos completados.
+     Archivo: ./assets/chapter05/sprint2/students-form.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/students-form.png" alt="Formulario de registro de un estudiante con sus campos obligatorios." width="90%">
+  <p><em>Figura 5.S2-03. Formulario de registro de un estudiante.</em></p>
+</div>
+
+##### Route &amp; Trip Planning — Routes
+ 
+<!-- IMAGEN 5.S2-04 · ROUTES (listado)
+     Captura: vista de listado de rutas con sus registros de muestra.
+     Archivo: ./assets/chapter05/sprint2/routes-list.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/routes-list.png" alt="Vista de listado de rutas con los registros existentes y los controles de edición y eliminación." width="90%">
+  <p><em>Figura 5.S2-04. Listado de rutas del contexto Route &amp; Trip Planning.</em></p>
+</div>
+<!-- IMAGEN 5.S2-05 · ROUTES (formulario con paradas)
+     Captura: formulario de creación o edición de una ruta mostrando la incorporación
+     de paradas y su orden de recorrido. Esta captura es la que evidencia US10.
+     Archivo: ./assets/chapter05/sprint2/routes-form.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/routes-form.png" alt="Formulario de creación de una ruta con sus paradas y el orden de recorrido." width="90%">
+  <p><em>Figura 5.S2-05. Formulario de creación de una ruta con sus paradas en el orden de recorrido.</em></p>
+</div>
+
+##### Vehicle &amp; Credential Management — Vehicles
+ 
+<!-- IMAGEN 5.S2-06 · VEHICLES (listado)
+     Captura: vista de listado de vehículos con sus registros de muestra.
+     Archivo: ./assets/chapter05/sprint2/vehicles-list.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/vehicles-list.png" alt="Vista de listado de vehículos con los registros existentes y los controles de edición y eliminación." width="90%">
+  <p><em>Figura 5.S2-06. Listado de vehículos del contexto Vehicle &amp; Credential Management.</em></p>
+</div>
+<!-- IMAGEN 5.S2-07 · VEHICLES (formulario con credenciales)
+     Captura: formulario de registro de un vehículo mostrando los campos de las
+     credenciales declaradas del servicio y su estado.
+     Archivo: ./assets/chapter05/sprint2/vehicles-form.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/vehicles-form.png" alt="Formulario de registro de un vehículo con sus credenciales declaradas del servicio." width="90%">
+  <p><em>Figura 5.S2-07. Formulario de registro de un vehículo y de sus credenciales declaradas.</em></p>
+</div>
+
+##### Alerting &amp; Incident Management — Notifications
+ 
+<!-- IMAGEN 5.S2-08 · NOTIFICATIONS
+     Captura: vista de notificaciones mostrando el historial de avisos y los controles
+     de activación por tipo de evento. Esta captura es la que evidencia US29.
+     Archivo: ./assets/chapter05/sprint2/notifications.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/notifications.png" alt="Vista de notificaciones con el historial de avisos y los controles de preferencia por tipo de evento." width="90%">
+  <p><em>Figura 5.S2-08. Vista de notificaciones con las preferencias de aviso por tipo de evento.</em></p>
+</div>
+<!-- IMAGEN 5.S2-09 · INCIDENTS
+     Captura: vista de registro de incidencias y retrasos con el formulario completado
+     o con el listado de incidencias registradas. Esta captura es la que evidencia US24.
+     Archivo: ./assets/chapter05/sprint2/incidents.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/incidents.png" alt="Vista de registro de incidencias y retrasos del conductor." width="90%">
+  <p><em>Figura 5.S2-09. Registro de incidencias y retrasos del contexto Alerting &amp; Incident Management.</em></p>
+</div>
+
+##### Subscriptions &amp; Billing — Plans and Billing
+ 
+<!-- IMAGEN 5.S2-10 · PLANS AND BILLING
+     Captura: vista de planes disponibles con sus características y la acción de activación.
+     Archivo: ./assets/chapter05/sprint2/plans-billing.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/plans-billing.png" alt="Vista de planes disponibles con sus características y la acción de activación de la suscripción." width="90%">
+  <p><em>Figura 5.S2-10. Vista de planes disponibles del contexto Subscriptions &amp; Billing.</em></p>
+</div>
+<!-- IMAGEN 5.S2-11 · SUBSCRIPTIONS
+     Captura: vista de suscripciones dentro de la sección de billing, mostrando la
+     suscripción vigente del conductor con su estado y periodo.
+     Esta captura es la que evidencia US09.
+     Archivo: ./assets/chapter05/sprint2/subscriptions.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/subscriptions.png" alt="Vista de suscripciones del conductor con el estado y el periodo de vigencia de la suscripción activa." width="90%">
+  <p><em>Figura 5.S2-11. Vista de suscripciones del conductor, con el estado de la suscripción vigente.</em></p>
+</div>
+
+##### Vista de recurso no encontrado
+ 
+<!-- IMAGEN 5.S2-12 · NOT FOUND
+     Captura: vista de recurso no encontrado, con la barra de direcciones visible
+     mostrando una ruta inexistente para evidenciar la ruta de respaldo del enrutador.
+     Archivo: ./assets/chapter05/sprint2/not-found.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/not-found.png" alt="Vista de recurso no encontrado de la aplicación, con la dirección inexistente visible en el navegador." width="90%">
+  <p><em>Figura 5.S2-12. Vista de recurso no encontrado y ruta de respaldo del sistema de navegación.</em></p>
+</div>
+
+##### Vista en Mobile Web Browser
+ 
+<!-- IMAGEN 5.S2-13 · MOBILE
+     Captura: cualquiera de las vistas anteriores en Mobile Web Browser, con la
+     navegación responsive desplegada. Es requisito del Final Project Statement.
+     Archivo: ./assets/chapter05/sprint2/mobile.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/mobile.png" alt="Frontend Web Application de Rumbo en Mobile Web Browser, con la navegación responsive desplegada." width="45%">
+  <p><em>Figura 5.S2-13. Frontend Web Application en Mobile Web Browser, con la navegación responsive.</em></p>
+</div>
+**Video de navegación del Sprint 2:** [URL del video en Microsoft Stream]
+ 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
+ 
+El Sprint 2 no incluye la implementación del RESTful API de elaboración interna, por lo que **no corresponde documentación OpenAPI en esta iteración**. La Frontend Web Application consume durante este Sprint recursos REST emulados, cuya relación se documenta a continuación para dejar constancia del contrato que cada contexto espera del servicio propio. Esta tabla no sustituye la documentación de Web Services: su propósito es que los endpoints definidos en el Sprint 3 mantengan la misma forma de recurso y evitar reescribir la capa de infraestructura del Frontend.
+ 
+| Bounded Context | Recurso | Acciones consumidas | Uso en la aplicación |
+|---|---|---|---|
+| Vehicle & Credential Management | `/vehicles` | GET (colección e individual), POST, PUT, DELETE | Listado, registro, actualización y eliminación de vehículos y de sus credenciales declaradas. |
+| Profiles & Relationship Management | `/students` | GET (colección e individual), POST, PUT, DELETE | Listado, registro, actualización y eliminación de estudiantes. |
+| Profiles & Relationship Management | `/profiles` | GET (colección e individual), POST, PUT | Consulta y mantenimiento de los perfiles de usuario. |
+| Route & Trip Planning | `/routes` | GET (colección e individual), POST, PUT, DELETE | Listado, creación, actualización y eliminación de rutas con sus paradas. |
+| Alerting & Incident Management | `/incidents` | GET (colección e individual), POST, PUT, DELETE | Registro y seguimiento de incidencias del viaje. |
+| Alerting & Incident Management | `/delays` | GET (colección), POST, PUT | Registro de retrasos y su causa. |
+| Alerting & Incident Management | `/notifications` | GET (colección), PUT | Consulta del historial de avisos y actualización de las preferencias por tipo de evento. |
+| Subscriptions & Billing | `/plans` | GET (colección e individual) | Consulta de los planes disponibles y de sus características. |
+| Subscriptions & Billing | `/subscriptions` | GET (colección e individual), POST, PUT, DELETE | Activación, consulta, actualización y baja de la suscripción del conductor. |
+ 
+La URL base del origen de datos se administra mediante una variable de entorno del proyecto y no se incorpora al repositorio, conforme a lo declarado en la sección 5.1.4.
+ 
+<!-- IMAGEN 5.S2-14 · RECURSOS EMULADOS
+     Captura: panel del servicio de persistencia emulada mostrando los recursos
+     configurados y sus datos de muestra. Evidencia que los endpoints existen
+     y que las vistas no operan contra datos codificados en el Frontend.
+     Archivo: ./assets/chapter05/sprint2/emulated-resources.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/emulated-resources.png" alt="Panel del servicio de persistencia emulada con los recursos configurados para cada Bounded Context y sus datos de muestra." width="90%">
+  <p><em>Figura 5.S2-14. Recursos del origen de datos emulado configurados para cada Bounded Context.</em></p>
+</div>
+La documentación de los endpoints reales con **OpenAPI vía Swagger** se incorpora en el Sprint 3, de acuerdo con la Technical Story **TS06** del Product Backlog.
  
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
  
+Durante el Sprint 2 se realizó la primera publicación de la Frontend Web Application. El proceso consistió en integrar las ramas de los cinco Bounded Contexts en `develop`, promover la versión integrada a `main`, conectar el repositorio con el proveedor de despliegue, configurar el comando de construcción y el directorio del artefacto generado, y declarar la variable de entorno con la URL base del origen de datos.
+ 
+| Configuración | Valor |
+|---|---|
+| Repository | `AIpaca-UPC/web-applications-web-app` |
+| Branch publicada | `main` |
+| Framework | Vue 3 |
+| Comando de construcción | [comando de build del proyecto] |
+| Directorio del artefacto | [directorio de salida del build] |
+| Variable de entorno | URL base del origen de datos de la aplicación |
+| Proveedor de despliegue | [proveedor utilizado] |
+| **URL pública** | **[URL de la Frontend Web Application desplegada]** |
+ 
+Al tratarse de una Single Page Application con enrutamiento del lado del cliente, la configuración del proveedor incluye la reescritura de toda ruta no reconocida hacia el punto de entrada de la aplicación. Sin esta reescritura, el acceso directo a una vista interna o la recarga de la página devuelven un error del servidor en lugar de la vista correspondiente, y la vista de recurso no encontrado implementada en la Task **S05** no llega a ejecutarse.
+ 
+<!-- IMAGEN 5.S2-15 · CONFIGURACIÓN DEL DESPLIEGUE
+     Captura: panel del proveedor de despliegue mostrando el proyecto conectado al
+     repositorio, el comando de construcción y la variable de entorno configurada.
+     Archivo: ./assets/chapter05/sprint2/deploy-config.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/deploy-config.png" alt="Panel del proveedor de despliegue con el proyecto conectado al repositorio y la configuración de construcción." width="90%">
+  <p><em>Figura 5.S2-15. Configuración del despliegue de la Frontend Web Application.</em></p>
+</div>
+<!-- IMAGEN 5.S2-16 · DESPLIEGUE EXITOSO
+     Captura: registro del despliegue finalizado correctamente, con la fecha y el
+     commit publicado visibles.
+     Archivo: ./assets/chapter05/sprint2/deploy-success.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/deploy-success.png" alt="Registro del despliegue finalizado correctamente, con el commit publicado y la fecha." width="90%">
+  <p><em>Figura 5.S2-16. Despliegue de la Frontend Web Application finalizado correctamente.</em></p>
+</div>
+<!-- IMAGEN 5.S2-17 · APLICACIÓN PÚBLICA
+     Captura: la aplicación abierta en su URL pública, con la barra de direcciones
+     visible. Es la evidencia que acredita el despliegue exigido para esta entrega.
+     Archivo: ./assets/chapter05/sprint2/deploy-public-app.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/deploy-public-app.png" alt="Frontend Web Application de Rumbo accesible en su URL pública, con la barra de direcciones visible." width="90%">
+  <p><em>Figura 5.S2-17. Frontend Web Application accesible en su URL pública.</em></p>
+</div>
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+ 
+La colaboración del equipo durante el Sprint 2 se evidencia mediante los insights del repositorio de la Frontend Web Application, que registran la distribución de commits por integrante y la estructura de ramas por Bounded Context.
+ 
+- **Commits:** https://github.com/AIpaca-UPC/web-applications-web-app/commits/main/
+- **Contributors:** https://github.com/AIpaca-UPC/web-applications-web-app/graphs/contributors
+- **Network:** https://github.com/AIpaca-UPC/web-applications-web-app/network
+- **Pull Requests:** https://github.com/AIpaca-UPC/web-applications-web-app/pulls?q=is%3Apr
+<!-- IMAGEN 5.S2-18 · COMMITS
+     Captura: gráfico de commits del repositorio durante el periodo del Sprint 2.
+     Archivo: ./assets/chapter05/sprint2/insights-commits.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/insights-commits.png" alt="Gráfico de commits del repositorio de la Frontend Web Application durante el Sprint 2." width="90%">
+  <p><em>Figura 5.S2-18. Actividad de commits del repositorio <code>AIpaca-UPC/web-applications-web-app</code> durante el Sprint 2.</em></p>
+</div>
+<!-- IMAGEN 5.S2-19 · CONTRIBUTORS
+     Captura: gráfico de contributors mostrando los cinco integrantes con aportes.
+     Es la evidencia que el docente usa para verificar la participación individual.
+     Archivo: ./assets/chapter05/sprint2/insights-contributors.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/insights-contributors.png" alt="Gráfico de contributors del repositorio de la Frontend Web Application, con el aporte de cada integrante." width="90%">
+  <p><em>Figura 5.S2-19. Contribuciones por integrante en el repositorio de la Frontend Web Application.</em></p>
+</div>
+<!-- IMAGEN 5.S2-20 · NETWORK
+     Captura: grafo de red mostrando las cinco ramas de Bounded Context y su
+     integración en develop. Evidencia la aplicación de GitFlow.
+     Archivo: ./assets/chapter05/sprint2/insights-network.png -->
+<div align="center">
+  <img src="./assets/chapter05/sprint2/insights-network.png" alt="Grafo de red de ramas del repositorio, con las ramas por Bounded Context integradas en develop." width="90%">
+  <p><em>Figura 5.S2-20. Grafo de ramas por Bounded Context y su integración en <code>develop</code>.</em></p>
+</div>
+El análisis de estos insights permitió al equipo verificar que cada integrante registró aportes en el contexto del que figura como Leader en la matriz LACX, y que la integración de los cinco contextos se realizó sobre la rama `develop` antes de promover la versión publicada, conforme al flujo adoptado en la sección 5.1.2.
  
 ## 5.3. Validation Interviews
  
