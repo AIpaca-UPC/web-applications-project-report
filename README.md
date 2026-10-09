@@ -2229,7 +2229,7 @@ Los diagramas corresponden a la **arquitectura objetivo** del producto. Por ello
 Este esquema concentra la persistencia de cuentas, sesiones, recuperación de acceso, roles y permisos. Las tablas de relación permiten separar la identidad del usuario de las capacidades que puede ejecutar dentro de la plataforma.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/database-diagrams/database-diagram-iam.png" alt="Identity and Access Management Database Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/iam-class-diagram.png" alt="Identity and Access Management Database Diagram" width="95%">
 </div>
 
 #### Profiles & Relationship Management
@@ -2237,7 +2237,7 @@ Este esquema concentra la persistencia de cuentas, sesiones, recuperación de ac
 El esquema almacena los perfiles de Parent, Driver y Student, junto con las relaciones de autorización y datos complementarios necesarios para representar quién puede consultar la información de cada estudiante.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/database-diagrams/database-diagram-profiles-relationship.png" alt="Profiles and Relationship Management Database Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/profile-class-diagram.png" alt="Profiles and Relationship Management Database Diagram" width="95%">
 </div>
 
 #### Vehicle & Credential Management
@@ -2245,7 +2245,7 @@ El esquema almacena los perfiles de Parent, Driver y Student, junto con las rela
 Este diagrama representa la persistencia de vehículos, asignaciones, documentos y credenciales asociadas al Driver. Las claves foráneas permiten mantener la relación con el conductor sin trasladar la responsabilidad del vehículo a otros Bounded Contexts.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/database-diagrams/database-diagram-vehicle-credential.png" alt="Vehicle and Credential Management Database Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/vehicle-class-diagram.png" alt="Vehicle and Credential Management Database Diagram" width="95%">
 </div>
 
 #### Route & Trip Planning
@@ -2253,7 +2253,7 @@ Este diagrama representa la persistencia de vehículos, asignaciones, documentos
 El modelo de datos de planificación mantiene rutas, paradas, estudiantes asignados y programación de viajes. Estas relaciones permiten conservar el orden de recorrido y preparar la información que utilizará posteriormente la ejecución del traslado.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/database-diagrams/database-diagram-route-trip-planning.png" alt="Route and Trip Planning Database Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/route-class-diagram.png" alt="Route and Trip Planning Database Diagram" width="95%">
 </div>
 
 #### Trip Execution & Monitoring
@@ -2261,7 +2261,7 @@ El modelo de datos de planificación mantiene rutas, paradas, estudiantes asigna
 Este esquema persiste los viajes ejecutados y los principales eventos generados durante el recorrido, incluyendo estados de estudiantes, recojos, entregas, entradas de línea de tiempo y registros complementarios de ubicación cuando correspondan.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/database-diagrams/database-diagram-trip-execution.png" alt="Trip Execution and Monitoring Database Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/trip-class-diagram.png" alt="Trip Execution and Monitoring Database Diagram" width="95%">
 </div>
 
 #### Incident & Delay Management
@@ -2269,7 +2269,7 @@ Este esquema persiste los viajes ejecutados y los principales eventos generados 
 El diagrama separa la persistencia de retrasos e incidencias de la lógica de notificaciones. Incluye información del evento, estudiantes afectados, evidencia y acciones de resolución necesarias para conservar la trazabilidad de cada situación reportada.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/database-diagrams/database-diagram-incident-delay.png" alt="Incident and Delay Management Database Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/incident-class-diagram.png" alt="Incident and Delay Management Database Diagram" width="95%">
 </div>
 
 #### Notification Management
@@ -2277,7 +2277,7 @@ El diagrama separa la persistencia de retrasos e incidencias de la lógica de no
 Este esquema administra notificaciones, destinatarios, preferencias, reglas de alerta y registros de entrega. Su propósito es persistir el ciclo de comunicación generado a partir de eventos del dominio sin duplicar los datos propios de rutas, viajes o incidencias.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/database-diagrams/database-diagram-notification.png" alt="Notification Management Database Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/notification-class-diagram.png" alt="Notification Management Database Diagram" width="95%">
 </div>
 
 #### Subscriptions & Billing
@@ -2285,7 +2285,7 @@ Este esquema administra notificaciones, destinatarios, preferencias, reglas de a
 El esquema comercial relaciona al Driver con un plan y con el estado de su suscripción. También representa entidades de facturación previstas por la arquitectura objetivo; para el alcance actual, la funcionalidad prioritaria continúa siendo la activación y consulta del estado de la suscripción.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/database-diagrams/database-diagram-subscriptions-billing.png" alt="Subscriptions and Billing Database Diagram" width="95%">
+  <img src="./assets/chapter04/dataclass-diagrams/susbscription-class-diagram.png" alt="Subscriptions and Billing Database Diagram" width="95%">
 </div>
 
 En conjunto, los ocho Database Diagrams mantienen correspondencia con los Bounded Contexts definidos en 4.6 y con los Class Diagrams de 4.7, conservando la separación de responsabilidades entre identidad, perfiles, vehículos, planificación, ejecución, incidencias, notificaciones y suscripciones.
