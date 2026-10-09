@@ -2992,15 +2992,20 @@ La evidencia de ejecución del Sprint 2 se presenta mediante capturas de la **Fr
 **URL pública de la aplicación:** [URL de la Frontend Web Application desplegada]
  
 ##### Vista de inicio
- 
-<!-- IMAGEN 5.S2-01 · HOME
-     Captura: vista de inicio del espacio de trabajo del conductor.
-     Debe mostrarse el menú de navegación con los accesos a Students, Routes, Vehicles,
-     Notifications y Plans & Billing, y el contenido de bienvenida del panel.
-     Archivo: ./assets/chapter05/sprint2/home.png -->
+
+Las siguientes capturas documentan las vistas del Bounded Context **Home** de la Frontend Web Application de Rumbo durante el Sprint 2.
+
 <div align="center">
-  <img src="./assets/chapter05/sprint2/home.png" alt="Vista de inicio del espacio de trabajo del conductor en la Frontend Web Application de Rumbo, con el menú de navegación entre contextos." width="90%">
-  <p><em>Figura 5.S2-01. Vista de inicio del espacio de trabajo del conductor, con los accesos a cada Bounded Context.</em></p>
+  <img src="./assets/chapter5/sprint2/dashboard-1.jpeg" alt="Primera captura del dashboard Home de Rumbo." width="90%">
+  <p><em>Figura 5.S2-01 (a). Primera vista del dashboard Home.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter5/sprint2/dashboard-2.jpeg" alt="Segunda captura del dashboard Home de Rumbo." width="90%">
+  <p><em>Figura 5.S2-01 (b). Segunda vista del dashboard Home.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter5/sprint2/dashboard-3.jpeg" alt="Tercera captura del dashboard Home de Rumbo." width="90%">
+  <p><em>Figura 5.S2-01 (c). Tercera vista del dashboard Home.</em></p>
 </div>
 
 ##### Profiles &amp; Relationship Management — Students
@@ -3201,11 +3206,11 @@ La colaboración del equipo durante el Sprint 2 se evidencia mediante los insigh
 - **Network:** https://github.com/AIpaca-UPC/web-applications-web-app/network
 - **Pull Requests:** https://github.com/AIpaca-UPC/web-applications-web-app/pulls?q=is%3Apr
 <!-- IMAGEN 5.S2-18 · COMMITS
-     Captura: gráfico de commits del repositorio durante el periodo del Sprint 2.
-     Archivo: ./assets/chapter05/sprint2/insights-commits.png -->
+     Captura del historial de commits del repositorio de la Frontend Web Application.
+     Archivo: ./assets/chapter5/sprint2/commits.png -->
 <div align="center">
-  <img src="./assets/chapter05/sprint2/insights-commits.png" alt="Gráfico de commits del repositorio de la Frontend Web Application durante el Sprint 2." width="90%">
-  <p><em>Figura 5.S2-18. Actividad de commits del repositorio <code>AIpaca-UPC/web-applications-web-app</code> durante el Sprint 2.</em></p>
+  <img src="./assets/chapter5/sprint2/commits.png" alt="Captura del historial de commits del repositorio web-applications-web-app de Rumbo." width="90%">
+  <p><em>Figura 5.S2-18. Evidencia de commits del repositorio de la Frontend Web Application durante el Sprint 2.</em></p>
 </div>
 <!-- IMAGEN 5.S2-19 · CONTRIBUTORS
      Captura: gráfico de contributors mostrando los cinco integrantes con aportes.
@@ -3215,13 +3220,16 @@ La colaboración del equipo durante el Sprint 2 se evidencia mediante los insigh
   <img src="./assets/chapter05/sprint2/insights-contributors.png" alt="Gráfico de contributors del repositorio de la Frontend Web Application, con el aporte de cada integrante." width="90%">
   <p><em>Figura 5.S2-19. Contribuciones por integrante en el repositorio de la Frontend Web Application.</em></p>
 </div>
-<!-- IMAGEN 5.S2-20 · NETWORK
-     Captura: grafo de red mostrando las cinco ramas de Bounded Context y su
-     integración en develop. Evidencia la aplicación de GitFlow.
-     Archivo: ./assets/chapter05/sprint2/insights-network.png -->
+<!-- IMÁGENES 5.S2-20 · NETWORK
+     Capturas de la red de ramas del repositorio de la Frontend Web Application.
+     Archivos: ./assets/chapter5/sprint2/network.png y ./assets/chapter5/sprint2/network-web-2.png -->
 <div align="center">
-  <img src="./assets/chapter05/sprint2/insights-network.png" alt="Grafo de red de ramas del repositorio, con las ramas por Bounded Context integradas en develop." width="90%">
-  <p><em>Figura 5.S2-20. Grafo de ramas por Bounded Context y su integración en <code>develop</code>.</em></p>
+  <img src="./assets/chapter5/sprint2/network.png" alt="Primera captura de la red de ramas del repositorio web-applications-web-app." width="90%">
+  <p><em>Figura 5.S2-20 (a). Evidencia de la red de ramas del repositorio de la Frontend Web Application.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter5/sprint2/network-web-2.png" alt="Segunda captura de la red de ramas del repositorio web-applications-web-app." width="90%">
+  <p><em>Figura 5.S2-20 (b). Evidencia complementaria de la red de ramas del repositorio.</em></p>
 </div>
 El análisis de estos insights permitió al equipo verificar que cada integrante registró aportes en el contexto del que figura como Leader en la matriz LACX, y que la integración de los cinco contextos se realizó sobre la rama `develop` antes de promover la versión publicada, conforme al flujo adoptado en la sección 5.1.2.
  
