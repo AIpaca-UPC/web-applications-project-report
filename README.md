@@ -2825,26 +2825,13 @@ Durante el Sprint 1 se realizó la primera publicación de la Landing Page. El p
 </div>
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
- 
-La colaboración del equipo durante el Sprint 1 se evidencia mediante los insights del repositorio de la Landing Page, que registran la distribución de commits por integrante y la evolución de las ramas durante la iteración.
- 
+
+La colaboración durante el Sprint 1 puede consultarse directamente en el repositorio de la Landing Page. No se incluyen capturas de Insights porque no se han proporcionado esos archivos.
+
 - **Commits:** https://github.com/AIpaca-UPC/landing-page/commits/main/
 - **Contributors:** https://github.com/AIpaca-UPC/landing-page/graphs/contributors
 - **Network:** https://github.com/AIpaca-UPC/landing-page/network
-<div align="center">
-  <img src="./assets/chapter05/insights-commits.png" alt="Gráfico de commits del repositorio landing-page durante el Sprint 1." width="90%">
-  <p><em>Figura 5.S1-14. Actividad de commits del repositorio <code>AIpaca-UPC/landing-page</code> durante el Sprint 1.</em></p>
-</div>
-<div align="center">
-  <img src="./assets/chapter05/insights-contributors.png" alt="Gráfico de contributors del repositorio landing-page durante el Sprint 1." width="90%">
-  <p><em>Figura 5.S1-15. Contribuciones por integrante en el repositorio <code>AIpaca-UPC/landing-page</code>.</em></p>
-</div>
-<div align="center">
-  <img src="./assets/chapter05/insights-network.png" alt="Grafo de red de ramas del repositorio landing-page durante el Sprint 1." width="90%">
-  <p><em>Figura 5.S1-16. Grafo de ramas e integraciones del repositorio <code>AIpaca-UPC/landing-page</code>.</em></p>
-</div>
-El análisis de estos insights permitió al equipo verificar que la implementación de la Landing Page se concentró en los responsables declarados en la matriz LACX y que la integración de cambios se realizó sobre la rama de publicación conforme al flujo adoptado en la sección 5.1.2.
- 
+
 ### 5.2.2. Sprint 2
  
 El Sprint 2 tiene como alcance la **primera versión de la Frontend Web Application** de Rumbo, construida con **Vue 3**, **PrimeVue** y **Axios**. La iteración se concentra en el **espacio de trabajo del conductor**, que es el segmento con mayor carga operativa identificada en el Needfinding, e implementa las vistas de gestión de los cinco Bounded Contexts definidos en el Capítulo IV: **Vehicle & Credential Management**, **Profiles & Relationship Management**, **Route & Trip Planning**, **Alerting & Incident Management** y **Subscriptions & Billing**.
@@ -3005,11 +2992,9 @@ La evidencia de implementación del Sprint 2 se conserva en el repositorio `AIpa
 **URL del repositorio:** https://github.com/AIpaca-UPC/web-applications-web-app
  
 #### 5.2.2.5. Execution Evidence for Sprint Review
- 
-La evidencia de ejecución del Sprint 2 se presenta mediante capturas de la **Frontend Web Application de Rumbo** publicada en su URL pública. Las capturas registran la vista de inicio del espacio de trabajo del conductor, las vistas de gestión de cada Bounded Context con sus operaciones de creación, consulta, actualización y eliminación, y la vista de recurso no encontrado. Las vistas operan sobre el origen de datos emulado descrito en la sección 5.1.4; no constituyen evidencia de funcionamiento del RESTful API propio, cuya implementación corresponde al Sprint 3.
- 
-**URL pública de la aplicación:** [URL de la Frontend Web Application desplegada]
- 
+
+Las capturas originales del equipo documentan las interfaces de **Home, Profiles & Relationship Management, Route & Trip Planning, Vehicle & Credential Management, Subscriptions & Billing** y la pantalla **404** durante el Sprint 2. No hay capturas aportadas para **Alerting & Incident Management** ni para Mobile Web Browser; por lo tanto, esas evidencias visuales no se incluyen. Las imágenes no constituyen, por sí solas, pruebas de ejecución de todas las operaciones CRUD ni de despliegue público.
+
 ##### Vista de inicio
 
 Las siguientes capturas documentan las vistas del Bounded Context **Home** de la Frontend Web Application de Rumbo durante el Sprint 2.
@@ -3028,21 +3013,12 @@ Las siguientes capturas documentan las vistas del Bounded Context **Home** de la
 </div>
 
 ##### Profiles &amp; Relationship Management — Students
- 
-<!-- IMAGEN 5.S2-02 · STUDENTS (listado)
-     Captura: vista de listado de estudiantes con al menos tres registros de muestra
-     y los controles de edición y eliminación visibles.
-     Archivo: ./assets/chapter05/sprint2/students-list.png -->
+
+Se presenta la captura original aportada por el equipo para el Bounded Context **Profiles & Relationship Management**.
+
 <div align="center">
-  <img src="./assets/chapter05/sprint2/students-list.png" alt="Vista de listado de estudiantes con los registros existentes y los controles de edición y eliminación." width="90%">
-  <p><em>Figura 5.S2-02. Listado de estudiantes del contexto Profiles &amp; Relationship Management.</em></p>
-</div>
-<!-- IMAGEN 5.S2-03 · STUDENTS (formulario)
-     Captura: formulario de registro o edición de un estudiante con sus campos completados.
-     Archivo: ./assets/chapter05/sprint2/students-form.png -->
-<div align="center">
-  <img src="./assets/chapter05/sprint2/students-form.png" alt="Formulario de registro de un estudiante con sus campos obligatorios." width="90%">
-  <p><em>Figura 5.S2-03. Formulario de registro de un estudiante.</em></p>
+  <img src="./assets/chapter5/sprint2/profiles-captura.png" alt="Captura original de la interfaz Profiles & Relationship Management de Rumbo." width="90%">
+  <p><em>Figura 5.S2-02. Evidencia de la interfaz de Profiles &amp; Relationship Management.</em></p>
 </div>
 
 ##### Route &amp; Trip Planning — Routes
@@ -3083,67 +3059,22 @@ Las siguientes capturas documentan la interfaz de **Vehicle & Credential Managem
   <p><em>Figura 5.S2-07 (b). Cuarta captura del Bounded Context Vehicle & Credential Management.</em></p>
 </div>
  
-##### Alerting &amp; Incident Management — Notifications
- 
-<!-- IMAGEN 5.S2-08 · NOTIFICATIONS
-     Captura: vista de notificaciones mostrando el historial de avisos y los controles
-     de activación por tipo de evento. Esta captura es la que evidencia US29.
-     Archivo: ./assets/chapter05/sprint2/notifications.png -->
-<div align="center">
-  <img src="./assets/chapter05/sprint2/notifications.png" alt="Vista de notificaciones con el historial de avisos y los controles de preferencia por tipo de evento." width="90%">
-  <p><em>Figura 5.S2-08. Vista de notificaciones con las preferencias de aviso por tipo de evento.</em></p>
-</div>
-<!-- IMAGEN 5.S2-09 · INCIDENTS
-     Captura: vista de registro de incidencias y retrasos con el formulario completado
-     o con el listado de incidencias registradas. Esta captura es la que evidencia US24.
-     Archivo: ./assets/chapter05/sprint2/incidents.png -->
-<div align="center">
-  <img src="./assets/chapter05/sprint2/incidents.png" alt="Vista de registro de incidencias y retrasos del conductor." width="90%">
-  <p><em>Figura 5.S2-09. Registro de incidencias y retrasos del contexto Alerting &amp; Incident Management.</em></p>
-</div>
-
 ##### Subscriptions &amp; Billing — Plans and Billing
- 
-<!-- IMAGEN 5.S2-10 · PLANS AND BILLING
-     Captura: vista de planes disponibles con sus características y la acción de activación.
-     Archivo: ./assets/chapter05/sprint2/plans-billing.png -->
+
+Se incorpora la captura original del contexto **Subscriptions & Billing** aportada por el equipo durante el Sprint 2.
+
 <div align="center">
-  <img src="./assets/chapter05/sprint2/plans-billing.png" alt="Vista de planes disponibles con sus características y la acción de activación de la suscripción." width="90%">
-  <p><em>Figura 5.S2-10. Vista de planes disponibles del contexto Subscriptions &amp; Billing.</em></p>
-</div>
-<!-- IMAGEN 5.S2-11 · SUBSCRIPTIONS
-     Captura: vista de suscripciones dentro de la sección de billing, mostrando la
-     suscripción vigente del conductor con su estado y periodo.
-     Esta captura es la que evidencia US09.
-     Archivo: ./assets/chapter05/sprint2/subscriptions.png -->
-<div align="center">
-  <img src="./assets/chapter05/sprint2/subscriptions.png" alt="Vista de suscripciones del conductor con el estado y el periodo de vigencia de la suscripción activa." width="90%">
-  <p><em>Figura 5.S2-11. Vista de suscripciones del conductor, con el estado de la suscripción vigente.</em></p>
+  <img src="./assets/chapter5/sprint2/billing-captura.png" alt="Captura original de la interfaz Subscriptions & Billing de Rumbo." width="90%">
+  <p><em>Figura 5.S2-10. Evidencia de la interfaz de Subscriptions &amp; Billing.</em></p>
 </div>
 
 ##### Vista de recurso no encontrado
- 
-<!-- IMAGEN 5.S2-12 · NOT FOUND
-     Captura: vista de recurso no encontrado, con la barra de direcciones visible
-     mostrando una ruta inexistente para evidenciar la ruta de respaldo del enrutador.
-     Archivo: ./assets/chapter05/sprint2/not-found.png -->
+
 <div align="center">
-  <img src="./assets/chapter05/sprint2/not-found.png" alt="Vista de recurso no encontrado de la aplicación, con la dirección inexistente visible en el navegador." width="90%">
-  <p><em>Figura 5.S2-12. Vista de recurso no encontrado y ruta de respaldo del sistema de navegación.</em></p>
+  <img src="./assets/chapter5/sprint2/404-noecontrado.jpeg" alt="Captura original de la página 404 de Rumbo." width="90%">
+  <p><em>Figura 5.S2-12. Vista de recurso no encontrado (404) de Rumbo.</em></p>
 </div>
 
-##### Vista en Mobile Web Browser
- 
-<!-- IMAGEN 5.S2-13 · MOBILE
-     Captura: cualquiera de las vistas anteriores en Mobile Web Browser, con la
-     navegación responsive desplegada. Es requisito del Final Project Statement.
-     Archivo: ./assets/chapter05/sprint2/mobile.png -->
-<div align="center">
-  <img src="./assets/chapter05/sprint2/mobile.png" alt="Frontend Web Application de Rumbo en Mobile Web Browser, con la navegación responsive desplegada." width="45%">
-  <p><em>Figura 5.S2-13. Frontend Web Application en Mobile Web Browser, con la navegación responsive.</em></p>
-</div>
-**Video de navegación del Sprint 2:** [URL del video en Microsoft Stream]
- 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
  
 El Sprint 2 no incluye la implementación del RESTful API de elaboración interna, por lo que **no corresponde documentación OpenAPI en esta iteración**. La Frontend Web Application consume durante este Sprint recursos REST emulados, cuya relación se documenta a continuación para dejar constancia del contrato que cada contexto espera del servicio propio. Esta tabla no sustituye la documentación de Web Services: su propósito es que los endpoints definidos en el Sprint 3 mantengan la misma forma de recurso y evitar reescribir la capa de infraestructura del Frontend.
@@ -3162,58 +3093,11 @@ El Sprint 2 no incluye la implementación del RESTful API de elaboración intern
  
 La URL base del origen de datos se administra mediante una variable de entorno del proyecto y no se incorpora al repositorio, conforme a lo declarado en la sección 5.1.4.
  
-<!-- IMAGEN 5.S2-14 · RECURSOS EMULADOS
-     Captura: panel del servicio de persistencia emulada mostrando los recursos
-     configurados y sus datos de muestra. Evidencia que los endpoints existen
-     y que las vistas no operan contra datos codificados en el Frontend.
-     Archivo: ./assets/chapter05/sprint2/emulated-resources.png -->
-<div align="center">
-  <img src="./assets/chapter05/sprint2/emulated-resources.png" alt="Panel del servicio de persistencia emulada con los recursos configurados para cada Bounded Context y sus datos de muestra." width="90%">
-  <p><em>Figura 5.S2-14. Recursos del origen de datos emulado configurados para cada Bounded Context.</em></p>
-</div>
 La documentación de los endpoints reales con **OpenAPI vía Swagger** se incorpora en el Sprint 3, de acuerdo con la Technical Story **TS06** del Product Backlog.
  
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
- 
-Durante el Sprint 2 se realizó la primera publicación de la Frontend Web Application. El proceso consistió en integrar las ramas de los cinco Bounded Contexts en `develop`, promover la versión integrada a `main`, conectar el repositorio con el proveedor de despliegue, configurar el comando de construcción y el directorio del artefacto generado, y declarar la variable de entorno con la URL base del origen de datos.
- 
-| Configuración | Valor |
-|---|---|
-| Repository | `AIpaca-UPC/web-applications-web-app` |
-| Branch publicada | `main` |
-| Framework | Vue 3 |
-| Comando de construcción | [comando de build del proyecto] |
-| Directorio del artefacto | [directorio de salida del build] |
-| Variable de entorno | URL base del origen de datos de la aplicación |
-| Proveedor de despliegue | [proveedor utilizado] |
-| **URL pública** | **[URL de la Frontend Web Application desplegada]** |
- 
-Al tratarse de una Single Page Application con enrutamiento del lado del cliente, la configuración del proveedor incluye la reescritura de toda ruta no reconocida hacia el punto de entrada de la aplicación. Sin esta reescritura, el acceso directo a una vista interna o la recarga de la página devuelven un error del servidor en lugar de la vista correspondiente, y la vista de recurso no encontrado implementada en la Task **S05** no llega a ejecutarse.
- 
-<!-- IMAGEN 5.S2-15 · CONFIGURACIÓN DEL DESPLIEGUE
-     Captura: panel del proveedor de despliegue mostrando el proyecto conectado al
-     repositorio, el comando de construcción y la variable de entorno configurada.
-     Archivo: ./assets/chapter05/sprint2/deploy-config.png -->
-<div align="center">
-  <img src="./assets/chapter05/sprint2/deploy-config.png" alt="Panel del proveedor de despliegue con el proyecto conectado al repositorio y la configuración de construcción." width="90%">
-  <p><em>Figura 5.S2-15. Configuración del despliegue de la Frontend Web Application.</em></p>
-</div>
-<!-- IMAGEN 5.S2-16 · DESPLIEGUE EXITOSO
-     Captura: registro del despliegue finalizado correctamente, con la fecha y el
-     commit publicado visibles.
-     Archivo: ./assets/chapter05/sprint2/deploy-success.png -->
-<div align="center">
-  <img src="./assets/chapter05/sprint2/deploy-success.png" alt="Registro del despliegue finalizado correctamente, con el commit publicado y la fecha." width="90%">
-  <p><em>Figura 5.S2-16. Despliegue de la Frontend Web Application finalizado correctamente.</em></p>
-</div>
-<!-- IMAGEN 5.S2-17 · APLICACIÓN PÚBLICA
-     Captura: la aplicación abierta en su URL pública, con la barra de direcciones
-     visible. Es la evidencia que acredita el despliegue exigido para esta entrega.
-     Archivo: ./assets/chapter05/sprint2/deploy-public-app.png -->
-<div align="center">
-  <img src="./assets/chapter05/sprint2/deploy-public-app.png" alt="Frontend Web Application de Rumbo accesible en su URL pública, con la barra de direcciones visible." width="90%">
-  <p><em>Figura 5.S2-17. Frontend Web Application accesible en su URL pública.</em></p>
-</div>
+
+No se adjuntan capturas originales del despliegue de la Frontend Web Application ni una URL pública verificada para el Sprint 2. Se conserva esta sección del informe sin figuras ni datos de publicación no acreditados.
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
  
@@ -3230,14 +3114,6 @@ La colaboración del equipo durante el Sprint 2 se evidencia mediante los insigh
   <img src="./assets/chapter5/sprint2/commits.png" alt="Captura del historial de commits del repositorio web-applications-web-app de Rumbo." width="90%">
   <p><em>Figura 5.S2-18. Evidencia de commits del repositorio de la Frontend Web Application durante el Sprint 2.</em></p>
 </div>
-<!-- IMAGEN 5.S2-19 · CONTRIBUTORS
-     Captura: gráfico de contributors mostrando los cinco integrantes con aportes.
-     Es la evidencia que el docente usa para verificar la participación individual.
-     Archivo: ./assets/chapter05/sprint2/insights-contributors.png -->
-<div align="center">
-  <img src="./assets/chapter05/sprint2/insights-contributors.png" alt="Gráfico de contributors del repositorio de la Frontend Web Application, con el aporte de cada integrante." width="90%">
-  <p><em>Figura 5.S2-19. Contribuciones por integrante en el repositorio de la Frontend Web Application.</em></p>
-</div>
 <!-- IMÁGENES 5.S2-20 · NETWORK
      Capturas de la red de ramas del repositorio de la Frontend Web Application.
      Archivos: ./assets/chapter5/sprint2/network.png y ./assets/chapter5/sprint2/network-web-2.png -->
@@ -3249,7 +3125,7 @@ La colaboración del equipo durante el Sprint 2 se evidencia mediante los insigh
   <img src="./assets/chapter5/sprint2/network-web-2.png" alt="Segunda captura de la red de ramas del repositorio web-applications-web-app." width="90%">
   <p><em>Figura 5.S2-20 (b). Evidencia complementaria de la red de ramas del repositorio.</em></p>
 </div>
-El análisis de estos insights permitió al equipo verificar que cada integrante registró aportes en el contexto del que figura como Leader en la matriz LACX, y que la integración de los cinco contextos se realizó sobre la rama `develop` antes de promover la versión publicada, conforme al flujo adoptado en la sección 5.1.2.
+Se mantienen las capturas originales de commits y Network aportadas por el equipo. El enlace a Contributors permite consultar esa información en GitHub, pero no se adjunta captura de la vista.
  
 ## 5.3. Validation Interviews
  
