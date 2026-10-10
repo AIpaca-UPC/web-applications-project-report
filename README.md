@@ -40,13 +40,10 @@
 
 ## Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor(es)                    | Descripción de cambios                                                                                                                                |
-| ------- | ---------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 0.1     | 07/09/2026 | Lino Quispe, Leonardo Miguel | Creación de la estructura base del informe de Rumbo.                                                                                                  |
-| 0.2     | 11/09/2026 | Equipo Rumbo                 | Actualización de integrantes y refinamiento del Capítulo I para AV1.                                                                                  |
-| 0.3     | 20/09/2026 | Equipo Rumbo                 | Integración de Collaboration Insights, Student Outcome, artefactos de Product Design y avance de Sprint 1.                                            |
-| 0.4     | 08/10/2026 | Equipo Rumbo                 | Consolidación del Capítulo II para Aplicaciones Web: análisis competitivo, entrevistas, Needfinding, Big Picture EventStorming y Ubiquitous Language. |
-
+| Version | Fecha | Autores | Descripción / Modificaciones |
+| :--- | :--- | :--- | :--- |
+| **v.01.Avn1** | 11/09/2026 | Marcelo Barrientos Quispe<br>Alejandro Diaz Ramirez<br>Geronimo Puma, Kevin Joel<br>Leonardo Miguel Lino Quispe<br>Alexandra Yamile Meza Soza | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint. |
+| **v.02.TB1** | 7/10/2026 | Marcelo Barrientos Quispe<br>Alejandro Diaz Ramirez<br>Geronimo Puma, Kevin Joel<br>Leonardo Miguel Lino Quispe | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint.<br>5.2.2. Sprint 2<br>5.2.2.1.Sprint Planning 2.<br>5.2.2.2. Aspect Leaders and Collaborators.<br>5.2.2.3.Sprint Backlog 2.<br>5.2.2.4.Development Evidence for Sprint Review.<br>5.2.2.5.Execution Evidence for Sprint Review.<br>5.2.2.6.Services Documentation Evidence for Sprint Review.<br>5.2.2.7.Software Deployment Evidence for Sprint Review.<br>5.2.2.8.Team Collaboration Insights during Sprint. |
 ---
 
 ## Project Report Collaboration Insights
@@ -56,6 +53,24 @@
 **Landing Page:** https://github.com/AIpaca-UPC/landing-page  
 **Frontend Web Application:** https://github.com/AIpaca-UPC/web-applications-web-app  
 **Web Service:** https://github.com/AIpaca-UPC/web-applications-web-service
+
+### AV1 — Collaboration Insights
+
+Las siguientes imágenes son **capturas reales aportadas por el equipo** sobre la actividad del repositorio de la **Landing Page de Rumbo**, correspondiente al proyecto de **Aplicaciones Web**. Se presentan como evidencia del historial de commits y del trabajo con ramas durante el AV1.
+
+**Grafica de commits**
+
+<div align="center">
+  <img src="./assets/chapter5/sprint1/contributors.png" alt="Captura real de la actividad de commits del proyecto Web Applications Web App." width="95%">
+  <p><em>Figura AV1-C1. Evidencia de graficos de la Landing Page de Rumbo.</em></p>
+</div>
+
+**Contributors — commits por integrante**
+
+<div align="center">
+  <img src="./assets/chapter5/sprint1/pulse.png" alt="Captura real de Network del repositorio de la Frontend Web Application de Rumbo." width="95%">
+  <p><em>Figura AV1-C2. Evidencia de graficos de la Landing Page de Rumbo.</em></p>
+</div>
 
 ### TB1 — Collaboration Insights
 
@@ -181,10 +196,10 @@ Las siguientes imágenes son **capturas reales aportadas por el equipo** sobre l
 
 El curso contribuye al cumplimiento del **ABET – EAC – Student Outcome 5**: la capacidad de funcionar efectivamente en un equipo cuyos miembros proporcionan liderazgo de manera conjunta, crean un entorno colaborativo e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
-| Criterio específico                                                                             | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                             | Conclusiones                                                                                                                                                                            |
-| ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                | **Barrientos Quispe, Marcelo — AV1:** liderazgo del Capítulo I. <br> **Meza Soza, Alexandra Yamile — AV1:** liderazgo del Capítulo II. <br> **Lino Quispe, Leonardo Miguel — AV1:** liderazgo de los Capítulos III y V e integración de evidencias. <br> **Geronimo Puma, Kevin Joel — AV1:** desarrollo conjunto del Capítulo IV. <br> **Díaz Ramírez, Alejandro — AV1:** desarrollo conjunto del Capítulo IV. | El equipo distribuyó el liderazgo por capítulos y coordinó la integración de los entregables para mantener una versión común del Project Report.                                        |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Marcelo, Alexandra, Leonardo, Kevin y Alejandro — AV1:** organizaron el trabajo mediante ramas feature en GitHub, revisión de cambios, Product/Sprint Backlog en Trello y artefactos colaborativos en las herramientas definidas para el proyecto.                                                                                                                                                            | La planificación por responsabilidades y el uso de herramientas compartidas permitió organizar el avance, revisar el trabajo de otros integrantes y mantener trazabilidad del Sprint 1. |
+| Criterio específico | Acciones realizadas | Conclusiones |
+| :--- | :--- | :--- |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Barrientos Quispe, Marcelo:**<br>AV1: Lideré la elaboración del Capítulo I (Startup Profile y Solution Profile), coordinando con el equipo la alineación inicial del proyecto. Además, colaboré activamente en el desarrollo de la Landing Page y en el despliegue y documentación de evidencias del proyecto.<br><br>TB1: Asumí el rol de líder en el módulo Vehicle & Credential Management, organizando el desarrollo técnico de este frente. Asimismo, colaboré en la maquetación de componentes compartidos (Shared Layout & Navigation) e integración y despliegue del sistema.<br><br>**Diaz Ramirez, Alejandro:**<br>AV1: Colaboré en la elaboración del Capítulo IV (Product Design) aportando en el diseño visual de la aplicación, así como en el desarrollo frontend de la Landing Page.<br><br>TB1: Lideré el desarrollo del módulo Profiles & Relationship Management, gestionando la lógica y vistas de perfiles. Adicionalmente, apoyé en la implementación del layout general, navegación y despliegue del proyecto.<br><br>**Geronimo Puma, Kevin Joel:**<br>AV1: Lideré el desarrollo y maquetación de la Landing Page, asegurando la estructura e interfaz del sitio web de presentación. Lideré también la redacción del Capítulo IV y colaboré en las tareas de despliegue y documentación de evidencias.<br><br>TB1: Lideré el módulo Subscriptions & Billing, organizando la estructura de suscripciones y pagos dentro de la plataforma. También colaboré en el desarrollo del layout compartido y despliegue continuo del sistema.<br><br>**Lino Quispe, Leonardo Miguel:**<br>AV1: Lideré la redacción de los Capítulos III (Requirements Specification) y V (Product Implementation & Deployment), además de liderar el proceso de despliegue y recolección de evidencias del proyecto. Apoyé también en la implementación de la Landing Page.<br><br>TB1: Lideré el módulo Route & Trip Planning, así como la integración, maquetación del Shared Layout & Navigation y el despliegue general de la aplicación (Integration & Deployment).<br><br>**Meza Soza, Alexandra Yamile:**<br>AV1: Lideré la investigación y desarrollo del Capítulo II (Requirements Elicitation & Analysis), coordinando el análisis competitivo y de requerimientos del usuario. Asimismo, colaboré en el desarrollo técnico de la Landing Page.<br><br>TB1: Lideré el módulo Alerting & Incident Management, gestionando las alertas y reportes del sistema. Apoyé en la construcción del layout compartido y en el proceso de integración del equipo. | En AV1, el equipo demostró liderazgo compartido al distribuir la responsabilidad directiva de cada capítulo del documento y de la Landing Page entre todos los integrantes. Esta estructura colaborativa permitió definir con claridad el problema, estructurar la arquitectura UX/UI y desplegar el primer entregable de manera coordinada.<br><br>En TB1, el equipo fortaleció la colaboración técnica asignando un líder para cada módulo funcional de la aplicación (Vehículos, Perfiles, Rutas, Alertas y Suscripciones). A través de una comunicación constante y apoyo conjunto en la integración y despliegue, se garantizó la entrega oportuna de un sistema cohesionado y funcional. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Barrientos Quispe, Marcelo:**<br>AV1: Planifiqué y documenté la descripción del emprendimiento y problema en el Capítulo I, estableciendo la base estratégica sobre la cual el equipo definió sus historias de usuario y metas iniciales.<br><br>TB1: Definí los objetivos y tareas del módulo de gestión de vehículos y credenciales, documentando los componentes necesarios para su correcto funcionamiento dentro del Sprint.<br><br>**Diaz Ramirez, Alejandro:**<br>AV1: Planifiqué y estructuré los entregables de diseño visual en el Capítulo IV, asegurando que las wireframes y mockups cumplieran con los estándares requeridos.<br><br>TB1: Organicé el plan de trabajo para el módulo de perfiles y relaciones, asegurando el cumplimiento de las tareas de UI/UX asignadas.<br><br>**Geronimo Puma, Kevin Joel:**<br>AV1: Establecí el plan de desarrollo de la Landing Page, dividiendo el trabajo en componentes web específicos y cumpliendo con la entrega responsive del sitio.<br><br>TB1: Planifiqué la implementación del módulo de suscripciones y facturación, definiendo las metas de interfaz y estructurando las evidencias en el backlog del sprint.<br><br>**Lino Quispe, Leonardo Miguel:**<br>AV1: Gestioné la trazabilidad del Product Backlog en el Capítulo III y coordiné la planificación técnica en el Capítulo V para asegurar que el despliegue estuviera alineado con los objetivos del entregable.<br><br>TB1: Establecí la hoja de ruta para la planificación de rutas y viajes, coordinando con todo el equipo las reglas de integración en GitHub y la estrategia de despliegue continuo.<br><br>**Meza Soza, Alexandra Yamile:**<br>AV1: Planifiqué la ejecución del análisis de requerimientos, organizando las actividades de Needfinding y mapeo de empatía documentadas en el Capítulo II.<br><br>TB1: Estructuré las tareas necesarias para el módulo de alertas e incidentes, asegurando que los casos de uso quedaran correctamente cubiertos y probados. | Durante AV1, el equipo trabajó en un entorno colaborativo donde se definieron objetivos claros mediante el Product Backlog e Impact Mapping. La planificación adecuada permitió desarrollar el informe académico y la Landing Page cumpliendo con los criterios de aceptación establecidos.<br><br>Durante TB1, la planificación se gestionó mediante la matriz de asignación de responsabilidades por módulos. La clara distribución de tareas de desarrollo frontend, maquetación común y despliegue aseguró que cada integrante cumpliera con sus metas individuales y grupales dentro del tiempo previsto. |
 
 ---
 
@@ -249,6 +264,8 @@ Alcance del proyecto: El alcance inicial de Rumbo está orientado a padres o tut
     </tr>
   </tbody>
 </table>
+
+Alexandra Yamile Meza Soza
 
 ## 1.2. Solution Profile
 
@@ -2739,10 +2756,30 @@ Al cierre del Sprint 1 se completaron **6 de los 8 Story Points** comprometidos,
 #### 5.2.1.4. Development Evidence for Sprint Review
  
 La evidencia de implementación del Sprint 1 se conserva en el repositorio `AIpaca-UPC/landing-page`, cuyo historial registra los commits de construcción de la Landing Page, la incorporación de la sección de demostración del producto, la sección de equipo y el mecanismo de internacionalización.
- 
+
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body / alcance | Committed on |
 |---|---|---|---|---|---|
-| | | | | | |
+| landing-page | main | `aff66f2` | chore: trigger GitHub Pages deployment | Se activa el despliegue automático en GitHub Pages. | Oct 9, 2026 |
+| landing-page | main | `ecf5da9` | Merge pull request #5 from Alpaca-UPC/feat/update-landing-page | Se integra la rama feat/update-landing-page a main. | Oct 9, 2026 |
+| landing-page | main | `bcd9ea5` | feat: add team showcase section | Se agrega la sección de presentación del equipo. | Oct 9, 2026 |
+| landing-page | main | `c2aa0c5` | feat: add subscription plans showcase | Se agrega la sección de planes de suscripción. | Oct 9, 2026 |
+| landing-page | main | `84f665f` | feat: add demo call to action | Se agrega el botón de llamada a la acción (CTA) para la demo. | Oct 9, 2026 |
+| landing-page | main | `bc608d1` | feat: add landing page internationalization | Se añade soporte de internacionalización a la landing page. | Oct 9, 2026 |
+| landing-page | main | `5e9c631` | feat: add product showcase to landing page | Se agrega la sección de presentación del producto. | Oct 8, 2026 |
+| landing-page | main | `1b95982` | docs: add deployed Landing Page URL | Se añade la URL de despliegue de la Landing Page en la documentación. | Sep 28, 2026 |
+| landing-page | main | `32771e0` | chore: use gh-pages branch deployment | Se configura el despliegue a través de la rama gh-pages. | Sep 28, 2026 |
+| landing-page | main | `7ef0fce` | chore: disable Jekyll processing for static site | Se deshabilita el procesamiento de Jekyll para el sitio estático. | Sep 28, 2026 |
+| landing-page | main | `326f1eb` | ci: add GitHub Pages deployment workflow | Se añade el workflow de CI/CD para el despliegue en GitHub Pages. | Sep 28, 2026 |
+| landing-page | main | `ddf95ac` | Merge pull request #4 from Alpaca-UPC/develop | Se realiza merge de la rama develop a main. | Sep 28, 2026 |
+| landing-page | main | `2385127` | Merge pull request #3 from Alpaca-UPC/feature/landing-page-v1 | Se realiza merge de la rama feature/landing-page-v1 a main. | Sep 28, 2026 |
+| landing-page | main | `3ff9992` | feat: add privacy policy page | Se añade la página de políticas de privacidad. | Sep 20, 2026 |
+| landing-page | main | `ae1fe63` | feat: add terms of service page | Se añade la página de términos de servicio. | Sep 20, 2026 |
+| landing-page | main | `4aac744` | feat: add navigation i18n faq and contact interactions | Se añaden interacciones de navegación, FAQs, contacto e i18n. | Sep 20, 2026 |
+| landing-page | main | `7b5465a` | style: add responsive landing page styles | Se añaden estilos adaptativos (responsive) a la landing page. | Sep 20, 2026 |
+| landing-page | main | `eaa0f79` | feat: implement Rumbo AV1 landing page | Se implementa la versión inicial de la landing page para AV1. | Sep 20, 2026 |
+| landing-page | main | `e7de798` | docs: align landing page scope with AV1 user stories | Se alinea el alcance de la landing page con las historias de usuario de AV1. | Sep 20, 2026 |
+| landing-page | main | `2656490` | docs: initialize Rumbo landing page | Inicialización del repositorio y documentación base de la landing page. | Sep 7, 2026 |
+
  
 **URL del repositorio:** https://github.com/AIpaca-UPC/landing-page
  
@@ -2831,16 +2868,13 @@ La colaboración del equipo durante el Sprint 1 se evidencia mediante los insigh
 - **Commits:** https://github.com/AIpaca-UPC/landing-page/commits/main/
 - **Contributors:** https://github.com/AIpaca-UPC/landing-page/graphs/contributors
 - **Network:** https://github.com/AIpaca-UPC/landing-page/network
+
 <div align="center">
-  <img src="./assets/chapter05/insights-commits.png" alt="Gráfico de commits del repositorio landing-page durante el Sprint 1." width="90%">
-  <p><em>Figura 5.S1-14. Actividad de commits del repositorio <code>AIpaca-UPC/landing-page</code> durante el Sprint 1.</em></p>
-</div>
-<div align="center">
-  <img src="./assets/chapter05/insights-contributors.png" alt="Gráfico de contributors del repositorio landing-page durante el Sprint 1." width="90%">
+  <img src="./assets/chapter5/sprint1/contributors.png" alt="Gráfico de contributors del repositorio landing-page durante el Sprint 1." width="90%">
   <p><em>Figura 5.S1-15. Contribuciones por integrante en el repositorio <code>AIpaca-UPC/landing-page</code>.</em></p>
 </div>
 <div align="center">
-  <img src="./assets/chapter05/insights-network.png" alt="Grafo de red de ramas del repositorio landing-page durante el Sprint 1." width="90%">
+  <img src="./assets/chapter5/sprint1/pulse.png" alt="Grafo de red de ramas del repositorio landing-page durante el Sprint 1." width="90%">
   <p><em>Figura 5.S1-16. Grafo de ramas e integraciones del repositorio <code>AIpaca-UPC/landing-page</code>.</em></p>
 </div>
 El análisis de estos insights permitió al equipo verificar que la implementación de la Landing Page se concentró en los responsables declarados en la matriz LACX y que la integración de cambios se realizó sobre la rama de publicación conforme al flujo adoptado en la sección 5.1.2.
@@ -2925,7 +2959,7 @@ El aspecto **Shared Layout & Navigation** agrupa la estructura común de la apli
  
 El objetivo del Sprint 2 es implementar y desplegar la primera versión de la Frontend Web Application de Rumbo con las vistas de gestión de los cinco Bounded Contexts. El Sprint Board público del equipo se encuentra en:
  
-**Sprint Board público:** [URL del board de Trello del Sprint 2]
+**Sprint Board público:** https://trello.com/b/pBxrsLfz/
  
 La numeración de Tasks continúa la del Sprint 1, que cerró en **T20** y **S02**.
  
@@ -2984,23 +3018,38 @@ La numeración de Tasks continúa la del Sprint 1, que cerró en **T20** y **S02
 <tr><td>N/A</td><td>General Sprint Constraint</td><td>S08</td><td>Register Sprint 2 evidence</td><td>Registrar las evidencias de desarrollo, ejecución, documentación de recursos y despliegue del Sprint, incluyendo capturas de cada vista y el video de navegación.</td><td>5</td><td>Leonardo Lino</td><td>In-Process</td></tr>
 </tbody>
 </table>
-Todas las User Stories del Sprint cumplen la regla de **mínimo dos Tasks por User Story** y ninguna Task supera las **8 horas** de estimación. Las Tasks **S03** a **S08** corresponden a constraints generales del Sprint —estructura del proyecto, navegación compartida, configuración del origen de datos, integración, despliegue y evidencias— por lo que no generan Story Points y no se asocian a una User Story.
+
+Todas las User Stories del Sprint cumplen la regla de **mínimo dos Tasks por User Story** y ninguna Task supera las **8 horas** de estimación. Las Tasks **S03** a ** S08 ** corresponden a constraints generales del Sprint —estructura del proyecto, navegación compartida, configuración del origen de datos, integración, despliegue y evidencias— por lo que no generan Story Points y no se asocian a una User Story.
  
 #### 5.2.2.4. Development Evidence for Sprint Review
  
 La evidencia de implementación del Sprint 2 se conserva en el repositorio `AIpaca-UPC/web-applications-web-app`. Conforme a la convención declarada en la sección 5.1.2, el trabajo se organizó en una rama por Bounded Context, que se integró en `develop` mediante Pull Request:
- 
-| Bounded Context | Feature branch | Responsable principal |
-|---|---|---|
-| Vehicle & Credential Management | `feature/vehicle-credential-management` | Barrientos Quispe, Marcelo |
-| Profiles & Relationship Management | `feature/profiles-and-relationship-management` | Díaz Ramírez, Alejandro |
-| Route & Trip Planning | `feature/route-trip-planning` | Lino Quispe, Leonardo Miguel |
-| Alerting & Incident Management | `feature/alerting-and-incident-management` | Meza Soza, Alexandra Yamile |
-| Subscriptions & Billing | `feature/subscriptions-and-billing` | Geronimo Puma, Kevin Joel |
- 
+
+
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body / alcance | Committed on |
 |---|---|---|---|---|---|
-| | | | | | |
+| Alpaca-UPC | feature/vehicles-credential-management | `b2256e5` | feat(vehicles-credential-management): add files bounded | Se agregan los archivos correspondientes al bounded context. | Oct 9, 2026 |
+| Alpaca-UPC | feature/vehicles-credential-management | `a9be0a6` | feat(vehicles-credential-management): add bounded | Se agregan componentes del bounded context. | Oct 9, 2026 |
+| Alpaca-UPC | develop | `880c8c3` | Merge pull request #6 from Alpaca-UPC/route-trip-planning | Se realiza merge de la rama route-trip-planning a develop. | Oct 9, 2026 |
+| Alpaca-UPC | route-trip-planning | `cd9b277` | Merge branch 'develop' into route-trip-planning | Se sincroniza la rama develop con route-trip-planning. | Oct 9, 2026 |
+| Alpaca-UPC | develop | `168243e` | Merge pull request #5 from Alpaca-UPC/feature/vehicle-credential-management | Se realiza merge de la rama feature/vehicle-credential-management a develop. | Oct 9, 2026 |
+| Alpaca-UPC | feature/vehicle-credential-management | `ad1123e` | Merge branch 'develop' into feature/vehicle-credential-management | Se sincroniza la rama develop con feature/vehicle-credential-management. | Oct 9, 2026 |
+| Alpaca-UPC | route-trip-planning | `092e24d` | feat(route-trip-planning): implement route and stop CRUD with Axios | Se implementa el CRUD de rutas y paradas utilizando Axios. | Oct 9, 2026 |
+| Alpaca-UPC | feature/vehicles-credential-management | `dddae66` | feat(vehicles-credential-management): addd new style changes | Se agregan nuevos cambios de estilos. | Oct 9, 2026 |
+| Alpaca-UPC | feature/vehicles-credential-management | `7e2cf42` | feat(vehicles-credential-management): update assembler and routes | Se actualizan los assemblers y las rutas del módulo. | Oct 9, 2026 |
+| Alpaca-UPC | feature/vehicles-credential-management | `f13829a` | feat(vehicles-credential-management): update router | Se actualiza la configuración del router. | Oct 9, 2026 |
+| Alpaca-UPC | feature/vehicles-credential-management | `3aa1870` | feat(vehicles-credential-management): improved files | Se realizan mejoras en la estructura de archivos. | Oct 9, 2026 |
+| Alpaca-UPC | feature/vehicles-credential-management | `60670a2` | feat(vehicles-credential-management): update main | Se actualiza el archivo principal main. | Oct 9, 2026 |
+| Alpaca-UPC | feature/vehicles-credential-management | `78acddf` | feat(vehicles-credential-management): update store | Se actualiza el estado de la aplicación mediante el store. | Oct 9, 2026 |
+| Alpaca-UPC | feature/vehicles-credential-management | `b939365` | feat(vehicles-credential-management): add i18n | Se integra el soporte de internacionalización (i18n). | Oct 9, 2026 |
+| Alpaca-UPC | develop | `0024ee8` | Merge pull request #4 from Alpaca-UPC/feature/subscriptions-and-billing | Se realiza merge de la rama feature/subscriptions-and-billing a develop. | Oct 9, 2026 |
+| Alpaca-UPC | feature/subscriptions-and-billing | `ed0ddc5` | merge: integrate develop into subscriptions and billing | Se integra develop dentro de subscriptions y billing. | Oct 9, 2026 |
+| Alpaca-UPC | feature/vehicles-credential-management | `3eb523f` | feat(vehicles-credential-management): add store | Se implementa el store para la gestión del estado. | Oct 9, 2026 |
+| Alpaca-UPC | feature/vehicles-credential-management | `2b17e62` | feat(vehicles-credential-management): add assembler and api | Se agregan las utilidades de assembler e integración con la API. | Oct 9, 2026 |
+| Alpaca-UPC | feature/vehicles-credential-management | `e25683e` | feat(vehicles-credential-management): Create files | Se crean los archivos iniciales del módulo. | Oct 9, 2026 |
+| Alpaca-UPC | feature/subscriptions-and-billing | `34590cd` | feat(billing): implement complete Vue subscription CRUD | Se implementa el CRUD completo de suscripciones en Vue. | Oct 9, 2026 |
+| Alpaca-UPC | develop | `84619d6` | revert(develop): restore Alexandra's original Vue foundation (3558800) | Se revierte develop para restaurar la base original de Vue. | Oct 9, 2026 |
+| Alpaca-UPC | feature/subscriptions-and-billing | `d043378` | feat(billing): add DDD entities, Axios API and Pinia CRUD store | Se agregan entidades DDD, API Axios y el store
  
 **URL del repositorio:** https://github.com/AIpaca-UPC/web-applications-web-app
  
@@ -3008,7 +3057,7 @@ La evidencia de implementación del Sprint 2 se conserva en el repositorio `AIpa
  
 La evidencia de ejecución del Sprint 2 se presenta mediante capturas de la **Frontend Web Application de Rumbo** publicada en su URL pública. Las capturas registran la vista de inicio del espacio de trabajo del conductor, las vistas de gestión de cada Bounded Context con sus operaciones de creación, consulta, actualización y eliminación, y la vista de recurso no encontrado. Las vistas operan sobre el origen de datos emulado descrito en la sección 5.1.4; no constituyen evidencia de funcionamiento del RESTful API propio, cuya implementación corresponde al Sprint 3.
  
-**URL pública de la aplicación:** [URL de la Frontend Web Application desplegada]
+**URL pública de la aplicación:** https://web-applications-web-app.vercel.app/home
  
 ##### Vista de inicio
 
@@ -3018,14 +3067,6 @@ Las siguientes capturas documentan las vistas del Bounded Context **Home** de la
   <img src="./assets/chapter5/sprint2/dashboard-1.jpeg" alt="Primera captura del dashboard Home de Rumbo." width="90%">
   <p><em>Figura 5.S2-01 (a). Primera vista del dashboard Home.</em></p>
 </div>
-<div align="center">
-  <img src="./assets/chapter5/sprint2/dashboard-2.jpeg" alt="Segunda captura del dashboard Home de Rumbo." width="90%">
-  <p><em>Figura 5.S2-01 (b). Segunda vista del dashboard Home.</em></p>
-</div>
-<div align="center">
-  <img src="./assets/chapter5/sprint2/dashboard-3.jpeg" alt="Tercera captura del dashboard Home de Rumbo." width="90%">
-  <p><em>Figura 5.S2-01 (c). Tercera vista del dashboard Home.</em></p>
-</div>
 
 ##### Profiles &amp; Relationship Management — Students
  
@@ -3034,14 +3075,14 @@ Las siguientes capturas documentan las vistas del Bounded Context **Home** de la
      y los controles de edición y eliminación visibles.
      Archivo: ./assets/chapter05/sprint2/students-list.png -->
 <div align="center">
-  <img src="./assets/chapter05/sprint2/students-list.png" alt="Vista de listado de estudiantes con los registros existentes y los controles de edición y eliminación." width="90%">
   <p><em>Figura 5.S2-02. Listado de estudiantes del contexto Profiles &amp; Relationship Management.</em></p>
 </div>
 <!-- IMAGEN 5.S2-03 · STUDENTS (formulario)
      Captura: formulario de registro o edición de un estudiante con sus campos completados.
      Archivo: ./assets/chapter05/sprint2/students-form.png -->
+
+![alt text](image-4.png)
 <div align="center">
-  <img src="./assets/chapter05/sprint2/students-form.png" alt="Formulario de registro de un estudiante con sus campos obligatorios." width="90%">
   <p><em>Figura 5.S2-03. Formulario de registro de un estudiante.</em></p>
 </div>
 
@@ -3050,16 +3091,20 @@ Las siguientes capturas documentan las vistas del Bounded Context **Home** de la
 <!-- IMAGEN 5.S2-04 · ROUTES (listado)
      Captura: vista de listado de rutas con sus registros de muestra.
      Archivo: ./assets/chapter05/sprint2/routes-list.png -->
+
+
+
+  ![alt text](image.png)   
 <div align="center">
-  <img src="./assets/chapter05/sprint2/routes-list.png" alt="Vista de listado de rutas con los registros existentes y los controles de edición y eliminación." width="90%">
   <p><em>Figura 5.S2-04. Listado de rutas del contexto Route &amp; Trip Planning.</em></p>
 </div>
+
+![alt text](image-1.png)
 <!-- IMAGEN 5.S2-05 · ROUTES (formulario con paradas)
      Captura: formulario de creación o edición de una ruta mostrando la incorporación
      de paradas y su orden de recorrido. Esta captura es la que evidencia US10.
      Archivo: ./assets/chapter05/sprint2/routes-form.png -->
 <div align="center">
-  <img src="./assets/chapter05/sprint2/routes-form.png" alt="Formulario de creación de una ruta con sus paradas y el orden de recorrido." width="90%">
   <p><em>Figura 5.S2-05. Formulario de creación de una ruta con sus paradas en el orden de recorrido.</em></p>
 </div>
 
@@ -3091,34 +3136,18 @@ Las siguientes capturas documentan la interfaz de **Vehicle & Credential Managem
      de activación por tipo de evento. Esta captura es la que evidencia US29.
      Archivo: ./assets/chapter05/sprint2/notifications.png -->
 <div align="center">
-  <img src="./assets/chapter05/sprint2/notifications.png" alt="Vista de notificaciones con el historial de avisos y los controles de preferencia por tipo de evento." width="90%">
-  <p><em>Figura 5.S2-08. Vista de notificaciones con las preferencias de aviso por tipo de evento.</em></p>
+  <img src="./assets/chapter5/sprint2/dashboard-2.jpeg" alt="Vista de notificaciones con el historial de avisos y los controles de preferencia por tipo de evento." width="90%">
+  <p><em>Figura 5.S2-08. Vista de regitro de un retraso.</em></p>
 </div>
 <!-- IMAGEN 5.S2-09 · INCIDENTS
      Captura: vista de registro de incidencias y retrasos con el formulario completado
      o con el listado de incidencias registradas. Esta captura es la que evidencia US24.
      Archivo: ./assets/chapter05/sprint2/incidents.png -->
-<div align="center">
-  <img src="./assets/chapter05/sprint2/incidents.png" alt="Vista de registro de incidencias y retrasos del conductor." width="90%">
-  <p><em>Figura 5.S2-09. Registro de incidencias y retrasos del contexto Alerting &amp; Incident Management.</em></p>
-</div>
 
 ##### Subscriptions &amp; Billing — Plans and Billing
- 
-<!-- IMAGEN 5.S2-10 · PLANS AND BILLING
-     Captura: vista de planes disponibles con sus características y la acción de activación.
-     Archivo: ./assets/chapter05/sprint2/plans-billing.png -->
+
+![alt text](image-3.png)
 <div align="center">
-  <img src="./assets/chapter05/sprint2/plans-billing.png" alt="Vista de planes disponibles con sus características y la acción de activación de la suscripción." width="90%">
-  <p><em>Figura 5.S2-10. Vista de planes disponibles del contexto Subscriptions &amp; Billing.</em></p>
-</div>
-<!-- IMAGEN 5.S2-11 · SUBSCRIPTIONS
-     Captura: vista de suscripciones dentro de la sección de billing, mostrando la
-     suscripción vigente del conductor con su estado y periodo.
-     Esta captura es la que evidencia US09.
-     Archivo: ./assets/chapter05/sprint2/subscriptions.png -->
-<div align="center">
-  <img src="./assets/chapter05/sprint2/subscriptions.png" alt="Vista de suscripciones del conductor con el estado y el periodo de vigencia de la suscripción activa." width="90%">
   <p><em>Figura 5.S2-11. Vista de suscripciones del conductor, con el estado de la suscripción vigente.</em></p>
 </div>
 
@@ -3128,22 +3157,12 @@ Las siguientes capturas documentan la interfaz de **Vehicle & Credential Managem
      Captura: vista de recurso no encontrado, con la barra de direcciones visible
      mostrando una ruta inexistente para evidenciar la ruta de respaldo del enrutador.
      Archivo: ./assets/chapter05/sprint2/not-found.png -->
+
+
+![alt text](image-2.png)
 <div align="center">
-  <img src="./assets/chapter05/sprint2/not-found.png" alt="Vista de recurso no encontrado de la aplicación, con la dirección inexistente visible en el navegador." width="90%">
   <p><em>Figura 5.S2-12. Vista de recurso no encontrado y ruta de respaldo del sistema de navegación.</em></p>
 </div>
-
-##### Vista en Mobile Web Browser
- 
-<!-- IMAGEN 5.S2-13 · MOBILE
-     Captura: cualquiera de las vistas anteriores en Mobile Web Browser, con la
-     navegación responsive desplegada. Es requisito del Final Project Statement.
-     Archivo: ./assets/chapter05/sprint2/mobile.png -->
-<div align="center">
-  <img src="./assets/chapter05/sprint2/mobile.png" alt="Frontend Web Application de Rumbo en Mobile Web Browser, con la navegación responsive desplegada." width="45%">
-  <p><em>Figura 5.S2-13. Frontend Web Application en Mobile Web Browser, con la navegación responsive.</em></p>
-</div>
-**Video de navegación del Sprint 2:** [URL del video en Microsoft Stream]
  
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
  
@@ -3161,19 +3180,6 @@ El Sprint 2 no incluye la implementación del RESTful API de elaboración intern
 | Subscriptions & Billing | `/plans` | GET (colección e individual) | Consulta de los planes disponibles y de sus características. |
 | Subscriptions & Billing | `/subscriptions` | GET (colección e individual), POST, PUT, DELETE | Activación, consulta, actualización y baja de la suscripción del conductor. |
  
-La URL base del origen de datos se administra mediante una variable de entorno del proyecto y no se incorpora al repositorio, conforme a lo declarado en la sección 5.1.4.
- 
-<!-- IMAGEN 5.S2-14 · RECURSOS EMULADOS
-     Captura: panel del servicio de persistencia emulada mostrando los recursos
-     configurados y sus datos de muestra. Evidencia que los endpoints existen
-     y que las vistas no operan contra datos codificados en el Frontend.
-     Archivo: ./assets/chapter05/sprint2/emulated-resources.png -->
-<div align="center">
-  <img src="./assets/chapter05/sprint2/emulated-resources.png" alt="Panel del servicio de persistencia emulada con los recursos configurados para cada Bounded Context y sus datos de muestra." width="90%">
-  <p><em>Figura 5.S2-14. Recursos del origen de datos emulado configurados para cada Bounded Context.</em></p>
-</div>
-La documentación de los endpoints reales con **OpenAPI vía Swagger** se incorpora en el Sprint 3, de acuerdo con la Technical Story **TS06** del Product Backlog.
- 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
  
 Durante el Sprint 2 se realizó la primera publicación de la Frontend Web Application. El proceso consistió en integrar las ramas de los cinco Bounded Contexts en `develop`, promover la versión integrada a `main`, conectar el repositorio con el proveedor de despliegue, configurar el comando de construcción y el directorio del artefacto generado, y declarar la variable de entorno con la URL base del origen de datos.
@@ -3183,11 +3189,9 @@ Durante el Sprint 2 se realizó la primera publicación de la Frontend Web Appli
 | Repository | `AIpaca-UPC/web-applications-web-app` |
 | Branch publicada | `main` |
 | Framework | Vue 3 |
-| Comando de construcción | [comando de build del proyecto] |
-| Directorio del artefacto | [directorio de salida del build] |
 | Variable de entorno | URL base del origen de datos de la aplicación |
 | Proveedor de despliegue | [proveedor utilizado] |
-| **URL pública** | **[URL de la Frontend Web Application desplegada]** |
+| **URL pública** | **https://web-applications-web-app.vercel.app/home** |
  
 Al tratarse de una Single Page Application con enrutamiento del lado del cliente, la configuración del proveedor incluye la reescritura de toda ruta no reconocida hacia el punto de entrada de la aplicación. Sin esta reescritura, el acceso directo a una vista interna o la recarga de la página devuelven un error del servidor en lugar de la vista correspondiente, y la vista de recurso no encontrado implementada en la Task **S05** no llega a ejecutarse.
  
@@ -3195,26 +3199,25 @@ Al tratarse de una Single Page Application con enrutamiento del lado del cliente
      Captura: panel del proveedor de despliegue mostrando el proyecto conectado al
      repositorio, el comando de construcción y la variable de entorno configurada.
      Archivo: ./assets/chapter05/sprint2/deploy-config.png -->
+
+  ![alt text](image-6.png)
 <div align="center">
-  <img src="./assets/chapter05/sprint2/deploy-config.png" alt="Panel del proveedor de despliegue con el proyecto conectado al repositorio y la configuración de construcción." width="90%">
+
   <p><em>Figura 5.S2-15. Configuración del despliegue de la Frontend Web Application.</em></p>
 </div>
 <!-- IMAGEN 5.S2-16 · DESPLIEGUE EXITOSO
      Captura: registro del despliegue finalizado correctamente, con la fecha y el
      commit publicado visibles.
      Archivo: ./assets/chapter05/sprint2/deploy-success.png -->
+
+![alt text](image-7.png)
 <div align="center">
-  <img src="./assets/chapter05/sprint2/deploy-success.png" alt="Registro del despliegue finalizado correctamente, con el commit publicado y la fecha." width="90%">
   <p><em>Figura 5.S2-16. Despliegue de la Frontend Web Application finalizado correctamente.</em></p>
 </div>
 <!-- IMAGEN 5.S2-17 · APLICACIÓN PÚBLICA
      Captura: la aplicación abierta en su URL pública, con la barra de direcciones
      visible. Es la evidencia que acredita el despliegue exigido para esta entrega.
      Archivo: ./assets/chapter05/sprint2/deploy-public-app.png -->
-<div align="center">
-  <img src="./assets/chapter05/sprint2/deploy-public-app.png" alt="Frontend Web Application de Rumbo accesible en su URL pública, con la barra de direcciones visible." width="90%">
-  <p><em>Figura 5.S2-17. Frontend Web Application accesible en su URL pública.</em></p>
-</div>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
  
@@ -3231,17 +3234,6 @@ La colaboración del equipo durante el Sprint 2 se evidencia mediante los insigh
   <img src="./assets/chapter5/sprint2/commits.png" alt="Captura del historial de commits del repositorio web-applications-web-app de Rumbo." width="90%">
   <p><em>Figura 5.S2-18. Evidencia de commits del repositorio de la Frontend Web Application durante el Sprint 2.</em></p>
 </div>
-<!-- IMAGEN 5.S2-19 · CONTRIBUTORS
-     Captura: gráfico de contributors mostrando los cinco integrantes con aportes.
-     Es la evidencia que el docente usa para verificar la participación individual.
-     Archivo: ./assets/chapter05/sprint2/insights-contributors.png -->
-<div align="center">
-  <img src="./assets/chapter05/sprint2/insights-contributors.png" alt="Gráfico de contributors del repositorio de la Frontend Web Application, con el aporte de cada integrante." width="90%">
-  <p><em>Figura 5.S2-19. Contribuciones por integrante en el repositorio de la Frontend Web Application.</em></p>
-</div>
-<!-- IMÁGENES 5.S2-20 · NETWORK
-     Capturas de la red de ramas del repositorio de la Frontend Web Application.
-     Archivos: ./assets/chapter5/sprint2/network.png y ./assets/chapter5/sprint2/network-web-2.png -->
 <div align="center">
   <img src="./assets/chapter5/sprint2/network.png" alt="Primera captura de la red de ramas del repositorio web-applications-web-app." width="90%">
   <p><em>Figura 5.S2-20 (a). Evidencia de la red de ramas del repositorio de la Frontend Web Application.</em></p>
@@ -3251,26 +3243,15 @@ La colaboración del equipo durante el Sprint 2 se evidencia mediante los insigh
   <p><em>Figura 5.S2-20 (b). Evidencia complementaria de la red de ramas del repositorio.</em></p>
 </div>
 El análisis de estos insights permitió al equipo verificar que cada integrante registró aportes en el contexto del que figura como Leader en la matriz LACX, y que la integración de los cinco contextos se realizó sobre la rama `develop` antes de promover la versión publicada, conforme al flujo adoptado en la sección 5.1.2.
- 
-## 5.3. Validation Interviews
- 
-Esta sección presenta las entrevistas de validación realizadas sobre la versión implementada del producto con participantes de los dos segmentos objetivo, junto con la evaluación de la experiencia según heurísticas de usabilidad. Su contenido corresponde a una entrega posterior, una vez que la Frontend Web Application cuente con los flujos necesarios para ser evaluada por usuarios.
- 
-### 5.3.1. Diseño de Entrevistas
- 
-### 5.3.2. Registro de Entrevistas
- 
-### 5.3.3. Evaluaciones según heurísticas
- 
-## 5.4. Video About-the-Product
- 
-Esta sección presenta el video promocional del producto, con una duración de entre uno y tres minutos, que incluye al menos una opinión por cada segmento objetivo y se incrusta en una sección de la Landing Page. Su contenido corresponde a una entrega posterior.
 
 # Conclusiones
 
+El desarrollo de la Landing Page permitió consolidar la propuesta de valor del proyecto y transmitir de forma clara las funcionalidades principales del sistema a los segmentos objetivo. La maquetación en HTML y CSS funcionó como el primer punto de contacto técnico para unificar la identidad visual del equipo. Sin embargo, durante este primer hito, uno de los mayores desafíos fue la gestión del tiempo y la coordinación inicial del grupo. La falta de una organización más estructurada al principio generó ciertas complicaciones en la integración de estilos y contenidos; no obstante, esta experiencia sirvió como una lección clave para establecer flujos de trabajo más definidos, logrando finalmente entregar un sitio web dinámico, responsive y desplegado dentro de los plazos establecidos.
+
+La implementación del frontend de la aplicación representó un avance significativo al estructurar el proyecto en módulos funcionales específicos como gestión de vehículos, perfiles, rutas, alertas y suscripciones. Esta división permitió que cada integrante asumiera un rol de liderazgo técnico sobre su área, logrando una interfaz más cohesiva mediante el uso de componentes compartidos de navegación y maquetación. El principal reto durante esta etapa radicó en la complejidad de integrar múltiples módulos en paralelo bajo restricciones de tiempo ajustadas. Enfrentar problemas de consistencia visual y gestión de estados evidenció la necesidad de mantener una comunicación constante y una planificación más rigurosa. A pesar de los contratiempos organizativos surgidos en el proceso, el equipo logró superar las dificultades y desplegar una versión funcional que sienta bases sólidas para el desarrollo futuro del proyecto.
+
 ## Conclusiones y recomendaciones
 
-## Video About-The-Team
 
 ---
 
