@@ -3046,21 +3046,20 @@ Las siguientes capturas documentan las vistas del Bounded Context **Home** de la
 </div>
 
 ##### Route &amp; Trip Planning — Routes
- 
-<!-- IMAGEN 5.S2-04 · ROUTES (listado)
-     Captura: vista de listado de rutas con sus registros de muestra.
-     Archivo: ./assets/chapter05/sprint2/routes-list.png -->
+
+Las siguientes tres capturas originales evidencian la interfaz de **Route & Trip Planning** de la Frontend Web Application de Rumbo durante el Sprint 2. Se mantienen los archivos subidos por el equipo, sin alterar las imágenes.
+
 <div align="center">
-  <img src="./assets/chapter05/sprint2/routes-list.png" alt="Vista de listado de rutas con los registros existentes y los controles de edición y eliminación." width="90%">
-  <p><em>Figura 5.S2-04. Listado de rutas del contexto Route &amp; Trip Planning.</em></p>
+  <img src="./assets/chapter5/sprint2/routes-captura.jpeg" alt="Primera captura real de la interfaz del Bounded Context Route & Trip Planning en Rumbo." width="90%">
+  <p><em>Figura 5.S2-04. Primera evidencia de la interfaz de Route &amp; Trip Planning.</em></p>
 </div>
-<!-- IMAGEN 5.S2-05 · ROUTES (formulario con paradas)
-     Captura: formulario de creación o edición de una ruta mostrando la incorporación
-     de paradas y su orden de recorrido. Esta captura es la que evidencia US10.
-     Archivo: ./assets/chapter05/sprint2/routes-form.png -->
 <div align="center">
-  <img src="./assets/chapter05/sprint2/routes-form.png" alt="Formulario de creación de una ruta con sus paradas y el orden de recorrido." width="90%">
-  <p><em>Figura 5.S2-05. Formulario de creación de una ruta con sus paradas en el orden de recorrido.</em></p>
+  <img src="./assets/chapter5/sprint2/routes-captura2.jpeg" alt="Segunda captura real de la interfaz del Bounded Context Route & Trip Planning en Rumbo." width="90%">
+  <p><em>Figura 5.S2-05 (a). Segunda evidencia de la interfaz de gestión de rutas.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter5/sprint2/routes-captura3.jpeg" alt="Tercera captura real de la interfaz del Bounded Context Route & Trip Planning en Rumbo." width="90%">
+  <p><em>Figura 5.S2-05 (b). Tercera evidencia de la interfaz de gestión de rutas y paradas.</em></p>
 </div>
 
 ##### Vehicle &amp; Credential Management — Vehicles
