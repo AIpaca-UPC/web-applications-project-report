@@ -179,16 +179,13 @@ Las siguientes imágenes son **capturas reales aportadas por el equipo** sobre l
     - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-  - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
-- [Conclusiones](#conclusiones)
+   - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-  - [Video About-The-Team](#video-about-the-team)
-- [Bibliografía](#bibliografía)
+  - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+  - [Anexo A. Repositorios y evidencias de control de versiones](#anexo-a-repositorios-y-evidencias-de-control-de-versiones)
+  - [Anexo B. Registro de capturas originales de los Sprints 1 y 2](#anexo-b-registro-de-capturas-originales-de-los-sprints-1-y-2)
+  - [Anexo C. Enlaces a artefactos colaborativos documentados](#anexo-c-enlaces-a-artefactos-colaborativos-documentados)
 
 ---
 
@@ -2862,9 +2859,9 @@ Durante el Sprint 1 se realizó la primera publicación de la Landing Page. El p
 </div>
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
- 
-La colaboración del equipo durante el Sprint 1 se evidencia mediante los insights del repositorio de la Landing Page, que registran la distribución de commits por integrante y la evolución de las ramas durante la iteración.
- 
+
+La colaboración durante el Sprint 1 puede consultarse directamente en el repositorio de la Landing Page. No se incluyen capturas de Insights porque no se han proporcionado esos archivos.
+
 - **Commits:** https://github.com/AIpaca-UPC/landing-page/commits/main/
 - **Contributors:** https://github.com/AIpaca-UPC/landing-page/graphs/contributors
 - **Network:** https://github.com/AIpaca-UPC/landing-page/network
@@ -3069,43 +3066,29 @@ Las siguientes capturas documentan las vistas del Bounded Context **Home** de la
 </div>
 
 ##### Profiles &amp; Relationship Management — Students
- 
-<!-- IMAGEN 5.S2-02 · STUDENTS (listado)
-     Captura: vista de listado de estudiantes con al menos tres registros de muestra
-     y los controles de edición y eliminación visibles.
-     Archivo: ./assets/chapter05/sprint2/students-list.png -->
-<div align="center">
-  <p><em>Figura 5.S2-02. Listado de estudiantes del contexto Profiles &amp; Relationship Management.</em></p>
-</div>
-<!-- IMAGEN 5.S2-03 · STUDENTS (formulario)
-     Captura: formulario de registro o edición de un estudiante con sus campos completados.
-     Archivo: ./assets/chapter05/sprint2/students-form.png -->
 
-![alt text](image-4.png)
+Se presenta la captura original aportada por el equipo para el Bounded Context **Profiles & Relationship Management**.
+
 <div align="center">
-  <p><em>Figura 5.S2-03. Formulario de registro de un estudiante.</em></p>
+  <img src="./assets/chapter5/sprint2/profiles-captura.png" alt="Captura original de la interfaz Profiles & Relationship Management de Rumbo." width="90%">
+  <p><em>Figura 5.S2-02. Evidencia de la interfaz de Profiles &amp; Relationship Management.</em></p>
 </div>
 
 ##### Route &amp; Trip Planning — Routes
- 
-<!-- IMAGEN 5.S2-04 · ROUTES (listado)
-     Captura: vista de listado de rutas con sus registros de muestra.
-     Archivo: ./assets/chapter05/sprint2/routes-list.png -->
 
+Las siguientes tres capturas originales evidencian la interfaz de **Route & Trip Planning** de la Frontend Web Application de Rumbo durante el Sprint 2. Se mantienen los archivos subidos por el equipo, sin alterar las imágenes.
 
-
-  ![alt text](image.png)   
 <div align="center">
-  <p><em>Figura 5.S2-04. Listado de rutas del contexto Route &amp; Trip Planning.</em></p>
+  <img src="./assets/chapter5/sprint2/routes-captura.jpeg" alt="Primera captura real de la interfaz del Bounded Context Route & Trip Planning en Rumbo." width="90%">
+  <p><em>Figura 5.S2-04. Primera evidencia de la interfaz de Route &amp; Trip Planning.</em></p>
 </div>
-
-![alt text](image-1.png)
-<!-- IMAGEN 5.S2-05 · ROUTES (formulario con paradas)
-     Captura: formulario de creación o edición de una ruta mostrando la incorporación
-     de paradas y su orden de recorrido. Esta captura es la que evidencia US10.
-     Archivo: ./assets/chapter05/sprint2/routes-form.png -->
 <div align="center">
-  <p><em>Figura 5.S2-05. Formulario de creación de una ruta con sus paradas en el orden de recorrido.</em></p>
+  <img src="./assets/chapter5/sprint2/routes-captura2.jpeg" alt="Segunda captura real de la interfaz del Bounded Context Route & Trip Planning en Rumbo." width="90%">
+  <p><em>Figura 5.S2-05 (a). Segunda evidencia de la interfaz de gestión de rutas.</em></p>
+</div>
+<div align="center">
+  <img src="./assets/chapter5/sprint2/routes-captura3.jpeg" alt="Tercera captura real de la interfaz del Bounded Context Route & Trip Planning en Rumbo." width="90%">
+  <p><em>Figura 5.S2-05 (b). Tercera evidencia de la interfaz de gestión de rutas y paradas.</em></p>
 </div>
 
 ##### Vehicle &amp; Credential Management — Vehicles
@@ -3131,39 +3114,27 @@ Las siguientes capturas documentan la interfaz de **Vehicle & Credential Managem
  
 ##### Alerting &amp; Incident Management — Notifications
  
-<!-- IMAGEN 5.S2-08 · NOTIFICATIONS
-     Captura: vista de notificaciones mostrando el historial de avisos y los controles
-     de activación por tipo de evento. Esta captura es la que evidencia US29.
-     Archivo: ./assets/chapter05/sprint2/notifications.png -->
 <div align="center">
   <img src="./assets/chapter5/sprint2/dashboard-2.jpeg" alt="Vista de notificaciones con el historial de avisos y los controles de preferencia por tipo de evento." width="90%">
   <p><em>Figura 5.S2-08. Vista de regitro de un retraso.</em></p>
 </div>
-<!-- IMAGEN 5.S2-09 · INCIDENTS
-     Captura: vista de registro de incidencias y retrasos con el formulario completado
-     o con el listado de incidencias registradas. Esta captura es la que evidencia US24.
-     Archivo: ./assets/chapter05/sprint2/incidents.png -->
 
 ##### Subscriptions &amp; Billing — Plans and Billing
 
-![alt text](image-3.png)
+Se incorpora la captura original del contexto **Subscriptions & Billing** aportada por el equipo durante el Sprint 2.
+
 <div align="center">
-  <p><em>Figura 5.S2-11. Vista de suscripciones del conductor, con el estado de la suscripción vigente.</em></p>
+  <img src="./assets/chapter5/sprint2/billing-captura.png" alt="Captura original de la interfaz Subscriptions & Billing de Rumbo." width="90%">
+  <p><em>Figura 5.S2-10. Evidencia de la interfaz de Subscriptions &amp; Billing.</em></p>
 </div>
 
 ##### Vista de recurso no encontrado
- 
-<!-- IMAGEN 5.S2-12 · NOT FOUND
-     Captura: vista de recurso no encontrado, con la barra de direcciones visible
-     mostrando una ruta inexistente para evidenciar la ruta de respaldo del enrutador.
-     Archivo: ./assets/chapter05/sprint2/not-found.png -->
 
-
-![alt text](image-2.png)
 <div align="center">
-  <p><em>Figura 5.S2-12. Vista de recurso no encontrado y ruta de respaldo del sistema de navegación.</em></p>
+  <img src="./assets/chapter5/sprint2/404-noecontrado.jpeg" alt="Captura original de la página 404 de Rumbo." width="90%">
+  <p><em>Figura 5.S2-12. Vista de recurso no encontrado (404) de Rumbo.</em></p>
 </div>
- 
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
  
 El Sprint 2 no incluye la implementación del RESTful API de elaboración interna, por lo que **no corresponde documentación OpenAPI en esta iteración**. La Frontend Web Application consume durante este Sprint recursos REST emulados, cuya relación se documenta a continuación para dejar constancia del contrato que cada contexto espera del servicio propio. Esta tabla no sustituye la documentación de Web Services: su propósito es que los endpoints definidos en el Sprint 3 mantengan la misma forma de recurso y evitar reescribir la capa de infraestructura del Frontend.
@@ -3246,17 +3217,100 @@ El análisis de estos insights permitió al equipo verificar que cada integrante
 
 # Conclusiones
 
+## Conclusiones y recomendaciones
+
+
 El desarrollo de la Landing Page permitió consolidar la propuesta de valor del proyecto y transmitir de forma clara las funcionalidades principales del sistema a los segmentos objetivo. La maquetación en HTML y CSS funcionó como el primer punto de contacto técnico para unificar la identidad visual del equipo. Sin embargo, durante este primer hito, uno de los mayores desafíos fue la gestión del tiempo y la coordinación inicial del grupo. La falta de una organización más estructurada al principio generó ciertas complicaciones en la integración de estilos y contenidos; no obstante, esta experiencia sirvió como una lección clave para establecer flujos de trabajo más definidos, logrando finalmente entregar un sitio web dinámico, responsive y desplegado dentro de los plazos establecidos.
 
 La implementación del frontend de la aplicación representó un avance significativo al estructurar el proyecto en módulos funcionales específicos como gestión de vehículos, perfiles, rutas, alertas y suscripciones. Esta división permitió que cada integrante asumiera un rol de liderazgo técnico sobre su área, logrando una interfaz más cohesiva mediante el uso de componentes compartidos de navegación y maquetación. El principal reto durante esta etapa radicó en la complejidad de integrar múltiples módulos en paralelo bajo restricciones de tiempo ajustadas. Enfrentar problemas de consistencia visual y gestión de estados evidenció la necesidad de mantener una comunicación constante y una planificación más rigurosa. A pesar de los contratiempos organizativos surgidos en el proceso, el equipo logró superar las dificultades y desplegar una versión funcional que sienta bases sólidas para el desarrollo futuro del proyecto.
 
-## Conclusiones y recomendaciones
+**Recomendaciones para cerrar los pendientes de TB1 y continuar el proyecto:**
 
+- Verificar y corregir la integración del frontend mediante una compilación completa y pruebas de creación, consulta, actualización y eliminación sobre los endpoints de cada Bounded Context; documentar los resultados sin atribuir funcionalidades no comprobadas.
+- Incorporar las evidencias reales que aún no constan en el informe, principalmente las de **Alerting & Incident Management**, la visualización responsive, la URL pública y las capturas del despliegue de la Frontend Web Application, según las exigencias del TB1.
+- Completar el enlace público del Sprint Board, la evidencia de navegación y el enlace al video de exposición del equipo, de acuerdo con el formato solicitado para la entrega.
+- Mantener GitFlow, convenciones de commits, documentación de recursos REST, internacionalización y accesibilidad como criterios para las siguientes iteraciones, y validar las hipótesis de Lean UX mediante sesiones reales con los segmentos objetivo cuando corresponda.
 
 ---
 
 # Bibliografía
 
+Las siguientes referencias corresponden a documentación técnica, herramientas, métodos y material académico citados o utilizados para fundamentar los artefactos del Project Report.
+
+Axios. (s. f.). *Axios: Promise based HTTP client for the browser and node.js*. https://axios-http.com/
+
+Conventional Commits. (s. f.). *Conventional Commits 1.0.0*. https://www.conventionalcommits.org/
+
+Driessen, V. (2010). *A successful Git branching model*. https://nvie.com/posts/a-successful-git-branching-model/
+
+Figma. (s. f.). *Figma: The collaborative interface design tool*. https://www.figma.com/
+
+GitHub. (s. f.). *GitHub Pages*. https://pages.github.com/
+
+Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3.ª ed.). O'Reilly Media.
+
+Material Design. (s. f.). *Material Design 3*. https://m3.material.io/
+
+Miro. (s. f.). *Miro: Visual workspace for innovation*. https://miro.com/
+
+MockAPI. (s. f.). *MockAPI*. https://mockapi.io/
+
+PrimeVue. (s. f.). *PrimeVue: Vue UI component library*. https://primevue.org/
+
+Semantic Versioning. (s. f.). *Semantic Versioning 2.0.0*. https://semver.org/
+
+Structurizr. (s. f.). *Structurizr*. https://structurizr.com/
+
+Trello. (s. f.). *Trello*. https://trello.com/
+
+Universidad Peruana de Ciencias Aplicadas. (2026). *1ASI0730 Aplicaciones Web: Enunciado del trabajo final, ciclo académico 2026-20* [Documento académico].
+
+UXPressia. (s. f.). *UXPressia: Customer journey mapping tools*. https://uxpressia.com/
+
+Vue.js. (s. f.). *Vue.js: The progressive JavaScript framework*. https://vuejs.org/
+
 ---
 
 # Anexos
+
+## Anexo A. Repositorios y evidencias de control de versiones
+
+Se registran los repositorios públicos utilizados para documentar el trabajo de la startup **AIpaca** y el producto **Rumbo** durante los Sprints 1 y 2. Sus historiales permiten consultar las modificaciones realizadas; no sustituyen las capturas específicas solicitadas en la rúbrica.
+
+| Recurso | Evidencia disponible |
+|---|---|
+| Organización del equipo | https://github.com/AIpaca-UPC |
+| Project Report | https://github.com/AIpaca-UPC/web-applications-project-report |
+| Historial de cambios del Project Report | https://github.com/AIpaca-UPC/web-applications-project-report/commits/main/ |
+| Landing Page | https://github.com/AIpaca-UPC/landing-page |
+| Frontend Web Application | https://github.com/AIpaca-UPC/web-applications-web-app |
+| Commits del frontend | https://github.com/AIpaca-UPC/web-applications-web-app/commits/develop/ |
+| Network del frontend | https://github.com/AIpaca-UPC/web-applications-web-app/network |
+| Pull Requests del frontend | https://github.com/AIpaca-UPC/web-applications-web-app/pulls |
+| Contributors del frontend | https://github.com/AIpaca-UPC/web-applications-web-app/graphs/contributors |
+
+## Anexo B. Registro de capturas originales de los Sprints 1 y 2
+
+Las siguientes imágenes **ya están incorporadas y explicadas en la sección 5.2** del informe. Este anexo funciona como índice de archivos originales, no como evidencia adicional ni como sustitución de la explicación de cada figura.
+
+| Sprint | Interfaz o evidencia | Archivos disponibles en el Project Report |
+|---|---|---|
+| Sprint 1 | Despliegue de la Landing Page | [landing-deployment.png](./assets/chapter5/sprint1/landing-deployment.png) |
+| Sprint 2 | Home / Dashboard | [dashboard-1.jpeg](./assets/chapter5/sprint2/dashboard-1.jpeg), [dashboard-2.jpeg](./assets/chapter5/sprint2/dashboard-2.jpeg), [dashboard-3.jpeg](./assets/chapter5/sprint2/dashboard-3.jpeg) |
+| Sprint 2 | Profiles & Relationship Management | [profiles-captura.png](./assets/chapter5/sprint2/profiles-captura.png) |
+| Sprint 2 | Route & Trip Planning | [routes-captura.jpeg](./assets/chapter5/sprint2/routes-captura.jpeg), [routes-captura2.jpeg](./assets/chapter5/sprint2/routes-captura2.jpeg), [routes-captura3.jpeg](./assets/chapter5/sprint2/routes-captura3.jpeg) |
+| Sprint 2 | Vehicle & Credential Management | [vehicles-1.jpeg](./assets/chapter5/sprint2/vehicles-1.jpeg), [vehicles-2.jpeg](./assets/chapter5/sprint2/vehicles-2.jpeg), [vehicles-3.jpeg](./assets/chapter5/sprint2/vehicles-3.jpeg), [vehicles-4.jpeg](./assets/chapter5/sprint2/vehicles-4.jpeg) |
+| Sprint 2 | Subscriptions & Billing | [billing-captura.png](./assets/chapter5/sprint2/billing-captura.png) |
+| Sprint 2 | Página 404 | [404-noecontrado.jpeg](./assets/chapter5/sprint2/404-noecontrado.jpeg) |
+| Sprint 2 | Commits y red de ramas | [commits.png](./assets/chapter5/sprint2/commits.png), [network.png](./assets/chapter5/sprint2/network.png), [network-web-2.png](./assets/chapter5/sprint2/network-web-2.png) |
+
+## Anexo C. Enlaces a artefactos colaborativos documentados
+
+Se incluyen únicamente enlaces a artefactos externos **ya registrados** en los capítulos de requisitos y diseño de este Project Report. Su contenido pertenece a las herramientas del equipo y puede consultarse desde la plataforma correspondiente.
+
+| Artefacto | Enlace documentado |
+|---|---|
+| Product Backlog (Trello) | https://trello.com/b/dd4dejIV/product-backlog |
+| Impact Mapping (UXPressia) | https://uxpressia.com/w/npnzh/i/yG8Dn?tagId=RwNGd |
+| Big Picture EventStorming (Miro) | https://miro.com/app/board/uXjVIveDKA8=/?share_link_id=909349762479 |
+| Design-Level EventStorming (Miro) | https://miro.com/app/board/uXjVEd2_XFE=/?share_link_id=545994946915 |
