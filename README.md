@@ -2904,6 +2904,371 @@ Las siguientes capturas muestran el Network Graph utilizado como evidencia de la
 </div>
 <!-- PENDIENTE IMAGEN C5-S2-19: Pull Requests #5, #6, #7 y #8 cerrados/merged. -->
 
+### 5.2.3. Sprint 3
+
+En el Sprint 3 de Rumbo toma como punto de partida el Frontend integrado durante el Sprint 2 y los ocho modelos de persistencia presentados en el Capítulo IV. El alcance de esta iteración contempla la evolución de los tres componentes principales del producto: la Landing Page, la Frontend Web Application y Web Services. En este sentido, el trabajo se centrará en completar el desarrollo de la aplicación web de Rumbo y avanzar en la implementación de su backend, fortaleciendo la integración entre ambos componentes.
+
+#### 5.2.3.1. Sprint Planning 3
+
+En esta sección se registra el objetivo establecido durante la reunión de Sprint Planning correspondiente al Sprint 3. Durante dicha reunión, se definió como objetivo completar el desarrollo de la Frontend Web Application de Rumbo, priorizando los módulos de planificación de rutas, gestión de vehivulo, gestión de estudiantes, subscripciones y notificaciones, así como avanzar en la implementación de una parte del backend. Asimismo, se acordó incorporar dos nuevas secciones en la Landing Page, destinadas a presentar los videos About-the-Product y About-the-Team. De esta manera, se busca que los potenciales usuarios puedan conocer mejor la plataforma, sus funcionalidades y al equipo responsable de su desarrollo.
+
+<table>
+  <tbody>
+    <tr><th>Sprint #</th><td>Sprint 3</td></tr>
+    <tr><th colspan="2">Sprint Planning Background</th></tr>
+    <tr><td colspan="2">Integración progresiva de la aplicación web con Web Services propios, incorporación de nuevas versiones de los productos públicos y validación del uso de Rumbo.</td></tr>
+    <tr><th>Date</th><td>4/11/2026</td></tr>
+    <tr><th>Time</th><td>17:00 - 19:00</td></tr>
+    <tr><th>Location</th><td>Virtual, Google Meet</td></tr>
+    <tr><th>Prepared By</th><td>Barrientos Quispe, Marcelo </td></tr>
+    <tr><th>Attendees (to planning meeting)</th><td>Díaz Ramírez, Alejandro / Geronimo Puma, Kevin Joel / Lino Quispe, Leonardo Miguel / Meza Soza, Alexandra Yamile</td></tr>
+    <tr><th>Sprint 2 Review Summary</th><td>Durante el Sprint 2 se realizó la primera integración de los módulos CRUD del Frontend Angular con las Fake REST APIs, permitiendo gestionar los recursos de los distintos Bounded Contexts. Además, se desplegó la primera versión de la aplicación web de Rumbo.</td></tr>
+    <tr><th>Sprint 2 Retrospective Summary</th><td>Después del desarrollo del Sprint 2 se identificó la necesidad de mejorar la organización del equipo y la planificación del desarrollo del proyecto. Debido a que algunas actividades se realizaron con poco margen de tiempo, fue necesario optimizar los recursos disponibles, lo que llevó a reducir el alcance de ciertos aspectos, como la documentación, el diseño visual de la plataforma y algunas funcionalidades. Como medida de mejora, se propuso iniciar las actividades con mayor anticipación y distribuir la carga de trabajo de manera más eficiente, asegurando que todos los aspectos planificados reciban la atención necesaria.</td></tr>
+    <tr><th colspan="2">Sprint Goal &amp; User Stories</th></tr>
+    <tr><th>Sprint 3 Goal</th><td><strong>Our focus is on</strong> letting school transport drivers configure routes with ordered stops, schedules and enrolled students, plan and run the daily trip, and letting parents follow their children's routes and notices through Rumbo's own web services. <strong>We believe it delivers</strong> an organized daily operation to drivers and timely, centralized information about the school trip to parents. <strong>This will be confirmed when</strong> a driver publishes a route and completes a trip in the deployed web application, and the parent of an assigned student can see that route and its notices, using data persisted by the deployed Web Services.</td></tr>
+    <tr><th>Sprint 3 Velocity</th><td>75 Story Points</td></tr>
+    <tr><th>Sum of Story Points</th><td>107 Story Points</td></tr>
+  </tbody>
+</table>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+La matriz LACX refleja la distribución de responsabilidades establecida para el Sprint 3. En esta iteración, los aspectos considerados corresponden principalmente a los Bounded Context definidos para la plataforma Rumbo. Asimismo, se incorporan otros aspectos complementarios necesarios para el cumplimiento de los objetivos del Sprint. A continuación, se presentan los aspectos considerados y los responsables asignados a cada uno.
+
+<table>
+<thead>
+<tr>
+<th>Team Member (Last Name, First Name)</th>
+<th>GitHub Username</th>
+<th>Routes<br>Leader (L) / Collaborator (C)</th>
+<th>Trips & Vehicles<br>Leader (L) / Collaborator (C)</th>
+<th>Students<br>Leader (L) / Collaborator (C)</th>
+<th>Billing<br>Leader (L) / Collaborator (C)</th>
+<th>Alerting & Incident<br>Leader (L) / Collaborator (C)</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>Barrientos Quispe, Marcelo</td><td>MarceloBarrientosQ</td><td>—</td><td>L</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>Díaz Ramírez, Alejandro</td><td>aleedr</td><td>—</td><td>—</td><td>L</td><td>—</td><td>—</td></tr>
+<tr><td>Geronimo Puma, Kevin Joel</td><td>qebim18</td><td>—</td><td>—</td><td>—</td><td>L</td><td>—</td></tr>
+<tr><td>Lino Quispe, Leonardo Miguel</td><td>linolw</td><td>L</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>Meza Soza, Alexandra Yamile</td><td>AlexandraYMS</td><td>—</td><td>—</td><td>—</td><td>—</td><td>L</td></tr>
+</tbody>
+</table>
+
+#### 5.2.3.3. Sprint Backlog 3
+
+El Sprint Backlog 3 presenta las historias de usuario seleccionadas para el sprint y las tareas asociadas a cada una, detallando el trabajo necesario para alcanzar el Sprint Goal establecido durante el Sprint Planning.
+
+**Sprint Board público:** https://aipaca.atlassian.net/jira/software/projects/RMW/boards/1/backlog
+![alt text](image-8.png)
+
+<table>
+  <thead>
+    <tr><th>Sprint #</th><th colspan="7">Sprint 3</th></tr>
+    <tr><th colspan="2">User Story</th><th colspan="6">Work-Item / Task</th></tr>
+    <tr><th>Story Id</th><th>Story Title</th><th>Task Id</th><th>Task Title</th><th>Task Description</th><th>Estimation (Hours)</th><th>Assigned To</th><th>Status (To-do / In-Process / To-Review / Done)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">US38</td><td rowspan="3">Conocer más acerca del funcionamiento de la aplicación</td><td>T37</td><td>Implementar la sección del video del producto</td><td>Diseñar la sección «See how Rumbo works» de la Landing Page.</td><td>1</td><td>Kevin Geronimo</td><td>Done</td></tr>
+    <tr><td>T38</td><td>Incrustar el video About-the-Product</td><td>Incrustar el video About-the-Product desde YouTube con textos en español e inglés.</td><td>1</td><td>Kevin Geronimo</td><td>Done</td></tr>
+    <tr><td>T39</td><td>Adaptar el video a dispositivos móviles</td><td>Adaptar el reproductor a móvil y agregar el título accesible del iframe.</td><td>1</td><td>Kevin Geronimo</td><td>Done</td></tr>
+    <tr><td rowspan="3">US39</td><td rowspan="3">Conocer al equipo detrás de Rumbo</td><td>T40</td><td>Actualizar la sección del equipo</td><td>Actualizar la sección del equipo tras el retiro de una integrante.</td><td>1</td><td>Kevin Geronimo</td><td>Done</td></tr>
+    <tr><td>T41</td><td>Implementar la sección del video del equipo</td><td>Diseñar la sección «How we built Rumbo» de la Landing Page.</td><td>1</td><td>Kevin Geronimo</td><td>Done</td></tr>
+    <tr><td>T42</td><td>Incrustar el video About-the-Team</td><td>Incrustar el video About-the-Team desde YouTube con textos en español e inglés.</td><td>1</td><td>Kevin Geronimo</td><td>Done</td></tr>
+    <tr><td rowspan="3">US11</td><td rowspan="3">Definir el horario de la ruta</td><td>T43</td><td>Configurar días y horas recurrentes</td><td>Configurar los días de servicio y la hora de salida de la ruta.</td><td>4</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td>T44</td><td>Guardar y recuperar RouteSchedule</td><td>Persistir el horario de la ruta y exponer un método de actualización.</td><td>4</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td>T45</td><td>Horario completo e incompleto</td><td>Probar que un horario válido se guarda y que uno confirmado vacío se rechaza con un error de validación.</td><td>2</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td rowspan="4">US12</td><td rowspan="4">Asignar estudiantes a una ruta</td><td>T46</td><td>Seleccionar estudiantes para cada parada</td><td>Seleccionar en el formulario de ruta el estudiante con afiliación aceptada de cada parada.</td><td>5</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td>T47</td><td>Validar duplicados por estudiante, ruta y turno</td><td>Impedir que un estudiante quede asignado dos veces en la misma ruta y turno.</td><td>3</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td>T48</td><td>Persistir RouteAssignment con autorización por conductor</td><td>Exponer métodos de obtención, subida y actualización validando así la afiliación con el conductor.</td><td>5</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td>T49</td><td>Autorizado, no autorizado y duplicado</td><td>Probar la asignación de un estudiante autorizado, uno no autorizado y uno duplicado.</td><td>2</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td rowspan="2">US13</td><td rowspan="2">Publicar una ruta</td><td>T50</td><td>Implementar las reglas de publicación</td><td>Validar paradas, horario y estudiantes.</td><td>4</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td>T51</td><td>Implementar la acción de publicar</td><td>Agregar la acción Publicar con los motivos de bloqueo en la lista de rutas.</td><td>3</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td rowspan="3">US14</td><td rowspan="3">Modificar una ruta publicada</td><td>T52</td><td>Permitir la actualización de rutas publicadas</td><td>Exponer un método de actualización que acepte rutas ya publicadas.</td><td>3</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td>T53</td><td>Bloquear asignaciones al editar</td><td>Editar nombre, paradas y horario con las asignaciones bloqueadas.</td><td>3</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td>T54</td><td>Viaje en curso con la configuración original</td><td>Probar que un viaje en curso conserva su configuración original.</td><td>2</td><td>Leonardo Lino</td><td>To-Review</td></tr>
+    <tr><td rowspan="2">US15</td><td rowspan="2">Programar el viaje de la jornada</td><td>T55</td><td>Implementar la planificación del viaje</td><td>Exponer un método de subida del viaje con los pasajeros obtenidos de las asignaciones de la ruta.</td><td>6</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+    <tr><td>T56</td><td>Implementar la vista de gestión de viajes</td><td>Crear la vista «Gestionar viajes» para programar por fecha.</td><td>4</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+    <tr><td rowspan="2">US18</td><td rowspan="2">Iniciar el viaje</td><td>T57</td><td>Exponer el inicio del viaje</td><td>Exponer un método de actualización que inicie el viaje.</td><td>2</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+    <tr><td>T58</td><td>Implementar la acción de iniciar recorrido</td><td>Agregar la acción «Iniciar recorrido» en la vista de viajes.</td><td>2</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+    <tr><td rowspan="3">US19</td><td rowspan="3">Registrar los hitos de una parada</td><td>T59</td><td>Exponer los hitos de parada</td><td>Exponer métodos de actualización para marcar la parada como atendida y confirmar la llegada del pasajero.</td><td>4</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+    <tr><td>T60</td><td>Implementar las acciones de hitos</td><td>Agregar «Marcar parada atendida» y «Confirmar llegada».</td><td>3</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+    <tr><td>T61</td><td>Registrar el recojo no realizado</td><td>Registrar el recojo no realizado de un pasajero.</td><td>3</td><td>Marcelo Barrientos</td><td>To-do</td></tr>
+    <tr><td rowspan="2">US22</td><td rowspan="2">Completar el viaje</td><td>T62</td><td>Exponer el cierre del viaje</td><td>Exponer un método de actualización que finalice el viaje.</td><td>2</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+    <tr><td>T63</td><td>Implementar la acción de finalizar viaje</td><td>Agregar la acción «Finalizar viaje».</td><td>1</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+    <tr><td rowspan="2">US16</td><td rowspan="2">Reportar la ausencia del estudiante</td><td>T64</td><td>Exponer el registro de ausencias</td><td>Exponer un método de subida para registrar la ausencia de un estudiante en el viaje.</td><td>3</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+    <tr><td>T65</td><td>Implementar el reporte de ausencia</td><td>Permitir al tutor reportar la ausencia desde «Viaje actual».</td><td>4</td><td>Marcelo Barrientos</td><td>To-do</td></tr>
+    <tr><td rowspan="2">US17</td><td rowspan="2">Cancelar un viaje</td><td>T66</td><td>Exponer la cancelación del viaje</td><td>Exponer un método de actualización que cancele el viaje indicando el motivo.</td><td>2</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+    <tr><td>T67</td><td>Implementar el diálogo de cancelación</td><td>Agregar el diálogo de cancelación en la vista del conductor.</td><td>3</td><td>Marcelo Barrientos</td><td>To-do</td></tr>
+    <tr><td rowspan="2">US07</td><td rowspan="2">Autorizar o revocar a otro tutor</td><td>T68</td><td>Exponer la autorización de tutores</td><td>Exponer métodos de obtención, subida y revocación de los tutores autorizados de un estudiante.</td><td>4</td><td>Alejandro Díaz</td><td>Done</td></tr>
+    <tr><td>T69</td><td>Implementar las vistas de autorización</td><td>Formulario para autorizar por ID de perfil y acción Revocar.</td><td>4</td><td>Alejandro Díaz</td><td>Done</td></tr>
+    <tr><td rowspan="2">US08</td><td rowspan="2">Solicitar la supresión de datos del estudiante</td><td>T70</td><td>Exponer las solicitudes de supresión</td><td>Exponer métodos de subida, obtención y resolución de las solicitudes de supresión de datos.</td><td>4</td><td>Alejandro Díaz</td><td>Done</td></tr>
+    <tr><td>T71</td><td>Implementar la sección de privacidad</td><td>Sección «Privacidad y manejo de datos» en el detalle del estudiante.</td><td>2</td><td>Alejandro Díaz</td><td>Done</td></tr>
+    <tr><td rowspan="2">US36</td><td rowspan="2">Solicitar el servicio de transporte de un conductor</td><td>T72</td><td>Exponer la solicitud de afiliación</td><td>Exponer métodos de subida y cancelación de la solicitud de afiliación.</td><td>4</td><td>Alejandro Díaz</td><td>Done</td></tr>
+    <tr><td>T73</td><td>Implementar la solicitud de afiliación</td><td>Componente de afiliación en el detalle del estudiante.</td><td>3</td><td>Alejandro Díaz</td><td>Done</td></tr>
+    <tr><td rowspan="2">US37</td><td rowspan="2">Aceptar o finalizar la afiliación de un estudiante</td><td>T74</td><td>Exponer las transiciones de afiliación</td><td>Exponer métodos de actualización para aceptar o finalizar la afiliación, y de obtención de los estudiantes vinculados al conductor.</td><td>3</td><td>Alejandro Díaz</td><td>Done</td></tr>
+    <tr><td>T75</td><td>Implementar la vista de estudiantes vinculados</td><td>Vista «Estudiantes vinculados» del conductor.</td><td>3</td><td>Alejandro Díaz</td><td>Done</td></tr>
+    <tr><td rowspan="2">US23</td><td rowspan="2">Registrar un retraso</td><td>T76</td><td>Exponer el registro de retrasos</td><td>Exponer métodos de subida y obtención de retrasos y de sus actualizaciones.</td><td>4</td><td>Alexandra Meza</td><td>Done</td></tr>
+    <tr><td>T77</td><td>Implementar el diálogo de retraso</td><td>Reportar el retraso desde la vista del viaje.</td><td>2</td><td>Alexandra Meza</td><td>Done</td></tr>
+    <tr><td rowspan="2">US25</td><td rowspan="2">Resolver una incidencia</td><td>T78</td><td>Exponer la resolución de incidencias</td><td>Exponer un método de actualización que marque la incidencia como resuelta.</td><td>2</td><td>Alexandra Meza</td><td>Done</td></tr>
+    <tr><td>T79</td><td>Implementar la acción de resolver</td><td>Agregar la acción Resolver en la aplicación web.</td><td>3</td><td>Alexandra Meza</td><td>To-do</td></tr>
+    <tr><td rowspan="3">US28</td><td rowspan="3">Recibir avisos de los eventos relevantes</td><td>T80</td><td>Exponer los avisos</td><td>Exponer métodos de obtención y actualización de los avisos generales y de los avisos del recorrido del estudiante.</td><td>5</td><td>Alexandra Meza</td><td>Done</td></tr>
+    <tr><td>T81</td><td>Implementar los avisos del tutor</td><td>Vista de avisos del tutor con «Marcar como leída».</td><td>4</td><td>Alexandra Meza</td><td>Done</td></tr>
+    <tr><td>T82</td><td>Enviar avisos por un proveedor externo</td><td>Enviar avisos mediante un proveedor externo (TS03).</td><td>5</td><td>Alexandra Meza</td><td>To-do</td></tr>
+    <tr><td>TS09</td><td>Endpoints del RESTful API para Profiles &amp; Relationship Management</td><td>T83</td><td>Construir el contexto Profiles</td><td>Modelar en la capa de dominio los perfiles, los estudiantes, la relación entre tutor y estudiante y las afiliaciones; persistirlos en la capa de infraestructura con JPA; implementar en la capa de aplicación los servicios que registran y consultan esta información, y exponerlos finalmente en la capa de interfaces mediante controladores REST.</td><td>10</td><td>Alejandro Díaz</td><td>Done</td></tr>
+    <tr><td rowspan="5">TS10</td><td rowspan="5">Endpoints del RESTful API para Route &amp; Trip Planning</td><td>T85</td><td>Contrato REST de rutas, paradas, horarios y asignaciones</td><td>Modelar en la capa de dominio la ruta con sus paradas y su horario; persistirlos en la capa de infraestructura con JPA; implementar en la capa de aplicación los servicios que crean, modifican y consultan rutas, y exponerlos en la capa de interfaces a través de RoutesController, dejando el contrato publicado en OpenAPI.</td><td>8</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td>T86</td><td>Configurar ruta, código automático y paradas ordenadas</td><td>Conectar el formulario de rutas al backend con código generado y paradas en el orden del recorrido.</td><td>6</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td>T87</td><td>Verificar creación, persistencia y direcciones localizables</td><td>Probar la creación de la ruta, su persistencia en PostgreSQL y la validación de direcciones.</td><td>3</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td>T88</td><td>Contrato REST de viajes</td><td>Modelar en la capa de dominio el viaje y sus pasajeros; persistirlos en la capa de infraestructura con JPA; implementar en la capa de aplicación la planificación y la ejecución del viaje, y exponerlas en la capa de interfaces a través de TripsController.</td><td>6</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+    <tr><td>T89</td><td>Integrar Route &amp; Trip en la aplicación web</td><td>Fachada RouteTripApi, store y vistas conectadas a la API.</td><td>6</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+    <tr><td rowspan="2">TS11</td><td rowspan="2">Endpoints del RESTful API para Vehicle &amp; Credential Management</td><td>T90</td><td>Construir el contexto Vehicles</td><td>Modelar el vehículo en la capa de dominio; persistirlo en la capa de infraestructura con JPA; implementar en la capa de aplicación los servicios que lo registran, consultan, actualizan y eliminan, y exponerlos en la capa de interfaces a través de VehiclesController.</td><td>6</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+    <tr><td>T91</td><td>Integrar Vehicles en la aplicación web</td><td>Conectar el registro, consulta, actualización y borrado de vehículos a la API desplegada.</td><td>3</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+    <tr><td rowspan="6">TS12</td><td rowspan="6">Endpoints del RESTful API para Subscriptions &amp; Billing</td><td>T92</td><td>Definir contrato REST de planes y suscripciones</td><td>Definir recursos, operaciones y respuestas de Plans y Subscriptions.</td><td>2</td><td>Kevin Geronimo</td><td>Done</td></tr>
+    <tr><td>T93</td><td>Implementar catálogo de planes y persistencia</td><td>Modelar el plan en la capa de dominio; persistir el catálogo en la capa de infraestructura con JPA; implementar en la capa de aplicación la consulta y la creación de planes, y exponerlas en la capa de interfaces a través de PlansController.</td><td>5</td><td>Kevin Geronimo</td><td>Done</td></tr>
+    <tr><td>T94</td><td>Implementar activación y periodo de vigencia</td><td>Modelar en la capa de dominio la suscripción del conductor y sus estados; persistirla en la capa de infraestructura con JPA; implementar en la capa de aplicación la activación con su periodo de vigencia, y exponer el método de subida de la suscripción en la capa de interfaces a través de SubscriptionsController.</td><td>6</td><td>Kevin Geronimo</td><td>Done</td></tr>
+    <tr><td>T95</td><td>Consultar suscripción y capacidades del conductor</td><td>Exponer un método de obtención de la suscripción del conductor con su estado, vigencia y límite de vehículos del plan.</td><td>3</td><td>Kevin Geronimo</td><td>Done</td></tr>
+    <tr><td>T97</td><td>Documentar OpenAPI y probar escenarios</td><td>Documentar los servicios de Billing en Swagger y permitir su consumo desde la aplicación web.</td><td>3</td><td>Kevin Geronimo</td><td>Done</td></tr>
+    <tr><td>T98</td><td>Publicar y registrar evidencias para AV2</td><td>Desplegar Billing en Render y registrar las evidencias en el informe.</td><td>2</td><td>Kevin Geronimo</td><td>Done</td></tr>
+    <tr><td rowspan="3">TS13</td><td rowspan="3">Endpoints del RESTful API para Alerting &amp; Incident Management</td><td>T99</td><td>Construir los contextos Incidents &amp; Delays</td><td>Modelar en la capa de dominio las incidencias y los retrasos; persistirlos en la capa de infraestructura con JPA; implementar en la capa de aplicación los servicios que los registran, actualizan y consultan, y exponerlos en la capa de interfaces a través de IncidentsController y DelaysController.</td><td>8</td><td>Alexandra Meza</td><td>Done</td></tr>
+    <tr><td>T100</td><td>Construir el contexto Notifications</td><td>Modelar el aviso en la capa de dominio; persistirlo en la capa de infraestructura con JPA; implementar en la capa de aplicación los avisos generales y los del recorrido del estudiante, y exponerlos en la capa de interfaces a través de NotificationsController.</td><td>6</td><td>Alexandra Meza</td><td>Done</td></tr>
+    <tr><td>T101</td><td>Integrar incidencias y avisos en la aplicación web</td><td>Diálogos de incidencias y retrasos y AlertingStore.</td><td>4</td><td>Alexandra Meza</td><td>Done</td></tr>
+    <tr><td>TS06</td><td>Documentación del RESTful API con OpenAPI</td><td>T102</td><td>Documentar los servicios con OpenAPI</td><td>Anotaciones OpenAPI, ejemplos y Swagger UI desplegado.</td><td>3</td><td>Alejandro Díaz</td><td>Done</td></tr>
+    <tr><td>TS07</td><td>Internacionalización del RESTful API</td><td>T103</td><td>Localizar los mensajes de la API</td><td>Mensajes de validación en inglés y español según el idioma de cada solicitud.</td><td>3</td><td>Alejandro Díaz</td><td>Done</td></tr>
+    <tr><td rowspan="5">N/A</td><td rowspan="5">Tareas generales del Sprint</td><td>T105</td><td>Desplegar los Web Services en Render</td><td>Dockerfile, perfil prod y PostgreSQL en Render.</td><td>4</td><td>Alejandro Díaz</td><td>Done</td></tr>
+    <tr><td>T106</td><td>Configurar el blueprint de Render</td><td>Infraestructura de despliegue y vista previa en Render.</td><td>2</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td>T107</td><td>Desplegar la aplicación web</td><td>Workflow de GitHub Actions hacia GitHub Pages.</td><td>2</td><td>Alejandro Díaz</td><td>Done</td></tr>
+    <tr><td>T108</td><td>Publicar la Landing Page</td><td>Publicación de la nueva versión en GitHub Pages.</td><td>1</td><td>Kevin Geronimo</td><td>Done</td></tr>
+    <tr><td>T109</td><td>Documentar el Sprint 3 en el informe</td><td>Secciones 5.2.3, 5.3, 5.4 y About-the-Team del informe.</td><td>6</td><td>Leonardo Lino</td><td>Done</td></tr>
+  </tbody>
+</table>
+<br>
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3 se registraron, sin contar adiciones como los merges, multiples commits en los tres repositorios del producto entre el 2026-10-25 y el 2026-11-15. En la Landing Page se añadieron las secciones de los videos About-the-Product y About-the-Team. En la Frontend Web Application se reorganizaron las vistas por rol (conductor y tutor), se reemplazaron las Fake REST APIs por los Web Services propios y se completó la internacionalización. En los Web Services se implementaron los Bounded Contexts de Profiles, Route & Trip Planning, Vehicles Management, Subscriptions & Billing, Alerting and Incident Management. Las tablas siguen las convenciones de Conventional Commits y GitFlow.
+
+## Repositorio Landing Page
+
+
+
+
+## Repositorio Frontend Web Application
+
+| Repository               | Branch                                | Commit Id | Commit Message                                                                                                                                                                                         | Commit Message Body                                                                                                                                                                                    | Committed on (Date) |
+| ------------------------ | ------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- |
+| web-applications-web-app | feature/route-csharp-integration      | c258269   | feat(routes): consume the deployed platform backend end to end                                                                                                                                         | —                                                                                                                                                                                                      | 15/11/2026          |
+| web-applications-web-app | feature/route-csharp-integration      | e28764c   | refactor(routes): write the aggregate through the data source contract                                                                                                                                 | —                                                                                                                                                                                                      | 15/11/2026          |
+| web-applications-web-app | feature/route-csharp-integration      | 52995c9   | fix(routes): resolve assignments by stop position and name the planning driver                                                                                                                         | —                                                                                                                                                                                                      | 15/11/2026          |
+| web-applications-web-app | feature/route-csharp-integration      | 9c3d7bd   | feat(routes): add assembler for the platform backend contract                                                                                                                                          | —                                                                                                                                                                                                      | 15/11/2026          |
+| web-applications-web-app | feature/route-csharp-integration      | cfda681   | feat(routes): reference driver profile and vehicle by identity                                                                                                                                         | —                                                                                                                                                                                                      | 15/11/2026          |
+| web-applications-web-app | feature/role-home                     | f94f210   | feat(home): give the dashboard a shape by role                                                                                                                                                         | —                                                                                                                                                                                                      | 15/11/2026          |
+| web-applications-web-app | feature/role-home                     | 98aebaf   | feat(layout): collapse the navigation into a drawer on narrow screens                                                                                                                                  | —                                                                                                                                                                                                      | 15/11/2026          |
+| web-applications-web-app | feature/normalize-context-routing     | d2e72db   | refactor(routing): let every bounded context declare its own routes                                                                                                                                    | —                                                                                                                                                                                                      | 14/11/2026          |
+| web-applications-web-app | feature/tutor-student-relationship    | 177d68a   | feat(profiles): model the tutor authorization over a student                                                                                                                                           | —                                                                                                                                                                                                      | 14/11/2026          |
+| web-applications-web-app | feature/tutor-student-relationship    | 856ce36   | feat(profiles): show a tutor only the students they are authorized over                                                                                                                                | —                                                                                                                                                                                                      | 14/11/2026          |
+| web-applications-web-app | feature/tutor-student-relationship    | 0018e0d   | feat(trips): show a tutor only the trips carrying their own children                                                                                                                                   | —                                                                                                                                                                                                      | 14/11/2026          |
+| web-applications-web-app | feature/journey-notifications         | df694b2   | feat(alerting): add the notification aggregate, its gateway, store and list view                                                                                                                       | —                                                                                                                                                                                                      | 14/11/2026          |
+| web-applications-web-app | feature/journey-notifications         | 5cec8ad   | feat(trips): announce journey milestones through alerting                                                                                                                                              | Confirming a stop, starting and closing a trip now produce a notice per affected student. Trip Execution & Monitoring asks Alerting to announce the milestone and does not decide how it is presented. | 14/11/2026          |
+| web-applications-web-app | feature/trip-execution-and-monitoring | 269909f   | feat(trip): add trip api                                                                                                                                                                               | —                                                                                                                                                                                                      | 14/11/2026          |
+| web-applications-web-app | feature/route-trip-planning           | f8c3cf1   | feat(route-trip-planning): add the Route aggregate and its domain model                                                                                                                                | —                                                                                                                                                                                                      | 14/11/2026          |
+| web-applications-web-app | feature/access-profile                | 4ac781f   | feat(access-profile): updated layout with views depends roles                                                                                                                                          | —                                                                                                                                                                                                      | 12/11/2026          |
+| web-applications-web-app | feature/access-profile                | 3890c1f   | fix(access-profile): Implement access guard with the functionality to send a visitor without a role to the access screen, keeping the path they asked for, andreturns a role that opens a workspace o… | —                                                                                                                                                                                                      | 12/11/2026          |
+## Repositorio Web Services
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| web-applications-web-service | develop | fcf17ba | fix(persistence): declare date conversions the MySQL provider requires | — | 15/11/2026 |
+| web-applications-web-service | develop | f43686c | fix(vehicles): map credential dates through the provider’s supported types | — | 15/11/2026 |
+| web-applications-web-service | develop | ee75d14 | Merge pull request #11 from AIpaca-UPC/feature/profiles-and-relationship-management | — | 15/11/2026 |
+| web-applications-web-service | develop | c4618af | feat(profiles): add GET /api/v1/students endpoint to list all students | — | 15/11/2026 |
+| web-applications-web-service | develop | f004686 | fix(api): honour the proxy’s forwarded scheme behind the platform host | — | 15/11/2026 |
+| web-applications-web-service | develop | 89d8d80 | feat(platform): integrate profiles billing and alerting bounded contexts | — | 15/11/2026 |
+| web-applications-web-service | develop | 415bf63 | Merge pull request #7 from AIpaca-UPC/feature/alerting-incident-management | — | 15/11/2026 |
+| web-applications-web-service | develop | 316be12 | Merge pull request #9 from AIpaca-UPC/feature/profiles-and-relationship-management | — | 15/11/2026 |
+| web-applications-web-service | develop | f3e3b1f | Merge pull request #8 from AIpaca-UPC/feature/subscriptions-and-billing | — | 15/11/2026 |
+| web-applications-web-service | develop | 96f6c3d | feat(migrations): add initial migration with tables for profiles, students, data deletion requests, and tutor-student relationships | — | 15/11/2026 |
+| web-applications-web-service | develop | 614460c | feat(profiles): add DataDeletionRequestsController, ProfilesController, and StudentsController for managing profiles and data deletion requests | — | 15/11/2026 |
+| web-applications-web-service | develop | 48c3836 | feat(profiles): add assemblers for transforming resources to commands and entities | — | 15/11/2026 |
+| web-applications-web-service | develop | 12e85f7 | feat(profiles): add resources for creating and managing profiles and student data deletion | — | 15/11/2026 |
+| web-applications-web-service | develop | f71ae7b | feat(profiles): implement query services for DataDeletionRequest, Profile, and Student | — | 15/11/2026 |
+| web-applications-web-service | develop | f67b3f7 | feat(profiles): implement command services for DataDeletionRequest, Profile, and Student | — | 15/11/2026 |
+| web-applications-web-service | develop | c5dfe20 | feat(profiles): implement repositories for DataDeletionRequest, Profile, and Student entities | — | 15/11/2026 |
+| web-applications-web-service | develop | e0f00a3 | feat(alerting): add notifications controller and add builder services on Program.cs | — | 15/11/2026 |
+| web-applications-web-service | develop | 2553a91 | feat(alerting): add notifications rest transform resources | — | 15/11/2026 |
+| web-applications-web-service | develop | 1012057 | feat(alerting): add notifications rest resources | — | 15/11/2026 |
+| web-applications-web-service | develop | c52fce0 | feat(alerting): add command and query services | — | 15/11/2026 |
+| web-applications-web-service | develop | 7249b99 | Merge pull request #6 from AIpaca-UPC/feature/route-schedule-management | — | 15/11/2026 |
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+En esta sección se mostrarán las capturas que evidencian todo lo desarrollado durante el Sprint 3, incluyendo las modificaciones realizadas en la Landing Page, la aplicación web frontend y el backend, junto con los enlaces de despliegue correspondientes a cada uno de estos componentes.
+
+En primer lugar, se presentan las nuevas secciones implementadas en la Landing Page, donde se exhiben los videos **About-the-Product**, que presenta la plataforma final a los usuarios, y **About-the-Team**, que ofrece un breve resumen del camino recorrido durante el desarrollo de Rumbo, acompañado de los testimonios de cada uno de los integrantes de la startup.
+
+**URL pública de la Landing Page:** https://aipaca-upc.github.io/landing-page/
+
+**URL pública del Repositorio de la Landing Page:** https://github.com/AIpaca-UPC/landing-page
+
+### Sección About-the-Product
+
+<div align="center">
+  <img src="./assets/chapter5/sprint3-about-the-product.png" alt="Sección About-the-Product en la Landing Page" width="95%">
+</div>
+
+### Sección About-the-Team
+
+<div align="center">
+  <img src="./assets/chapter5/sprint3-about-the-team.png" alt="Sección About-the-Team en la Landing Page" width="95%">
+</div>
+
+<br>
+
+En segundo lugar, se presentan las capturas de las nuevas interfaces de la aplicación web frontend de Rumbo, donde principalmente se organizaron las vistas en dos plataformas diferenciadas: una para conductores y otra para tutores. Asimismo, se realizaron modificaciones en las interfaces con el propósito de mejorar su apariencia y ofrecer una experiencia más atractiva para los usuarios.
+
+**URL pública del Frontend Web Application:** https://web-applications-web-app.vercel.app/access
+
+**URL pública del Repositorio del Frontend Web Application:** https://github.com/AIpaca-UPC/web-applications-web-app
+
+### Login temporal
+
+![alt text](image-9.png)
+
+### Rumbo: Conductores
+
+#### Dashboard
+
+![alt text](image-10.png)
+
+#### Estudiantes
+
+![alt text](image-11.png)
+
+#### Vehiculos
+
+![alt text](image-12.png)
+
+#### Rutas
+
+![alt text](image-13.png)
+
+#### Notificaciones
+
+![alt text](image-14.png)
+
+#### Plan y facturación
+
+![alt text](image-15.png)
+
+![alt text](image-16.png)
+
+#### Viajes
+
+![alt text](image-17.png)
+
+### Rumbo: Tutores
+
+![alt text](image-18.png)
+
+#### Perfiles de Estudiante
+
+![alt text](image-19.png)
+
+#### Información del Vehiculo de movilidad
+
+![alt text](image-21.png)
+
+#### Notificaciones
+
+![alt text](image-22.png)
+
+#### Viaje Actual
+
+![alt text](image-20.png)
+
+<br>
+
+Por último, se presenta Scalar, donde se documentan todos los endpoints implementados durante este sprint. Estos ya se encuentran integrados con el frontend y permiten realizar la persistencia de los datos de la plataforma.
+
+**URL pública de los Web Services:** https://web-services-gjgh.onrender.com/swagger-ui/index.html#/
+
+**URL pública del Repositorio de los Web Services:** https://github.com/AIpaca-OS/web-services
+
+<div align="center">
+  <img src="./assets/chapter5/backend-swagger.png" alt="Swagger de Rumbo Web Services" width="95%">
+</div>
+
+### Plans
+
+<div align="center">
+  <img src="./assets/chapter5/backend-endpoint-plans.png" alt="Plans Endpoint" width="95%">
+</div>
+
+### Service Enrollments
+
+<div align="center">
+  <img src="./assets/chapter5/backend-endpoint-service-enrollments.png" alt="Service Enrollments Endpoint" width="95%">
+</div>
+
+### Incidents
+
+<div align="center">
+  <img src="./assets/chapter5/backend-endpoint-incidents.png" alt="Incidents Endpoint" width="95%">
+</div>
+
+### Trips
+
+<div align="center">
+  <img src="./assets/chapter5/backend-endpoint-trips.png" alt="Trips Endpoint" width="95%">
+</div>
+
+### Vehicles
+
+<div align="center">
+  <img src="./assets/chapter5/backend-endpoint-vehicles.png" alt="Vehicles Endpoint" width="95%">
+</div>
+
+### Data Deletion Requests
+
+<div align="center">
+  <img src="./assets/chapter5/backend-endpoint-deletion-request.png" alt="Data Deletion Requests Endpoint" width="95%">
+</div>
+
+### Profiles
+
+<div align="center">
+  <img src="./assets/chapter5/backend-endpoint-profiles.png" alt="Profiles Endpoint" width="95%">
+</div>
+
+### Subscriptions
+
+<div align="center">
+  <img src="./assets/chapter5/backend-endpoint-subscriptions.png" alt="Subscriptions Endpoint" width="95%">
+</div>
+
+### Routes
+
+<div align="center">
+  <img src="./assets/chapter5/backend-endpoint-routes.png" alt="Routes Endpoint" width="95%">
+</div>
+
+### Delays
+
+<div align="center">
+  <img src="./assets/chapter5/backend-endpoint-delays.png" alt="Delays Endpoint" width="95%">
+</div>
+
+### Notifications
+
+<div align="center">
+  <img src="./assets/chapter5/backend-endpoint-notifications.png" alt="Notifications Endpoint" width="95%">
+</div>
+
+### Students
+
+<div align="center">
+  <img src="./assets/chapter5/backend-endpoint-students.png" alt="Students Endpoint" width="95%">
+</div>
 
 
 # Conclusiones

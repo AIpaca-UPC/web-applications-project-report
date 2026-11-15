@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280">
+  <rect width="900" height="280" rx="24" fill="#ffffff"/>
+  <g transform="translate(55,48)">
+    <rect x="0" y="0" width="150" height="150" rx="28" fill="#d71920"/>
+    <path d="M38 47 C72 20 116 20 145 47 C112 50 93 67 88 93 C81 128 55 145 26 145 C47 125 55 103 50 83 C46 68 42 57 38 47Z" fill="#ffffff"/>
+    <text x="195" y="78" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" fill="#d71920">UPC</text>
+    <text x="202" y="120" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#333333">UNIVERSIDAD PERUANA</text>
+    <text x="202" y="151" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#333333">DE CIENCIAS APLICADAS</text>
+  </g>
+</svg>
