@@ -3112,9 +3112,7 @@ En primer lugar, se presentan las nuevas secciones implementadas en la Landing P
 
 ### Sección About-the-Product
 
-<div align="center">
-  <img src="./assets/chapter5/sprint3-about-the-product.png" alt="Sección About-the-Product en la Landing Page" width="95%">
-</div>
+![alt text](image-32.png)
 
 ### Sección About-the-Team
 
@@ -3190,86 +3188,509 @@ En segundo lugar, se presentan las capturas de las nuevas interfaces de la aplic
 
 Por último, se presenta Scalar, donde se documentan todos los endpoints implementados durante este sprint. Estos ya se encuentran integrados con el frontend y permiten realizar la persistencia de los datos de la plataforma.
 
-**URL pública de los Web Services:** https://web-services-gjgh.onrender.com/swagger-ui/index.html#/
+**URL pública de los Web Services:** https://rumbo-api-b6hq.onrender.com/scalar/v1
 
-**URL pública del Repositorio de los Web Services:** https://github.com/AIpaca-OS/web-services
+**URL pública del Repositorio de los Web Services:** https://github.com/AIpaca-UPC/web-applications-web-service
 
-<div align="center">
-  <img src="./assets/chapter5/backend-swagger.png" alt="Swagger de Rumbo Web Services" width="95%">
-</div>
-
-### Plans
-
-<div align="center">
-  <img src="./assets/chapter5/backend-endpoint-plans.png" alt="Plans Endpoint" width="95%">
-</div>
-
-### Service Enrollments
-
-<div align="center">
-  <img src="./assets/chapter5/backend-endpoint-service-enrollments.png" alt="Service Enrollments Endpoint" width="95%">
-</div>
-
-### Incidents
-
-<div align="center">
-  <img src="./assets/chapter5/backend-endpoint-incidents.png" alt="Incidents Endpoint" width="95%">
-</div>
-
-### Trips
-
-<div align="center">
-  <img src="./assets/chapter5/backend-endpoint-trips.png" alt="Trips Endpoint" width="95%">
-</div>
+![alt text](image-23.png)
 
 ### Vehicles
 
-<div align="center">
-  <img src="./assets/chapter5/backend-endpoint-vehicles.png" alt="Vehicles Endpoint" width="95%">
-</div>
+![alt text](image-24.png)
 
-### Data Deletion Requests
+### Plans
 
-<div align="center">
-  <img src="./assets/chapter5/backend-endpoint-deletion-request.png" alt="Data Deletion Requests Endpoint" width="95%">
-</div>
-
-### Profiles
-
-<div align="center">
-  <img src="./assets/chapter5/backend-endpoint-profiles.png" alt="Profiles Endpoint" width="95%">
-</div>
+![alt text](image-25.png)
 
 ### Subscriptions
 
-<div align="center">
-  <img src="./assets/chapter5/backend-endpoint-subscriptions.png" alt="Subscriptions Endpoint" width="95%">
-</div>
+![alt text](image-26.png)
 
 ### Routes
 
-<div align="center">
-  <img src="./assets/chapter5/backend-endpoint-routes.png" alt="Routes Endpoint" width="95%">
-</div>
+![alt text](image-27.png)
 
-### Delays
+### Data Deletion Requests
 
-<div align="center">
-  <img src="./assets/chapter5/backend-endpoint-delays.png" alt="Delays Endpoint" width="95%">
-</div>
+![alt text](image-28.png)
 
-### Notifications
+### Profiles 
 
-<div align="center">
-  <img src="./assets/chapter5/backend-endpoint-notifications.png" alt="Notifications Endpoint" width="95%">
-</div>
+![alt text](image-29.png)
 
 ### Students
 
+![alt text](image-30.png)
+
+### Notifications
+
+![alt text](image-31.png)
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Dado que durante el Sprint 3 se desplegó el backend de Rumbo mediante Web Services para permitir el consumo de sus funcionalidades desde el frontend y garantizar la persistencia de los datos, en esta sección se documentan todos los endpoints implementados, incluyendo sus sintaxis de llamada, parámetros, ejemplos de solicitudes y demás detalles necesarios para su utilización.
+
+### Vehicles 
+
+![alt text](image-24.png)
+
+<table>
+    <thead>
+        <tr>
+            <th>Endpoint</th>
+            <th>Método HTTP</th>
+            <th>Acción implementada</th>
+            <th>Sintaxis de llamada</th>
+            <th>Parámetros</th>
+            <th>Ejemplo Request</th>
+            <th>Ejemplo Response</th>
+            <th>Explicación Response</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>/api/v1/vehicles</td>
+            <td>GET</td>
+            <td>Get all vehicles</td>
+            <td>GET https://rumbo-api-b6hq.onrender.com/api/v1/vehicles</td>
+            <td>N/A (No requiere parámetros).</td>
+            <td>N/A (No requiere body).</td>
+            <td>
+                <pre>[
+  {
+    "id": 1,
+    "licensePlate": "ABC-123",
+    "brand": "Toyota",
+    "model": "Hiace",
+    "capacity": 15,
+    "year": 2022,
+    "status": "Active",
+    "driverName": "Juan Perez",
+    "hasAllCredentialsVerified": true,
+    "credentials": [
+      {
+        "type": "SOAT",
+        "number": "SOAT-001",
+        "expiresAt": "2027-05-20",
+        "verificationStatus": "Verified",
+        "verificationSource": "ExternalService",
+        "verifiedAt": "2026-11-15T10:00:00Z",
+        "displayStatus": "Valid"
+      }
+    ]
+  }
+]</pre>
+            </td>
+            <td>Retorna una colección de vehículos registrados en la plataforma. Cada vehículo incluye sus datos generales, el nombre del conductor, el estado de verificación de sus documentos y la lista de credenciales declaradas.</td>
+        </tr>
+        <tr>
+            <td>/api/v1/vehicles</td>
+            <td>POST</td>
+            <td>Register a vehicle</td>
+            <td>POST https://rumbo-api-b6hq.onrender.com/api/v1/vehicles</td>
+            <td>N/A (No requiere parámetros).</td>
+            <td>
+                <pre>{
+  "licensePlate": "ABC-123",
+  "brand": "Toyota",
+  "model": "Hiace",
+  "capacity": 15,
+  "year": 2022,
+  "status": "Active",
+  "driverName": "Juan Perez",
+  "credentials": [
+    {
+      "type": "SOAT",
+      "number": "SOAT-001",
+      "expiresAt": "2027-05-20"
+    }
+  ]
+}</pre>
+            </td>
+            <td>
+                <pre>{
+  "id": 1,
+  "licensePlate": "ABC-123",
+  "brand": "Toyota",
+  "model": "Hiace",
+  "capacity": 15,
+  "year": 2022,
+  "status": "Active",
+  "driverName": "Juan Perez",
+  "hasAllCredentialsVerified": false,
+  "credentials": [
+    {
+      "type": "SOAT",
+      "number": "SOAT-001",
+      "expiresAt": "2027-05-20",
+      "verificationStatus": "Pending",
+      "verificationSource": "",
+      "verifiedAt": null,
+      "displayStatus": "Pending"
+    }
+  ]
+}</pre>
+            </td>
+            <td>Registra un nuevo vehículo junto con los documentos declarados. Si la operación se completa correctamente, devuelve el vehículo creado con su identificador y la información de sus credenciales. El código HTTP esperado es 201 Created.</td>
+        </tr>
+        <tr>
+            <td>/api/v1/vehicles/{vehicleId}</td>
+            <td>GET</td>
+            <td>Get a vehicle by Id</td>
+            <td>GET https://rumbo-api-b6hq.onrender.com/api/v1/vehicles/1</td>
+            <td>
+                <strong>Path Parameter:</strong><br>
+                vehicleId (int): Identificador único del vehículo.
+            </td>
+            <td>N/A (No requiere body).</td>
+            <td>
+                <pre>{
+  "id": 1,
+  "licensePlate": "ABC-123",
+  "brand": "Toyota",
+  "model": "Hiace",
+  "capacity": 15,
+  "year": 2022,
+  "status": "Active",
+  "driverName": "Juan Perez",
+  "hasAllCredentialsVerified": true,
+  "credentials": [
+    {
+      "type": "SOAT",
+      "number": "SOAT-001",
+      "expiresAt": "2027-05-20",
+      "verificationStatus": "Verified",
+      "verificationSource": "ExternalService",
+      "verifiedAt": "2026-11-15T10:00:00Z",
+      "displayStatus": "Valid"
+    }
+  ]
+}</pre>
+            </td>
+            <td>Retorna la información de un vehículo específico según su identificador. La respuesta incluye sus datos generales y las credenciales asociadas. Si el identificador no corresponde a un vehículo registrado, devuelve 404 Not Found.</td>
+        </tr>
+        <tr>
+            <td>/api/v1/vehicles/{vehicleId}</td>
+            <td>PUT</td>
+            <td>Update a vehicle</td>
+            <td>PUT https://rumbo-api-b6hq.onrender.com/api/v1/vehicles/1</td>
+            <td>
+                <strong>Path Parameter:</strong><br>
+                vehicleId (int): Identificador único del vehículo.
+            </td>
+            <td>
+                <pre>{
+  "licensePlate": "ABC-123",
+  "brand": "Toyota",
+  "model": "Hiace",
+  "capacity": 18,
+  "year": 2023,
+  "status": "Active",
+  "driverName": "Juan Perez",
+  "credentials": [
+    {
+      "type": "SOAT",
+      "number": "SOAT-002",
+      "expiresAt": "2027-12-20"
+    }
+  ]
+}</pre>
+            </td>
+            <td>
+                <pre>{
+  "id": 1,
+  "licensePlate": "ABC-123",
+  "brand": "Toyota",
+  "model": "Hiace",
+  "capacity": 18,
+  "year": 2023,
+  "status": "Active",
+  "driverName": "Juan Perez",
+  "hasAllCredentialsVerified": false,
+  "credentials": [
+    {
+      "type": "SOAT",
+      "number": "SOAT-002",
+      "expiresAt": "2027-12-20",
+      "verificationStatus": "Pending",
+      "verificationSource": "",
+      "verifiedAt": null,
+      "displayStatus": "Pending"
+    }
+  ]
+}</pre>
+            </td>
+            <td>Actualiza la información de un vehículo existente, incluyendo sus datos generales y los documentos declarados. Devuelve el vehículo actualizado. Puede responder con 404 Not Found si no existe el vehículo o 409 Conflict si se presenta un conflicto durante la actualización.</td>
+        </tr>
+        <tr>
+            <td>/api/v1/vehicles/{vehicleId}/credential-verifications</td>
+            <td>POST</td>
+            <td>Record a credential verification</td>
+            <td>POST https://rumbo-api-b6hq.onrender.com/api/v1/vehicles/1/credential-verifications</td>
+            <td>
+                <strong>Path Parameter:</strong><br>
+                vehicleId (int): Identificador único del vehículo.
+            </td>
+            <td>
+                <pre>{
+  "type": "SOAT",
+  "answered": true,
+  "verified": true,
+  "source": "ExternalService"
+}</pre>
+            </td>
+            <td>
+                <pre>{
+  "id": 1,
+  "licensePlate": "ABC-123",
+  "brand": "Toyota",
+  "model": "Hiace",
+  "capacity": 15,
+  "year": 2022,
+  "status": "Active",
+  "driverName": "Juan Perez",
+  "hasAllCredentialsVerified": true,
+  "credentials": [
+    {
+      "type": "SOAT",
+      "number": "SOAT-001",
+      "expiresAt": "2027-05-20",
+      "verificationStatus": "Verified",
+      "verificationSource": "ExternalService",
+      "verifiedAt": "2026-11-15T10:00:00Z",
+      "displayStatus": "Valid"
+    }
+  ]
+}</pre>
+            </td>
+            <td>Registra el resultado de la verificación de una credencial del vehículo. Recibe el tipo de documento, si el servicio de verificación respondió, el resultado de la verificación y su fuente. Si el servicio no responde, el documento permanece pendiente en lugar de marcarse como verificado. Devuelve el vehículo actualizado.</td>
+        </tr>
+    </tbody>
+</table>
+
+
+### Plans
+
+![alt text](image-25.png)
+
+### Subscriptions
+
+![alt text](image-26.png)
+
+### Routes
+
+![alt text](image-27.png)
+
+### Data Deletion Requests
+
+![alt text](image-28.png)
+
+### Profiles 
+
+![alt text](image-29.png)
+
+### Students
+
+![alt text](image-30.png)
+
+### Notifications
+
+![alt text](image-31.png)
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Se realizó el despliegue de los servicios backend de Rumbo utilizando la plataforma Render, mediante la cual se publicaron tanto la base de datos PostgreSQL como la aplicación backend encargada de proporcionar los Web Services para el consumo del frontend.
+
+En primer lugar, se creó una instancia de base de datos PostgreSQL en Render, configurando los parámetros necesarios para su creación, como el nombre de la base de datos, el usuario, la región y las credenciales de acceso. Una vez completada la configuración, Render proporcionó los datos de conexión que permitirían establecer la comunicación con la base de datos desde la aplicación backend.
+
 <div align="center">
-  <img src="./assets/chapter5/backend-endpoint-students.png" alt="Students Endpoint" width="95%">
+  <img src="./assets/chapter5/deploy-db-1.png" alt="Evidencia del Deploy de la Base de Datos" width="95%">
 </div>
 
+<div align="center">
+  <img src="./assets/chapter5/deploy-db-2.png" alt="Evidencia del Deploy de la Base de Datos" width="95%">
+</div>
+
+Posteriormente, se modificó la configuración del backend para reemplazar los parámetros de conexión locales por los correspondientes a la base de datos desplegada en Render. Para ello, se actualizaron los datos de conexión, incluyendo la URL y las credenciales de acceso, de modo que la aplicación pudiera conectarse correctamente al entorno remoto y mantener la persistencia de la información.
+
+Finalmente, se desplegó la aplicación backend en Render, vinculándola con el repositorio de GitHub y configurando los parámetros necesarios para su compilación y ejecución. Una vez finalizado el proceso, se obtuvo una URL pública que permite acceder a los Web Services implementados y realizar solicitudes a los distintos endpoints de la API de Rumbo.
+
+<div align="center">
+  <img src="./assets/chapter5/deploy-backend-1.png" alt="Evidencia del Deploy de Backend" width="95%">
+</div>
+
+<div align="center">
+  <img src="./assets/chapter5/deploy-backend-2.png" alt="Evidencia del Deploy de Backend" width="95%">
+</div>
+
+
+<div align="center">
+  <img src="./assets/chapter5/deploy-backend-3.png" alt="Evidencia del Deploy de Backend" width="95%">
+</div>
+
+
+<div align="center">
+  <img src="./assets/chapter5/deploy-backend-4.png" alt="Evidencia del Deploy de Backend" width="95%">
+</div>
+
+### Servicios Desplegados
+
+<div align="center">
+  <img src="./assets/chapter5/deployed-services.png" alt="Evidencia del Deploy de Backend" width="95%">
+</div>
+
+<div align="center">
+  <img src="./assets/chapter5/backend-swagger.png" alt="Evidencia del Deploy de Backend" width="95%">
+</div>
+
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+La colaboración durante el Sprint 3 se evidencia mediante las métricas de actividad registradas en los repositorios de GitHub correspondientes al Landing Page, Frontend Web Application y Web Services de Rumbo. Estas métricas permiten identificar las contribuciones realizadas por cada integrante del equipo y visualizar el avance en el desarrollo de los distintos Bounded Contexts, tanto en el frontend como en el backend, a través de los commits asociados a los cambios implementados. 
+
+A continuación, se presenta un resumen de estas métricas junto con las capturas correspondientes.
+
+**Frontend Web Application**
+
+El repositorio Frontend Web Application contiene la implementación de la plataforma utilizando Angular. Las siguientes capturas muestran el resumen de actividad, los colaboradores y la red de ramas del repositorio.
+
+**Resumen de actividad (Pulse)**
+
+<div align="center">
+  <img src="./assets/chapter5/sprint3-frontend-pulse.jpg" alt="Frontend Pulse" width="95%">
+</div>
+
+**Colaboradores (Contributors)**
+
+<div align="center">
+  <img src="./assets/chapter5/sprint3-frontend-contributors.jpg" alt="Frontend Contributors" width="95%">
+</div>
+
+**Gráfico de red (Network Graph)**
+
+<div align="center">
+  <img src="./assets/chapter5/sprint3-frontend-network.jpg" alt="Frontend Network Graph" width="95%">
+</div>
+
+<br>
+
+Referencias del repositorio:
+
+- [Frontend Web Application - Commits (develop)](https://github.com/AIpaca-OS/frontend-web-application/commits/develop)
+- [Frontend Web Application - Pull Requests](https://github.com/AIpaca-OS/frontend-web-application/pulls)
+
+<br>
+
+**Web Services**
+
+El repositorio Web Services contiene la implementación del backend utilizando Spring Boot. Las siguientes evidencias presentan la actividad de desarrollo, la distribución de contribuciones entre los integrantes y la estructura de ramas del repositorio.
+
+**Resumen de actividad (Pulse)**
+
+<div align="center">
+  <img src="./assets/chapter5/sprint3-backend-pulse.jpg" alt="Backend Pulse" width="95%">
+</div>
+
+**Colaboradores (Contributors)**
+
+<div align="center">
+  <img src="./assets/chapter5/sprint3-backend-contributors.jpg" alt="Backend Contributors" width="95%">
+</div>
+
+**Gráfico de red (Network Graph)**
+
+<div align="center">
+  <img src="./assets/chapter5/sprint3-backend-network.jpg" alt="Backend Network Graph" width="95%">
+</div>
+
+<br>
+
+Referencias del repositorio:
+
+- [Web Services - Commits (develop)](https://github.com/AIpaca-OS/web-services/commits/develop)
+- [Web Services - Pull Requests](https://github.com/AIpaca-OS/web-services/pulls)
+
+<br>
+
+**Landing Page**
+
+El repositorio Landing Page complementa la aplicación principal mediante la presentación del producto a sus usuarios objetivo. A continuación, se incluye la evidencia disponible sobre las contribuciones de los integrantes.
+
+**Colaboradores (Contributors)**
+
+<div align="center">
+  <img src="./assets/chapter5/sprint3-landing-contributors.jpg" alt="Landing Page Contributors" width="95%">
+</div>
+
+Referencias del repositorio:
+- [Landing Page - Commits (main)](https://github.com/AIpaca-OS/landing-page/commits/main)
+- [Landing Page - Pull Requests](https://github.com/AIpaca-OS/landing-page/pulls)
+
+**Análisis de la colaboración**
+
+Las evidencias de GitHub Insights ofrecen diferentes perspectivas sobre la actividad de desarrollo del equipo. Pulse resume la actividad del repositorio durante un periodo determinado, Contributors identifica las contribuciones asociadas a las cuentas de GitHub y Network Graph permite visualizar la relación entre las ramas y los commits.
+
+Estas visualizaciones deben interpretarse conjuntamente con el historial de commits, los Pull Requests y los registros de Jira. En particular, Network Graph representa el historial del repositorio y las relaciones entre sus ramas, mientras que el historial de commits permite identificar los cambios realizados durante el periodo correspondiente al Sprint 3.
+
+El proceso de desarrollo colaborativo involucró trabajo paralelo en los repositorios de frontend y backend, lo que requirió coordinación en los contratos de API, las dependencias entre los bounded contexts y la integración mediante Pull Requests. Asimismo, la revisión de estas contribuciones permitió destacar la importancia de mantener configuraciones consistentes y validar los cambios antes de incorporarlos a las ramas compartidas de desarrollo.
+
+## 5.3. Validation Interviews
+
+La validación de Rumbo se estructura alrededor de los segmentos definidos en el Needfinding: padres o tutores y conductores de movilidad escolar. Las sesiones contemplan la interacción directa con los User Flows de la aplicación web. Las tareas se presentan a través de situaciones de uso, sin guiar al entrevistado hacia una secuencia específica de botones.
+
+### 5.3.1. Diseño de Entrevistas
+
+La sesión inicia con una breve presentación del objetivo de la entrevista y una presentación del entrevistado, que incluye sus nombres y apellidos, edad y distrito de residencia. Después, se le presenta el Landing Page de Rumbo y se le permite interactuar con él.
+
+A continuación, se pasa al Frontend, donde se presenta la plataforma al entrevistado y se le pide que interactúe con ella, guiándolo para que explore determinadas pantallas y funcionalidades, como registrar una ruta, revisar la ubicación de su hijo, enviar una notificación, entre otras.
+
+Finalmente, después de completar la interacción con la plataforma, se le plantean las preguntas finales correspondientes a su segmento objetivo.
+
+### Preguntas de cierre
+
+#### Padres 
+
+1. ¿Cuál fue tu primera impresión al ingresar a la plataforma Rumbo?
+2. ¿Qué opinas del diseño y la organización de las diferentes secciones de la plataforma?
+3. ¿Te resultó fácil navegar por la plataforma y encontrar la información que necesitabas? ¿Por qué?
+4. ¿Consideras que la información relacionada con la movilidad de tu hijo se presenta de manera clara y comprensible?
+5.	¿Hubo alguna funcionalidad o sección que te resultara confusa o difícil de utilizar?
+6.	¿Consideras que las notificaciones y los avisos proporcionados por la plataforma serían útiles para mantenerte informado sobre la movilidad?
+7.	¿Qué funcionalidades o características adicionales te gustaría que se implementaran en Rumbo?
+8. Después de utilizar la plataforma, ¿estarías dispuesto(a) a utilizarla para realizar el seguimiento de la movilidad escolar de tu hijo? ¿Por qué?
+
+#### Conductores
+
+1.	¿Cuál fue tu primera impresión al ingresar a la plataforma Rumbo?
+2.	¿Qué opinas del diseño y la organización de las diferentes secciones de la plataforma?
+3.	¿Te resultó fácil navegar por la plataforma y encontrar las opciones que necesitabas? ¿Por qué?
+4.	¿Consideras que la información de tus rutas y estudiantes se presenta de manera clara y organizada?
+5.	¿Hubo alguna funcionalidad o sección que te resultara confusa o difícil de utilizar?
+6. ¿Qué funcionalidades de la plataforma te parecieron más útiles para gestionar tu servicio de movilidad?
+7.	¿Consideras que las opciones para registrar incidencias y comunicar retrasos serían útiles durante tus recorridos?
+8.	¿Qué funcionalidades o características adicionales te gustaría que se implementaran en Rumbo?
+9.	Después de utilizar la plataforma, ¿estarías dispuesto(a) a utilizarla para gestionar tu servicio de movilidad escolar? ¿Por qué?
+
+### 5.3.2. Registro de Entrevistas
+
+A continuación, se registran todas las entrevistas de validación realizadas a ambos segmentos objetivos, incluyendo los datos relevantes de cada una, como el nombre del entrevistado, edad, distrito de residencia, duración del video, tiempo de inicio, entre otros. Además, se incluye un breve resumen de los puntos más importantes identificados durante cada entrevista.
+
+### 5.3.3. Evaluaciones según heurísticas
+
+
+## 5.4. Video About-the-Product
+
+El video About-the-Product presenta la propuesta de Rumbo a los visitantes y usuarios de la plataforma. Su narrativa parte de la necesidad de comunicación durante el traslado escolar, explica los beneficios para padres y conductores y muestra escenas de interacción con las principales funciones del producto. El mensaje, la identidad visual y el tono se mantienen alineados con el Landing Page.
+
+**URL del video About-the-Team publicado en YouTube:** https://www.youtube.com/watch?v=n8zE7hQ2HUI
+
+![alt text](image-33.png)
+</div>
+
+<br>
+<br>
 
 # Conclusiones
 
@@ -3282,6 +3703,31 @@ Por último, se presenta Scalar, donde se documentan todos los endpoints impleme
 5. Sprint 1 entregó la Landing Page pública de Rumbo, desplegada mediante GitHub Pages y ampliada durante TB1 con una sección de producto integrada mediante Pull Request.
 6. Sprint 2 entregó la primera versión integrada de la Frontend Web Application, organizada por Bounded Contexts y desplegada públicamente, lo que permitió validar la arquitectura frontend antes de incorporar los Web Services reales.
 7. El uso de Fake REST APIs permitió comprobar las operaciones CRUD de cada contexto de forma independiente del backend, cuyo desarrollo con Spring Boot queda delimitado para el siguiente Sprint.
+
+---
+
+## Video About-the-Team
+
+El video About-the-Team presenta el proceso de trabajo de AIpaca desde la perspectiva de sus integrantes. Reúne escenas de coordinación, revisión de artefactos, desarrollo y demostración de la aplicación, junto con una retrospectiva del equipo. Los testimonios individuales relacionan las responsabilidades asumidas, las dificultades técnicas y los aprendizajes con el Student Outcome 3, referido a la comunicación efectiva para diferentes audiencias.
+
+**URL del video About-the-Team publicado en YouTube:** https://www.youtube.com/watch?v=RQ0Z-Gsg2tA
+
+| Sección                   | Timing          |
+| ------------------------- | --------------- |
+| Testimonio Alexandra Meza | `00:00 - 02:24` |
+| Testimonio Kevin Geronimo | `02:25 - 04:50` |
+| Testimonio Alejandro Diaz | `04:51 - 06:44` |30032007
+| Testimonio Leonardo Lino  | `06:45 - 08:38` |
+
+<br>
+
+<div align="center">
+  <img src="./assets/chapter5/video-about-the-team.png" alt="Video About-the-Team" width="95%">
+</div>
+
+<br>
+<br>
+
 
 ---
 
@@ -3308,23 +3754,6 @@ Por último, se presenta Scalar, donde se documentan todos los endpoints impleme
 
 # Anexos
 
-## Videos de Exposición
-
-### AV1
-
-**Microsoft Stream:** [Completar]  
-**Archivo:** `upc-pre-202620-1asi0730-8137-rumbo-expo-av1.mp4`
-
-## Entrevistas de Needfinding
-
-**Microsoft Stream:** [Completar]  
-**Archivo:** `upc-pre-202620-1asi0730-8137-rumbo-needfinding-sprint-1.mp4`
-
-## Navegación del Prototipo
-
-**Microsoft Stream:** [Completar]  
-**Archivo:** `upc-pre-202620-1asi0730-8137-rumbo-prototypenavigation-sprint-1.mp4`
-
 ## Enlaces del proyecto
 
 - **Organización:** https://github.com/AIpaca-UPC
@@ -3332,10 +3761,3 @@ Por último, se presenta Scalar, donde se documentan todos los endpoints impleme
 - **Landing Page:** https://github.com/AIpaca-UPC/landing-page
 - **Frontend Web Application:** https://github.com/AIpaca-UPC/web-applications-web-app
 - **Web Service:** https://github.com/AIpaca-UPC/web-applications-web-service
-
-## Artefactos externos
-
-- **UXPressia:** [Completar]
-- **Figma:** [Completar]
-- **Sprint Board:** [Completar]
-- **Structurizr:** [Completar]
