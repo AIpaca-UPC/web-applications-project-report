@@ -3050,8 +3050,15 @@ Durante el Sprint 3 se registraron, sin contar adiciones como los merges, multip
 
 ## Repositorio Landing Page
 
-
-
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| AIpaca-UPC/landing-page | main | d5b8939 | feat: embed about-the-team video in landing page |  | 16/11/2026 |
+| AIpaca-UPC/landing-page | main | 5b0d8b6 | Merge pull request #8 from AIpaca-UPC/feature/about-team-video |  | 16/11/2026 |
+| AIpaca-UPC/landing-page | main | d1ccd6c | feat: embed about-the-product video in landing page |  | 15/11/2026 |
+| AIpaca-UPC/landing-page | main | e6e4e39 | Merge pull request #7 from AIpaca-UPC/feature/about-product-video |  | 15/11/2026 |
+| AIpaca-UPC/landing-page | main | ea14968 | feat: add product and team video sections and set english as default language |  | 15/11/2026 |
+| AIpaca-UPC/landing-page | main | 7d6cced | Merge pull request #6 from AIpaca-UPC/feature/video-sections |  | 15/11/2026 |
+| AIpaca-UPC/landing-page | main | 2511079 | chore: remove course statement pdf from team assets |  | 15/11/2026 |
 
 ## Repositorio Frontend Web Application
 
@@ -3116,9 +3123,7 @@ En primer lugar, se presentan las nuevas secciones implementadas en la Landing P
 
 ### Sección About-the-Team
 
-<div align="center">
-  <img src="./assets/chapter5/sprint3-about-the-team.png" alt="Sección About-the-Team en la Landing Page" width="95%">
-</div>
+![alt text](image-57.png)
 
 <br>
 
@@ -3470,79 +3475,585 @@ Dado que durante el Sprint 3 se desplegó el backend de Rumbo mediante Web Servi
 </table>
 
 
-### Plans
-
-![alt text](image-25.png)
-
-### Subscriptions
-
-![alt text](image-26.png)
-
-### Routes
-
-![alt text](image-27.png)
-
-### Data Deletion Requests
-
-![alt text](image-28.png)
-
-### Profiles 
-
-![alt text](image-29.png)
-
-### Students
-
-![alt text](image-30.png)
-
-### Notifications
-
-![alt text](image-31.png)
-
+<table style="width:100%;border-collapse:collapse;table-layout:fixed;font-size:12px;">
+    <thead>
+        <tr>
+            <th style="border:1px solid #000;padding:8px;">Endpoint</th>
+            <th style="border:1px solid #000;padding:8px;">Método HTTP</th>
+            <th style="border:1px solid #000;padding:8px;">Acción implementada</th>
+            <th style="border:1px solid #000;padding:8px;">Sintaxis de llamada</th>
+            <th style="border:1px solid #000;padding:8px;">Parámetros</th>
+            <th style="border:1px solid #000;padding:8px;">Ejemplo Request</th>
+            <th style="border:1px solid #000;padding:8px;">Ejemplo Response</th>
+            <th style="border:1px solid #000;padding:8px;">Explicación Response</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- PLANS -->
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/plans</td>
+            <td style="border:1px solid #000;padding:8px;">GET</td>
+            <td style="border:1px solid #000;padding:8px;">Obtener todos los planes de suscripción.</td>
+            <td style="border:1px solid #000;padding:8px;">GET /api/v1/plans</td>
+            <td style="border:1px solid #000;padding:8px;">Ninguno.</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>[
+  {
+    "id": 1,
+    "name": "Plan Básico",
+    "description": "Plan para conductores",
+    "referencePrice": 49.90,
+    "currency": "PEN",
+    "billingPeriodMonths": 1,
+    "vehicleLimit": 2,
+    "active": true
+  }
+]</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Retorna una colección de planes de suscripción registrados en la plataforma.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/plans</td>
+            <td style="border:1px solid #000;padding:8px;">POST</td>
+            <td style="border:1px solid #000;padding:8px;">Registrar un nuevo plan de suscripción.</td>
+            <td style="border:1px solid #000;padding:8px;">POST /api/v1/plans</td>
+            <td style="border:1px solid #000;padding:8px;">Body: CreatePlanResource.</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "name": "Plan Básico",
+  "description": "Plan para conductores",
+  "referencePrice": 49.90,
+  "currency": "PEN",
+  "billingPeriodMonths": 1,
+  "vehicleLimit": 2,
+  "active": true
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "id": 1,
+  "name": "Plan Básico",
+  "description": "Plan para conductores",
+  "referencePrice": 49.90,
+  "currency": "PEN",
+  "billingPeriodMonths": 1,
+  "vehicleLimit": 2,
+  "active": true
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Retorna el plan creado, incluyendo su identificador y los datos registrados.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/plans/{planId}</td>
+            <td style="border:1px solid #000;padding:8px;">GET</td>
+            <td style="border:1px solid #000;padding:8px;">Obtener un plan por su identificador.</td>
+            <td style="border:1px solid #000;padding:8px;">GET /api/v1/plans/1</td>
+            <td style="border:1px solid #000;padding:8px;">Path: planId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "id": 1,
+  "name": "Plan Básico",
+  "description": "Plan para conductores",
+  "referencePrice": 49.90,
+  "currency": "PEN",
+  "billingPeriodMonths": 1,
+  "vehicleLimit": 2,
+  "active": true
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la información del plan solicitado. Si no existe, puede devolver un error 404.</td>
+        </tr>
+        <!-- SUBSCRIPTIONS -->
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/subscriptions</td>
+            <td style="border:1px solid #000;padding:8px;">GET</td>
+            <td style="border:1px solid #000;padding:8px;">Obtener las suscripciones registradas, con filtros opcionales.</td>
+            <td style="border:1px solid #000;padding:8px;">GET /api/v1/subscriptions?driverProfileId=10&amp;includeCancelled=false</td>
+            <td style="border:1px solid #000;padding:8px;">Query: driverProfileId (string), includeCancelled (boolean).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>[
+  {
+    "id": 1,
+    "planId": 1,
+    "driverProfileId": "10",
+    "status": "Active",
+    "startedAt": "2026-11-15",
+    "currentPeriodStart": "2026-11-15",
+    "currentPeriodEnd": "2026-12-15",
+    "autoRenew": true,
+    "pausedAt": null,
+    "cancelledAt": null,
+    "createdAt": "2026-11-15T10:00:00Z"
+  }
+]</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Retorna las suscripciones que cumplen con los filtros proporcionados.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/subscriptions</td>
+            <td style="border:1px solid #000;padding:8px;">POST</td>
+            <td style="border:1px solid #000;padding:8px;">Activar una suscripción para un conductor.</td>
+            <td style="border:1px solid #000;padding:8px;">POST /api/v1/subscriptions</td>
+            <td style="border:1px solid #000;padding:8px;">Body: ActivateSubscriptionResource.</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "driverProfileId": "10",
+  "planId": 1,
+  "startedAt": "2026-11-15"
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "id": 1,
+  "planId": 1,
+  "driverProfileId": "10",
+  "status": "Active",
+  "startedAt": "2026-11-15",
+  "currentPeriodStart": "2026-11-15",
+  "currentPeriodEnd": "2026-12-15",
+  "autoRenew": true,
+  "pausedAt": null,
+  "cancelledAt": null,
+  "createdAt": "2026-11-15T10:00:00Z"
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la suscripción activada con su identificador, plan asociado, estado y periodo de vigencia.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/subscriptions/{subscriptionId}</td>
+            <td style="border:1px solid #000;padding:8px;">GET</td>
+            <td style="border:1px solid #000;padding:8px;">Obtener una suscripción por su identificador.</td>
+            <td style="border:1px solid #000;padding:8px;">GET /api/v1/subscriptions/1</td>
+            <td style="border:1px solid #000;padding:8px;">Path: subscriptionId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;">Objeto SubscriptionResource.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna los detalles de la suscripción solicitada. Si no existe, devuelve un error 404.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/subscriptions/{subscriptionId}</td>
+            <td style="border:1px solid #000;padding:8px;">PUT</td>
+            <td style="border:1px solid #000;padding:8px;">Actualizar una suscripción.</td>
+            <td style="border:1px solid #000;padding:8px;">PUT /api/v1/subscriptions/1</td>
+            <td style="border:1px solid #000;padding:8px;">Path: subscriptionId (int32). Body: UpdateSubscriptionResource.</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "driverProfileId": "10",
+  "planId": 2,
+  "status": "Active"
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Objeto SubscriptionResource actualizado.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la suscripción con los cambios aplicados. Puede devolver errores 404 o 409.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/subscriptions/{subscriptionId}</td>
+            <td style="border:1px solid #000;padding:8px;">DELETE</td>
+            <td style="border:1px solid #000;padding:8px;">Cancelar una suscripción.</td>
+            <td style="border:1px solid #000;padding:8px;">DELETE /api/v1/subscriptions/1</td>
+            <td style="border:1px solid #000;padding:8px;">Path: subscriptionId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No devuelve body). HTTP 204.</td>
+            <td style="border:1px solid #000;padding:8px;">Confirma la cancelación mediante el código 204 No Content, sin retornar contenido en el cuerpo.</td>
+        </tr>
+        <!-- ROUTES -->
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/routes</td>
+            <td style="border:1px solid #000;padding:8px;">GET</td>
+            <td style="border:1px solid #000;padding:8px;">Obtener las rutas registradas.</td>
+            <td style="border:1px solid #000;padding:8px;">GET /api/v1/routes?driverProfileId=10</td>
+            <td style="border:1px solid #000;padding:8px;">Query opcional: driverProfileId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;">Arreglo de objetos RouteResource.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna las rutas registradas. Opcionalmente, permite filtrar las rutas por el perfil del conductor.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/routes</td>
+            <td style="border:1px solid #000;padding:8px;">POST</td>
+            <td style="border:1px solid #000;padding:8px;">Crear una nueva ruta.</td>
+            <td style="border:1px solid #000;padding:8px;">POST /api/v1/routes</td>
+            <td style="border:1px solid #000;padding:8px;">Body: CreateRouteResource.</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "driverProfileId": 10,
+  "name": "Ruta San Miguel",
+  "shift": "Morning",
+  "vehicleId": 1,
+  "stops": [],
+  "schedule": [],
+  "scheduleConfirmed": true
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Objeto RouteResource creado.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la ruta registrada con su identificador y la información correspondiente a su configuración.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/routes/{routeId}</td>
+            <td style="border:1px solid #000;padding:8px;">GET</td>
+            <td style="border:1px solid #000;padding:8px;">Obtener una ruta por identificador.</td>
+            <td style="border:1px solid #000;padding:8px;">GET /api/v1/routes/1</td>
+            <td style="border:1px solid #000;padding:8px;">Path: routeId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;">Objeto RouteResource.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna los detalles de la ruta solicitada. Si no existe, devuelve un error 404.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/routes/{routeId}</td>
+            <td style="border:1px solid #000;padding:8px;">PUT</td>
+            <td style="border:1px solid #000;padding:8px;">Actualizar la información de una ruta.</td>
+            <td style="border:1px solid #000;padding:8px;">PUT /api/v1/routes/1</td>
+            <td style="border:1px solid #000;padding:8px;">Path: routeId (int32). Body: UpdateRouteResource.</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "name": "Ruta San Miguel Actualizada",
+  "shift": "Morning",
+  "vehicleId": 2,
+  "stops": [],
+  "schedule": [],
+  "scheduleConfirmed": true
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Objeto RouteResource actualizado.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la información de la ruta después de aplicar los cambios solicitados.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/routes/{routeId}</td>
+            <td style="border:1px solid #000;padding:8px;">DELETE</td>
+            <td style="border:1px solid #000;padding:8px;">Eliminar una ruta.</td>
+            <td style="border:1px solid #000;padding:8px;">DELETE /api/v1/routes/1</td>
+            <td style="border:1px solid #000;padding:8px;">Path: routeId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No devuelve body). HTTP 204.</td>
+            <td style="border:1px solid #000;padding:8px;">Indica que la ruta fue eliminada correctamente mediante el código 204 No Content.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/routes/{routeId}/schedule</td>
+            <td style="border:1px solid #000;padding:8px;">PUT</td>
+            <td style="border:1px solid #000;padding:8px;">Actualizar el horario de una ruta.</td>
+            <td style="border:1px solid #000;padding:8px;">PUT /api/v1/routes/1/schedule</td>
+            <td style="border:1px solid #000;padding:8px;">Path: routeId (int32). Body: UpdateRouteScheduleResource.</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "schedule": [],
+  "confirm": true
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Objeto RouteResource actualizado.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la ruta con el horario actualizado y la confirmación correspondiente.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/routes/{routeId}/stops/{stopId}/student</td>
+            <td style="border:1px solid #000;padding:8px;">PUT</td>
+            <td style="border:1px solid #000;padding:8px;">Asignar un estudiante a una parada de la ruta.</td>
+            <td style="border:1px solid #000;padding:8px;">PUT /api/v1/routes/1/stops/1/student</td>
+            <td style="border:1px solid #000;padding:8px;">Path: routeId (int32), stopId (int32). Body: AssignStudentResource.</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "studentId": 5
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Objeto RouteResource actualizado.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la ruta con el estudiante asignado a la parada indicada.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/routes/{routeId}/stops/{stopId}/student</td>
+            <td style="border:1px solid #000;padding:8px;">DELETE</td>
+            <td style="border:1px solid #000;padding:8px;">Retirar la asignación de un estudiante de una parada.</td>
+            <td style="border:1px solid #000;padding:8px;">DELETE /api/v1/routes/1/stops/1/student</td>
+            <td style="border:1px solid #000;padding:8px;">Path: routeId (int32), stopId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;">Objeto RouteResource actualizado.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la ruta después de retirar la asignación del estudiante, sin eliminar la parada.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/routes/{routeId}/assignments</td>
+            <td style="border:1px solid #000;padding:8px;">PUT</td>
+            <td style="border:1px solid #000;padding:8px;">Reemplazar las asignaciones de estudiantes de una ruta.</td>
+            <td style="border:1px solid #000;padding:8px;">PUT /api/v1/routes/1/assignments</td>
+            <td style="border:1px solid #000;padding:8px;">Path: routeId (int32). Body: ReplaceRouteAssignmentsResource.</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "assignments": [
+    {
+      "stopId": 1,
+      "studentId": 5
+    },
+    {
+      "stopId": 2,
+      "studentId": 6
+    }
+  ]
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Objeto RouteResource actualizado.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la ruta con el conjunto de asignaciones reemplazado por los datos enviados.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/routes/{routeId}/publish</td>
+            <td style="border:1px solid #000;padding:8px;">POST</td>
+            <td style="border:1px solid #000;padding:8px;">Publicar una ruta.</td>
+            <td style="border:1px solid #000;padding:8px;">POST /api/v1/routes/1/publish</td>
+            <td style="border:1px solid #000;padding:8px;">Path: routeId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;">Objeto RouteResource publicado.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la información de la ruta después de ejecutar la operación de publicación.</td>
+        </tr>
+        <!-- DATA DELETION REQUESTS -->
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/data-deletion-requests/{dataDeletionRequestId}</td>
+            <td style="border:1px solid #000;padding:8px;">GET</td>
+            <td style="border:1px solid #000;padding:8px;">Obtener una solicitud de eliminación de datos por identificador.</td>
+            <td style="border:1px solid #000;padding:8px;">GET /api/v1/data-deletion-requests/1</td>
+            <td style="border:1px solid #000;padding:8px;">Path: dataDeletionRequestId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "id": 1,
+  "studentId": 5,
+  "requestedByTutorId": 10,
+  "status": "Pending"
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Retorna los datos de la solicitud de eliminación indicada. Si no existe, devuelve un error 404.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/data-deletion-requests/requesters/{requestedByProfileId}</td>
+            <td style="border:1px solid #000;padding:8px;">GET</td>
+            <td style="border:1px solid #000;padding:8px;">Obtener las solicitudes realizadas por un perfil solicitante.</td>
+            <td style="border:1px solid #000;padding:8px;">GET /api/v1/data-deletion-requests/requesters/10</td>
+            <td style="border:1px solid #000;padding:8px;">Path: requestedByProfileId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;">Arreglo de objetos de solicitudes de eliminación.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna las solicitudes de eliminación asociadas al perfil solicitante indicado.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/data-deletion-requests</td>
+            <td style="border:1px solid #000;padding:8px;">POST</td>
+            <td style="border:1px solid #000;padding:8px;">Registrar una solicitud de eliminación de datos de un estudiante.</td>
+            <td style="border:1px solid #000;padding:8px;">POST /api/v1/data-deletion-requests</td>
+            <td style="border:1px solid #000;padding:8px;">Body: RequestStudentDataDeletionResource.</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "studentId": 5,
+  "requestedByProfileId": 10
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "id": 1,
+  "studentId": 5,
+  "requestedByTutorId": 10,
+  "status": "Pending"
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la solicitud creada, incluyendo el estudiante, el perfil solicitante y el estado de la solicitud.</td>
+        </tr>
+        <!-- PROFILES -->
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/profiles/{profileId}</td>
+            <td style="border:1px solid #000;padding:8px;">GET</td>
+            <td style="border:1px solid #000;padding:8px;">Obtener un perfil por su identificador.</td>
+            <td style="border:1px solid #000;padding:8px;">GET /api/v1/profiles/1</td>
+            <td style="border:1px solid #000;padding:8px;">Path: profileId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "id": 1,
+  "accountId": 10,
+  "fullName": "Carlos Ramirez",
+  "phoneNumber": "987654321",
+  "profileType": "Driver"
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la información del perfil solicitado. Si no existe, devuelve un error 404.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/profiles/accounts/{accountId}</td>
+            <td style="border:1px solid #000;padding:8px;">GET</td>
+            <td style="border:1px solid #000;padding:8px;">Obtener el perfil asociado a una cuenta.</td>
+            <td style="border:1px solid #000;padding:8px;">GET /api/v1/profiles/accounts/10</td>
+            <td style="border:1px solid #000;padding:8px;">Path: accountId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;">Objeto ProfileResource.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna el perfil vinculado a la cuenta indicada.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/profiles</td>
+            <td style="border:1px solid #000;padding:8px;">POST</td>
+            <td style="border:1px solid #000;padding:8px;">Crear un nuevo perfil.</td>
+            <td style="border:1px solid #000;padding:8px;">POST /api/v1/profiles</td>
+            <td style="border:1px solid #000;padding:8px;">Body: CreateProfileResource.</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "accountId": 10,
+  "firstName": "Carlos",
+  "lastName": "Ramirez",
+  "phoneNumber": "987654321",
+  "profileType": "Driver"
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "id": 1,
+  "accountId": 10,
+  "fullName": "Carlos Ramirez",
+  "phoneNumber": "987654321",
+  "profileType": "Driver"
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Retorna el perfil creado con su identificador y los datos registrados.</td>
+        </tr>
+        <!-- STUDENTS -->
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/students/{studentId}</td>
+            <td style="border:1px solid #000;padding:8px;">GET</td>
+            <td style="border:1px solid #000;padding:8px;">Obtener un estudiante por identificador.</td>
+            <td style="border:1px solid #000;padding:8px;">GET /api/v1/students/5</td>
+            <td style="border:1px solid #000;padding:8px;">Path: studentId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "id": 5,
+  "fullName": "Lucia Gonzales",
+  "birthDate": "2015-06-20",
+  "schoolName": "Colegio San Miguel",
+  "status": "Active"
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la información del estudiante solicitado. Si no existe, devuelve un error 404.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/students</td>
+            <td style="border:1px solid #000;padding:8px;">GET</td>
+            <td style="border:1px solid #000;padding:8px;">Obtener todos los estudiantes registrados.</td>
+            <td style="border:1px solid #000;padding:8px;">GET /api/v1/students</td>
+            <td style="border:1px solid #000;padding:8px;">Ninguno.</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;">Arreglo de objetos StudentResource.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la colección de estudiantes registrados en la plataforma.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/students</td>
+            <td style="border:1px solid #000;padding:8px;">POST</td>
+            <td style="border:1px solid #000;padding:8px;">Registrar un nuevo estudiante.</td>
+            <td style="border:1px solid #000;padding:8px;">POST /api/v1/students</td>
+            <td style="border:1px solid #000;padding:8px;">Body: RegisterStudentResource.</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "firstName": "Lucia",
+  "lastName": "Gonzales",
+  "birthDate": "2015-06-20",
+  "schoolName": "Colegio San Miguel"
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "id": 5,
+  "fullName": "Lucia Gonzales",
+  "birthDate": "2015-06-20",
+  "schoolName": "Colegio San Miguel",
+  "status": "Active"
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Retorna el estudiante registrado con su identificador y los datos asociados.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/students/tutors/{tutorId}</td>
+            <td style="border:1px solid #000;padding:8px;">GET</td>
+            <td style="border:1px solid #000;padding:8px;">Obtener los estudiantes asociados a un tutor.</td>
+            <td style="border:1px solid #000;padding:8px;">GET /api/v1/students/tutors/10</td>
+            <td style="border:1px solid #000;padding:8px;">Path: tutorId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;">Arreglo de objetos StudentResource.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna los estudiantes relacionados con el tutor indicado.</td>
+        </tr>
+        <!-- NOTIFICATIONS -->
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/notifications</td>
+            <td style="border:1px solid #000;padding:8px;">GET</td>
+            <td style="border:1px solid #000;padding:8px;">Obtener todas las notificaciones registradas.</td>
+            <td style="border:1px solid #000;padding:8px;">GET /api/v1/notifications</td>
+            <td style="border:1px solid #000;padding:8px;">Ninguno.</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;">Arreglo de objetos NotificationResource.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la colección de notificaciones registradas en la plataforma.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/notifications</td>
+            <td style="border:1px solid #000;padding:8px;">POST</td>
+            <td style="border:1px solid #000;padding:8px;">Crear una nueva notificación.</td>
+            <td style="border:1px solid #000;padding:8px;">POST /api/v1/notifications</td>
+            <td style="border:1px solid #000;padding:8px;">Body: CreateNotificationResource.</td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "category": "Journey",
+  "type": "Delay",
+  "priority": "High",
+  "title": "Retraso en la ruta",
+  "message": "La movilidad presenta un retraso.",
+  "routeId": 1,
+  "tripId": 15,
+  "studentId": 5,
+  "recipientProfileId": 10,
+  "journeyEventType": "Delayed"
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;"><pre>{
+  "id": 1,
+  "category": "Journey",
+  "type": "Delay",
+  "priority": "High",
+  "title": "Retraso en la ruta",
+  "message": "La movilidad presenta un retraso.",
+  "readAt": null,
+  "routeId": 1,
+  "tripId": 15,
+  "studentId": 5,
+  "recipientProfileId": 10,
+  "journeyEventType": "Delayed"
+}</pre></td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la notificación creada con su identificador, contenido, destinatario y referencias relacionadas.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/notifications/profile/{profileId}</td>
+            <td style="border:1px solid #000;padding:8px;">GET</td>
+            <td style="border:1px solid #000;padding:8px;">Obtener las notificaciones dirigidas a un perfil.</td>
+            <td style="border:1px solid #000;padding:8px;">GET /api/v1/notifications/profile/10</td>
+            <td style="border:1px solid #000;padding:8px;">Path: profileId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;">Arreglo de objetos NotificationResource.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna las notificaciones asociadas al perfil indicado.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/notifications/student/{studentId}</td>
+            <td style="border:1px solid #000;padding:8px;">GET</td>
+            <td style="border:1px solid #000;padding:8px;">Obtener las notificaciones asociadas a un estudiante.</td>
+            <td style="border:1px solid #000;padding:8px;">GET /api/v1/notifications/student/5</td>
+            <td style="border:1px solid #000;padding:8px;">Path: studentId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;">Arreglo de objetos NotificationResource.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna las notificaciones relacionadas con el estudiante indicado.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #000;padding:8px;">/api/v1/notifications/{notificationId}/read</td>
+            <td style="border:1px solid #000;padding:8px;">PATCH</td>
+            <td style="border:1px solid #000;padding:8px;">Marcar una notificación como leída.</td>
+            <td style="border:1px solid #000;padding:8px;">PATCH /api/v1/notifications/1/read</td>
+            <td style="border:1px solid #000;padding:8px;">Path: notificationId (int32).</td>
+            <td style="border:1px solid #000;padding:8px;">N/A (No requiere body).</td>
+            <td style="border:1px solid #000;padding:8px;">Objeto NotificationResource actualizado.</td>
+            <td style="border:1px solid #000;padding:8px;">Retorna la notificación con la fecha de lectura actualizada.</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Se realizó el despliegue de los servicios backend de Rumbo utilizando la plataforma Render, mediante la cual se publicaron tanto la base de datos PostgreSQL como la aplicación backend encargada de proporcionar los Web Services para el consumo del frontend.
+Para el despliegue de los servicios backend de Rumbo, se utilizaron dos plataformas: Amazon Web Services (AWS) para alojar la base de datos MySQL y Render para desplegar la aplicación backend. Esta distribución permite mantener la base de datos y los servicios de la API en entornos independientes, estableciendo una conexión remota entre ambos.
 
-En primer lugar, se creó una instancia de base de datos PostgreSQL en Render, configurando los parámetros necesarios para su creación, como el nombre de la base de datos, el usuario, la región y las credenciales de acceso. Una vez completada la configuración, Render proporcionó los datos de conexión que permitirían establecer la comunicación con la base de datos desde la aplicación backend.
+### Database Deployment on AWS
 
-<div align="center">
-  <img src="./assets/chapter5/deploy-db-1.png" alt="Evidencia del Deploy de la Base de Datos" width="95%">
-</div>
+La base de datos del proyecto fue desplegada en AWS utilizando MySQL, configurando los parámetros necesarios para su funcionamiento y acceso remoto. Para administrar la base de datos y verificar su estructura, se utilizó MySQL Workbench, que permitió establecer una conexión con la instancia alojada en AWS y ejecutar consultas SQL.
 
-<div align="center">
-  <img src="./assets/chapter5/deploy-db-2.png" alt="Evidencia del Deploy de la Base de Datos" width="95%">
-</div>
-
-Posteriormente, se modificó la configuración del backend para reemplazar los parámetros de conexión locales por los correspondientes a la base de datos desplegada en Render. Para ello, se actualizaron los datos de conexión, incluyendo la URL y las credenciales de acceso, de modo que la aplicación pudiera conectarse correctamente al entorno remoto y mantener la persistencia de la información.
-
-Finalmente, se desplegó la aplicación backend en Render, vinculándola con el repositorio de GitHub y configurando los parámetros necesarios para su compilación y ejecución. Una vez finalizado el proceso, se obtuvo una URL pública que permite acceder a los Web Services implementados y realizar solicitudes a los distintos endpoints de la API de Rumbo.
-
-<div align="center">
-  <img src="./assets/chapter5/deploy-backend-1.png" alt="Evidencia del Deploy de Backend" width="95%">
-</div>
-
-<div align="center">
-  <img src="./assets/chapter5/deploy-backend-2.png" alt="Evidencia del Deploy de Backend" width="95%">
-</div>
+Se configuraron los datos de conexión correspondientes, como el host, puerto, nombre de la base de datos y credenciales de acceso. Esta configuración permitió que la aplicación backend pudiera conectarse a la base de datos desplegada y realizar las operaciones de persistencia necesarias.
 
 
-<div align="center">
-  <img src="./assets/chapter5/deploy-backend-3.png" alt="Evidencia del Deploy de Backend" width="95%">
-</div>
+![alt text](image-52.png)
+
+![alt text](image-53.png)
+
+![alt text](image-54.png)
+
+![alt text](image-55.png)
+
+![alt text](image-56.png)
 
 
-<div align="center">
-  <img src="./assets/chapter5/deploy-backend-4.png" alt="Evidencia del Deploy de Backend" width="95%">
-</div>
+### Backend Deployment on Render
+
+El backend de Rumbo fue desplegado en Render, utilizando el repositorio del proyecto alojado en GitHub. Durante este proceso, se configuraron los parámetros de compilación y ejecución necesarios para publicar la aplicación y permitir que sus servicios estuvieran disponibles mediante una URL pública.
+
+Asimismo, se configuraron las variables de entorno requeridas para establecer la conexión con la base de datos MySQL alojada en AWS. De esta manera, el backend puede acceder a la base de datos de forma remota y gestionar las operaciones correspondientes a los distintos bounded contexts del sistema.
+
+![alt text](image-50.png)
+
+![alt text](image-51.png)
+
+
+### Deployed Services
+
+Una vez completado el despliegue, se verificó que los servicios estuvieran disponibles y que el backend pudiera comunicarse correctamente con la base de datos. La arquitectura de despliegue quedó distribuida de la siguiente manera:
+
+![alt text](image-49.png)
+
+Finalmente, se verificó la disponibilidad de los endpoints mediante la documentación interactiva de la API, generada con Scalar, lo que permitió consultar las operaciones implementadas y comprobar el acceso a los servicios backend desplegados.
 
 ### Servicios Desplegados
 
+A continuación, se presentan las evidencias de los servicios desplegados en las plataformas correspondientes, incluyendo la instancia de base de datos PostgreSQL alojada en AWS y la aplicación backend publicada en Render. Asimismo, se muestra la documentación de los Web Services mediante Swagger/Scalar, desde donde es posible visualizar los endpoints disponibles y consultar sus operaciones.
+
 <div align="center">
-  <img src="./assets/chapter5/deployed-services.png" alt="Evidencia del Deploy de Backend" width="95%">
+  <img src="./assets/chapter5/deployed-services.png" alt="Servicios desplegados de Rumbo" width="95%">
 </div>
 
 <div align="center">
-  <img src="./assets/chapter5/backend-swagger.png" alt="Evidencia del Deploy de Backend" width="95%">
+  <img src="./assets/chapter5/backend-swagger.png" alt="Documentación de los Web Services de Rumbo" width="95%">
 </div>
 
 
@@ -3558,30 +4069,16 @@ El repositorio Frontend Web Application contiene la implementación de la plataf
 
 **Resumen de actividad (Pulse)**
 
-<div align="center">
-  <img src="./assets/chapter5/sprint3-frontend-pulse.jpg" alt="Frontend Pulse" width="95%">
-</div>
+![alt text](image-34.png)
 
 **Colaboradores (Contributors)**
 
-<div align="center">
-  <img src="./assets/chapter5/sprint3-frontend-contributors.jpg" alt="Frontend Contributors" width="95%">
-</div>
+![alt text](image-35.png)
+![alt text](image-37.png)
 
 **Gráfico de red (Network Graph)**
 
-<div align="center">
-  <img src="./assets/chapter5/sprint3-frontend-network.jpg" alt="Frontend Network Graph" width="95%">
-</div>
-
-<br>
-
-Referencias del repositorio:
-
-- [Frontend Web Application - Commits (develop)](https://github.com/AIpaca-OS/frontend-web-application/commits/develop)
-- [Frontend Web Application - Pull Requests](https://github.com/AIpaca-OS/frontend-web-application/pulls)
-
-<br>
+![alt text](image-38.png)
 
 **Web Services**
 
@@ -3589,28 +4086,16 @@ El repositorio Web Services contiene la implementación del backend utilizando S
 
 **Resumen de actividad (Pulse)**
 
-<div align="center">
-  <img src="./assets/chapter5/sprint3-backend-pulse.jpg" alt="Backend Pulse" width="95%">
-</div>
+![alt text](image-39.png)
 
 **Colaboradores (Contributors)**
 
-<div align="center">
-  <img src="./assets/chapter5/sprint3-backend-contributors.jpg" alt="Backend Contributors" width="95%">
-</div>
+![alt text](image-40.png)
+![alt text](image-42.png)
 
 **Gráfico de red (Network Graph)**
 
-<div align="center">
-  <img src="./assets/chapter5/sprint3-backend-network.jpg" alt="Backend Network Graph" width="95%">
-</div>
-
-<br>
-
-Referencias del repositorio:
-
-- [Web Services - Commits (develop)](https://github.com/AIpaca-OS/web-services/commits/develop)
-- [Web Services - Pull Requests](https://github.com/AIpaca-OS/web-services/pulls)
+![alt text](image-43.png)
 
 <br>
 
@@ -3618,23 +4103,17 @@ Referencias del repositorio:
 
 El repositorio Landing Page complementa la aplicación principal mediante la presentación del producto a sus usuarios objetivo. A continuación, se incluye la evidencia disponible sobre las contribuciones de los integrantes.
 
+**Pulse**
+
+![alt text](image-45.png)
+
 **Colaboradores (Contributors)**
 
-<div align="center">
-  <img src="./assets/chapter5/sprint3-landing-contributors.jpg" alt="Landing Page Contributors" width="95%">
-</div>
+![alt text](image-46.png)
 
-Referencias del repositorio:
-- [Landing Page - Commits (main)](https://github.com/AIpaca-OS/landing-page/commits/main)
-- [Landing Page - Pull Requests](https://github.com/AIpaca-OS/landing-page/pulls)
+**Network**
 
-**Análisis de la colaboración**
-
-Las evidencias de GitHub Insights ofrecen diferentes perspectivas sobre la actividad de desarrollo del equipo. Pulse resume la actividad del repositorio durante un periodo determinado, Contributors identifica las contribuciones asociadas a las cuentas de GitHub y Network Graph permite visualizar la relación entre las ramas y los commits.
-
-Estas visualizaciones deben interpretarse conjuntamente con el historial de commits, los Pull Requests y los registros de Jira. En particular, Network Graph representa el historial del repositorio y las relaciones entre sus ramas, mientras que el historial de commits permite identificar los cambios realizados durante el periodo correspondiente al Sprint 3.
-
-El proceso de desarrollo colaborativo involucró trabajo paralelo en los repositorios de frontend y backend, lo que requirió coordinación en los contratos de API, las dependencias entre los bounded contexts y la integración mediante Pull Requests. Asimismo, la revisión de estas contribuciones permitió destacar la importancia de mantener configuraciones consistentes y validar los cambios antes de incorporarlos a las ramas compartidas de desarrollo.
+![alt text](image-48.png)
 
 ## 5.3. Validation Interviews
 
@@ -3677,6 +4156,19 @@ Finalmente, después de completar la interacción con la plataforma, se le plant
 
 A continuación, se registran todas las entrevistas de validación realizadas a ambos segmentos objetivos, incluyendo los datos relevantes de cada una, como el nombre del entrevistado, edad, distrito de residencia, duración del video, tiempo de inicio, entre otros. Además, se incluye un breve resumen de los puntos más importantes identificados durante cada entrevista.
 
+#### Entrevista 2 — Marleny Padilla
+
+* Edad: 47 años.
+* Ocupación / segmento: Padre / Tutor.
+* Distrito: Cercado de Lima.
+* Duración: 10:19.
+* Timing de inicio: 00:00.
+* Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQCLgK8H77MfTZ2zUir12CeYAWCF3zhczwmBhrwKcGEYhtU?e=JkTAGG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+![alt text](image-44.png)
+
+Resumen: Marleny Padilla tiene 47 años y pertenece al segmento de padres/tutores. Es madre de una menor de 14 años que estudia en un colegio privado. Durante la entrevista mencionó que la aplicación le gustó mucho y que, al revisar todas sus características, le transmite seguridad y confianza. Asimismo, se mostró conforme con la interfaz, a la que considera clara y fácil de leer, y señaló que la navegación funciona correctamente. Finalmente, indicó que sí le gustaría utilizar la aplicación para el transporte escolar de su hija, por la confianza que le genera.
+
 ### 5.3.3. Evaluaciones según heurísticas
 
 
@@ -3710,21 +4202,20 @@ El video About-the-Product presenta la propuesta de Rumbo a los visitantes y usu
 
 El video About-the-Team presenta el proceso de trabajo de AIpaca desde la perspectiva de sus integrantes. Reúne escenas de coordinación, revisión de artefactos, desarrollo y demostración de la aplicación, junto con una retrospectiva del equipo. Los testimonios individuales relacionan las responsabilidades asumidas, las dificultades técnicas y los aprendizajes con el Student Outcome 3, referido a la comunicación efectiva para diferentes audiencias.
 
-**URL del video About-the-Team publicado en YouTube:** https://www.youtube.com/watch?v=RQ0Z-Gsg2tA
+**URL del video About-the-Team publicado en YouTube:** https://www.youtube.com/watch?v=RgEZEnqA-j8
 
 | Sección                   | Timing          |
 | ------------------------- | --------------- |
-| Testimonio Alexandra Meza | `00:00 - 02:24` |
-| Testimonio Kevin Geronimo | `02:25 - 04:50` |
-| Testimonio Alejandro Diaz | `04:51 - 06:44` |30032007
-| Testimonio Leonardo Lino  | `06:45 - 08:38` |
+| Testimonio Kevin Geronimo | `00:00 - 02:23` |
+| Testimonio Leonardo Lino  | `02:23 - 03:35` |
+| Testimonio Marcelo Barrientos | `03:35 - 07:20` |
+| Testimonio Alexandra Meza | `07:20 - 09:45` |
+| Testimonio Alejandro Diaz | `09:45 - 11:28` |
+
 
 <br>
 
-<div align="center">
-  <img src="./assets/chapter5/video-about-the-team.png" alt="Video About-the-Team" width="95%">
-</div>
-
+![alt text](image-47.png)
 <br>
 <br>
 
