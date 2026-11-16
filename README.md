@@ -40,15 +40,12 @@
 
 ## Registro de Versiones del Informe
 
-| Versión | Fecha | Autor(es) | Descripción de cambios |
-|---|---|---|---|
-| 0.1 | 07/09/2026 | Lino Quispe, Leonardo Miguel | Creación de la estructura base del informe de Rumbo. |
-| 0.2 | 11/09/2026 | Equipo Rumbo | Actualización de integrantes y refinamiento del Capítulo I para AV1. |
-| 0.3 | 20/09/2026 | Equipo Rumbo | Integración de Collaboration Insights, Student Outcome, artefactos de Product Design y avance de Sprint 1. |
-| 0.4 | 08/10/2026 | Equipo Rumbo | Consolidación del Capítulo II para Aplicaciones Web: análisis competitivo, entrevistas, Needfinding, Big Picture EventStorming y Ubiquitous Language. |
-| 0.5 | 08/10/2026 | Equipo Rumbo | Consolidación de los Capítulos I y II en la rama de Requirements Specification, conservando los capítulos posteriores para revisión. |
-| 0.6 | 08/10/2026 | Equipo Rumbo | Actualización del Capítulo III: Impact Mapping adaptado, incorporación de US36–US38 y repriorización del Product Backlog por valor de negocio. |
-| 0.7 | 08/10/2026 | Equipo Rumbo | Actualización de evidencia del Product Backlog, corrección de Story Points del Landing Page y restauración del esqueleto de capítulos posteriores. |
+| Version | Fecha | Autores | Descripción / Modificaciones |
+| :--- | :--- | :--- | :--- |
+| **v.01.Avn1** | 11/09/2026 | Marcelo Barrientos Quispe<br>Alejandro Diaz Ramirez<br>Geronimo Puma, Kevin Joel<br>Leonardo Miguel Lino Quispe<br>Alexandra Yamile Meza Soza | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint.
+| **v.02.TB1** | 12/05/2026 |  Marcelo Barrientos Quispe<br>Alejandro Diaz Ramirez<br>Geronimo Puma, Kevin Joel<br>Leonardo Miguel Lino Quispe<br>Alexandra Yamile Meza Soza  | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint.<br>5.2.2. Sprint 2<br>5.2.2.1.Sprint Planning 2.<br>5.2.2.2. Aspect Leaders and Collaborators.<br>5.2.2.3.Sprint Backlog 2.<br>5.2.2.4.Development Evidence for Sprint Review.<br>5.2.2.5.Execution Evidence for Sprint Review.<br>5.2.2.6.Services Documentation Evidence for Sprint Review.<br>5.2.2.7.Software Deployment Evidence for Sprint Review.<br>5.2.2.8.Team Collaboration Insights during Sprint.  |
+| **v.03.AV2** | 15/06/2026 | Marcelo Barrientos Quispe<br>Alejandro Diaz Ramirez<br>Geronimo Puma, Kevin Joel<br>Leonardo Miguel Lino Quispe<br>Alexandra Yamile Meza Soza | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint n<br>5.2.1.1. Sprint Planning n.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog n.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>5.2.2. Sprint 2<br>5.2.2.1.Sprint Planning 2.<br>5.2.2.2. Aspect Leaders and Collaborators.<br>5.2.2.3.Sprint Backlog 2.<br>5.2.2.4.Development Evidence for Sprint Review.<br>5.2.2.5.Execution Evidence for Sprint Review.<br>5.2.2.6.Services Documentation Evidence for Sprint Review.<br>5.2.2.7.Software Deployment Evidence for Sprint Review.<br>5.2.2.8.Team Collaboration Insights during Sprint.<br>5.2.3. Sprint 3<br>5.2.3.1.Sprint Planning 3.<br>5.2.3.2. Aspect Leaders and Collaborators.<br>5.2.3.3.Sprint Backlog 3.<br>5.2.3.4.Development Evidence for Sprint Review.<br>5.2.3.5.Execution Evidence for Sprint Review.<br>5.2.3.6.Services Documentation Evidence for Sprint Review.<br>5.2.3.7.Software Deployment Evidence for Sprint Review.<br>5.2.3.8.Team Collaboration Insights during Sprint.<br>5.3. Validation Interviews.<br>5.3.1. Diseño de Entrevistas.<br>5.3.2. Registro de Entrevistas.<br>5.3.3. Evaluaciones según heurísticas.<br>5.4. Video About-the-Product.| 
+
 
 ---
 
@@ -74,6 +71,47 @@ Como evidencia complementaria de colaboración se utilizan los recursos nativos 
 - **Network:** https://github.com/AIpaca-UPC/web-applications-project-report/network
 - **Contributors:** https://github.com/AIpaca-UPC/web-applications-project-report/graphs/contributors
 - **Pull Requests:** https://github.com/AIpaca-UPC/web-applications-project-report/pulls
+
+### TB1 — Collaboration Insights
+
+Las siguientes imágenes son **capturas reales aportadas por el equipo** sobre la actividad del repositorio de la **Frontend Web Application de Rumbo**, correspondiente al proyecto de **Aplicaciones Web**. Se presentan como evidencia del historial de commits y del trabajo con ramas durante TB1, sin reemplazarlas por gráficos creados artificialmente.
+
+**Historial de commits**
+
+<div align="center">
+  <img src="./assets/chapter5/sprint2/commits.png" alt="Captura real de la actividad de commits del proyecto Web Applications Web App." width="95%">
+  <p><em>Figura TB1-C1. Evidencia de commits del repositorio de la Frontend Web Application de Rumbo.</em></p>
+</div>
+
+**Network — ramas de trabajo**
+
+<div align="center">
+  <img src="./assets/chapter5/sprint2/network.png" alt="Captura real de Network del repositorio de la Frontend Web Application de Rumbo." width="95%">
+  <p><em>Figura TB1-C2. Historial visual de ramas en GitHub Network.</em></p>
+</div>
+
+<div align="center">
+  <img src="./assets/chapter5/sprint2/network-web-2.png" alt="Segunda captura real de Network del repositorio de la Frontend Web Application de Rumbo." width="95%">
+  <p><em>Figura TB1-C3. Evidencia complementaria del flujo de ramas del repositorio.</em></p>
+</div>
+
+### AV2 — Collaboration Insights
+
+Las siguientes imágenes son **capturas reales aportadas por el equipo** sobre la actividad del repositorio de la **Web Applications Project Report**, correspondiente al proyecto de **Aplicaciones Web**. Se presentan como evidencia del historial de commits y del trabajo con ramas durante AV2.
+
+**Commits**
+
+![alt text](image-62.png)
+
+**Contributors**
+
+![alt text](image-59.png)
+![alt text](image-60.png)
+
+
+**Network — ramas de trabajo**
+
+![alt text](image-61.png)
 
 ---
 
@@ -167,8 +205,8 @@ El curso contribuye al cumplimiento del **ABET – EAC – Student Outcome 5**: 
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---|---|---|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **Barrientos Quispe, Marcelo — AV1:** liderazgo del Capítulo I. <br> **Meza Soza, Alexandra Yamile — AV1:** liderazgo del Capítulo II. <br> **Lino Quispe, Leonardo Miguel — AV1:** liderazgo de los Capítulos III y V e integración de evidencias. <br> **Geronimo Puma, Kevin Joel — AV1:** desarrollo conjunto del Capítulo IV. <br> **Díaz Ramírez, Alejandro — AV1:** desarrollo conjunto del Capítulo IV. | El equipo distribuyó el liderazgo por capítulos y coordinó la integración de los entregables para mantener una versión común del Project Report. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Marcelo, Alexandra, Leonardo, Kevin y Alejandro — AV1:** organizaron el trabajo mediante ramas feature en GitHub, revisión de cambios, Product/Sprint Backlog en Trello y artefactos colaborativos en las herramientas definidas para el proyecto. | La planificación por responsabilidades y el uso de herramientas compartidas permitió organizar el avance, revisar el trabajo de otros integrantes y mantener trazabilidad del Sprint 1. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **Barrientos Quispe, Marcelo:** **AV1:** liderazgo y desarrollo del Capítulo I. **TB1:** liderazgo y desarrollo del Bounded Context de Vehicle & Credential Management en el frontend. **AV2:** desarrollo e implementación del Bounded Context de Vehicle & Credential Management en el backend. <br><br> **Meza Soza, Alexandra Yamile:** **AV1:** liderazgo y desarrollo del Capítulo II. **TB1:** liderazgo y desarrollo de los Bounded Contexts de Notifications Management e Incidents and Delays Management en el frontend. **AV2:** desarrollo e implementación de los mismos Bounded Contexts en el backend. <br><br> **Lino Quispe, Leonardo Miguel:** **AV1:** liderazgo de los Capítulos III y V e integración de evidencias. **TB1:** liderazgo y desarrollo del Bounded Context de Routes & Trip Planning en el frontend. **AV2:** desarrollo e implementación del mismo Bounded Context en el backend. <br><br> **Geronimo Puma, Kevin Joel:** **AV1:** desarrollo conjunto del Capítulo IV. **TB1:** liderazgo y desarrollo del Bounded Context de Billing & Subscriptions Management en el frontend. **AV2:** desarrollo e implementación del mismo Bounded Context en el backend. <br><br> **Díaz Ramírez, Alejandro:** **AV1:** desarrollo conjunto del Capítulo IV. **TB1:** liderazgo y desarrollo del Bounded Context de Students Management en el frontend. **AV2:** desarrollo e implementación del mismo Bounded Context en el backend. | El equipo distribuyó el liderazgo de acuerdo con las responsabilidades de cada integrante, tanto en la elaboración del Project Report como en el desarrollo de los Bounded Contexts. Esta organización permitió que cada miembro asumiera la responsabilidad de su propio contexto y contribuyera a la integración de los entregables. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Barrientos Quispe, Marcelo — AV1:** colaboró en la elaboración del Project Report y en el desarrollo del Capítulo I. **TB1:** implementó y configuró el frontend de Vehicle & Credential Management utilizando Angular y Fake REST APIs. **AV2:** implementó y configuró los servicios backend correspondientes a Vehicle & Credential Management. <br><br> **Meza Soza, Alexandra Yamile — AV1:** colaboró en la elaboración del Project Report y en el desarrollo del Capítulo II. **TB1:** implementó y configuró los frontend de Notifications Management e Incidents and Delays Management utilizando Angular y Fake REST APIs. **AV2:** implementó y configuró los servicios backend de ambos Bounded Contexts. <br><br> **Lino Quispe, Leonardo Miguel — AV1:** colaboró en la elaboración de los Capítulos III y V y en la integración de evidencias. **TB1:** implementó y configuró el frontend de Routes & Trip Planning utilizando Angular y Fake REST APIs. **AV2:** implementó y configuró los servicios backend de Routes & Trip Planning. <br><br> **Geronimo Puma, Kevin Joel — AV1:** colaboró en el desarrollo del Capítulo IV. **TB1:** implementó y configuró el frontend de Billing & Subscriptions Management utilizando Angular y Fake REST APIs. **AV2:** implementó y configuró los servicios backend de Billing & Subscriptions Management. <br><br> **Díaz Ramírez, Alejandro — AV1:** colaboró en el desarrollo del Capítulo IV. **TB1:** implementó y configuró el frontend de Students Management utilizando Angular y Fake REST APIs. **AV2:** implementó y configuró los servicios backend de Students Management. | La distribución del trabajo por Bounded Context permitió que cada integrante desarrollara y configurara su propio módulo tanto en el frontend como en el backend. Asimismo, el uso de herramientas colaborativas, ramas feature, develop y Pull Requests facilitó la integración de los componentes, el seguimiento de las contribuciones y el cumplimiento de los objetivos establecidos para cada entrega. |
 
 ---
 
@@ -4156,13 +4194,28 @@ Finalmente, después de completar la interacción con la plataforma, se le plant
 
 A continuación, se registran todas las entrevistas de validación realizadas a ambos segmentos objetivos, incluyendo los datos relevantes de cada una, como el nombre del entrevistado, edad, distrito de residencia, duración del video, tiempo de inicio, entre otros. Además, se incluye un breve resumen de los puntos más importantes identificados durante cada entrevista.
 
+#### Entrevista 1 — Patrick Simón
+
+- Edad: 28.
+- Ocupación / segmento: Conductor de movilidad escolar
+- Experiencia en el rubro:* 4 años
+- Distrito: San Miguel
+- Duración: 10:47
+- Timing de inicio: 00:00
+- Video: https://drive.google.com/file/d/1GzWASuC8QYGUX8NV3E8rPUf-4T7SBDJp/view?usp=sharing.
+
+
+![alt text](image-58.png)
+
+*Resumen:* Patrick Simón pertenece al segmento de conductores de movilidad escolar. Durante la entrevista se evaluó su experiencia utilizando Rumbo Web Applications, considerando principalmente la facilidad de navegación, la organización de las diferentes secciones y la claridad de la información presentada. Se revisaron las funcionalidades relacionadas con la gestión de rutas, estudiantes y vehículos, así como las opciones para registrar incidencias y comunicar retrasos durante el servicio. Asimismo, se abordó la utilidad de centralizar la información de los recorridos y facilitar la comunicación con los padres de familia, evitando coordinaciones repetitivas. Finalmente, se exploraron sus expectativas respecto a posibles mejoras y su disposición para utilizar Rumbo como herramienta de apoyo en la gestión diaria de su servicio de movilidad escolar.
+
 #### Entrevista 2 — Marleny Padilla
 
-* Edad: 47 años.
-* Ocupación / segmento: Padre / Tutor.
-* Distrito: Cercado de Lima.
-* Duración: 10:19.
-* Timing de inicio: 00:00.
+* Edad: 47 años
+* Ocupación / segmento: Padre / Tutor
+* Distrito: Cercado de Lima
+* Duración: 10:19
+* Timing de inicio: 00:00
 * Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e646_upc_edu_pe/IQCLgK8H77MfTZ2zUir12CeYAWCF3zhczwmBhrwKcGEYhtU?e=JkTAGG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ![alt text](image-44.png)
@@ -4170,6 +4223,329 @@ A continuación, se registran todas las entrevistas de validación realizadas a 
 Resumen: Marleny Padilla tiene 47 años y pertenece al segmento de padres/tutores. Es madre de una menor de 14 años que estudia en un colegio privado. Durante la entrevista mencionó que la aplicación le gustó mucho y que, al revisar todas sus características, le transmite seguridad y confianza. Asimismo, se mostró conforme con la interfaz, a la que considera clara y fácil de leer, y señaló que la navegación funciona correctamente. Finalmente, indicó que sí le gustaría utilizar la aplicación para el transporte escolar de su hija, por la confianza que le genera.
 
 ### 5.3.3. Evaluaciones según heurísticas
+
+**UX Heuristics & Principles Evaluation**
+
+*Usability – Inclusive Design – Information Architecture*
+
+**CARRERA:** Ingeniería de Software
+
+**CURSO:** Aplicaciones Web
+
+**SECCIÓN:** 8137
+
+**PROFESORES:** Todos
+
+**AUDITOR:** Alpaca
+
+**CLIENTE(S):** Marleny Padilla y 
+
+# SITE o APP A EVALUAR:
+
+Rumbo – School transport platform (plataforma de transporte escolar).
+
+# TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión visual de la usabilidad de las siguientes tareas:
+
+1. Consultar el dashboard del conductor y las acciones rápidas.
+
+2. Consultar el listado de estudiantes y sus estados.
+
+3. Visualizar los detalles de un estudiante.
+
+4. Editar los datos personales y el estado de un estudiante.
+
+5. Consultar los vehículos registrados y sus estados.
+
+6. Editar un vehículo y revisar los campos de sus credenciales.
+
+7. Consultar el listado y el estado de rutas escolares.
+
+8. Iniciar la configuración de una nueva ruta escolar.
+
+9. Configurar las paradas y asignar estudiantes a una ruta.
+
+10. Consultar como tutor la información del vehículo y sus credenciales.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Registro, autenticación y recuperación de cuenta.
+
+2. Confirmación y ejecución real de operaciones de eliminación (se asume que existe confirmación).
+
+3. Inicio y seguimiento real de viajes y sus eventos durante el trayecto.
+
+4. Registro efectivo de incidencias, retrasos y envío de alertas.
+
+5. Contratación, cobro y facturación de suscripciones.
+
+6. Validación oficial de SOAT, CITV o licencias de conducir mediante servicios externos.
+
+7. Pruebas funcionales de backend, persistencia, diseño adaptable y lector de pantalla.
+
+Criterio de revisión: los hallazgos se sustentan en las capturas proporcionadas. No se considera problema la falta de confirmaciones para acciones destructivas; se asume que dichas confirmaciones existen. Las severidades valoran el impacto potencial observable, no fallos confirmados por pruebas interactivas.
+
+# ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| **Nivel** | **Descripción**                                                                                                                                                                      |
+|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1         | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo.          |
+| 2         | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja de cara al siguiente release. |
+| 3         | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar prioridad alta.                              |
+| 4         | Problema muy grave: un error de gran impacto que impide al usuario continuar utilizando la herramienta. Es imperativo que sea corregido antes del lanzamiento.                       |
+
+# TABLA RESUMEN:
+
+| **#** | **Problema**                                                                    | **Escala de severidad** | **Heurística/Principio violada(o)**                         |
+|--------|---------------------------------------------------------------------------------|-------------------------|-------------------------------------------------------------|
+| 1      | Se muestra un aviso técnico de licencia inválida en todas las pantallas         | 3                       | Usability: Visibilidad del estado del sistema               |
+| 2      | Algunos textos y etiquetas presentan contraste insuficiente                     | 3                       | Inclusive Design: Proporciona experiencias comparables      |
+| 3      | La interfaz mezcla inglés y español sin un criterio uniforme                    | 2                       | Usability: Consistencia y estándares                        |
+| 4      | Se ofrece iniciar un viaje sin información operativa claramente identificable   | 3                       | Usability: Prevención de errores                            |
+| 5      | El indicador «0 / 0» carece de significado explícito                            | 2                       | Usability: Correspondencia entre el sistema y el mundo real |
+| 6      | El formulario de edición describe equivocadamente una acción de registro        | 2                       | Usability: Consistencia y estándares                        |
+| 7      | La lista de estudiantes no ofrece búsqueda o filtros visibles                   | 2                       | Information Architecture: Is it findable?                   |
+| 8      | Las acciones de estudiantes dependen solo de iconos pequeños                    | 2                       | Usability: Reconocimiento antes que recuerdo                |
+| 9      | El resumen de documentos vencidos no conduce al elemento afectado               | 3                       | Information Architecture: Is it usable?                     |
+| 10     | La tarjeta de vehículo recorta el nombre de un modelo                           | 2                       | Usability: Reconocimiento antes que recuerdo                |
+| 11     | Las paradas admiten direcciones sin validación geográfica                       | 3                       | Usability: Prevención de errores                            |
+| 12     | Aparecen botones sin icono ni etiqueta en la configuración de paradas           | 3                       | Usability: Reconocimiento antes que recuerdo                |
+| 13     | El nombre del conductor se introduce manualmente en vez de seleccionarse        | 2                       | Usability: Prevención de errores                            |
+| 14     | Las credenciales pendientes no explican el proceso de verificación              | 2                       | Usability: Visibilidad del estado del sistema               |
+| 15     | El estado «Active» del vehículo puede confundirse con una validación documental | 3                       | Usability: Correspondencia entre el sistema y el mundo real |
+
+# DESCRIPCIÓN DE PROBLEMAS:
+
+## PROBLEMA #1: Se muestra un aviso técnico de licencia inválida en todas las pantallas
+
+**Severidad:** 3  
+**Heurística violada:** Usability: Visibilidad del estado del sistema
+
+**Problema:**
+
+En la esquina inferior derecha aparece permanentemente «Invalid PrimeUI License». El mensaje expone un problema técnico que el usuario final no puede resolver, distrae durante las tareas y, en la pantalla de paradas, se superpone a la zona de acciones del formulario.
+
+![alt text](image-63.png)
+
+**Recomendación:**
+
+Regularizar la licencia o la configuración del componente antes de liberar la interfaz. Evitar presentar mensajes internos de librerías al usuario final y comprobar que las notificaciones nunca cubran acciones importantes.
+
+## PROBLEMA #2: Algunos textos y etiquetas presentan contraste insuficiente
+
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design: Proporciona experiencias comparables
+
+**Problema:**
+
+En el panel oscuro del viaje, el nombre «Route without a name» se muestra en verde muy oscuro; en «Editar estudiante» las etiquetas de varios campos se confunden con el fondo negro. También ocurre con datos del vehículo en «Service information». Esto dificulta leer datos necesarios incluso sin una discapacidad visual.
+
+**Recomendación:**
+
+Aplicar colores de texto que contrasten de manera perceptible con cada fondo y verificar con WCAG los contrastes de texto y componentes. Usar un color claro para títulos, etiquetas y valores sobre tarjetas oscuras.
+
+## PROBLEMA #3: La interfaz mezcla inglés y español sin un criterio uniforme
+
+**Severidad:** 2  
+**Heurística violada:** Usability: Consistencia y estándares
+
+**Problema:**
+
+Se observan pantallas con títulos como «Students» o «Edit Vehicle», mientras que los perfiles y formularios usan «Vista de Mateo Gonzalez» y «Editar estudiante». También se alternan botones «Save Changes», «Guardar cambios» y «Volver a estudiantes», aun cuando existe un selector EN/ES.
+
+![alt text](image-64.png)
+
+**Recomendación:**
+
+Centralizar las traducciones y asegurar que títulos, etiquetas, estados, botones, ayudas y fechas utilicen el mismo idioma de la selección activa. Definir un glosario común para la plataforma.
+
+## PROBLEMA #4: Se ofrece iniciar un viaje sin información operativa claramente identificable
+
+**Severidad:** 3  
+**Heurística violada:** Usability: Prevención de errores
+
+**Problema:**
+
+El panel «Today’s trip» presenta «Route without a name», un indicador «0 / 0» y un botón «Start trip» disponible. No se identifica una ruta concreta ni queda claro si hay paradas o estudiantes asignados. La llamada a la acción sugiere que el servicio está listo para empezar.
+
+![alt text](image-65.png)
+
+**Recomendación:**
+
+Mostrar el nombre, horario, vehículo y paradas de la ruta asignada. Si no existe una asignación utilizable, deshabilitar «Start trip» y explicar qué falta; habilitarlo solo cuando se cumplan los requisitos del viaje.
+
+
+## PROBLEMA #5: El indicador «0 / 0» carece de significado explícito
+
+**Severidad:** 2  
+**Heurística violada:** Usability: Correspondencia entre el sistema y el mundo real
+
+**Problema:**
+
+En «Today’s trip» se muestra «0 / 0» sin etiquetas que permitan interpretar si corresponde a estudiantes, paradas, pasajeros abordados u otra métrica. El conductor tendría que adivinar su significado.
+
+![alt text](image-66.png)
+
+**Recomendación:**
+
+Reemplazar el dato aislado por una frase contextual, por ejemplo «0 de 0 estudiantes recogidos» o «0 de 0 paradas completadas», según su significado real.
+
+## PROBLEMA #6: El formulario de edición describe equivocadamente una acción de registro
+
+**Severidad:** 2  
+**Heurística violada:** Usability: Consistencia y estándares
+
+**Problema:**
+
+La pantalla se titula «Editar estudiante», pero el texto de apoyo dice «Registra la información básica del estudiante». Ese mensaje corresponde a la creación, no a la edición, y puede hacer dudar si se modificarán datos existentes.
+
+![alt text](image-67.png)
+
+**Recomendación:**
+
+Usar «Actualiza la información básica del estudiante» en la edición y reservar «Registra…» para la creación. Mantener títulos, acciones y mensajes consistentes con la tarea.
+
+
+## PROBLEMA #7: La lista de estudiantes no ofrece búsqueda o filtros visibles
+
+**Severidad:** 2  
+**Heurística violada:** Information Architecture: Is it findable?
+
+**Problema:**
+
+La pantalla «Students» muestra registros con nombre, fecha de nacimiento, colegio y estado, pero no presenta un buscador o filtros visibles. Con una lista extensa, encontrar a un alumno concreto exigirá recorrer filas manualmente.
+
+![alt text](image-68.png)
+
+**Recomendación:**
+
+Añadir búsqueda por nombre o apellido y filtros por colegio y estado; mantener una indicación clara de la cantidad de resultados.
+
+
+## PROBLEMA #8: Las acciones de estudiantes dependen solo de iconos pequeños
+
+**Severidad:** 2  
+**Heurística violada:** Usability: Reconocimiento antes que recuerdo
+
+**Problema:**
+
+En la columna «Actions» se observan un ojo y un lápiz sin texto explicativo visible. Su significado puede inferirse por convención, pero la interfaz no muestra directamente «Ver» y «Editar» ni un área de selección amplia.
+
+![alt text](image-69.png)
+
+**Recomendación:**
+
+Añadir etiquetas visibles o, al menos, ayuda contextual clara al pasar el cursor o enfocar con el teclado. Asegurar tamaño adecuado del objetivo táctil y nombre accesible para cada botón.
+
+
+## PROBLEMA #9: El resumen de documentos vencidos no conduce al elemento afectado
+
+**Severidad:** 3  
+**Heurística violada:** Information Architecture: Is it usable?
+
+**Problema:**
+
+El dashboard indica «1 Vehicles with expired documents», pero no muestra qué vehículo o documento requiere atención ni un acceso evidente al registro problemático. Al revisar las tarjetas de vehículos tampoco se observan allí los documentos vencidos.
+
+![alt text](image-70.png)
+
+**Recomendación:**
+
+Convertir la tarjeta de alerta en un acceso al listado filtrado de vehículos con documentos vencidos. Identificar vehículo, documento, fecha de vencimiento y acción para corregirlo.
+
+## PROBLEMA #10: La tarjeta de vehículo recorta el nombre de un modelo
+
+**Severidad:** 2  
+**Heurística violada:** Usability: Reconocimiento antes que recuerdo
+
+**Problema:**
+
+En «Vehicle & Credential Management», la segunda tarjeta presenta «Toyota HiAce Com…». El nombre completo no puede conocerse directamente desde la vista resumida, pese a que sirve para distinguir vehículos.
+
+![alt text](image-71.png)
+
+**Recomendación:**
+
+Permitir una segunda línea o desplegar el texto completo al enfocarlo; priorizar los atributos que diferencian cada vehículo y evitar truncamientos de datos identificativos.
+
+## PROBLEMA #11: Las paradas admiten direcciones sin validación geográfica
+
+**Severidad:** 3  
+**Heurística violada:** Usability: Prevención de errores
+
+**Problema:**
+
+En «Stops and students» aparece «12345» como dirección de parada y el resumen lateral la recoge como primera parada. La interfaz informa explícitamente que la validación geográfica no está disponible. Para un servicio de movilidad escolar, una dirección no localizable puede ocasionar errores de planificación.
+
+![alt text](image-72.png)
+
+**Recomendación:**
+
+Integrar autocompletado y verificación de direcciones o selección de un punto en un mapa. Mientras no exista esta verificación, advertir de forma destacada, exigir una referencia suficientemente descriptiva y marcar la parada como pendiente de validación.
+
+## PROBLEMA #12: Aparecen botones sin icono ni etiqueta en la configuración de paradas
+
+**Severidad:** 3  
+**Heurística violada:** Usability: Reconocimiento antes que recuerdo
+
+**Problema:**
+
+En la esquina superior derecha del bloque «Stops and students» se observan tres controles cuadrados aparentemente vacíos. No existe una etiqueta visible que permita deducir si ordenan, duplican o eliminan paradas.
+
+![alt text](image-73.png)
+
+**Recomendación:**
+
+Asegurar que cada botón renderice correctamente su icono y cuente con nombre visible o texto de ayuda. Si controla el orden de las paradas, indicar «Subir», «Bajar» o «Eliminar» según corresponda.
+
+## PROBLEMA #13: El nombre del conductor se introduce manualmente en vez de seleccionarse
+
+**Severidad:** 2  
+**Heurística violada:** Usability: Prevención de errores
+
+**Problema:**
+
+En el primer paso de «New route», «Driver name» es un campo libre, mientras que «Vehicle» utiliza un selector. La escritura manual facilita variantes de nombres y errores de identificación cuando se pretende asociar la ruta a un conductor real.
+
+![alt text](image-74.png)
+
+**Recomendación:**
+
+Usar un selector o búsqueda de conductores registrados, mostrando datos mínimos de identificación. Si el texto libre es intencional en este prototipo, aclarar que no representa una asignación verificada.
+
+## PROBLEMA #14: Las credenciales pendientes no explican el proceso de verificación
+
+**Severidad:** 2  
+**Heurística violada:** Usability: Visibilidad del estado del sistema
+
+**Problema:**
+
+En «Service information», SOAT, CITV y licencia del conductor aparecen como «Pending verification» y con «Valid until: —». No se informa quién verifica, qué necesita el usuario, cuándo se revisará ni la diferencia entre una credencial no declarada y otra en trámite.
+
+![alt text](image-75.png)
+
+**Recomendación:**
+
+Mostrar un estado por documento («No declarado», «Pendiente», «Verificado», «Vencido»), la última actualización y los siguientes pasos. Explicar quién realiza la verificación y cómo corregir datos inconsistentes.
+
+
+## PROBLEMA #15: El estado «Active» del vehículo puede confundirse con una validación documental
+
+**Severidad:** 3  
+**Heurística violada:** Usability: Correspondencia entre el sistema y el mundo real
+
+**Problema:**
+
+El vehículo Mercedes-Benz Sprinter aparece con etiqueta verde «Active», mientras que en la vista del tutor sus tres credenciales figuran «Pending verification». No se aclara que «Active» describe el estado operativo declarado del vehículo y no su habilitación documental, por lo que podría interpretarse como una aprobación completa.
+
+![alt text](image-76.png)
+
+**Recomendación:**
+
+Diferenciar expresamente «Estado del vehículo: Activo» de «Documentación: Pendiente de verificación». No utilizar el estado operativo como señal de cumplimiento de documentos; si hay requisitos obligatorios, mostrar advertencias y restricciones asociadas.
 
 
 ## 5.4. Video About-the-Product
