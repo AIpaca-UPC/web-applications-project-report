@@ -206,7 +206,7 @@ El curso contribuye al cumplimiento del **ABET – EAC – Student Outcome 5**: 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---|---|---|
 | Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **Barrientos Quispe, Marcelo:** **AV1:** liderazgo y desarrollo del Capítulo I. **TB1:** liderazgo y desarrollo del Bounded Context de Vehicle & Credential Management en el frontend. **AV2:** desarrollo e implementación del Bounded Context de Vehicle & Credential Management en el backend. <br><br> **Meza Soza, Alexandra Yamile:** **AV1:** liderazgo y desarrollo del Capítulo II. **TB1:** liderazgo y desarrollo de los Bounded Contexts de Notifications Management e Incidents and Delays Management en el frontend. **AV2:** desarrollo e implementación de los mismos Bounded Contexts en el backend. <br><br> **Lino Quispe, Leonardo Miguel:** **AV1:** liderazgo de los Capítulos III y V e integración de evidencias. **TB1:** liderazgo y desarrollo del Bounded Context de Routes & Trip Planning en el frontend. **AV2:** desarrollo e implementación del mismo Bounded Context en el backend. <br><br> **Geronimo Puma, Kevin Joel:** **AV1:** desarrollo conjunto del Capítulo IV. **TB1:** liderazgo y desarrollo del Bounded Context de Billing & Subscriptions Management en el frontend. **AV2:** desarrollo e implementación del mismo Bounded Context en el backend. <br><br> **Díaz Ramírez, Alejandro:** **AV1:** desarrollo conjunto del Capítulo IV. **TB1:** liderazgo y desarrollo del Bounded Context de Students Management en el frontend. **AV2:** desarrollo e implementación del mismo Bounded Context en el backend. | El equipo distribuyó el liderazgo de acuerdo con las responsabilidades de cada integrante, tanto en la elaboración del Project Report como en el desarrollo de los Bounded Contexts. Esta organización permitió que cada miembro asumiera la responsabilidad de su propio contexto y contribuyera a la integración de los entregables. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Barrientos Quispe, Marcelo — AV1:** colaboró en la elaboración del Project Report y en el desarrollo del Capítulo I. **TB1:** implementó y configuró el frontend de Vehicle & Credential Management utilizando Angular y Fake REST APIs. **AV2:** implementó y configuró los servicios backend correspondientes a Vehicle & Credential Management. <br><br> **Meza Soza, Alexandra Yamile — AV1:** colaboró en la elaboración del Project Report y en el desarrollo del Capítulo II. **TB1:** implementó y configuró los frontend de Notifications Management e Incidents and Delays Management utilizando Angular y Fake REST APIs. **AV2:** implementó y configuró los servicios backend de ambos Bounded Contexts. <br><br> **Lino Quispe, Leonardo Miguel — AV1:** colaboró en la elaboración de los Capítulos III y V y en la integración de evidencias. **TB1:** implementó y configuró el frontend de Routes & Trip Planning utilizando Angular y Fake REST APIs. **AV2:** implementó y configuró los servicios backend de Routes & Trip Planning. <br><br> **Geronimo Puma, Kevin Joel — AV1:** colaboró en el desarrollo del Capítulo IV. **TB1:** implementó y configuró el frontend de Billing & Subscriptions Management utilizando Angular y Fake REST APIs. **AV2:** implementó y configuró los servicios backend de Billing & Subscriptions Management. <br><br> **Díaz Ramírez, Alejandro — AV1:** colaboró en el desarrollo del Capítulo IV. **TB1:** implementó y configuró el frontend de Students Management utilizando Angular y Fake REST APIs. **AV2:** implementó y configuró los servicios backend de Students Management. | La distribución del trabajo por Bounded Context permitió que cada integrante desarrollara y configurara su propio módulo tanto en el frontend como en el backend. Asimismo, el uso de herramientas colaborativas, ramas feature, develop y Pull Requests facilitó la integración de los componentes, el seguimiento de las contribuciones y el cumplimiento de los objetivos establecidos para cada entrega. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Barrientos Quispe, Marcelo — AV1:** colaboró en la elaboración del Project Report y en el desarrollo del Capítulo I. **TB1:** implementó y configuró el frontend de Vehicle & Credential Management utilizando Vue y Fake REST APIs. **AV2:** implementó y configuró los servicios backend correspondientes a Vehicle & Credential Management. <br><br> **Meza Soza, Alexandra Yamile — AV1:** colaboró en la elaboración del Project Report y en el desarrollo del Capítulo II. **TB1:** implementó y configuró los frontend de Notifications Management e Incidents and Delays Management utilizando Vue y Fake REST APIs. **AV2:** implementó y configuró los servicios backend de ambos Bounded Contexts. <br><br> **Lino Quispe, Leonardo Miguel — AV1:** colaboró en la elaboración de los Capítulos III y V y en la integración de evidencias. **TB1:** implementó y configuró el frontend de Routes & Trip Planning utilizando Vue y Fake REST APIs. **AV2:** implementó y configuró los servicios backend de Routes & Trip Planning. <br><br> **Geronimo Puma, Kevin Joel — AV1:** colaboró en el desarrollo del Capítulo IV. **TB1:** implementó y configuró el frontend de Billing & Subscriptions Management utilizando Vue y Fake REST APIs. **AV2:** implementó y configuró los servicios backend de Billing & Subscriptions Management. <br><br> **Díaz Ramírez, Alejandro — AV1:** colaboró en el desarrollo del Capítulo IV. **TB1:** implementó y configuró el frontend de Students Management utilizando Vue y Fake REST APIs. **AV2:** implementó y configuró los servicios backend de Students Management. | La distribución del trabajo por Bounded Context permitió que cada integrante desarrollara y configurara su propio módulo tanto en el frontend como en el backend. Asimismo, el uso de herramientas colaborativas, ramas feature, develop y Pull Requests facilitó la integración de los componentes, el seguimiento de las contribuciones y el cumplimiento de los objetivos establecidos para cada entrega. |
 
 ---
 
@@ -2087,7 +2087,7 @@ El **Software Architecture Context Diagram** presenta a Rumbo como un único sis
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-El **Container Diagram** describe la arquitectura objetivo de Rumbo a nivel de unidades de despliegue. Se distinguen el Landing Page, la Web Application desarrollada con Angular, el RESTful API previsto en Spring Boot y la capa de persistencia, además de las dependencias externas requeridas por la solución. Para Sprint 2, el Frontend Web Application trabaja con Angular y una fuente de datos simulada; la integración completa con el backend corresponde a los siguientes Sprints.
+El **Container Diagram** describe la arquitectura objetivo de Rumbo a nivel de unidades de despliegue. Se distinguen el Landing Page, la Web Application desarrollada con Vue, el RESTful API previsto en ASP.NET Core y la capa de persistencia, además de las dependencias externas requeridas por la solución. Para Sprint 2, el Frontend Web Application trabaja con Vue y una fuente de datos simulada; la integración completa con el backend corresponde a los siguientes Sprints.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/AIpaca-OS/project-report/main/assets/chapter04/software-architecture/diagram-container.png" alt="Rumbo - Software Architecture Container Diagram" width="95%">
@@ -2315,7 +2315,7 @@ En conjunto, los ocho Database Diagrams mantienen correspondencia con los Bounde
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
-En este capítulo se describe y evidencia el proceso de implementación, comprobación y despliegue de **Rumbo** para el alcance de TB1. La entrega consolida una nueva versión de la Landing Page y la primera versión integrada de la Frontend Web Application. El Frontend se encuentra construido con **Angular 21.2**, TypeScript 5.9 y Angular Material 21.2, organizado por Bounded Contexts y consumiendo Fake REST APIs. La lógica de negocio de servidor y los Web Services reales con Spring Boot quedan fuera del alcance de este Sprint.
+En este capítulo se describe y evidencia el proceso de implementación, comprobación y despliegue de **Rumbo** para el alcance de TB1. La entrega consolida una nueva versión de la Landing Page y la primera versión integrada de la Frontend Web Application. El Frontend se encuentra construido con **Vue 3.5**, JavaScript y PrimeVue 5.0, organizado por Bounded Contexts y consumiendo Fake REST APIs. La lógica de negocio de servidor y los Web Services reales con ASP.NET Core quedan fuera del alcance de este Sprint.
 
 Para mantener trazabilidad con el estado real de los repositorios, este capítulo distingue entre: (1) funcionalidades implementadas y fusionadas en GitHub, (2) servicios emulados con MockAPI o JSON Server local y (3) evidencias de despliegue que requieren una URL pública verificable. 
 
@@ -2328,20 +2328,20 @@ Las herramientas utilizadas o previstas para el ciclo de vida de Rumbo son las s
 | Tipo de actividad | Producto / herramienta | Uso en Rumbo | Tipo | Referencia |
 |---|---|---|---|---|
 | Project Management | Trello | Sprint Backlog, Tasks, estados y seguimiento del Sprint 2. | SaaS | https://trello.com |
-| Requirements Management | GitHub Issues / Markdown | User Stories, criterios de aceptación y trazabilidad en el Project Report. | SaaS | https://github.com/AIpaca-OS |
+| Requirements Management | GitHub Issues / Markdown | User Stories, criterios de aceptación y trazabilidad en el Project Report. | SaaS | https://github.com/AIpaca-UPC |
 | Product UX/UI Design | Figma | Wireframes, mock-ups y prototipos de la experiencia web. | SaaS | https://www.figma.com |
 | Domain Modeling / Event Storming | Miro | Elaboración colaborativa del Design-Level Event Storming y refinamiento visual de Bounded Contexts. | SaaS | https://miro.com/app/board/uXjVHr48KA8=/?share_link_id=942564800097 |
-| Source Code Management | Git / GitHub | Repositorios, ramas, commits, Pull Requests, revisión e integración. | Local / SaaS | https://git-scm.com / https://github.com/AIpaca-OS |
-| Frontend IDE | WebStorm / Visual Studio Code | Desarrollo y revisión de Angular, TypeScript, HTML y CSS. | Local | https://www.jetbrains.com/webstorm/ / https://code.visualstudio.com |
-| Frontend Framework | Angular 21.2 / Angular CLI 21.2 | Single Page Application y routing por Bounded Context. | Open Source | https://angular.dev |
-| UI Components | Angular Material 21.2 | Componentes de interfaz basados en Material Design. | Open Source | https://material.angular.dev |
+| Source Code Management | Git / GitHub | Repositorios, ramas, commits, Pull Requests, revisión e integración. | Local / SaaS | https://git-scm.com / https://github.com/AIpaca-UPC |
+| Frontend IDE | WebStorm / Visual Studio Code | Desarrollo y revisión de Vue, JavaScript, HTML y CSS. | Local | https://www.jetbrains.com/webstorm/ / https://code.visualstudio.com |
+| Frontend Framework | Vue 3.5 / Vite 8.2 | Single Page Application y routing por Bounded Context. | Open Source | https://vuejs.org |
+| UI Components | PrimeVue 5.0 | Componentes de interfaz para la Frontend Web Application. | Open Source | https://primevue.org |
 | Language / Tooling | TypeScript 5.9 / npm 11.19 | Programación, tipado y gestión de dependencias. | Open Source | https://www.typescriptlang.org / https://www.npmjs.com |
-| i18n | ngx-translate 18 | Recursos de internacionalización del Frontend. | Open Source | https://github.com/ngx-translate/core |
+| i18n | vue-i18n 11.4 | Recursos de internacionalización del Frontend. | Open Source | https://vue-i18n.intlify.dev |
 | Fake REST API | MockAPI | Persistencia emulada remota para vehículos, rutas, perfiles y suscripciones. | SaaS | https://mockapi.io |
 | Fake REST API local | json-server 0.17.4 | Persistencia emulada local actualmente utilizada por alertas, notificaciones, incidencias y retrasos. | Open Source | https://www.npmjs.com/package/json-server |
 | Frontend CI | GitHub Actions | Verificación automatizada de compilación del Frontend integrado. | SaaS | https://github.com/features/actions |
 | Landing Deployment | GitHub Pages | Publicación de la Landing Page. | SaaS | https://pages.github.com |
-| Backend (Sprint posterior) | IntelliJ IDEA / Java / Spring Boot / Spring Data JPA | Construcción futura de RESTful Web Services. No forma parte de TB1. | Local / Open Source | https://spring.io/projects/spring-boot |
+| Backend (Sprint posterior) | JetBrains Rider / C# / ASP.NET Core / Entity Framework Core | Construcción futura de RESTful Web Services. No forma parte de TB1. | Local / Open Source | https://learn.microsoft.com/aspnet/core/ |
 | API Documentation (Sprint posterior) | OpenAPI / Swagger | Documentación futura de Web Services reales. | Open Standard / Open Source | https://www.openapis.org |
 | Software Documentation | Markdown | Elaboración colaborativa del Project Report. | Open Standard | https://www.markdownguide.org |
 
@@ -2350,10 +2350,10 @@ Las herramientas utilizadas o previstas para el ciclo de vida de Rumbo son las s
 
 La organización GitHub del equipo es **AIpaca-OS**. Los repositorios del producto son:
 
-- **Project Report:** https://github.com/AIpaca-OS/project-report
-- **Landing Page:** https://github.com/AIpaca-OS/landing-page
-- **Frontend Web Application:** https://github.com/AIpaca-OS/frontend-web-application
-- **Web Services:** https://github.com/AIpaca-OS/web-services
+- **Project Report:** https://github.com/AIpaca-UPC/project-report
+- **Landing Page:** https://github.com/AIpaca-UPC/landing-page
+- **Frontend Web Application:** https://github.com/AIpaca-UPC/frontend-web-application
+- **Web Services:** https://github.com/AIpaca-UPC/web-services
 
 #### GitFlow aplicado
 
@@ -2410,9 +2410,9 @@ Las convenciones se aplican con nomenclatura técnica en inglés.
 - Selectores y clases descriptivos en inglés.
 - Diseño responsive mediante breakpoints coherentes con la experiencia Desktop y Mobile.
 - Evitar duplicación innecesaria de reglas.
-- Mantener los estilos de cada vista dentro de su componente cuando corresponde al Frontend Angular.
+- Mantener los estilos de cada vista dentro de su componente cuando corresponde al Frontend Vue.
 
-#### TypeScript y Angular
+#### JavaScript y Vue
 
 - Clases y tipos en `PascalCase`.
 - Variables, propiedades, funciones y métodos en `camelCase`.
@@ -2421,29 +2421,29 @@ Las convenciones se aplican con nomenclatura técnica en inglés.
 - Acceso HTTP encapsulado en clases de infraestructura y endpoints.
 - Componentes y rutas organizados dentro del Bounded Context al que pertenecen.
 - Uso de tipado explícito para entidades y respuestas relevantes.
-- Uso de Angular Signals donde el contexto implementado requiere estado reactivo.
-- Rutas de aplicación registradas mediante Angular Router y lazy loading cuando corresponde.
+- Uso de los stores de Pinia donde el contexto implementado requiere estado reactivo.
+- Rutas de aplicación registradas mediante Vue Router y lazy loading cuando corresponde.
 
 #### Gherkin
 
 Los criterios de aceptación se redactan con escenarios comprobables usando la estructura **Given – When – Then**, sin introducir detalles de implementación en el requisito.
 
-#### Java / Spring Boot
+#### C# / ASP.NET Core
 
-Para el Sprint en el que se implemente Web Services se utilizará Java con las convenciones indicadas por Google Java Style Guide y las prácticas de Spring Boot. Esta convención queda documentada desde TB1, pero no se presenta como implementación realizada en Sprint 2.
+Para el Sprint en el que se implemente Web Services se utilizará C# con las convenciones de nomenclatura de .NET y las prácticas de ASP.NET Core. Esta convención queda documentada desde TB1, pero no se presenta como implementación realizada en Sprint 2.
 
 ### 5.1.4. Software Deployment Configuration
 
 #### Landing Page
 
-La Landing Page se publica mediante GitHub Pages desde el repositorio `AIpaca-OS/landing-page`.
+La Landing Page se publica mediante GitHub Pages desde el repositorio `AIpaca-UPC/landing-page`.
 
 | Configuración | Valor |
 |---|---|
-| Repository | `AIpaca-OS/landing-page` |
+| Repository | `AIpaca-UPC/landing-page` |
 | Branch publicada | `main` |
 | Entry point | `index.html` |
-| URL pública | https://aipaca-os.github.io/landing-page/ |
+| URL pública | https://aipaca-upc.github.io/landing-page/ |
 
 Durante TB1 se integró además la mejora **`feat: add product showcase to landing page`** mediante el PR #1 del Landing Page, incorporando una sección de producto, pantallas reales y ajustes responsive.
 
@@ -2452,22 +2452,22 @@ Durante TB1 se integró además la mejora **`feat: add product showcase to landi
 
 #### Frontend Web Application
 
-La primera versión integrada del Frontend de TB1 fue consolidada desde `develop` hacia `main` en el repositorio `AIpaca-OS/frontend-web-application`. La aplicación se compila mediante GitHub Actions y se publica con GitHub Pages.
+La primera versión integrada del Frontend de TB1 fue consolidada desde `develop` hacia `main` en el repositorio `AIpaca-UPC/web-applications-web-app`. La aplicación se compila con Vite y se publica en Vercel.
 
 | Configuración | Valor |
 |---|---|
-| Repository | `AIpaca-OS/frontend-web-application` |
+| Repository | `AIpaca-UPC/web-applications-web-app` |
 | Branch publicada | `main` |
-| Framework | Angular 21.2 |
-| Deployment | GitHub Actions + GitHub Pages |
-| URL pública | https://aipaca-os.github.io/frontend-web-application/ |
+| Framework | Vue 3.5 |
+| Deployment | Vercel |
+| URL pública | https://web-applications-web-app.vercel.app |
 
-El workflow de deployment ejecuta la instalación de dependencias, la compilación de Angular con el `base-href` correspondiente al repositorio y la publicación del artefacto generado en GitHub Pages.
+El workflow de deployment ejecuta la instalación de dependencias, la compilación del proyecto con Vite y la publicación del artefacto generado.
 
 <!-- PENDIENTE IMAGEN C5-03: Captura de GitHub Actions mostrando build y deploy exitosos. -->
 
 <div align="center">
-  <img src="./assets/chapter5/web-application.png" alt="Frontend Web Application de Rumbo desplegada públicamente en GitHub Pages" width="95%">
+  <img src="./assets/chapter5/web-application.png" alt="Frontend Web Application de Rumbo desplegada públicamente en Vercel" width="95%">
 </div>
 
 ## 5.2. Landing Page, Services & Applications Implementation
@@ -2476,13 +2476,13 @@ Para TB1 el trabajo implementado se divide en:
 
 - **Sprint 1:** Landing Page pública.
 - **Sprint 2:** primera versión de la Frontend Web Application con CRUD por Bounded Context y Fake REST APIs.
-- **Sprint posterior:** lógica de negocio de servidor y RESTful Web Services con Spring Boot.
+- **Sprint posterior:** lógica de negocio de servidor y RESTful Web Services con ASP.NET Core.
 
-No se atribuye a Sprint 2 lógica de negocio compleja ni un backend Spring Boot. Los recursos MockAPI y JSON Server utilizados en TB1 son mecanismos de persistencia emulada para el Frontend.
+No se atribuye a Sprint 2 lógica de negocio compleja ni un backend ASP.NET Core. Los recursos MockAPI y JSON Server utilizados en TB1 son mecanismos de persistencia emulada para el Frontend.
 
 ### 5.2.1. Sprint 1
 
-Sprint 1 se concentra únicamente en la **Landing Page**. Las User Stories de back-end etiquetadas como **Developer (TS01–TS08)** no pertenecen a este Sprint ni al Sprint 2; se reservan para **Sprint 3**. El **Sprint 2** se concentra en el Frontend Web Application, implementando CRUD con Angular y Fake REST APIs. La integración con Spring Boot queda fuera del alcance de TB1.
+Sprint 1 se concentra únicamente en la **Landing Page**. Las User Stories de back-end etiquetadas como **Developer (TS01–TS08)** no pertenecen a este Sprint ni al Sprint 2; se reservan para **Sprint 3**. El **Sprint 2** se concentra en el Frontend Web Application, implementando CRUD con Vue y Fake REST APIs. La integración con ASP.NET Core queda fuera del alcance de TB1.
 
 La implementación actual de la Landing Page se traza contra las User Stories definidas en el Capítulo III del proyecto. De esta forma, cada bloque implementado queda asociado a una historia y se evita mantener funcionalidades sin trazabilidad.
 
@@ -2601,11 +2601,11 @@ La evidencia histórica de Sprint 1 se mantiene en el repositorio `landing-page`
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
 |---|---|---|---|---|---|
-| `AIpaca-OS/landing-page` | `main` | `826939d` | Subir archivos de la landing page | Primera carga funcional de la Landing Page. | 15/09/2026 |
-| `AIpaca-OS/landing-page` | `main` | `6efdfc3` | feat: redesign landing page | Rediseño de la experiencia visual. | 16/09/2026 |
-| `AIpaca-OS/landing-page` | `main` | `a418118` | feat: implement javascript | Interacciones de navegación y comportamiento JavaScript. | 17/09/2026 |
-| `AIpaca-OS/landing-page` | `feat/improve-landing-page` | `3a19190` | feat: add product showcase to landing page | Sección "Conoce Rumbo en acción", carrusel de pantallas y ajustes responsive. | 06/10/2026 |
-| `AIpaca-OS/landing-page` | `main` | `ad4b4d2` | Merge pull request #1 from AIpaca-OS/feat/improve-landing-page | Integración de la mejora del Landing Page en main. | 06/10/2026 |
+| `AIpaca-UPC/landing-page` | `main` | `826939d` | Subir archivos de la landing page | Primera carga funcional de la Landing Page. | 15/09/2026 |
+| `AIpaca-UPC/landing-page` | `main` | `6efdfc3` | feat: redesign landing page | Rediseño de la experiencia visual. | 16/09/2026 |
+| `AIpaca-UPC/landing-page` | `main` | `a418118` | feat: implement javascript | Interacciones de navegación y comportamiento JavaScript. | 17/09/2026 |
+| `AIpaca-UPC/landing-page` | `feat/improve-landing-page` | `3a19190` | feat: add product showcase to landing page | Sección "Conoce Rumbo en acción", carrusel de pantallas y ajustes responsive. | 06/10/2026 |
+| `AIpaca-UPC/landing-page` | `main` | `ad4b4d2` | Merge pull request #1 from AIpaca-OS/feat/improve-landing-page | Integración de la mejora del Landing Page en main. | 06/10/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -2681,17 +2681,17 @@ La Landing Page continúa publicada mediante GitHub Pages. El PR #1 de TB1 fue i
 
 <!-- PENDIENTE IMAGEN C5-S1-03: GitHub Pages / Actions o Settings mostrando el deployment vigente. -->
 <div align="center">
-  <img src="./assets/chapter5/landing-public-deploy.jpg" alt="Landing Page desplegada públicamente en GitHub Pages" width="95%">
+  <img src="./assets/chapter5/landing-public-deploy.jpg" alt="Landing Page desplegada públicamente en Vercel" width="95%">
 </div>
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Para Sprint 1 deben insertarse capturas reales de GitHub y no gráficos recreados:
 
-- Commits: https://github.com/AIpaca-OS/landing-page/commits/main/
-- Contributors: https://github.com/AIpaca-OS/landing-page/graphs/contributors
-- Network: https://github.com/AIpaca-OS/landing-page/network
-- Pull Request TB1 de mejora: https://github.com/AIpaca-OS/landing-page/pull/1
+- Commits: https://github.com/AIpaca-UPC/landing-page/commits/main/
+- Contributors: https://github.com/AIpaca-UPC/landing-page/graphs/contributors
+- Network: https://github.com/AIpaca-UPC/landing-page/network
+- Pull Request TB1 de mejora: https://github.com/AIpaca-UPC/landing-page/pull/1
 
 <!-- PENDIENTE IMAGEN C5-S1-05: Commits de landing-page. -->
 <!-- PENDIENTE IMAGEN C5-S1-06: Contributors de landing-page. -->
@@ -2699,7 +2699,7 @@ Para Sprint 1 deben insertarse capturas reales de GitHub y no gráficos recreado
 
 ### 5.2.2. Sprint 2
 
-Sprint 2 corresponde a la primera versión integrada de la **Frontend Web Application**. El producto se implementa como SPA Angular, organizado por Bounded Contexts y con persistencia emulada. El Sprint no incorpora Web Services reales con Spring Boot.
+Sprint 2 corresponde a la primera versión integrada de la **Frontend Web Application**. El producto se implementa como SPA Vue, organizado por Bounded Contexts y con persistencia emulada. El Sprint no incorpora Web Services reales con ASP.NET Core.
 
 Los Bounded Contexts implementados en este Sprint mantienen trazabilidad con el **Design-Level Event Storming documentado en la sección 4.6.1**, cuyo tablero colaborativo se encuentra en Miro y cuyas exportaciones visuales evidencian el refinamiento del dominio previo a la implementación.
 
@@ -2724,7 +2724,7 @@ Los aspectos implementados y visibles en el repositorio son:
 | Attendees | Equipo AIpaca: Alejandro Díaz, Kevin Geronimo, Leonardo Lino, Alexandra Meza y Diana Pareja. |
 | Sprint 1 Review Summary | Landing Page implementada y publicada. Para TB1 se incorporó una nueva sección de producto mediante PR #1. |
 | Sprint 1 Retrospective Summary | La evidencia histórica mostró integración directa a `main` en Sprint 1; para Sprint 2 se utilizaron feature branches, `develop` y Pull Requests. |
-| Sprint 2 Goal | **Our focus is on delivering the first integrated CRUD-based Frontend Web Application for Rumbo. We believe it delivers a usable operational workspace for the target users while validating the frontend architecture by Bounded Context. This will be confirmed when the committed CRUD views build successfully, navigate from the Angular application and persist data through the configured Fake REST APIs.** |
+| Sprint 2 Goal | **Our focus is on delivering the first integrated CRUD-based Frontend Web Application for Rumbo. We believe it delivers a usable operational workspace for the target users while validating the frontend architecture by Bounded Context. This will be confirmed when the committed CRUD views build successfully, navigate from the Vue application and persist data through the configured Fake REST APIs.** |
 | Sprint 2 Velocity | No aplica como valor previo. Sprint 2 es la primera iteración con Velocity medible; su resultado se adopta como línea base para Sprint 3. |
 | Sum of Story Points | **34 Story Points**, correspondientes a US02 (5), US0 |
 
@@ -2759,7 +2759,7 @@ La siguiente captura corresponde al Board de Trello utilizado para el seguimient
 |---|---|---:|---|---|---:|---|---|
 | US02 | Registrar vehículo y credenciales del servicio | 5 | T20 | Definir entidad y contratos de Vehicle. | 5 | Diana Pareja | Done |
 | US02 | Registrar vehículo y credenciales del servicio | 5 | T21 | Implementar infraestructura HTTP, assembler y endpoints. | 6 | Diana Pareja | Done |
-| US02 | Registrar vehículo y credenciales del servicio | 5 | T22 | Implementar store reactivo con Angular Signals. | 5 | Diana Pareja | Done |
+| US02 | Registrar vehículo y credenciales del servicio | 5 | T22 | Implementar store reactivo con los stores de Pinia. | 5 | Diana Pareja | Done |
 | US02 | Registrar vehículo y credenciales del servicio | 5 | T23 | Implementar lista, formulario y routing de Vehicle. | 7 | Diana Pareja | Done |
 | US06 | Registrar estudiante y vincularse como tutor | 5 | T24 | Implementar dominio y endpoints de estudiantes/perfiles. | 5 | Alejandro Díaz | Done |
 | US06 | Registrar estudiante y vincularse como tutor | 5 | T25 | Implementar lista y formulario de estudiantes e integración del contexto. | 6 | Alejandro Díaz | Done |
@@ -2859,7 +2859,7 @@ La siguiente evidencia muestra la vista implementada para la gestión de suscrip
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-Sprint 2 no implementa Web Services reales con Spring Boot ni documentación Swagger/OpenAPI. La evidencia de esta sección corresponde a los **Fake REST APIs consumidos por el Frontend**, que permiten comprobar las operaciones CRUD antes de la implementación del backend.
+Sprint 2 no implementa Web Services reales con ASP.NET Core ni documentación Swagger/OpenAPI. La evidencia de esta sección corresponde a los **Fake REST APIs consumidos por el Frontend**, que permiten comprobar las operaciones CRUD antes de la implementación del backend.
 
 | Aspecto / recurso | Base URL / Endpoint | Operaciones soportadas en el cliente | Estado |
 |---|---|---|---|
@@ -2887,15 +2887,15 @@ La URL de Route & Trip Planning utilizada en este capítulo es la indicada para 
 
 **Landing Page:** se encuentra publicada en GitHub Pages y fue actualizada para TB1.
 
-**Frontend Web Application:** la versión integrada de Sprint 2 fue fusionada a `main` y desplegada públicamente mediante **GitHub Actions + GitHub Pages**.
+**Frontend Web Application:** la versión integrada de Sprint 2 fue fusionada a `main` y desplegada públicamente en **Vercel**.
 
 | Elemento | Evidencia |
 |---|---|
-| Repository | `AIpaca-OS/frontend-web-application` |
+| Repository | `AIpaca-UPC/web-applications-web-app` |
 | Branch desplegada | `main` |
-| Build | Angular production build |
-| Hosting | GitHub Pages |
-| URL pública | https://aipaca-os.github.io/frontend-web-application/ |
+| Build | Vite production build |
+| Hosting | Vercel |
+| URL pública | https://web-applications-web-app.vercel.app |
 | Estado | Deploy completado. Los recursos de Alerting & Incident Management operan contra JSON Server local, por lo que sus vistas no consumen datos en la versión pública; su migración a un recurso remoto corresponde al siguiente Sprint. |
 
 El workflow de deployment completó satisfactoriamente las etapas de **build** y **deploy**, publicando la aplicación bajo la ruta configurada para el repositorio.
@@ -2906,17 +2906,17 @@ El workflow de deployment completó satisfactoriamente las etapas de **build** y
 **Frontend publicado**
 
 <div align="center">
-  <img src="./assets/chapter5/web-application.png" alt="Frontend Web Application de Rumbo desplegada en GitHub Pages" width="95%">
+  <img src="./assets/chapter5/web-application.png" alt="Frontend Web Application de Rumbo desplegada en Vercel" width="95%">
 </div>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 La colaboración del Sprint 2 se evidencia con analíticos reales de GitHub. Se incorporan el resumen de actividad de Pulse y el Network Graph del repositorio; las evidencias adicionales de Contributors y Pull Requests se mantienen referenciadas para completar la revisión visual del Sprint:
 
-- Commits: https://github.com/AIpaca-OS/frontend-web-application/commits/develop
-- Contributors: https://github.com/AIpaca-OS/frontend-web-application/graphs/contributors
-- Network: https://github.com/AIpaca-OS/frontend-web-application/network
-- Pull Requests: https://github.com/AIpaca-OS/frontend-web-application/pulls?q=is%3Apr+is%3Aclosed
+- Commits: https://github.com/AIpaca-UPC/frontend-web-application/commits/develop
+- Contributors: https://github.com/AIpaca-UPC/frontend-web-application/graphs/contributors
+- Network: https://github.com/AIpaca-UPC/frontend-web-application/network
+- Pull Requests: https://github.com/AIpaca-UPC/frontend-web-application/pulls?q=is%3Apr+is%3Aclosed
 
 La evidencia del repositorio permite identificar contribuciones de los cinco integrantes en las ramas y commits del Sprint, además de los merges de integración mediante Pull Requests.
 
@@ -2960,7 +2960,7 @@ En esta sección se registra el objetivo establecido durante la reunión de Spri
     <tr><th>Location</th><td>Virtual, Google Meet</td></tr>
     <tr><th>Prepared By</th><td>Barrientos Quispe, Marcelo </td></tr>
     <tr><th>Attendees (to planning meeting)</th><td>Díaz Ramírez, Alejandro / Geronimo Puma, Kevin Joel / Lino Quispe, Leonardo Miguel / Meza Soza, Alexandra Yamile</td></tr>
-    <tr><th>Sprint 2 Review Summary</th><td>Durante el Sprint 2 se realizó la primera integración de los módulos CRUD del Frontend Angular con las Fake REST APIs, permitiendo gestionar los recursos de los distintos Bounded Contexts. Además, se desplegó la primera versión de la aplicación web de Rumbo.</td></tr>
+    <tr><th>Sprint 2 Review Summary</th><td>Durante el Sprint 2 se realizó la primera integración de los módulos CRUD del Frontend Vue con las Fake REST APIs, permitiendo gestionar los recursos de los distintos Bounded Contexts. Además, se desplegó la primera versión de la aplicación web de Rumbo.</td></tr>
     <tr><th>Sprint 2 Retrospective Summary</th><td>Después del desarrollo del Sprint 2 se identificó la necesidad de mejorar la organización del equipo y la planificación del desarrollo del proyecto. Debido a que algunas actividades se realizaron con poco margen de tiempo, fue necesario optimizar los recursos disponibles, lo que llevó a reducir el alcance de ciertos aspectos, como la documentación, el diseño visual de la plataforma y algunas funcionalidades. Como medida de mejora, se propuso iniciar las actividades con mayor anticipación y distribuir la carga de trabajo de manera más eficiente, asegurando que todos los aspectos planificados reciban la atención necesaria.</td></tr>
     <tr><th colspan="2">Sprint Goal &amp; User Stories</th></tr>
     <tr><th>Sprint 3 Goal</th><td><strong>Our focus is on</strong> letting school transport drivers configure routes with ordered stops, schedules and enrolled students, plan and run the daily trip, and letting parents follow their children's routes and notices through Rumbo's own web services. <strong>We believe it delivers</strong> an organized daily operation to drivers and timely, centralized information about the school trip to parents. <strong>This will be confirmed when</strong> a driver publishes a route and completes a trip in the deployed web application, and the parent of an assigned student can see that route and its notices, using data persisted by the deployed Web Services.</td></tr>
@@ -3054,28 +3054,28 @@ El Sprint Backlog 3 presenta las historias de usuario seleccionadas para el spri
     <tr><td rowspan="3">US28</td><td rowspan="3">Recibir avisos de los eventos relevantes</td><td>T80</td><td>Exponer los avisos</td><td>Exponer métodos de obtención y actualización de los avisos generales y de los avisos del recorrido del estudiante.</td><td>5</td><td>Alexandra Meza</td><td>Done</td></tr>
     <tr><td>T81</td><td>Implementar los avisos del tutor</td><td>Vista de avisos del tutor con «Marcar como leída».</td><td>4</td><td>Alexandra Meza</td><td>Done</td></tr>
     <tr><td>T82</td><td>Enviar avisos por un proveedor externo</td><td>Enviar avisos mediante un proveedor externo (TS03).</td><td>5</td><td>Alexandra Meza</td><td>To-do</td></tr>
-    <tr><td>TS09</td><td>Endpoints del RESTful API para Profiles &amp; Relationship Management</td><td>T83</td><td>Construir el contexto Profiles</td><td>Modelar en la capa de dominio los perfiles, los estudiantes, la relación entre tutor y estudiante y las afiliaciones; persistirlos en la capa de infraestructura con JPA; implementar en la capa de aplicación los servicios que registran y consultan esta información, y exponerlos finalmente en la capa de interfaces mediante controladores REST.</td><td>10</td><td>Alejandro Díaz</td><td>Done</td></tr>
-    <tr><td rowspan="5">TS10</td><td rowspan="5">Endpoints del RESTful API para Route &amp; Trip Planning</td><td>T85</td><td>Contrato REST de rutas, paradas, horarios y asignaciones</td><td>Modelar en la capa de dominio la ruta con sus paradas y su horario; persistirlos en la capa de infraestructura con JPA; implementar en la capa de aplicación los servicios que crean, modifican y consultan rutas, y exponerlos en la capa de interfaces a través de RoutesController, dejando el contrato publicado en OpenAPI.</td><td>8</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td>TS09</td><td>Endpoints del RESTful API para Profiles &amp; Relationship Management</td><td>T83</td><td>Construir el contexto Profiles</td><td>Modelar en la capa de dominio los perfiles, los estudiantes, la relación entre tutor y estudiante y las afiliaciones; persistirlos en la capa de infraestructura con Entity Framework Core; implementar en la capa de aplicación los servicios que registran y consultan esta información, y exponerlos finalmente en la capa de interfaces mediante controladores REST.</td><td>10</td><td>Alejandro Díaz</td><td>Done</td></tr>
+    <tr><td rowspan="5">TS10</td><td rowspan="5">Endpoints del RESTful API para Route &amp; Trip Planning</td><td>T85</td><td>Contrato REST de rutas, paradas, horarios y asignaciones</td><td>Modelar en la capa de dominio la ruta con sus paradas y su horario; persistirlos en la capa de infraestructura con Entity Framework Core; implementar en la capa de aplicación los servicios que crean, modifican y consultan rutas, y exponerlos en la capa de interfaces a través de RoutesController, dejando el contrato publicado en OpenAPI.</td><td>8</td><td>Leonardo Lino</td><td>Done</td></tr>
     <tr><td>T86</td><td>Configurar ruta, código automático y paradas ordenadas</td><td>Conectar el formulario de rutas al backend con código generado y paradas en el orden del recorrido.</td><td>6</td><td>Leonardo Lino</td><td>Done</td></tr>
-    <tr><td>T87</td><td>Verificar creación, persistencia y direcciones localizables</td><td>Probar la creación de la ruta, su persistencia en PostgreSQL y la validación de direcciones.</td><td>3</td><td>Leonardo Lino</td><td>Done</td></tr>
-    <tr><td>T88</td><td>Contrato REST de viajes</td><td>Modelar en la capa de dominio el viaje y sus pasajeros; persistirlos en la capa de infraestructura con JPA; implementar en la capa de aplicación la planificación y la ejecución del viaje, y exponerlas en la capa de interfaces a través de TripsController.</td><td>6</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+    <tr><td>T87</td><td>Verificar creación, persistencia y direcciones localizables</td><td>Probar la creación de la ruta, su persistencia en MySQL y la validación de direcciones.</td><td>3</td><td>Leonardo Lino</td><td>Done</td></tr>
+    <tr><td>T88</td><td>Contrato REST de viajes</td><td>Modelar en la capa de dominio el viaje y sus pasajeros; persistirlos en la capa de infraestructura con Entity Framework Core; implementar en la capa de aplicación la planificación y la ejecución del viaje, y exponerlas en la capa de interfaces a través de TripsController.</td><td>6</td><td>Marcelo Barrientos</td><td>Done</td></tr>
     <tr><td>T89</td><td>Integrar Route &amp; Trip en la aplicación web</td><td>Fachada RouteTripApi, store y vistas conectadas a la API.</td><td>6</td><td>Marcelo Barrientos</td><td>Done</td></tr>
-    <tr><td rowspan="2">TS11</td><td rowspan="2">Endpoints del RESTful API para Vehicle &amp; Credential Management</td><td>T90</td><td>Construir el contexto Vehicles</td><td>Modelar el vehículo en la capa de dominio; persistirlo en la capa de infraestructura con JPA; implementar en la capa de aplicación los servicios que lo registran, consultan, actualizan y eliminan, y exponerlos en la capa de interfaces a través de VehiclesController.</td><td>6</td><td>Marcelo Barrientos</td><td>Done</td></tr>
+    <tr><td rowspan="2">TS11</td><td rowspan="2">Endpoints del RESTful API para Vehicle &amp; Credential Management</td><td>T90</td><td>Construir el contexto Vehicles</td><td>Modelar el vehículo en la capa de dominio; persistirlo en la capa de infraestructura con Entity Framework Core; implementar en la capa de aplicación los servicios que lo registran, consultan, actualizan y eliminan, y exponerlos en la capa de interfaces a través de VehiclesController.</td><td>6</td><td>Marcelo Barrientos</td><td>Done</td></tr>
     <tr><td>T91</td><td>Integrar Vehicles en la aplicación web</td><td>Conectar el registro, consulta, actualización y borrado de vehículos a la API desplegada.</td><td>3</td><td>Marcelo Barrientos</td><td>Done</td></tr>
     <tr><td rowspan="6">TS12</td><td rowspan="6">Endpoints del RESTful API para Subscriptions &amp; Billing</td><td>T92</td><td>Definir contrato REST de planes y suscripciones</td><td>Definir recursos, operaciones y respuestas de Plans y Subscriptions.</td><td>2</td><td>Kevin Geronimo</td><td>Done</td></tr>
-    <tr><td>T93</td><td>Implementar catálogo de planes y persistencia</td><td>Modelar el plan en la capa de dominio; persistir el catálogo en la capa de infraestructura con JPA; implementar en la capa de aplicación la consulta y la creación de planes, y exponerlas en la capa de interfaces a través de PlansController.</td><td>5</td><td>Kevin Geronimo</td><td>Done</td></tr>
-    <tr><td>T94</td><td>Implementar activación y periodo de vigencia</td><td>Modelar en la capa de dominio la suscripción del conductor y sus estados; persistirla en la capa de infraestructura con JPA; implementar en la capa de aplicación la activación con su periodo de vigencia, y exponer el método de subida de la suscripción en la capa de interfaces a través de SubscriptionsController.</td><td>6</td><td>Kevin Geronimo</td><td>Done</td></tr>
+    <tr><td>T93</td><td>Implementar catálogo de planes y persistencia</td><td>Modelar el plan en la capa de dominio; persistir el catálogo en la capa de infraestructura con Entity Framework Core; implementar en la capa de aplicación la consulta y la creación de planes, y exponerlas en la capa de interfaces a través de PlansController.</td><td>5</td><td>Kevin Geronimo</td><td>Done</td></tr>
+    <tr><td>T94</td><td>Implementar activación y periodo de vigencia</td><td>Modelar en la capa de dominio la suscripción del conductor y sus estados; persistirla en la capa de infraestructura con Entity Framework Core; implementar en la capa de aplicación la activación con su periodo de vigencia, y exponer el método de subida de la suscripción en la capa de interfaces a través de SubscriptionsController.</td><td>6</td><td>Kevin Geronimo</td><td>Done</td></tr>
     <tr><td>T95</td><td>Consultar suscripción y capacidades del conductor</td><td>Exponer un método de obtención de la suscripción del conductor con su estado, vigencia y límite de vehículos del plan.</td><td>3</td><td>Kevin Geronimo</td><td>Done</td></tr>
     <tr><td>T97</td><td>Documentar OpenAPI y probar escenarios</td><td>Documentar los servicios de Billing en Swagger y permitir su consumo desde la aplicación web.</td><td>3</td><td>Kevin Geronimo</td><td>Done</td></tr>
     <tr><td>T98</td><td>Publicar y registrar evidencias para AV2</td><td>Desplegar Billing en Render y registrar las evidencias en el informe.</td><td>2</td><td>Kevin Geronimo</td><td>Done</td></tr>
-    <tr><td rowspan="3">TS13</td><td rowspan="3">Endpoints del RESTful API para Alerting &amp; Incident Management</td><td>T99</td><td>Construir los contextos Incidents &amp; Delays</td><td>Modelar en la capa de dominio las incidencias y los retrasos; persistirlos en la capa de infraestructura con JPA; implementar en la capa de aplicación los servicios que los registran, actualizan y consultan, y exponerlos en la capa de interfaces a través de IncidentsController y DelaysController.</td><td>8</td><td>Alexandra Meza</td><td>Done</td></tr>
-    <tr><td>T100</td><td>Construir el contexto Notifications</td><td>Modelar el aviso en la capa de dominio; persistirlo en la capa de infraestructura con JPA; implementar en la capa de aplicación los avisos generales y los del recorrido del estudiante, y exponerlos en la capa de interfaces a través de NotificationsController.</td><td>6</td><td>Alexandra Meza</td><td>Done</td></tr>
+    <tr><td rowspan="3">TS13</td><td rowspan="3">Endpoints del RESTful API para Alerting &amp; Incident Management</td><td>T99</td><td>Construir los contextos Incidents &amp; Delays</td><td>Modelar en la capa de dominio las incidencias y los retrasos; persistirlos en la capa de infraestructura con Entity Framework Core; implementar en la capa de aplicación los servicios que los registran, actualizan y consultan, y exponerlos en la capa de interfaces a través de IncidentsController y DelaysController.</td><td>8</td><td>Alexandra Meza</td><td>Done</td></tr>
+    <tr><td>T100</td><td>Construir el contexto Notifications</td><td>Modelar el aviso en la capa de dominio; persistirlo en la capa de infraestructura con Entity Framework Core; implementar en la capa de aplicación los avisos generales y los del recorrido del estudiante, y exponerlos en la capa de interfaces a través de NotificationsController.</td><td>6</td><td>Alexandra Meza</td><td>Done</td></tr>
     <tr><td>T101</td><td>Integrar incidencias y avisos en la aplicación web</td><td>Diálogos de incidencias y retrasos y AlertingStore.</td><td>4</td><td>Alexandra Meza</td><td>Done</td></tr>
     <tr><td>TS06</td><td>Documentación del RESTful API con OpenAPI</td><td>T102</td><td>Documentar los servicios con OpenAPI</td><td>Anotaciones OpenAPI, ejemplos y Swagger UI desplegado.</td><td>3</td><td>Alejandro Díaz</td><td>Done</td></tr>
     <tr><td>TS07</td><td>Internacionalización del RESTful API</td><td>T103</td><td>Localizar los mensajes de la API</td><td>Mensajes de validación en inglés y español según el idioma de cada solicitud.</td><td>3</td><td>Alejandro Díaz</td><td>Done</td></tr>
-    <tr><td rowspan="5">N/A</td><td rowspan="5">Tareas generales del Sprint</td><td>T105</td><td>Desplegar los Web Services en Render</td><td>Dockerfile, perfil prod y PostgreSQL en Render.</td><td>4</td><td>Alejandro Díaz</td><td>Done</td></tr>
+    <tr><td rowspan="5">N/A</td><td rowspan="5">Tareas generales del Sprint</td><td>T105</td><td>Desplegar los Web Services en Render</td><td>Dockerfile, configuración de producción y MySQL en Amazon RDS.</td><td>4</td><td>Alejandro Díaz</td><td>Done</td></tr>
     <tr><td>T106</td><td>Configurar el blueprint de Render</td><td>Infraestructura de despliegue y vista previa en Render.</td><td>2</td><td>Leonardo Lino</td><td>Done</td></tr>
-    <tr><td>T107</td><td>Desplegar la aplicación web</td><td>Workflow de GitHub Actions hacia GitHub Pages.</td><td>2</td><td>Alejandro Díaz</td><td>Done</td></tr>
+    <tr><td>T107</td><td>Desplegar la aplicación web</td><td>Despliegue continuo en Vercel desde la rama publicada.</td><td>2</td><td>Alejandro Díaz</td><td>Done</td></tr>
     <tr><td>T108</td><td>Publicar la Landing Page</td><td>Publicación de la nueva versión en GitHub Pages.</td><td>1</td><td>Kevin Geronimo</td><td>Done</td></tr>
     <tr><td>T109</td><td>Documentar el Sprint 3 en el informe</td><td>Secciones 5.2.3, 5.3, 5.4 y About-the-Team del informe.</td><td>6</td><td>Leonardo Lino</td><td>Done</td></tr>
   </tbody>
@@ -4084,7 +4084,7 @@ Finalmente, se verificó la disponibilidad de los endpoints mediante la document
 
 ### Servicios Desplegados
 
-A continuación, se presentan las evidencias de los servicios desplegados en las plataformas correspondientes, incluyendo la instancia de base de datos PostgreSQL alojada en AWS y la aplicación backend publicada en Render. Asimismo, se muestra la documentación de los Web Services mediante Swagger/Scalar, desde donde es posible visualizar los endpoints disponibles y consultar sus operaciones.
+A continuación, se presentan las evidencias de los servicios desplegados en las plataformas correspondientes, incluyendo la instancia de base de datos MySQL alojada en AWS y la aplicación backend publicada en Render. Asimismo, se muestra la documentación de los Web Services mediante Swagger/Scalar, desde donde es posible visualizar los endpoints disponibles y consultar sus operaciones.
 
 <div align="center">
   <img src="./assets/chapter5/deployed-services.png" alt="Servicios desplegados de Rumbo" width="95%">
@@ -4103,7 +4103,7 @@ A continuación, se presenta un resumen de estas métricas junto con las captura
 
 **Frontend Web Application**
 
-El repositorio Frontend Web Application contiene la implementación de la plataforma utilizando Angular. Las siguientes capturas muestran el resumen de actividad, los colaboradores y la red de ramas del repositorio.
+El repositorio Frontend Web Application contiene la implementación de la plataforma utilizando Vue. Las siguientes capturas muestran el resumen de actividad, los colaboradores y la red de ramas del repositorio.
 
 **Resumen de actividad (Pulse)**
 
@@ -4120,7 +4120,7 @@ El repositorio Frontend Web Application contiene la implementación de la plataf
 
 **Web Services**
 
-El repositorio Web Services contiene la implementación del backend utilizando Spring Boot. Las siguientes evidencias presentan la actividad de desarrollo, la distribución de contribuciones entre los integrantes y la estructura de ramas del repositorio.
+El repositorio Web Services contiene la implementación del backend utilizando ASP.NET Core. Las siguientes evidencias presentan la actividad de desarrollo, la distribución de contribuciones entre los integrantes y la estructura de ramas del repositorio.
 
 **Resumen de actividad (Pulse)**
 
@@ -4552,7 +4552,7 @@ Diferenciar expresamente «Estado del vehículo: Activo» de «Documentación: P
 
 El video About-the-Product presenta la propuesta de Rumbo a los visitantes y usuarios de la plataforma. Su narrativa parte de la necesidad de comunicación durante el traslado escolar, explica los beneficios para padres y conductores y muestra escenas de interacción con las principales funciones del producto. El mensaje, la identidad visual y el tono se mantienen alineados con el Landing Page.
 
-**URL del video About-the-Team publicado en YouTube:** https://www.youtube.com/watch?v=n8zE7hQ2HUI
+**URL del video About-the-Product publicado en YouTube:** https://www.youtube.com/watch?v=n8zE7hQ2HUI
 
 ![alt text](image-33.png)
 </div>
@@ -4570,7 +4570,7 @@ El video About-the-Product presenta la propuesta de Rumbo a los visitantes y usu
 4. Las seis entrevistas registradas permitieron contrastar el problema de visibilidad, coordinación y comunicación con tres padres/tutores y tres conductores.
 5. Sprint 1 entregó la Landing Page pública de Rumbo, desplegada mediante GitHub Pages y ampliada durante TB1 con una sección de producto integrada mediante Pull Request.
 6. Sprint 2 entregó la primera versión integrada de la Frontend Web Application, organizada por Bounded Contexts y desplegada públicamente, lo que permitió validar la arquitectura frontend antes de incorporar los Web Services reales.
-7. El uso de Fake REST APIs permitió comprobar las operaciones CRUD de cada contexto de forma independiente del backend, cuyo desarrollo con Spring Boot queda delimitado para el siguiente Sprint.
+7. El uso de Fake REST APIs permitió comprobar las operaciones CRUD de cada contexto de forma independiente del backend, cuyo desarrollo con ASP.NET Core queda delimitado para el siguiente Sprint.
 
 ---
 
